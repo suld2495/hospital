@@ -1,0 +1,139 @@
+header .header-banner-slider-continer .bx-wrapper {
+    border: none;
+    margin: 0;
+    box-shadow: none;
+}
+
+.header-panel .header-banner-slider-continer {
+    padding-top: 29px;
+}
+
+.header-banner-close {
+    width: 58px;
+    height: 18px;
+    color: #fff;
+    background: #333;
+    padding-left: 8px;
+    line-height: 16px;
+    box-sizing: border-box;
+}
+
+.header-banner-small-slider {
+    font-size: 14px;
+}
+
+.header-banner-small-slider img,
+.header-banner-small-slider .slider-text {
+    float: left;
+}
+
+.small-slider-img {
+    margin-right: 14px;
+}
+
+.header-banner-small-slider .slider-text p:first-child {
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
+
+.header-panel {
+    width: 100%;
+    margin-top: 24px;
+    padding: 0 43px;
+    box-sizing: border-box;
+}
+
+.header-panel > div {
+    width: 33.333333333333333333%;
+    float: left;
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.header-member {
+    text-align: right;
+}
+
+.header-member > div {
+    margin-right: 4px;
+}
+
+.header-member > div > div {
+    float: left;
+    text-align: center;
+}
+
+.header-member p {
+    margin-top: 12px;
+}
+
+.header-member a {
+    color: #777;
+}
+
+.login-nav {
+    margin-right: 20px;
+}
+
+.login-nav img {
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    margin-top: -43px;
+    padding-left: 5px;
+    padding-top: 3px;
+    box-sizing: border-box;
+}
+
+.bx-wrapper .bx-controls-direction a.bx-prev {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d1d1d1;
+    left: 85px;
+}
+
+.bx-wrapper .bx-controls-direction a.bx-next {
+    width: 17px;
+    height: 18px;
+    border: 1px solid #d1d1d1;
+    border-left: none;
+    left: 103px;
+}
+
+header .cmmn-nav nav li {
+    width: 20%;
+    float: left;
+    font-size: 15px;
+    cursor: pointer;
+    border-right: 1px solid #bbb;
+    text-align: center;
+    box-sizing: border-box;
+    height: 18px;
+    line-height: 18px;
+}
+
+header .cmmn-nav nav li a {
+    text-decoration: none;
+    color: #222;
+    width: 100%;
+    height: 18px;
+    display: inline-block;
+}
+
+header .cmmn-nav nav li:first-child {
+    border-left: 1px solid #bbb;
+}
+
+header .cmmn-nav nav li a:hover,
+header .cmmn-nav nav li a.active {
+    color: #7e6956;
+}
+
+header .cmmn-nav nav {
+    margin-top: 42px;
+    margin-bottom: 30px;
+}

@@ -7,6 +7,7 @@
     <definition name=".client" template="/WEB-INF/views/layouts/client/clientLayout.jsp">
         <put-attribute name="header" value="/WEB-INF/views/layouts/client/clientHeader.jsp" />
         <put-attribute name="footer" value="/WEB-INF/views/layouts/client/clientFooter.jsp" />
+        <put-attribute name="nav" value=""/>
     </definition>
 
     <definition name="/main/*" extends=".client">
@@ -14,6 +15,7 @@
     </definition>
 
     <definition name="/sub/*/*" extends=".client">
+        <put-attribute name="nav" value="/WEB-INF/views/layouts/client/clientSubNav.jsp"/>
         <put-attribute name="contents" value="/WEB-INF/views/{1}/{2}.jsp" />
     </definition>
 </tiles-definitions>
