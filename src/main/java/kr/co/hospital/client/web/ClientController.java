@@ -13,7 +13,7 @@ public class ClientController {
     }
 
     @RequestMapping("/")
-    public String index() {
-        return "index.client";
+    public String main() {
+        return "/main/main";
     }
 }

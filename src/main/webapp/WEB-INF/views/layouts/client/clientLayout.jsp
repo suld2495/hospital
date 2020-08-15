@@ -5,7 +5,18 @@
     <title>Title</title>
 </head>
 <body>
-    <tiles:insertAttribute name="header" />
-    <tiles:insertAttribute name="contents" />
+    <header>
+        <nav>
+            <tiles:insertAttribute name="header" />
+        </nav>
+    </header>
+
+    <section>
+            <tiles:insertAttribute name="contents" />
+    </section>
+
+    <footer>
+        <tiles:insertAttribute name="footer" />
+    </footer>
 </body>
 </html>
