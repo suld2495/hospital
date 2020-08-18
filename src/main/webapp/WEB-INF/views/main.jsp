@@ -1,2 +1,336 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-메인 페이지
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<link rel="stylesheet" href="<c:url value="/css/main.css"/>" />
+
+<div>
+    <div class="section01">
+        <img class="full-layout-width" src="<c:url value='/images/main/img_main01.jpg' />" alt="미소원치과는 자신있습니다!">
+    </div>
+    <div class="section02 position-relative max-layout-width">
+        <h2>디지털치과의 현재 <span>미소원치과</span></h2>
+        <p>3D CT, CEREC SYSTEM, 최상의 장비를 바탕으로 개인의 상태에 꼭 맞는 맞춤진료를 합니다 </p>
+        <div class="display-inline-block">
+            <div class="contents-text-box float-left">
+                <div class="contents-text contents-text1 active">
+                    <h3>디지털 임플란트</h3>
+                    <p>모의 식립계획으로 정교하고 정확하게</p>
+                    <p class="last-contents-text">자연치아인듯 편안하고 안전한 임플란트</p>
+                    <span class="details-link display-inline-block"><a class="text-decoration-none" href="<c:url value='' /> ">자세히보기</a></span>
+                </div>
+                <div class="contents-text contents-text2">
+                    <h3>디지털 치아교정</h3>
+                    <p>3D CT를 활용한 정확한 진단으로</p>
+                    <p>수술없이 아름다운 라인을</p>
+                    <p class="last-contents-text">만들어주는 교정</p>
+                    <span class="details-link display-inline-block"><a class="text-decoration-none" href="<c:url value='' /> ">자세히보기</a></span>
+                </div>
+                <div class="contents-text contents-text3">
+                    <h3>자연치아 클리닉</h3>
+                    <p>CEREC SYSTEM을 활용한</p>
+                    <p class="last-contents-text">빠르고 정확한 치료</p>
+                    <span class="details-link display-inline-block"><a class="text-decoration-none" href="<c:url value='' /> ">자세히보기</a></span>
+                </div>
+                <div class="background-text position-absolute">
+                    <p>MISOWON</p>
+                    <p>DENTAL CLINIC</p>
+                </div>
+            </div>
+            <div class="img-box float-left">
+                <ul class="display-inline-block">
+                    <li class="float-left pointer module">
+                        <div class="module">
+                            <img src="<c:url value='/images/main/point_img01.jpg'/>" alt="디지털 임플란트">
+                        </div>
+                    </li>
+                    <li class="float-left pointer module">
+                        <div class="module">
+                            <img src="<c:url value='/images/main/point_img02.jpg'/>" alt="디지털 치아교정">
+                        </div>
+                    </li>
+                    <li class="float-left pointer module">
+                        <div class="module">
+                            <img src="<c:url value='/images/main/point_img03.jpg'/>" alt="자연치아 클리닉">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section03 position-relative">
+        <div class="main-bg"></div>
+        <div class="max-layout-width">
+            <div class="text">
+                <h4>압선 디지털 장비와 기술에</h4>
+                <h4><span>마음을 담은 양심적인 진료</span>를</h4>
+                <h4>약속합니다</h4>
+                <p>진보된 디지털 기술에 따뜻한 마음을 담아 최상의 치료를 경험할 수 있는</p>
+                <p>진료환경을 제공합니다.</p>
+                <ul class="display-inline-block">
+                    <li>
+                        <span class="img01"></span>
+                        <span class="text">철저한 멸균</span>
+                    </li>
+                    <li>
+                        <span class="img02"></span>
+                        <span class="text">전문성</span>
+                    </li>
+                    <li>
+                        <span class="img03"></span>
+                        <span class="text">디지털 치과</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg"></div>
+        </div>
+    </div>
+    <div class="section04">
+        <div class="text max-layout-width position-relative">
+            <h4>늘 후회없는 선택을 하는 당신</h4>
+            <h4><span>미소원치과는 완벽한 선택</span>입니다</h4>
+            <p>다녀가신 환자분들의 후기로 현재의 미소원치과를 만나보세요</p>
+            <span class="details-link pointer">자세히보기</span>
+        </div>
+        <div class="review">
+            <c:forEach begin="0" end="4" varStatus="status">
+                <div>
+                    <img src="<c:url value='/images/main/review0${status.count % 4 + 1}.jpg' />">
+                    <div class="position-relative">
+                        <span>${status.count}</span>
+                        <div class="review-text">
+                            <h4>임플란트</h4>
+                            <p>의사선생님께</p>
+                        </div>
+                    </div>
+                </div>
+            </c:forEach>
+        </div>
+    </div>
+    <div class="section05">
+        <div>
+
+        </div>
+    </div>
+    <div class="section06">
+        <div>
+            <h4>소중한 당신의 치아 <span>믿고 맡길 수 있도록</span></h4>
+            <div class="main-slider">
+                <div>
+                    <img src="<c:url value='/images/main/case01.jpg' />">
+                    <h5>임플란트</h5>
+                    <p>임플란트 치료 전/후 사진입니다.</p>
+                </div>
+                <div>
+                    <img src="<c:url value='/images/main/case02.jpg' />">
+                    <h5>디지털 치아교정</h5>
+                    <p>디지털 치아고정 치료 전/후 사진입니다.</p>
+                </div>
+                <div>
+                    <img src="<c:url value='/images/main/case03.jpg' />">
+                    <h5>임플란트</h5>
+                    <p>자연치아 클리닉 치료 전/후 사진입니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section07">
+        <div class="max-layout-width">
+            <h4>편안하고 정확한 <span>디지털 치과에서의 경험</span></h4>
+            <h4>이제, 당신 차례입니다</h4>
+        </div>
+        <div class="display-inline-block full-layout-width">
+            <div class="slider-pagenation float-left">
+                <div class="bx-pager-item">
+                    <a href="" data-slide-index="0" class="bx-pager-link text-decoration-none">
+                        <span>01</span>
+                        <span>개개인에 맞춘 치료계획수립</span>
+                    </a>
+                </div>
+                <div class="bx-pager-item">
+                    <a href="" data-slide-index="1" class="bx-pager-link text-decoration-none">
+                        <span>02</span>
+                        <span>더 확실한 진단 더 편안한 진단</span>
+                    </a>
+                </div>
+                <div class="bx-pager-item">
+                    <a href="" data-slide-index="2" class="bx-pager-link text-decoration-none">
+                        <span>03</span>
+                        <span>건물내 상주 협력 기공소</span>
+                    </a>
+                </div>
+            </div>
+            <div class="slider float-left">
+                <div>
+                    <div class="module slide-box">
+                        <div class="module">
+                            <img src="<c:url value='/images/main/characteristics01.jpg' /> " class="pointer">
+                        </div>
+                    </div>
+                    <h5>개개인에 맞춘 치료계획수립</h5>
+                    <p>과학적 진단을 통해, 개별 맞춤형 치료계획을 수립하여 정확하게 치료합니다.</p>
+                </div>
+                <div>
+                    <div class="module slide-box">
+                        <div class="module">
+                            <img src="<c:url value='/images/main/characteristics02.jpg' /> " class="pointer">
+                        </div>
+                    </div>
+                    <h5>더 확실한 진단, 더 편안한 진단</h5>
+                    <p>3D 광학스캐너를 통해 본뜨는 과정은 더 정교하고 더 편안합니다.</p>
+                </div>
+                <div>
+                    <div class="module slide-box">
+                        <div class="module">
+                            <img src="<c:url value='/images/main/characteristics03.jpg' /> " class="pointer">
+                        </div>
+                    </div>
+                    <h5>건물 내 상주 협력기공소</h5>
+                    <p>첨단장비와 남다른 기술력으로 시간과 비용절감에 효과적입니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section08 max-layout-width">
+        <div class="display-inline-block">
+            <div class="consultant">
+                <h4>
+                    온라인 상담
+                    <span><a href="<c:url value='' /> ">VIEW MORE</a></span>
+                </h4>
+                <ul>
+                    <li>
+                        <div>
+                            <p class="board-contents">임플란트 상담문의합니다.</p>
+                            <span class="writer">김민재</span>
+                            <span class="reply">답변완료</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p class="board-contents">부분교정 문의합니다.</p>
+                            <span class="writer">서이수</span>
+                            <span class="reply">답변완료</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p class="board-contents">치아미백 주의사항 문의합니다.</p>
+                            <span class="writer">김지민</span>
+                            <span class="reply">답변완료</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p class="board-contents">부정교합 교정 문의합니다.</p>
+                            <span class="writer">오병관</span>
+                            <span class="reply">답변완료</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="media">
+                <h4>
+                    미디어
+                    <span><a href="<c:url value='' /> ">VIEW MORE</a></span>
+                </h4>
+                <ul>
+                    <li>
+                        <div class="media-thumnail" style="background:url(<c:url value='/images/main/media01.jpg' />)"></div>
+                        <div class="media-contents">
+                            <h5 class="media-title">
+                                코로나19 감염예방
+                            </h5>
+                            <p>코로나19의 감염예방을 위해 1층에서 내원객의 체온측정과</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media-thumnail" style="background:url(<c:url value='/images/main/media02.jpg' />)"></div>
+                        <div class="media-contents">
+                            <h5 class="media-title">
+                                코로나19 감염예방
+                            </h5>
+                            <p>코로나19의 감염예방을 위해 1층에서 내원객의 체온측정과</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section09">
+        <div class="max-layout-width">
+            <h4>미소원치과 둘러보기</h4>
+            <p>따듯한 공간에서 편안하게 진료받으세요.</p>
+            <div class="tour-slide">
+                <c:forEach begin="1" end="10" varStatus="status">
+                    <div class="slide-item">
+                        <img src="<c:url value='/images/main/interior${status.count}.jpg' /> ">
+                        <div class="slide-text">
+                            <a class="text-decoration-none" href="<c:url value='' />">
+                                <p>미소원치과 실내사진</p>
+                                <p>자세히 보러가기</p>
+                            </a>
+                        </div>
+                    </div>
+                </c:forEach>
+            </div>
+            <div class="count">
+                <div class="count-box">
+                    <span class="current-count">01</span>
+                    <span class="max-count">10</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function() {
+        $('.img-box li').mouseenter(function() {
+            var index = $(this).index();
+            $('.contents-text').removeClass('active');
+            $('.contents-text' + (index + 1)).addClass('active');
+        });
+
+        $('.review').bxSlider({
+            pager: false,
+            minSlides: 4,
+            maxSlides: 4,
+            moveSlides: 1,
+            slideWidth: 402,
+            shrinkItems: true,
+            slideMargin: 58,
+            controls: false
+        });
+
+        $('.main-slider').bxSlider({
+            pager: false,
+            minSlides: 3,
+            maxSlides: 3,
+            moveSlides: 1,
+            slideWidth: 530,
+            shrinkItems: true,
+            slideMargin: 36,
+            nextText: '<img src="<c:url value="/images/main/arrow_right02.png"/>">',
+            prevText: '<img src="<c:url value="/images/main/arrow_left02.png"/>">',
+        });
+
+        $('.slider').bxSlider({
+            minSlides: 2,
+            maxSlides: 2,
+            moveSlides: 1,
+            slideWidth: 718,
+            shrinkItems: true,
+            slideMargin: 40,
+            pagerCustom: $('.slider-pagenation'),
+            controls: false
+        });
+
+        $('.tour-slide').bxSlider({
+            controls: false,
+            pager: false,
+            onSlideAfter: function($slideElement, oldIndex, newIndex) {
+                $('.current-count').text(numberPad(newIndex + 1, 2));
+            }
+        })
+    });
+</script>
