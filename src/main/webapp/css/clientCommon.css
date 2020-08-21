@@ -1,7 +1,78 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    position: relative;
+}
+
+/* ---- 디자인 공통 ---- */
+
+/* 서브 타이틀 */
+.sub-page-title {
+    font-size: 43px;
+    font-weight: bold;
+    margin-bottom: 33px;
+    margin-top: 102px;
+    text-align: center;
+}
+
+.sub-page-intro {
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.default-background {
+    background: #7e6956;
+}
+
+
+
+/* 좌우로 붙는 이미지 */
+.image_box_left {
+    position: absolute;
+    left: 0;
+}
+
+.image_box_right {
+    position: absolute;
+    right: 0;
+}
+
+.image_box_left .img,
+.image_box_right .img {
+    width: 100%;
+    height: 100%;
+    transition: all 1.5s cubic-bezier(.42,.48,.06,1.01);
+}
+
+.section-title {
+    font-size: 38px;
+    margin-bottom: 19px;
+    color: #212121;
+}
+
+.section-title-color {
+    color: #9b8b7e;
+}
+
+.section-text {
+    font-size: 16px;
+    color: #222;
+    line-height: 27px;
+}
+
+
 .max-layout-width {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
+}
+
+.full-layout-width {
+    width: 100%;
 }
 
 .bold {
@@ -12,6 +83,10 @@
     display: inline-block;
 }
 
+.display-none {
+    display: none;
+}
+
 .pointer {
     cursor: pointer;
 }
@@ -20,9 +95,14 @@
     text-decoration: none;
 }
 
+/* float */
+.float-left {
+    float: left;
+}
 
-
-
+.float-right {
+    float: right;
+}
 
 /* font-size */
 .font-12 {
@@ -61,4 +141,53 @@
 /* text-align */
 .text-align-center {
     text-align: center;
+}
+
+/* position */
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+/* before, after */
+.module:before, .module:after {
+    content: '';
+    position: absolute;
+    z-index: 4;
+}
+
+.module {
+    position: relative;
+}
+
+body .bx-wrapper {
+    box-shadow: none;
+    border: none;
+    background: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.move-title {
+    font-size: 67px;
+    line-height: 80px;
+    color: #eee;
+    font-weight: 600;
+    margin-bottom: 108px;
+    bottom: 0;
+}
+
+.detail:after {
+    background: url(../images/sub/info/intro/icon_go.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -36px;
+    bottom: -2px;
+    content: '';
 }

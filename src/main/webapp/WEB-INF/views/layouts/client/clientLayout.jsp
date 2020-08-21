@@ -9,21 +9,27 @@
     <link rel="stylesheet" href="<c:url value='/lib/bxSlider/bxSlider.css' />">
     <link rel="stylesheet" href="<c:url value='/css/clientHeader.css' />">
     <link rel="stylesheet" href="<c:url value='/css/clientFooter.css' />">
+    <link rel="stylesheet" href="<c:url value='/css/clientSubNav.css' />">
+    <script src="<c:url value='/js/lib/IE9.js' />"></script>
+    <script src="<c:url value='/js/lib/jquery.1.12.4.js' />"></script>
 </head>
-<body>
+<body class="skrollr-body">
     <header>
         <tiles:insertAttribute name="header" />
+        <tiles:insertAttribute name="nav" />
     </header>
 
     <section>
+        <div id="contents">
             <tiles:insertAttribute name="contents" />
+        </div>
     </section>
 
     <footer>
         <tiles:insertAttribute name="footer" />
     </footer>
 
-    <script src="<c:url value='/js/lib/jquery.1.12.4.js' />"></script>
+    <script src="<c:url value='/js/utils/StringUtils.js' /> "></script>
     <script src="<c:url value='/lib/bxSlider/bxSlider.js' />"></script>
     <script src="<c:url value='/js/clientLayout.js' />"></script>
 </body>
