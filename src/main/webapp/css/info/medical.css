@@ -1,0 +1,270 @@
+.section01 {
+    margin-top: 99px;
+}
+
+.section01 h5 {
+    font-size: 24px;
+    font-width: bold;
+    margin-bottom: 35px;
+}
+
+.section01 .section-title {
+    line-height: 1.4;
+}
+
+.section01 p {
+    font-size: 16px;
+    color: #4f4f4f;
+    margin-bottom: 35px;
+    line-height: 1.7;
+}
+
+.section01 p strong {
+    font-weight: bold;
+}
+
+.section01 .float-left:first-child {
+    margin-right: 80px
+}
+
+.section01 .text {
+    max-width: 740px;
+}
+
+.section02 {
+    margin-top: 78px;
+    background: #f5f5f5;
+    padding-bottom: 56px;
+}
+
+.section02 .max-layout-width {
+    position: relative;
+    padding-top: 72px;
+}
+
+.section02 .img {
+    background: url(../../images/sub/info/medical/Assurance01.jpg);
+    width: 100%;
+    max-width: 449px;
+    height: 629px;
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+
+.section02 ul li {
+    float: left;
+    margin-left: 8px;
+}
+
+.section02 ul li h2 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section02 ul li p {
+    font-size: 14px;
+    padding-left: 13px;
+    margin-bottom: 14px;
+}
+
+.section02 .text-color {
+    color: #988a7d;
+}
+
+.section02 ul {
+    display: inline-block;
+}
+
+.section03 {
+    padding-top: 223px;
+    padding-bottom: 289px;
+    z-index: 4;
+
+}
+
+.section03 .text {
+    padding-top: 14px;
+    padding-left: 50%;
+}
+
+.section03 .section-title {
+    padding-left: 103px;
+    line-height: 1.4;
+}
+
+.section03 .section-text {
+    padding-left: 103px;
+    line-height: 1.8;
+    width: 552px;
+    word-break: keep-all;
+    position: relative;
+}
+
+.section03 .section-text strong {
+    font-weight: bold;
+}
+
+.section03 .section-text:after {
+    content: '';
+    width: 3px;
+    height: 112px;
+    position: absolute;
+    left: 74px;
+    bottom: -167px;
+    background: #7e6956;
+}
+
+.section03 .image_box_left {
+    width: 50%;
+    height: 563px;
+}
+
+.section03 .img {
+    background: url(../../images/sub/info/medical/Assurance05.jpg)
+}
+
+.section04 .max-layout-width {
+    padding-top: 108px;
+    margin-top: -174px;
+    background: #f5f5f5;
+    z-index: 2;
+    position: relative;
+}
+
+.section04 .bg {
+    background: #f5f5f5;
+    width: 1000px;
+    position: absolute;
+    height: 497px;
+    right: 0;
+    top: 0;
+}
+
+.section04 .max-layout-width > div {
+    padding-left: 50%;
+}
+
+.section04 .max-layout-width h2 {
+    padding-left: 75px;
+    font-size: 40px;
+}
+
+.section04 .max-layout-width ul {
+    margin-top: 64px;
+    display: inline-block;
+    width: 100%;
+    padding-left: 75px;
+    padding-bottom: 88px;
+}
+
+.section04 .max-layout-width li {
+    float: left;
+    width: 50%;
+    padding-left: 113px;
+    box-sizing: border-box;
+    line-height: 1.7;
+    font-size: 17px;
+    color: #222;
+    padding-right: 10px;
+    word-break: keep-all;
+}
+
+.icon1, .icon2 {
+    padding-bottom: 55px;
+}
+
+.icon1 {
+    background: url(../../images/sub/info/medical/Assurance_icon01.png) no-repeat top left;
+    background-position-x: 12px;
+}
+
+.icon2 {
+    background: url(../../images/sub/info/medical/Assurance_icon02.png) no-repeat top left;
+}
+
+.icon3 {
+    background: url(../../images/sub/info/medical/Assurance_icon03.png) no-repeat top left;
+}
+.icon4 {
+    background: url(../../images/sub/info/medical/Assurance_icon04.png) no-repeat top left;
+    background-position-x: 2px;
+}
+
+.icon3, .icon4 {
+    padding: 15px 0;
+}
+
+.section05 {
+    margin-top: 171px;
+    padding-bottom: 244px;
+}
+
+.section05 .title {
+    padding-left: 72px;
+    position: relative;
+    font-size: 13px;
+    color: #222;
+    margin-bottom: 75px;
+    display: inline-block;
+    letter-spacing: 1.4px;
+}
+
+.section05 .title:before {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #7e6956;
+    left: 0;
+    top: 7px;
+}
+
+.section05 .section-title {
+    line-height: 1.3;
+}
+
+.section05 .section-text {
+    line-height: 1.9;
+    margin-top: 20px;
+    position: relative;
+    width: 340px;
+}
+
+.section05 .section-text:after {
+    position: absolute;
+    content: '';
+    width: 211px;
+    height: 3px;
+    background: #7e6956;
+    left: 0;
+    bottom: -156px;
+}
+
+.section05 .image_box_right {
+    max-width: 1455px;
+    width: 57.0141%;
+    height: 496px;
+    top: 0;
+}
+
+.section05 .img {
+    background: url(../../images/sub/info/medical/Assurance06.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    top: 42px;
+}
+
+.section05 .bg {
+    background: #7e6956;
+    position: absolute;
+    left: -32px;
+    top: 0;
+    width: 87.353%;
+    height: 496px;
+}
