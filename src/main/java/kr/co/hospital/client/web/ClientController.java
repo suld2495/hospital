@@ -69,35 +69,35 @@ public class ClientController {
 
     @RequestMapping("/digital_implants")
     public String digitalImplants(Model model) {
-        model.addAttribute("category", 0);
+        model.addAttribute("category", 1);
         model.addAttribute("urlName", "디지털 임플란트");
         return "/sub/implants/digitalImplants";
     }
 
     @RequestMapping("/navigation_implants")
     public String navigationImplants(Model model) {
-        model.addAttribute("category", 0);
+        model.addAttribute("category", 1);
         model.addAttribute("urlName", "네비게이션 임플란트");
         return "/sub/implants/navigationImplants";
     }
 
     @RequestMapping("/oneday_implants")
     public String onedayImplants(Model model) {
-        model.addAttribute("category", 0);
+        model.addAttribute("category", 1);
         model.addAttribute("urlName", "원데이 임플란트");
         return "/sub/implants/onedayImplants";
     }
 
     @RequestMapping("/bone_graft_implant")
     public String boneGraftImplant(Model model) {
-        model.addAttribute("category", 0);
+        model.addAttribute("category", 1);
         model.addAttribute("urlName", "뼈이식 임플란트");
         return "/sub/implants/boneGraftImplant";
     }
 
     @RequestMapping("/full_implants")
     public String fullImplants(Model model) {
-        model.addAttribute("category", 0);
+        model.addAttribute("category", 1);
         model.addAttribute("urlName", "전체 임플란트");
         return "/sub/implants/fullImplants";
     }

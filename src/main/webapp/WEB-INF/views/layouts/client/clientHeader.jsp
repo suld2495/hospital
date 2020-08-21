@@ -48,7 +48,7 @@
         <nav>
             <ol class="display-inline-block width-100">
                 <li><a href="<c:url value='/intro' />">미소원치과</a></li>
-                <li><a href="<c:url value='/' />">디지털 임플란트</a></li>
+                <li><a href="<c:url value='/digital_implants' />">디지털 임플란트</a></li>
                 <li><a href="<c:url value='/' />">디지털 치아교정</a></li>
                 <li><a href="<c:url value='/' />">자연치아 클리닉</a></li>
                 <li><a href="<c:url value='/' />">커뮤니티</a></li>
