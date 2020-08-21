@@ -1,0 +1,413 @@
+.section01 .image_box_left {
+    width: 50%;
+    max-width: 1276px;
+    height: 552px;
+    top: -67px;
+}
+.section01 .img {
+    background: url(../../images/sub/implant/digital/digital01.jpg) no-repeat center;
+}
+
+.section02 .image_box_right {
+
+}
+
+.section02 .img {
+    background: url(../../images/sub/implant/digital/digital04.png);
+}
+
+.section04 .img {
+    background: url(../../images/sub/implant/digital/digital05.jpg);
+}
+
+.section04 .bg01 {
+    background: url(../../images/sub/implant/digital/digital06.jpg) no-repeat center;
+}
+
+.section04 .bg02 {
+    background: url(../../images/sub/implant/digital/digital07.jpg) no-repeat center;
+}
+
+.section04 .bg03 {
+    background: url(../../images/sub/implant/digital/digital08.jpg) no-repeat center;
+}
+
+.section04 .bg04 {
+    background: url(../../images/sub/implant/digital/digital09.jpg) no-repeat center;
+}
+
+.section05 .img {
+    background: url(../../images/sub/implant/digital/digital10.jpg);
+}
+
+.section06 .section-title:before {
+    background: url(../../images/sub/implant/digital/marks.png);
+}
+
+.section06 .img {
+    background: url(../../images/sub/implant/digital/digital11.jpg);
+}
+
+.section06 .imp-img {
+    background: url(../../images/sub/implant/digital/digital19.png);
+    width: 470px;
+    height: 205px;
+}
+
+.imp-img {}
+
+.section07 .bg {
+    width: 100%;
+    height: 100%;
+    background: url(../../images/sub/implant/digital/digital_bg2.jpg) center top no-repeat fixed;
+    padding-top: 159px;
+    box-sizing: border-box;
+    text-align: center;
+    position: absolute;
+}
+
+.section01 {
+    margin-top: 164px;
+}
+
+.section01 .text, .section01 .bg .max-layout-width {
+    padding-left: 50%;
+}
+
+.section01 .text > div, .section01 .bg .max-layout-width > div {
+    padding-left: 86px;
+}
+
+.section01 .bg .max-layout-width > div {
+    width: 570px;
+    word-break: keep-all;
+}
+
+.section01 .section-title {
+    line-height: 1.2;
+}
+
+.section01 .bg {
+    margin-top: 50px;
+    background: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.section01 .section-text {
+    line-height: 1.8;
+}
+
+.section01 .section-text:first-child {
+    margin-bottom: 43px;
+}
+
+.section02 {
+    margin-top: 158px;
+    margin-bottom: 66px;
+}
+
+.section02 .section-title {
+    line-height: 1.3
+}
+
+.section02 .section-text {
+    line-height: 1.7;
+    width: 600px;
+    word-break: keep-all;
+}
+
+.section03 {
+    height: 658px;
+}
+
+.section03 .bg {
+    background: url(../../images/sub/implant/digital/digital_bg.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.section03 .max-layout-width {
+    position: relative;
+}
+
+.section03 .max-layout-width ul {
+    overflow: hidden;
+    padding-top: 81px;
+}
+
+.section03 .max-layout-width li {
+    float: left;
+    margin-right: 14px;
+    text-align: center;
+
+}
+
+.section03 .max-layout-width li p {
+    color: #fff;
+    margin-top: 25px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.section03 .image_box_right {
+    top: -260px;
+    max-width: 641px;
+    height: 601px;
+    width: 100%;
+}
+
+.section03 .img {
+    background: url(../../images/sub/implant/digital/digital04.png);
+}
+
+.section04 .text {
+    padding-left: 50%;
+}
+
+.section04 .text > div {
+    padding-left: 83px;
+}
+
+.section04 .con {
+    position: relative;
+    padding-top: 205px;
+}
+
+.section04 .image_box_left {
+    max-width: 649px;
+    height: 631px;
+    width: 100%;
+    top: -98px;
+}
+
+.section04 .section-title {
+    line-height: 1.3;
+    margin-bottom: 79px;
+}
+
+.section04 .section-text {
+    line-height: 1.7;
+    word-break: keep-all;
+    padding-right: 31px;
+}
+
+.section04 ul {
+    margin-top: 100px;
+    margin-left: -2.69%;
+    display: inline-block;
+    width: 100%;
+}
+
+.section04 ul li {
+    width: 22.31%;
+    margin-left: 2.69%;
+    float: left;
+    text-align: center;
+    background: #f5f5f5;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.section04 ul li p {
+    padding-top: 47px;
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.section04 ul li h5 {
+    font-size: 23px;
+    line-height: 1.7
+}
+
+.section04 ul li .bg {
+    width: 100%;
+    height: 189px;
+    position: absolute;
+    bottom: -30px;
+}
+
+.section05 {
+    margin-top: 220px;
+}
+
+.section05 .max-layout-width .text {
+    padding-left: 50%;
+}
+
+.section05 .max-layout-width .text > div {
+    padding-left: 120px;
+    position: relative
+}
+
+.section05 .image_box_left {
+    max-width: 1276px;
+    height: 521px;
+    width: 50%;
+    z-index: 10;
+}
+
+.section05 .section-title {
+    padding-top: 100px;
+    position: relative;
+    line-height: 1.3;
+    margin-bottom: 224px;
+}
+
+.section05 .max-layout-width .text > div:before {
+    background: url(../../images/sub/implant/digital/marks.png);
+    content: '';
+    width: 156px;
+    height: 134px;
+    position: absolute;
+    left: 70px;
+    top: 0;
+}
+
+.section05 .section-text {
+    word-break: keep-all;
+    line-height: 1.7;
+    position: relative;
+}
+
+.section05 .section-text:before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 103px;
+    background: #7f6a57;
+    top: -170px;
+}
+
+.section05 .bg {
+    background: #f5f5f5;
+    width: 64.65%;
+    position: absolute;
+    height: 305px;
+    right: 0px;
+    bottom: -50px;
+}
+
+.section05 .max-layout-width {
+    position: relative;
+    z-index: 10;
+}
+
+.section06 {
+    margin-top: 232px;
+}
+
+.section06 .image_box_right {
+    width: 46.78%;
+    max-width: 1194px;
+    height: 651px;
+    top: 0;
+}
+
+.section06 > .max-layout-width {
+    padding-top: 118px;
+}
+
+.section06 .section-title {
+    line-height: 1.3;
+    letter-spacing: -2px;
+    margin-bottom: 22px;
+    color: #4f4f4f;
+}
+
+.section06 .full-layout-width {
+    margin-top: 67px;
+    background: #f5f5f5;
+    height: 442px;
+    padding-top: 65px;
+    box-sizing: border-box;
+}
+
+.section07 {
+    height: 382px;
+}
+
+.section07 .max-layout-width {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+}
+
+.section07 .max-layout-width .text {
+    font-size: 33px;
+    line-height: 1.8;
+    padding-top: 154px;
+}
+
+.section07 .max-layout-width .text span {
+    color: #b0a295;
+}
+
+.section09 {
+    margin-top: 147px;
+    text-align: center;
+    margin-bottom: 206px;
+}
+
+.section09 .section-title {
+    line-height: 1.3
+}
+
+.section09 ul {
+    margin-top: 83px;
+    margin-left: -3.07%;
+    overflow: hidden;
+}
+
+.section09 ul li {
+    width: 46.93%;
+    float: left;
+    margin-left: 3.07%;
+    padding-top: 344px;
+}
+
+.section09 ul li:first-child {
+    background: url(../../images/sub/implant/digital/digital20.jpg) no-repeat top center;
+}
+
+.section09 ul li.last-img {
+    background: url(../../images/sub/implant/digital/digital21.jpg) no-repeat top center;
+}
+
+.section09 ul li p {
+    height: 113px;
+    background: #9b8b7e;
+    padding-left: 42px;
+    padding-right: 35px;
+    text-align: left;
+    position: relative;
+}
+
+.section09 ul li p span:first-child {
+    padding-top: 42px;
+    display: block;
+    font-size: 33px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section09 ul li p span.view {
+    position: absolute;
+    right: 78px;
+    top: 9px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.section09 ul li p span.view:after {
+    background: url(../../images/sub/implant/digital/digital_arrow.png) no-repeat top center;
+    content: '';
+    position: absolute;
+    right: -47px;
+    width: 33px;
+    height: 17px;
+    bottom: 0;
+}

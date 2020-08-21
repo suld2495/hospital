@@ -54,6 +54,10 @@ section {
     color: #212121;
 }
 
+.section-title strong {
+    font-weight: bold;
+}
+
 .section-title-color {
     color: #9b8b7e;
 }
@@ -64,6 +68,9 @@ section {
     line-height: 27px;
 }
 
+.section-text strong {
+    font-weight: bold;
+}
 
 .max-layout-width {
     width: 100%;
