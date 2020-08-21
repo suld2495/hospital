@@ -1,0 +1,363 @@
+section {
+    position: relative;
+}
+
+.section01 {
+    margin-top: 100px;
+}
+
+.section01, .section01 .max-layout-width {
+    position: relative;
+}
+
+.section01 .img01 {
+    width: 41.3401%;
+    max-width: 1055px;
+    height: 468px;
+    bottom: 0;
+}
+
+.section01 .img02 {
+    max-width: 662px;
+    width: 50%;
+    height: 749px;
+}
+
+.section01 .text-box {
+    padding-left: 57.5%;
+}
+
+.section01 .img01 .img {
+    background: url(../../images/sub/info/intro/intro_bg.jpg);
+}
+
+.section01 .img02 .img {
+    background: url(../../images/sub/info/intro/intro01.jpg) center;
+}
+
+.section01 .text-box {
+    padding-top: 91px;
+    position: relative;
+}
+
+.section01 .text-box h2 + p {
+    margin-top: 134px;
+}
+
+.last-section-text {
+    margin-top: 42px;
+    padding-bottom: 341px;
+}
+
+.last-section-title {
+    position: relative;
+}
+
+.section01 .last-section-title:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 634px;
+    height: 3px;
+    background: #7e6956;
+    bottom: -70px;
+    left: -98px;
+}
+
+.move-title {
+    font-size: 67px;
+    line-height: 80px;
+    color: #eee;
+    font-weight: 600;
+    margin-bottom: 108px;
+    bottom: 0;
+}
+
+.skrollable {
+    position: absolute;
+}
+
+.link {
+    color: #4f4f4f;
+    position: relative;
+    margin-bottom: 80px;
+    display: inline-block;
+}
+
+.link:after {
+    background: url(../../images/sub/info/intro/icon_go.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -36px;
+    bottom: -2px;
+    content: '';
+}
+
+.section02 {
+    margin-top: 142px;
+}
+
+.section02 .img01 {
+    width: 47.3354%;
+    max-width: 1208px;
+    height: 582px;
+    top: 0;
+}
+
+.section02 .img {
+    background: url(../../images/sub/info/intro/intro02.jpg) center;
+}
+
+.section02 .section-text {
+    width: 720px;
+    padding-right: 111px;
+    box-sizing: border-box;
+}
+
+.section02 .text-box h2 + p {
+    margin-top: 46px;
+    margin-bottom: 66px;
+}
+
+.section02 .text-box, .section04 .text-box {
+    padding-top: 146px;
+}
+
+.section02 .move-title, .section04 .move-title {
+    top: 0;
+}
+
+.section02 .section-text span {
+    font-weight: bold;
+}
+
+.section03, .section04 {
+    margin-top: 142px;
+}
+
+.section03 .img01 {
+    width: 46.1598%;
+    max-width: 1178px;
+    height: 582px;
+    top: 0;
+}
+
+.section03 .img {
+    background: url(../../images/sub/info/intro/intro03.jpg) center;
+}
+
+.section03 .text-box {
+    padding-left: 50%;
+    padding-top: 146px;
+}
+
+.section03 .move-title {
+    top: 0;
+}
+
+.section03 .section-text {
+    width: 620px;
+}
+
+.section03 .link {
+    margin-top: 56px;
+    margin-bottom: 141px;
+}
+
+.section04 .section-text {
+    width: 620px;
+}
+
+.section04 .link {
+    margin-top: 60px;
+    margin-bottom: 141px;
+}
+
+.section04 .img01 {
+    width: 47.3354%;
+    max-width: 1208px;
+    height: 582px;
+    top: 0;
+}
+
+.section04 .img {
+    background: url(../../images/sub/info/intro/intro04.jpg) center;
+}
+
+.section05 {
+    margin-top: 181px;
+    padding-top: 151px;
+    padding-bottom: 146px;
+    background: #f5f5f5;
+}
+
+.container {
+    width: 1263px;
+    margin: 0 auto;
+}
+
+.section05 .container p {
+    font-size: 23px;
+    line-height: 33px;
+}
+
+.section05 .container p + h2 {
+    margin-top: 16px;
+    margin-bottom: 44px;
+}
+
+.section05 ul {
+    width: 100%;
+    padding-left: 54px;
+    position: relative;
+}
+
+.section05 ul:before {
+    content: '';
+    height: 100%;
+    width: 4px;
+    background: #7e6956;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.section05 ul li {
+    float: left;
+    width: 30.33333%;
+    margin-right: 2%;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container h5 {
+    font-size: 21px;
+    font-width: bold;
+    margin-top: 37px;
+}
+
+.image-container p {
+    font-size: 27px;
+    margin-top: 15px;
+}
+
+.section05 .image-container li > div {
+    overflow: hidden;
+    height: 330px;
+}
+
+.section05 .image-container li .img_bg {
+    transition: transform 0.6s, -webkit-transform 0.6s
+}
+
+.section05 .image-container li .img_bg:hover {
+    transform: scale(1.05, 1.05) rotate(0.001deg)
+}
+
+.img_bg {
+    width: 100%;
+    height: 100%;
+}
+
+.img_bg1 {
+    background: url(../../images/sub/info/intro/misowon01.jpg);
+}
+
+.img_bg2 {
+    background: url(../../images/sub/info/intro/misowon02.jpg);
+}
+
+.img_bg3 {
+    background: url(../../images/sub/info/intro/misowon03.jpg);
+}
+
+.img_bg4 {
+    background: url(../../images/sub/info/intro/misowon04.jpg);
+}
+
+.img_bg5 {
+    background: url(../../images/sub/info/intro/misowon05.jpg);
+}
+
+.img_bg6 {
+    background: url(../../images/sub/info/intro/misowon06.jpg);
+}
+
+.img-bg-box {
+    margin-top: 35px;
+}
+
+.section06 {
+    margin-top: 146px
+}
+
+.section06 .text > div.img_bg {
+    width: 100%;
+    height: 511px;
+    background: url('../../images/sub/info/intro/intro05.jpg');
+    margin-top: 108px;
+}
+
+.section06 .text > div {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.section06 .text > div:first-child {
+    text-align: right;
+    padding-right: 32px;
+    position: relative;
+}
+
+.section06 .text > div:first-child h2 {
+    padding: 9px 0;
+    margin: 0;
+}
+
+.section06 .text > div:first-child:after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background: #7e6956;
+    right: 0px;
+    top: 2px;
+}
+
+.last-text {
+    padding-left: 92px;
+    box-sizing: border-box;
+}
+
+.section06 .section-text {
+    margin-top: 35px;
+}
+
+.section06 .bg {
+    width: 50%;
+    height: 766px;
+    position: absolute;
+    background: #9b8b7e;
+    top: 197px;
+}
+
+.section06 .bg:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 343px;
+    background: #ebebeb;
+    top: -343px;
+    right: 2px;
+}
+
+.section06 .max-layout-width {
+    position: relative;
+    z-index: 4;
+    padding-bottom: 275px;
+}
+

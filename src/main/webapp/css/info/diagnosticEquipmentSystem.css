@@ -1,0 +1,74 @@
+.section01 {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section01 .bx-wrapper .bx-viewport {
+    /*padding-left: 75px;*/
+    /*padding-bottom: 64px;*/
+}
+
+.slider {
+}
+
+.slider .text {
+    /*width: 426px;*/
+    /*height: 225px;*/
+    /*padding-top: 60px;*/
+    /*padding-left: 35px;*/
+    /*box-sizing: border-box;*/
+    /*background: #9b8b7e;*/
+    /*position: absolute;*/
+    /*left: -75px;*/
+    /*bottom: -64px;*/
+    /*display: none;*/
+}
+
+.slider .text h5 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.slider .text p {
+    font-size: 21px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.section01 .display-inline-block {
+}
+
+.section01 .bx-pager-item {
+    display: block;
+    overflow: hidden;
+}
+
+.section01 .slider-pagenation span:first-child {
+    width: 47px;
+    height: 47px;
+    margin-right: 16px;
+    padding: 13px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.section01 .slider-pagenation span {
+    color: #222;
+    float: left;
+    font-width: bold;
+}
+
+.section01 .slider-pagenation span + span {
+    font-size: 20px;
+    height: 47px;
+    padding: 13px 0;
+}
+
+.bx-pager-item .active {
+
+}
+
+.slider-box {
+}

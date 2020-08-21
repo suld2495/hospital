@@ -1,0 +1,271 @@
+.tab {
+    width: 100%;
+    margin: 100px 0;
+    border: 1px solid #ddd;
+}
+
+.tab li {
+    width: 50%;
+    float: left;
+    background: #fff;
+    color: #373330;
+    padding: 22px 0;
+    font-size: 19px;
+    text-align: center;
+}
+
+.tab li.active {
+    background: #373330;
+    color: #fff;
+}
+
+.tab-contents {
+    display: none;
+    opacity: 0;
+}
+
+.tab-contents.active {
+    display: block;
+    opacity: 1;
+}
+
+.tab-contents .max-layout-width {
+    text-align: center;
+}
+
+.small-line {
+    margin-top: 38px;
+    margin-bottom: 55px;
+    width: 116px;
+    height: 3px;
+    display: inline-block;
+}
+
+.img-box ul {
+    margin-left: -1%;
+    overflow: hidden;
+}
+
+.img-box li {
+    width: 32.33333333333333333%;
+    margin-left: 1%;
+    height: 218px;
+    float: left;
+    display: inline-block;
+}
+
+.img01 {
+    background: url(../../images/sub/info/staff/doctor01.jpg) no-repeat center;
+}
+
+.img02 {
+    background: url(../../images/sub/info/staff/doctor02.jpg) no-repeat center;
+}
+
+.img03 {
+    background: url(../../images/sub/info/staff/doctor03.jpg) no-repeat center;
+}
+
+.doctor-dec {
+    margin-top: 104px;
+    margin-bottom: 29px;
+    font-size: 18px;
+    color: #a2a2a2;
+    text-align: center;
+}
+
+.doctor-title {
+    font-size: 33px;
+    font-width: bold;
+    color: #222;
+    text-align: center;
+    margin-bottom: 115px;
+}
+
+.text {
+    padding-left: 50%;
+}
+
+.text > div {
+    padding-left: 54px;
+}
+
+.title {
+    font-size: 34px;
+    color: #222;
+    margin-bottom: 16px;
+}
+
+.title span {
+    color: #9c8c7f;
+}
+
+.text-dec {
+    margin-top: 34px;
+}
+
+.text-bg {
+    padding: 45px 0 57px 50%;
+    background: #f1f1f1;
+    margin-top: 35px;
+}
+
+.last-title {
+    position: relative;
+}
+
+.last-title:after {
+    width: 100%;
+    height: 3px;
+    background: #7e6956;
+    content: '';
+    position: absolute;
+    bottom: -36px;
+    left: 0;
+}
+
+.dec-title {
+    margin-bottom: 23px;
+    font-size: 20px;
+}
+
+.dec {
+    line-height: 25px;
+    color: #838383;
+}
+
+p + .dec-title {
+    margin-top: 35px;
+}
+
+.image-box {
+    bottom: 0;
+}
+
+.image-box1 {
+    max-width: 650px;
+    width: 100%;
+    height: 767px;
+    background: url(../../images/sub/info/staff/doctor04.png);
+}
+
+.doctor-info-left .text {
+    padding-left: 0;
+    position: relative;
+}
+
+.doctor-info-left .text > div {
+    padding-left: 0;
+}
+
+.line {
+    width: 50%;
+    height: 3px;
+    background: #7e6956;
+    content: '';
+    position: absolute;
+    bottom: -36px;
+    left: 0;
+}
+
+.tab-contents .text .max-layout-width {
+    text-align: left;
+}
+
+.doctor-info-left .last-title:after {
+    display: none;
+}
+
+.doctor-info-left .image-box {
+    width: 100%;
+    max-width: 650px;
+    right: 0;
+    z-index: 1;
+}
+
+.image-box2 {
+    max-width: 650px;
+    width: 100%;
+    height: 767px;
+    background: url(../../images/sub/info/staff/doctor05.png);
+}
+
+.image-box3 {
+    max-width: 650px;
+    width: 100%;
+    height: 767px;
+    background: url(../../images/sub/info/staff/doctor06.png);
+}
+
+.image-container {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -650px;
+    bottom: 0;
+}
+
+.staff-info {
+    margin-top: 97px;
+}
+
+.image_box_left, .image_box_right {
+    width: 50%;
+    max-width: 1276px;
+    height: 510px;
+    top: 0;
+}
+
+.img-box1 .img {
+    background: url('../../images/sub/info/staff/staff_01.jpg') center;
+}
+
+.img-box2 .img {
+    background: url('../../images/sub/info/staff/staff_02.jpg') center;
+}
+
+.img-box3 .img {
+    background: url('../../images/sub/info/staff/staff_03.jpg') center;
+}
+
+.staff-info-box h1 {
+    padding-top: 57px;
+    margin-bottom: 50px;
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.staff-info-box .text p {
+    width: 500px;
+    font-size: 15px;
+    line-height: 27px;
+    margin-top: 78px;
+    word-break: keep-all;
+}
+
+.staff-info {
+    height: 510px;
+}
+
+.text-left.text {
+    padding-left: 0;
+    padding-right: 50%;
+}
+
+.text-left.text > div {
+    padding-left: 0;
+    padding-right: 54px;
+    text-align: right;
+}
+
+.staff-info-box .text-left.text p {
+    float: right;
+}
+
+.staff-info:first-child {
+    margin-top: 0px;
+}
+
+.staff-info-box {
+    padding-bottom: 145px;
+}

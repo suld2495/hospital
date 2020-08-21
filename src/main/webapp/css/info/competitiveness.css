@@ -1,0 +1,399 @@
+section {
+    position: relative;
+}
+
+.section01 {
+    margin-top: 96px;
+}
+
+.section01 .img01 {
+    width: 50%;
+    max-width: 1281px;
+    height: 511px;
+    top: 0;
+    right: 8.85%;
+}
+
+.section01 .img01 .img {
+    background: url(../../images/sub/info/competitiveness/compet01.jpg) no-repeat center;
+}
+
+.section01 .text:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #ebebeb;
+}
+
+.section01 .text {
+    padding-top: 178px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.section01 .text h6 {
+    margin-bottom: 32px;
+    font-size: 15px;
+    color: #998b82;
+}
+
+.section01 .text h6 + div:before {
+    position: absolute;
+    content: '';
+    left: -31px;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #7e6956;
+}
+
+
+.list-img {
+    width: 100%;
+    height: 163px;
+}
+
+.list-img1 {
+    background: url(../../images/sub/info/competitiveness/compet_icon01.png) no-repeat center;
+}
+
+.list-img2 {
+    background: url(../../images/sub/info/competitiveness/compet_icon02.png) no-repeat center;
+}
+
+.list-img3 {
+    background: url(../../images/sub/info/competitiveness/compet_icon03.png) no-repeat center;
+}
+
+.list-img4 {
+    background: url(../../images/sub/info/competitiveness/compet_icon04.png) no-repeat center;
+}
+
+.list {
+    background: #9b8b7e;
+    margin-top: 70px;
+    position: relative;
+}
+
+.list ul {
+    display: inline-block;
+    height: 310px;
+    width: 100%;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.list li {
+    width: 25%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.list li p {
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.list li + li:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 232px;
+    background: url(../../images/sub/info/competitiveness/compet_line.png);
+}
+
+.section02 {
+    margin-top: 161px;
+    padding-bottom: 82px;
+}
+
+.section02 .max-layout-width > div:first-child {
+    padding-left: 116px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section02 .max-layout-width > div:first-child > .float-left:first-child {
+     padding-top: 84px;
+}
+
+.section02 .max-layout-width > div:first-child:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 952px;
+    height: 502px;
+    background: url(../../images/sub/info/competitiveness/compet02.png) no-repeat;
+}
+
+.section02 .img02 {
+    max-width: 561px;
+    width: 100%;
+}
+
+.section02 .section-text {
+    margin-top: 52px;
+    width: 460px;
+}
+
+.section02 span.detail {
+    font-weight: bold;
+    margin-top: 75px;
+    display: inline-block;
+    position: relative;
+}
+
+.section02 span.detail a {
+    color: #4f4f4f;
+}
+
+.section02 span.detail:after {
+    background: url(../../images/sub/info/intro/icon_go.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -36px;
+    bottom: -2px;
+    content: '';
+}
+
+.section02 .img01 {
+    position: absolute;
+    max-width: 952px;
+    height: 502px;
+    left: 13.44444%;
+    bottom: 120px;
+    width: 39.1756%;
+}
+
+.section02 .img01 .img {
+    background: url(../../images/sub/info/competitiveness/compet03.jpg) no-repeat center;
+}
+
+.section02 .default-background {
+    height: 582px;
+    background: #f1f1f1;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.section03 {
+    margin-top: 150px;
+    padding-bottom: 160px;
+}
+
+.move-title {
+    margin-bottom: 91px;
+}
+
+.section03 .text {
+    width: 674px;
+}
+
+.section03 .text .section-text {
+    width: 650px;
+    word-break: keep-all;
+    margin-bottom: 75px;
+}
+
+.section03 .img-box {
+    float: left;
+}
+
+.section03 .img-box .img {
+    width: 307px;
+    height: 239px;
+}
+
+.section03 .img-box:first-child {
+    margin-right: 50px;
+}
+
+.section03 .img01 {
+    background: url(../../images/sub/info/competitiveness/compet05.jpg);
+}
+
+.section03 .img02 {
+    background: url(../../images/sub/info/competitiveness/compet06.jpg);
+}
+
+.section03 .img-box span {
+    margin-top: 36px;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+}
+
+.section03 .image_box_right {
+    max-width: 1208px;
+    width: 47.3333%;
+    height: 582px;
+}
+
+.section03 .image_box_right .img {
+    background: url(../../images/sub/info/competitiveness/compet07.jpg) no-repeat top center;
+    background-size: contain;
+}
+
+.section04 {
+    padding: 125px 0 105px 0;
+    background: url(../../images/sub/info/competitiveness/compet08.jpg) no-repeat;
+    background-size: cover;
+}
+
+.section04 .contents {
+    text-align: center;
+}
+
+.section04 .section-sub-title {
+    font-size: 24px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.section04 .section-sub-title:after {
+    content: '';
+    position: absolute;
+    bottom: -13px;
+    width: 100%;
+    height: 3px;
+    background: #ec6806;
+    left: 0;
+}
+
+.default-tab {
+    margin-top: 74px;
+}
+
+.tab-contents {
+    height: 0;
+    font-size: 38px;
+    line-height: 1.4;
+    opacity: 0;
+    transition: none;
+    color: #fff;
+}
+
+.tab-contents.active {
+    height: auto;
+    opacity: 1;
+    transition: opacity .55s linear;
+}
+
+.tabs {
+    margin-top: 72px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    box-sizing: border-box;
+}
+
+.tab {
+    float: left;
+    width: 33.333333333%;
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    opacity: .5;
+    height: 40px;
+    transition: opacity .3s;
+    cursor: pointer;
+}
+
+.tab.active, .tab:hover {
+    opacity: 1;
+}
+
+.tab:after {
+    content: "";
+    display: block;
+    right: 0;
+    bottom: -1px;
+    left: 0;
+    background: #ec6806;
+    width: 0%;
+    height: 2px;
+    z-index: 2;
+    position: absolute;
+    transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.tab.active:after {
+    width: 100%;
+}
+
+.sub-text {
+    margin-top: 92px;
+    color: #fff;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+.section05 {
+    padding-bottom: 260px;
+}
+
+.section05 .text {
+    padding-left: 52.507%;
+    margin-top: 190px;
+    width: 560px;
+    word-break: keep-all;
+    padding-top: 11px;
+}
+
+.section05 .text p span {
+    font-weight: bold;
+}
+
+.section05 .text .detail {
+    font-weight: bold;
+    margin-top: 75px;
+    display: inline-block;
+    position: relative;
+}
+
+.section05 .text .detail a {
+    color: #4f4f4f;
+}
+
+.section05 .img01 {
+    max-width: 1241px;
+    width: 48.6285%;
+    height: 433px;
+}
+
+.section05 .img01 .img {
+    background: url(../../images/sub/info/competitiveness/compet09.jpg) no-repeat top center;
+}
+
+.section05 .img02 {
+    width: 250px;
+    height: 351px;
+    top: 205px;
+    right: 60px;
+    left: auto;
+}
+
+.section05 .img02:after {
+    content: '';
+    position: absolute;
+    width: 111px;
+    height: 3px;
+    background: #7e6954;
+    right: -113px;
+    top: -64px;
+}
+
+.section05 .img02 .img {
+    background: url(../../images/sub/info/competitiveness/compet10.jpg) no-repeat top center;
+}
