@@ -198,3 +198,7 @@ a {
     bottom: -2px;
     content: '';
 }
+
+strong {
+    font-weight: bold;
+}
