@@ -436,6 +436,10 @@
     line-height: 1;
 }
 
+.con01.cont li.table-right {
+    background: #9b8b7e;
+}
+
 .con01.cont li.table-middle {
     background: #222;
     color: #fff;
