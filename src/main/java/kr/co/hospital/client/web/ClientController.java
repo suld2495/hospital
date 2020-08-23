@@ -101,4 +101,32 @@ public class ClientController {
         model.addAttribute("urlName", "전체 임플란트");
         return "/sub/implants/fullImplants";
     }
+
+    @RequestMapping("/misowon_orthodontics")
+    public String misowonRrthodontics(Model model) {
+        model.addAttribute("category", 2);
+        model.addAttribute("urlName", "미소원 치아교정");
+        return "/sub/implants/misowonRrthodontics";
+    }
+
+    @RequestMapping("/partial_orthodontics")
+    public String partialOrthodontics(Model model) {
+        model.addAttribute("category", 2);
+        model.addAttribute("urlName", "부분교정");
+        return "/sub/implants/partialOrthodontics";
+    }
+
+    @RequestMapping("/malocculusion_orthodontics")
+    public String malocculusionOrthodontics(Model model) {
+        model.addAttribute("category", 2);
+        model.addAttribute("urlName", "부정교합 교정");
+        return "/sub/implants/malocculusionOrthodontics";
+    }
+
+    @RequestMapping("/growth_reriod_orthodontics")
+    public String growthReriodOrthodontics(Model model) {
+        model.addAttribute("category", 2);
+        model.addAttribute("urlName", "성장기 교정");
+        return "/sub/implants/growthReriodOrthodontics";
+    }
 }

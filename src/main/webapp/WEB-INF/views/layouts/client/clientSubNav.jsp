@@ -39,6 +39,14 @@
                     <li><a <c:if test="${path eq '/full_implants'}">class="active"</c:if> href="<c:url value="/full_implants"/>">전체 임플란트</a></li>
                 </ul>
             </c:if>
+            <c:if test="${category eq 2}">
+                <ul>
+                    <li><a <c:if test="${path eq '/misowon_orthodontics'}">class="active"</c:if> href="<c:url value="/misowon_orthodontics"/>" >미소원 치아교정</a></li>
+                    <li><a <c:if test="${path eq '/partial_orthodontics'}">class="active"</c:if> href="<c:url value="/partial_orthodontics"/>">부분교정</a></li>
+                    <li><a <c:if test="${path eq '/malocculusion_orthodontics'}">class="active"</c:if> href="<c:url value="/malocculusion_orthodontics"/>">부정교합 교정</a></li>
+                    <li><a <c:if test="${path eq '/growth_reriod_orthodontics'}">class="active"</c:if> href="<c:url value="/growth_reriod_orthodontics"/>">성장기 교정</a></li>
+                </ul>
+            </c:if>
         </nav>
         <div class="breadcrumb max-layout-width">
             <ul class="display-inline-block">
@@ -60,7 +68,7 @@
     $(function() {
         var backgroundPrefix = 'images/sub/background/';
         var category = '${category}'
-        var categoryBackground = ['info.jpg', 'img_sub02.jpg'];
+        var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub02.jpg'];
         $('.sub-image').css('background-image', 'url(' + backgroundPrefix + categoryBackground[category] + ')');
     })
 </script>
