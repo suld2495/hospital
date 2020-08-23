@@ -106,27 +106,27 @@ public class ClientController {
     public String misowonRrthodontics(Model model) {
         model.addAttribute("category", 2);
         model.addAttribute("urlName", "미소원 치아교정");
-        return "/sub/implants/misowonRrthodontics";
+        return "/sub/orthodontics/misowonOrthodontics";
     }
 
     @RequestMapping("/partial_orthodontics")
     public String partialOrthodontics(Model model) {
         model.addAttribute("category", 2);
         model.addAttribute("urlName", "부분교정");
-        return "/sub/implants/partialOrthodontics";
+        return "/sub/orthodontics/partialOrthodontics";
     }
 
     @RequestMapping("/malocculusion_orthodontics")
     public String malocculusionOrthodontics(Model model) {
         model.addAttribute("category", 2);
         model.addAttribute("urlName", "부정교합 교정");
-        return "/sub/implants/malocculusionOrthodontics";
+        return "/sub/orthodontics/malocculusionOrthodontics";
     }
 
     @RequestMapping("/growth_reriod_orthodontics")
     public String growthReriodOrthodontics(Model model) {
         model.addAttribute("category", 2);
         model.addAttribute("urlName", "성장기 교정");
-        return "/sub/implants/growthReriodOrthodontics";
+        return "/sub/orthodontics/growthReriodOrthodontics";
     }
 }
