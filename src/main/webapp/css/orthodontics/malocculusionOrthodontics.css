@@ -1,0 +1,445 @@
+.section01 {
+    margin-top: 164px;
+}
+
+.section01 .text, .section01 .bg .max-layout-width {
+    padding-left: 50%;
+    max-width: inherit;
+    box-sizing: border-box;
+}
+
+.section01 .text > div, .section01 .bg .max-layout-width > div {
+    padding-left: 86px;
+}
+
+.section01 .bg .max-layout-width > div {
+    width: 570px;
+    word-break: keep-all;
+}
+
+.section01 .section-title {
+    line-height: 1.3;
+    display: inline-block;
+}
+
+.section01 .bg {
+    margin-top: 50px;
+    background: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
+
+.section01 .section-text {
+    line-height: 1.8;
+}
+
+.section01 .section-text:first-child {
+    margin-bottom: 43px;
+}
+
+.section01 .image_box_left {
+    width: 50%;
+    max-width: 1276px;
+    height: 552px;
+    top: -67px;
+}
+
+.section01 .img {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion01.jpg) no-repeat center;
+}
+
+
+
+.section05 {
+    height: 431px;
+    margin-top: 150px;
+}
+
+.section05 .max-layout-width {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+}
+
+.section05 .max-layout-width .text {
+    padding-top: 134px;
+    text-align: center;
+}
+
+.section05 .max-layout-width .text h2 {
+    line-height: 1.4;
+    margin-bottom: 40px;
+    font-size: 39px;
+}
+
+.section05 .max-layout-width .text p {
+    font-size: 17px;
+    width: 549px;
+    word-break: keep-all;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.section05 .max-layout-width .text p.star {
+    margin-top: 40px;
+}
+
+.section05 .max-layout-width .text span {
+    color: #b0a295;
+}
+
+.section05 .bg {
+    width: 100%;
+    height: 100%;
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion_bg01.jpg) center top no-repeat fixed;
+    padding-top: 159px;
+    box-sizing: border-box;
+    text-align: center;
+    position: absolute;
+}
+
+
+.section04 {
+    margin-top: 140px;
+}
+
+.section04 .section-title {
+    line-height: 1.3;
+    margin-bottom: 119px;
+    padding-top: 30px;
+}
+
+.section04 .section-text {
+    line-height: 1.7;
+    margin-bottom: 111px;
+}
+
+.section04 .image_box_left {
+    max-width: 1315px;
+    height: 433px;
+    width: 51.52%;
+    z-index: 1;
+}
+
+.section04 .img {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion03.jpg) no-repeat center;
+}
+
+.section04 .bg {
+    background: #f5f5f5;
+    width: 55.29%;
+    position: absolute;
+    height: 343px;
+    right: 0px;
+    bottom: -60px;
+}
+
+.section04 .max-layout-width {
+    position: relative;
+    z-index: 2;
+}
+
+.section04 .pager {
+    font-size: 16px;
+    color: #222;
+    padding: 11px 0;
+    position: relative;
+    padding-left: 40px;
+    display: inline-block;
+    font-weight: bold;
+    /* cursor: pointer; */
+}
+
+.section04 .pager span {
+    display: none;
+    position: absolute;
+}
+
+.section04 .pager.active:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #111;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.section04 .pager.active span {
+    display: block;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    top: 7px;
+}
+
+.section04 .text {
+    padding-left:50%;
+}
+
+.section04 .text > div {
+    padding-left: 84px;
+}
+
+.section07 {
+    margin-top: 147px;
+    text-align: center;
+    margin-bottom: 206px;
+}
+
+.section07 .section-title {
+    line-height: 1.3
+}
+
+.section07 ul {
+    margin-top: 83px;
+    margin-left: -3.07%;
+    overflow: hidden;
+}
+
+.section07 ul li {
+    width: 46.93%;
+    float: left;
+    margin-left: 3.07%;
+    padding-top: 344px;
+}
+
+.section07 ul li:first-child {
+    background: url(../../images/sub/implant/digital/digital20.jpg) no-repeat top center;
+}
+
+.section07 ul li.last-img {
+    background: url(../../images/sub/implant/digital/digital21.jpg) no-repeat top center;
+}
+
+.section07 ul li p {
+    height: 113px;
+    background: #9b8b7e;
+    padding-left: 42px;
+    padding-right: 35px;
+    text-align: left;
+    position: relative;
+}
+
+.section07 ul li p span:first-child {
+    padding-top: 42px;
+    display: block;
+    font-size: 33px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section07 ul li p span.view {
+    position: absolute;
+    right: 78px;
+    top: 9px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.section07 ul li p span.view:after {
+    background: url(../../images/sub/implant/digital/digital_arrow.png) no-repeat top center;
+    content: '';
+    position: absolute;
+    right: -47px;
+    width: 33px;
+    height: 17px;
+    bottom: 0;
+}
+
+.section02 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section02 .section-title {
+    margin-bottom: 45px;
+}
+
+.section02 ul {
+    overflow: hidden;
+    margin-left: -2%;
+}
+
+.section02 li {
+    width: 23%;
+    margin-left: 2%;
+    float: left;
+    padding-top: 54px;
+    background: #f3f3f3;
+    padding-bottom: 37px;
+}
+
+.section02 li p {
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: bold;
+    color: #222;
+    margin-top: 13px;
+}
+
+.section02 .img {
+    width: 100%;
+    height: 100px;
+}
+
+.section02 .img01 {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion_icon01.png) no-repeat top center;
+    background-position-y: 7px;
+}
+
+.section02 .img02 {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion_icon02.png) no-repeat top center;
+    background-position-y: 2px;
+}
+
+.section02 .img03 {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion_icon03.png) no-repeat top center;
+    background-position-y: 3px;
+}
+
+.section02 .img04 {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion_icon04.png) no-repeat top center;
+    background-position-y: 3px;
+}
+
+.section03 {
+    padding: 50px 0 80px 0;
+    background: #f3f3f3;
+    margin-top: 70px;
+}
+
+.section03 .section-title {
+    text-align: center;
+    line-height: 1.3;
+}
+
+.section03 .section-text {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section03 .max-layout-width .con {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.section03 .max-layout-width .con > div {
+    float: left;
+    width: 50%;
+}
+
+.section03 .border {
+    width: 518px;
+    height: 311px;
+    content: '';
+    border: 4px solid #9a8b7e;
+    position: absolute;
+}
+
+.section03 .img-box .img {
+    width: 576px;
+    height: 313px;
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion02.jpg) no-repeat top center;
+    position: relative;
+    z-index: 2;
+    margin-left: 28px;
+    margin-top: 28px;
+}
+
+.section03 .max-layout-width .con .img-box h2 {
+    margin: 30px 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section03 .max-layout-width .con .img-box p {
+    text-align: center;
+    line-height: 1.7;
+}
+
+.section03 .text {
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.section03 .text ul {
+    text-align: right;
+}
+
+.section03 .text li {
+    height: 110px;
+    max-width: 590px;
+    width: 100%;
+    line-height: 110px;
+    padding-left: 34px;
+    box-sizing: border-box;
+    background: #fff;
+    margin-bottom: 12px;
+    border: 1px solid #c9c9c9;
+    display: inline-block;
+    text-align: left;
+}
+
+.section03 .text li.odd {
+    margin-right: 21px;
+}
+
+.section03 .text li.active {
+    background: #9a8b7e;
+    border: 1px solid #c9c9c9;
+    color: #fff;
+}
+
+.section03 .text li p {
+    font-size: 16px;
+}
+
+.section03 .text li span {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 24px;
+    display: inline-block;
+    float: left;
+}
+
+.section06 {
+    margin-top: 100px;
+}
+
+.section06 .section-title {
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.section06 .section-text {
+    line-height: 1.7;
+    width: 50%;
+    word-break: keep-all;
+    margin-bottom: 50px;
+}
+
+.section06 ul {
+    overflow: hidden;
+    margin-left: -3%;
+}
+
+.section06 ul li {
+    width: 47%;
+    margin-left: 3%;
+    float: left;
+}
+
+.section06 ul li img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section06 ul li p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
