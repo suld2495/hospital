@@ -84,7 +84,7 @@
     $(function() {
         var backgroundPrefix = 'images/sub/background/';
         var category = '${category}'
-        var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg'];
+        var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg'];
         $('.sub-image').css('background-image', 'url(' + backgroundPrefix + categoryBackground[category] + ')');
     })
 </script>
