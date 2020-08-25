@@ -3,11 +3,11 @@
 
 <link rel="stylesheet" href="<c:url value="/css/implant/ondayImplants.css"/>" />
 
-<div class="sub-contents">
+<div class="sub-contents onedayImplants">
     <h1 class="sub-page-title">원데이 임플란트</h1>
     <p class="sub-page-intro">ONEDAY IMPLANT</p>
 
-    <section class="section01">
+    <section class="section01 section-top-title section-top-title-left">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -85,7 +85,7 @@
         </div>
     </section>
 
-    <section class="section03">
+    <section class="section03 section-quotes-title section-quotes-title-right">
         <div class="image_box_right">
             <p class="img"></p>
         </div>
@@ -145,7 +145,7 @@
         </div>
     </section>
 
-    <section class="section06">
+    <section class="section06 list-content list-content-right">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -160,7 +160,7 @@
                         시간적인 여유가 없다면 원데이 임플란트!<br>
                         발치 후 즉시 임플란트 식립, 임시 보철 제작까지 한번에 이루어져 빠른 일상생활 복귀가 가능합니다.
                     </p>
-                    <p class="pager"><span>01</span>뼈이식 특허 보유 의료진의 수준 높은 진료</p><br>
+                    <p class="pager active"><span>01</span>뼈이식 특허 보유 의료진의 수준 높은 진료</p><br>
                     <p class="pager"><span>02</span>다양한 첨단장비 시스템 구비</p><br>
                     <p class="pager"><span>03</span>통증 줄여주는 무통 마취가 보우</p><br>
                     <p class="pager"><span>04</span>건물 내 협력기공소 상주로 빠른 보철물 제작 가능</p><br>
@@ -173,7 +173,7 @@
         </div>
     </section>
 
-    <section class="section07">
+    <section class="section07 background-animation">
         <div class="max-layout-width">
             <h2><strong>원데이 임플란트 수술 장점</strong>은?</h2>
             <p>
@@ -209,7 +209,7 @@
         </div>
     </section>
 
-    <section class="section09">
+    <section class="section09 board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

@@ -3,11 +3,11 @@
 
 <link rel="stylesheet" href="<c:url value="/css/orthodontics/growthReriodOrthodontics.css"/>" />
 
-<div class="sub-contents">
+<div class="sub-contents grow">
     <h1 class="sub-page-title">성장기 교정</h1>
     <p class="sub-page-intro">GROWTH RERIOD ORTHODONTICS</p>
 
-    <section class="section01">
+    <section class="section01 section-top-title section-top-title-left">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -90,7 +90,7 @@
         </div>
     </section>
 
-    <section class="section04">
+    <section class="section04 section-quotes-title section-quotes-title-right">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -111,9 +111,9 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section05"></section>
+    <section class="section05 treatment-case"></section>
 
-    <section class="section06">
+    <section class="section06 board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

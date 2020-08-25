@@ -123,7 +123,7 @@ section {
 }
 
 .section02 .max-layout-width > div:first-child > .float-left:first-child {
-     padding-top: 84px;
+    padding-top: 84px;
 }
 
 .section02 .max-layout-width > div:first-child:before {
@@ -396,4 +396,8 @@ section {
 
 .section05 .img02 .img {
     background: url(../../images/sub/info/competitiveness/compet10.jpg) no-repeat top center;
+}
+
+.section-title {
+    line-height: 1.3
 }

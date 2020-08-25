@@ -3,11 +3,11 @@
 
 <link rel="stylesheet" href="<c:url value="/css/implant/digitalImplants.css"/>" />
 
-<div class="sub-contents">
+<div class="sub-contents digitalImplants">
     <h1 class="sub-page-title">디지털 임플란트</h1>
     <p class="sub-page-intro">DIGITAL IMPLANT</p>
 
-    <section class="section01">
+    <section class="section01 section-top-title-left section-top-title">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -133,7 +133,7 @@
         </div>
     </section>
 
-    <section class="section05">
+    <section class="section05 section-quotes-title-left section-quotes-title">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -192,11 +192,11 @@
 
     </section>
 
-    <section class="section09">
+    <section class="section09 treatment-case">
 
     </section>
 
-    <section class="section09">
+    <section class="section09 board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

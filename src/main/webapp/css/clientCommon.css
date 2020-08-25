@@ -202,3 +202,8 @@ a {
 strong {
     font-weight: bold;
 }
+
+.section-top-title-left .max-layout-width {
+    max-width: 100%;
+    box-sizing: border-box;
+}

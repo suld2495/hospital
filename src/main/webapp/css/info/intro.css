@@ -361,3 +361,7 @@ section {
     padding-bottom: 275px;
 }
 
+
+.section-title {
+    line-height: 1.3;
+}

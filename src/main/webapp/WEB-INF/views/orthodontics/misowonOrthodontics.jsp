@@ -3,11 +3,11 @@
 
 <link rel="stylesheet" href="<c:url value="/css/orthodontics/misowonOrthodontics.css"/>" />
 
-<div class="sub-contents">
+<div class="sub-contents misowon">
     <h1 class="sub-page-title">미소원 치아교정</h1>
     <p class="sub-page-intro">MISOWON ORTHODONTICS</p>
 
-    <section class="section01">
+    <section class="section01 section-top-title section-top-title-left">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -81,7 +81,7 @@
         <div class="border"></div>
     </section>
 
-    <section class="section04">
+    <section class="section04 list-content">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -108,7 +108,7 @@
         </div>
     </section>
 
-    <section class="section05">
+    <section class="section05 section-quotes-title section-quotes-title-left">
         <div class="max-layout-width">
             <h2><strong>세리믹 교정</strong>과 <strong>클리피씨 교정</strong>의 차이점은?</h2>
             <div class="cont con01">
@@ -170,7 +170,7 @@
     <section class="section07"></section>
     <section class="section08"></section>
 
-    <section class="section09">
+    <section class="section09 board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

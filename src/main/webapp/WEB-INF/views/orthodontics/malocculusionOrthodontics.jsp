@@ -7,7 +7,7 @@
     <h1 class="sub-page-title">부정교합 교정</h1>
     <p class="sub-page-intro">MALOCCULUSION ORTHODONTICS</p>
 
-    <section class="section01">
+    <section class="section01 section-top-title section-top-title-left">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section class="section03">
+    <section class="section03 list-content list-content-right">
         <div class="max-layout-width">
             <h2 class="section-title">
                 미소원치과의 수준 높은 교정치료<br>
@@ -167,7 +167,7 @@
         </div>
     </section>
 
-    <section class="section07">
+    <section class="section07 board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

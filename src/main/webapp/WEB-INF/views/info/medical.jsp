@@ -12,9 +12,9 @@
                 <div class="float-left">
                     <h5>안심에 안심을 더하는.</h5>
                     <h2 class="section-title">
-                        미소원치과의 <span class="bold section-title-color">진료보증제도,</span><br>
-                        <span class="bold section-title-color">꾸준한 관리</span>가<br>
-                        <span class="bold section-title-color">치아의 수명을 좌우</span>합니다.
+                        미소원치과의 <strong><span class="section-title-color">진료보증제도,</span></strong><br>
+                        <strong><span class="section-title-color">꾸준한 관리</span></strong>가<br>
+                        <strong><span class="section-title-color">치아의 수명을 좌우</span></strong>합니다.
                     </h2>
                 </div>
                 <div class="float-left text">
@@ -68,7 +68,7 @@
         </div>
         <div class="text">
             <h2 class="section-title">
-                <span class="bold section-title-color">미소원치과에 대한 믿음과 신뢰,</span><br>
+                <strong><span class="section-title-color">미소원치과에 대한 믿음과 신뢰,</span></strong><br>
                 책임감 있는 진료에서 시작됩니다.
             </h2>
             <p class="section-text">

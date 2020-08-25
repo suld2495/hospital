@@ -16,8 +16,10 @@
 
     <section class="tab-contents doctor-contents active">
         <div class="max-layout-width">
-            <h2 class="section-title"><span class="section-title-color bold">최적의 진료</span>와 환자의 상황에 알맞는</h2>
-            <h2 class="section-title"><span class="section-title-color bold">효율적인 치료</span>로 <span>최대한의 만족</span>을 드리는 <span>미소원치과</span></h2>
+            <h2 class="section-title">
+                <span class="section-title-color"><strong>최적의 진료</strong></span>와 환자의 상황에 알맞는<br>
+                <span class="section-title-color"><strong>효율적인 치료</strong></span>로 <strong>최대한의 만족</strong>을 드리는 <span class="section-title-color"><strong>미소원치과</strong></span>
+            </h2>
             <span class="small-line default-background"></span>
             <div class="img-box">
                 <ul>
@@ -78,7 +80,7 @@
                         <div class="image-box2"></div>
                     </div>
                 </div>
-                <div class="text text-left">
+                <div class="text">
                     <div class="max-layout-width position-relative">
                         <div class="title title-font">얼굴과 조화를 이루는 <span>균형잡힌 교정!</span></div>
                         <div class="title title-font last-title"><span>아름답고 당당한 미소를</span>찾아드립니다.</div>

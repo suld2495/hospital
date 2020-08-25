@@ -7,7 +7,7 @@
     <h1 class="sub-page-title">부분 교정</h1>
     <p class="sub-page-intro">PARTIAL ORTHODONTICS</p>
 
-    <section class="section01">
+    <section class="section01 section-top-title section-top-title-left">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -71,7 +71,7 @@
         </div>
     </section>
 
-    <section class="section04">
+    <section class="section04 list-content list-content-right">
         <div class="max-layout-width">
             <div class="image_box_left">
                 <p class="img"></p>
@@ -94,7 +94,7 @@
         </div>
     </section>
 
-    <section class="section05">
+    <section class="section05 section-quotes-title section-quotes-title-left">
         <div class="image_box_right">
             <p class="img"></p>
         </div>
@@ -119,7 +119,7 @@
 
     <section class="section06"></section>
 
-    <section class="section07">
+    <section class="section07 board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

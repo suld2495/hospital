@@ -3,11 +3,11 @@
 
 <link rel="stylesheet" href="<c:url value="/css/implant/fullImplants.css"/>" />
 
-<div class="sub-contents">
+<div class="sub-contents fullImplants">
     <h1 class="sub-page-title">전체 임플란트</h1>
     <p class="sub-page-intro">FULL IMPLANT</p>
 
-    <section class="section01">
+    <section class="section01 section-top-title section-top-title-left">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -59,9 +59,9 @@
         <div class="image_box_left img01">
             <p class="img"></p>
         </div>
+        <h3 class="move-title" data-bottom="transform:translate3d(50%,0, 0)" data-top="transform:translate3d(0%,0,0)">IMPLANT DENTURES</h3>
         <div class="max-layout-width">
             <div class="text-box left-text-box">
-                <h3 class="move-title" data-bottom="transform:translate3d(50%,0, 0)" data-top="transform:translate3d(0%,0,0)">IMPLANT DENTURES</h3>
                 <h2 class="section-title">
                     일반 틀니에 비해 저렴한<br>
                     <span class="section-title-color"><strong>임플란트틀니</strong></span>
@@ -96,7 +96,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section05">
+    <section class="section05 background-animation">
         <div class="max-layout-width">
             <h2><strong>임플란트 틀니의 장점</strong>은?</h2>
             <p>
@@ -200,23 +200,23 @@
             <ul>
                 <li class="img img01">
                     <h2>임플란트</h2>
-                    <p><strong>▪ 본인부담률</strong> : 진료비의 <span>30%</span></p>
-                    <p><strong>▪ 급여대상</strong> : 만 65세 이상 부분무치악환자</p>
-                    <p><strong>▪ 보험적용이 안되는경우</strong> : 완전무치악환자,임플란트를 위한 뼈이식 비용</p>
-                    <p><strong>▪ 적용개수</strong> : 상,하악 구분없이 1인당 평생 2개</p>
+                    <p><strong>본인부담률</strong> : 진료비의 <span>30%</span></p>
+                    <p><strong>급여대상</strong> : 만 65세 이상 부분무치악환자</p>
+                    <p><strong>보험적용이 안되는경우</strong> : 완전무치악환자,임플란트를 위한 뼈이식 비용</p>
+                    <p><strong>적용개수</strong> : 상,하악 구분없이 1인당 평생 2개</p>
                 </li>
                 <li class="img img02">
                     <h2>틀니</h2>
-                    <p><strong>▪ 본인부담률</strong> : 진료비의 <span>30%</span></p>
-                    <p><strong>▪ 급여대상</strong> : 만 65세 이상 건강보험 가입자 또는 피부양자</p>
-                    <p><strong>▪ 적용개수</strong> : 7년마다 1회씩</p>
-                    <p><strong>▪ 적용범위</strong> : 완전틀니(금속상,레진상),부분틀니</p>
+                    <p><strong>본인부담률</strong> : 진료비의 <span>30%</span></p>
+                    <p><strong>급여대상</strong> : 만 65세 이상 건강보험 가입자 또는 피부양자</p>
+                    <p><strong>적용개수</strong> : 7년마다 1회씩</p>
+                    <p><strong>적용범위</strong> : 완전틀니(금속상,레진상),부분틀니</p>
                 </li>
             </ul>
         </div>
     </section>
 
-    <section class="section08">
+    <section class="section08 board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>
@@ -252,5 +252,15 @@
 <script>
     $(function () {
         var s = skrollr.init();
+
+        $(window).scroll(function(){
+            var scrollTop = $(this).scrollTop();
+
+            if ($(window).scrollTop() > 2945){
+                var pos = (scrollTop - 3045) / 2;
+                $('.border').css('border-width', 80 - (Math.floor(pos)/2));
+            }
+
+        });
     })
 </script>

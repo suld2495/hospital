@@ -14,9 +14,11 @@
         <div class="max-layout-width text position-relative">
             <h6>ONE-STOP CARE SYSTEM</h6>
             <div class="position-relative">
-                <h2 class="section-title"><span class="bold">사랑니 따로, 임플란트 따로,</span></h2>
-                <h2 class="section-title"><span class="section-title-color bold">치아교정 따로</span> 여기저기</h2>
-                <h2 class="section-title">병원 찾아다니기 지치셨나요?</h2>
+                <h2 class="section-title">
+                    <span class="bold">사랑니 따로, 임플란트 따로,</span><br>
+                    <strong>치아교정 따로</strong> 여기저기<br>
+                    병원 찾아다니기 지치셨나요?
+                </h2>
             </div>
         </div>
         <div class="max-layout-width">
@@ -55,17 +57,21 @@
         <div class="max-layout-width position-relative">
             <div class="display-inline-block">
                 <div class="float-left">
-                    <h2 class="section-title bold">첨단 디지털 장비를 이용하여</h2>
-                    <h2 class="section-title bold">정확하고 완벽하게 진료하는</h2>
-                    <h2 class="section-title bold">미소원치과</h2>
+                    <h2 class="section-title bold">
+                        <strong>
+                            첨단 디지털 장비를 이용하여<br>
+                            정확하고 완벽하게 진료하는<br>
+                            미소원치과
+                        </strong>
+                    </h2>
                 </div>
                 <div class="float-right img02">
                     <p class="img"><img src="<c:url value='/images/sub/info/competitiveness/compet04.jpg' />"></p>
                     <div>
                         <p class="section-text">
-                            미소원치과는 환자의 편안한 진료를 위하여 <span>3D CT를 도입</span>하여,
-                            3차원으로 <span>주변 치아와 거리, 각도, 신경 위치를 촬영</span>하여,
-                            환자 <span>개인에게 최적화된 치과치료를 진행</span>하고 있습니다.
+                            미소원치과는 환자의 편안한 진료를 위하여 <strong>3D CT를 도입</strong>하여,
+                            3차원으로 <strong>주변 치아와 거리, 각도, 신경 위치를 촬영</strong>하여,
+                            환자 <strong>개인에게 최적화된 치과치료를 진행</strong>하고 있습니다.
                         </p>
                         <span class="detail"><a href="<c:url value='/digital_implants' /> ">디지털 장비 보러가기</a></span>
                     </div>
@@ -80,12 +86,14 @@
         <div class="max-layout-width">
             <h3 class="move-title bold" data-bottom="transform:translate3d(-50%,0, 0)" data-top="transform:translate3d(-5%,0,0)">INFECTION CONTROL</h3>
             <div class="text">
-                <h2 class="section-title">미소원치과의</h2>
-                <h2 class="section-title"><span class="bold section-title-color">철저한 감염 관리 시스템</span></h2>
+                <h2 class="section-title">
+                    미소원치과의<br>
+                    <strong><span class="section-title-color">철저한 감염 관리 시스템</span></strong>
+                </h2>
                 <p class="section-text">
-                    미소원치과에서는 핸드피스, 미러, 핀셋 등 진료에 <span class="bold">사용되는 모든 기구를 꼼꼼히 세척 후 전용 파우치에 개별 패킹 처리하여 멸균</span> 시킵니다.
+                    미소원치과에서는 핸드피스, 미러, 핀셋 등 진료에 <strong>사용되는 모든 기구를 꼼꼼히 세척 후 전용 파우치에 개별 패킹 처리하여 멸균</strong> 시킵니다.
                     <br/>
-                    또한, 환자에게 사용되는 <span class="bold">석션 팁과 글러브는 일회용품을 사용하며 1인 진료 후 곧바로 폐기합니다.</span>
+                    또한, 환자에게 사용되는 <strong>석션 팁과 글러브는 일회용품을 사용하며 1인 진료 후 곧바로 폐기합니다.</strong>
                 </p>
                 <div class="display-inline-block full-layout-width">
                     <div class="img-box">
@@ -134,13 +142,18 @@
             </div>
         </div>
         <div class="text">
-            <h2 class="section-title">여러분의 치아 건강을 책임지는</h2>
-            <h2 class="section-title bold">특별한 사후 관리,</h2>
-            <h2 class="section-title bold section-title-color">미소원치과의 진료 보증제도</h2>
+            <h2 class="section-title">
+                여러분의 치아 건강을 책임지는<br>
+                <strong>
+                    특별한 사후 관리,<br>
+                    <span class="section-title-color">미소원치과의 진료 보증제도</span>
+                </strong>
+
+            </h2>
             <p class="section-text">
                 미소원치과에서는 치과치료 후에도 철저한 사후관리와 치료비 부담을
-                덜어드리고자 <span>임플란트, 일반 보철, 교정 진료 보증 제도를 시행</span>하고 있습니다.
-                이 진료 보증 제도는 <span>자연치아를 살릴 수 있다는 미소원치과의 자신감</span>입니다.
+                덜어드리고자 <strong>임플란트, 일반 보철, 교정 진료 보증 제도를 시행</strong>하고 있습니다.
+                이 진료 보증 제도는 <strong>자연치아를 살릴 수 있다는 미소원치과의 자신감</strong>입니다.
                 여러분의 평생 의료진이 되겠습니다.
             </p>
             <span class="detail"><a href="<c:url value='/medical' /> ">자세히 보러가기</a></span>
