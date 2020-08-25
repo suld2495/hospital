@@ -21,6 +21,10 @@
                 <p>미소원치과는 이상적인 각도까지 생각해</p>
                 <p>얼굴과 조화를 이루는 균형잡힌 교정치료를 합니다.</p>
             </c:if>
+            <c:if test="${category eq 3}">
+                <p>자연치아를 최대한 보존하는 진료를 통하여</p>
+                <p>환자분의 건강한 치아를 지켜드립니다.</p>
+            </c:if>
         </div>
         <nav>
             <c:if test="${category eq 0}">
@@ -49,6 +53,14 @@
                     <li><a <c:if test="${path eq '/partial_orthodontics'}">class="active"</c:if> href="<c:url value="/partial_orthodontics"/>">부분교정</a></li>
                     <li><a <c:if test="${path eq '/malocculusion_orthodontics'}">class="active"</c:if> href="<c:url value="/malocculusion_orthodontics"/>">부정교합 교정</a></li>
                     <li><a <c:if test="${path eq '/growth_reriod_orthodontics'}">class="active"</c:if> href="<c:url value="/growth_reriod_orthodontics"/>">성장기 교정</a></li>
+                </ul>
+            </c:if>
+            <c:if test="${category eq 3}">
+                <ul>
+                    <li><a <c:if test="${path eq '/general'}">class="active"</c:if> href="<c:url value="/general"/>" >${urlName}</a></li>
+                    <li><a <c:if test="${path eq '/aesthetic'}">class="active"</c:if> href="<c:url value="/aesthetic"/>">${urlName}</a></li>
+                    <li><a <c:if test="${path eq '/wisdom'}">class="active"</c:if> href="<c:url value="/wisdom"/>">${urlName}</a></li>
+                    <li><a <c:if test="${path eq '/scaling'}">class="active"</c:if> href="<c:url value="/scaling"/>">${urlName}</a></li>
                 </ul>
             </c:if>
         </nav>

@@ -129,4 +129,32 @@ public class ClientController {
         model.addAttribute("urlName", "성장기 교정");
         return "/sub/orthodontics/growthReriodOrthodontics";
     }
+
+    @RequestMapping("general")
+    public String general(Model model) {
+        model.addAttribute("category", 3);
+        model.addAttribute("urlName", "충치/치주/신경치료");
+        return "sub/tooth/general";
+    }
+
+    @RequestMapping("aesthetic")
+    public String aesthetic(Model model) {
+        model.addAttribute("category", 3);
+        model.addAttribute("urlName", "심미보철치료");
+        return "sub/tooth/aesthetic";
+    }
+
+    @RequestMapping("wisdom")
+    public String wisdom(Model model) {
+        model.addAttribute("category", 3);
+        model.addAttribute("urlName", "사랑니 발치");
+        return "sub/tooth/wisdom";
+    }
+
+    @RequestMapping("scaling")
+    public String scaling(Model model) {
+        model.addAttribute("category", 3);
+        model.addAttribute("urlName", "스케일링");
+        return "sub/tooth/scaling";
+    }
 }
