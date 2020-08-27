@@ -57,10 +57,10 @@
             </c:if>
             <c:if test="${category eq 3}">
                 <ul>
-                    <li><a <c:if test="${path eq '/general'}">class="active"</c:if> href="<c:url value="/general"/>" >${urlName}</a></li>
-                    <li><a <c:if test="${path eq '/aesthetic'}">class="active"</c:if> href="<c:url value="/aesthetic"/>">${urlName}</a></li>
-                    <li><a <c:if test="${path eq '/wisdom'}">class="active"</c:if> href="<c:url value="/wisdom"/>">${urlName}</a></li>
-                    <li><a <c:if test="${path eq '/scaling'}">class="active"</c:if> href="<c:url value="/scaling"/>">${urlName}</a></li>
+                    <li><a <c:if test="${path eq '/general'}">class="active"</c:if> href="<c:url value="/general"/>" >충치/치주/신경치료</a></li>
+                    <li><a <c:if test="${path eq '/aesthetic'}">class="active"</c:if> href="<c:url value="/aesthetic"/>">심미보철치료</a></li>
+                    <li><a <c:if test="${path eq '/wisdom'}">class="active"</c:if> href="<c:url value="/wisdom"/>">사랑니 발치</a></li>
+                    <li><a <c:if test="${path eq '/scaling'}">class="active"</c:if> href="<c:url value="/scaling"/>">스케일링</a></li>
                 </ul>
             </c:if>
         </nav>
