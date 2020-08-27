@@ -1,1 +1,695 @@
-wisdom.css
+.tab-container {
+    display: none;
+}
+
+.tab-container.active {
+    display: block;
+}
+
+.section01 {
+    margin-top: 154px;
+}
+
+.section01 .text, .section01 .bg .max-layout-width {
+    padding-left: 50%;
+    max-width: inherit;
+    box-sizing: border-box;
+}
+
+.section01 .text > div, .section01 .bg .max-layout-width > div {
+    padding-left: 86px;
+}
+
+.section01 .bg .max-layout-width > div {
+    width: 570px;
+    word-break: keep-all;
+}
+
+.section01 .section-title {
+    line-height: 1.3;
+    display: inline-block;
+}
+
+.section01 .bg {
+    margin-top: 50px;
+    background: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.section01 .section-text {
+    line-height: 1.8;
+}
+
+.section01 .section-text:first-child {
+    margin-bottom: 43px;
+}
+
+.section01 .image_box_left {
+    width: 50%;
+    max-width: 1276px;
+    height: 552px;
+    top: -57px;
+}
+
+.section01 .img {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic01.jpg) no-repeat center;
+}
+
+
+.section02 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section02 .section-title {
+    margin-bottom: 45px;
+}
+
+.section02 ul {
+    overflow: hidden;
+    margin-left: -2%;
+}
+
+.section02 li {
+    width: 23%;
+    margin-left: 2%;
+    float: left;
+    padding-top: 54px;
+    background: #f3f3f3;
+    padding-bottom: 37px;
+}
+
+.section02 li p {
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: bold;
+    color: #222;
+    margin-top: 13px;
+}
+
+.section02 .img {
+    width: 100%;
+    height: 100px;
+}
+
+.section02 .img01 {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic_icon01.png) no-repeat top center;
+    background-position-y: 6px;
+}
+
+.section02 .img02 {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic_icon02.png) no-repeat top center;
+    background-position-y: 5px;
+}
+
+.section02 .img03 {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic_icon03.png) no-repeat top center;
+    background-position-y: 5px;
+}
+
+.section02 .img04 {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic_icon04.png) no-repeat top center;
+    background-position-y: 5px;
+}
+
+.section03 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section03 .section-title {
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.section03 .section-text {
+    margin-bottom: 70px;
+}
+
+.section03 .tab ul {
+    display: inline-block;
+    width: 100%;
+    margin-left: -0.23%;
+}
+
+.section03 .tab li {
+    width: 49.77%;
+    margin-left: 0.23%;
+    float: left;
+    font-size: 18px;
+    color: #a8a8a8;
+    background: #dfdfdf;
+    padding: 30px 0;
+    cursor: pointer;
+}
+
+.section03 .tab li.active {
+    background: #9a8b7e;
+    color: #fff;
+    position: relative;
+}
+
+.section03 .tab li.active:before {
+    width: 0px;
+    height: 0px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #9a8b7e;
+    content: '';
+    bottom: -12px;
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    z-index: 1;
+}
+
+
+.section04 {
+    position: relative;
+    padding-bottom: 90px;
+}
+
+.section04 .max-layout-width {
+    position: relative;
+    z-index: 2;
+}
+
+.section04 .tab-contents {
+    padding-top: 100px;
+}
+
+.section04 .tab-contents li {
+    overflow: hidden;
+}
+
+.section04 .tab-contents img {
+    width: 50%;
+    max-width: 650px;
+    float: left;
+}
+
+.section04 .tab-contents img + div {
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+    padding-top: 75px;
+}
+
+.section04 .tab-contents img + div h2 {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.section04 .tab-contents img + div p {
+    text-align: left;
+    line-height: 1.7;
+    padding-right: 70px;
+    word-break: keep-all;
+}
+
+.section02 .max-layout-width {
+    position: relative;
+    z-index: 2;
+}
+
+.section04 .bg {
+    background: #f3f3f3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.section05 {
+    margin-top: 100px;
+}
+
+.section05 .max-layout-width .text {
+    padding-right: 50%;
+}
+
+.section05 .max-layout-width .text > div {
+    padding-right: 90px;
+    position: relative;
+}
+
+.section05 .image_box_right {
+    max-width: 1276px;
+    height: 483px;
+    width: 50%;
+    z-index: 10;
+}
+
+.section05 .image_box_right .img {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic03.jpg) no-repeat center;
+}
+
+.section05 .section-title {
+    padding-top: 100px;
+    position: relative;
+    line-height: 1.3;
+    margin-bottom: 174px;
+    padding-left: 94px;
+    letter-spacing: -1px;
+}
+
+.section05 .max-layout-width .text > div:before {
+    background: url(../../images/sub/implant/digital/marks.png);
+    content: '';
+    width: 156px;
+    height: 134px;
+    position: absolute;
+    top: 0;
+}
+
+.section05 .section-text {
+    word-break: keep-all;
+    line-height: 1.7;
+    position: relative;
+    text-align: right;
+}
+
+.section05 .section-text:before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 103px;
+    background: #7f6a57;
+    top: -141px;
+    right: 0;
+}
+
+.section05 .bg {
+    background: #f5f5f5;
+    width: 64.65%;
+    position: absolute;
+    height: 305px;
+    left: 0px;
+    bottom: -80px;
+}
+
+.section05 .max-layout-width {
+    position: relative;
+    z-index: 10;
+}
+
+.section06 {
+    margin-top: 190px;
+}
+
+.section06 .section-title {
+    line-height: 1.3;
+    margin-bottom: 119px;
+    padding-top: 30px;
+}
+
+.section06 .section-text {
+    line-height: 1.7;
+    margin-bottom: 111px;
+}
+
+.section06 .image_box_left {
+    max-width: 1315px;
+    height: 433px;
+    width: 51.52%;
+    z-index: 1;
+}
+
+.section06 .img {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic10.jpg) no-repeat center;
+}
+
+.section06 .bg {
+    width: 55.29%;
+    position: absolute;
+    height: 343px;
+    right: 0px;
+    bottom: -60px;
+}
+
+.section06 .max-layout-width {
+    position: relative;
+    z-index: 2;
+}
+
+.section06 .pager {
+    font-size: 16px;
+    color: #222;
+    padding: 11px 0;
+    position: relative;
+    padding-left: 40px;
+    display: inline-block;
+    font-weight: bold;
+    /* cursor: pointer; */
+}
+
+.section06 .pager span {
+    display: none;
+    position: absolute;
+}
+
+.section06 .pager.active:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #111;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.section06 .pager.active span {
+    display: block;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    top: 7px;
+}
+
+.section06 .text {
+    padding-left:50%;
+}
+
+.section06 .text > div {
+    padding-left: 84px;
+}
+
+.section10 {
+    margin-top: 147px;
+    text-align: center;
+    margin-bottom: 206px;
+}
+
+.section10 .section-title {
+    line-height: 1.3
+}
+
+.section10 ul {
+    margin-top: 83px;
+    margin-left: -3.07%;
+    overflow: hidden;
+}
+
+.section10 ul li {
+    width: 46.93%;
+    float: left;
+    margin-left: 3.07%;
+    padding-top: 344px;
+}
+
+.section10 ul li:first-child {
+    background: url(../../images/sub/implant/digital/digital20.jpg) no-repeat top center;
+}
+
+.section10 ul li.last-img {
+    background: url(../../images/sub/implant/digital/digital21.jpg) no-repeat top center;
+}
+
+.section10 ul li p {
+    height: 113px;
+    background: #9b8b7e;
+    padding-left: 42px;
+    padding-right: 35px;
+    text-align: left;
+    position: relative;
+}
+
+.section10 ul li p span:first-child {
+    padding-top: 42px;
+    display: block;
+    font-size: 33px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section10 ul li p span.view {
+    position: absolute;
+    right: 78px;
+    top: 9px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.section10 ul li p span.view:after {
+    background: url(../../images/sub/implant/digital/digital_arrow.png) no-repeat top center;
+    content: '';
+    position: absolute;
+    right: -47px;
+    width: 33px;
+    height: 17px;
+    bottom: 0;
+}
+
+.section11 {
+    margin-top: 200px;
+    height: 700px;
+}
+
+.section11:before {
+    content: '';
+    background: url(../../images/sub/tooth/aesthetic/aesthetic_bg01.jpg) no-repeat center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.section11 .max-layout-width {
+    position: relative;
+    padding-top: 155px;
+    text-align: center;
+    color: #fff;
+}
+
+.section11 h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.section11 p {
+    line-height: 1.6;
+    font-size: 15px;
+    margin-bottom: 95px;
+}
+
+.section11 p span {
+    color: #c3b4a7;
+}
+
+.section11 ul {
+    overflow: hidden;
+}
+
+.section11 li {
+    width: 25%;
+    float: left;
+    padding-top: 131px;
+}
+
+.section11 .img01 {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic_icon05.png) no-repeat top center;
+}
+
+.section11 .img02 {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic_icon06.png) no-repeat top center;
+}
+
+.section11 .img03 {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic_icon07.png) no-repeat top center;
+}
+
+.section11 .img04 {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic_icon08.png) no-repeat top center;
+}
+
+.section11 .border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 300px solid #fff;
+    transition: .7s ease-out;
+    box-sizing: border-box;
+}
+
+
+.section12 {
+    margin-top: 190px;
+}
+
+.section12 .section-title {
+    line-height: 1.3;
+    margin-bottom: 119px;
+    padding-top: 30px;
+}
+
+.section12 .section-text {
+    line-height: 1.7;
+    margin-bottom: 111px;
+}
+
+.section12 .image_box_left {
+    max-width: 1315px;
+    height: 433px;
+    width: 51.52%;
+    z-index: 1;
+}
+
+.section12 .img {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic10.jpg) no-repeat center;
+}
+
+.section12 .bg {
+    width: 55.29%;
+    position: absolute;
+    height: 343px;
+    right: 0px;
+    bottom: -60px;
+}
+
+.section12 .max-layout-width {
+    position: relative;
+    z-index: 2;
+}
+
+.section12 .pager {
+    font-size: 16px;
+    color: #222;
+    padding: 11px 0;
+    position: relative;
+    padding-left: 40px;
+    display: inline-block;
+    font-weight: bold;
+    /* cursor: pointer; */
+}
+
+.section12 .pager span {
+    display: none;
+    position: absolute;
+}
+
+.section12 .pager.active:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #111;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.section12 .pager.active span {
+    display: block;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    top: 7px;
+}
+
+.section12 .text {
+    padding-left:50%;
+}
+
+.section12 .text > div {
+    padding-left: 84px;
+}
+
+.section13 {
+    margin-top: 150px;
+}
+
+.section13 .max-layout-width h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 56px;
+}
+
+.table-middle {
+    width: 180px;
+}
+
+.table-left, .table-right {
+    width: 559px;
+    font-size: 17px;
+    padding: 34px 0;
+    line-height: 1.7;
+}
+
+.table-middle {
+    padding: 51px 0;
+    font-size: 23px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-left: 1px solid #8f8f8f;
+    border-right: 1px solid #8f8f8f;
+}
+
+.cont ul {
+    overflow: hidden;
+}
+
+.cont li {
+    float: left;
+}
+
+.cont {
+    text-align: center;
+    border-bottom: 1px solid #8f8f8f;
+}
+
+.cont.con01 {
+    border-bottom: none;
+}
+
+.con01.cont li {
+    font-size: 23px;
+    color: #fff;
+    padding: 25px 0;
+    background: #8f8f8f;
+    line-height: 1;
+}
+
+.con01.cont li.table-right {
+    background: #9b8b7e;
+}
+
+.con01.cont li.table-middle {
+    background: #222;
+    color: #fff;
+}
+
+.con02.cont li {
+    line-height: inherit;
+    padding: 0;
+    height: 283px;
+}
+
+.con02.cont li.table-middle {
+    padding-top: 130px;
+    padding-bottom: 131px;
+}
+
+.section13 .img01 {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic06_1.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+
+.section13 .img02 {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic06_2.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+
+.con01 ~ div {
+    border-left: 1px solid #8f8f8f;
+    border-right: 1px solid #8f8f8f;
+    box-sizing: border-box;
+}

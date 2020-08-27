@@ -108,7 +108,7 @@
         </div>
     </section>
 
-    <section class="section05 section-quotes-title section-quotes-title-left">
+    <section class="section05">
         <div class="max-layout-width">
             <h2><strong>세리믹 교정</strong>과 <strong>클리피씨 교정</strong>의 차이점은?</h2>
             <div class="cont con01">
