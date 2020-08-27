@@ -1,1 +1,285 @@
-wisdom.css
+.section01 {
+    margin-top: 154px;
+}
+
+.section01 .text, .section01 .bg .max-layout-width {
+    padding-left: 50%;
+    max-width: inherit;
+    box-sizing: border-box;
+}
+
+.section01 .text > div, .section01 .bg .max-layout-width > div {
+    padding-left: 86px;
+}
+
+.section01 .bg .max-layout-width > div {
+    width: 570px;
+    word-break: keep-all;
+}
+
+.section01 .section-title {
+    line-height: 1.3;
+    display: inline-block;
+}
+
+.section01 .bg {
+    margin-top: 50px;
+    background: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.section01 .section-text {
+    line-height: 1.8;
+}
+
+.section01 .section-text:first-child {
+    margin-bottom: 43px;
+}
+
+.section01 .image_box_left {
+    width: 50%;
+    max-width: 1276px;
+    height: 552px;
+    top: -57px;
+}
+
+.section01 .img {
+    background: url(../../images/sub/tooth/wisdom/wisdom01.jpg) no-repeat center;
+}
+
+
+.section02 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section02 .section-title {
+    margin-bottom: 45px;
+}
+
+.section02 ul {
+    overflow: hidden;
+}
+
+.section02 li {
+    width: 25%;
+    float: left;
+    padding-top: 54px;
+    padding-bottom: 37px;
+}
+
+.section02 li {
+    border-right: 1px solid #c6c6c6;
+    box-sizing: border-box;
+}
+
+.section02 li:first-child {
+    border-left: 1px solid #c6c6c6;
+}
+
+.section02 li p {
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: bold;
+    color: #222;
+    margin-top: 13px;
+}
+
+.section02 .img {
+    width: 100%;
+    height: 100px;
+}
+
+.section02 .img01 {
+    background: url(../../images/sub/tooth/wisdom/wisdom_icon01.png) no-repeat top center;
+}
+
+.section02 .img02 {
+    background: url(../../images/sub/tooth/wisdom/wisdom_icon02.png) no-repeat top center;
+}
+
+.section02 .img03 {
+    background: url(../../images/sub/tooth/wisdom/wisdom_icon03.png) no-repeat top center;
+}
+
+.section02 .img04 {
+    background: url(../../images/sub/tooth/wisdom/wisdom_icon04.png) no-repeat top center;
+}
+
+.section03 {
+    margin-top: 100px;
+}
+
+.section03 .max-layout-width .text {
+    padding-right: 50%;
+}
+
+.section03 .max-layout-width .text > div {
+    padding-right: 90px;
+    position: relative;
+}
+
+.section03 .image_box_right {
+    max-width: 1276px;
+    height: 483px;
+    width: 50%;
+    z-index: 10;
+}
+
+.section03 .image_box_right .img {
+    background: url(../../images/sub/tooth/wisdom/wisdom02.jpg) no-repeat center;
+}
+
+.section03 .section-title {
+    padding-top: 100px;
+    position: relative;
+    line-height: 1.3;
+    margin-bottom: 174px;
+    padding-left: 94px;
+    letter-spacing: -1px;
+}
+
+.section03 .max-layout-width .text > div:before {
+    background: url(../../images/sub/implant/digital/marks.png);
+    content: '';
+    width: 156px;
+    height: 134px;
+    position: absolute;
+    top: 0;
+}
+
+.section03 .section-text {
+    word-break: keep-all;
+    line-height: 1.7;
+    position: relative;
+    text-align: right;
+}
+
+.section03 .section-text:before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 103px;
+    background: #7f6a57;
+    top: -141px;
+    right: 0;
+}
+
+.section03 .bg {
+    background: #f5f5f5;
+    width: 64.65%;
+    position: absolute;
+    height: 305px;
+    left: 0px;
+    bottom: -80px;
+}
+
+.section03 .max-layout-width {
+    position: relative;
+    z-index: 10;
+}
+
+.section04 ul {
+    overflow: hidden;
+    margin-left: -3%;
+    margin-top: 50px;
+}
+
+.section04 ul li {
+    width: 30.3333333333%;
+    margin-left: 3%;
+    float: left;
+}
+
+.section04 ul li img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section04 ul li h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section04 ul li p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 320px;
+    margin: 0 auto;
+    color: #4f4f4f;
+}
+
+.section04 {
+    margin-top: 170px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.section07 {
+    margin-top: 147px;
+    text-align: center;
+    margin-bottom: 206px;
+}
+
+.section07 .section-title {
+    line-height: 1.3
+}
+
+.section07 ul {
+    margin-top: 83px;
+    margin-left: -3.07%;
+    overflow: hidden;
+}
+
+.section07 ul li {
+    width: 46.93%;
+    float: left;
+    margin-left: 3.07%;
+    padding-top: 344px;
+}
+
+.section07 ul li:first-child {
+    background: url(../../images/sub/implant/digital/digital20.jpg) no-repeat top center;
+}
+
+.section07 ul li.last-img {
+    background: url(../../images/sub/implant/digital/digital21.jpg) no-repeat top center;
+}
+
+.section07 ul li p {
+    height: 113px;
+    background: #9b8b7e;
+    padding-left: 42px;
+    padding-right: 35px;
+    text-align: left;
+    position: relative;
+}
+
+.section07 ul li p span:first-child {
+    padding-top: 42px;
+    display: block;
+    font-size: 33px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section07 ul li p span.view {
+    position: absolute;
+    right: 78px;
+    top: 9px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.section07 ul li p span.view:after {
+    background: url(../../images/sub/implant/digital/digital_arrow.png) no-repeat top center;
+    content: '';
+    position: absolute;
+    right: -47px;
+    width: 33px;
+    height: 17px;
+    bottom: 0;
+}
