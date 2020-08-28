@@ -59,9 +59,9 @@
         </div>
         <div class="footer-link">
             <ul>
-                <li><a class="text-decoration-none font-15" href="<c:url value='' />">개인정보처리방침</a></li>
-                <li><a class="text-decoration-none font-15 " href="<c:url value='' />">이용약관</a></li>
-                <li><a class="text-decoration-none font-15" href="<c:url value='' />">영상정보처리기기운영관리지침</a></li>
+                <li><a class="text-decoration-none font-15" href="<c:url value='/private-policy' />">개인정보처리방침</a></li>
+                <li><a class="text-decoration-none font-15 " href="<c:url value='/terms' />">이용약관</a></li>
+                <li><a class="text-decoration-none font-15" href="<c:url value='/video-operations-management-guidelines' />">영상정보처리기기운영관리지침</a></li>
             </ul>
         </div>
     </div>

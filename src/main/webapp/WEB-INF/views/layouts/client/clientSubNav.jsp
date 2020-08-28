@@ -2,8 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <c:set var="path" value="${requestScope['javax.servlet.forward.servlet_path']}" />
-<c:set var="array" value="${fn:split('미소원치과,디지털 임플란트,디지털 치아교정,자연치아 클리닉,커뮤니티',',')}"/>
-<c:set var="urlArray" value="${fn:split('/intro,/digital_implants,디지털 치아교정,자연치아 클리닉,커뮤니티',',')}"/>
+<c:set var="array" value="${fn:split('미소원치과,디지털 임플란트,디지털 치아교정,자연치아 클리닉,커뮤니티,개인정보',',')}"/>
+<c:set var="urlArray" value="${fn:split('/intro,/digital_implants,/misowon_orthodontics,/general,커뮤니티',',')}"/>
 
 <div class="sub">
     <div class="sub-image">
@@ -24,6 +24,10 @@
             <c:if test="${category eq 3}">
                 <p>자연치아를 최대한 보존하는 진료를 통하여</p>
                 <p>환자분의 건강한 치아를 지켜드립니다.</p>
+            </c:if>
+            <c:if test="${category eq 5}">
+                <p>미소원치과에서는 고객님의 개인정보가</p>
+                <p>보호받을 수 있도록 최선을 다하겠습니다.</p>
             </c:if>
         </div>
         <nav>
@@ -84,7 +88,7 @@
     $(function() {
         var backgroundPrefix = 'images/sub/background/';
         var category = '${category}'
-        var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg'];
+        var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg', 'img_sub05.jpg', 'img_sub06.jpg'];
         $('.sub-image').css('background-image', 'url(' + backgroundPrefix + categoryBackground[category] + ')');
     })
 </script>

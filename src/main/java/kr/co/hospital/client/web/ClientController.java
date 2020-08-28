@@ -157,4 +157,27 @@ public class ClientController {
         model.addAttribute("urlName", "스케일링");
         return "/sub/tooth/scaling";
     }
+
+    @RequestMapping("/private-policy")
+    public String privatePolicy(Model model) {
+        model.addAttribute("category", 5);
+        model.addAttribute("urlName", "개인정보취급방침");
+        return "/sub/etc/privatePolicy";
+    }
+
+
+    @RequestMapping("/video-operations-management-guidelines")
+    public String videoOperationsManagementGuidelines(Model model) {
+        model.addAttribute("category", 5);
+        model.addAttribute("urlName", "영상정보처리기기 운영관리지침");
+        return "/sub/etc/video";
+    }
+
+
+    @RequestMapping("/terms")
+    public String terms(Model model) {
+        model.addAttribute("category", 5);
+        model.addAttribute("urlName", "이용약관");
+        return "/sub/etc/terms";
+    }
 }
