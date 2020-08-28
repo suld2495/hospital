@@ -1,0 +1,47 @@
+.privacy-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 90px;
+}
+
+.privacy-title.first-privacy-title {
+    margin-top: 0;
+}
+
+.privacy-text {
+    line-height: 1.5;
+}
+
+.privacy-text.margin {
+    margin-bottom: 40px;
+}
+
+.privacy-sub-title {
+    color: #9b8a7a;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    margin-top: 48px;
+}
+
+.privacy-list-text:before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: #222;
+    position: absolute;
+    left: 0;
+    top: 11px;
+}
+
+.privacy-list-text {
+    position: relative;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-left: 11px;
+}
+
+.privacy-text span {
+    color: #f66e24;
+}

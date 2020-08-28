@@ -1,0 +1,66 @@
+.section-title {
+    text-align: center;
+    line-height: 1.4;
+    border-top: 2px solid #838383;
+    margin-top: 50px;
+    padding-top: 70px;
+}
+
+.section-text {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.table {
+    margin-bottom: 60px;
+}
+
+.table h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.table ul {
+    border: 1px solid #d2d2d2;
+    background: #f7f7f7;
+    padding: 49px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.table ul li {
+    margin-bottom: 20px;
+}
+
+.date {
+    margin-top: 120px;
+    height: 130px;
+    text-align: center;
+    background: #f7f7f7;
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 200px;
+    padding: 36px 0 43px 0;
+    box-sizing: border-box;
+}
+
+.date p strong:before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: #222;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.date strong {
+    position: relative;
+    padding-left: 11px;
+}
+
+.date p {
+    line-height: 2;
+    position: relative;
+}
