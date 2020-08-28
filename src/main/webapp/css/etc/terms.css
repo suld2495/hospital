@@ -1,0 +1,53 @@
+.privacy-text span {
+    margin-top: 10px;
+    display: block;
+}
+
+#contents .privacy-title.first-privacy-title {
+    margin-top: 0;
+}
+
+#contents .privacy-title {
+    margin-top: 87px;
+}
+
+
+.privacy-list-text:before {
+    display: none;
+}
+
+.privacy-list-text .privacy-list-text:before {
+    display: block;
+}
+
+.privacy-list-text .privacy-list-text {
+    padding-left: 10px;
+}
+
+
+.privacy-list-text {
+    position: relative;
+    padding-left: 17px;
+    line-height: 1.7;
+}
+
+.privacy-list-text span {
+    position: absolute;
+    left: 0;
+}
+
+.margin-25 {
+    margin: 25px 0;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.max-layout-width {
+    margin-bottom: 140px;
+}
