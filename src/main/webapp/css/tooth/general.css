@@ -1,3 +1,11 @@
+.tab-container {
+    display: none;
+}
+
+.tab-container.active {
+    display: block;
+}
+
 .section01 {
     margin-top: 154px;
 }
@@ -52,12 +60,16 @@
     margin-top: 100px;
 }
 
+.tab-container3 .section04 {
+    margin-top: 190px;
+}
+
 .section04 .max-layout-width .text {
     padding-right: 50%;
 }
 
 .section04 .max-layout-width .text > div {
-    padding-right: 90px;
+    padding-right: 80px;
     position: relative;
 }
 
@@ -68,16 +80,27 @@
     z-index: 10;
 }
 
-.section04 .image_box_right .img {
+.tab-container1 .section04 .image_box_right .img {
     background: url(../../images/sub/tooth/general/decay03.jpg) no-repeat center;
 }
+
+
+.tab-container2 .section04 .image_box_right .img {
+    background: url(../../images/sub/tooth/general/periodontal06.jpg) no-repeat center;
+}
+
+
+.tab-container3 .section04 .image_box_right .img {
+    background: url(../../images/sub/tooth/general/neurotherapy07.jpg) no-repeat center;
+}
+
 
 .section04 .section-title {
     padding-top: 100px;
     position: relative;
     line-height: 1.3;
     margin-bottom: 174px;
-    padding-left: 94px;
+    padding-left: 54px;
     letter-spacing: -1px;
 }
 
@@ -154,12 +177,21 @@
 .section06 .bg {
     width: 100%;
     height: 100%;
-    background: url(../../images/sub/tooth/general/decay_bg.jpg) center top no-repeat fixed;
+
     padding-top: 159px;
     box-sizing: border-box;
     text-align: center;
     position: absolute;
 }
+
+.tab-container1 .section06 .bg {
+    background: url(../../images/sub/tooth/general/decay_bg.jpg) center top no-repeat fixed;
+}
+
+.tab-container2 .section06 .bg {
+    background: url(../../images/sub/tooth/general/periodontal08.jpg) center top no-repeat fixed;
+}
+
 
 .section10 {
     margin-top: 147px;
@@ -320,6 +352,7 @@
 .section02-1 .tab-contents img + div p {
     text-align: left;
     line-height: 1.7;
+    word-break: keep-all;
 }
 
 .section02 .max-layout-width {
@@ -385,6 +418,10 @@
     border-top: none;
 }
 
+.tab-container3 .section03 .img-col li:first-child {
+    padding: 138px 0;
+}
+
 .section03 .table {
     border: 1px solid #8f8f8f;
     box-sizing: border-box;
@@ -398,6 +435,11 @@
     border-top: 1px solid #8f8f8f;
     border-left: 1px solid #8f8f8f;
     box-sizing: border-box;
+}
+
+.tab-container3 .section03 .text-col li ~ li {
+    padding: 32px 0;
+    padding-bottom: 33px;
 }
 
 .section03 .text-col li:first-child + li {
@@ -498,4 +540,108 @@
     font-size: 20px;
     margin-bottom: 14px;
     color: #d7d6d6;
+}
+
+.section11 {
+    margin-top: 140px;
+}
+
+.section11 .section-title {
+    line-height: 1.3;
+    margin-bottom: 119px;
+    padding-top: 30px;
+}
+
+.tab-container3 .section11 .section-title {
+    margin-bottom: 50px;
+}
+
+.section11 .section-text {
+    line-height: 1.7;
+    margin-bottom: 111px;
+}
+
+.section11 .image_box_left {
+    max-width: 1315px;
+    height: 433px;
+    width: 51.52%;
+    z-index: 1;
+}
+
+.section11 .img {
+    background: url(../../images/sub/tooth/general/periodontal07.jpg) no-repeat center;
+}
+
+.tab-container3 .section11 .img {
+    background: url(../../images/sub/tooth/general/neurotherapy06.jpg) no-repeat center;
+}
+
+.section11 .bg {
+    background: #f5f5f5;
+    width: 55.29%;
+    position: absolute;
+    height: 343px;
+    right: 0px;
+    bottom: -60px;
+}
+
+.section11 .max-layout-width {
+    position: relative;
+    z-index: 2;
+}
+
+.section11 .pager {
+    font-size: 16px;
+    color: #222;
+    padding: 11px 0;
+    position: relative;
+    padding-left: 40px;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+}
+
+.section11 .pager:before {
+    position: absolute;
+    left: 0;
+    content: '';
+    top: 9px;
+    background: url(../../images/sub/orthodontics/malocculusion/check_icon.png) no-repeat center;
+    width: 19px;
+    height: 19px;
+}
+
+.section11 .pager span {
+    display: none;
+    position: absolute;
+}
+
+.section11 .pager.active:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #111;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.section11 .pager.active span {
+    display: block;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    top: 7px;
+}
+
+.tab-container3 .section11 .bg {
+    background: none;
+}
+
+.section11 .text {
+    padding-left:50%;
+}
+
+.section11 .text > div {
+    padding-left: 84px;
 }

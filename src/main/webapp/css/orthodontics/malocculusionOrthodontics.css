@@ -190,7 +190,7 @@
     position: relative;
 }
 
-.section04 .pager:before {
+.tab-contents5 .section04 .pager:before {
     position: absolute;
     left: 0;
     content: '';

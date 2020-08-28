@@ -51,7 +51,7 @@
         </div>
     </section>
 
-    <div class="tab-contents1">
+    <div class="tab-container tab-container1 active">
         <div class="section02-1">
             <div class="max-layout-width">
                 <div class="tab-contents">
@@ -146,7 +146,7 @@
                 <div class="text">
                     <div>
                         <h2 class="section-title">
-                            <strong>뽑지 않고 최대한 살리는<br>충치치료,</strong>빠르고 쉬운 충치 보철물 제작
+                            <strong>뽑지 않고 최대한 살리는<br>충치치료,</strong>빠르고 쉬운<br> 충치 보철물 제작
                         </h2>
                         <p class="section-text">
                             소중한 치아를 하루라도 더 오래쓸 수 있도록 미소원치과에서는 자연치아를 살리는 충치 치료를 우선합니다. 미소원치과는 기존 아날로그 방식이였던
@@ -202,6 +202,256 @@
         </section>
     </div>
 
+    <div class="tab-container tab-container2">
+        <div class="section02-1">
+            <div class="max-layout-width">
+                <div class="tab-contents">
+                    <ul>
+                        <li class="active">
+                            <img src="<c:url value='/images/sub/tooth/general/periodontal01.jpg' />">
+                            <div>
+                                <h2>치주(풍치)</h2>
+                                <p>
+                                    흔히 <strong>잇몸병</strong>이라고 하며 <strong>이를 감싸고 있는 잇몸과 잇몸뼈에 염증이 생기는 것</strong>을 말합니다.
+                                    치주질환은 <strong>치료시기를 놓치면 잇몸뼈가 녹아 치아를 약하게 만들어 흔들리다가 결국 발치 해야 하는 상황까지</strong> 불러올 수 있기 때문에
+                                    초기증상이 보이는 경우 하루빨리 치과에 내원하여 적절한 조치를 받아야 합니다.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg"></div>
+        </div>
+        <section class="section03">
+            <div class="max-layout-width">
+                <h2>치주질환(풍치) <strong>진행단계 및 치료방법</strong></h2>
+                <div class="table">
+                    <ul class="table-title">
+                        <li></li>
+                        <li>1단계 건강한 잇몸</li>
+                        <li>2단계 치은염</li>
+                        <li>3단계 진행된 치주염</li>
+                        <li>4단계 말기치주염</li>
+                    </ul>
+                    <ul class="img-col">
+                        <li>진행</li>
+                        <li><img src="<c:url value='/images/sub/tooth/general/periodontal02.jpg' /> "></li>
+                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/periodontal03.jpg' /> "></li>
+                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/periodontal04.jpg' /> "></li>
+                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/periodontal05.jpg' /> "></li>
+                    </ul>
+                    <ul class="text-col">
+                        <li>증상</li>
+                        <li>
+                            잇몸이 단단하고<br>
+                            연분홍색이며 칫솔질을 해도<br>
+                            피가 나지 않음
+                        </li>
+                        <li>
+                            칫솔질을 할 때 피가 나며,<br>
+                            잇몸이 붓고<br>
+                            검붉은 색으로 변함
+                        </li>
+                        <li>
+                            잇몸 사부가 치아로부터<br>
+                            분리되고 잇몸뿐만 아니라<br>
+                            치조골까지 염증이 퍼짐
+                        </li>
+                        <li>
+                            잇몸이 심하게 붓고 고름이<br>
+                            나오며,잇몸이 내려오면서<br>
+                            치아 뿌리가 드러나고 흔들림
+                        </li>
+                    </ul>
+                    <ul class="text-col">
+                        <li>치료</li>
+                        <li>
+                            연 2회 스케일링으로 치석제거<br>
+                            올바른 칫솔질과 치실사용으로<br>
+                            청결한 구강상태 유지
+                        </li>
+                        <li>
+                            잇몸 하방에 부착된 치석과<br>
+                            플라그를 스케일링 및<br>
+                            치근활택술로 깨끗하게 제거
+                        </li>
+                        <li>
+                            잇몸 하방에 다량의 치석 및<br>
+                            염증을 치주소파술로 깨끗하게<br>
+                            제거하고 잇몸뼈 손실 방지
+                        </li>
+                        <li class="text-one">
+                            치주 수술을 통해 치료
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section04 section-quotes-title section-quotes-title-right">
+            <div class="image_box_right">
+                <p class="img"></p>
+            </div>
+            <div class="max-layout-width">
+                <div class="text">
+                    <div>
+                        <h2 class="section-title">
+                            치조골이 절만만 남아있어도<br>
+                            <strong>치주치료를 통해 자연치아를<br>살릴 가능성</strong>이 있습니다.
+                        </h2>
+                        <p class="section-text">
+                            잇몸이 무너지면 치아도 무너집니다. 미소원치과는 치주질환으로 인해 손상된 치아를 발치하지 않고 전문적인 치료를 통해 자연치아를 살려
+                            건강하게 유지,사용할 수 있도록합니다. 또 다른 질환 발생의 원인이 되는 치주질환,소중한 자연치아를 위해 빠르게 치료받으세요.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg"></div>
+        </section>
+
+        <section class="section11">
+            <div class="max-layout-width">
+                <div class="image_box_left">
+                    <p class="img"></p>
+                </div>
+                <div class="text">
+                    <div>
+                        <h2 class="section-title">
+                            <span class="section-title-color bold">치주 질환치료</span>가 필요한 경우<br>
+                        </h2>
+                        <p class="pager">차거나 뜨거운 음식을 먹을 때 이가 시린 경우</p><br>
+                        <p class="pager">입맛이 둔해지고 입 냄새가 날 때</p><br>
+                        <p class="pager">통증으로 음식물 씹기가 어려운 경우</p><br>
+                        <p class="pager">잇몸이 느슨해지고 치아가 흔들릴 경우</p><br>
+                        <p class="pager">잇몸을 만지면 통증이 느껴지는 경우</p><br>
+                        <p class="pager">치열이 삐뚤어지고 치아의 위치가 변하는 경우</p><br>
+                    </div>
+                </div>
+            </div>
+            <div class="bg">
+            </div>
+        </section>
+
+        <section class="section06">
+            <div class="bg"></div>
+            <div class="max-layout-width">
+                <div class="text">
+                    <h2>
+                        미소원치과에서는 치료 전후에 재발하지 않기 위해 <strong>적절한 예방교육</strong>과 <strong><span>구취세균 검사 위상차현미경을 통한 세균 검사,타액검사 등 정밀검사</span></strong>
+                        를 통해 구강예방 관리를 시행하고 있습니다.
+                    </h2>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="tab-container tab-container3">
+        <div class="section02-1">
+            <div class="max-layout-width">
+                <div class="tab-contents">
+                    <ul>
+                        <li class="active">
+                            <img src="<c:url value='/images/sub/tooth/general/neurotherapy01.jpg' />">
+                            <div>
+                                <h2>신경치료</h2>
+                                <p>
+                                    치아 내부까지 충치가 깊어져 <strong>신경부근까지 염증이 새겼을 경우 신경조직을 치료하여 재발을 방지하는 치료</strong>를 말합니다.
+                                    신경치료는 치아 발치와 무분별한 임플란트 시술을 막고 <strong>자연치아를 보존하여 계속 사용할 수 있게 하는 방법</strong>입니다. 미소원치과만의
+                                    노하우로 치수만 제거하여 통증을 없애고 치아가 제 기능을 할 수 있도록 치료합니다.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg"></div>
+        </div>
+        <section class="section03">
+            <div class="max-layout-width">
+                <h2>신경치료 <strong>치료방법</strong></h2>
+                <div class="table">
+                    <ul class="table-title">
+                        <li></li>
+                        <li>1단계 감염된 치수</li>
+                        <li>2단계 치수제거 및 소독</li>
+                        <li>3단계 치아내부 충전</li>
+                        <li>4단계 보철물 장착</li>
+                    </ul>
+                    <ul class="img-col">
+                        <li>과정</li>
+                        <li><img src="<c:url value='/images/sub/tooth/general/neurotherapy02.jpg' /> "></li>
+                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/neurotherapy03.jpg' /> "></li>
+                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/neurotherapy04.jpg' /> "></li>
+                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/neurotherapy05.jpg' /> "></li>
+                    </ul>
+                    <ul class="text-col">
+                        <li>치료</li>
+                        <li>
+                            충치가 신경까지 진행된 겨우<br>
+                            신경치료를 시행
+                        </li>
+                        <li>
+                            오염된 신경을<br>
+                            제거하고 소독
+                        </li>
+                        <li>
+                            치아 뿌리와 머리 부분을<br>
+                            적절한 재료로 채워줌
+                        </li>
+                        <li>
+                            최종 보철물(크라운)을<br>
+                            씌워줌
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section11">
+            <div class="max-layout-width">
+                <div class="image_box_left">
+                    <p class="img"></p>
+                </div>
+                <div class="text">
+                    <div>
+                        <h2 class="section-title">
+                            <span class="section-title-color bold">신경치료</span>가 필요한 경우<br>
+                        </h2>
+                        <p class="pager">충치가 심해서 신경까지 염증이 발생한 경우</p><br>
+                        <p class="pager">외상으로 치아에 금이 가거나 부러지거나 흔들리는 경우</p><br>
+                        <p class="pager">과거에 신경치료를 받은 치아에 염증이 재발한 경우</p><br>
+                        <p class="pager">치아가 심하게 닳거나 패인 경우</p><br>
+                        <p class="pager">돌출된앞니의 심미 보철을 위한 경우</p><br>
+                        <p class="pager">치아를 씌우기 위해 많이 깎아야 하는 경우</p><br>
+                    </div>
+                </div>
+            </div>
+            <div class="bg">
+            </div>
+        </section>
+
+        <section class="section04 section-quotes-title section-quotes-title-right">
+            <div class="image_box_right">
+                <p class="img"></p>
+            </div>
+            <div class="max-layout-width">
+                <div class="text">
+                    <div>
+                        <h2 class="section-title">
+                            <strong>자연치아를 살리는<br>마지막 치료</strong>는 신경치료입니다.
+                        </h2>
+                        <p class="section-text">
+                            신경치료는 재충치를 마곡 장기적으로치아의 염증이 생기기 않도록 하는 치료입니다. 충치나 외상 등에 의해서 치아 내 신경이 자가 치유될 수 없을때 마지막 보존치료로 진행됩니다.<br>
+                            치아의 형태,증상에 따라 치료 기간이 늘어날 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg"></div>
+        </section>
+    </div>
+
     <section class="section07">
 
     </section>
@@ -237,3 +487,15 @@
         </div>
     </section>
 </div>
+
+<script>
+    $(function() {
+        $('.tab li').click(function() {
+            var index = $(this).index();
+            $('.tab li').removeClass('active');
+            $('.tab li').eq(index).addClass('active');
+            $('.tab-container').removeClass('active');
+            $('.tab-container' + (index + 1)).addClass('active');
+        });
+    });
+</script>
