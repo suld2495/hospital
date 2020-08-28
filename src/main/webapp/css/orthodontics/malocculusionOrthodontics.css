@@ -67,6 +67,19 @@
     text-align: center;
 }
 
+.tab-contents3 .section05 .max-layout-width .text {
+    padding-top: 82px;
+}
+
+
+.tab-contents4 .section05 .max-layout-width .text {
+    padding-top: 100px;
+}
+
+.tab-contents5 .section05 .max-layout-width .text {
+    padding-top: 95px;
+}
+
 .section05 .max-layout-width .text h2 {
     line-height: 1.4;
     margin-bottom: 40px;
@@ -75,10 +88,14 @@
 
 .section05 .max-layout-width .text p {
     font-size: 17px;
-    width: 549px;
+    /* width: 549px; */
     word-break: keep-all;
     margin: 0 auto;
     line-height: 1.7;
+}
+
+.tab-contents2 .section05 .max-layout-width .text p {
+    width: 1000px;
 }
 
 .section05 .max-layout-width .text p.star {
@@ -92,11 +109,33 @@
 .section05 .bg {
     width: 100%;
     height: 100%;
-    background: url(../../images/sub/orthodontics/malocculusion/malocclusion_bg01.jpg) center top no-repeat fixed;
     padding-top: 159px;
     box-sizing: border-box;
     text-align: center;
     position: absolute;
+}
+
+
+.tab-contents1 .section05 .bg {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion_bg01.jpg) center top no-repeat fixed;
+}
+
+.tab-contents2 .section05 .bg {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion_bg02.jpg) center top no-repeat fixed;
+}
+
+.tab-contents3 .section05 .bg {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion_bg03.jpg) center top no-repeat fixed;
+}
+
+
+.tab-contents4 .section05 .bg {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion_bg04.jpg) center top no-repeat fixed;
+}
+
+
+.tab-contents5 .section05 .bg {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion_bg05.jpg) center top no-repeat fixed;
 }
 
 
@@ -123,7 +162,7 @@
 }
 
 .section04 .img {
-    background: url(../../images/sub/orthodontics/malocculusion/malocclusion03.jpg) no-repeat center;
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion23.jpg) no-repeat center;
 }
 
 .section04 .bg {
@@ -148,7 +187,17 @@
     padding-left: 40px;
     display: inline-block;
     font-weight: bold;
-    /* cursor: pointer; */
+    position: relative;
+}
+
+.section04 .pager:before {
+    position: absolute;
+    left: 0;
+    content: '';
+    top: 9px;
+    background: url(../../images/sub/orthodontics/malocculusion/check_icon.png) no-repeat center;
+    width: 19px;
+    height: 19px;
 }
 
 .section04 .pager span {
@@ -342,11 +391,30 @@
 .section03 .img-box .img {
     width: 576px;
     height: 313px;
-    background: url(../../images/sub/orthodontics/malocculusion/malocclusion02.jpg) no-repeat top center;
     position: relative;
     z-index: 2;
     margin-left: 28px;
     margin-top: 28px;
+}
+
+.section03 .tab-contents1 .img {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion02.jpg) no-repeat top center;
+}
+
+.section03 .tab-contents2 .img {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion17.jpg) no-repeat top center;
+}
+
+.section03 .tab-contents3 .img {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion15.jpg) no-repeat top center;
+}
+
+.section03 .tab-contents4 .img {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion10.jpg) no-repeat top center;
+}
+
+.section03 .tab-contents5 .img {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion22.jpg) no-repeat top center;
 }
 
 .section03 .max-layout-width .con .img-box h2 {
@@ -382,6 +450,7 @@
     border: 1px solid #c9c9c9;
     display: inline-block;
     text-align: left;
+    cursor: pointer;
 }
 
 .section03 .text li.odd {
@@ -442,4 +511,76 @@
     text-align: center;
     font-weight: bold;
     font-size: 16px;
+}
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active {
+    display: block;
+}
+
+.section08 {
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+
+.section08 .max-layout-width {
+    position: relative;
+}
+
+.section08 .max-layout-width .text {
+    width: 50%;
+    padding-right: 50px;
+    box-sizing: border-box;
+    word-break: keep-all;
+}
+
+.section08 .section-title {
+    line-height: 1.3;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+
+
+.section08 .image_box_right {
+    max-width: 1315px;
+    height: 400px;
+    width: 50%;
+    z-index: 1;
+    top: 0;
+}
+
+.section08 .img {
+    background: url(../../images/sub/orthodontics/malocculusion/malocclusion24.jpg) no-repeat center;
+}
+
+.section09 {
+    background: #f5f5f5;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.section09 h2 {
+    font-size: 34px;
+}
+
+.section09 ul {
+    overflow: hidden;
+    margin-left: -1%;
+    margin-top: 50px;
+}
+
+.section09 li {
+    width: 32.33333333333%;
+    margin-left: 1%;
+    float: left;
+}
+
+.section09 li p {
+    line-height: 1.7;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
 }

@@ -593,6 +593,18 @@
     top: 7px;
 }
 
+
+.section12 .pager:before {
+    position: absolute;
+    left: 0;
+    content: '';
+    top: 9px;
+    background: url(../../images/sub/orthodontics/malocculusion/check_icon.png) no-repeat center;
+    width: 19px;
+    height: 19px;
+}
+
+
 .section12 .text {
     padding-left:50%;
 }
