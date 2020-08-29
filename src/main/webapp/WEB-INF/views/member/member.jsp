@@ -8,7 +8,7 @@
     <h1 class="sub-page-title">회원가입</h1>
     <p class="sub-page-intro">JOIN</p>
 
-    <form class="form" action="member_input" method="post">
+    <form class="form" action="<c:url value='/member_complete' />" method="post">
         <div class="max-layout-width">
             <div class="tab">
                 <ul>

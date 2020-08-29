@@ -204,7 +204,7 @@ public class ClientController {
         return "/sub/member/member";
     }
 
-    @RequestMapping("/member_complete")
+    @RequestMapping(value = "/member_complete", method = RequestMethod.POST)
     public String memberComplete(Model model) {
         model.addAttribute("category", 7);
         model.addAttribute("urlName", "회원가입");
