@@ -42,6 +42,7 @@
 label {
     color: #7e7e7e;
     margin-left: 42px;
+    cursor: pointer;
 }
 
 .privacy {

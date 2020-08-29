@@ -201,13 +201,13 @@ public class ClientController {
     public String memberInput(Model model) {
         model.addAttribute("category", 7);
         model.addAttribute("urlName", "회원가입");
-        return "/sub/login/memberInput";
+        return "/sub/member/memberInput";
     }
 
     @RequestMapping("/member_complete")
     public String memberComplete(Model model) {
         model.addAttribute("category", 7);
         model.addAttribute("urlName", "회원가입");
-        return "/sub/login/memberComplete";
+        return "/sub/member/memberComplete";
     }
 }
