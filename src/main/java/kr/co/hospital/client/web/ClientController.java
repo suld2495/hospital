@@ -201,7 +201,7 @@ public class ClientController {
     public String memberInput(Model model) {
         model.addAttribute("category", 7);
         model.addAttribute("urlName", "회원가입");
-        return "/sub/member/memberInput";
+        return "/sub/member/member";
     }
 
     @RequestMapping("/member_complete")
