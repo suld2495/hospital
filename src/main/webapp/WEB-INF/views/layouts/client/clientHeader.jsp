@@ -31,7 +31,7 @@
             <div class="header-member">
                 <div class="display-inline-block">
                     <div class="login-nav pointer">
-                        <a class="text-decoration-none" href="<c:url value='/' />">
+                        <a class="text-decoration-none" href="<c:url value='/login' />">
                             <img src="<c:url value='/images/cmmn/join.png' />" alt="로그인">
                             <p class="font-12">로그인</p>
                         </a>

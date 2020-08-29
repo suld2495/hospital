@@ -180,4 +180,12 @@ public class ClientController {
         model.addAttribute("urlName", "이용약관");
         return "/sub/etc/terms";
     }
+
+
+    @RequestMapping("/login")
+    public String login(Model model) {
+        model.addAttribute("category", 6);
+        model.addAttribute("urlName", "회원로그인");
+        return "/sub/login/login";
+    }
 }
