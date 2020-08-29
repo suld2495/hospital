@@ -19,7 +19,7 @@
         <div class="member-box">
             <div class="container">
                 <div class="member">
-                    <a>회원가입</a>
+                    <a href="<c:url value='/member_agreement' />">회원가입</a>
                     <a>아이디·비밀번호 찾기</a>
                 </div>
             </div>

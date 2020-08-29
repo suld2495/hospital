@@ -1,0 +1,84 @@
+.tab {
+    overflow: hidden;
+    margin-left: -1%;
+    margin-top: 65px;
+}
+
+.tab li {
+    width: 32.33333333%;
+    margin-left: 1%;
+    height: 95px;
+    float: left;
+    background: #eee;
+    box-sizing: border-box;
+    padding: 26px 0;
+    text-align: center;
+}
+
+.tab li > div {
+    display: inline-block;
+}
+
+.tab li span, .tab li > div > div {
+    float: left;
+    text-align: left;
+}
+
+.tab li span {
+    font-size: 50px;
+    font-weight: bold;
+    color: #222;
+    margin-top: -7px;
+    margin-right: 7px;
+}
+
+.tab li div h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.tab li div p {
+    font-size: 15px;
+}
+
+.tab li.active {
+    background: #9b8b7e;
+    color: #fff;
+}
+
+.tab li.active span {
+    color: #fff;
+}
+
+.button-box {
+    overflow: hidden;
+    margin-left: -3%;
+    margin-top: 110px;
+    margin-bottom: 437px;
+}
+
+.button-box button, .button-box a {
+    width: 47%;
+    margin-left: 3%;
+    float: left;
+    height: 63px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 21px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.left-button {
+    background: #000;
+    color: #fff;
+}
+
+.right-button {
+    background: #dbdbdb ;
+    color: #222;
+}

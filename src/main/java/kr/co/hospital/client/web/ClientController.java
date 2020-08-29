@@ -4,6 +4,7 @@ import kr.co.hospital.client.service.ClientService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class ClientController {
@@ -187,5 +188,26 @@ public class ClientController {
         model.addAttribute("category", 6);
         model.addAttribute("urlName", "회원로그인");
         return "/sub/login/login";
+    }
+
+    @RequestMapping("/member_agreement")
+    public String memberAgreement(Model model) {
+        model.addAttribute("category", 7);
+        model.addAttribute("urlName", "회원가입");
+        return "/sub/member/memberAgreement";
+    }
+
+    @RequestMapping(value = "/member_input", method = RequestMethod.POST)
+    public String memberInput(Model model) {
+        model.addAttribute("category", 7);
+        model.addAttribute("urlName", "회원가입");
+        return "/sub/login/memberInput";
+    }
+
+    @RequestMapping("/member_complete")
+    public String memberComplete(Model model) {
+        model.addAttribute("category", 7);
+        model.addAttribute("urlName", "회원가입");
+        return "/sub/login/memberComplete";
     }
 }

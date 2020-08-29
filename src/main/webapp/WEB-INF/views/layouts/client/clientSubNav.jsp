@@ -33,6 +33,10 @@
                 <p>미소원치과에 로그인 하시면 더욱</p>
                 <p>생생한 수술후기와 결과를 확인하실 수 있습니다.</p>
             </c:if>
+            <c:if test="${category eq 7}">
+                <p>미소원치과에 로그인 하시면 더욱</p>
+                <p>생생한 수술후기와 결과를 확인하실 수 있습니다.</p>
+            </c:if>
         </div>
         <nav>
             <c:if test="${category eq 0}">
@@ -92,7 +96,7 @@
     $(function() {
         var backgroundPrefix = 'images/sub/background/';
         var category = '${category}'
-        var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg', 'img_sub05.jpg', 'img_sub06.jpg', 'img_sub07.jpg'];
+        var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg', 'img_sub05.jpg', 'img_sub06.jpg', 'img_sub07.jpg', 'img_sub08.jpg'];
         $('.sub-image').css('background-image', 'url(' + backgroundPrefix + categoryBackground[category] + ')');
     })
 </script>

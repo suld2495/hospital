@@ -1,0 +1,49 @@
+.agreement {
+    margin-top: 83px;
+}
+
+.agreement > div {
+    overflow: hidden;
+}
+
+.agreement h3 {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 13px;
+    margin-bottom: 21px;
+}
+
+.agreement h3:before {
+    width: 4px;
+    height: 4px;
+    background: #111;
+    content: '';
+    contents: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+}
+
+.agreement h3 + div {
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    height: 250px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.radio-box {
+    display: inline-block;
+    float: right;
+}
+
+label {
+    color: #7e7e7e;
+    margin-left: 42px;
+}
+
+.privacy {
+    margin-top: 10px;
+}
