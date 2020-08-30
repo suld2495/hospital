@@ -4,6 +4,7 @@ import kr.co.hospital.mypage.service.MypageService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class MypageController {
@@ -32,5 +33,19 @@ public class MypageController {
         model.addAttribute("category", 8);
         model.addAttribute("urlName", "회원정보수정");
         return "/sub/mypage/mypageUpdate";
+    }
+
+    @RequestMapping(value = "/membership_widthdrawal", method = RequestMethod.GET)
+    public String membershipWithdrawal(Model model) {
+        model.addAttribute("category", 8);
+        model.addAttribute("urlName", "회원탈퇴");
+        return "/sub/mypage/membershipWithdrawal";
+    }
+
+    @RequestMapping(value = "/membership_widthdrawal", method = RequestMethod.POST)
+    public String membershipWithdrawalComplete(Model model) {
+        model.addAttribute("category", 8);
+        model.addAttribute("urlName", "회원탈퇴");
+        return "/sub/mypage/membershipWithdrawalComplete";
     }
 }
