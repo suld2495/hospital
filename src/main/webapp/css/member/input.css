@@ -129,9 +129,12 @@
 
 .table label {
     line-height: 40px;
+    padding: 3px 0;
     position: relative;
     padding-left: 50px;
     cursor: pointer;
+    float: left;
+    box-sizing: border-box;
 }
 
 .table label:before {
@@ -142,7 +145,7 @@
     content: '';
     position: absolute;
     left: 25px;
-    top: 4px;
+    top: 16px;
 }
 
 .table label:hover:before {
