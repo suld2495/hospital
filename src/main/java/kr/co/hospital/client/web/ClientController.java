@@ -210,4 +210,18 @@ public class ClientController {
         model.addAttribute("urlName", "회원가입");
         return "/sub/member/memberComplete";
     }
+
+    @RequestMapping(value = "/member_naver", method = RequestMethod.GET)
+    public String memberNaver(Model model) {
+        model.addAttribute("category", 7);
+        model.addAttribute("urlName", "회원가입");
+        return "/sub/member/memberNaver";
+    }
+
+    @RequestMapping("/member_kakao")
+    public String memberKakao(Model model) {
+        model.addAttribute("category", 7);
+        model.addAttribute("urlName", "회원가입");
+        return "/sub/member/memberKakao";
+    }
 }

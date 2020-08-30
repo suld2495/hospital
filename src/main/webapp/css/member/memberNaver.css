@@ -1,0 +1,26 @@
+.naver-login {
+    height: 44px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 16px 0;
+    width: 227px;
+    background: #3caa37;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    padding-left: 31px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.naver-login i {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: absolute;
+    left: 14px;
+    top: 11px;
+    background: url(../../images/sub/login/join_naver.png) center;
+}

@@ -71,6 +71,7 @@
     padding: 21px 0;
     text-align: center;
     cursor: pointer;
+    outline: none;
 }
 
 .left-button {
