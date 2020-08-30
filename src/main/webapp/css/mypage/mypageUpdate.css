@@ -128,7 +128,14 @@
     margin-bottom: 165px;
 }
 
-.button-box button {
+.button-box a {
+    color: #222;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+
+.button-box button, .button-box a {
     width: 32.3333333333%;
     margin-left: 1%;
     float: left;
@@ -137,6 +144,7 @@
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+    background: #dbdbdb;
 }
 
 .button-box button.active {

@@ -158,7 +158,7 @@
                 <div class="button-box">
                     <button type="submit" class="active">회원정보 수정</button>
                     <button type="reset">취소</button>
-                    <button type="button">회원탈퇴</button>
+                    <a href="<c:url value='/'/>">회원탈퇴</a>
                 </div>
             </div>
         </form>
