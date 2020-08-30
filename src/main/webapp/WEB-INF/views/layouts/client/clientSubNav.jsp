@@ -79,13 +79,6 @@
                     <li><a <c:if test="${path eq '/scaling'}">class="active"</c:if> href="<c:url value="/scaling"/>">스케일링</a></li>
                 </ul>
             </c:if>
-            <c:if test="${category eq 8}">
-                <ul>
-                    <li><a <c:if test="${path eq '/mypage_reservation'}">class="active"</c:if> href="<c:url value="/mypage_reservation"/>" >예약내역</a></li>
-                    <li><a <c:if test="${path eq '/mypage_consult'}">class="active"</c:if> href="<c:url value="/mypage_consult"/>">온라인 상담</a></li>
-                    <li><a <c:if test="${path eq '/mypage_update'}">class="active"</c:if> href="<c:url value="/mypage_update"/>">회원정보수정</a></li>
-                </ul>
-            </c:if>
         </nav>
         <div class="breadcrumb max-layout-width">
             <ul class="display-inline-block">

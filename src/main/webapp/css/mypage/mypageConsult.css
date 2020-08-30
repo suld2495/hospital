@@ -1,0 +1,92 @@
+.table {
+    margin-top: 62px;
+    border-top: 2px solid #838383;
+}
+
+.table ul {
+    overflow: hidden;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.table li {
+    height: 65px;
+    float: left;
+}
+
+.table li {
+    font-size: 17px;
+    text-align: center;
+    float: left;
+    padding: 23px 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.table .no, .table .type {
+    width: 6%;
+}
+
+.table li.title {
+    width: 59%;
+}
+
+.table .name {
+    width: 9%;
+}
+
+.table .date, .table .state {
+    width: 10%;
+}
+
+.write-con {
+    text-align: right;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+.write-con a {
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+    background: #998b7e;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 17px;
+    padding: 15px 0;
+}
+
+.search {
+    width: 620px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 110px;
+}
+
+.search span {
+    float: left;
+}
+
+.search span select, .search span span {
+    height: 54px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.search span select {
+    width: 190px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.search span span {
+    width: 420px;
+    padding: 13px 0 13px 30px;
+}
+
+.search input {
+    font-size: 17px;
+    width: 90%;
+    border: none;
+    outline: none;
+}
