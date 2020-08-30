@@ -9,7 +9,7 @@
     <h1 class="sub-page-title">회원가입</h1>
     <p class="sub-page-intro">JOIN</p>
 
-    <form class="form" action="<c:url value='/member_naver' />" method="PUT">
+    <form class="form" action="<c:url value='/member_kakao' />" method="PUT">
         <div class="max-layout-width">
             <div class="table">
                 <ul>
@@ -18,7 +18,7 @@
                             <strong>SNS로그인 연동</strong>
                         </div>
                         <div class="input">
-                            <span class="naver-login login"><i class="naver"></i>네이버 아이디로 로그인</span>
+                            <span class="login kakao-login"><i class="kakao"></i>카카오 아이디로 로그인</span>
                         </div>
                     </li>
                     <li class="id-con add-text">

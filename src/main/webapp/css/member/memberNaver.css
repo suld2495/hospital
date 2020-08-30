@@ -1,26 +1,50 @@
-.naver-login {
+.login {
     height: 44px;
     display: inline-block;
     box-sizing: border-box;
-    padding: 16px 0;
+    padding: 16px 0 16px 31px;
     width: 227px;
-    background: #3caa37;
-    color: #fff;
+
     border-radius: 4px;
     text-align: center;
     position: relative;
-    padding-left: 31px;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
 }
 
-.naver-login i {
-    width: 22px;
-    height: 22px;
+.naver-login {
+    background: #3caa37;
+    color: #fff;
+}
+
+.kakao-login {
+    background: #fee02a;
+    color: #222;
+}
+
+.login i {
     display: inline-block;
     position: absolute;
     left: 14px;
     top: 11px;
-    background: url(../../images/sub/login/join_naver.png) center;
+}
+
+.naver-login i {
+    width: 22px;
+    height: 22px;
+    background: url(../../images/sub/login/join_naver.png);
+    background-size: contain;
+}
+
+.kakao-login i {
+    width: 25px;
+    height: 25px;
+    background: url(../../images/sub/login/join_kakao.png);
+    background-size: contain;
+    left: 16px;
+}
+
+.button-box {
+    margin-bottom: 205px;
 }
