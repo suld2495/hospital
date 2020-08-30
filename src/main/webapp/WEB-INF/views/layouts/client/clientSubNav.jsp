@@ -2,8 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <c:set var="path" value="${requestScope['javax.servlet.forward.servlet_path']}" />
-<c:set var="array" value="${fn:split('미소원치과,디지털 임플란트,디지털 치아교정,자연치아 클리닉,커뮤니티,개인정보,회원로그인',',')}"/>
-<c:set var="urlArray" value="${fn:split('/intro,/digital_implants,/misowon_orthodontics,/general,커뮤니티,/login',',')}"/>
+<c:set var="array" value="${fn:split('미소원치과,디지털 임플란트,디지털 치아교정,자연치아 클리닉,커뮤니티,개인정보,회원로그인,회원가입,마이페이지',',')}"/>
+<c:set var="urlArray" value="${fn:split('/intro,/digital_implants,/misowon_orthodontics,/general,커뮤니티,/login,/member_agreement,/mypage_reservation',',')}"/>
 
 <div class="sub">
     <div class="sub-image">
@@ -36,6 +36,10 @@
             <c:if test="${category eq 7}">
                 <p>미소원치과에 로그인 하시면 더욱</p>
                 <p>생생한 수술후기와 결과를 확인하실 수 있습니다.</p>
+            </c:if>
+            <c:if test="${category eq 8}">
+                <p>내 정보 관리와 미소원치과 예약내역을</p>
+                <p>확인하실 수 있습니다.</p>
             </c:if>
         </div>
         <nav>
@@ -75,6 +79,13 @@
                     <li><a <c:if test="${path eq '/scaling'}">class="active"</c:if> href="<c:url value="/scaling"/>">스케일링</a></li>
                 </ul>
             </c:if>
+            <c:if test="${category eq 8}">
+                <ul>
+                    <li><a <c:if test="${path eq '/mypage_reservation'}">class="active"</c:if> href="<c:url value="/mypage_reservation"/>" >예약내역</a></li>
+                    <li><a <c:if test="${path eq '/mypage_consult'}">class="active"</c:if> href="<c:url value="/mypage_consult"/>">온라인 상담</a></li>
+                    <li><a <c:if test="${path eq '/mypage_update'}">class="active"</c:if> href="<c:url value="/mypage_update"/>">회원정보수정</a></li>
+                </ul>
+            </c:if>
         </nav>
         <div class="breadcrumb max-layout-width">
             <ul class="display-inline-block">
@@ -96,7 +107,7 @@
     $(function() {
         var backgroundPrefix = 'images/sub/background/';
         var category = '${category}'
-        var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg', 'img_sub05.jpg', 'img_sub06.jpg', 'img_sub07.jpg', 'img_sub08.jpg'];
+        var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg', 'img_sub05.jpg', 'img_sub06.jpg', 'img_sub07.jpg', 'img_sub08.jpg', 'img_sub09.jpg'];
         $('.sub-image').css('background-image', 'url(' + backgroundPrefix + categoryBackground[category] + ')');
     })
 </script>
