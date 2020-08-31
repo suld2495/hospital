@@ -269,3 +269,7 @@ p + .dec-title {
 .staff-info-box {
     padding-bottom: 145px;
 }
+
+.doctor-contents .section-title {
+    line-height: 1.3;
+}
