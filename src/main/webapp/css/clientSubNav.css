@@ -120,3 +120,7 @@
     border-bottom: 2px solid #fffeff;
     box-sizing: border-box;
 }
+
+.sub-image {
+    height: 538px;
+}
