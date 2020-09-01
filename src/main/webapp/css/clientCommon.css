@@ -212,7 +212,7 @@ strong {
 /* treatment-case */
 .treatment-case {
     padding: 140px 0;
-    background: #f5f5f5;
+    background: #f5f5f5 url(../images/sub/implant/cmmn/digital_bg3.jpg) center;
 }
 
 .treatment-case .treatment-case-slider {
