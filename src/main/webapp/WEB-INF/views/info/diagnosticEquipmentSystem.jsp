@@ -266,6 +266,8 @@
             slidesToShow: 1,
             centerMode: true,
             variableWidth: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
             customPaging: function(slider, i) {
                 return $(pagination[i]);
             }
