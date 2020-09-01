@@ -1,6 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
+<link rel="stylesheet" href="<c:url value="/lib/fade-slider/slider.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/implant/navigationImplants.css"/>" />
 
 <div class="sub-contents navigationImplants">
@@ -124,8 +127,72 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section06">
+    <section class="section06 left-fade-slider-container">
+        <div class="max-layout-width">
+            <h2 class="section-title">
+                <strong><span class="section-title-color">
+                    모의시술 / 최소 절개<br>
+                    빠른 회복 / 높은 성공률<br>
+                </span></strong>
+                네비게이션 임플란트 <strong>치료 단계</strong>
+            </h2>
 
+            <div class="numbers">
+                <span class="current">01</span>
+                <span class="max">04</span>
+            </div>
+        </div>
+        <div class="slider-container post-slider">
+            <div class="left-fade-sldier posts">
+                <div class="slides">
+                    <div class="slide" data-index="01">
+                        <div class="swiper-slide">
+                            <div class="img01 img"></div>
+                            <div class="text">
+                                <h2>CT 촬영 및 구강 스캔</h2>
+                                <p>
+                                    스캐너를 이용한 3D 구강영상과 CT촬영을 통해 얻어진 정밀 영상을 동시에 이용하여 정밀 구강 구조를 파악
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-index="02">
+                        <div class="swiper-slide">
+                            <div class="img02 img"></div>
+                            <div class="text">
+                                <h2>식립계획 및 모의 수술</h2>
+                                <p>
+                                    시술 전 보철물의 형태와 임플란트가 식립될 최적의 위치를 파악하여 골조직 및 신경위치를 확인하여 임플란트 시술 계획
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-index="03">
+                        <div class="swiper-slide">
+                            <div class="img03 img"></div>
+                            <div class="text">
+                                <h2>맞춤형 가이드 제작</h2>
+                                <p>
+                                    오차없는 식립을 위해 구강용 정밀 3D 프린터를 이용하여 환자에게 맞는 맞춤형 시술유도장치를 제작
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-index="04">
+                        <div class="swiper-slide">
+                            <div class="img04 img"></div>
+                            <div class="text">
+                                <h2>맞춤형 임플란트 시술</h2>
+                                <p>
+                                    제작된 맞춤형 수술유도장치를 이용해 정확한 위치에 임플란트 식립,인접치아의 균형과 교합을 고려한 최종 보철물 제작
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg"></div>
     </section>
 
     <section class="section07 table">
@@ -200,6 +267,35 @@
         </div>
     </section>
 
+    <section class="section09 treatment-case">
+        <div class="max-layout-width">
+            <div class="treatment-case-scroll-bar">
+                <div class="treatment-case-scroll-bar-drag"></div>
+            </div>
+            <div class="treatment-case-slider">
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+            </div>
+            <div class="text">
+                <h2>미소원치과 치료사례</h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
     <section class="section08 board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
@@ -225,3 +321,11 @@
         </div>
     </section>
 </div>
+
+<script src="<c:url value='/lib/fade-slider/jquery.easing.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/Hammer.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/slider.js' />"></script>
+
+<script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
+<script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
+<script src="<c:url value="/js/cmmn/slider.js" />"></script>
