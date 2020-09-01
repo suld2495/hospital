@@ -1,6 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/jquery-ui/jquery-ui.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
 <link rel="stylesheet" href="<c:url value="/css/implant/digitalImplants.css"/>" />
 
 <div class="sub-contents digitalImplants">
@@ -189,11 +192,160 @@
     </section>
 
     <section class="section08">
-
+        <div class="max-layout-width">
+            <div class="title">
+                <h2>
+                    <strong>미소원 임플란트가 특별한 이유</strong>
+                </h2>
+                <p>씹는 즐거움을 위해 빠른회복을 유도하는 미소원 임플란트의 특별함</p>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">01</span>
+                        <h2 class="section-title">
+                            자연치아와 같은<br>
+                            <strong>편안하고 자연스러움</strong>
+                        </h2>
+                        <p class="section-text">
+                            임플란트는 자연치아와 거의 같아 심미적으로 우수하며 씹는 능력 또한
+                            자연치아와 거의 같아 단단한 음식도 잘 씹을 수 있습니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img01"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">02</span>
+                        <h2 class="section-title">
+                            첨단장비로 안전하고<br>
+                            <strong>정확하게 진료하여 성공률을 높입니다.</strong>
+                        </h2>
+                        <p class="section-text">
+                            미소원치과는 3차원 입체 CT, 파노라마, 고정도 측정기 등 첨단장비로 정확히 진단하여 맞춤형
+                            치료계획을 세우며 사전치료를 진행하여 튼튼한 잇몸과 잇몸뼈를 구죽합니다.
+                            또한 모의수술 진행으로 안전하고 만족스러운 결과를 제시하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img02"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">03</span>
+                        <h2 class="section-title">
+                            정품 재료만을 사용합니다<br>
+                        </h2>
+                        <p class="section-text">
+                            미소원치과는 품질이 인증된 우수한 정품 브랜드만을 엄선하여 사용함으로써 만족도 높은 임플란트 치료 결과를 추구하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img03"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">04</span>
+                        <h2 class="section-title">
+                            본인에게 꼭 맞는<br>
+                            <strong>임플란트를 제작합니다</strong>
+                        </h2>
+                        <p class="section-text">
+                            임플란트는 자연치아와 거의 같아 심미적으로 우수하며 씹는 능력 또한
+                            자연치아와 거의 같아 단단한 음식도 잘 씹을 수 있습니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img04"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">05</span>
+                        <h2 class="section-title">
+                            철저한 위생관리로<br>
+                            <strong>2차 감염을 예방합니다.</strong>
+                        </h2>
+                        <p class="section-text">
+                            미소원치과는 위생과 안전을 생각하는 환자중심의 진료를 하고 있습니다.
+                            환자분들이 위생적이고 청결한 진료환경에서 안심하고 진료 받을 수 있도록 철저하게 소독하고 멸균된 재료와 도구들을 사용하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img05"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">06</span>
+                        <h2 class="section-title">
+                            최소한의 통증으로<br>
+                            수술 시 환자분의<br>
+                            <strong>심적 부담을 덜어드립니다.</strong>
+                        </h2>
+                        <p class="section-text">
+                            미소원치과에서 가능한 아프지 않고 편안하게 치료받으실 수 있도록 환자를 위한 최소통증 마취시스템을 진행합니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img06"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">07</span>
+                        <h2 class="section-title">
+                            임플란트 시술 후에도<br>
+                            끝까지 책임지는 미소원치과의<br>
+                            <strong>임플란트 보증제 미소원치과는 수술</strong>
+                        </h2>
+                        <p class="section-text">
+                            전보다 수술 후를 더 중요하게 생각합니다. 진료보증제도를 통해 사후관리도 꼼꼼하게
+                            도와드립니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img07"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-bar">
+                <div class="scroll-bar-drag"></div>
+            </div>
+        </div>
     </section>
 
-    <section class="section09 treatment-case">
-
+    <section class="section10 treatment-case">
+        <div class="max-layout-width">
+            <div class="treatment-case-scroll-bar">
+                <div class="treatment-case-scroll-bar-drag"></div>
+            </div>
+            <div class="treatment-case-slider">
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+            </div>
+            <div class="text">
+                <h2>미소원치과 치료사례</h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
+                </p>
+            </div>
+        </div>
     </section>
 
     <section class="section09 board-link">
@@ -221,3 +373,40 @@
         </div>
     </section>
 </div>
+
+
+<script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
+<script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
+<script src="<c:url value="/js/cmmn/slider.js" />"></script>
+<script>
+    $(function () {
+        var width = 131.142;
+
+        $('.swiper-container').on('afterChange', function(slick, currentSlide) {
+            var index = (currentSlide.slickCurrentSlide()) % 7;
+            $('.scroll-bar-drag').css('left',  width * index + 'px');
+        });
+        $('.swiper-container').slick({
+            infinite: true,
+            dots: false,
+            arrows: false,
+            slidesToShow: 1,
+            fade: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
+        });
+
+        $('.scroll-bar-drag').draggable({
+            containment: ".scroll-bar",
+            axis: "x",
+            stop: function() {
+                var self = this;
+                setTimeout(function() {
+                    var left = Math.round(parseInt($(self).css('left')) / width);
+                    $('.scroll-bar-drag').css('left',  width * left + 'px');
+                    $('.swiper-container').slick('slickGoTo', left);
+                }, 500);
+            }
+        });
+    })
+</script>

@@ -7,9 +7,9 @@ section {
     position: relative;
 }
 
-/* ---- 디자인 공통 ---- */
+/* ---- ë””ìžì¸ ê³µí†µ ---- */
 
-/* 서브 타이틀 */
+/* ì„œë¸Œ íƒ€ì´í‹€ */
 .sub-page-title {
     font-size: 43px;
     font-weight: bold;
@@ -30,7 +30,7 @@ section {
 
 
 
-/* 좌우로 붙는 이미지 */
+/* ì¢Œìš°ë¡œ ë¶™ëŠ” ì´ë¯¸ì§€ */
 .image_box_left {
     position: absolute;
     left: 0;
@@ -206,4 +206,81 @@ strong {
 .section-top-title-left .max-layout-width {
     max-width: 100%;
     box-sizing: border-box;
+}
+
+
+/* treatment-case */
+.treatment-case {
+    padding: 140px 0;
+    background: #f5f5f5;
+}
+
+.treatment-case .treatment-case-slider {
+    width: 868px;
+    height: 329px;
+    overflow: hidden;
+}
+
+.treatment-case .max-layout-width {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.treatment-case .max-layout-width > div {
+    float: left;
+}
+
+.treatment-case .max-layout-width .text {
+    width: 432px;
+    box-sizing: border-box;
+    padding-left: 63px;
+}
+
+.treatment-case .max-layout-width .text h2 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.treatment-case .max-layout-width .text p {
+    line-height: 1.7;
+    word-break: keep-all;
+}
+
+.treatment-case .treatment-case-swiper-slide {
+    overflow: hidden;
+}
+
+.treatment-case .treatment-case-swiper-slide div {
+    width: 434px;
+    height: 329px;
+    float: left;
+    overflow: hidden;
+}
+
+.treatment-case .left-img1 {
+    background: url(../images/sub/implant/cmmn/case_after01.jpg);
+}
+
+.treatment-case .right-img1 {
+    background: url(../images/sub/implant/cmmn/case_before01.jpg);
+}
+
+.treatment-case .treatment-case-scroll-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 868px;
+    height: 3px;
+    background: #ccc;
+}
+
+.treatment-case .treatment-case-scroll-bar-drag {
+    width: 289.33px;
+    background: #76695e;
+    height: 3px;
+    transition: left 500ms;
+    cursor: pointer;
 }
