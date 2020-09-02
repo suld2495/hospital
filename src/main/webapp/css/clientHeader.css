@@ -5,7 +5,7 @@ header .header-banner-slider-continer .bx-wrapper {
 }
 
 .header-panel .header-banner-slider-continer {
-    padding-top: 29px;
+    padding-top: 12px;
 }
 
 .header-banner-close {
@@ -38,7 +38,7 @@ header .header-banner-slider-continer .bx-wrapper {
 
 .header-panel {
     width: 100%;
-    margin-top: 24px;
+    margin-top: 9px;
     padding: 0 43px;
     box-sizing: border-box;
 }
@@ -50,6 +50,7 @@ header .header-banner-slider-continer .bx-wrapper {
 
 .header-logo {
     text-align: center;
+    margin-top: 6px;
 }
 
 .header-member {
@@ -58,6 +59,7 @@ header .header-banner-slider-continer .bx-wrapper {
 
 .header-member > div {
     margin-right: 4px;
+    padding-bottom: 11px;
 }
 
 .header-member > div > div {
@@ -134,8 +136,8 @@ header .cmmn-nav nav li a.active {
 }
 
 header .cmmn-nav nav {
-    margin-top: 19px;
-    margin-bottom: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 header .header-line {
