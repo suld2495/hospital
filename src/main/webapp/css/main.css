@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .section01 {
     margin-bottom: 180px;
 }
@@ -124,11 +128,11 @@
     left: 0;
     width: 0;
     height: 0;
-    background-color: #f8b922;
-    background: -webkit-gradient(linear, left top, right top, from(#f8b922), to(#ffe960));
-    background: -webkit-linear-gradient(left, #f8b922 0%, #ffe960 100%);
-    background: -o-linear-gradient(left, #f8b922 0%, #ffe960 100%);
-    background: linear-gradient(to right, #f8b922 0%, #ffe960 100%);
+    background-color: #9a8b7e;
+    background: -webkit-gradient(linear, left top, right top, from(#9a8b7e), to(#9a8b7e));
+    background: -webkit-linear-gradient(left, #9a8b7e 0%, #9a8b7e 100%);
+    background: -o-linear-gradient(left, #9a8b7e 0%, #9a8b7e 100%);
+    background: linear-gradient(to right, #9a8b7e 0%, #9a8b7e 100%);
 }
 
 .img-box li:after, .slide-box:after {
@@ -136,11 +140,11 @@
     left: 0;
     width: 0;
     height: 0;
-    background-color: #f8b922;
-    background: -webkit-gradient(linear, left bottom, left top, from(#ffe960), to(#f8b922));
-    background: -webkit-linear-gradient(bottom, #ffe960 0%, #f8b922 100%);
-    background: -o-linear-gradient(bottom, #ffe960 0%, #f8b922 100%);
-    background: linear-gradient(to top, #ffe960 0%, #f8b922 100%);
+    background-color: #9a8b7e;
+    background: -webkit-gradient(linear, left bottom, left top, from(#9a8b7e), to(#9a8b7e));
+    background: -webkit-linear-gradient(bottom, #9a8b7e 0%, #9a8b7e 100%);
+    background: -o-linear-gradient(bottom, #9a8b7e 0%, #9a8b7e 100%);
+    background: linear-gradient(to top, #9a8b7e 0%, #9a8b7e 100%);
 }
 
 .img-box li div:before, .slide-box div:before {
@@ -148,11 +152,11 @@
     right: 0;
     width: 0;
     height: 0;
-    background-color: #f8b922;
-    background: -webkit-gradient(linear, right top, left top, from(#f8b922), to(#ffe960));
-    background: -webkit-linear-gradient(right, #f8b922 0%, #ffe960 100%);
-    background: -o-linear-gradient(right, #f8b922 0%, #ffe960 100%);
-    background: linear-gradient(to left, #f8b922 0%, #ffe960 100%);
+    background-color: #9a8b7e;
+    background: -webkit-gradient(linear, right top, left top, from(#9a8b7e), to(#9a8b7e));
+    background: -webkit-linear-gradient(right, #9a8b7e 0%, #9a8b7e 100%);
+    background: -o-linear-gradient(right, #9a8b7e 0%, #9a8b7e 100%);
+    background: linear-gradient(to left, #9a8b7e 0%, #9a8b7e 100%);
 }
 
 .img-box li div:after, .slide-box div:after {
@@ -160,11 +164,11 @@
     right: 0;
     width: 0;
     height: 0;
-    background-color: #f8b922;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ffe960), to(#f8b922));
-    background: -webkit-linear-gradient(top, #ffe960 0%, #f8b922 100%);
-    background: -o-linear-gradient(top, #ffe960 0%, #f8b922 100%);
-    background: linear-gradient(to bottom, #ffe960 0%, #f8b922 100%);
+    background-color: #9a8b7e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9a8b7e), to(#9a8b7e));
+    background: -webkit-linear-gradient(top, #9a8b7e 0%, #9a8b7e 100%);
+    background: -o-linear-gradient(top, #9a8b7e 0%, #9a8b7e 100%);
+    background: linear-gradient(to bottom, #9a8b7e 0%, #9a8b7e 100%);
 }
 
 .img-box li:hover:before, .img-box li div:hover:before,
@@ -247,14 +251,15 @@
 }
 
 .section03 .bg {
-    background: url(../images/main/main04.jpg) no-repeat right center;
+    background: url(../images/main/main04_1.jpg) no-repeat center;
     background-size: contain;
     position: absolute;
-    top: 220px;
-    left: 0;
+    top: 110px;
     bottom: 130px;
     right: 0;
-    display: none;
+    height: 533px;
+    width: 46.7%;
+    background-size: cover;
 }
 
 .section03 .text {
@@ -354,7 +359,7 @@
 .review span {
     font-size: 85px;
     position: absolute;
-    color: #b06756;
+    color: #9a8b7e;
     display: inline-block;
     top: -50px;
     left: -12px;
@@ -365,8 +370,9 @@
     position: absolute;
     width: 1px;
     height: 131px;
-    background: #995445;
+    background: #9a8b7e;
     top: 15px;
+    right: -20px;
 }
 
 .review-text {
@@ -383,11 +389,12 @@
 
 .review-text p {
     font-size: 15px;
-    color: #a97675;
+    color: #939393;
 }
 
 .section04 .bx-wrapper {
     margin-left: auto;
+    width: 1700px;
 }
 
 .section04 .bx-viewport {
@@ -397,6 +404,7 @@
 .section06 {
     margin-top: 275px;
     text-align: center;
+    clear: left;
 }
 
 .section06 h4 {
@@ -414,6 +422,7 @@
     position: absolute;
     bottom: 0;
     right: -309px;
+    display: none;
 }
 
 .section06 h4 span {
@@ -433,6 +442,7 @@
 
 .section06 .bx-wrapper {
     margin: 0 auto;
+    width: 1300px;
 }
 
 .section06 .bx-wrapper .bx-controls-direction a {
@@ -496,12 +506,15 @@
 body .section07 .bx-wrapper {
     margin-left: auto;
     margin-right: 0;
+    top: -270px;
+    left: 370px;
+    width: 1700px;
 }
 
 body .section07 .bx-pager-link {
     margin-bottom: 54px;
     position: relative;
-    display: block;
+    display: inline-block;
 }
 
 body .section07 .bx-pager-link.active:after {
@@ -735,4 +748,91 @@ body .section07 .bx-pager-link span + span {
 
 .section09 .bx-wrapper {
     margin-bottom: 0;
+}
+
+.slider-box {
+    position: relative;
+}
+
+.slider-box .bx-wrapper {
+    position: absolute;
+}
+
+.section05 {
+    margin-top: 280px;
+}
+
+.section05 .section-title {
+    line-height: 1.3;
+}
+
+.section05 .section-text {
+    line-height: 1.7;
+    width: 400px;
+    word-break: keep-all;
+    position: relative;
+}
+
+.section05 .section-text:before {
+    width: 350px;
+    height: 4px;
+    background: #9a8b7e;
+    position: absolute;
+    content: '';
+    bottom: -65px;
+}
+
+.section05 .doctor-slider > div {
+    width: 412px;
+    height: 323px;
+}
+
+.section05 .doctor-slider .img01 {
+    background: url(../images/main/doctor01_s.jpg) no-repeat center;
+}
+
+.section05 .doctor-slider .img02 {
+    background: url(../images/main/doctor02_s.jpg) no-repeat center;
+}
+
+.section05 .doctor-slider .img03 {
+    background: url(../images/main/doctor03_s.jpg) no-repeat center;
+}
+
+.section05 .big-img {
+    position: relative;
+}
+
+.section05 .big-img > div {
+    width: auto;
+    height: 703px;
+}
+
+.section05 .big-img .img {
+    width: 492px;
+    height: 703px;
+    position: absolute;
+}
+
+.section05 .big-img .cont01 .img {
+    background: url(../images/main/docter01_b.jpg) no-repeat center;
+}
+
+.section05 .slider-container > div {
+    float: left;
+    margin-right: 80px;
+}
+
+.section05 .slider-container {
+    float: right;
+    margin-top: -230px;
+}
+
+.section05 .bx-wrapper {
+    margin-top: 380px;
+}
+
+.section05 .text {
+    padding-left: 547px;
+    width: 445px;
 }

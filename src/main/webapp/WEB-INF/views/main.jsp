@@ -81,8 +81,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="bg"></div>
         </div>
+        <div class="bg"></div>
     </div>
     <div class="section04">
         <div class="text max-layout-width position-relative">
@@ -91,24 +91,67 @@
             <p>다녀가신 환자분들의 후기로 현재의 미소원치과를 만나보세요</p>
             <span class="details-link pointer">자세히보기</span>
         </div>
-        <div class="review">
-            <c:forEach begin="0" end="4" varStatus="status">
-                <div>
-                    <img src="<c:url value='/images/main/review0${status.count % 4 + 1}.jpg' />">
-                    <div class="position-relative">
-                        <span>${status.count}</span>
-                        <div class="review-text">
-                            <h4>임플란트</h4>
-                            <p>의사선생님께</p>
+        <div class="max-layout-width">
+            <div class="review">
+                <c:forEach begin="0" end="4" varStatus="status">
+                    <div>
+                        <img src="<c:url value='/images/main/review0${status.count % 4 + 1}.jpg' />">
+                        <div class="position-relative">
+                            <span>${status.count}</span>
+                            <div class="review-text">
+                                <h4>임플란트</h4>
+                                <p>의사선생님께</p>
+                            </div>
+                        </div>
+                    </div>
+                </c:forEach>
+            </div>
+        </div>
+    </div>
+    <div class="section05 display-none">
+        <div class="max-layout-width">
+            <h2 class="section-title">
+                정직하게 진료하고<br>
+                <span class="section-title-color">연구하는 의료진</span>
+            </h2>
+            <p class="section-text">
+                미소원치과의 의료진은 끊임없이 연구하며 환자를 최우선으로 생각하고 언제나 최선의 결과로 보답합니다.
+            </p>
+            <div class="slider-container">
+                <div class="doctor-slider">
+                    <div class="img01"></div>
+                    <div class="img02"></div>
+                    <div class="img03"></div>
+                </div>
+                <div class="big-img">
+                    <div class="cont01">
+                        <div class="img"></div>
+                        <div class="text">
+                            <div class="title">
+                                <span>곽진원</span>
+                                <span>원장</span>
+                            </div>
+                            <p class="sub-text">
+                                섬세한 진료로 마음 편안하게,<br>
+                                환자와의 신뢰가 먼저입니다.
+                            </p>
+                            <h5>약력</h5>
+                            <p class="dc">
+                                치의학 박사 / 전문의<br/>
+                                부산대학교 치과대학 졸업<br/>
+                                부산대학교 치의학대학원 석사<br/>
+                                부산대학교 치의학대학원 박사<br/>
+                                통합치의학과 전문의 취득<br/>
+                                대한 치과마취과학회 정회원<br/>
+                                대한 치과보철학회 정회원<br/>
+                                대한 치과마취과학회 정회원<br/>
+                                대한 구강악안면임플란트학회 정회원<br/>
+                                대한통합치과학회 정회원<br/>
+                            </p>
                         </div>
                     </div>
                 </div>
-            </c:forEach>
-        </div>
-    </div>
-    <div class="section05">
-        <div>
-
+            </div>
         </div>
     </div>
     <div class="section06">
@@ -138,8 +181,8 @@
             <h4>편안하고 정확한 <span>디지털 치과에서의 경험</span></h4>
             <h4>이제, 당신 차례입니다</h4>
         </div>
-        <div class="display-inline-block full-layout-width">
-            <div class="slider-pagenation float-left">
+        <div class="slider-box max-layout-width">
+            <div class="slider-pagenation">
                 <div class="bx-pager-item">
                     <a href="" data-slide-index="0" class="bx-pager-link text-decoration-none">
                         <span>01</span>
@@ -332,5 +375,22 @@
                 $('.current-count').text(numberPad(newIndex + 1, 2));
             }
         })
+
+        $('.doctor-slider').bxSlider({
+            controls: false,
+            pager: false,
+            slideWidth: 412,
+            minSlides: 2,
+            maxSlides: 2,
+            moveSlides: 1,
+            slideMargin: 80,
+        });
     });
+
+    $(window).load(function () {
+        var width = $('.section05 .bx-wrapper').width() + $('.section05 .big-img').width()
+            + parseInt($('.section05 .bx-wrapper').css('margin-right')) + parseInt($('.section05 .big-img').css('margin-right'));
+        $('.section05 .slider-container').width(width);
+        $('.section05 .slider-container').width(width);
+    })
 </script>
