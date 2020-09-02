@@ -6,7 +6,7 @@
     position: relative;
     background-size: cover;
     box-sizing: border-box;
-    padding-top: 131px;
+    padding-top: 178px;
     height: 100%;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .sub nav {
-    height: 68px;
+    height: 57px;
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -41,7 +41,7 @@
 
 .sub nav li {
     float: left;
-    padding: 0 40px;
+    padding: 0 36px;
 }
 
 .sub nav a {
@@ -50,7 +50,7 @@
     text-decoration: none;
     color: #fefefe;
     font-size: 16px;
-    line-height: 68px;
+    line-height: 57px;
     position: relative;
 }
 
@@ -84,7 +84,7 @@
 
 .breadcrumb > ul {
     position: absolute;
-    top: 78px;
+    top: 58px;
     right: 0;
 }
 
