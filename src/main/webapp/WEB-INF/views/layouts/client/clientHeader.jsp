@@ -3,7 +3,7 @@
 <div>
     <div class="header-banner-slider-continer">
         <div class="header-banner-slider">
-            <div><img src="<c:url value='/images/cmmn/top_banner01.jpg' />" alt="미소원치과에서 임플란트로 새 삶을 찾다!"></div>
+            <div><img src="<c:url value='/images/cmmn/top_banner01_1.jpg' />" alt="미소원치과에서 임플란트로 새 삶을 찾다!"></div>
         </div>
         <div class="header-banner-close-continer max-layout-width">
             <div class="header-banner-close pointer">
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="header-logo">
-                <img src="<c:url value='/images/cmmn/logo_pc.png' />">
+                <img src="<c:url value='/images/cmmn/logo_pc_1.png' />">
             </div>
             <div class="header-member">
                 <div class="display-inline-block">

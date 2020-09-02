@@ -5,7 +5,7 @@ header .header-banner-slider-continer .bx-wrapper {
 }
 
 .header-panel .header-banner-slider-continer {
-    padding-top: 29px;
+    padding-top: 2px;
 }
 
 .header-banner-close {
@@ -113,7 +113,7 @@ header .cmmn-nav nav li {
     text-align: center;
     box-sizing: border-box;
     height: 18px;
-    line-height: 18px;
+    line-height: 16px;
 }
 
 header .cmmn-nav nav li a {
@@ -134,13 +134,13 @@ header .cmmn-nav nav li a.active {
 }
 
 header .cmmn-nav nav {
-    margin-top: 22px;
-    margin-bottom: 30px;
+    margin-top: 19px;
+    margin-bottom: 18px;
 }
 
 header .header-line {
     background: #bbb;
     height: 1px;
     width: 100%;
-    margin: 20px 0;
+    margin: 16px 0;
 }

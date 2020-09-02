@@ -3,7 +3,7 @@ section {
 }
 
 .section01 {
-    margin-top: 100px;
+    /* margin-top: 65px; */
 }
 
 .section01, .section01 .max-layout-width {
@@ -13,7 +13,7 @@ section {
 .section01 .img01 {
     width: 41.3401%;
     max-width: 1055px;
-    height: 468px;
+    height: 473px;
     bottom: 0;
 }
 
@@ -24,7 +24,7 @@ section {
 }
 
 .section01 .text-box {
-    padding-left: 57.5%;
+    padding-left: 55.5%;
 }
 
 .section01 .img01 .img {
@@ -32,21 +32,22 @@ section {
 }
 
 .section01 .img02 .img {
-    background: url(../../images/sub/info/intro/intro01.jpg) center;
+    background: url(../../images/sub/info/intro/intro01.jpg) no-repeat center;
 }
 
 .section01 .text-box {
-    padding-top: 91px;
+    padding-top: 60px;
     position: relative;
 }
 
 .section01 .text-box h2 + p {
-    margin-top: 134px;
+    margin-top: 111px;
 }
 
 .last-section-text {
     margin-top: 42px;
     padding-bottom: 341px;
+    letter-spacing: -1.3px;
 }
 
 .last-section-title {
@@ -60,8 +61,8 @@ section {
     width: 634px;
     height: 3px;
     background: #7e6956;
-    bottom: -70px;
-    left: -98px;
+    bottom: -58px;
+    left: -71px;
 }
 
 .move-title {
@@ -80,8 +81,9 @@ section {
 .link {
     color: #4f4f4f;
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 32px;
     display: inline-block;
+    letter-spacing: -1.3px;
 }
 
 .link:after {
@@ -95,7 +97,7 @@ section {
 }
 
 .section02 {
-    margin-top: 142px;
+    margin-top: 71px;
 }
 
 .section02 .img01 {
@@ -106,7 +108,7 @@ section {
 }
 
 .section02 .img {
-    background: url(../../images/sub/info/intro/intro02.jpg) center;
+    background: url(../../images/sub/info/intro/intro02.jpg) no-repeat top center;
 }
 
 .section02 .section-text {
@@ -116,16 +118,17 @@ section {
 }
 
 .section02 .text-box h2 + p {
-    margin-top: 46px;
+    margin-top: 25px;
     margin-bottom: 66px;
+    letter-spacing: -1.3px;
 }
 
 .section02 .text-box, .section04 .text-box {
-    padding-top: 146px;
+    padding-top: 144px;
 }
 
 .section02 .move-title, .section04 .move-title {
-    top: 0;
+    top: 27;
 }
 
 .section02 .section-text span {
@@ -133,7 +136,7 @@ section {
 }
 
 .section03, .section04 {
-    margin-top: 142px;
+    margin-top: 16px;
 }
 
 .section03 .img01 {
@@ -143,8 +146,12 @@ section {
     top: 0;
 }
 
+.section03 {
+    margin-top: 71px;
+}
+
 .section03 .img {
-    background: url(../../images/sub/info/intro/intro03.jpg) center;
+    background: url(../../images/sub/info/intro/intro03.jpg) no-repeat top center;
 }
 
 .section03 .text-box {
@@ -153,20 +160,22 @@ section {
 }
 
 .section03 .move-title {
-    top: 0;
+    top: 27px;
 }
 
 .section03 .section-text {
     width: 620px;
+    letter-spacing: -1.3px;
 }
 
 .section03 .link {
-    margin-top: 56px;
+    margin-top: 48px;
     margin-bottom: 141px;
 }
 
 .section04 .section-text {
     width: 620px;
+    letter-spacing: -1.3px;
 }
 
 .section04 .link {
@@ -182,14 +191,15 @@ section {
 }
 
 .section04 .img {
-    background: url(../../images/sub/info/intro/intro04.jpg) center;
+    background: url(../../images/sub/info/intro/intro04.jpg) no-repeat top center;
 }
 
 .section05 {
-    margin-top: 181px;
-    padding-top: 151px;
-    padding-bottom: 146px;
+    margin-top: 28px;
+    padding-top: 96px;
+    padding-bottom: 90px;
     background: #f5f5f5;
+    margin-top: 11px;
 }
 
 .container {
@@ -199,7 +209,9 @@ section {
 
 .section05 .container p {
     font-size: 23px;
-    line-height: 33px;
+    line-height: 35px;
+    letter-spacing: -1.8px;
+    margin-top: 4px;
 }
 
 .section05 .container p + h2 {
@@ -234,9 +246,11 @@ section {
 }
 
 .image-container h5 {
-    font-size: 21px;
+    font-size: 23px;
     font-width: bold;
-    margin-top: 37px;
+    margin-top: 33px;
+    letter-spacing: -1px;
+    font-weight: 700;
 }
 
 .image-container p {
@@ -246,7 +260,7 @@ section {
 
 .section05 .image-container li > div {
     overflow: hidden;
-    height: 330px;
+    height: 275px;
 }
 
 .section05 .image-container li .img_bg {
@@ -263,42 +277,42 @@ section {
 }
 
 .img_bg1 {
-    background: url(../../images/sub/info/intro/misowon01.jpg);
+    background: url(../../images/sub/info/intro/misowon01.jpg) no-repeat;
 }
 
 .img_bg2 {
-    background: url(../../images/sub/info/intro/misowon02.jpg);
+    background: url(../../images/sub/info/intro/misowon02.jpg) no-repeat;
 }
 
 .img_bg3 {
-    background: url(../../images/sub/info/intro/misowon03.jpg);
+    background: url(../../images/sub/info/intro/misowon03.jpg) no-repeat;
 }
 
 .img_bg4 {
-    background: url(../../images/sub/info/intro/misowon04.jpg);
+    background: url(../../images/sub/info/intro/misowon04.jpg) no-repeat;
 }
 
 .img_bg5 {
-    background: url(../../images/sub/info/intro/misowon05.jpg);
+    background: url(../../images/sub/info/intro/misowon05.jpg) no-repeat;
 }
 
 .img_bg6 {
-    background: url(../../images/sub/info/intro/misowon06.jpg);
+    background: url(../../images/sub/info/intro/misowon06.jpg) no-repeat;
 }
 
 .img-bg-box {
-    margin-top: 35px;
+    margin-top: 29px;
 }
 
 .section06 {
-    margin-top: 146px
+    margin-top: 81px;
 }
 
 .section06 .text > div.img_bg {
     width: 100%;
-    height: 511px;
-    background: url('../../images/sub/info/intro/intro05.jpg');
-    margin-top: 108px;
+    height: 473px;
+    background: url('../../images/sub/info/intro/intro05.jpg') no-repeat;
+    margin-top: 51px;
 }
 
 .section06 .text > div {
@@ -316,6 +330,7 @@ section {
 .section06 .text > div:first-child h2 {
     padding: 9px 0;
     margin: 0;
+    padding-top: 27px;
 }
 
 .section06 .text > div:first-child:after {
@@ -325,21 +340,22 @@ section {
     height: 100%;
     background: #7e6956;
     right: 0px;
-    top: 2px;
+    top: 15px;
 }
 
 .last-text {
-    padding-left: 92px;
+    padding-left: 51px;
     box-sizing: border-box;
 }
 
 .section06 .section-text {
     margin-top: 35px;
+    letter-spacing: -1.3px;
 }
 
 .section06 .bg {
     width: 50%;
-    height: 766px;
+    height: 626px;
     position: absolute;
     background: #9b8b7e;
     top: 197px;
@@ -349,19 +365,20 @@ section {
     content: '';
     position: absolute;
     width: 1px;
-    height: 343px;
+    height: 308px;
     background: #ebebeb;
-    top: -343px;
-    right: 2px;
+    top: -278px;
+    right: -1px;
 }
 
 .section06 .max-layout-width {
     position: relative;
     z-index: 4;
-    padding-bottom: 275px;
+    padding-bottom: 204px;
 }
 
 
 .section-title {
-    line-height: 1.3;
+    line-height: 1.37;
+    letter-spacing: -1.8px;
 }
