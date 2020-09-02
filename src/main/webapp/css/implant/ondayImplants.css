@@ -568,3 +568,7 @@ body .section02 li:first-child {
     transition: .7s ease-out;
     box-sizing: border-box;
 }
+
+.section10 {
+    margin-top: 110px;
+}
