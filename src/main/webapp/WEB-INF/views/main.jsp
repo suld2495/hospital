@@ -188,13 +188,13 @@
                         <span>01</span>
                         <span>개개인에 맞춘 치료계획수립</span>
                     </a>
-                </div>
+                </div><br>
                 <div class="bx-pager-item">
                     <a href="" data-slide-index="1" class="bx-pager-link text-decoration-none">
                         <span>02</span>
                         <span>더 확실한 진단 더 편안한 진단</span>
                     </a>
-                </div>
+                </div><br>
                 <div class="bx-pager-item">
                     <a href="" data-slide-index="2" class="bx-pager-link text-decoration-none">
                         <span>03</span>
