@@ -836,3 +836,7 @@ body .section07 .bx-pager-link span + span {
     padding-left: 547px;
     width: 445px;
 }
+
+.section07 .bx-pager-item {
+    display: inline-block;
+}
