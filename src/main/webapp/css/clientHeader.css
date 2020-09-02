@@ -134,6 +134,13 @@ header .cmmn-nav nav li a.active {
 }
 
 header .cmmn-nav nav {
-    margin-top: 42px;
+    margin-top: 22px;
     margin-bottom: 30px;
+}
+
+header .header-line {
+    background: #bbb;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
 }

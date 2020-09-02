@@ -45,6 +45,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="header-line"></div>
+    <div class="max-layout-width cmmn-nav">
         <nav>
             <ol class="display-inline-block width-100">
                 <li><a href="<c:url value='/intro' />">미소원치과</a></li>
