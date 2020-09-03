@@ -470,6 +470,8 @@
             dots: false,
             focusOnSelect: true,
             variableWidth: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
         });
     });
 
