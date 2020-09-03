@@ -3,15 +3,15 @@ section {
 }
 
 .section01 {
-    margin-top: 96px;
+    margin-top: 67px;
 }
 
 .section01 .img01 {
-    width: 50%;
+    width: 53%;
     max-width: 1281px;
-    height: 511px;
+    height: 537px;
     top: 0;
-    right: 8.85%;
+    right: 7.85%;
 }
 
 .section01 .img01 .img {
@@ -29,7 +29,7 @@ section {
 }
 
 .section01 .text {
-    padding-top: 178px;
+    padding-top: 138px;
     padding-left: 30px;
     box-sizing: border-box;
 }
@@ -53,7 +53,7 @@ section {
 
 .list-img {
     width: 100%;
-    height: 163px;
+    height: 149px;
 }
 
 .list-img1 {
@@ -74,15 +74,15 @@ section {
 
 .list {
     background: #9b8b7e;
-    margin-top: 70px;
+    margin-top: 104px;
     position: relative;
 }
 
 .list ul {
     display: inline-block;
-    height: 310px;
+    height: 264px;
     width: 100%;
-    padding: 40px 0;
+    padding: 19px 0;
     box-sizing: border-box;
 }
 
@@ -97,7 +97,8 @@ section {
     font-size: 17px;
     color: #fff;
     text-align: center;
-    line-height: 30px;
+    line-height: 24px;
+    letter-spacing: -1px;
 }
 
 .list li + li:after {
@@ -111,7 +112,7 @@ section {
 }
 
 .section02 {
-    margin-top: 161px;
+    margin-top: 108px;
     padding-bottom: 82px;
 }
 
@@ -142,19 +143,21 @@ section {
 }
 
 .section02 .section-text {
-    margin-top: 52px;
+    margin-top: 46px;
     width: 460px;
+    letter-spacing: -1px;
 }
 
 .section02 span.detail {
     font-weight: bold;
-    margin-top: 75px;
+    margin-top: 56px;
     display: inline-block;
     position: relative;
 }
 
 .section02 span.detail a {
     color: #4f4f4f;
+    letter-spacing: -1px;
 }
 
 .section02 span.detail:after {
@@ -171,9 +174,9 @@ section {
     position: absolute;
     max-width: 952px;
     height: 502px;
-    left: 13.44444%;
-    bottom: 120px;
-    width: 39.1756%;
+    left: 11.44444%;
+    bottom: 159px;
+    width: 40.1756%;
 }
 
 .section02 .img01 .img {
@@ -189,8 +192,8 @@ section {
 }
 
 .section03 {
-    margin-top: 150px;
-    padding-bottom: 160px;
+    margin-top: 120px;
+    padding-bottom: 108px;
 }
 
 .move-title {
@@ -205,6 +208,7 @@ section {
     width: 650px;
     word-break: keep-all;
     margin-bottom: 75px;
+    letter-spacing: -1px;
 }
 
 .section03 .img-box {
@@ -233,6 +237,7 @@ section {
     font-size: 22px;
     display: block;
     text-align: center;
+    letter-spacing: -1px;
 }
 
 .section03 .image_box_right {
@@ -247,7 +252,7 @@ section {
 }
 
 .section04 {
-    padding: 125px 0 105px 0;
+    padding: 92px 0 84px 0;
     background: url(../../images/sub/info/competitiveness/compet08.jpg) no-repeat;
     background-size: cover;
 }
@@ -261,6 +266,7 @@ section {
     color: #fff;
     position: relative;
     display: inline-block;
+    letter-spacing: -1px;
 }
 
 .section04 .section-sub-title:after {
@@ -274,7 +280,7 @@ section {
 }
 
 .default-tab {
-    margin-top: 74px;
+    margin-top: 60px;
 }
 
 .tab-contents {
@@ -284,6 +290,7 @@ section {
     opacity: 0;
     transition: none;
     color: #fff;
+    letter-spacing: -2px;
 }
 
 .tab-contents.active {
@@ -308,6 +315,7 @@ section {
     height: 40px;
     transition: opacity .3s;
     cursor: pointer;
+    letter-spacing: -1px;
 }
 
 .tab.active, .tab:hover {
@@ -333,22 +341,23 @@ section {
 }
 
 .sub-text {
-    margin-top: 92px;
+    margin-top: 72px;
     color: #fff;
     line-height: 1.7;
     font-size: 17px;
+    letter-spacing: -1px;
 }
 
 .section05 {
-    padding-bottom: 260px;
+    padding-bottom: 247px;
 }
 
 .section05 .text {
     padding-left: 52.507%;
-    margin-top: 190px;
+    margin-top: 119px;
     width: 560px;
     word-break: keep-all;
-    padding-top: 11px;
+    padding-top: 6px;
 }
 
 .section05 .text p span {
@@ -357,19 +366,20 @@ section {
 
 .section05 .text .detail {
     font-weight: bold;
-    margin-top: 75px;
+    margin-top: 54px;
     display: inline-block;
     position: relative;
 }
 
 .section05 .text .detail a {
     color: #4f4f4f;
+    letter-spacing: -1px;
 }
 
 .section05 .img01 {
     max-width: 1241px;
     width: 48.6285%;
-    height: 433px;
+    height: 390px;
 }
 
 .section05 .img01 .img {
@@ -379,7 +389,7 @@ section {
 .section05 .img02 {
     width: 250px;
     height: 351px;
-    top: 205px;
+    top: 182px;
     right: 60px;
     left: auto;
 }
@@ -399,5 +409,7 @@ section {
 }
 
 .section-title {
-    line-height: 1.3
+    line-height: 1.38;
+    letter-spacing: -1.8px;
+    padding-bottom: 21px;
 }

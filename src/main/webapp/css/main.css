@@ -3,11 +3,11 @@ body {
 }
 
 .section01 {
-    margin-bottom: 180px;
+    margin-bottom: 89px;
 }
 
 .section02 {
-    margin-bottom: 161px;
+    margin-bottom: 92px;
 }
 
 .section02:before {
@@ -27,13 +27,15 @@ body {
 }
 
 .section02 > h2 {
-    font-size: 40px;
+    font-size: 39px;
     margin-bottom: 25px;
+    letter-spacing: -3px;
 }
 
 .section02 > p {
-    font-size: 15px;
-    margin-bottom: 69px;
+    font-size: 16px;
+    margin-bottom: 58px;
+    letter-spacing: -0.9px;
 }
 
 .contents-text-box {
@@ -75,8 +77,10 @@ body {
 }
 
 .contents-text h3 {
-    font-size: 28px;
-    margin-bottom: 25px;
+    font-size: 32px;
+    margin-bottom: 26px;
+    letter-spacing: -2.5px;
+    /* font-weight: 600; */
 }
 
 .contents-text p {
@@ -85,6 +89,7 @@ body {
 
 .contents-text p {
     margin-bottom: 9px;
+    letter-spacing: -0.9px;
 }
 
 .last-contents-text {
@@ -102,6 +107,7 @@ body {
     color: #222;
     width: 100%;
     display: inline-block;
+    letter-spacing: -1px;
 }
 
 .details-link:after {
@@ -237,8 +243,8 @@ body {
 
 .section03 {
     width: 100%;
-    height: 753px;
-    margin-bottom: 192px;
+    height: 712px;
+    margin-bottom: 87px;
 }
 
 .section03 .main-bg {
@@ -254,7 +260,7 @@ body {
     background: url(../images/main/main04_1.jpg) no-repeat center;
     background-size: contain;
     position: absolute;
-    top: 110px;
+    top: 90px;
     bottom: 130px;
     right: 0;
     height: 533px;
@@ -266,32 +272,34 @@ body {
     z-index: 4;
     position: relative;
     width: 734px;
-    padding-top: 134px;
+    padding-top: 122px;
     padding-left: 58px;
 }
 
 .section03 .text h4, .section04 .text h4 {
     font-size: 38px;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
+    letter-spacing: -4px;
 }
 
 .section03 .text h4 span, .section04 .text h4 span {
-    color: #7e6956;
+    color: #9a8b7e;
 }
 
 .section03 .text h4 + p, .section04 .text h4 + p {
     margin-top: 36px;
-    margin-bottom: 14px;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
 }
 
 .section03 .text p {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .section03 .text li {
     width: 163px;
     float: left;
-    margin-right: 41px;
+    margin-right: 24px;
 }
 
 .section03 .text ul {
@@ -299,38 +307,39 @@ body {
 }
 
 .section03 .text li span:first-child {
-    width: 163px;
-    height: 163px;
+    width: 153px;
+    height: 153px;
     display: inline-block;
 }
 
 .section03 span.text {
     width: 100%;
     padding: 0;
-    margin-top: 31px;
+    margin-top: 23px;
     display: inline-block;
     text-align: center;
-    font-weight: bold;
-    font-size: 17px;
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: -1.8px;
 }
 
 .section03 .img01 {
-    background: #7e6956 url(../images/main/main_icon01.png) no-repeat center;
+    background: #9a8b7e url(../images/main/main_icon01.png) no-repeat center;
 }
 
 .section03 .img02 {
-    background: #7e6956 url(../images/main/main_icon02.png) no-repeat center;
+    background: #9a8b7e url(../images/main/main_icon02.png) no-repeat center;
 }
 
 .section03 .img03 {
-    background: #7e6956 url(../images/main/main_icon03.png) no-repeat center;
+    background: #9a8b7e url(../images/main/main_icon03.png) no-repeat center;
 }
 
 .section04 .details-link {
     width: 194px;
     height: 55px;
     position: absolute;
-    border: 1px solid #9b8b7e;
+    border: 2px solid #9b8b7e;
     display: inline-block;
     margin-top: 0;
     font-size: 17px;
@@ -338,11 +347,13 @@ body {
     right: 0;
     bottom: 0;
     box-sizing: border-box;
-    padding: 17px 30px;
+    padding: 16px 30px;
+    letter-spacing: -1.5px;
+    font-weight: 600;
 }
 
 .section04 .text h4 + p {
-    margin-bottom: 102px;
+    margin-bottom: 79px;
 }
 
 .section04 .details-link:after {
@@ -352,24 +363,24 @@ body {
     position: absolute;
     background: #9b8b7e;
     right: 0;
-    top: 27px;
+    top: 25px;
     left: auto;
 }
 
 .review span {
-    font-size: 85px;
+    font-size: 110px;
     position: absolute;
     color: #9a8b7e;
     display: inline-block;
     top: -50px;
-    left: -12px;
+    left: -19px;
 }
 
 .review span:after {
     content: '';
     position: absolute;
     width: 1px;
-    height: 131px;
+    height: 127px;
     background: #9a8b7e;
     top: 15px;
     right: -20px;
@@ -377,19 +388,21 @@ body {
 
 .review-text {
     padding-left: 80px;
-    padding-top: 42px;
+    padding-top: 35px;
 }
 
 .review-text h4 {
     font-size: 22px;
-    color: #4e1b1a;
+    color: #222;
     margin-bottom: 20px;
     font-weight: bold;
+    letter-spacing: -1.5px;
 }
 
 .review-text p {
     font-size: 15px;
     color: #939393;
+    letter-spacing: -1px;
 }
 
 .section04 .bx-wrapper {
@@ -402,16 +415,18 @@ body {
 }
 
 .section06 {
-    margin-top: 275px;
+    margin-top: 103px;
     text-align: center;
     clear: left;
 }
 
 .section06 h4 {
     font-size: 38px;
-    margin-bottom: 100px;
+    margin-bottom: 57px;
     position: relative;
     display: inline-block;
+    letter-spacing: -3px;
+    font-weight: normal;
 }
 
 .section06 h4:after {
@@ -426,18 +441,22 @@ body {
 }
 
 .section06 h4 span {
-    color: #7e6956;
+    color: #9a8b7e;
+    font-weight: 600;
 }
 
 .section06 h5 {
-    margin-top: 55px;
-    font-size: 26px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    margin-top: 32px;
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 17px;
+    letter-spacing: -2.5px;
 }
 
 .section06 h5 + p {
     font-size: 17px;
+    letter-spacing: -1.5px;
+    /* font-weight: 600; */
 }
 
 .section06 .bx-wrapper {
@@ -449,7 +468,7 @@ body {
     width: 71px;
     height: 71px;
     border: none;
-    margin-top: 151px;
+    margin-top: 110px;
     top: 0;
 }
 
@@ -464,37 +483,43 @@ body {
 
 .section07 {
     background: #f5f5f5;
-    padding-top: 157px;
-    margin-top: 200px;
-    padding-bottom: 161px;
+    padding-top: 91px;
+    margin-top: 72px;
+    padding-bottom: 85px;
 }
 
 .section07 h4 {
     font-size: 38px;
+    letter-spacing: -3px;
 }
 
 .section07 h4 span {
-    color: #7e6956;
+    color: #9a8b7e;
+    font-weight: 600;
 }
 
 .section07 h4:first-child {
-    margin-bottom: 17px
+    margin-bottom: 17px;
+    letter-spacing: -3px;
 }
 
 .section07 .max-layout-width {
     margin-bottom: 68px;
+    /* letter-spacing: -2px; */
 }
 
 .section07 h5 {
-    margin-top: 68px;
-    font-size: 41px;
+    margin-top: 53px;
+    font-size: 34px;
     font-weight: bold;
-    margin-bottom: 29px;
+    margin-bottom: 26px;
+    letter-spacing: -2px;
 }
 
 .section07 h5 + p {
-    font-size: 15px;
+    font-size: 16px;
     color: #222;
+    letter-spacing: -1.3px;
 }
 
 .slider-pagenation {
@@ -512,7 +537,7 @@ body .section07 .bx-wrapper {
 }
 
 body .section07 .bx-pager-link {
-    margin-bottom: 54px;
+    margin-bottom: 48px;
     position: relative;
     display: inline-block;
 }
@@ -520,11 +545,12 @@ body .section07 .bx-pager-link {
 body .section07 .bx-pager-link.active:after {
     content: '';
     position: absolute;
-    width: 556px;
-    height: 5px;
+    width: 496px;
+    height: 4px;
     background: #998b7e;
     left: 0;
     bottom: -26px;
+    top: 50px;
 }
 
 body .section07 .bx-pager-link span {
@@ -535,22 +561,25 @@ body .section07 .bx-pager-link span:first-child {
     font-size: 25px;
     font-width: bold;
     margin-right: 15px;
+    font-weight: 600;
 }
 
 body .section07 .bx-pager-link span + span {
-    font-size: 18px;
+    font-size: 19px;
+    letter-spacing: -1.5px;
 }
 
 .section08 {
-    padding-top: 157px;
+    padding-top: 78px;
 }
 
 .section08 h4 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bold;
     padding-bottom: 34px;
     position: relative;
     border-bottom: 1px solid #111;
+    letter-spacing: -2.5px;
 }
 
 .section08 h4 span {
@@ -558,6 +587,7 @@ body .section07 .bx-pager-link span + span {
     right: 14px;
     font-size: 14px;
     bottom: 25px;
+    letter-spacing: 0px;
 }
 
 .section08 h4 a {
@@ -579,9 +609,11 @@ body .section07 .bx-pager-link span + span {
 }
 
 .consultant li {
-    height: 78px;
-    line-height: 78px;
+    height: 64px;
+    line-height: 65px;
     border-bottom: 1px solid #dfdfdf;
+    font-weight: 600;
+    letter-spacing: -1.5px;
 }
 
 .consultant li > div {
@@ -610,7 +642,7 @@ body .section07 .bx-pager-link span + span {
     width: 81px;
     height: 31px;
     border-radius: 2px;
-    margin-top: 24px;
+    margin-top: 16px;
     line-height: 31px;
     text-align: center;
 }
@@ -638,33 +670,38 @@ body .section07 .bx-pager-link span + span {
 }
 
 .media-title {
-    font-size: 15px;
+    font-size: 16px;
     color: #7e6956;
     margin-bottom: 17px;
     font-width: bold;
+    letter-spacing: -1px;
+    font-weight: 600;
 }
 
 .media-title + p {
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 15px;
+    line-height: 21px;
 }
 
 .section09 {
-    margin-top: 130px;
-    padding-top: 110px;
+    margin-top: 84px;
+    padding-top: 78px;
     background: #f5f5f5;
-    padding-bottom: 132px;
+    padding-bottom: 98px;
 }
 
 .section09 h4 {
-    font-size: 39px;
+    font-size: 38px;
     margin-bottom: 26px;
+    letter-spacing: -2px;
+    font-weight: 600;
 }
 
 .section09 h4 + p {
-    font-size: 15px;
+    font-size: 16px;
     color: #212121;
-    margin-bottom: 63px;
+    margin-bottom: 51px;
+    letter-spacing: -1px;
 }
 
 .tour-slide .slide-text {
@@ -706,6 +743,7 @@ body .section07 .bx-pager-link span + span {
 .tour-slide .slide-text p {
     color: #fff;
     font-size: 17px;
+    letter-spacing: -1px;
 }
 
 .tour-slide .slide-text p:first-child {
@@ -728,15 +766,15 @@ body .section07 .bx-pager-link span + span {
 }
 
 .current-count {
-    font-size: 40px;
+    font-size: 46px;
 }
 
 .max-count {
     font-size: 32px;
     position: absolute;
     bottom: -20px;
-    left: 60px;
-    font-weight: 100;
+    left: 63px;
+    font-weight: 500;
 }
 
 .max-count:before {
@@ -942,4 +980,8 @@ body .section07 .bx-pager-link span + span {
 
 .section05 .doctor-slider .slick-list {
     height: 235px;
+}
+
+.section07 .bx-pager-item {
+    display: inline-block;
 }

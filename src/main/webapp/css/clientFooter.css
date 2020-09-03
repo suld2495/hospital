@@ -1,7 +1,7 @@
 .footer-info-container {
     background: #24201f;
-    padding-top: 63px;
-    padding-bottom: 58px;
+    padding-top: 53px;
+    padding-bottom: 54px;
 }
 
 .footer-info-container li {
@@ -19,13 +19,16 @@
     padding-bottom: 18px;
     color: #fff;
     margin-bottom: 31px;
-    font-size: 15px;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-weight: 600;
 }
 
 .footer-info-container li p {
     font-size: 15px;
     margin-bottom: 10px;
     color: #cacaca;
+    letter-spacing: -1px;
 }
 
 .footer-info-margin {
@@ -48,12 +51,13 @@
 .sns-link li a {
     display: block;
     width: 233px;
-    height: 65px;
+    height: 58px;
     color: #cbcbcb;
     box-sizing: border-box;
     border: 1px solid #716f74;
     padding: 0 16px 0 19px;
     position: relative;
+    letter-spacing: -1px;
 }
 
 .sns-link li img:first-child,
@@ -74,7 +78,7 @@
 }
 
 .sns-link .sns-instagram a {
-    padding-top: 20px;
+    padding-top: 17px;
 }
 
 .sns-link .sns-instagram span {
@@ -82,7 +86,7 @@
 }
 
 .sns-link .sns-facebook a {
-    padding-top: 17px;
+    padding-top: 16px;
 }
 
 .sns-link .sns-facebook span {
@@ -90,7 +94,7 @@
 }
 
 .sns-link .sns-blog a {
-    padding-top: 22px;
+    padding-top: 18px;
 }
 
 .sns-link .sns-blog span {
@@ -104,7 +108,7 @@
 }
 
 .footer {
-    padding: 42px 0;
+    padding: 40px 0;
 }
 
 .footer .max-layout-width {
@@ -146,8 +150,11 @@
 .footer-location {
     margin-bottom: 13px;
     color: #222;
+    letter-spacing: -1px;
+    font-size: 15px;
 }
 
 .footer-copyright {
     color: #8a8a8a;
+    font-size: 15px;
 }
