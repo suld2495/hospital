@@ -412,111 +412,36 @@
     bottom: 0;
 }
 
-.section08 {
+.fade-in-slider {
     margin-top: 100px;
 }
 
-.section08 .title {
-    text-align: center;
-}
-
-.section08 .title h2 {
-    font-size: 35px;
-    margin-bottom: 30px;
-    color: #222;
-}
-
-.section08 .title p {
-    font-size: 17px;
-    color: #222;
-    margin-bottom: 68px;
-}
-
-.section08 .swiper-slide {
-    position: relative;
-}
-
-.section08 .swiper-slide .text {
-    width: 360px;
-}
-
-.section08 .swiper-slide .text h2 {
-    line-height: 1.3;
-    margin-bottom: 35px;
-    font-size: 33px;
-}
-
-.section08 .swiper-slide .text p {
-    width: 320px;
-    word-break: keep-all;
-}
-
-.section08 .image_box_right {
-    width: 918px;
-    height: 460px;
-    top: 0;
-}
-
-.section08 .img01 {
+.fade-in-slider .img01 {
     background: url(../../images/sub/implant/digital/digital12.jpg);
 }
 
-.section08 .img02 {
+.fade-in-slider .img02 {
     background: url(../../images/sub/implant/digital/digital13.jpg);
 }
 
-.section08 .img03 {
+.fade-in-slider .img03 {
     background: url(../../images/sub/implant/digital/digital14.jpg);
 }
 
-.section08 .img04 {
+.fade-in-slider .img04 {
     background: url(../../images/sub/implant/digital/digital15.jpg);
 }
 
-.section08 .img05 {
+.fade-in-slider .img05 {
     background: url(../../images/sub/implant/digital/digital16.jpg);
 }
 
-.section08 .img06 {
+.fade-in-slider .img06 {
     background: url(../../images/sub/implant/digital/digital17.jpg);
 }
 
-.section08 .img07 {
+.fade-in-slider .img07 {
     background: url(../../images/sub/implant/digital/digital18.jpg);
-}
-
-.section08 .number {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 70px;
-    display: block;
-    margin-bottom: 50px;
-}
-
-.section08 .swiper-container {
-    height: 460px;
-}
-
-.section08 .max-layout-width {
-    position: relative;
-    padding-bottom: 40px;
-}
-
-.section08 .scroll-bar {
-    width: 918px;
-    height: 3px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background: #ccc;
-}
-
-.section08 .scroll-bar-drag {
-    width: 131.142px;
-    background: #76695e;
-    height: 3px;
-    transition: left 500ms;
-    cursor: pointer;
 }
 
 .section10 {

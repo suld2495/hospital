@@ -1,4 +1,4 @@
-
+/* .left-fade-slider-container */
 .post-slider {
     width: 100vw;
     z-index: 1;
@@ -312,4 +312,82 @@
     font-size: 17px;
     white-space: initial;
     padding: 0 10px;
+}
+
+/*fade-in-slider*/
+
+.fade-in-slider .title {
+    text-align: center;
+}
+
+.fade-in-slider .title h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.fade-in-slider .title p {
+    font-size: 17px;
+    color: #222;
+    margin-bottom: 68px;
+}
+
+.fade-in-slider .swiper-slide {
+    position: relative;
+    outline: none;
+}
+
+.fade-in-slider .swiper-slide .text {
+    width: 360px;
+}
+
+.fade-in-slider .swiper-slide .text h2 {
+    line-height: 1.3;
+    margin-bottom: 35px;
+    font-size: 33px;
+}
+
+.fade-in-slider .swiper-slide .text p {
+    width: 320px;
+    word-break: keep-all;
+}
+
+.fade-in-slider .image_box_right {
+    width: 918px;
+    height: 460px;
+    top: 0;
+}
+
+.fade-in-slider .number {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 70px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.fade-in-slider .swiper-container {
+    height: 460px;
+}
+
+.fade-in-slider .max-layout-width {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.fade-in-slider .scroll-bar {
+    width: 918px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #ccc;
+}
+
+.fade-in-slider .scroll-bar-drag {
+    width: 131.142px;
+    background: #76695e;
+    height: 3px;
+    transition: left 500ms;
+    cursor: pointer;
 }

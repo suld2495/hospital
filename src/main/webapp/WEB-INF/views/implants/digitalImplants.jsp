@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="<c:url value='/lib/jquery-ui/jquery-ui.min.css' />">
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
+<link rel="stylesheet" href="<c:url value="/lib/fade-slider/slider.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/implant/digitalImplants.css"/>" />
 
 <div class="sub-contents digitalImplants">
@@ -191,7 +192,7 @@
         </div>
     </section>
 
-    <section class="section08">
+    <section class="section08 fade-in-slider">
         <div class="max-layout-width">
             <div class="title">
                 <h2>
@@ -375,38 +376,10 @@
 </div>
 
 
+<script src="<c:url value='/lib/fade-slider/jquery.easing.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/Hammer.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/slider.js' />"></script>
+
 <script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script src="<c:url value="/js/cmmn/slider.js" />"></script>
-<script>
-    $(function () {
-        var width = 131.142;
-
-        $('.swiper-container').on('afterChange', function(slick, currentSlide) {
-            var index = (currentSlide.slickCurrentSlide()) % 7;
-            $('.scroll-bar-drag').css('left',  width * index + 'px');
-        });
-        $('.swiper-container').slick({
-            infinite: true,
-            dots: false,
-            arrows: false,
-            slidesToShow: 1,
-            fade: true,
-            autoplay: true,
-            autoplaySpeed: 4000,
-        });
-
-        $('.scroll-bar-drag').draggable({
-            containment: ".scroll-bar",
-            axis: "x",
-            stop: function() {
-                var self = this;
-                setTimeout(function() {
-                    var left = Math.round(parseInt($(self).css('left')) / width);
-                    $('.scroll-bar-drag').css('left',  width * left + 'px');
-                    $('.swiper-container').slick('slickGoTo', left);
-                }, 500);
-            }
-        });
-    })
-</script>
