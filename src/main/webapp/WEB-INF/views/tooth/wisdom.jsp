@@ -1,6 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
+<link rel="stylesheet" href="<c:url value="/lib/fade-slider/slider.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/tooth/wisdom.css"/>" />
 
 <div class="sub-contents grow">
@@ -107,8 +110,101 @@
         </div>
     </section>
 
-    <section class="section05"></section>
-    <section class="section06"></section>
+    <section class="section05 left-fade-slider-container">
+        <div class="max-layout-width">
+            <h2 class="section-title">
+                <strong><span class="section-title-color">
+                    숨어있고 누워있어도<br>
+                    안전하고 신속하게<br>
+                </span></strong>
+                미소원 치과의 <strong>사랑니 발치과정</strong>
+            </h2>
+
+            <div class="numbers">
+                <span class="current">01</span>
+                <span class="max">04</span>
+            </div>
+        </div>
+        <div class="slider-container post-slider">
+            <div class="left-fade-sldier posts">
+                <div class="slides">
+                    <div class="slide" data-index="01">
+                        <div class="swiper-slide">
+                            <div class="img01 img"></div>
+                            <div class="text">
+                                <h2>정밀 진단</h2>
+                                <p>
+                                    구강검진 후 첨단 장비를 통해 사랑니의 상태를 진단하고 발치 방법을 상담합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-index="02">
+                        <div class="swiper-slide">
+                            <div class="img02 img"></div>
+                            <div class="text">
+                                <h2>치료 및 수술계획점검</h2>
+                                <p>
+                                    정밀한 진달을 통해 앞으로의 치료 방향 및 계획을 논의합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-index="03">
+                        <div class="swiper-slide">
+                            <div class="img03 img"></div>
+                            <div class="text">
+                                <h2>마취 후 절개</h2>
+                                <p>
+                                    절개 부위를 확인하고 마취 후 절개에 들어갑니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-index="04">
+                        <div class="swiper-slide">
+                            <div class="img04 img"></div>
+                            <div class="text">
+                                <h2>정기관리</h2>
+                                <p>
+                                    매복된 사랑니의 경우 최소한의 절개 후 안전하게 발치하고 봉합합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg"></div>
+    </section>
+    <section class="section09 treatment-case">
+        <div class="max-layout-width">
+            <div class="treatment-case-scroll-bar">
+                <div class="treatment-case-scroll-bar-drag"></div>
+            </div>
+            <div class="treatment-case-slider">
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+            </div>
+            <div class="text">
+                <h2>미소원치과 치료사례</h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
     <section class="section07 board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
@@ -134,3 +230,12 @@
         </div>
     </section>
 </div>
+
+
+<script src="<c:url value='/lib/fade-slider/jquery.easing.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/Hammer.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/slider.js' />"></script>
+
+<script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
+<script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
+<script src="<c:url value="/js/cmmn/slider.js" />"></script>

@@ -283,3 +283,23 @@
     height: 17px;
     bottom: 0;
 }
+
+.left-fade-slider-container .img01 {
+    background: url(../../images/sub/tooth/wisdom/wisdom06.jpg) no-repeat center;
+}
+
+.left-fade-slider-container .img02 {
+    background: url(../../images/sub/tooth/wisdom/wisdom07.jpg) no-repeat center;
+}
+
+.left-fade-slider-container .img03 {
+    background: url(../../images/sub/tooth/wisdom/wisdom08.jpg) no-repeat center;
+}
+
+.left-fade-slider-container .img04 {
+    background: url(../../images/sub/tooth/wisdom/wisdom09.jpg) no-repeat center;
+}
+
+.section09 {
+    margin-top: 120px;
+}
