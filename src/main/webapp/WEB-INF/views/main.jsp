@@ -1,6 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
 <link rel="stylesheet" href="<c:url value="/css/main.css"/>" />
 
 <div>
@@ -108,7 +110,7 @@
             </div>
         </div>
     </div>
-    <div class="section05 display-none">
+    <div class="section05">
         <div class="max-layout-width">
             <h2 class="section-title">
                 정직하게 진료하고<br>
@@ -118,41 +120,102 @@
                 미소원치과의 의료진은 끊임없이 연구하며 환자를 최우선으로 생각하고 언제나 최선의 결과로 보답합니다.
             </p>
             <div class="slider-container">
-                <div class="doctor-slider">
-                    <div class="img01"></div>
-                    <div class="img02"></div>
-                    <div class="img03"></div>
-                </div>
-                <div class="big-img">
-                    <div class="cont01">
-                        <div class="img"></div>
-                        <div class="text">
-                            <div class="title">
-                                <span>곽진원</span>
-                                <span>원장</span>
+                <div></div>
+                <div class="big-img big-img-slider">
+                    <div class="cont01 cont">
+                        <div class="doctor-slide-item">
+                            <div class="img"></div>
+                            <div class="text">
+                                <div class="title">
+                                    <span>이상수</span>
+                                    <span>원장</span>
+                                </div>
+                                <p class="sub-text">
+                                    첨단장비를 사용하여 꼼꼼하고 정확하게,<br>
+                                    원칙을 지키는 진료를 우선합니다.
+                                </p>
+                                <h5>약력</h5>
+                                <p class="dc">
+                                    통합치의학 전문의<br/>
+                                    부산대학교 치의학전문대학원 졸업<br/>
+                                    서울아산재단 울산대학교병원 치과통합 전문임상의 수료<br/>
+                                    대한 구강악안면임플란트학회 정회원<br/>
+                                    대한 통합치과학회 정회원<br/>
+                                    대한 치과마과학회 정회원<br/>
+                                    KIM'S 교정연구회 정회원<br/>
+                                    전) 울산 한빛치과 원장<br/>
+                                    전) 부산 e웰니스치과 원장<br/>
+                                    전) 부산 수정치과 원장<br/>
+                                    MEAW Orthodontic Master Course 수료<br/>
+                                </p>
                             </div>
-                            <p class="sub-text">
-                                섬세한 진료로 마음 편안하게,<br>
-                                환자와의 신뢰가 먼저입니다.
-                            </p>
-                            <h5>약력</h5>
-                            <p class="dc">
-                                치의학 박사 / 전문의<br/>
-                                부산대학교 치과대학 졸업<br/>
-                                부산대학교 치의학대학원 석사<br/>
-                                부산대학교 치의학대학원 박사<br/>
-                                통합치의학과 전문의 취득<br/>
-                                대한 치과마취과학회 정회원<br/>
-                                대한 치과보철학회 정회원<br/>
-                                대한 치과마취과학회 정회원<br/>
-                                대한 구강악안면임플란트학회 정회원<br/>
-                                대한통합치과학회 정회원<br/>
-                            </p>
+                        </div>
+                    </div>
+                    <div class="cont02 cont">
+                        <div class="doctor-slide-item">
+                            <div class="img"></div>
+                            <div class="text">
+                                <div class="title">
+                                    <span>곽진원</span>
+                                    <span>원장</span>
+                                </div>
+                                <p class="sub-text">
+                                    섬세한 진료로 마음 편안하게,<br>
+                                    환자와의 신뢰가 먼저입니다.
+                                </p>
+                                <h5>약력</h5>
+                                <p class="dc">
+                                    치의학 박사 / 전문의<br/>
+                                    부산대학교 치과대학 졸업<br/>
+                                    부산대학교 치의학대학원 석사<br/>
+                                    부산대학교 치의학대학원 박사<br/>
+                                    통합치의학과 전문의 취득<br/>
+                                    대한 치과마취과학회 정회원<br/>
+                                    대한 치과보철학회 정회원<br/>
+                                    대한 치과마취과학회 정회원<br/>
+                                    대한 구강악안면임플란트학회 정회원<br/>
+                                    대한통합치과학회 정회원<br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont03 cont">
+                        <div class="doctor-slide-item">
+                            <div class="img"></div>
+                            <div class="text">
+                                <div class="title">
+                                    <span>송애진</span>
+                                    <span>원장</span>
+                                </div>
+                                <p class="sub-text">
+                                    얼굴과 조화를 이루는 균형잡힌 교정!<br>
+                                    아름답고 당당한 미소를 찾아드립니다.
+                                </p>
+                                <h5>약력</h5>
+                                <p class="dc">
+                                    치의학 박사 / 전문의<br/>
+                                    부산대학교 치과대학 졸업<br/>
+                                    부산대학교 치의학대학원 석사<br/>
+                                    부산대학교 치의학대학원 박사<br/>
+                                    통합치의학과 전문의 취득<br/>
+                                    대한 치과마취과학회 정회원<br/>
+                                    대한 치과보철학회 정회원<br/>
+                                    대한 치과마취과학회 정회원<br/>
+                                    대한 구강악안면임플란트학회 정회원<br/>
+                                    대한통합치과학회 정회원<br/>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="doctor-slider">
+                    <div><div class="img-box"><div class="img01 doctor-slide-item"></div></div></div>
+                    <div><div class="img-box"><div class="img02 doctor-slide-item"></div></div></div>
+                    <div><div class="img-box"><div class="img03 doctor-slide-item"></div></div></div>
+                </div>
             </div>
         </div>
+        <div class="bg"></div>
     </div>
     <div class="section06">
         <div>
@@ -326,6 +389,7 @@
     </div>
 </div>
 
+<script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script>
     $(function() {
         $('.img-box li').mouseenter(function() {
@@ -376,14 +440,36 @@
             }
         })
 
-        $('.doctor-slider').bxSlider({
-            controls: false,
-            pager: false,
-            slideWidth: 412,
-            minSlides: 2,
-            maxSlides: 2,
-            moveSlides: 1,
-            slideMargin: 80,
+        // var doctorWidth = $(window).width() * 0.1614;
+        // $('.doctor-slider').bxSlider({
+        //     controls: false,
+        //     pager: false,
+        //     slideWidth: doctorWidth,
+        //     minSlides: 2,
+        //     maxSlides: 2,
+        //     moveSlides: 1,
+        //     slideMargin: 80,
+        // });
+
+        let windoWidth = $(window).width();
+        $('.slider-container').width(windoWidth);
+        $('.doctor-slider .img-box').width(windoWidth * 0.1614);
+        $('.big-img-slider .cont').width(windoWidth * 0.3851);
+        $('.big-img-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.doctor-slider',
+        });
+        $('.doctor-slider').slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            asNavFor: '.big-img-slider',
+            dots: false,
+            focusOnSelect: true,
+            variableWidth: true,
         });
     });
 
