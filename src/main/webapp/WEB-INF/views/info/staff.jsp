@@ -115,7 +115,7 @@
             <div class="doctor-info last-doctor-info position-relative">
                 <div class="bg"></div>
                 <p class="doctor-dec">기본과 원칙을 지키는 신뢰의 진료</p>
-                <h1 class="doctor-title">곽진원 원장</h1>
+                <h1 class="doctor-title">이상수 원장</h1>
                 <div class="max-layout-width position-absolute image-container">
                     <div class="position-absolute full-layout-width image-box">
                         <div class="image-box3"></div>
