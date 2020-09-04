@@ -155,7 +155,7 @@ header .nav-detail .max-layout-width {
 header nav .nav-detail > li {
     position: absolute;
     width: 100%;
-    background: #fff;
+    background: url(../images/category/category_bg.jpg) no-repeat center;
     overflow: hidden;
     padding-bottom: 10px;
     border-top: 1px solid #efeae7;
