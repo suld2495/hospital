@@ -332,6 +332,13 @@
                             <span class="reply">답변완료</span>
                         </div>
                     </li>
+                    <li>
+                        <div>
+                            <p class="board-contents">부정교합 교정 문의합니다.</p>
+                            <span class="writer">오병관</span>
+                            <span class="reply">답변완료</span>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="media">
@@ -440,21 +447,9 @@
             }
         })
 
-        // var doctorWidth = $(window).width() * 0.1614;
-        // $('.doctor-slider').bxSlider({
-        //     controls: false,
-        //     pager: false,
-        //     slideWidth: doctorWidth,
-        //     minSlides: 2,
-        //     maxSlides: 2,
-        //     moveSlides: 1,
-        //     slideMargin: 80,
-        // });
-
         let windoWidth = $(window).width();
         $('.slider-container').width(windoWidth);
         $('.doctor-slider .img-box').width(windoWidth * 0.1614);
-        $('.big-img-slider .cont').width(windoWidth * 0.3851);
         $('.big-img-slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
