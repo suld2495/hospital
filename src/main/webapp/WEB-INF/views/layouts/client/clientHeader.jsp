@@ -50,7 +50,7 @@
     <div class="cmmn-nav">
         <nav>
             <div class="max-layout-width">
-                <ol class="display-inline-block width-100">
+                <ol>
                     <li><a data-nav="#nav01" href="<c:url value='/intro' />">미소원치과</a></li>
                     <li><a data-nav="#nav02" href="<c:url value='/digital_implants' />">디지털 임플란트</a></li>
                     <li><a data-nav="#nav03" href="<c:url value='/misowon_orthodontics' />">디지털 치아교정</a></li>
