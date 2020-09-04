@@ -62,6 +62,7 @@
 
 .tab-container3 .section04 {
     margin-top: 190px;
+    margin-bottom: 210px;
 }
 
 .section04 .max-layout-width .text {
@@ -644,4 +645,56 @@
 
 .section11 .text > div {
     padding-left: 84px;
+}
+
+.fade-in-slider .img01 {
+    background: url(../../images/sub/tooth/general/decay17_1.jpg);
+}
+
+.fade-in-slider .img02 {
+    background: url(../../images/sub/tooth/general/decay17_2.jpg);
+}
+
+.fade-in-slider .img03 {
+    background: url(../../images/sub/tooth/general/decay17_3.jpg);
+}
+
+.tab-container1 .left-fade-slider-container .img01 {
+    background: url(../../images/sub/tooth/general/decay13.jpg) no-repeat center;
+}
+
+.tab-container1 .left-fade-slider-container .img02 {
+    background: url(../../images/sub/tooth/general/decay14.jpg) no-repeat center;
+}
+
+.tab-container1 .left-fade-slider-container .img03 {
+    background: url(../../images/sub/tooth/general/decay15.jpg) no-repeat center;
+}
+
+.tab-container1 .left-fade-slider-container .img04 {
+    background: url(../../images/sub/tooth/general/decay16.jpg) no-repeat center;
+}
+
+.tab-container3 .left-fade-slider-container .img01 {
+    background: url(../../images/sub/tooth/general/periodontal09.jpg) no-repeat center;
+}
+
+.tab-container3 .left-fade-slider-container .img02 {
+    background: url(../../images/sub/tooth/general/periodontal10.jpg) no-repeat center;
+}
+
+.tab-container3 .left-fade-slider-container .img03 {
+    background: url(../../images/sub/tooth/general/periodontal11.jpg) no-repeat center;
+}
+
+.tab-container3 .left-fade-slider-container .img04 {
+    background: url(../../images/sub/tooth/general/periodontal12.jpg) no-repeat center;
+}
+
+.treatment-case {
+    margin-top: 135px;
+}
+
+.fade-in-slider {
+    margin-top: 135px;
 }
