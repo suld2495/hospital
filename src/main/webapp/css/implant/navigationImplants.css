@@ -67,7 +67,7 @@
 }
 
 .section05 {
-    margin-top: 127px;
+    margin-top: 117px;
 }
 
 .section05 .max-layout-width .text {
@@ -90,7 +90,7 @@
     padding-top: 100px;
     position: relative;
     line-height: 1.3;
-    margin-bottom: 174px;
+    margin-bottom: 134px;
     padding-left: 60px;
     letter-spacing: -1px;
 }
@@ -115,17 +115,18 @@
     content: '';
     position: absolute;
     width: 3px;
-    height: 103px;
+    height: 89px;
     background: #7f6a57;
-    top: -171px;
+    top: -120px;
 }
 
 .section05 .bg {
     width: 64.65%;
     position: absolute;
-    height: 305px;
+    height: 262px;
     right: 0px;
-    bottom: -80px;
+    bottom: -79px;
+    background: #f5f5f5;
 }
 
 .section05 .max-layout-width {
@@ -142,7 +143,7 @@
 }
 
 .section01 .text > div, .section01 .bg .max-layout-width > div {
-    padding-left: 86px;
+    padding-left: 73px;
 }
 
 .section01 .bg .max-layout-width > div {
@@ -231,11 +232,11 @@
 
 .section03 {
     background: #9a8b7e;
-    padding-bottom: 78px;
+    padding-bottom: 70px;
 }
 
 .section03 .text {
-    padding-top: 97px;
+    padding-top: 86px;
     padding-left: 50%;
 }
 
@@ -254,8 +255,8 @@
 .section03 .image_box_left {
     width: 790px;
     height: 374px;
-    top: 74px;
-    left: -188px;
+    top: 62px;
+    left: -143px;
 }
 
 .section03 .img {
@@ -312,7 +313,7 @@
 }
 
 .section04 {
-    margin-top: 117px;
+    margin-top: 106px;
 }
 
 .section04 .section-title {
