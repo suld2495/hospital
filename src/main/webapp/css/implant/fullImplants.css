@@ -1,150 +1,541 @@
-header .header-banner-slider-continer .bx-wrapper {
-    border: none;
-    margin: 0;
-    box-shadow: none;
+.section01 {
+    margin-top: 164px;
 }
 
-.header-panel .header-banner-slider-continer {
-    padding-top: 29px;
+.section01 .text, .section01 .bg .max-layout-width {
+    padding-left: 50%;
 }
 
-.header-banner-close {
-    width: 58px;
-    height: 18px;
-    color: #fff;
-    background: #333;
-    padding-left: 8px;
-    line-height: 16px;
+.section01 .text > div, .section01 .bg .max-layout-width > div {
+    padding-left: 86px;
+}
+
+.section01 .bg .max-layout-width > div {
+    width: 570px;
+    word-break: keep-all;
+}
+
+.section01 .section-title {
+    line-height: 1.3;
+}
+
+.section01 .bg {
+    margin-top: 50px;
+    background: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.section01 .section-text {
+    line-height: 1.8;
+}
+
+.section01 .section-text:first-child {
+    margin-bottom: 43px;
+}
+
+.section01 .image_box_left {
+    width: 50%;
+    max-width: 1276px;
+    height: 552px;
+    top: -67px;
+}
+
+.section01 .img {
+    background: url(../../images/sub/implant/full/total01.jpg) no-repeat center;
+}
+
+.section02 {
+    margin-top: 142px;
+}
+
+.section02 .img01 {
+    width: 47.3354%;
+    max-width: 1208px;
+    height: 488px;
+    top: 0;
+}
+
+.section02 .img {
+    background: url(../../images/sub/implant/full/total02.jpg) center;
+}
+
+.section02 .section-text {
+    width: 720px;
+    padding-right: 111px;
     box-sizing: border-box;
 }
 
-.header-banner-small-slider {
-    font-size: 14px;
+.section02 .text-box h2 + p {
+    margin-top: 46px;
+    margin-bottom: 66px;
 }
 
-.header-banner-small-slider img,
-.header-banner-small-slider .slider-text {
-    float: left;
+.section04 .text-box {
+    padding-top: 146px;
 }
 
-.small-slider-img {
-    margin-right: 14px;
+.section02 .move-title, .section04 .move-title {
+    top: 0;
 }
 
-.header-banner-small-slider .slider-text p:first-child {
-    margin-top: 3px;
-    margin-bottom: 4px;
+.section02 .section-text span {
+    font-weight: bold;
 }
 
-.header-panel {
-    width: 100%;
-    margin-top: 24px;
-    padding: 0 43px;
-    box-sizing: border-box;
+.section03, .section04 {
+    margin-top: 142px;
 }
 
-.header-panel > div {
-    width: 33.333333333333333333%;
-    float: left;
+.section03 .img01 {
+    width: 46.1598%;
+    max-width: 1178px;
+    height: 487px;
+    top: 0;
 }
 
-.header-logo {
-    text-align: center;
+.section03 .img {
+    background: url(../../images/sub/implant/full/total03.jpg) center;
 }
 
-.header-member {
+.section03 .text-box {
+    padding-left: 50%;
+    /* padding-top: 146px; */
+}
+
+.section03 .move-title {
+    top: 0;
+    padding-left: 50%;
+}
+
+.section03 .section-text {
+    width: 620px;
+}
+
+.section03 .link {
+    margin-top: 56px;
+    margin-bottom: 141px;
+}
+
+.section04 {
+    margin-top: 160px;
+}
+
+.section04 .max-layout-width .text {
+    padding-right: 50%;
+}
+
+.section04 .max-layout-width .text > div {
+    padding-right: 90px;
+    position: relative;
+}
+
+.section04 .image_box_right {
+    max-width: 1276px;
+    height: 482px;
+    width: 50%;
+    z-index: 10;
+}
+
+.section04 .image_box_right .img {
+    background: url(../../images/sub/implant/full/total04.jpg) no-repeat center;
+}
+
+.section04 .section-title {
+    padding-top: 70px;
+    position: relative;
+    line-height: 1.3;
+    margin-bottom: 174px;
+    letter-spacing: -1px;
+    padding-left: 80px;
+}
+
+.section04 .max-layout-width .text > div:before {
+    background: url(../../images/sub/implant/digital/marks.png);
+    content: '';
+    width: 156px;
+    height: 134px;
+    position: absolute;
+    top: 0;
+}
+
+.section04 .section-text {
+    word-break: keep-all;
+    line-height: 1.7;
+    position: relative;
     text-align: right;
 }
 
-.header-member > div {
-    margin-right: 4px;
+.section04 .section-text:before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 103px;
+    background: #7f6a57;
+    top: -171px;
+    right: 0;
 }
 
-.header-member > div > div {
-    float: left;
+.section04 .bg {
+    background: #f5f5f5;
+    width: 64.65%;
+    position: absolute;
+    height: 305px;
+    left: 0px;
+    bottom: -80px;
+}
+
+.section04 .max-layout-width {
+    position: relative;
+    z-index: 10;
+}
+
+.section05 {
+    margin-top: 200px;
+    height: 700px;
+}
+
+.section05:before {
+    content: '';
+    background: url(../../images/sub/implant/full/total_bg.jpg) no-repeat center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.section05 .max-layout-width {
+    position: relative;
+    padding-top: 155px;
     text-align: center;
+    color: #fff;
 }
 
-.header-member p {
-    margin-top: 12px;
+.section05 h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 35px;
 }
 
-.header-member a {
-    color: #777;
-}
-
-.login-nav {
-    margin-right: 20px;
-}
-
-.login-nav img {
-    margin-top: 3px;
-    margin-bottom: 2px;
-}
-
-.bx-wrapper .bx-controls-direction a {
-    margin-top: -43px;
-    padding-left: 5px;
-    padding-top: 3px;
-    box-sizing: border-box;
-}
-
-.bx-wrapper .bx-controls-direction a.bx-prev {
-    width: 18px;
-    height: 18px;
-    border: 1px solid #d1d1d1;
-    left: 85px;
-}
-
-.bx-wrapper .bx-controls-direction a.bx-next {
-    width: 17px;
-    height: 18px;
-    border: 1px solid #d1d1d1;
-    border-left: none;
-    left: 103px;
-}
-
-header .cmmn-nav nav li {
-    width: 20%;
-    float: left;
+.section05 p {
+    line-height: 1.6;
     font-size: 15px;
-    cursor: pointer;
-    border-right: 1px solid #bbb;
-    text-align: center;
+    margin-bottom: 95px;
+}
+
+.section05 p span {
+    color: #c3b4a7;
+}
+
+.section05 ul {
+    overflow: hidden;
+}
+
+.section05 li {
+    width: 25%;
+    float: left;
+    padding-top: 131px;
+}
+
+.section05 .img01 {
+    background: url(../../images/sub/implant/oneday/oneday_icon05.png) no-repeat top center;
+}
+
+.section05 .img02 {
+    background: url(../../images/sub/implant/oneday/oneday_icon06.png) no-repeat top center;
+}
+
+.section05 .img03 {
+    background: url(../../images/sub/implant/oneday/oneday_icon07.png) no-repeat top center;
+}
+
+.section05 .img04 {
+    background: url(../../images/sub/implant/oneday/oneday_icon08.png) no-repeat top center;
+}
+
+.section05 .border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 300px solid #fff;
+    transition: .7s ease-out;
     box-sizing: border-box;
-    height: 18px;
-    line-height: 18px;
 }
 
-header .cmmn-nav nav li a {
-    text-decoration: none;
-    color: #222;
+.section06 {
+    padding: 140px 0 130px 0;
+    background: #f5f5f5;
+}
+
+.section06 .max-layout-width h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 36px;
+}
+
+.table-middle {
+    width: 180px;
+}
+
+.table-left, .table-right {
+    width: 559px;
+    font-size: 17px;
+    padding: 28px 0;
+    line-height: 1.7;
+}
+
+.table-middle {
+    padding: 31px 0;
+    font-size: 23px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-left: 1px solid #8f8f8f;
+    border-right: 1px solid #8f8f8f;
+}
+
+.cont ul {
+    overflow: hidden;
+}
+
+.cont li {
+    float: left;
+    box-sizing: border-box;
+}
+
+.cont {
+    text-align: center;
+    border-bottom: 1px solid #8f8f8f;
+}
+
+.cont.con01 {
+    border-bottom: none;
+}
+
+.con01.cont li {
+    font-size: 23px;
+    color: #fff;
+    padding: 25px 0;
+    background: #8f8f8f;
+    line-height: 1;
+}
+
+.con01.cont li.table-right {
+    background: #9a8b7e;
+}
+
+.con01.cont li.table-middle {
+    background: #222;
+    color: #fff;
+}
+
+.section06 .img01 {
+    background: url(../../images/sub/implant/navigation/navi11.jpg) no-repeat center;
     width: 100%;
-    height: 18px;
+    height: 100%;
+}
+
+.section06 .img02 {
+    background: url(../../images/sub/implant/navigation/navi12.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+
+.cont {
+    border-left: 1px solid #8f8f8f;
+    border-right: 1px solid #8f8f8f;
+    box-sizing: border-box;
+}
+
+.section08 {
+    margin-top: 147px;
+    text-align: center;
+    margin-bottom: 206px;
+}
+
+.section08 .section-title {
+    line-height: 1.3
+}
+
+.section08 ul {
+    margin-top: 83px;
+    margin-left: -3.07%;
+    overflow: hidden;
+}
+
+.section08 ul li {
+    width: 46.93%;
+    float: left;
+    margin-left: 3.07%;
+    padding-top: 344px;
+}
+
+.section08 ul li:first-child {
+    background: url(../../images/sub/implant/digital/digital20.jpg) no-repeat top center;
+}
+
+.section08 ul li.last-img {
+    background: url(../../images/sub/implant/digital/digital21.jpg) no-repeat top center;
+}
+
+.section08 ul li p {
+    height: 113px;
+    background: #9b8b7e;
+    padding-left: 42px;
+    padding-right: 35px;
+    text-align: left;
+    position: relative;
+}
+
+.section08 ul li p span:first-child {
+    padding-top: 42px;
+    display: block;
+    font-size: 33px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section08 ul li p span.view {
+    position: absolute;
+    right: 78px;
+    top: 9px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.section08 ul li p span.view:after {
+    background: url(../../images/sub/implant/digital/digital_arrow.png) no-repeat top center;
+    content: '';
+    position: absolute;
+    right: -47px;
+    width: 33px;
+    height: 17px;
+    bottom: 0;
+}
+
+.section02 .section-title {
+    line-height: 1.3
+}
+
+.con05 .table-left, .con05 .table-right {
+    padding: 28px 60px;
+    word-break: keep-all;
+}
+
+.con05 .table-middle {
+    padding: 73px 0;
+}
+
+.con06 .table-middle {
+    line-height: 1.5;
+    padding: 50px 0;
+}
+
+.cont span {
+    color: #ec6707;
+}
+
+.con06 .table-right {
+    padding: 42px 0;
+}
+
+.con01 ~ div {
+    background: #fff;
+}
+
+.section07 {
+    margin-top: 127px;
+}
+
+.section07 .section-title, .section07 .section-text {
+    text-align: center;
+}
+
+.section07 ul {
     display: inline-block;
-}
-
-header .cmmn-nav nav li:first-child {
-    border-left: 1px solid #bbb;
-}
-
-header .cmmn-nav nav li a:hover,
-header .cmmn-nav nav li a.active {
-    color: #7e6956;
-}
-
-header .cmmn-nav nav {
-    margin-top: 22px;
-    margin-bottom: 30px;
-}
-
-header .header-line {
-    background: #bbb;
-    height: 1px;
     width: 100%;
-    margin: 20px 0;
+    margin-left: 3%;
+    margin-top: 216px;
 }
 
-.section10 {
-    margin-top: 140px;
+.section07 li {
+    width: 47%;
+    margin-left: 3%;
+    padding: 56px 0 0 45px;
+    box-sizing: border-box;
+    float: left;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section07 li h2 {
+    font-size: 27px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.section07 li h2 ~ p {
+    margin-bottom: 17px;
+    font-size: 16px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.section07 li h2 ~ p:before {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #222;
+    content: '';
+    top: 5px;
+    left: 0;
+}
+
+.section07 li h2 ~ p strong {
+    font-size: 16px
+}
+
+.section07 .img01 h2 ~ p:before {
+    background: #fff;
+}
+
+.section07 .img01 {
+    color: #fff;
+    background: #9a8b7e;
+}
+
+.section07 li:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -170px;
+}
+
+.section07 .img01:before {
+    width: 465px;
+    height: 216px;
+    background: url(../../images/sub/implant/full/total05.png) no-repeat top center;
+}
+
+.section07 .img02:before {
+    width: 407px;
+    height: 261px;
+    background: url(../../images/sub/implant/full/total06.png) no-repeat top center;
+    top: -211px;
+}
+
+.section07 li.img02 {
+    background: #e2e2e2;
+    color: #222;
+}
+
+.section07 li.img02 h2 {
+    color: #222;
+}
+
+.section03 .section-title {
+    line-height: 1.3
 }
