@@ -1,4 +1,7 @@
+/*left-fade-slider-container*/
 $(function() {
+    if (!$('.post-slider').length) return;
+
     $('.post-slider .posts .slides .slide').clone().appendTo('.post-slider .posts .slides');
     $('.post-slider .posts .slides .slide').clone().appendTo('.post-slider .posts .slides');
 
@@ -41,7 +44,7 @@ $(function() {
                 $('.post-slider .posts .slides').stop().animate({'left': 0}, speed * .5, 'easeInOutQuad', function(){
                     isTransition = false;
                     $('.post-slider .posts .slides').removeClass('is-transition');
-                    $('.left-fade-slider-container .current').text($('.slides .slide').eq(0).data('index'));
+                    $(this).parents('.post-slider').prev().find('.current').text($('.slides .slide').eq(0).data('index'));
                 });
             }
         }
@@ -83,14 +86,15 @@ $(function() {
         } else {
             $('.post-slider .posts .slides .slide:first-child').stop().css('opacity', 1).animate({'opacity': 0}, speed * .9);
         }
+
         $('.post-slider .posts .slides').stop().animate({'left': toX}, speed, 'easeOutSine', function(){
             isTransition = false;
             isMoving = false;
             $('.post-slider .posts .slides').removeClass('is-transition');
             if ( dir == 'next') {
-                $('.post-slider .posts .slides').stop().css({'left':0});
-                $('.post-slider .posts .slides .slide:first-child').appendTo('.post-slider .posts .slides').css('opacity', 1);
-                $('.left-fade-slider-container .current').text($('.slides .slide').eq(0).data('index'));
+                $(this).stop().css({'left':0});
+                $(this).find('.slide:first-child').appendTo('.post-slider .posts .slides').css('opacity', 1);
+                $(this).parents('.post-slider').prev().find('.current').text($('.slides .slide').eq(0).data('index'));
             }
         });
     }
@@ -109,3 +113,37 @@ $(function() {
         goNext();
     }, 4000);
 });
+
+/*fade-in-slider*/
+$(function() {
+    if (!$('.fade-in-slider .swiper-container').length) return;
+
+    var width = $('.scroll-bar').width() / $('.fade-in-slider .swiper-slide').length; //131.142;
+    $('.fade-in-slider .scroll-bar-drag').width(width);
+    $('.fade-in-slider .swiper-container').on('afterChange', function(slick, currentSlide) {
+        var index = (currentSlide.slickCurrentSlide()) % 7;
+        $('.scroll-bar-drag').css('left',  width * index + 'px');
+    });
+    $('.fade-in-slider .swiper-container').slick({
+        infinite: true,
+        dots: false,
+        arrows: false,
+        slidesToShow: 1,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+    });
+
+    $('.scroll-bar-drag').draggable({
+        containment: ".scroll-bar",
+        axis: "x",
+        stop: function() {
+            var self = this;
+            setTimeout(function() {
+                var left = Math.round(parseInt($(self).css('left')) / width);
+                $('.scroll-bar-drag').css('left',  width * left + 'px');
+                $('.swiper-container').slick('slickGoTo', left);
+            }, 500);
+        }
+    });
+})

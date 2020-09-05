@@ -1,6 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/jquery-ui/jquery-ui.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
+<link rel="stylesheet" href="<c:url value="/lib/fade-slider/slider.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/orthodontics/misowonOrthodontics.css"/>" />
 
 <div class="sub-contents misowon">
@@ -166,9 +170,192 @@
         </div>
     </section>
 
-    <section class="section06"></section>
-    <section class="section07"></section>
-    <section class="section08"></section>
+    <section class="section06 left-fade-slider-container">
+        <div class="max-layout-width">
+            <h2 class="section-title">
+                <strong><span class="section-title-color">
+                    교정기간은 Down<br>
+                    치료결과는 Up<br>
+                </span></strong>
+                미소원치과의 <strong>치아교정 단계</strong>
+            </h2>
+
+            <div class="numbers">
+                <span class="current">01</span>
+                <span class="max">04</span>
+            </div>
+        </div>
+        <div class="slider-container post-slider">
+            <div class="left-fade-sldier posts">
+                <div class="slides">
+                    <div class="slide" data-index="01">
+                        <div class="swiper-slide">
+                            <div class="img01 img"></div>
+                            <div class="text">
+                                <h2>진단 및 상담</h2>
+                                <p>
+                                    구강상태에 적합한 교정 계획을 수립합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-index="02">
+                        <div class="swiper-slide">
+                            <div class="img02 img"></div>
+                            <div class="text">
+                                <h2>정밀검사</h2>
+                                <p>
+                                    치아의 움직임과 교정 후 치아 상태를 예측합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-index="03">
+                        <div class="swiper-slide">
+                            <div class="img03 img"></div>
+                            <div class="text">
+                                <h2>장치 부착 및 교정 진행</h2>
+                                <p>
+                                    개인별 맞춤 장치 부착 후 치아 배열 공간을 배치합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-index="04">
+                        <div class="swiper-slide">
+                            <div class="img04 img"></div>
+                            <div class="text">
+                                <h2>여기 글자가 없어요</h2>
+                                <p>
+                                    여기 글자가 없어요
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg"></div>
+    </section>
+
+    <section class="section07 fade-in-slider">
+        <div class="max-layout-width">
+            <div class="title">
+                <h2>
+                    <strong>미소원 치아교정이 특별한 이유</strong>
+                </h2>
+                <p>남다른 치아를 만드는 미소원 치아교정의 특별함</p>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">01</span>
+                        <h2 class="section-title">
+                            치아 교정과 전문의가<br>
+                            <strong>책임진료합니다.</strong>
+                        </h2>
+                        <p class="section-text">
+                            교정과 전문의인 여자 원장님의 1:1 주치의 시스템으로 교정치료기간을 단축하기 위한 치료노하우와 기술력을 바탕으로 처음부터 끝까지 책임 진료합니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img01"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">02</span>
+                        <h2 class="section-title">
+                            얼굴라인에 따라 <br>
+                            <strong>치아교정을 진행합니다.</strong>
+                        </h2>
+                        <p class="section-text">
+                            단순히 치열을 바르게하는 치아교정이 아니라, 환자분의 니즈를 분명하게 파악한 후 얼굴과 치아를 조화롭게 보면서 입모양, 팔자주름 등을 고려해 치료를 진행합니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img02"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">03</span>
+                        <h2 class="section-title">
+                            교정치료와 함께 철저하게<br>
+                            <strong>구강케어를 진행합니다.</strong>
+                        </h2>
+                        <p class="section-text">
+                            교정 치료는 전문적인 교육과 훈련을 받은 교정 전문의에게 받는 것이 중요합니다. 환자에게 맞는 진단과 계획으로 안전하고 믿을 수 있는 진료뿐만 아니라 구강건강을 지속적으로 관리하여 최적의 교정 치료 결과를 만들고 있습니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img03"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">04</span>
+                        <h2 class="section-title">
+                            <strong>첨단 3D CT로 진단합니다.</strong>
+                        </h2>
+                        <p class="section-text">
+                            치아교정은 정확한 구강 분석과 진단이 치아교정의 성패를 좌우합니다. 입체적인 구강 촬영이 가능한 첨단 CT장비를 이용하여 체계적인 교정 진단과 치료계획을 세워 효과적이고 만족도 높은 치아교정치료를 징행하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img04"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">05</span>
+                        <h2 class="section-title">
+                            검증된 장치와 <br>
+                            <strong>정품 재료만을 사용합니다.</strong>
+                        </h2>
+                        <p class="section-text">
+                            미소원치과는 보다 높은 교정 효과와 환자의 안전을 위해 퀄리티 높은 정품 교정 장치만을 사용하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img05"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-bar">
+                <div class="scroll-bar-drag"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section08 treatment-case">
+        <div class="max-layout-width">
+            <div class="treatment-case-scroll-bar">
+                <div class="treatment-case-scroll-bar-drag"></div>
+            </div>
+            <div class="treatment-case-slider">
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+            </div>
+            <div class="text">
+                <h2>미소원치과 치료사례</h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
 
     <section class="section09 board-link">
         <div class="max-layout-width">
@@ -196,7 +383,14 @@
     </section>
 </div>
 
+<script src="<c:url value='/lib/fade-slider/jquery.easing.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/Hammer.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/slider.js' />"></script>
 
+
+<script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
+<script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
+<script src="<c:url value="/js/cmmn/slider.js" />"></script>
 <script>
     $(function() {
         $(window).scroll(function(){

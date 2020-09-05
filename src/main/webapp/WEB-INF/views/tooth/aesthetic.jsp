@@ -1,6 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/fade-slider/slider.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
 <link rel="stylesheet" href="<c:url value="/css/tooth/aesthetic.css"/>" />
 
 <div class="sub-contents grow">
@@ -139,7 +142,146 @@
             </div>
         </section>
 
-        <section class="section07"></section>
+        <section class="text-slider">
+            <h2 class="section-title">
+                라미네이트,편리해도<br>
+                <strong class="section-title-color">정확한 진료와 안전한 시술이 필요</strong>합니다.
+            </h2>
+            <p class="section-text">
+                미소원치과는 끊임없는 연구로 각 개인의 얼굴 및 치아에 최적화된 심미치료 결과를 얻습니다.
+            </p>
+            <div class="slider">
+                <div>
+                    <div class="text">
+                        <h2>
+                            <strong>미소원치과는<br> 최소삭제로 안전하고<br> 예쁘게 살려냅니다.</strong>
+                        </h2>
+                        <h3>01</h3>
+                        <p>
+                            미소원치과에서는 치아삭제를 많이하면 치아의 근관이 훼손되어 시림 증상이나 통증이 일어나는 부작용을 방지하기위해 시술경험이 풍부한 의료진들이 치아 앞면을 미세하게 삭제하여 치아건강을
+                            고려하여 라미네이트를 시행합니다.
+                        </p>
+                    </div>
+                    <div class="img img01">
+                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic11_1.jpg' />">
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <h2>
+                            <strong>높은 완성도로<br> 치아의 광채까지<br> 자연스럽게 살려냅니다.</strong>
+                        </h2>
+                        <h3>02</h3>
+                        <p>
+                            얼굴형에 따라, 느낌에 따라 아름다움이 부각될 수 있는 치아 디자인이 가능합니다 환자의 니즈에 따라 다양한 치아 디자인이 가능합니다.
+                        </p>
+                    </div>
+                    <div class="img img02">
+                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic11_2.jpg' />">
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <h2>
+                            <strong>빠르고 안전한<br> 디지털 라미네이트</strong>
+                        </h2>
+                        <h3>03</h3>
+                        <p>
+                            라미네이트는 정밀함이 중요하기에 0.1mm의 차이까지 확인할 수 있도록 첨단 디지털 장비를 이용해 시술합니다.
+                        </p>
+                    </div>
+                    <div class="img img03">
+                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic11_3.jpg' />">
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <h2>
+                            <strong>자연치아의 아름다움을<br> 재연하기 위해<br>끊임없이 연구합니다.</strong>
+                        </h2>
+                        <h3>04</h3>
+                        <p>
+                            자연스러움과 함께 건강한 치료를 위해 치아 삭제는 최소화하면서 만족스러운 결과를 얻을 수 있도록 자연치아의 특성을 지속적으로 연구하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="img img04">
+                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic11_4.jpg' />">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-arrow-container">
+                <div class="slider-arrow"></div>
+            </div>
+        </section>
+
+        <section class="left-fade-slider-container">
+            <div class="max-layout-width">
+                <h2 class="section-title">
+                    <strong><span class="section-title-color">
+                    내 치아의 부족한 부분을 채워주는<br>
+                </span></strong>
+                    미소원 치과의<br>
+                    <strong>라미네이트 치료단계</strong>
+                </h2>
+
+                <div class="numbers">
+                    <span class="current">01</span>
+                    <span class="max">04</span>
+                </div>
+            </div>
+            <div class="slider-container post-slider">
+                <div class="left-fade-sldier posts">
+                    <div class="slides">
+                        <div class="slide" data-index="01">
+                            <div class="swiper-slide">
+                                <div class="img01 img"></div>
+                                <div class="text">
+                                    <h2>정밀검사 후 치료계획 수립</h2>
+                                    <p>
+                                        최첨단 장비로 정밀하게 진단하고, 치료 계획을 철저하게 수립합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="02">
+                            <div class="swiper-slide">
+                                <div class="img02 img"></div>
+                                <div class="text">
+                                    <h2>최소한의 치아 삭제</h2>
+                                    <p>
+                                        최소한의 치아만 삭제해 라미네이트를 부착할 준비를 진행합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="03">
+                            <div class="swiper-slide">
+                                <div class="img03 img"></div>
+                                <div class="text">
+                                    <h2>맞춤 보철물 제작</h2>
+                                    <p>
+                                        건물내 상주 협력기공소에서 환자에게 적합한 최적의 보철물을 제작합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="04">
+                            <div class="swiper-slide">
+                                <div class="img04 img"></div>
+                                <div class="text">
+                                    <h2>라미네이트 부착</h2>
+                                    <p>
+                                        완성된 보철물을 환자에게 직접 확인 받은 후
+                                        치아 옆면에 접착하여 치료를 완성합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg"></div>
+        </section>
     </div>
 
     <div class="tab-container tab-contents2">
@@ -233,7 +375,64 @@
             </div>
         </section>
 
-        <section class="section07"></section>
+        <section class="text-slider">
+            <h2 class="section-title">
+                한 번의 내원만으로도 <strong class="section-title-color">만족스러운 결과</strong><br>
+                미소원치과의 <strong class="section-title-color">올세라믹 크라운 치료</strong>
+            </h2>
+            <p class="section-text">
+                미소원치과는 무리한 시술 강행으로 인한 부작용 없는 시술과 풍부한 경험 및 기술력으로 만족도 높은 결과를 보여드립니다.
+            </p>
+            <div class="slider">
+                <div>
+                    <div class="text">
+                        <h2>
+                            <strong>미소원치과는 최소삭제로<br>안전하고 예쁘게<br>치아를 살려냅니다.</strong>
+                        </h2>
+                        <h3>01</h3>
+                        <p>
+                            치아 겉면에 붙이는 라미네이트와는 달리 치아 전체를 덮어 씌우는 올세라믹의 경우 크기와 형태 색상까지 원하는 대로 바꿀 수 있으며 필요한 경우 교정치료의 효과도 얻을 수 있습니다.
+                        </p>
+                    </div>
+                    <div class="img img01">
+                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic05_1.jpg' />">
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <h2>
+                            <strong>안전한 올세라믹<br> 시술을 위해 사전에<br> 일반진료를 진행합니다.</strong>
+                        </h2>
+                        <h3>02</h3>
+                        <p>
+                            부작용의 우려가 없도록 시술 전에 충치 치료, 신경치료등 필요한 치료를 진행하고, 최소한의
+                            치아를 삭제하여 시린 증상 등 부작용을 최소화하도록 안전하게 치료를 진행하고 있습니다.
+
+                        </p>
+                    </div>
+                    <div class="img img02">
+                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic05_2.jpg' />">
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <h2>
+                            <strong>첨단장비로<br> 정밀하고 정확한<br> 진단 후 진료</strong>
+                        </h2>
+                        <h3>03</h3>
+                        <p>
+                            3D 구강스캐너, 3D CT 등 첨단 디지털 장비를 통해 정확한 진단 후 환자에게 적합한 최적의 보철물을 제작합니다. 원하는 치아의 형태와 모양뿐만 아니라 색상도 맞춤 제작할 수 있습니다.
+                        </p>
+                    </div>
+                    <div class="img img03">
+                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic05_3.jpg' />">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-arrow-container">
+                <div class="slider-arrow"></div>
+            </div>
+        </section>
 
         <section class="section13">
             <div class="max-layout-width">
@@ -279,10 +478,102 @@
                 </div>
             </div>
         </section>
+        <section class="left-fade-slider-container">
+            <div class="max-layout-width">
+                <h2 class="section-title">
+                    <strong><span class="section-title-color">
+                    치아를 위한 맞춤 성형
+                </span></strong>
+                    미소원 치과의<br> <strong>올세라믹 크라운 치료단계</strong>
+                </h2>
+
+                <div class="numbers">
+                    <span class="current">01</span>
+                    <span class="max">04</span>
+                </div>
+            </div>
+            <div class="slider-container post-slider">
+                <div class="left-fade-sldier posts">
+                    <div class="slides">
+                        <div class="slide" data-index="01">
+                            <div class="swiper-slide">
+                                <div class="img01 img"></div>
+                                <div class="text">
+                                    <h2>정밀 진단 및 치료계획 수립</h2>
+                                    <p>
+                                        최첨단 장비로 정밀하게 진단하고, 치료 계획을 철저하게 수립합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="02">
+                            <div class="swiper-slide">
+                                <div class="img02 img"></div>
+                                <div class="text">
+                                    <h2>최소한의 치아 삭제</h2>
+                                    <p>
+                                        올세라믹 보철물을 부착하기 위해 최소한의 치아를 삭제합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="03">
+                            <div class="swiper-slide">
+                                <div class="img03 img"></div>
+                                <div class="text">
+                                    <h2>환자에게 맞는 맞춤 보철물 제작</h2>
+                                    <p>
+                                        건물내 상주 협력기공소에서 환자에게 적합한 보철물을 제작합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="04">
+                            <div class="swiper-slide">
+                                <div class="img04 img"></div>
+                                <div class="text">
+                                    <h2>단단하게 보철물 부착</h2>
+                                    <p>
+                                        완성된 보철물을 환자에게 직접 확인 받은 후 치아에 부착하여 치료합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg"></div>
+        </section>
     </div>
 
-    <section class="section08"></section>
-    <section class="section09"></section>
+    <section class="section09 treatment-case">
+        <div class="max-layout-width">
+            <div class="treatment-case-scroll-bar">
+                <div class="treatment-case-scroll-bar-drag"></div>
+            </div>
+            <div class="treatment-case-slider">
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+            </div>
+            <div class="text">
+                <h2>미소원치과 치료사례</h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
 
     <section class="section10 board-link">
         <div class="max-layout-width">
@@ -310,8 +601,13 @@
     </section>
 </div>
 
+<script src="<c:url value='/lib/fade-slider/jquery.easing.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/Hammer.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/slider.js' />"></script>
 
-
+<script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
+<script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
+<script src="<c:url value="/js/cmmn/slider.js" />"></script>
 <script>
     $(function() {
         $(window).scroll(function(){
@@ -329,6 +625,40 @@
             $('.tab li').eq(index).addClass('active');
             $('.tab-container').removeClass('active');
             $('.tab-contents' + (index + 1)).addClass('active');
+        });
+
+        $('.tab-contents1 .text-slider .slider').on('init', function(slick){
+            $('.tab-contents1 .text-slider .slider-arrow').append($('.tab-contents1 .slider-prev'));
+            $('.tab-contents1 .text-slider .slider-arrow').append($('.tab-contents1 .slider-next'));
+        });
+        $('.tab-contents1 .text-slider .slider').slick({
+            infinite: true,
+            dots: false,
+            arrows: true,
+            slidesToShow: 1,
+            centerMode: true,
+            variableWidth: true,
+            autoplay: false,
+            autoplaySpeed: 4000,
+            prevArrow: '<span class="slider-prev"><</span>',
+            nextArrow: '<span class="slider-next">></span>'
+        });
+
+        $('.tab-contents2 .text-slider .slider').on('init', function(slick){
+            $('.tab-contents2 .text-slider .slider-arrow').append($('.tab-contents2 .slider-prev'));
+            $('.tab-contents2 .text-slider .slider-arrow').append($('.tab-contents2 .slider-next'));
+        });
+        $('.tab-contents2 .text-slider .slider').slick({
+            infinite: true,
+            dots: false,
+            arrows: true,
+            slidesToShow: 1,
+            centerMode: true,
+            variableWidth: true,
+            autoplay: false,
+            autoplaySpeed: 4000,
+            prevArrow: '<span class="slider-prev"><</span>',
+            nextArrow: '<span class="slider-next">></span>'
         });
     })
 </script>

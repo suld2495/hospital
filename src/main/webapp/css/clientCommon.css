@@ -10,6 +10,24 @@
     url('../fonts/noto-sans/noto-sans-kr-v12-latin_korean-regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/nanum_myeongjo/NanumMyeongjoBold.eot'); /* IE9 Compat Modes */
+    url('../fonts/nanum_myeongjo/NanumMyeongjoBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/nanum_myeongjo/NanumMyeongjoBold.woff') format('woff'), /* Super Modern Browsers */
+}
+
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nanum_myeongjo/NanumMyeongjo.eot'); /* IE9 Compat Modes */
+    url('../fonts/nanum_myeongjo/NanumMyeongjo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/nanum_myeongjo/NanumMyeongjo.woff') format('woff'), /* Super Modern Browsers */
+}
+
 * {
     font-family: Noto Sans KR !Important;
 }

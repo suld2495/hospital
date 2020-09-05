@@ -1,6 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
 <link rel="stylesheet" href="<c:url value="/css/orthodontics/malocculusionOrthodontics.css"/>" />
 
 <div class="sub-contents">
@@ -482,6 +484,35 @@
         </div>
     </section>
 
+    <section class="section10 treatment-case">
+        <div class="max-layout-width">
+            <div class="treatment-case-scroll-bar">
+                <div class="treatment-case-scroll-bar-drag"></div>
+            </div>
+            <div class="treatment-case-slider">
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+            </div>
+            <div class="text">
+                <h2>미소원치과 치료사례</h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
     <section class="section07 board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
@@ -508,6 +539,9 @@
     </section>
 </div>
 
+<script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
+<script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
+<script src="<c:url value="/js/cmmn/slider.js" />"></script>
 <script>
     $(function() {
         $('.tab li').click(function() {

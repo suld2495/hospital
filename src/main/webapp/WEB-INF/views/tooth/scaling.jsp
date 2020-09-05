@@ -1,6 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/fade-slider/slider.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
 <link rel="stylesheet" href="<c:url value="/css/tooth/scaling.css"/>" />
 
 <div class="sub-contents grow">
@@ -143,8 +146,93 @@
         </div>
     </section>
 
-    <section class="section07"></section>
-    <section class="section08"></section>
+    <section class="section07 text-slider">
+        <h2 class="section-title">
+            환자분들의 <strong class="section-title-color">구강건강을 위한</strong><br>
+            미소원치과의 <strong class="section-title-color">꼼꼼한 스케일링</strong>
+        </h2>
+        <p class="section-text">
+            국가면허를 취득한 미소원치과의 숙련된 치과위생사에게 안정적이고 세심하게 스케일링 받으세요!
+        </p>
+        <div class="slider">
+            <div>
+                <div class="text">
+                    <h2>
+                        <strong>간단한 치료라도<br> 소홀히 하지 않는<br> 미소원치과의 스케일링 치교</strong>
+                    </h2>
+                    <h3>01</h3>
+                    <p>
+                        스케일링 치료로 돌처럼 굳어있는 치석이나 치주 질환의 원인을 제거하고 치아 표면을 깨끗하게 만들어 줍니다.<br>
+                        스케일링의 생활화로 치아 건강을 지키세요.
+                    </p>
+                </div>
+                <div class="img img01">
+                    <img src="<c:url value='/images/sub/tooth/scaling/scaling05_1.jpg' />">
+                </div>
+            </div>
+            <div>
+                <div class="text">
+                    <h2>
+                        <strong>치료에 대한 공포를<br> 느끼는 분들을 위한<br> 도포마취 시스템</strong>
+                    </h2>
+                    <h3>02</h3>
+                    <p>
+                        스프레이, 연구, 가글 등 안전성이 입증된 다양한 도포마취제를 통해 표면마취를 시행합니다.
+                    </p>
+                </div>
+                <div class="img img02">
+                    <img src="<c:url value='/images/sub/tooth/scaling/scaling05_2.jpg' />">
+                </div>
+            </div>
+            <div>
+                <div class="text">
+                    <h2>
+                        <strong>스케일링 후 지속적인<br> 구강관리를 위해<br> 올바른 양치법 안내</strong>
+                    </h2>
+                    <h3>03</h3>
+                    <p>
+                        스케일링이 완료되면 건강한 구강상태를 오래 유지할 수 있도록 올바른 양치법과 정기적인 구강
+                        관리법에 대해서 상세한 안내를 드립니다.
+                    </p>
+                </div>
+                <div class="img img03">
+                    <img src="<c:url value='/images/sub/tooth/scaling/scaling05_3.jpg' />">
+                </div>
+            </div>
+        </div>
+        <div class="slider-arrow-container">
+            <div class="slider-arrow"></div>
+        </div>
+    </section>
+
+    <section class="section08 treatment-case">
+        <div class="max-layout-width">
+            <div class="treatment-case-scroll-bar">
+                <div class="treatment-case-scroll-bar-drag"></div>
+            </div>
+            <div class="treatment-case-slider">
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+            </div>
+            <div class="text">
+                <h2>미소원치과 치료사례</h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
 
     <section class="section09 board-link">
         <div class="max-layout-width">
@@ -171,3 +259,27 @@
         </div>
     </section>
 </div>
+
+<script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
+<script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
+<script src="<c:url value="/js/cmmn/slider.js" />"></script>
+<script>
+    $(function() {
+        $('.text-slider .slider').on('init', function(slick){
+            $('.text-slider .slider-arrow').append($('.slider-prev'));
+            $('.text-slider .slider-arrow').append($('.slider-next'));
+        });
+        $('.text-slider .slider').slick({
+            infinite: true,
+            dots: false,
+            arrows: true,
+            slidesToShow: 1,
+            centerMode: true,
+            variableWidth: true,
+            autoplay: false,
+            autoplaySpeed: 4000,
+            prevArrow: '<span class="slider-prev"><</span>',
+            nextArrow: '<span class="slider-next">></span>'
+        });
+    });
+</script>

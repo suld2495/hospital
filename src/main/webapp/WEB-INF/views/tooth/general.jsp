@@ -1,6 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/jquery-ui/jquery-ui.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
+<link rel="stylesheet" href="<c:url value="/lib/fade-slider/slider.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/tooth/general.css"/>" />
 
 <div class="sub-contents grow">
@@ -199,6 +203,74 @@
                     </h2>
                 </div>
             </div>
+        </section>
+
+        <section class="left-fade-slider-container">
+            <div class="max-layout-width">
+                <h2 class="section-title">
+                    <strong><span class="section-title-color">
+                    더이상 미루지 마세요!<br>
+                    빠를수록 좋은 충치치료<br>
+                </span></strong>
+                    미소원 치과의 <strong>충치치료 단계</strong>
+                </h2>
+
+                <div class="numbers">
+                    <span class="current">01</span>
+                    <span class="max">04</span>
+                </div>
+            </div>
+            <div class="slider-container post-slider">
+                <div class="left-fade-sldier posts">
+                    <div class="slides">
+                        <div class="slide" data-index="01">
+                            <div class="swiper-slide">
+                                <div class="img01 img"></div>
+                                <div class="text">
+                                    <h2>검진</h2>
+                                    <p>
+                                        충치의 깊이,치아상태를 정밀하게 확인합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="02">
+                            <div class="swiper-slide">
+                                <div class="img02 img"></div>
+                                <div class="text">
+                                    <h2>충치제거,3D 구강스캔</h2>
+                                    <p>
+                                        충치부분을 제거하고,3D 구강스캔을 통해 제거된 치아 모양을 스캔합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="03">
+                            <div class="swiper-slide">
+                                <div class="img03 img"></div>
+                                <div class="text">
+                                    <h2>보철물 제작</h2>
+                                    <p>
+                                        미소원치과 건물 내 상주하고있는 협력 기공소에서 보철물을 제작합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="04">
+                            <div class="swiper-slide">
+                                <div class="img04 img"></div>
+                                <div class="text">
+                                    <h2>내용이 없어요!</h2>
+                                    <p>
+                                        내용이 없어요!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg"></div>
         </section>
     </div>
 
@@ -450,16 +522,166 @@
             </div>
             <div class="bg"></div>
         </section>
+        <section class="left-fade-slider-container">
+            <div class="max-layout-width">
+                <h2 class="section-title">
+                    <strong><span class="section-title-color">
+                    치주질환은 치아를 읽게되는<br>
+                    가장 큰 원인입니다.<br>
+                    미소원 치과의 <strong>잇몸치료 단계</strong>
+                </h2>
+
+                <div class="numbers">
+                    <span class="current">01</span>
+                    <span class="max">04</span>
+                </div>
+            </div>
+            <div class="slider-container post-slider">
+                <div class="left-fade-sldier posts">
+                    <div class="slides">
+                        <div class="slide" data-index="01">
+                            <div class="swiper-slide">
+                                <div class="img01 img"></div>
+                                <div class="text">
+                                    <h2>칫솔질, 치실</h2>
+                                    <p>
+                                        일상생활을 하면서 간단히 실행할 수 있는 방법으로 가장 간편한 예방치료법입니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="02">
+                            <div class="swiper-slide">
+                                <div class="img02 img"></div>
+                                <div class="text">
+                                    <h2>스케일링</h2>
+                                    <p>
+                                        칫솔질이나 치실로 제거할 수 없는 플라그를 치과에서 전문 기구로 긁어내는 치료법입니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="03">
+                            <div class="swiper-slide">
+                                <div class="img03 img"></div>
+                                <div class="text">
+                                    <h2>치근활택술</h2>
+                                    <p>
+                                        스케일링 후 치아 하단의 거친 표면을 매끄럽게하는 치료입니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" data-index="04">
+                            <div class="swiper-slide">
+                                <div class="img04 img"></div>
+                                <div class="text">
+                                    <h2>치주소파술</h2>
+                                    <p>
+                                        잇몸을 마취하여 잇몸 내부의
+                                        감염조직과 치석을
+                                        제거하는 치료입니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg"></div>
+        </section>
     </div>
 
-    <section class="section07">
-
+    <section class="fade-in-slider">
+        <div class="max-layout-width">
+            <div class="title">
+                <h2>
+                    <strong>미소원치과의 자연치아 클리닉이 특별한 이유</strong>
+                </h2>
+                <p>자연치아를 살리기 위해 치조골 상태에 따라 치주치료,고난이도 보존치료를 시행하는 미소원치과 </p>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">01</span>
+                        <h2 class="section-title">
+                            자연치아를<br>
+                            살리기위한 <strong>고난이도</strong><br>
+                            <strong>치료가 가능한 치과</strong>
+                        </h2>
+                        <p class="section-text">
+                            미소원치과는 당장 불편하다고 신경을 먼저 죽이거나 소중한 치아를 바로 발치하지 않습니다.<br>
+                            치아에 영양공급과 불편함의 신호를 보내주는 소중한 신경을 살리면서 치료하는 방법을 먼저 고민하고 연구하며,고난이도 치료도 최선을 다합니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img01"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">02</span>
+                        <h2 class="section-title">
+                            <strong>믿을 수 있는 치과</strong>
+                        </h2>
+                        <p class="section-text">
+                            미소원치과의 의료진들은 항상 공부하고 연구하는 의사만이 더 나은 치료를 할 수 있다는 생각으로 끊임없이 연구하고 활발한 학술활동과 고품질의 의료서비스를 제공하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img02"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <span class="number">03</span>
+                        <h2 class="section-title">
+                            평생 책임 진료제와<br>
+                            <strong>정품 임플란트의 사용</strong>
+                        </h2>
+                        <p class="section-text">
+                            미소원치과는 아이부터 어른까지 우리가족 모두의 평생치과주치의라는 이념으로 초심을 잃지 않고 수준 높은 의료서비스와 차별화된 진료시스템으로 보답하고자 노력하고 있습니다.
+                            무엇보다 책임있는 사후유지관리 프로그램을 운영하고 있습니다. 또한 미국FDA 인증 및 국제적으로 인정받는 정품 임플란트를 사용합니다.
+                        </p>
+                    </div>
+                    <div class="image_box_right">
+                        <div class="img img03"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-bar">
+                <div class="scroll-bar-drag"></div>
+            </div>
+        </div>
     </section>
-    <section class="section08">
 
-    </section>
-    <section class="section09">
-
+    <section class="treatment-case">
+        <div class="max-layout-width">
+            <div class="treatment-case-scroll-bar">
+                <div class="treatment-case-scroll-bar-drag"></div>
+            </div>
+            <div class="treatment-case-slider">
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+                <div class="treatment-case-swiper-slide">
+                    <div class="left-img left-img1"></div>
+                    <div class="right-img right-img1"></div>
+                </div>
+            </div>
+            <div class="text">
+                <h2>미소원치과 치료사례</h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
+                </p>
+            </div>
+        </div>
     </section>
 
     <section class="section10 board-link">
@@ -487,6 +709,15 @@
         </div>
     </section>
 </div>
+
+
+<script src="<c:url value='/lib/fade-slider/jquery.easing.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/Hammer.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/slider.js' />"></script>
+
+<script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
+<script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
+<script src="<c:url value="/js/cmmn/slider.js" />"></script>
 
 <script>
     $(function() {

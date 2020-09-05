@@ -797,11 +797,18 @@ body .section07 .bx-pager-link span + span {
 }
 
 .section05 {
-    margin-top: 280px;
+    margin-top: 140px;
+    position: relative;
+    height: 567px;
+    padding: 20px 0;
 }
 
 .section05 .section-title {
     line-height: 1.3;
+    position: relative;
+    z-index: 1;
+    padding-top: 30px;
+    margin-bottom: 9px;
 }
 
 .section05 .section-text {
@@ -809,6 +816,7 @@ body .section07 .bx-pager-link span + span {
     width: 400px;
     word-break: keep-all;
     position: relative;
+    z-index: 1;
 }
 
 .section05 .section-text:before {
@@ -817,24 +825,27 @@ body .section07 .bx-pager-link span + span {
     background: #9a8b7e;
     position: absolute;
     content: '';
-    bottom: -65px;
+    bottom: -25px;
 }
 
-.section05 .doctor-slider > div {
-    width: 412px;
-    height: 323px;
+.section05 .doctor-slider .img-box {
+    box-sizing: border-box;
+}
+
+.section05 .doctor-slider .doctor-slide-item {
+    height: 233px;
 }
 
 .section05 .doctor-slider .img01 {
-    background: url(../images/main/doctor01_s.jpg) no-repeat center;
+    background: url(../images/main/doctor01_s.jpg) no-repeat top;
 }
 
 .section05 .doctor-slider .img02 {
-    background: url(../images/main/doctor02_s.jpg) no-repeat center;
+    background: url(../images/main/doctor02_s.jpg) no-repeat top;
 }
 
 .section05 .doctor-slider .img03 {
-    background: url(../images/main/doctor03_s.jpg) no-repeat center;
+    background: url(../images/main/doctor03_s.jpg) no-repeat top;
 }
 
 .section05 .big-img {
@@ -843,36 +854,132 @@ body .section07 .bx-pager-link span + span {
 
 .section05 .big-img > div {
     width: auto;
-    height: 703px;
+    height: 567px;
 }
 
 .section05 .big-img .img {
-    width: 492px;
-    height: 703px;
+    width: 100%;
+    height: 567px;
     position: absolute;
+    transform: translate3d(0, -50px, 0);
+    transition: transform 1200ms;
+}
+
+.section05 .big-img .slick-current .img  {
+    transform: translate3d(0, 0px, 0);
 }
 
 .section05 .big-img .cont01 .img {
-    background: url(../images/main/docter01_b.jpg) no-repeat center;
+    background: url(../images/main/docter03_b.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont02 .img {
+    background: url(../images/main/docter01_b.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont03 .img {
+    background: url(../images/main/docter02_b.jpg) no-repeat;
+    background-size: contain;
 }
 
 .section05 .slider-container > div {
-    float: left;
-    margin-right: 80px;
+    float: right;
+    margin-right: 50px;
+}
+
+.section05 .big-img-slider {
+    width: 920px;
+}
+
+.section05 .doctor-slider {
+    width: 33.6%;
+    padding-top: 333px;
+    height: 567px;
+    overflow: hidden;
+}
+
+.section05 .doctor-slider .slick-slide {
+    margin-right: 50px;
+    outline: none;
 }
 
 .section05 .slider-container {
     float: right;
-    margin-top: -230px;
+    margin-top: -192px;
+    top: 0;
 }
 
 .section05 .bx-wrapper {
-    margin-top: 380px;
+    margin-top: 244px;
 }
 
 .section05 .text {
-    padding-left: 547px;
+    padding-left: 437px;
     width: 445px;
+    padding-top: 50px;
+    color: #fff;
+    transform: translate3d(0, -50px, 0);
+    transition: transform 1200ms;
+    transition-delay: 200ms;
+}
+
+.section05 .slick-current .text {
+    transform: translate3d(0, 0, 0);
+}
+
+.section05 .text .title span {
+    color: #fff;
+}
+
+.section05 .text .title span:first-child {
+    font-size: 40px;
+    margin-right: 13px;
+}
+
+.section05 .text h5 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.section05 .sub-text {
+    font-size: 24px;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.section05 .dc {
+    line-height: 1.6;
+}
+
+.section07 .bx-pager-item {
+    display: inline-block;
+}
+
+.section05 .max-layout-width {
+    position: relative;
+    z-index: 1
+}
+
+.section05 .bg {
+    width: 50%;
+    height: 100%;
+    background: #7e6956;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.slick-slide {
+    outline: none;
+}
+
+.section05 .doctor-slider .slick-list {
+    height: 235px;
 }
 
 .section07 .bx-pager-item {
