@@ -1,5 +1,5 @@
 .section01 {
-    margin-top: 99px;
+    margin-top: 66px;
 }
 
 #map {
@@ -9,8 +9,8 @@
 
 .section02 {
     background: #f5f5f5;
-    padding-bottom: 108px;
-    padding-top: 126px;
+    padding-bottom: 68px;
+    padding-top: 78px;
 }
 
 .location-color {
@@ -32,6 +32,7 @@
 .location p {
     font-size: 16px;
     color: #222;
+    letter-spacing: -1px;
 }
 
 .location h2 {
@@ -47,6 +48,7 @@
     position: relative;
     line-height: 1.6;
     margin-bottom: 22px;
+    letter-spacing: -1px;
 }
 
 .location .info:before {
@@ -60,14 +62,14 @@
 
 .section03 {
     width: 100%;
-    height: 840px;
+    height: 665px;
 }
 
 .section03 .bg {
     width: 100%;
     height: 100%;
     background: url(../../images/sub/info/directions/location_bg.jpg) center top no-repeat fixed;
-    padding-top: 159px;
+    padding-top: 92px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -80,14 +82,14 @@
 
 .location-bg {
     background: url(../../images/sub/info/directions/location01.png) center top no-repeat;
-    height: 466px;
+    height: 400px;
     background-size: contain;
     margin-top: 52px;
 }
 
 .section04 {
-    padding-top: 148px;
-    padding-bottom: 121px;
+    padding-top: 99px;
+    padding-bottom: 19px;
 }
 
 .section04 li {
@@ -97,15 +99,17 @@
 }
 
 .section04 li h2 {
-    font-size: 30px;
+    font-size: 29px;
     font-weight: bold;
     margin-bottom: 19px;
+    letter-spacing: -2px;
 }
 
 .section04 li p {
-    font-size: 18px;
+    font-size: 16px;
     color: #646665;
-    line-height: 1.8;
+    line-height: 1.6;
+    letter-spacing: -1px;
 }
 
 .section04 li p strong {

@@ -2,7 +2,7 @@
     display: inline-block;
     width: 100%;
     overflow: hidden;
-    margin-top: 96px;
+    margin-top: 66px;
     margin-bottom: 100px;
 }
 
@@ -67,6 +67,7 @@
     font-size: 20px;
     padding: 13px 50px 13px 0;
     position: relative;
+    letter-spacing: -1.5px;
 }
 
 .section01 .slider-pagenation .slick-active .bx-pager-item .label:before {
@@ -80,9 +81,9 @@
 }
 
 .section01 .slider-container > div.slider-box {
-    width: 57%;
+    width: 62%;
     float: right;
-    padding-left: 73px;
+    padding-left: 41px;
     padding-bottom: 63px;
     position: relative;
     height: 503px;
@@ -104,9 +105,10 @@
     bottom: 0;
     z-index: 1;
     left: 0;
-    padding: 64px 0 0 36px;
+    padding: 55px 0 0 36px;
     box-sizing: border-box;
     color: #fff;
+    letter-spacing: -1px;
 }
 
 .section01 .text-box h2 {
@@ -129,7 +131,7 @@
 }
 
 .section01 .slider-pagenation {
-    margin-right: 45px;
+    margin-right: 61px;
 }
 
 .section01 .max-layout-width {
@@ -138,8 +140,8 @@
 
 .section01 .pager {
     position: absolute;
-    right: 0;
-    bottom: 30px;
+    right: 255px;
+    bottom: 8px;
 }
 
 .section01 .pager span {
@@ -148,12 +150,12 @@
 
 .section01 .pager span.current {
     margin-top: -10px;
-    font-size: 20px;
+    font-size: 34px;
     font-weight: bold;
 }
 
 .section01 .pager span.max {
-    font-size: 13px;
+    font-size: 23px;
 }
 
 .section01 .slick-slider .slick-list {
@@ -162,7 +164,7 @@
 }
 
 .section01 .slick-slide {
-    margin-right: 60px;
+    margin-right: 41px;
     outline: none;
 }
 
@@ -278,8 +280,8 @@
 
 
 .section03 {
-    margin-top: 171px;
-    padding-bottom: 244px;
+    margin-top: 92px;
+    padding-bottom: 267px;
     overflow: hidden;
 }
 
@@ -305,6 +307,7 @@
 
 .section03 .section-title {
     line-height: 1.3;
+    letter-spacing: -3px;
 }
 
 .section03 .section-text {
@@ -313,6 +316,7 @@
     position: relative;
     width: 340px;
     word-break: keep-all;
+    letter-spacing: -1px;
 }
 
 .section03 .section-text:after {

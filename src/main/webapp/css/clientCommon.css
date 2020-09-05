@@ -50,6 +50,7 @@ section {
     margin-bottom: 26px;
     margin-top: 71px;
     text-align: center;
+    letter-spacing: -2px;
 }
 
 .sub-page-intro {
@@ -86,6 +87,7 @@ section {
     font-size: 38px;
     margin-bottom: 19px;
     color: #212121;
+    letter-spacing: -3px;
 }
 
 .section-title strong {
@@ -100,6 +102,7 @@ section {
     font-size: 16px;
     color: #222;
     line-height: 27px;
+    letter-spacing: -1px;
 }
 
 .section-text strong {
@@ -245,7 +248,7 @@ strong {
 
 /* treatment-case */
 .treatment-case {
-    padding: 140px 0;
+    padding: 93px 0;
     background: #f5f5f5 url(../images/sub/implant/cmmn/digital_bg3.jpg) center;
 }
 
@@ -276,11 +279,13 @@ strong {
     color: #222;
     margin-bottom: 40px;
     font-weight: bold;
+    letter-spacing: -2.5px;
 }
 
 .treatment-case .max-layout-width .text p {
     line-height: 1.7;
     word-break: keep-all;
+    letter-spacing: -1px;
 }
 
 .treatment-case .treatment-case-swiper-slide {

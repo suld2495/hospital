@@ -229,7 +229,7 @@
                 <div>
                     <img src="<c:url value='/images/main/case02.jpg' />">
                     <h5>디지털 치아교정</h5>
-                    <p>디지털 치아고정 치료 전/후 사진입니다.</p>
+                    <p>디지털 치아교정 치료 전/후 사진입니다.</p>
                 </div>
                 <div>
                     <img src="<c:url value='/images/main/case03.jpg' />">

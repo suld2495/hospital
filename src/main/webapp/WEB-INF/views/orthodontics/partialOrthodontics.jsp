@@ -66,7 +66,7 @@
             <div class="text">
                 <h2>
                     원하는 부분만 선택적으로 교정하여,<br>
-                    <strong><span>3~6개월 내로 교정이 가능</span>합니다.</strong>
+                    <strong><span>6개월 내외로 교정이 가능</span>합니다.</strong>
                 </h2>
                 <p>정확한 진단과 치료를 위해 반드시 치과전문의에게 상담받으시길 바랍니다.</p>
             </div>
@@ -83,12 +83,10 @@
                     <h2 class="section-title">
                         <span class="section-title-color bold">부분 교정이</span> 필요한 경우<br>
                     </h2>
-                    <p class="pager active"><span>01</span>돌출된 구강으로 인해 발음이 새거나 특정 발음이 어려운분</p><br>
-                    <p class="pager">치아가 제대로 맞물리지 않아 저작이 어려운 분</p><br>
-                    <p class="pager">뚱해보이고 부정적인 인상이 컴플렉스인 분</p><br>
-                    <p class="pager">입이 제대로 다물어지지 않아 입으로 호흡을 하시는 분</p><br>
-                    <p class="pager">비수술적인 방법으로 돌출입 개선을 원하시는 분</p><br>
-                    <p class="pager">돌출된 입이 콤플렉스인분</p><br>
+                    <p class="pager active"><span>01</span>어금니는 괜찮은데 앞니만 고민이신분</p><br>
+                    <p class="pager">시간이 많이 없으신분</p><br>
+                    <p class="pager">어금니 조기발치로 인해 치아가 쓰러져 세우고 싶으신분</p><br>
+                    <p class="pager">경제적 부담을 덜고싶은분</p><br>      
                 </div>
             </div>
         </div>
