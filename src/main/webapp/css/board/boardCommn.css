@@ -1,0 +1,99 @@
+.paging {
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.paging ul {
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.paging li {
+    width: 41px;
+    height: 41px;
+    float: left;
+    margin-left: 5px;
+}
+
+.paging li a {
+    width: 100%;
+    height: 100%;
+    line-height: 41px;
+    border: 1px solid #bababa;
+    display: block;
+    box-sizing: border-box;
+}
+
+.paging li a {
+    color: #222;
+}
+
+.paging li a.active {
+    color: #fff;
+    border: none;
+    background: #9b8b7e;
+}
+
+.paging .prev-prev {
+    background: url(../../images/sub/board/icon03.png) no-repeat center;
+}
+
+.paging .prev {
+    background: url(../../images/sub/board/icon04.png) no-repeat center;
+}
+
+.paging .next {
+    background: url(../../images/sub/board/icon05.png) no-repeat center;
+}
+
+.paging .next-next {
+    background: url(../../images/sub/board/icon06.png) no-repeat center;
+}
+
+.search {
+    max-width: 660px;
+    width: 100%;
+    margin: 60px auto;
+    padding-left: 200px;
+    position: relative;
+}
+
+.search .select-type {
+    width: 190px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    border: 1px solid #222;
+    color: #222;
+    font-size: 16px;
+    padding: 0 19px;
+}
+
+.search .search-input {
+    width: 100%;
+    padding-right: 75px;
+    border: 1px solid #222;
+    color: #222;
+    height: 50px;
+    line-height: 50px;
+    outline: none;
+}
+
+.search .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 50px;
+    border: 0;
+    background: transparent url(../../images/sub/board/icon01.png) no-repeat center;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+.search-container {
+    padding: 8px 0;
+    background: #f5f5f5;
+    margin-bottom: 95px;
+}

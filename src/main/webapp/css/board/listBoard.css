@@ -1,0 +1,39 @@
+.board-list table {
+    width: 100%;
+    border-top: 2px solid #9b8b7e;
+    margin-top: 66px;
+    color: #424242;
+    margin-bottom: 72px;
+}
+
+.board-list table thead tr {
+    border-bottom: 1px solid #b4b4b4;
+}
+
+.board-list table tr {
+    height: 56px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+.board-list .subject {
+    text-align: left;
+}
+
+.board-list .subject a {
+    width: 100%;
+    color: #222;
+}
+
+.board-list .subject a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.board-list table th {
+    font-weight: bold;
+}
+
+.board-list table td, .board-list table th {
+    vertical-align: middle;
+}
