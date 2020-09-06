@@ -193,13 +193,13 @@
             </div>
         </section>
 
-        <section class="section06">
+        <section class="section20">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
                     <h2>
                         미소원치과는 <strong><span>3D카메라로 스캔</span></strong>하여 석고로 본을 뜨는 시간을 줄이는 동시에
-                        <strong><span>더욱 정밀하고 세밀하게 치아를 디자인</span></strong>하여 <strong>건물 내 상주하는 협력 기공소에서 바로 제작</strong>합니다.
+                        <br><strong><span>더욱 정밀하고 세밀하게 치아를 디자인</span></strong>하여<br> <strong>건물 내 상주하는 협력 기공소에서 바로 제작</strong>합니다.
                     </h2>
                 </div>
             </div>
@@ -260,9 +260,9 @@
                             <div class="swiper-slide">
                                 <div class="img04 img"></div>
                                 <div class="text">
-                                    <h2>내용이 없어요!</h2>
+                                    <h2>보철물 부착,교합체크</h2>
                                     <p>
-                                        내용이 없어요!
+                                        완성된 보철물을 장착하여 교합체크를 합니다.
                                     </p>
                                 </div>
                             </div>
@@ -410,8 +410,8 @@
             <div class="max-layout-width">
                 <div class="text">
                     <h2>
-                        미소원치과에서는 치료 전후에 재발하지 않기 위해 <strong>적절한 예방교육</strong>과 <strong><span>구취세균 검사 위상차현미경을 통한 세균 검사,타액검사 등 정밀검사</span></strong>
-                        를 통해 구강예방 관리를 시행하고 있습니다.
+                        미소원치과에서는 치료 전후에 재발하지 않기 위해 <strong>적절한 예방교육</strong>과<br><strong><span>구취세균 검사 위상차현미경을 통한 세균 검사, 타액검사 등<br>정밀검사</span></strong>
+                      를 통해 구강예방 관리를 시행하고 있습니다.
                     </h2>
                 </div>
             </div>
@@ -480,7 +480,7 @@
             </div>
         </section>
 
-        <section class="section11">
+        <section class="section12">
             <div class="max-layout-width">
                 <div class="image_box_left">
                     <p class="img"></p>

@@ -153,7 +153,7 @@
     <div class="tab-contents tab-contents1 active">
         <section class="section04">
             <div class="image_box_left">
-                <p class="img"></p>
+                <p class="img toothimg01"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
@@ -192,7 +192,7 @@
     <div class="tab-contents tab-contents2">
         <section class="section04">
             <div class="image_box_left">
-                <p class="img"></p>
+                <p class="img toothimg02"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
@@ -234,7 +234,7 @@
     <div class="tab-contents tab-contents3">
         <section class="section04">
             <div class="image_box_left">
-                <p class="img"></p>
+                <p class="img toothimg03"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
@@ -277,7 +277,7 @@
     <div class="tab-contents tab-contents4">
         <section class="section04">
             <div class="image_box_left">
-                <p class="img"></p>
+                <p class="img toothimg04"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
@@ -332,7 +332,7 @@
                     </p>
                 </div>
                 <div class="image_box_right">
-                    <p class="img"></p>
+                    <p class="img toothimg06"></p>
                 </div>
             </div>
         </section>
@@ -370,7 +370,7 @@
     <div class="tab-contents tab-contents5">
         <section class="section04">
             <div class="image_box_left">
-                <p class="img"></p>
+                <p class="img toothimg05"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
@@ -394,7 +394,7 @@
         <section class="section05">
             <div class="bg"></div>
             <div class="max-layout-width">
-                <div class="text">ㄴ
+                <div class="text">
                     <h2>
                         덧니 교정은  <strong><span>교정공간만 충분히 확보된다면</span> 발치 없이도 가능</strong>합니다.
                     </h2>
@@ -423,7 +423,7 @@
                     </p>
                 </div>
                 <div class="image_box_right">
-                    <p class="img"></p>
+                    <p class="img toothimg07"></p>
                 </div>
             </div>
         </section>
