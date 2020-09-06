@@ -122,7 +122,7 @@
         <section class="section06 list-content list-content-right">
             <div class="max-layout-width">
                 <div class="image_box_left">
-                    <p class="img"></p>
+                    <p class="img laminate"></p>
                 </div>
                 <div class="text">
                     <div>
@@ -355,7 +355,7 @@
         <section class="section12 list-content list-content-right">
             <div class="max-layout-width">
                 <div class="image_box_left">
-                    <p class="img"></p>
+                    <p class="img allceramic"></p>
                 </div>
                 <div class="text">
                     <div>

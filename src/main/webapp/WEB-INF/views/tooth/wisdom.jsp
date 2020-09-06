@@ -94,7 +94,7 @@
                 <li>
                     <img src="<c:url value='/images/sub/tooth/wisdom/wisdom03.jpg' /> ">
                     <h3>사랑니 충치</h3>
-                    <p>제일 안쪽에 위치한 사랑니는 칫솔직이 어렵고 음식물 찌꺼기가 잘끼기 때문에 충치가 생길 위험성이 높습니다.</p>
+                    <p>제일 안쪽에 위치한 사랑니는 칫솔질이 어렵고 음식물 찌꺼기가 잘끼기 때문에 충치가 생길 위험성이 높습니다.</p>
                 </li>
                 <li>
                     <img src="<c:url value='/images/sub/tooth/wisdom/wisdom04.jpg' /> ">

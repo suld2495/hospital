@@ -158,7 +158,7 @@
             <div>
                 <div class="text">
                     <h2>
-                        <strong>간단한 치료라도<br> 소홀히 하지 않는<br> 미소원치과의 스케일링 치교</strong>
+                        <strong>간단한 치료라도<br> 소홀히 하지 않는<br> 미소원치과의 스케일링 치료</strong>
                     </h2>
                     <h3>01</h3>
                     <p>

@@ -1,5 +1,5 @@
 .section01 {
-    margin-top: 154px;
+    margin-top: 100px;
 }
 
 .section01 .text, .section01 .bg .max-layout-width {
@@ -9,7 +9,7 @@
 }
 
 .section01 .text > div, .section01 .bg .max-layout-width > div {
-    padding-left: 86px;
+    padding-left: 73px;
 }
 
 .section01 .bg .max-layout-width > div {
@@ -23,10 +23,10 @@
 }
 
 .section01 .bg {
-    margin-top: 50px;
+    margin-top: 43px;
     background: #f5f5f5;
-    padding-top: 50px;
-    padding-bottom: 150px;
+    padding-top: 26px;
+    padding-bottom: 184px;
 }
 
 .section01 .section-text {
@@ -34,7 +34,7 @@
 }
 
 .section01 .section-text:first-child {
-    margin-bottom: 43px;
+    margin-bottom: 7px;
 }
 
 .section01 .image_box_left {
@@ -51,11 +51,11 @@
 
 .section02 {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .section02 .section-title {
-    margin-bottom: 45px;
+    margin-bottom: 49px;
 }
 
 .section02 ul {
@@ -65,8 +65,8 @@
 .section02 li {
     width: 25%;
     float: left;
-    padding-top: 54px;
-    padding-bottom: 37px;
+    padding-top: 25px;
+    padding-bottom: 31px;
 }
 
 .section02 li {
@@ -79,11 +79,12 @@
 }
 
 .section02 li p {
-    line-height: 1.7;
+    line-height: 1.5;
     font-size: 17px;
     font-weight: bold;
     color: #222;
     margin-top: 13px;
+    letter-spacing: -1px;
 }
 
 .section02 .img {
@@ -108,7 +109,7 @@
 }
 
 .section03 {
-    margin-top: 100px;
+    margin-top: 65px;
 }
 
 .section03 .max-layout-width .text {
@@ -122,7 +123,7 @@
 
 .section03 .image_box_right {
     max-width: 1276px;
-    height: 483px;
+    height: 422px;
     width: 50%;
     z-index: 10;
 }
@@ -132,10 +133,10 @@
 }
 
 .section03 .section-title {
-    padding-top: 100px;
+    padding-top: 86px;
     position: relative;
     line-height: 1.3;
-    margin-bottom: 174px;
+    margin-bottom: 115px;
     padding-left: 94px;
     letter-spacing: -1px;
 }
@@ -160,9 +161,9 @@
     content: '';
     position: absolute;
     width: 3px;
-    height: 103px;
+    height: 82px;
     background: #7f6a57;
-    top: -141px;
+    top: -93px;
     right: 0;
 }
 
@@ -170,9 +171,9 @@
     background: #f5f5f5;
     width: 64.65%;
     position: absolute;
-    height: 305px;
+    height: 242px;
     left: 0px;
-    bottom: -80px;
+    bottom: -67px;
 }
 
 .section03 .max-layout-width {
@@ -183,7 +184,7 @@
 .section04 ul {
     overflow: hidden;
     margin-left: -3%;
-    margin-top: 50px;
+    margin-top: 39px;
 }
 
 .section04 ul li {
@@ -200,7 +201,8 @@
 .section04 ul li h3 {
     font-size: 25px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
+    letter-spacing: -2px;
 }
 
 .section04 ul li p {
@@ -210,18 +212,19 @@
     width: 320px;
     margin: 0 auto;
     color: #4f4f4f;
+    letter-spacing: -1px;
 }
 
 .section04 {
-    margin-top: 170px;
+    margin-top: 149px;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 92px;
 }
 
 .section07 {
-    margin-top: 147px;
+    margin-top: 61px;
     text-align: center;
-    margin-bottom: 206px;
+    margin-bottom: 80px;
 }
 
 .section07 .section-title {
@@ -229,7 +232,7 @@
 }
 
 .section07 ul {
-    margin-top: 83px;
+    margin-top: 39px;
     margin-left: -3.07%;
     overflow: hidden;
 }
@@ -250,7 +253,7 @@
 }
 
 .section07 ul li p {
-    height: 113px;
+    height: 77px;
     background: #9b8b7e;
     padding-left: 42px;
     padding-right: 35px;
@@ -259,19 +262,21 @@
 }
 
 .section07 ul li p span:first-child {
-    padding-top: 42px;
+    padding-top: 25px;
     display: block;
-    font-size: 33px;
+    font-size: 23px;
     color: #fff;
     font-weight: bold;
+    letter-spacing: -1px;
 }
 
 .section07 ul li p span.view {
     position: absolute;
     right: 78px;
-    top: 9px;
+    top: 5px;
     font-size: 19px;
     color: #fff;
+    letter-spacing: 1px;
 }
 
 .section07 ul li p span.view:after {
@@ -301,5 +306,15 @@
 }
 
 .section09 {
-    margin-top: 120px;
+    margin-top: 104px;
+}
+
+.left-fade-slider-container .bg {
+    height: 280px;
+    background: #9b8b7e;
+    margin-top: 56px;
+}
+
+.left-fade-slider-container {
+    margin-top: 94px;
 }
