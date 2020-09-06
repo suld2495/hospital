@@ -3,7 +3,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <c:set var="path" value="${requestScope['javax.servlet.forward.servlet_path']}" />
 <c:set var="array" value="${fn:split('미소원치과,디지털 임플란트,디지털 치아교정,자연치아 클리닉,커뮤니티,개인정보,회원로그인,회원가입,마이페이지',',')}"/>
-<c:set var="urlArray" value="${fn:split('/intro,/digital_implants,/misowon_orthodontics,/general,커뮤니티,/login,/member_agreement,/mypage_reservation',',')}"/>
+<c:set var="urlArray" value="${fn:split('/intro,/digital_implants,/misowon_orthodontics,/general,/notice,/login,/member_agreement,/mypage_reservation',',')}"/>
 
 <div class="sub">
     <div class="sub-image">
@@ -24,6 +24,10 @@
             <c:if test="${category eq 3}">
                 <p>자연치아를 최대한 보존하는 진료를 통하여</p>
                 <p>환자분의 건강한 치아를 지켜드립니다.</p>
+            </c:if>
+            <c:if test="${category eq 4}">
+                <p>미소원치과는 환자분들과 소통을 통해</p>
+                <p>더 가까이 다가갑니다.</p>
             </c:if>
             <c:if test="${category eq 5}">
                 <p>미소원치과에서는 고객님의 개인정보가</p>
@@ -79,6 +83,16 @@
                     <li><a <c:if test="${path eq '/scaling'}">class="active"</c:if> href="<c:url value="/scaling"/>">스케일링</a></li>
                 </ul>
             </c:if>
+            <c:if test="${category eq 4}">
+                <ul>
+                    <li><a <c:if test="${path eq '/notice'}">class="active"</c:if> href="<c:url value="/notice"/>" >공지사항</a></li>
+                    <li><a <c:if test="${path eq '/case'}">class="active"</c:if> href="<c:url value="/case"/>">치료사례</a></li>
+                    <li><a <c:if test="${path eq '/review'}">class="active"</c:if> href="<c:url value="/review"/>">치료후기</a></li>
+                    <li><a <c:if test="${path eq '/online-consult'}">class="active"</c:if> href="<c:url value="/online-consult"/>">온라인 상담</a></li>
+                    <li><a <c:if test="${path eq '/reserve'}">class="active"</c:if> href="<c:url value="/reserve"/>">예약 상담 신청</a></li>
+                    <li><a <c:if test="${path eq '/media'}">class="active"</c:if> href="<c:url value="/media"/>">미디어</a></li>
+                </ul>
+            </c:if>
         </nav>
         <div class="breadcrumb max-layout-width">
             <ul class="display-inline-block">
@@ -99,7 +113,7 @@
 <script>
     $(function() {
         var backgroundPrefix = 'images/sub/background/';
-        var category = '${category}'
+        var category = '${category}';
         var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg', 'img_sub05.jpg', 'img_sub06.jpg', 'img_sub07.jpg', 'img_sub08.jpg', 'img_sub09.jpg'];
         $('.sub-image').css('background-image', 'url(' + backgroundPrefix + categoryBackground[category] + ')');
     })
