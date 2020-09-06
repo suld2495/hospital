@@ -175,7 +175,7 @@
     $(function () {
         $('.cmmn-nav ol a').on('mouseover focus', function() {
             $('.nav-detail > li').fadeOut();
-            $($(this).data('nav')).stop().fadeIn('fast');
+            $($(this).data('nav')).stop().fadeIn(100);
         })
 
         $('.nav-detail > li').on('mouseleave', function() {

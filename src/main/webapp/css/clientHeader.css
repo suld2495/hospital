@@ -146,10 +146,12 @@ header .header-line {
 header .nav-detail {
     position: relative;
     z-index: 1;
+    letter-spacing: -1px;
 }
 
 header .nav-detail .max-layout-width {
     position: relative;
+    width: 1080px;
 }
 
 header nav .nav-detail > li {
@@ -170,7 +172,7 @@ header nav .nav-detail > li .sub-category {
 
 header nav .nav-detail > li .title {
     padding-top: 57px;
-    width: 400px;
+    width: 300px;
 }
 
 header nav .nav-detail > li .title h2 {

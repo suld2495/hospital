@@ -269,8 +269,8 @@
         $(window).scroll(function(){
             var scrollTop = $(this).scrollTop();
 
-            if ($(window).scrollTop() > 4508){
-                var pos = (scrollTop - 4608) / 2;
+            if ($(window).scrollTop() > 4457){
+                var pos = (scrollTop - 4557) / 2;
                 $('.border').css('border-width', 80 - (Math.floor(pos)/2));
             }
 

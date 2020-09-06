@@ -1,6 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/wow/animate.css' />">
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
 <link rel="stylesheet" href="<c:url value="/css/main.css"/>" />
@@ -9,7 +10,7 @@
     <div class="section01">
         <img class="full-layout-width" src="<c:url value='/images/main/img_main01.jpg' />" alt="미소원치과는 자신있습니다!">
     </div>
-    <div class="section02 position-relative max-layout-width">
+    <div class="section02 position-relative max-layout-width wow fadeInUp">
         <h2>디지털치과의 현재 <span>미소원치과</span></h2>
         <p>3D CT, CEREC SYSTEM, 최상의 장비를 바탕으로 개인의 상태에 꼭 맞는 맞춤진료를 합니다 </p>
         <div class="display-inline-block">
@@ -59,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="section03 position-relative">
+    <div class="section03 position-relative wow fadeInUp" data-wow-delay="500ms">
         <div class="main-bg"></div>
         <div class="max-layout-width">
             <div class="text">
@@ -86,7 +87,7 @@
         </div>
         <div class="bg"></div>
     </div>
-    <div class="section04">
+    <div class="section04 wow fadeInUp" data-wow-delay="500ms">
         <div class="text max-layout-width position-relative">
             <h4>늘 후회없는 선택을 하는 당신</h4>
             <h4><span>미소원치과는 완벽한 선택</span>입니다</h4>
@@ -110,7 +111,7 @@
             </div>
         </div>
     </div>
-    <div class="section05">
+    <div class="section05 wow fadeInUp" data-wow-delay="500ms">
         <div class="max-layout-width">
             <h2 class="section-title">
                 정직하게 진료하고<br>
@@ -217,7 +218,7 @@
         </div>
         <div class="bg"></div>
     </div>
-    <div class="section06">
+    <div class="section06 wow fadeInUp" data-wow-delay="500ms">
         <div>
             <h4>소중한 당신의 치아 <span>믿고 맡길 수 있도록</span></h4>
             <div class="main-slider">
@@ -239,7 +240,7 @@
             </div>
         </div>
     </div>
-    <div class="section07">
+    <div class="section07 wow fadeInUp" data-wow-delay="500ms">
         <div class="max-layout-width">
             <h4>편안하고 정확한 <span>디지털 치과에서의 경험</span></h4>
             <h4>이제, 당신 차례입니다</h4>
@@ -296,7 +297,7 @@
             </div>
         </div>
     </div>
-    <div class="section08 max-layout-width">
+    <div class="section08 max-layout-width wow fadeInUp" data-wow-delay="500ms">
         <div class="display-inline-block">
             <div class="consultant">
                 <h4>
@@ -369,7 +370,7 @@
             </div>
         </div>
     </div>
-    <div class="section09">
+    <div class="section09 wow fadeInUp" data-wow-delay="500ms">
         <div class="max-layout-width">
             <h4>미소원치과 둘러보기</h4>
             <p>따듯한 공간에서 편안하게 진료받으세요.</p>
@@ -377,12 +378,6 @@
                 <c:forEach begin="1" end="10" varStatus="status">
                     <div class="slide-item">
                         <img src="<c:url value='/images/main/interior${status.count}.jpg' /> ">
-                        <div class="slide-text">
-                            <a class="text-decoration-none" href="<c:url value='' />">
-                                <p>미소원치과 실내사진</p>
-                                <p>자세히 보러가기</p>
-                            </a>
-                        </div>
                     </div>
                 </c:forEach>
             </div>
@@ -392,13 +387,22 @@
                     <span class="max-count">10</span>
                 </div>
             </div>
+            <div class="slide-text">
+                <a class="text-decoration-none" href="<c:url value='' />">
+                    <p>미소원치과 실내사진</p>
+                    <p>자세히 보러가기</p>
+                </a>
+            </div>
         </div>
     </div>
 </div>
 
+<script src="<c:url value="/lib/wow/wow.js" />"></script>
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script>
     $(function() {
+        new WOW().init();
+
         $('.img-box li').mouseenter(function() {
             var index = $(this).index();
             $('.contents-text').removeClass('active');
@@ -442,6 +446,7 @@
         $('.tour-slide').bxSlider({
             controls: false,
             pager: false,
+            auto: true,
             onSlideAfter: function($slideElement, oldIndex, newIndex) {
                 $('.current-count').text(numberPad(newIndex + 1, 2));
             }
