@@ -324,16 +324,17 @@
 
 .fade-in-slider .title h2 {
     font-size: 35px;
-    margin-bottom: 26px;
     color: #222;
     letter-spacing: -2px;
+    margin-bottom: 23px;
+    color: #222;
 }
 
 .fade-in-slider .title p {
     font-size: 17px;
     color: #222;
-    margin-bottom: 62px;
     letter-spacing: -1px;
+    margin-bottom: 46px;
 }
 
 .fade-in-slider .swiper-slide {

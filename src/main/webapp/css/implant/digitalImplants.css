@@ -429,7 +429,11 @@
 }
 
 .fade-in-slider {
+<<<<<<< HEAD
     margin-top: 90px;
+=======
+    margin-top: 100px;
+>>>>>>> 221d357b4a5ad3841a08b302b77ee726946145c3
 }
 
 .fade-in-slider .img01 {

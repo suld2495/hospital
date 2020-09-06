@@ -158,11 +158,11 @@
             <div class="cont con05">
                 <ul>
                     <li class="table-left">
-                        평균<br>일반적인 치료기간인 약 2년
+                        일반적인 치료기간인<br>약 평균 2년
                     </li>
                     <li class="table-middle">치료기간</li>
                     <li class="table-right">
-                        평균<br>똑딱이 장치를 이용하여 약 1년 6개월로<br>
+                        똑딱이 장치를 이용하여 약 평균 1년 6개월로<br>
                         치료기간을 단축
                     </li>
                 </ul>
@@ -225,9 +225,9 @@
                         <div class="swiper-slide">
                             <div class="img04 img"></div>
                             <div class="text">
-                                <h2>여기 글자가 없어요</h2>
+                                <h2>정기관리</h2>
                                 <p>
-                                    여기 글자가 없어요
+                                    교정후 유지장치를 장착하여 지속적인 관리를 받습니다.
                                 </p>
                             </div>
                         </div>

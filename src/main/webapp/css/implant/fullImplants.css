@@ -1,5 +1,5 @@
 .section01 {
-    margin-top: 133px;
+    margin-top: 107px;
 }
 
 .section01 .text, .section01 .bg .max-layout-width {
@@ -23,7 +23,7 @@
     margin-top: 43px;
     background: #f5f5f5;
     padding-top: 43px;
-    padding-bottom: 123px;
+    padding-bottom: 100px;
 }
 
 .section01 .section-text {
@@ -268,7 +268,7 @@
 }
 
 .section06 {
-    padding: 107px 0 108px 0;
+    padding: 99px 0 96px 0;
     background: #f5f5f5;
 }
 
@@ -285,15 +285,15 @@
 
 .table-left, .table-right {
     width: 559px;
-    font-size: 17px;
-    padding: 23px 0;
-    line-height: 1.7;
+    font-size: 16px;
+    padding: 22px 0;
+    line-height: 1.6;
     letter-spacing: -1px;
 }
 
 .table-middle {
     padding: 25px 0;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: bold;
     box-sizing: border-box;
     border-left: 1px solid #8f8f8f;
@@ -432,12 +432,12 @@
 }
 
 .con05 .table-middle {
-    padding: 73px 0;
+    padding: 68px 0;
 }
 
 .con06 .table-middle {
     line-height: 1.5;
-    padding: 50px 0;
+    padding: 43px 0;
 }
 
 .cont span {
@@ -445,7 +445,7 @@
 }
 
 .con06 .table-right {
-    padding: 42px 0;
+    padding: 34px 0;
 }
 
 .con01 ~ div {
@@ -454,7 +454,7 @@
 
 .section07 {
     margin-top: 75px;
-    padding-bottom: 87px;
+    padding-bottom: 82px;
 }
 
 .section07 .section-title, .section07 .section-text {
@@ -471,10 +471,10 @@
 .section07 li {
     width: 47%;
     margin-left: 3%;
-    padding: 56px 0 0 45px;
+    padding: 44px 0 0 45px;
     box-sizing: border-box;
     float: left;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     position: relative;
 }
 
@@ -482,12 +482,12 @@
     font-size: 27px;
     color: #fff;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     letter-spacing: -2px;
 }
 
 .section07 li h2 ~ p {
-    margin-bottom: 17px;
+    margin-bottom: 12px;
     font-size: 16px;
     position: relative;
     padding-left: 10px;
@@ -521,12 +521,12 @@
     content: '';
     position: absolute;
     right: 0;
-    top: -170px;
+    top: -188px;
 }
 
 .section07 .img01:before {
-    width: 465px;
-    height: 216px;
+    width: 390px;
+    height: 260px;
     background: url(../../images/sub/implant/full/total05.png) no-repeat top center;
 }
 
@@ -534,7 +534,7 @@
     width: 407px;
     height: 261px;
     background: url(../../images/sub/implant/full/total06.png) no-repeat top center;
-    top: -211px;
+    top: -180px;
 }
 
 .section07 li.img02 {

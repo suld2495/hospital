@@ -85,7 +85,7 @@ section {
 
 .section-title {
     font-size: 38px;
-    margin-bottom: 19px;
+    /* margin-bottom: 19px; */
     color: #212121;
     letter-spacing: -3px;
 }

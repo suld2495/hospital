@@ -338,7 +338,7 @@ section {
     width: 5px;
     height: 100%;
     background: #7e6956;
-    right: 0px;
+    right: -3px;
     top: 15px;
 }
 
@@ -380,4 +380,8 @@ section {
 .section-title {
     line-height: 1.37;
     letter-spacing: -1.8px;
+}
+
+.section06 .display-inline-block {
+    width: 100%;
 }

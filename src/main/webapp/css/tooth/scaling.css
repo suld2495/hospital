@@ -345,7 +345,9 @@
 }
 
 .section06 {
-    margin-top: 190px;
+    padding-top: 190px;
+    background: #f5f5f5;
+    padding-bottom: 155px;
 }
 
 .section06 .section-title {
@@ -500,4 +502,13 @@
     width: 33px;
     height: 17px;
     bottom: 0;
+}
+
+.text-slider {
+    margin-top: 112px;
+    padding-bottom: 41px;
+}
+
+.section08 {
+    margin-top: 135px;
 }
