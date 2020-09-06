@@ -1,0 +1,30 @@
+.gallery-list .gallery li P {
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-cpamp: 1;
+    -webkit-box-orient: vertical;
+    color: #8d8d8d;
+    font-size: 14px;
+    padding: 0 20px;
+    word-break: keep-all;
+}
+
+.paging {
+    position: relative;
+}
+
+.paging .write-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 126px;
+    height: 49px;
+    background: #9b8b7e;
+    text-align: center;
+    line-height: 49px;
+    color: #fff;
+    cursor: pointer;
+}
