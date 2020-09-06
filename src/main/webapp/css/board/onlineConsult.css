@@ -1,0 +1,35 @@
+.status {
+    min-width: 111px;
+    height: 38px;
+    background: #9b8b7e;
+    display: inline-block;
+    line-height: 37px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.paging {
+    position: relative;
+}
+
+.paging .write-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 126px;
+    height: 49px;
+    background: #9b8b7e;
+    text-align: center;
+    line-height: 49px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lock-icon {
+    width: 13px;
+    height: 16px;
+    background: url(../../images/sub/board/icon02.png);
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: -1px;
+}
