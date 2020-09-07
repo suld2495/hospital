@@ -78,7 +78,7 @@
     line-height: 1.3;
     margin-bottom: 105px;
     padding-left: 100px;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 
 .section02 .max-layout-width .text > div:before {
@@ -202,23 +202,23 @@
 }
 
 .section04 {
-    margin-top: 115px;
+    margin-top: 96px;
 }
 
 .section04 .section-title {
     line-height: 1.3;
-    margin-bottom: 24px;
+    margin-bottom: 4px;
     padding-top: 30px;
 }
 
 .section04 .section-text {
     line-height: 1.7;
-    margin-bottom: 97px;
+    margin-bottom: 83px;
 }
 
 .section04 .image_box_left {
     max-width: 1315px;
-    height: 503px;
+    height: 445px;
     width: 51.52%;
     z-index: 1;
 }
@@ -231,9 +231,9 @@
     background: #f5f5f5;
     width: 53.29%;
     position: absolute;
-    height: 327px;
+    height: 285px;
     right: 0px;
-    bottom: -52px;
+    bottom: -40px;
 }
 
 .section04 .max-layout-width {
@@ -244,7 +244,7 @@
 .section04 .pager {
     font-size: 16px;
     color: #222;
-    padding: 11px 0;
+    padding: 9px 0;
     position: relative;
     padding-left: 40px;
     display: inline-block;
@@ -277,7 +277,7 @@
 }
 
 .section05 {
-    margin-top: 138px;
+    margin-top: 121px;
     margin-bottom: -93px;
 }
 
@@ -285,7 +285,7 @@
     text-align: center;
     font-size: 36px;
     margin-bottom: 56px;
-    letter-spacing: -2px;
+    letter-spacing: -2.5px;
 }
 
 .table-middle {
@@ -375,18 +375,18 @@
 }
 
 .section09 {
-    margin-top: 78px;
+    margin-top: 67px;
     text-align: center;
-    margin-bottom: 92px;
+    margin-bottom: 80px;
 }
 
 .section09 .section-title {
     line-height: 1.3;
-    margin-bottom: 18px;
+    margin-bottom: -3px;
 }
 
 .section09 ul {
-    margin-top: 47px;
+    margin-top: 39px;
     margin-left: -3.07%;
     overflow: hidden;
 }
@@ -480,7 +480,7 @@
 }
 
 .section07 {
-    margin-top: 82px;
+    margin-top: 68px;
 }
 
 .section07 .img01 {
@@ -505,5 +505,5 @@
 
 
 .section08 {
-    margin-top: 95px;
+    margin-top: 79px;
 }

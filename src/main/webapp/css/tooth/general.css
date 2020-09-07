@@ -76,7 +76,7 @@
 
 .section04 .image_box_right {
     max-width: 1276px;
-    height: 430px;
+    height: 380px;
     width: 50%;
     z-index: 10;
     padding-top: 34px;
@@ -150,7 +150,7 @@
 
 
 .section20 {
-    height: 312px;
+    height: 273px;
     margin-top: 163px;
     margin-bottom: -19px;
 }
@@ -163,13 +163,13 @@
 }
 
 .section20 .max-layout-width .text {
-    padding-top: 93px;
+    padding-top: 82px;
 }
 
 .section20 .max-layout-width .text h2 {
-    line-height: 1.5;
+    line-height: 1.45;
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: -2px;
 }
 
@@ -200,8 +200,8 @@
 
 
 .section06 {
-    height: 312px;
-    margin-top: 163px;
+    height: 267px;
+    margin-top: 164px;
     margin-bottom: -92px;
 }
 
@@ -214,13 +214,13 @@
 }
 
 .section06 .max-layout-width .text {
-    padding-top: 93px;
+    padding-top: 82px;
 }
 
 .section06 .max-layout-width .text h2 {
-    line-height: 1.5;
+    line-height: 1.45;
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 27px;
     letter-spacing: -2px;
 }
 
@@ -665,10 +665,11 @@
     color: #222;
     padding: 7px 0;
     position: relative;
-    padding-left: 40px;
+    padding-left: 28px;
     display: inline-block;
     font-weight: bold;
     position: relative;
+    letter-spacing: -1px;
 }
 
 .section11 .pager:before {
@@ -726,11 +727,11 @@
 .section12 .section-title {
     line-height: 1.3;
     margin-bottom: 66px;
-    padding-top: 47px;
+    padding-top: 55px;
 }
 
 .tab-container3 .section12 .section-title {
-    margin-bottom: 29px;
+    margin-bottom: 26px;
 }
 
 .section12 .section-text {
@@ -772,10 +773,11 @@
     color: #222;
     padding: 7px 0;
     position: relative;
-    padding-left: 40px;
+    padding-left: 30px;
     display: inline-block;
     font-weight: bold;
     position: relative;
+    letter-spacing: -1px;
 }
 
 .section12 .pager:before {
