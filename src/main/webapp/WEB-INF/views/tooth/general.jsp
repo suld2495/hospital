@@ -164,32 +164,62 @@
 
         <section class="section05">
             <div class="max-layout-width">
-                <div class="img-box">
-                    <img src="<c:url value='/images/sub/tooth/general/decay04_1.jpg' />">
-                </div>
-                <div class="text">
-                    <div>
-                        <h2>충치 치료의 종류 01) 레진</h2>
-                        <p>
-                            레진은 충치의 범위가 크지않은 경우에 주로 사용하는 충전 치료 방법으로 치아색과 동일하며 심미적으로 우수합니다. 또한 치아 삭제량이 적고, 좁거나 작은 부위도
-                            충전 가능한 치료로 당일 진료가 가능합니다.
-                        </p>
-                        <ul>
-                            <li>
-                                <h3>종류01.</h3>
-                                <p>레진</p>
-                            </li>
-                            <li>
-                                <h3>종류02.</h3>
-                                <p>인레이</p>
-                            </li>
-                            <li class="active">
-                                <h3>종류03.</h3>
-                                <p>온레이</p>
-                            </li>
-                        </ul>
+                <div class="img-contents img-contents1 active">
+                    <div class="img-box">
+                        <img src="<c:url value='/images/sub/tooth/general/decay04_1.jpg' />">
+                    </div>
+                    <div class="text">
+                        <div>
+                            <h2>충치 치료의 종류 01) 레진</h2>
+                            <p>
+                                레진은 충치의 범위가 크지않은 경우에 주로 사용하는 충전 치료 방법으로 치아색과 동일하며 심미적으로 우수합니다. 또한 치아 삭제량이 적고, 좁거나 작은 부위도
+                                충전 가능한 치료로 당일 진료가 가능합니다.
+                            </p>
+                        </div>
                     </div>
                 </div>
+                <div class="img-contents img-contents2">
+                    <div class="img-box">
+                        <img src="<c:url value='/images/sub/tooth/general/decay04_2.jpg' />">
+                    </div>
+                    <div class="text">
+                        <div>
+                            <h2>충치 치료의 종류 02) 인레이</h2>
+                            <p>
+                                인레이는 충치 부위가 넓거나 깊지만, 신경까지 침범하지 않은 경우 사용되는 치료 방법으로 심미적으로 우수하며 강도가 높습니다. 또한 넓은 우식 부위 회복이 가능하며,
+                                정확한 우식 부위 제거로 최소한의 삭제가 가능하며. 열 전도율리 낮아 시린 증상이 적습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-contents img-contents3">
+                    <div class="img-box">
+                        <img src="<c:url value='/images/sub/tooth/general/decay04_3.jpg' />">
+                    </div>
+                    <div class="text">
+                        <div>
+                            <h2>충치 치료의 종류 03) 온레이</h2>
+                            <p>
+                                온레이는 치아 우식이 넓게 형성되어 있는 경우나, 신경조직까지 손상된 경우, 신경치료 마무리 후 치아를 씌워주는 재료입니다. 충치 부위가 넓은 경우 인레이 치료보다 안전하며,
+                                보철물이 탈착될 위험이 적습니다. 또한 치아 전체를 감싸기 때문에 효과가 좋습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="text img-tab">
+                    <li class="active" data-tab=".img-contents1">
+                        <h3>종류01.</h3>
+                        <p>레진</p>
+                    </li>
+                    <li data-tab=".img-contents2">
+                        <h3>종류02.</h3>
+                        <p>인레이</p>
+                    </li>
+                    <li data-tab=".img-contents3">
+                        <h3>종류03.</h3>
+                        <p>온레이</p>
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -728,5 +758,12 @@
             $('.tab-container').removeClass('active');
             $('.tab-container' + (index + 1)).addClass('active');
         });
+
+        $('.img-tab li').click(function () {
+            $('.img-tab li').removeClass('active');
+            $(this).addClass('active');
+            $('.img-contents').removeClass('active');
+            $($(this).data('tab')).addClass('active');
+        })
     });
 </script>

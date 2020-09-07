@@ -532,11 +532,13 @@
 
 .section05 .max-layout-width {
     overflow: hidden;
+    position: relative;
+    padding-bottom: 70px;
 }
 
 .section05 .max-layout-width > div {
     float: left;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .section05 .text:before {
@@ -599,6 +601,7 @@
     padding: 39px 0 35px 0;
     box-sizing: border-box;
     color: #fff;
+    cursor: pointer;
 }
 
 .section05 .text li.active {
@@ -915,14 +918,14 @@
     line-height: 27px;
     letter-spacing: -1px;
     padding-top: 18px;
-     font-weight: 500;
+    font-weight: 500;
 }
 
 .treatment-case .max-layout-width .text p {
     line-height: 1.7;
     word-break: keep-all;
     letter-spacing: -1px;
-     font-weight: 500;
+    font-weight: 500;
 }
 
 
@@ -935,4 +938,54 @@
 
 .left-fade-slider-container {
     margin-top: 101px;
+}
+
+.section05 .img-contents {
+    display: none;
+    opacity: 0;
+}
+
+.section05 .img-contents {
+    display: none;
+}
+
+.section05 .img-contents > div {
+    float: left;
+    width: 50%;
+}
+
+.section05  .img-contents.active {
+    display: inline-block;
+    animation: fade-in 1s;
+    animation-fill-mode: forwards;
+}
+
+.section05 .img-tab:before {
+    content: none;
+}
+
+.section05 .img-tab {
+    width: 586px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+
+    }
+    to {
+        opacity: 0;
+    }
 }
