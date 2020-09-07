@@ -59,10 +59,10 @@ public class BoardController {
     }
 
     @RequestMapping(value = "reserve-write", method = RequestMethod.GET)
-    public String reserveViewWrite(Model model) {
+    public String reserveWrite(Model model) {
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "예약 상담 신청");
-        return prefix + "reserveViewWrite";
+        return prefix + "reserveWrite";
     }
 
     @RequestMapping("case")
