@@ -350,35 +350,42 @@
 
 .section03 {
     margin-top: 112px;
+    padding: 90px 0;
+    background: #9b8b7e;
 }
 
 .section03 .section-title {
     line-height: 1.3;
     /* margin-bottom: 20px; */
     text-align: center;
+    color: #fff;
 }
 
 .section03 .section-text {
     line-height: 1.7;
     word-break: keep-all;
-    margin-bottom: 42px;
+    margin-bottom: 50px;
     text-align: center;
+    color: #fff;
 }
 
 .section03 ul {
     overflow: hidden;
-    margin-left: -3%;
+    margin-left: 0;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .section03 ul li {
-    width: 47%;
-    margin-left: 3%;
+    width: 25%;
     float: left;
+    text-align: center;
 }
 
 .section03 ul li img {
     width: 100%;
     margin-bottom: 30px;
+    max-width: 146px;
 }
 
 .section03 ul li p {
@@ -386,7 +393,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 30px;
+    color: #fff;
 }
 
 .section07 {

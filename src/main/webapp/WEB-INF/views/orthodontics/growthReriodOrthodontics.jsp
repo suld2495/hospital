@@ -73,19 +73,19 @@
             </p>
             <ul>
                 <li>
-                    <img src="<c:url value='/images/sub/orthodontics/grow/growth03.jpg' /> ">
+                    <img src="<c:url value='/images/sub/orthodontics/grow/icon05.png' /> ">
                     <p>한쪽으로 씹는 습관으로<br>부정교합이 생긴 경우</p>
                 </li>
                 <li>
-                    <img src="<c:url value='/images/sub/orthodontics/grow/growth04.jpg' /> ">
+                    <img src="<c:url value='/images/sub/orthodontics/grow/icon06.png' /> ">
                     <p>윗니와 아랫니가 반대로<br>물리는 경우(주걱턱)</p>
                 </li>
                 <li>
-                    <img src="<c:url value='/images/sub/orthodontics/grow/growth05.jpg' /> ">
+                    <img src="<c:url value='/images/sub/orthodontics/grow/icon07.png' /> ">
                     <p>아래턱의 성장이 적은 무턱의<br>증상인 경우</p>
                 </li>
                 <li>
-                    <img src="<c:url value='/images/sub/orthodontics/grow/growth06.jpg' /> ">
+                    <img src="<c:url value='/images/sub/orthodontics/grow/icon08.png' /> ">
                     <p>선척적 부정교합이 있는 경우<br>(유전)</p>
                 </li>
             </ul>
