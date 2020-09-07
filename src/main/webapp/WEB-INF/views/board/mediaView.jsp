@@ -34,7 +34,7 @@
                 </ul>
             </div>
             <div class="list">
-                <a href="<c:url value='/notice'/>">목록</a>
+                <a href="<c:url value='/media'/>">목록</a>
             </div>
         </div>
     </section>
