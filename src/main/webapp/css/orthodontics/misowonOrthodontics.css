@@ -25,8 +25,8 @@
 .section01 .bg {
     margin-top: 42px;
     background: #f5f5f5;
-    padding-top: 42px;
-    padding-bottom: 142px;
+    padding-top: 30px;
+    padding-bottom: 175px;
 }
 
 .section01 .section-text {
@@ -34,7 +34,7 @@
 }
 
 .section01 .section-text:first-child {
-    margin-bottom: 31px;
+    margin-bottom: 8px;
 }
 
 .section01 .image_box_left {

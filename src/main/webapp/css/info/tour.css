@@ -69,7 +69,8 @@
 }
 
 .section02 .swiper-slide .small p {
-    line-height: 1.6
+    line-height: 1.6;
+    letter-spacing: -1px;
 }
 
 .section02 .swiper-slide.swiper-slide-next {

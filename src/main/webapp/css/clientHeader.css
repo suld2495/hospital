@@ -124,6 +124,7 @@ header .cmmn-nav nav ol li a {
     width: 100%;
     height: 18px;
     display: inline-block;
+    letter-spacing: -1.5px;
 }
 
 header .cmmn-nav nav ol li:first-child {
@@ -196,7 +197,7 @@ header nav .nav-detail > li .sub-category {
 header nav .nav-detail > li .sub-category li a {
     font-size: 15px;
     color: #222;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     display: inline-block;
     position: relative;
     padding-right: 5px;

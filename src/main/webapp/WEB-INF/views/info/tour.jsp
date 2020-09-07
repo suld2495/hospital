@@ -319,7 +319,7 @@
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script>
     $(function () {
-
+        $('.swiper-slide').width(981);
         $('.swiper-wrapper').on('init', function(){
             setTimeout(function () {
                 $('.tab-container').height($('.tab-container1').height());
@@ -331,7 +331,10 @@
             centerMode: true,
             centerPadding: '500px',
             prevArrow: '<span class="slider-prev"><</span>',
-            nextArrow: '<span class="slider-next">></span>'
+            nextArrow: '<span class="slider-next">></span>',
+            variableWidth: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
         });
         $('.swiper-wrapper2').slick({
             slidesToShow: 1,
@@ -339,7 +342,10 @@
             centerMode: true,
             centerPadding: '500px',
             prevArrow: '<span class="slider-prev"><</span>',
-            nextArrow: '<span class="slider-next">></span>'
+            nextArrow: '<span class="slider-next">></span>',
+            variableWidth: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
         });
         $('.swiper-wrapper3').slick({
             slidesToShow: 1,
@@ -347,7 +353,10 @@
             centerMode: true,
             centerPadding: '500px',
             prevArrow: '<span class="slider-prev"><</span>',
-            nextArrow: '<span class="slider-next">></span>'
+            nextArrow: '<span class="slider-next">></span>',
+            variableWidth: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
         });
 
         $('.tab li').click(function () {

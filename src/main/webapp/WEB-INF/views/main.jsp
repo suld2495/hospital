@@ -417,7 +417,8 @@
             slideWidth: 402,
             shrinkItems: true,
             slideMargin: 58,
-            controls: false
+            controls: false,
+            auto: true,
         });
 
         $('.main-slider').bxSlider({
@@ -430,6 +431,7 @@
             slideMargin: 36,
             nextText: '<img src="<c:url value="/images/main/arrow_right02.png"/>">',
             prevText: '<img src="<c:url value="/images/main/arrow_left02.png"/>">',
+            auto: true,
         });
 
         $('.slider').bxSlider({
@@ -440,7 +442,8 @@
             shrinkItems: true,
             slideMargin: 40,
             pagerCustom: $('.slider-pagenation'),
-            controls: false
+            controls: false,
+            auto: true,
         });
 
         $('.tour-slide').bxSlider({
