@@ -1,0 +1,103 @@
+.board-view {
+    margin-top: 68px;
+    margin-bottom: 180px;
+}
+
+.board-view .title {
+    border-top: 2px solid #9b8b7e;
+    border-bottom: 1px solid #b4b4b4;
+    overflow: hidden;
+    padding: 0 25px;
+    letter-spacing: -1px;
+}
+
+.board-view .title p {
+    height: 55px;
+    line-height: 55px;
+}
+
+.board-view .title .subject {
+    float: left;
+    font-weight: bold;
+}
+
+.board-view .title .date {
+    float: right;
+    color: #434343;
+}
+
+.board-view .appendix {
+    height: 55px;
+    line-height: 55px;
+    padding: 0 25px;
+    color: #434343;
+    border-bottom: 1px solid #dddddd;
+}
+
+.board-view .contents {
+    height: 500px;
+    border-bottom: 1px solid #ddd;
+}
+
+.board-view .button {
+    margin-top: 48px;
+    border-top: 1px solid #222222;
+    border-bottom: 1px solid #222222;
+    letter-spacing: -1px;
+}
+
+.board-view .button li {
+    height: 50px;
+    line-height: 50px;
+}
+
+.board-view .button li {
+    border-bottom: 1px solid #ddd;
+}
+
+.board-view .button li span:first-child {
+    width: 181px;
+    color: #424242;
+    text-align: center;
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.board-view .button .con {
+    padding-left: 30px;
+    color: #424242;
+    font-weight: bold;
+}
+
+.board-view .button i {
+    width: 8px;
+    height: 9px;
+    display: inline-block;
+    margin-right: 14px;
+    vertical-align: 2px;
+}
+
+.board-view .button i.next-icon {
+    background: url(../../images/sub/board/icon08.png) no-repeat;
+}
+
+.board-view .button i.prev-icon {
+    background: url(../../images/sub/board/icon09.png) no-repeat;
+}
+
+.board-view .list {
+    margin-top: 51px;
+    text-align: center;
+}
+
+.board-view .list a {
+    width: 126px;
+    height: 50px;
+    display: inline-block;
+    background: #9b8b7e;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+
+}
