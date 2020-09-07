@@ -1,11 +1,11 @@
 .section01 {
-    margin-top: 100px;
+    margin-top: 66px;
     margin-bottom: 72px;
 }
 
 .section01 ul {
     overflow: hidden;
-    padding: 14px 0;
+    padding: -1px 0;
     border-top: 5px solid #7e6956;
     border-bottom: 1px solid #ddd;
 }
@@ -40,6 +40,7 @@
 .section01 li .text {
     font-size: 18px;
     font-weight: bold;
+    letter-spacing: -1px;
 }
 
 .section02 .swiper-slide {
@@ -49,11 +50,26 @@
 .section02 .swiper-slide .big {
     display: block;
     overflow: hidden;
-    height: 100%;
+    height: 500px;
+    margin-bottom: 56px;
+    position: relative;
 }
 
 .section02 .swiper-slide .small {
-    display: none;
+    padding-top: 45px;
+    position: relative;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.section02 .swiper-slide .small h2 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.section02 .swiper-slide .small p {
+    line-height: 1.6
 }
 
 .section02 .swiper-slide.swiper-slide-next {
@@ -103,9 +119,10 @@
 
 .section02 .swiper-slide {
     float: left;
-    height: 500px;
+    height: 690px;
     margin-right: 50px;
     position: relative;
+    outline: none;
 }
 
 .section02 .swiper-slide-active {
@@ -147,25 +164,29 @@
 }
 
 .section02 .swiper-container {
-    height: 460px;
+    height: 760px;
 }
 
 .section02 {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
-.section02 .slick-slide:before {
+.section02 .small:before {
     content: '';
     position: absolute;
     width: 100%;
     height: 1px;
     background: #7e6956;
-    bottom: -50px;
+    top: 0;
     opacity: 0;
     transition: opacity 300ms;
 }
 
-.section02 .slick-current:before {
+.section02 .slick-current .small {
+    opacity: 1;
+}
+
+.section02 .slick-current .small:before {
     opacity: 1;
 }
 
