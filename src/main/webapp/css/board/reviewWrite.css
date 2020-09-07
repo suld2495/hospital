@@ -1,0 +1,67 @@
+.section01 table {
+    width: 100%;
+    border-top: 2px solid #9b8b7e;
+    margin-top: 65px;
+}
+
+.section01 table .input input {
+    width: 100%;
+    height: 43px;
+    border: 1px solid #b4b4b4;
+}
+
+.section01 table th {
+    height: 55px;
+    line-height: 55px;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: -1px;
+}
+
+.section01 .tr {
+    border-bottom: 1px solid #b4b4b4;
+}
+
+.section01 .tr td {
+    text-align: center;
+}
+
+.section01 .con-tr td {
+    padding-top: 20px;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #b4b4b4;
+}
+
+.section01 .button {
+    margin-top: 51px;
+}
+
+.section01 .button button {
+    margin-left: 10px;
+}
+
+.section01 .button button, .section01 .button a {
+    width: 126px;
+    height: 50px;
+    background: #9b8b7e;
+    border: none;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.section01 .button {
+    overflow: hidden;
+    margin-bottom: 126px;
+}
+
+.section01 .button .list {
+    float: left;
+}
+
+.section01 .button .btn-con {
+    float: right;
+}

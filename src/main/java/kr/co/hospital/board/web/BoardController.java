@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class BoardController {
@@ -57,6 +58,13 @@ public class BoardController {
         return prefix + "reserveView";
     }
 
+    @RequestMapping(value = "reserve-write", method = RequestMethod.GET)
+    public String reserveViewWrite(Model model) {
+        model.addAttribute("category", 4);
+        model.addAttribute("urlName", "예약 상담 신청");
+        return prefix + "reserveViewWrite";
+    }
+
     @RequestMapping("case")
     public String caseList(Model model) {
         model.addAttribute("category", 4);
@@ -85,6 +93,13 @@ public class BoardController {
         return prefix + "onlineConsultView";
     }
 
+    @RequestMapping(value = "online-consult-write", method = RequestMethod.GET)
+    public String onlineConsultWrite(Model model) {
+        model.addAttribute("category", 4);
+        model.addAttribute("urlName", "온라인 상담");
+        return prefix + "onlineConsultWrite";
+    }
+
     @RequestMapping("review")
     public String review(Model model) {
         model.addAttribute("category", 4);
@@ -97,5 +112,12 @@ public class BoardController {
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "치료후기");
         return prefix + "reviewView";
+    }
+
+    @RequestMapping(value = "review-write", method = RequestMethod.GET)
+    public String reviewWrite(Model model) {
+        model.addAttribute("category", 4);
+        model.addAttribute("urlName", "치료후기");
+        return prefix + "reviewWrite";
     }
 }
