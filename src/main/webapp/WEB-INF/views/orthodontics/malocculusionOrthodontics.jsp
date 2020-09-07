@@ -69,7 +69,7 @@
                 <strong>시작부터 끝까지 철저하게!</strong>
             </h2>
             <p class="section-text">
-                미소원치과에서는 얼굴과 치아에 맞는 교정방법을 다양한 부정교합도 수술 없는 비수술저 교정 치료가 가능합니다.
+                미소원치과에서는 다양한 부정교합도 얼굴과 치아에 맞는 교정방법으로 교정치료가 가능합니다.
             </p>
             <div class="con">
                 <div class="img-box">
@@ -88,7 +88,7 @@
                         <div class="img"></div>
                         <h2>주걱턱</h2>
                         <p>
-                            주걱턱은 아래턱이 위턱에 비해 과도하게 전방에 위차한 상태를 말합니다.<br>
+                            주걱턱은 아래턱이 위턱에 비해 과도하게 전방에 위치한 상태를 말합니다.<br>
                             주걱턱은 골격의 문제가 아니라면 수술없이 치아교정만으로 개선이 가능합니다.<br>
                             <strong>유전적인 영향이 있을 수 있고,아래턱의 성장이 과도하거나<br> 위턱의 성장이 부진한 경우 주걱턱이 발생</strong>하게 됩니다.<br>
                             주걱턱은 <strong>자신감을 결여 시키며,저작의문제,발음의 문제를<br>발생시켜 심리적인 위축감을 만드는 교합</strong>입니다.
@@ -153,7 +153,7 @@
     <div class="tab-contents tab-contents1 active">
         <section class="section04">
             <div class="image_box_left">
-                <p class="img"></p>
+                <p class="img toothimg01"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
@@ -192,7 +192,7 @@
     <div class="tab-contents tab-contents2">
         <section class="section04">
             <div class="image_box_left">
-                <p class="img"></p>
+                <p class="img toothimg02"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
@@ -234,7 +234,7 @@
     <div class="tab-contents tab-contents3">
         <section class="section04">
             <div class="image_box_left">
-                <p class="img"></p>
+                <p class="img toothimg03"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
@@ -277,7 +277,7 @@
     <div class="tab-contents tab-contents4">
         <section class="section04">
             <div class="image_box_left">
-                <p class="img"></p>
+                <p class="img toothimg04"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
@@ -332,7 +332,7 @@
                     </p>
                 </div>
                 <div class="image_box_right">
-                    <p class="img"></p>
+                    <p class="img toothimg06"></p>
                 </div>
             </div>
         </section>
@@ -370,7 +370,7 @@
     <div class="tab-contents tab-contents5">
         <section class="section04">
             <div class="image_box_left">
-                <p class="img"></p>
+                <p class="img toothimg05"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
@@ -404,7 +404,7 @@
                     </p>
                     <p class="star">
                         치아를 발치하는 방법과 턱뼈의 크기를 넓혀주는 방법은 환자의 상태와 연령 등에 따라 다르기 때문에<br>
-                        3D CT 및 덤단 기기들로 정밀 분석하여 발치 여부를 판단 합니다.
+                        3D CT 및 첨단 기기들로 정밀 분석하여 발치 여부를 판단 합니다.
                     </p>
                 </div>
             </div>
@@ -423,7 +423,7 @@
                     </p>
                 </div>
                 <div class="image_box_right">
-                    <p class="img"></p>
+                    <p class="img toothimg07"></p>
                 </div>
             </div>
         </section>
@@ -469,7 +469,7 @@
                 부정교합을 오래 방치 할 경우 심미적인 부분뿐만 아니라 기능 장애가 발생하게 됩니다.
                 선척적이거나 후천적으로 이 두가지 요인이 결합하여 발생할 수 있습니다.
                 부정교합을 막기 위해서는 성장기 동안의 치료가 중요합니다.
-                따라서 예방 또는 교정치료에 의해 부종교합을 정상화시키거나 악화되는 현상을 막을 수 있씁니다.
+                따라서 예방 또는 교정치료에 의해 부종교합을 정상화시키거나 악화되는 현상을 막을 수 있습니다.
             </p>
             <ul>
                 <li>

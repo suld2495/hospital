@@ -211,8 +211,7 @@
 
 /* left-fade-slider-container */
 .left-fade-slider-container {
-    margin-top: 260px;
-
+    margin-top: 184px;
 }
 
 
@@ -234,7 +233,7 @@
 }
 
 .left-fade-slider-container .numbers .current {
-    font-size: 25px;
+    font-size: 38px;
     font-weight: bold;
 }
 
@@ -243,6 +242,7 @@
     margin-top: 20px;
     position: relative;
     margin-left: 7px;
+    font-size: 24px;
 }
 
 .left-fade-slider-container .numbers .max:before {
@@ -288,23 +288,24 @@
 }
 
 .left-fade-slider-container .bg {
-    height: 338px;
+    height: 315px;
     background: #9b8b7e;
-    margin-top: 80px;
+    margin-top: 56px;
 }
 
 .left-fade-slider-container .text h2 {
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 23px;
     font-weight: bold;
     text-align: center;
     color: #fff;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
+    letter-spacing:-1.5px;
 }
 
 .left-fade-slider-container .text p {
     text-align: center;
-    line-height: 1.7;
+    line-height: 1.5;
     word-break: keep-all;
     color: #fff;
     display: block;
@@ -312,6 +313,7 @@
     font-size: 17px;
     white-space: initial;
     padding: 0 10px;
+    letter-spacing:-1px
 }
 
 /*fade-in-slider*/
@@ -322,14 +324,17 @@
 
 .fade-in-slider .title h2 {
     font-size: 35px;
-    margin-bottom: 30px;
+    color: #222;
+    letter-spacing: -2px;
+    margin-bottom: 23px;
     color: #222;
 }
 
 .fade-in-slider .title p {
     font-size: 17px;
     color: #222;
-    margin-bottom: 68px;
+    letter-spacing: -1px;
+    margin-bottom: 46px;
 }
 
 .fade-in-slider .swiper-slide {
@@ -345,11 +350,13 @@
     line-height: 1.3;
     margin-bottom: 35px;
     font-size: 33px;
+    letter-spacing: -2.3px;
 }
 
 .fade-in-slider .swiper-slide .text p {
     width: 320px;
     word-break: keep-all;
+    letter-spacing: -1px;
 }
 
 .fade-in-slider .image_box_right {
@@ -461,7 +468,7 @@
     width: 50%;
     background: #9b8b7e;
     height: 68px;
-    line-height: 68px;
+    line-height: 61px;
     color: #fff;
     font-size: 40px;
     box-sizing: border-box;

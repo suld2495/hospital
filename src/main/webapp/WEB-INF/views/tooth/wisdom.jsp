@@ -94,17 +94,17 @@
                 <li>
                     <img src="<c:url value='/images/sub/tooth/wisdom/wisdom03.jpg' /> ">
                     <h3>사랑니 충치</h3>
-                    <p>제일 안쪽에 위치한 사랑니는 칫솔직이 어렵고 음식물 찌꺼기가 잘끼기 때문에 충치가 생길 위험성이 높습니다.</p>
+                    <p>제일 안쪽에 위치한 사랑니는 <strong>칫솔질이 어렵고 음식물 찌꺼기가 잘끼기 때문에</strong><br>충치가 생길 위험성이 높습니다.</p>
                 </li>
                 <li>
                     <img src="<c:url value='/images/sub/tooth/wisdom/wisdom04.jpg' /> ">
                     <h3>잇몸염증 유발</h3>
-                    <p>사랑니 주위에 염증이 생기기 쉽고 피가나고 붓는 등의 불편함이 있으며 심할 경우 편도와 뺨까지 부어 일상생활에 지장이 있습니다.</p>
+                    <p>사랑니 주위에 <strong>염증이 생기기 쉽고</strong> 피가나고<br>붓는 등의 불편함이 있으며 <strong>심할 경우 편도와<br>뺨까지 부어 일상생활에 지장</strong>이 있습니다.</p>
                 </li>
                 <li>
                     <img src="<c:url value='/images/sub/tooth/wisdom/wisdom05.jpg' /> ">
                     <h3>인접치아 손상</h3>
-                    <p>사랑니가 누워있는 경우 바로 옆의 인접 치아까지 영향을 줄 수 있어 치료나 발치가 필요할 수 있습니다.</p>
+                    <p>사랑니가 누워있는 경우 <strong>바로 옆의<br>인접 치아까지 영향</strong>을 줄 수 있어<br>치<strong>료나 발치가 필요</strong>할 수 있습니다.</p>
                 </li>
             </ul>
         </div>

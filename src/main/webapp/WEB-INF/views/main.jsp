@@ -64,7 +64,7 @@
         <div class="main-bg"></div>
         <div class="max-layout-width">
             <div class="text">
-                <h4>압선 디지털 장비와 기술에</h4>
+                <h4>앞선 디지털 장비와 기술에</h4>
                 <h4><span>마음을 담은 양심적인 진료</span>를</h4>
                 <h4>약속합니다</h4>
                 <p>진보된 디지털 기술에 따뜻한 마음을 담아 최상의 치료를 경험할 수 있는</p>
@@ -230,7 +230,7 @@
                 <div>
                     <img src="<c:url value='/images/main/case02.jpg' />">
                     <h5>디지털 치아교정</h5>
-                    <p>디지털 치아고정 치료 전/후 사진입니다.</p>
+                    <p>디지털 치아교정 치료 전/후 사진입니다.</p>
                 </div>
                 <div>
                     <img src="<c:url value='/images/main/case03.jpg' />">

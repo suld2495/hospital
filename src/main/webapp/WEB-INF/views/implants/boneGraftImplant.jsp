@@ -39,7 +39,7 @@
         <div class="max-layout-width">
             <div class="text">
                 <h2 class="section-title">
-                    미소원 치과는<span class="section-title-color bold">맞춤형 잇몸뼈 이식</span>으로<br>
+                    미소원 치과는<span class="section-title-color bold"> 맞춤형 잇몸뼈 이식</span>으로<br>
                     <strong>오래가는 임플란트</strong>입니다.
                 </h2>
                 <p class="section-text">
@@ -81,11 +81,11 @@
                     <h5>1단계</h5>
                     <p>잇몸뼈가 얼마나 부족한지<br>상태 확인</p>
                 </li>
-                <li class="img img01">
+                <li class="img img02">
                     <h5>2단계</h5>
                     <p>환자에게 가장 적합한<br>이식재료로 뼈 이식 진행</p>
                 </li>
-                <li class="img img01">
+                <li class="img img03">
                     <h5>3단계</h5>
                     <p>임플란트 식립 및<br>보철물 장착해 치료마무리</p>
                 </li>

@@ -40,7 +40,7 @@
 
     <section class="section02">
         <div class="max-layout-width">
-            <h2 class="section-title">안심하고 받을 수 있는 <strong>미소원치과의 스케일링 효과</strong></h2>
+            <h2 class="section-title">안심하고 받을 수 있는<strong><br>미소원치과의 스케일링 효과</strong></h2>
             <ul>
                 <li>
                     <div class="img img01"></div>
@@ -70,7 +70,7 @@
             <div class="text">
                 <div>
                     <h2 class="section-title">
-                        <strong>저통증,저자극으로 말끔하게!</strong><br>치위생사의 전문적인 스케일링
+                        <strong>저통증, 저자극으로 말끔하게!</strong><br>치위생사의 전문적인 스케일링
                     </h2>
                     <p class="section-text">
                         미소원치과는 전문 교육을 받고 면허증을 취득한 치위생사로 100% 구성되어 있습니다. 철저한 멸균 소독과 엄격한 위생 관리로 진행되며, 저자극 스케일러로 치석까지
@@ -158,7 +158,7 @@
             <div>
                 <div class="text">
                     <h2>
-                        <strong>간단한 치료라도<br> 소홀히 하지 않는<br> 미소원치과의 스케일링 치교</strong>
+                        <strong>간단한 치료라도<br> 소홀히 하지 않는<br> 미소원치과의 스케일링 치료</strong>
                     </h2>
                     <h3>01</h3>
                     <p>

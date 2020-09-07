@@ -150,7 +150,7 @@
                 <div class="text">
                     <div>
                         <h2 class="section-title">
-                            <strong>뽑지 않고 최대한 살리는<br>충치치료,</strong>빠르고 쉬운<br> 충치 보철물 제작
+                            <strong>뽑지 않고 최대한 살리는<br>충치치료,</strong> 빠르고 쉬운<br> 충치 보철물 제작
                         </h2>
                         <p class="section-text">
                             소중한 치아를 하루라도 더 오래쓸 수 있도록 미소원치과에서는 자연치아를 살리는 충치 치료를 우선합니다. 미소원치과는 기존 아날로그 방식이였던
@@ -169,7 +169,7 @@
                 </div>
                 <div class="text">
                     <div>
-                        <h2>충치 치료의 종류 01)레진</h2>
+                        <h2>충치 치료의 종류 01) 레진</h2>
                         <p>
                             레진은 충치의 범위가 크지않은 경우에 주로 사용하는 충전 치료 방법으로 치아색과 동일하며 심미적으로 우수합니다. 또한 치아 삭제량이 적고, 좁거나 작은 부위도
                             충전 가능한 치료로 당일 진료가 가능합니다.
@@ -193,13 +193,13 @@
             </div>
         </section>
 
-        <section class="section06">
+        <section class="section20">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
                     <h2>
                         미소원치과는 <strong><span>3D카메라로 스캔</span></strong>하여 석고로 본을 뜨는 시간을 줄이는 동시에
-                        <strong><span>더욱 정밀하고 세밀하게 치아를 디자인</span></strong>하여 <strong>건물 내 상주하는 협력 기공소에서 바로 제작</strong>합니다.
+                        <br><strong><span>더욱 정밀하고 세밀하게 치아를 디자인</span></strong>하여<br> <strong>건물 내 상주하는 협력 기공소에서 바로 제작</strong>합니다.
                     </h2>
                 </div>
             </div>
@@ -260,9 +260,9 @@
                             <div class="swiper-slide">
                                 <div class="img04 img"></div>
                                 <div class="text">
-                                    <h2>내용이 없어요!</h2>
+                                    <h2>보철물 부착,교합체크</h2>
                                     <p>
-                                        내용이 없어요!
+                                        완성된 보철물을 장착하여 교합체크를 합니다.
                                     </p>
                                 </div>
                             </div>
@@ -410,8 +410,8 @@
             <div class="max-layout-width">
                 <div class="text">
                     <h2>
-                        미소원치과에서는 치료 전후에 재발하지 않기 위해 <strong>적절한 예방교육</strong>과 <strong><span>구취세균 검사 위상차현미경을 통한 세균 검사,타액검사 등 정밀검사</span></strong>
-                        를 통해 구강예방 관리를 시행하고 있습니다.
+                        미소원치과에서는 치료 전후에 재발하지 않기 위해 <strong>적절한 예방교육</strong>과<br><strong><span>구취세균 검사 위상차현미경을 통한 세균 검사, 타액검사 등<br>정밀검사</span></strong>
+                      를 통해 구강예방 관리를 시행하고 있습니다.
                     </h2>
                 </div>
             </div>
@@ -480,7 +480,7 @@
             </div>
         </section>
 
-        <section class="section11">
+        <section class="section12">
             <div class="max-layout-width">
                 <div class="image_box_left">
                     <p class="img"></p>
@@ -514,7 +514,7 @@
                             <strong>자연치아를 살리는<br>마지막 치료</strong>는 신경치료입니다.
                         </h2>
                         <p class="section-text">
-                            신경치료는 재충치를 마곡 장기적으로치아의 염증이 생기기 않도록 하는 치료입니다. 충치나 외상 등에 의해서 치아 내 신경이 자가 치유될 수 없을때 마지막 보존치료로 진행됩니다.<br>
+                            신경치료는 재충치를 막고 장기적으로 치아의 염증이 생기기 않도록 하는 치료입니다. 충치나 외상 등에 의해서 치아 내 신경이 자가 치유될 수 없을때 마지막 보존치료로 진행됩니다.<br>
                             치아의 형태,증상에 따라 치료 기간이 늘어날 수 있습니다.
                         </p>
                     </div>

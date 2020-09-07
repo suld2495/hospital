@@ -1,7 +1,7 @@
 .section08 {
-    margin-top: 147px;
+    margin-top: 80px;
     text-align: center;
-    margin-bottom: 206px;
+    margin-bottom: 93px;
 }
 
 .section08 .section-title {
@@ -9,7 +9,7 @@
 }
 
 .section08 ul {
-    margin-top: 83px;
+    margin-top: 50px;
     margin-left: -3.07%;
     overflow: hidden;
 }
@@ -30,7 +30,7 @@
 }
 
 .section08 ul li p {
-    height: 113px;
+    height: 77px;
     background: #9b8b7e;
     padding-left: 42px;
     padding-right: 35px;
@@ -39,19 +39,21 @@
 }
 
 .section08 ul li p span:first-child {
-    padding-top: 42px;
+    padding-top: 26px;
     display: block;
-    font-size: 33px;
+    font-size: 23px;
     color: #fff;
     font-weight: bold;
+    letter-spacing: -2px;
 }
 
 .section08 ul li p span.view {
     position: absolute;
     right: 78px;
-    top: 9px;
+    top: 4px;
     font-size: 19px;
     color: #fff;
+    letter-spacing: 1px;
 }
 
 .section08 ul li p span.view:after {
@@ -65,7 +67,7 @@
 }
 
 .section05 {
-    margin-top: 220px;
+    margin-top: 117px;
 }
 
 .section05 .max-layout-width .text {
@@ -88,7 +90,7 @@
     padding-top: 100px;
     position: relative;
     line-height: 1.3;
-    margin-bottom: 174px;
+    margin-bottom: 134px;
     padding-left: 60px;
     letter-spacing: -1px;
 }
@@ -113,17 +115,18 @@
     content: '';
     position: absolute;
     width: 3px;
-    height: 103px;
+    height: 89px;
     background: #7f6a57;
-    top: -171px;
+    top: -120px;
 }
 
 .section05 .bg {
     width: 64.65%;
     position: absolute;
-    height: 305px;
+    height: 262px;
     right: 0px;
-    bottom: -80px;
+    bottom: -79px;
+    background: #f5f5f5;
 }
 
 .section05 .max-layout-width {
@@ -132,7 +135,7 @@
 }
 
 .section01 {
-    margin-top: 164px;
+    margin-top: 107px;
 }
 
 .section01 .text, .section01 .bg .max-layout-width {
@@ -140,7 +143,7 @@
 }
 
 .section01 .text > div, .section01 .bg .max-layout-width > div {
-    padding-left: 86px;
+    padding-left: 73px;
 }
 
 .section01 .bg .max-layout-width > div {
@@ -153,18 +156,19 @@
 }
 
 .section01 .bg {
-    margin-top: 50px;
+    margin-top: 42px;
     background: #f5f5f5;
-    padding-top: 50px;
-    padding-bottom: 150px;
+    padding-top: 42px;
+    padding-bottom: 165px;
 }
 
 .section01 .section-text {
     line-height: 1.8;
+    letter-spacing: -1px;
 }
 
 .section01 .section-text:first-child {
-    margin-bottom: 43px;
+    margin-bottom: 30px;
 }
 
 .section01 .image_box_left {
@@ -179,13 +183,15 @@
 }
 
 .section02 {
-    margin-top: 116px;
-    margin-bottom: 100px;
+    margin-top: 91px;
+    margin-bottom: 94px;
 }
 
 .section02 .section-title {
     line-height: 1.3;
-    letter-spacing: -2px;
+    /* letter-spacing: -2px; */
+    font-size: 37px;
+    padding-top: 14px;
 }
 
 .section02 .section-text {
@@ -226,30 +232,31 @@
 
 .section03 {
     background: #9a8b7e;
-    padding-bottom: 94px;
+    padding-bottom: 70px;
 }
 
 .section03 .text {
-    padding-top: 104px;
+    padding-top: 86px;
     padding-left: 50%;
 }
 
 .section03 .text h2 {
-    font-size: 33px;
+    font-size: 34px;
     color: #fff;
-    font-weight: bold;
+    font-weight: 500;
+    letter-spacing: -2px;
 }
 
 .section03 ul {
-    padding-top: 50px;
+    padding-top: 47px;
     box-sizing: border-box;
 }
 
 .section03 .image_box_left {
     width: 790px;
     height: 374px;
-    top: 74px;
-    left: -188px;
+    top: 62px;
+    left: -143px;
 }
 
 .section03 .img {
@@ -265,7 +272,7 @@
 }
 
 .section03 .text li {
-    padding-left: 120px;
+    padding-left: 117px;
     box-sizing: border-box;
     float: left;
     width: 50%;
@@ -273,8 +280,10 @@
 }
 
 .section03 .text li p {
-    line-height: 1.7;
+    line-height: 1.6;
     color: #fff;
+    letter-spacing: -1.3px;
+    font-size: 18px;
 }
 
 .section03 .text .img01 {
@@ -304,22 +313,22 @@
 }
 
 .section04 {
-    margin-top: 140px;
+    margin-top: 106px;
 }
 
 .section04 .section-title {
-    line-height: 1.3;
+    line-height: 1.35;
     margin-bottom: 29px;
 }
 
 .section04 .section-text {
     line-height: 1.7;
-    margin-bottom: 151px;
+    margin-bottom: 91px;
 }
 
 .section04 .image_box_right {
     max-width: 1315px;
-    height: 581px;
+    height: 435px;
     width: 51.52%;
     z-index: 1;
 }
@@ -332,9 +341,9 @@
     background: #f5f5f5;
     width: 53.29%;
     position: absolute;
-    height: 393px;
+    height: 315px;
     left: 0px;
-    bottom: -60px;
+    bottom: -40px;
 }
 
 .section04 .max-layout-width {
@@ -343,14 +352,15 @@
 }
 
 .section04 .pager {
-    font-size: 16px;
+    font-size: 15px;
     color: #222;
-    padding: 11px 0;
+    padding: 9px 0;
     position: relative;
     padding-left: 40px;
     display: inline-block;
     font-weight: bold;
     cursor: pointer;
+    letter-spacing: -1px;
 }
 
 .section04 .pager span {
@@ -381,13 +391,14 @@
 }
 
 .section07 {
-    margin-top: 150px;
+    margin-top: 98px;
 }
 
 .section07 .max-layout-width h2 {
     text-align: center;
     font-size: 36px;
-    margin-bottom: 36px;
+    margin-bottom: 49px;
+    letter-spacing: -2px;
 }
 
 .table-middle {
@@ -396,18 +407,20 @@
 
 .table-left, .table-right {
     width: 559px;
-    font-size: 17px;
-    padding: 34px 0;
-    line-height: 1.7;
+    font-size: 16px;
+    padding: 18px 0px;
+    line-height: 1.55;
+    letter-spacing: -1px;
 }
 
 .table-middle {
-    padding: 51px 0;
-    font-size: 23px;
+    padding: 32px 0;
+    font-size: 21px;
     font-weight: bold;
     box-sizing: border-box;
     border-left: 1px solid #8f8f8f;
     border-right: 1px solid #8f8f8f;
+    letter-spacing: -2px;
 }
 
 .cont ul {
@@ -428,11 +441,12 @@
 }
 
 .con01.cont li {
-    font-size: 23px;
+    font-size: 22px;
     color: #fff;
-    padding: 25px 0;
+    padding: 18px 0;
     background: #8f8f8f;
     line-height: 1;
+    letter-spacing: -1px;
 }
 
 .con01.cont li.table-right {
@@ -453,6 +467,7 @@
 .con02.cont li.table-middle {
     padding-top: 130px;
     padding-bottom: 131px;
+    letter-spacing: -1.5px;
 }
 
 .section07 .img01 {
@@ -491,5 +506,5 @@
 }
 
 .section09 {
-    margin-top: 150px;
+    margin-top: 90px;
 }

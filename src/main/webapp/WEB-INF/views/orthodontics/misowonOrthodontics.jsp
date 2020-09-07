@@ -18,7 +18,7 @@
         <div class="max-layout-width text">
             <div>
                 <h2 class="section-title">
-                    가지런한 치열뿐 아니라<span class="section-title-color"><strong> 얼굴 전체의<br>고난이도 뼈이식 임플란트</strong></span>
+                    환자분의 <span class="section-title-color"><strong> 고민과 치열과 골격에 맞는<br>교정상담</strong></span>과 정밀진단 교정계획수립
                 </h2>
             </div>
         </div>
@@ -147,22 +147,22 @@
                 <ul>
                     <li class="table-left">
                         기존 메탈 브라켓과 비슷한 결찰 방식으로<br>
-                        약간의 통증이 있음
+                        마찰력이 생겨 약간의 통증이 있음
                     </li>
                     <li class="table-middle">통증</li>
                     <li class="table-right">
-                        통증인데 특징과 동일한 내용으로 되어 있음
+                        자가결찰 방식으로 마찰력이 줄여 통증이 적음
                     </li>
                 </ul>
             </div>
             <div class="cont con05">
                 <ul>
                     <li class="table-left">
-                        일반적인 치료기간인 약 2년
+                        일반적인 치료기간인<br>약 평균 2년
                     </li>
                     <li class="table-middle">치료기간</li>
                     <li class="table-right">
-                        똑딱이 장치를 이용하여 약 1년 6개월로<br>
+                        똑딱이 장치를 이용하여 약 평균 1년 6개월로<br>
                         치료기간을 단축
                     </li>
                 </ul>
@@ -225,9 +225,9 @@
                         <div class="swiper-slide">
                             <div class="img04 img"></div>
                             <div class="text">
-                                <h2>여기 글자가 없어요</h2>
+                                <h2>정기관리</h2>
                                 <p>
-                                    여기 글자가 없어요
+                                    교정후 유지장치를 장착하여 지속적인 관리를 받습니다.
                                 </p>
                             </div>
                         </div>

@@ -7,7 +7,7 @@
 }
 
 .section01 {
-    margin-top: 154px;
+    margin-top: 100px;
 }
 
 .section01 .text, .section01 .bg .max-layout-width {
@@ -17,7 +17,7 @@
 }
 
 .section01 .text > div, .section01 .bg .max-layout-width > div {
-    padding-left: 86px;
+    padding-left: 73px;
 }
 
 .section01 .bg .max-layout-width > div {
@@ -31,10 +31,10 @@
 }
 
 .section01 .bg {
-    margin-top: 50px;
+    margin-top: 43px;
     background: #f5f5f5;
-    padding-top: 50px;
-    padding-bottom: 150px;
+    padding-top: 25px;
+    padding-bottom: 191px;
 }
 
 .section01 .section-text {
@@ -42,7 +42,7 @@
 }
 
 .section01 .section-text:first-child {
-    margin-bottom: 43px;
+    margin-bottom: 6px;
 }
 
 .section01 .image_box_left {
@@ -59,11 +59,11 @@
 
 .section02 {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 81px;
 }
 
 .section02 .section-title {
-    margin-bottom: 45px;
+    margin-bottom: 47px;
 }
 
 .section02 ul {
@@ -75,17 +75,18 @@
     width: 23%;
     margin-left: 2%;
     float: left;
-    padding-top: 54px;
+    padding-top: 38px;
     background: #f3f3f3;
-    padding-bottom: 37px;
+    padding-bottom: 34px;
 }
 
 .section02 li p {
-    line-height: 1.7;
+    line-height: 1.5;
     font-size: 17px;
     font-weight: bold;
     color: #222;
     margin-top: 13px;
+    letter-spacing: -1px;
 }
 
 .section02 .img {
@@ -115,16 +116,16 @@
 
 .section03 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .section03 .section-title {
     line-height: 1.3;
-    margin-bottom: 20px;
+    margin-bottom: 3px;
 }
 
 .section03 .section-text {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .section03 .tab ul {
@@ -140,14 +141,16 @@
     font-size: 18px;
     color: #a8a8a8;
     background: #dfdfdf;
-    padding: 30px 0;
+    padding: 21px 0;
     cursor: pointer;
+    letter-spacing: -1px;
 }
 
 .section03 .tab li.active {
     background: #9a8b7e;
     color: #fff;
     position: relative;
+    letter-spacing: -1px;
 }
 
 .section03 .tab li.active:before {
@@ -167,7 +170,7 @@
 
 .section04 {
     position: relative;
-    padding-bottom: 90px;
+    padding-bottom: 70px;
 }
 
 .section04 .max-layout-width {
@@ -176,7 +179,7 @@
 }
 
 .section04 .tab-contents {
-    padding-top: 100px;
+    padding-top: 67px;
 }
 
 .section04 .tab-contents li {
@@ -194,14 +197,15 @@
     float: left;
     padding-left: 50px;
     box-sizing: border-box;
-    padding-top: 75px;
+    padding-top: 92px;
 }
 
 .section04 .tab-contents img + div h2 {
     font-size: 38px;
     font-weight: bold;
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 33px;
+    letter-spacing: -2.5px;
 }
 
 .section04 .tab-contents img + div p {
@@ -209,6 +213,7 @@
     line-height: 1.7;
     padding-right: 70px;
     word-break: keep-all;
+    letter-spacing: -1px;
 }
 
 .section02 .max-layout-width {
@@ -225,7 +230,7 @@
 }
 
 .section05 {
-    margin-top: 100px;
+    margin-top: 39px;
 }
 
 .section05 .max-layout-width .text {
@@ -239,9 +244,10 @@
 
 .section05 .image_box_right {
     max-width: 1276px;
-    height: 483px;
+    height: 407px;
     width: 50%;
     z-index: 10;
+    margin-top: 65px;
 }
 
 .section05 .image_box_right .img {
@@ -252,9 +258,9 @@
     padding-top: 100px;
     position: relative;
     line-height: 1.3;
-    margin-bottom: 174px;
+    margin-bottom: 84px;
     padding-left: 94px;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 
 .section05 .max-layout-width .text > div:before {
@@ -271,15 +277,16 @@
     line-height: 1.7;
     position: relative;
     text-align: right;
+    letter-spacing: -1.5px;
 }
 
 .section05 .section-text:before {
     content: '';
     position: absolute;
     width: 3px;
-    height: 103px;
+    height: 74px;
     background: #7f6a57;
-    top: -141px;
+    top: -78px;
     right: 0;
 }
 
@@ -287,9 +294,9 @@
     background: #f5f5f5;
     width: 64.65%;
     position: absolute;
-    height: 305px;
+    height: 225px;
     left: 0px;
-    bottom: -80px;
+    bottom: -43px;
 }
 
 .section05 .max-layout-width {
@@ -298,12 +305,12 @@
 }
 
 .section06 {
-    margin-top: 190px;
+    margin-top: 125px;
 }
 
 .section06 .section-title {
     line-height: 1.3;
-    margin-bottom: 119px;
+    margin-bottom: 30px;
     padding-top: 30px;
 }
 
@@ -314,13 +321,20 @@
 
 .section06 .image_box_left {
     max-width: 1315px;
-    height: 433px;
+    height: 343px;
     width: 51.52%;
     z-index: 1;
 }
 
 .section06 .img {
     background: url(../../images/sub/tooth/aesthetic/aesthetic10.jpg) no-repeat center;
+}
+p.img.laminate {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic10.jpg) no-repeat center;
+}
+
+p.img allceramic {
+    background: url(../../images/sub/tooth/aesthetic/aesthetic04.jpg) no-repeat center;
 }
 
 .section06 .bg {
@@ -339,12 +353,13 @@
 .section06 .pager {
     font-size: 16px;
     color: #222;
-    padding: 11px 0;
+    padding: 9px 0;
     position: relative;
     padding-left: 40px;
     display: inline-block;
     font-weight: bold;
     /* cursor: pointer; */
+    letter-spacing: -1px;
 }
 
 .section06 .pager span {
@@ -379,9 +394,9 @@
 }
 
 .section10 {
-    margin-top: 147px;
+    margin-top: 77px;
     text-align: center;
-    margin-bottom: 206px;
+    margin-bottom: 93px;
 }
 
 .section10 .section-title {
@@ -389,7 +404,7 @@
 }
 
 .section10 ul {
-    margin-top: 83px;
+    margin-top: 46px;
     margin-left: -3.07%;
     overflow: hidden;
 }
@@ -410,7 +425,7 @@
 }
 
 .section10 ul li p {
-    height: 113px;
+    height: 77px;
     background: #9b8b7e;
     padding-left: 42px;
     padding-right: 35px;
@@ -419,19 +434,21 @@
 }
 
 .section10 ul li p span:first-child {
-    padding-top: 42px;
+    padding-top: 27px;
     display: block;
-    font-size: 33px;
+    font-size: 23px;
     color: #fff;
     font-weight: bold;
+    letter-spacing: -1px;
 }
 
 .section10 ul li p span.view {
     position: absolute;
     right: 78px;
-    top: 9px;
+    top: 3px;
     font-size: 19px;
     color: #fff;
+    letter-spacing: 1px;
 }
 
 .section10 ul li p span.view:after {
@@ -445,8 +462,8 @@
 }
 
 .section11 {
-    margin-top: 200px;
-    height: 700px;
+    margin-top: 108px;
+    height: 626px;
 }
 
 .section11:before {
@@ -469,13 +486,15 @@
 .section11 h2 {
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 35px;
+    margin-bottom: 28px;
+    letter-spacing: -2px;
 }
 
 .section11 p {
     line-height: 1.6;
     font-size: 15px;
-    margin-bottom: 95px;
+    margin-bottom: 47px;
+    letter-spacing: -1px;
 }
 
 .section11 p span {
@@ -489,7 +508,7 @@
 .section11 li {
     width: 25%;
     float: left;
-    padding-top: 131px;
+    padding-top: 120px;
 }
 
 .section11 .img01 {
@@ -521,13 +540,13 @@
 
 
 .section12 {
-    margin-top: 190px;
+    margin-top: 88px;
 }
 
 .section12 .section-title {
     line-height: 1.3;
-    margin-bottom: 119px;
-    padding-top: 30px;
+    margin-bottom: 27px;
+    padding-top: 44px;
 }
 
 .section12 .section-text {
@@ -537,7 +556,7 @@
 
 .section12 .image_box_left {
     max-width: 1315px;
-    height: 433px;
+    height: 336px;
     width: 51.52%;
     z-index: 1;
 }
@@ -545,6 +564,15 @@
 .section12 .img {
     background: url(../../images/sub/tooth/aesthetic/aesthetic10.jpg) no-repeat center;
 }
+
+p.img.laminate{
+    background: url(../../images/sub/tooth/aesthetic/aesthetic10.jpg) no-repeat center;
+}
+
+p.img.allceramic{
+    background: url(../../images/sub/tooth/aesthetic/aesthetic04.jpg) no-repeat center;
+}
+
 
 .section12 .bg {
     width: 55.29%;
@@ -562,12 +590,13 @@
 .section12 .pager {
     font-size: 16px;
     color: #222;
-    padding: 11px 0;
+    padding: 7px 0;
     position: relative;
-    padding-left: 40px;
+    padding-left: 31px;
     display: inline-block;
     font-weight: bold;
     /* cursor: pointer; */
+    letter-spacing: -1px;
 }
 
 .section12 .pager span {
@@ -614,13 +643,14 @@
 }
 
 .section13 {
-    margin-top: 150px;
+    margin-top: 75px;
 }
 
 .section13 .max-layout-width h2 {
     text-align: center;
     font-size: 36px;
-    margin-bottom: 56px;
+    margin-bottom: 51px;
+    letter-spacing: -3px;
 }
 
 .table-middle {
@@ -629,18 +659,20 @@
 
 .table-left, .table-right {
     width: 559px;
-    font-size: 17px;
-    padding: 34px 0;
+    font-size: 16px;
+    padding: 29px 0;
     line-height: 1.7;
+    letter-spacing: -1px;
 }
 
 .table-middle {
-    padding: 51px 0;
-    font-size: 23px;
+    padding: 45px 0;
+    font-size: 21px;
     font-weight: bold;
     box-sizing: border-box;
     border-left: 1px solid #8f8f8f;
     border-right: 1px solid #8f8f8f;
+    letter-spacing: -2px;
 }
 
 .cont ul {
@@ -661,11 +693,12 @@
 }
 
 .con01.cont li {
-    font-size: 23px;
+    font-size: 21px;
     color: #fff;
-    padding: 25px 0;
+    padding: 20px 0;
     background: #8f8f8f;
     line-height: 1;
+    letter-spacing: -1px;
 }
 
 .con01.cont li.table-right {
@@ -680,7 +713,7 @@
 .con02.cont li {
     line-height: inherit;
     padding: 0;
-    height: 283px;
+    height: 282px;
 }
 
 .con02.cont li.table-middle {
@@ -741,15 +774,40 @@
 
 .text-slider {
     background: #f3f3f3;
-    margin-top: 130px;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    margin-top: 107px;
+    padding-top: 71px;
+    padding-bottom: 87px;
+}
+
+.text-slider .section-text {
+    margin-bottom: 50px;
 }
 
 .left-fade-slider-container {
-    margin-top: 130px;
+    margin-top: 99px;
 }
 
 .section09  {
     margin-top: 100px;
+}
+
+.text-slider .slick-slide .text p {
+    line-height: 1.6;
+    width: 324px;
+    word-break: keep-all;
+    letter-spacing:-1px;
+}
+
+.text-slider .slick-slide .text h2 {
+    font-size: 31px;
+    line-height: 1.35;
+    margin-bottom: 55px;
+    color: #222;
+    letter-spacing: -1.5px;
+}
+
+.left-fade-slider-container .bg {
+    height: 333px;
+    background: #9b8b7e;
+    margin-top: 56px;
 }
