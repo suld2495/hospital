@@ -18,7 +18,12 @@
         <setting name="localCacheScope" value="STATEMENT" />
     </settings>
 
+    <typeAliases>
+        <typeAlias alias="userVo" type="kr.co.hospital.login.service.UserVo"/>
+    </typeAliases>
+
     <mappers>
         <mapper resource="mybatis/mappers/BoardSQL.xml"/>
+        <mapper resource="mybatis/mappers/UserSQL.xml"/>
     </mappers>
 </configuration>

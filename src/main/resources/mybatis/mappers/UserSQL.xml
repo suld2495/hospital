@@ -2,9 +2,43 @@
 <!DOCTYPE mapper   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="kr.co.hospital.mapper.UserMapper">
-    <select id="getUser" parameterType="string" resultType="map">
+    <select id="getUser" parameterType="string" resultType="userVo">
         SELECT *
           FROM membership
          WHERE ID = #{id}
     </select>
+
+    <insert id="insertUser" parameterType="userVo">
+        INSERT INTO membership
+        (
+            id,
+            password,
+            name,
+            phone,
+            email,
+            role,
+            emailYN,
+            smsYN,
+            created_date,
+            access_date,
+            serviceYN,
+            privacyYN
+        )
+
+        VALUES
+        (
+            #{id},
+            #{password},
+            #{name},
+            #{phone},
+            #{email},
+            'ROLE_USER',
+            #{emailYN},
+            #{smsYN},
+            NOW(),
+            NOW(),
+            #{serviceYN},
+            #{privacyYN}
+        )
+    </insert>
 </mapper>

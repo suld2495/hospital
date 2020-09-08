@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="<c:url value="/css/member/member.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/member/memberAgreement.css"/>" />
 
+
 <div class="sub-contents member-agreement">
     <h1 class="sub-page-title">회원가입</h1>
     <p class="sub-page-intro">JOIN</p>

@@ -181,47 +181,4 @@ public class ClientController {
         model.addAttribute("urlName", "이용약관");
         return "/sub/etc/terms";
     }
-
-
-    @RequestMapping("/login")
-    public String login(Model model) {
-        model.addAttribute("category", 6);
-        model.addAttribute("urlName", "회원로그인");
-        return "/sub/login/login";
-    }
-
-    @RequestMapping("/member_agreement")
-    public String memberAgreement(Model model) {
-        model.addAttribute("category", 7);
-        model.addAttribute("urlName", "회원가입");
-        return "/sub/member/memberAgreement";
-    }
-
-    @RequestMapping(value = "/member_input", method = RequestMethod.POST)
-    public String memberInput(Model model) {
-        model.addAttribute("category", 7);
-        model.addAttribute("urlName", "회원가입");
-        return "/sub/member/member";
-    }
-
-    @RequestMapping(value = "/member_complete", method = RequestMethod.POST)
-    public String memberComplete(Model model) {
-        model.addAttribute("category", 7);
-        model.addAttribute("urlName", "회원가입");
-        return "/sub/member/memberComplete";
-    }
-
-    @RequestMapping(value = "/member_naver", method = RequestMethod.GET)
-    public String memberNaver(Model model) {
-        model.addAttribute("category", 7);
-        model.addAttribute("urlName", "회원가입");
-        return "/sub/member/memberNaver";
-    }
-
-    @RequestMapping("/member_kakao")
-    public String memberKakao(Model model) {
-        model.addAttribute("category", 7);
-        model.addAttribute("urlName", "회원가입");
-        return "/sub/member/memberKakao";
-    }
 }

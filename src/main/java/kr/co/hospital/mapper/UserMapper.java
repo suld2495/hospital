@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserMapper {
     UserVo getUser(String username);
+
+    void insertUser(UserVo userVo) throws Exception;
 }

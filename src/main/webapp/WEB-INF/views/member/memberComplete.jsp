@@ -1,5 +1,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="java.util.Date" %>
+<%@ page import="java.text.SimpleDateFormat" %>
+<%
+    Date nowTime = new Date();
+    SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
+%>
+
+
 <link rel="stylesheet" href="<c:url value="/css/member/member.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/member/memberComplete.css"/>" />
 
@@ -50,8 +58,8 @@
                     감사합니다.
                 </p>
                 <div class="date">
-                    <p><strong>아이디</strong> : 아이디</p>
-                    <p><strong>가입일자</strong> : 2020-08-29</p>
+                    <p><strong>아이디</strong> : <%=request.getParameter("id")%></p>
+                    <p><strong>가입일자</strong> : <%= sf.format(nowTime) %></p>
                 </div>
             </div>
             <div class="button-box">
