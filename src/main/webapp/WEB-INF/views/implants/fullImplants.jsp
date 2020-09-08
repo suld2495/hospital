@@ -260,7 +260,7 @@
                         <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="center-img">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
