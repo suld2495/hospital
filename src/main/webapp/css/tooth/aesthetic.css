@@ -466,9 +466,9 @@ p.img allceramic {
     height: 626px;
 }
 
-.section11:before {
+.section11 .bg {
     content: '';
-    background: url(../../images/sub/tooth/aesthetic/aesthetic_bg01.jpg) no-repeat center;
+    background: url(../../images/sub/tooth/aesthetic/aesthetic_bg01.jpg) no-repeat center top fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -527,16 +527,6 @@ p.img allceramic {
     background: url(../../images/sub/tooth/aesthetic/aesthetic_icon08.png) no-repeat top center;
 }
 
-.section11 .border {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 300px solid #fff;
-    transition: .7s ease-out;
-    box-sizing: border-box;
-}
 
 
 .section12 {

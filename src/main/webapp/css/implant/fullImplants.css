@@ -195,9 +195,9 @@
     height: 637px;
 }
 
-.section05:before {
+.section05 .bg {
     content: '';
-    background: url(../../images/sub/implant/full/total_bg.jpg) no-repeat center;
+    background: url(../../images/sub/implant/full/total_bg.jpg) no-repeat center top fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -254,17 +254,6 @@
 
 .section05 .img04 {
     background: url(../../images/sub/implant/oneday/oneday_icon08.png) no-repeat top center;
-}
-
-.section05 .border {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 300px solid #fff;
-    transition: .7s ease-out;
-    box-sizing: border-box;
 }
 
 .section06 {

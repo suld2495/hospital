@@ -226,7 +226,7 @@
     background: url(../../images/sub/implant/oneday/oneday_icon01.png) no-repeat left top;
     padding-top: 27px;
     padding-bottom: 27px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     background-position-x: 23px;
 }
 
@@ -487,14 +487,16 @@ body .section02 li:first-child {
     height: 700px;
 }
 
-.section07:before {
+.section07 .bg {
     content: '';
-    background: url(../../images/sub/implant/oneday/oneday_bg.jpg) no-repeat center;
+    background: url(../../images/sub/implant/oneday/oneday_bg.jpg) no-repeat center top fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     position: absolute;
+    padding-top: 130px;
+    box-sizing: border-box;
 }
 
 .section07 .max-layout-width {
@@ -562,17 +564,6 @@ body .section02 li:first-child {
     width: 871px;
     margin: 0 auto;
     word-break: keep-all;
-}
-
-.section07 .border {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 300px solid #fff;
-    transition: .7s ease-out;
-    box-sizing: border-box;
 }
 
 .section10 {

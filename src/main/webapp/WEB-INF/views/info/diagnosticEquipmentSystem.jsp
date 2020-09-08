@@ -1,358 +1,277 @@
-.section01 {
-    display: inline-block;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 66px;
-    margin-bottom: 100px;
-}
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-.section01 .bx-wrapper .bx-viewport {
-    /*padding-left: 75px;*/
-    /*padding-bottom: 64px;*/
-}
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
+<link rel="stylesheet" href="<c:url value="/css/info/diagnosticEquipmentSystem.css"/>" />
 
-.section01 .slider {
-    height: auto;
-    overflow: hidden;
-}
+<div class="sub-contents">
+    <h1 class="sub-page-title">진단장비 시스템</h1>
+    <p class="sub-page-intro">ADVANCED EQUIPMENT SYSTEM</p>
 
-.section01 .swiper-slide {
-    width: 440px;
-    display: inline-block;
-    height: 503px;
-}
+    <section class="section01">
+        <div class="slider-container">
+            <div class="slider-box">
+                <div class="slider swiper-wrapper">
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')"></div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')"></div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')"></div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')"></div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')"></div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')"></div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')"></div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')"></div></div>
+                </div>
+                <div class="text-box">
+                    <h2>3D 구강 스캐너</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>
+                </div>
+            </div>
+            <div class="slider-pagenation">
+            </div>
+        </div>
+        <div class="max-layout-width">
+            <div class="pager">
+                <span class="current">01</span>
+                <span class="max">/03</span>
+            </div>
+        </div>
+    </section>
 
-.section01 .slider .text h5 {
-    font-size: 30px;
-    color: #fff;
-    margin-bottom: 28px;
-}
+<%--    <section class="section02">--%>
+<%--        <div class="max-layout-width">--%>
+<%--            <div class="cont cont1 active">--%>
+<%--                <div class="img">--%>
+<%--                    <div class="big-img"></div>--%>
+<%--                    <div class="small-img">--%>
+<%--                        <div class="small-img1"></div>--%>
+<%--                        <div class="small-img2"></div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="text">--%>
+<%--                    <div>--%>
+<%--                        <p>--%>
+<%--                            얼굴 안면부 전체와 옆모습까지 파노라마로 촬영하여--%>
+<%--                            <strong>피부아래 신경의 위치까지 한번에 모두 파악이 가능한 첨단 3D-CT 장비</strong>입니다.--%>
+<%--                        </p>--%>
+<%--                        <p>--%>
+<%--                            약 15초의 <strong>빠른 촬영속도로 방사선의 노출을 줄이고 환자분들의 촬영 불편함을 감소</strong>시킵니다.--%>
+<%--                        </p>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--            <div class="cont cont2">--%>
+<%--                <div class="img">--%>
+<%--                    <div class="big-img"></div>--%>
+<%--                    <div class="small-img">--%>
+<%--                        <div class="small-img1"></div>--%>
+<%--                        <div class="small-img2"></div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="text">--%>
+<%--                    <div>--%>
+<%--                        <p>--%>
+<%--                            얼굴 안면부 전체와 옆모습까지 파노라마로 촬영하여--%>
+<%--                            <strong>피부아래 신경의 위치까지 한번에 모두 파악이 가능한 첨단 3D-CT 장비</strong>입니다.--%>
+<%--                        </p>--%>
+<%--                        <p>--%>
+<%--                            약 15초의 <strong>빠른 촬영속도로 방사선의 노출을 줄이고 환자분들의 촬영 불편함을 감소</strong>시킵니다.--%>
+<%--                        </p>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--            <div class="cont cont3">--%>
+<%--                <div class="img">--%>
+<%--                    <div class="big-img"></div>--%>
+<%--                    <div class="small-img">--%>
+<%--                        <div class="small-img1"></div>--%>
+<%--                        <div class="small-img2"></div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="text">--%>
+<%--                    <div>--%>
+<%--                        <p>--%>
+<%--                            얼굴 안면부 전체와 옆모습까지 파노라마로 촬영하여--%>
+<%--                            <strong>피부아래 신경의 위치까지 한번에 모두 파악이 가능한 첨단 3D-CT 장비</strong>입니다.--%>
+<%--                        </p>--%>
+<%--                        <p>--%>
+<%--                            약 15초의 <strong>빠른 촬영속도로 방사선의 노출을 줄이고 환자분들의 촬영 불편함을 감소</strong>시킵니다.--%>
+<%--                        </p>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--            <div class="cont cont4">--%>
+<%--                <div class="img">--%>
+<%--                    <div class="big-img"></div>--%>
+<%--                    <div class="small-img">--%>
+<%--                        <div class="small-img1"></div>--%>
+<%--                        <div class="small-img2"></div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="text">--%>
+<%--                    <div>--%>
+<%--                        <p>--%>
+<%--                            얼굴 안면부 전체와 옆모습까지 파노라마로 촬영하여--%>
+<%--                            <strong>피부아래 신경의 위치까지 한번에 모두 파악이 가능한 첨단 3D-CT 장비</strong>입니다.--%>
+<%--                        </p>--%>
+<%--                        <p>--%>
+<%--                            약 15초의 <strong>빠른 촬영속도로 방사선의 노출을 줄이고 환자분들의 촬영 불편함을 감소</strong>시킵니다.--%>
+<%--                        </p>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--            <div class="cont cont5">--%>
+<%--                <div class="img">--%>
+<%--                    <div class="big-img"></div>--%>
+<%--                    <div class="small-img">--%>
+<%--                        <div class="small-img1"></div>--%>
+<%--                        <div class="small-img2"></div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="text">--%>
+<%--                    <div>--%>
+<%--                        <p>--%>
+<%--                            얼굴 안면부 전체와 옆모습까지 파노라마로 촬영하여--%>
+<%--                            <strong>피부아래 신경의 위치까지 한번에 모두 파악이 가능한 첨단 3D-CT 장비</strong>입니다.--%>
+<%--                        </p>--%>
+<%--                        <p>--%>
+<%--                            약 15초의 <strong>빠른 촬영속도로 방사선의 노출을 줄이고 환자분들의 촬영 불편함을 감소</strong>시킵니다.--%>
+<%--                        </p>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--            <div class="cont cont6">--%>
+<%--                <div class="img">--%>
+<%--                    <div class="big-img"></div>--%>
+<%--                    <div class="small-img">--%>
+<%--                        <div class="small-img1"></div>--%>
+<%--                        <div class="small-img2"></div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="text">--%>
+<%--                    <div>--%>
+<%--                        <p>--%>
+<%--                            얼굴 안면부 전체와 옆모습까지 파노라마로 촬영하여--%>
+<%--                            <strong>피부아래 신경의 위치까지 한번에 모두 파악이 가능한 첨단 3D-CT 장비</strong>입니다.--%>
+<%--                        </p>--%>
+<%--                        <p>--%>
+<%--                            약 15초의 <strong>빠른 촬영속도로 방사선의 노출을 줄이고 환자분들의 촬영 불편함을 감소</strong>시킵니다.--%>
+<%--                        </p>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--            <div class="cont cont7">--%>
+<%--                <div class="img">--%>
+<%--                    <div class="big-img"></div>--%>
+<%--                    <div class="small-img">--%>
+<%--                        <div class="small-img1"></div>--%>
+<%--                        <div class="small-img2"></div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="text">--%>
+<%--                    <div>--%>
+<%--                        <p>--%>
+<%--                            얼굴 안면부 전체와 옆모습까지 파노라마로 촬영하여--%>
+<%--                            <strong>피부아래 신경의 위치까지 한번에 모두 파악이 가능한 첨단 3D-CT 장비</strong>입니다.--%>
+<%--                        </p>--%>
+<%--                        <p>--%>
+<%--                            약 15초의 <strong>빠른 촬영속도로 방사선의 노출을 줄이고 환자분들의 촬영 불편함을 감소</strong>시킵니다.--%>
+<%--                        </p>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--            <div class="cont cont8">--%>
+<%--                <div class="img">--%>
+<%--                    <div class="big-img"></div>--%>
+<%--                    <div class="small-img">--%>
+<%--                        <div class="small-img1"></div>--%>
+<%--                        <div class="small-img2"></div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="text">--%>
+<%--                    <div>--%>
+<%--                        <p>--%>
+<%--                            얼굴 안면부 전체와 옆모습까지 파노라마로 촬영하여--%>
+<%--                            <strong>피부아래 신경의 위치까지 한번에 모두 파악이 가능한 첨단 3D-CT 장비</strong>입니다.--%>
+<%--                        </p>--%>
+<%--                        <p>--%>
+<%--                            약 15초의 <strong>빠른 촬영속도로 방사선의 노출을 줄이고 환자분들의 촬영 불편함을 감소</strong>시킵니다.--%>
+<%--                        </p>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--        </div>--%>
+<%--    </section>--%>
 
-.section01 .slider .text p {
-    font-size: 21px;
-    line-height: 1.4;
-    color: #fff;
-}
+    <section class="section03">
+        <div class="max-layout-width">
+            <span class="title">ADVANCED EQUIPMENT</span>
+            <h2 class="section-title">
+                <strong>진단부터 정확하게</strong><br>
+                <span class="section-title-color">첨단장비를 통한</span><br>
+                <span class="section-title-color">차계적 시스템</span>
+            </h2>
+            <p class="section-text">
+                미소원치과는 <strong>첨단 디지털 장비를 이용하여 환자의 상태를 안전하고 정확하게</strong> 진단합니다.
+            </p>
+        </div>
+        <div class="image_box_left">
+            <p class="img"></p>
+            <p class="bg"></p>
+        </div>
+    </section>
+</div>
 
-.section01 .slider-container > div {
-    float: right;
-}
+<script src="<c:url value='/js/utils/StringUtils.js'/>"></script>
+<script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
+<script>
+    $(function() {
+        var pagination = [
+            '<div class="bx-pager-item active"><a class="bx-pager-link text-decoration-none"><span>01</span><span class="label">3D 구강 스캐너</span></a></div>',
+            '<div class="bx-pager-item"><a class="bx-pager-link text-decoration-none"><span>02</span><span class="label">CAD-CAM 밀링장치</span></a></div>',
+            '<div class="bx-pager-item"><a class="bx-pager-link text-decoration-none"><span>03</span><span class="label">건물내 상주 협력 기공소</span></a></div>',
+            '<div class="bx-pager-item"><a class="bx-pager-link text-decoration-none"><span>04</span><span class="label">포터블엑스레이</span></a></div>',
+            '<div class="bx-pager-item"><a class="bx-pager-link text-decoration-none"><span>05</span><span class="label">치아 미백 장비</span></a></div>',
+            '<div class="bx-pager-item"><a class="bx-pager-link text-decoration-none"><span>06</span><span class="label">무통마취기</span></a></div>',
+            '<div class="bx-pager-item"><a class="bx-pager-link text-decoration-none"><span>07</span><span class="label">고압증기멸균기</span></a></div>',
+            '<div class="bx-pager-item"><a class="bx-pager-link text-decoration-none"><span>08</span><span class="label">핸드피스 멸균기</span></a></div>'
+        ];
+        var text = [
+            '<h2>저선량 PAX 3D SMART CT</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>',
+            '<h2>CAD-CAM 밀링장치</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>',
+            '<h2>저선량 PAX 3D SMART CT</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>',
+            '<h2>포터블엑스레이</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>',
+            '<h2>치아 미백 장비</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>',
+            '<h2>무통마취기</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>',
+            '<h2>고압증기멸균기</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>',
+            '<h2>핸드피스 멸균기</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>',
+        ]
 
-.section01 .bx-pager-item {
-    display: block;
-    overflow: hidden;
-    margin-bottom: 14px;
-    outline: none;
-}
+        $('.swiper-slide').width($(window).width() * 0.33);
 
-.section01 .slider-pagenation .bx-pager-item span:first-child {
-    width: 47px;
-    height: 47px;
-    margin-right: 16px;
-    padding: 13px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    border-radius: unset;
-    font-size: 19px;
-    font-weight: 400;
-}
+        $('.slider').on('init', function(slick){
+            $('.slick-dots').appendTo($('.slider-pagenation'));
+        });
+        $('.slider').on('beforeChange', function (slick, currentSlide, nextSlide) {
+            var index = (currentSlide.slickCurrentSlide() + 1) % 8;
+            $('.text-box').html(text[index]);
+            $('.current').html(numberPad(index + 1, 2));
+            $('.cont').removeClass('active');
+            $('.cont' + (index + 1)).addClass('active');
+        });
 
-.section01 .slider-pagenation .bx-pager-item span {
-    color: #222;
-    float: left;
-    font-weight: bold;
-}
+        $('.slider').slick({
+            infinite: true,
+            dots: true,
+            arrows: false,
+            slidesToShow: 1,
+            centerMode: true,
+            variableWidth: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            customPaging: function(slider, i) {
+                return $(pagination[i]);
+            }
+        });
 
-.section01 .slider-pagenation .bx-pager-item .label {
-    font-size: 20px;
-    padding: 13px 50px 13px 0;
-    position: relative;
-    letter-spacing: -1.5px;
-}
-
-.section01 .slider-pagenation .slick-active .bx-pager-item .label:before {
-    position: absolute;
-    bottom: 0;
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: #000;
-    left: 0;
-}
-
-.section01 .slider-container > div.slider-box {
-    width: 62%;
-    float: right;
-    padding-left: 41px;
-    padding-bottom: 63px;
-    position: relative;
-    height: 503px;
-}
-
-.section01 .swiper-slide {
-    opacity: 0.5;
-}
-
-.section01 .slick-active .swiper-slide {
-    opacity: 1;
-}
-
-.section01 .text-box {
-    width: 427px;
-    height: 225px;
-    background: #9b8b7e;
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-    left: 0;
-    padding: 55px 0 0 36px;
-    box-sizing: border-box;
-    color: #fff;
-    letter-spacing: -1px;
-}
-
-.section01 .text-box h2 {
-    font-size: 29px;
-    margin-bottom: 25px;
-}
-
-.section01 .text-box p {
-    line-height: 1.5;
-    font-size: 23px;
-}
-
-.section01 .slider-container {
-    overflow: hidden;
-}
-
-.section01 .slider-pagenation .slick-active .bx-pager-item span:first-child {
-    background: #000;
-    color: #fff;
-}
-
-.section01 .slider-pagenation {
-    margin-right: 61px;
-}
-
-.section01 .max-layout-width {
-    position: relative;
-}
-
-.section01 .pager {
-    position: absolute;
-    right: 255px;
-    bottom: 8px;
-}
-
-.section01 .pager span {
-    float: left;
-}
-
-.section01 .pager span.current {
-    margin-top: -10px;
-    font-size: 34px;
-    font-weight: bold;
-}
-
-.section01 .pager span.max {
-    font-size: 23px;
-}
-
-.section01 .slick-slider .slick-list {
-    transform: translate3d(-742px, 0, 0);
-    width: 2000px;
-}
-
-.section01 .slick-slide {
-    margin-right: 41px;
-    outline: none;
-}
-
-.section01 .slick-dots {
-    width: auto;
-    position: relative;
-}
-
-.section01 .slick-dots li {
-    width: auto;
-    height: auto;
-    display: block;
-}
-
-.section02 {
-    padding: 32px 0;
-    background: #f1f1f1;
-}
-
-.section02 .cont1 .big-img {
-    background: url(../../images/sub/info/diagnosticEquipmentSystem/device01_img02.png);
-}
-
-.section02 .cont3 .big-img {
-    background: url(../../images/sub/info/diagnosticEquipmentSystem/device02_img02.png);
-}
-
-.section02 .cont1 .small-img1 {
-    background: url(../../images/sub/info/diagnosticEquipmentSystem/device01_img03.jpg);
-}
-
-.section02 .cont1 .small-img2 {
-    background: url(../../images/sub/info/diagnosticEquipmentSystem/device01_img04.jpg);
-}
-
-.section02 .cont3 .small-img1 {
-    background: url(../../images/sub/info/diagnosticEquipmentSystem/device02_img03.jpg);
-}
-
-.section02 .cont3 .small-img2 {
-    background: url(../../images/sub/info/diagnosticEquipmentSystem/device02_img04.jpg);
-}
-
-.section02 .text {
-    padding-left: 860px;
-    padding-top: 50px;
-}
-
-.section02 .text p {
-    line-height: 1.6;
-    margin-bottom: 25px;
-    word-break: keep-all;
-}
-
-.section02 .img {
-    position: absolute;
-    height: 461px;
-}
-
-.section02 .img > div {
-    float: left;
-}
-
-.section02 .big-img {
-    width: 354px;
-    height: 461px;
-    margin-right: 33px;
-    margin-top: 51px;
-    margin-left: 63px;
-}
-
-.section02 .small-img div {
-    width: 354px;
-    height: 278px;
-}
-
-.section02 .small-img1 {
-    margin-bottom: 20px;
-}
-
-.section02 .max-layout-width > div {
-    position: relative;
-    height: 576px;
-    display: none;
-    opacity: 0;
-    transition: opacity 200ms linear 100ms;
-}
-
-.section02 .max-layout-width > div.active {
-    display: block;
-    animation: fade-in 1s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fade-out {
-    from {
-        opacity: 1;
-
-    }
-    to {
-        opacity: 0;
-    }
-}
-
-
-.section03 {
-    margin-top: 92px;
-    padding-bottom: 267px;
-    overflow: hidden;
-}
-
-.section03 .title {
-    padding-left: 72px;
-    position: relative;
-    font-size: 13px;
-    color: #222;
-    margin-bottom: 75px;
-    display: inline-block;
-    letter-spacing: 1.4px;
-}
-
-.section03 .title:before {
-    position: absolute;
-    content: '';
-    width: 50px;
-    height: 1px;
-    background: #7e6956;
-    left: 0;
-    top: 7px;
-}
-
-.section03 .section-title {
-    line-height: 1.3;
-    letter-spacing: -3px;
-}
-
-.section03 .section-text {
-    line-height: 1.9;
-    margin-top: 20px;
-    position: relative;
-    width: 340px;
-    word-break: keep-all;
-    letter-spacing: -1px;
-}
-
-.section03 .section-text:after {
-    position: absolute;
-    content: '';
-    width: 211px;
-    height: 3px;
-    background: #7e6956;
-    left: 0;
-    bottom: -135px;
-}
-
-.section03 .image_box_right {
-    /* max-width: 1048px; */
-    width: 100%;
-    height: 449px;
-    top: 0;
-    left: 50%;
-    margin-left: -210px;
-}
-
-.section03 .img {
-    background: url(../../images/sub/info/diagnosticEquipmentSystem/device_bottom.jpg) no-repeat center;
-    background-size: cover;
-    position: absolute;
-    z-index: 2;
-    top: 42px;
-    width: 41%;
-}
-
-.section03 .bg {
-    background: #7e6956;
-    position: absolute;
-    left: -32px;
-    top: 0;
-    width: 50%;
-    height: 449px;
-}
-
+    })
+</script>

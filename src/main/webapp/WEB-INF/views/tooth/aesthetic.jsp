@@ -328,6 +328,7 @@
         </section>
 
         <section class="section11">
+            <div class="bg"></div>
             <div class="max-layout-width">
                 <h2><strong>올세라믹 크라운의 장점은?</strong></h2>
                 <p>
@@ -349,7 +350,6 @@
                     </li>
                 </ul>
             </div>
-            <div class="border"></div>
         </section>
 
         <section class="section12 list-content list-content-right">
@@ -575,7 +575,7 @@
         </div>
     </section>
 
-    <section class="section10 board-link">
+    <section class="board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>
@@ -587,7 +587,13 @@
                 <li>
                     <p>
                         <span>온라인 상담</span>
-                        <a href="<c:url value='/' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
+                    </p>
+                </li>
+                <li class="last-img">
+                    <p>
+                        <span>치료후기</span>
+                        <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="last-img">

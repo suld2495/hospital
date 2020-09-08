@@ -129,9 +129,9 @@
     height: 549px;
 }
 
-.section03:before {
+.section03 .bg {
     content: '';
-    background: url(../../images/sub/orthodontics/misowonOrthodontics/orthodontics_bg.jpg) no-repeat center;
+    background: url(../../images/sub/orthodontics/misowonOrthodontics/orthodontics_bg.jpg) no-repeat center top fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -188,17 +188,6 @@
 
 .section03 .img04 {
     background: url(../../images/sub/orthodontics/misowonOrthodontics/orthodontics_icon04.png) no-repeat top center;
-}
-
-.section03 .border {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 300px solid #fff;
-    transition: .7s ease-out;
-    box-sizing: border-box;
 }
 
 .section04 {

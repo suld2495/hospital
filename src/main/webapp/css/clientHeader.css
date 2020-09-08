@@ -161,7 +161,7 @@ header nav .nav-detail > li {
     background: url(../images/category/category_bg.jpg) no-repeat center;
     overflow: hidden;
     padding-bottom: 10px;
-    border-top: 1px solid #efeae7;
+    border-top: 1px solid #bbb;
     height: 309px;
     display: none;
 }
@@ -261,4 +261,19 @@ header .cmmn-nav ol {
     display: block;
     overflow: hidden;
     margin: 0 auto;
+}
+
+header .fixed {
+    width: 100%;
+    z-index: 10000000000;
+    background: #fff;
+    top: 0;
+}
+
+header.active {
+    padding-top: 140px;
+}
+
+header.active .fixed {
+    position: fixed;
 }

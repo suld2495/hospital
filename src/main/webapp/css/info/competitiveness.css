@@ -94,10 +94,10 @@ section {
 }
 
 .list li p {
-    font-size: 17px;
+    font-size: 15px;
     color: #fff;
     text-align: center;
-    line-height: 24px;
+    line-height: 22px;
     letter-spacing: -1px;
 }
 
@@ -253,7 +253,7 @@ section {
 
 .section04 {
     padding: 92px 0 84px 0;
-    background: url(../../images/sub/info/competitiveness/compet08.jpg) no-repeat;
+    background: url(../../images/sub/info/competitiveness/compet08.jpg) no-repeat center top fixed;
     background-size: cover;
 }
 

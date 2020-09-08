@@ -6,8 +6,7 @@
 .section01 ul {
     overflow: hidden;
     padding: -1px 0;
-    border-top: 5px solid #7e6956;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
 }
 
 .section01 li:first-child {
@@ -31,14 +30,14 @@
 }
 
 .section01 li .title {
-    font-size: 40px;
+    font-size: 38px;
     vertical-align: -9px;
     margin-right: 4px;
     font-weight: 100;
 }
 
 .section01 li .text {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     letter-spacing: -1px;
 }

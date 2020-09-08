@@ -26,7 +26,7 @@
                     안전하고 체계적으로 치아의 기능과 심미성을 되찾아드립니다.<br>
                     만족스러운 결과를 위해 최선을 다하는 미소원치과입니다.
                 </p>
-                <h3 class="move-title" data-bottom="transform:translate3d(50%,0,0)" data-top="transform:translate3d(0%,0,0)">MISOWON DENTAL CLINIC</h3>
+                <h3 class="move-title" data-top="transform:translate3d(50%,0,0)" data-top="transform:translate3d(0%,0,0)">MISOWON DENTAL CLINIC</h3>
             </div>
         </div>
     </section>
@@ -163,7 +163,6 @@
                     </h2>
                     <p class="section-text">
                         저희 치과를 찾는 모든 환자분들을 가족으로 생각하고 진심을 담아 진료하며, 공감할 수 있는 진료 서비스를 제공해드리겠습니다.
-                        <br>
                         환자들과 소통하는 열린 치료를 통해 편안한 진료를 약속합니다.
                     </p>
                 </div>

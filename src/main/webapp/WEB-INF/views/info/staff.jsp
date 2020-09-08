@@ -15,21 +15,6 @@
     </div>
 
     <section class="tab-contents doctor-contents active">
-        <div class="max-layout-width">
-            <h2 class="section-title">
-                <span class="section-title-color"><strong>최적의 진료</strong></span>와 환자의 상황에 알맞는<br>
-                <span class="section-title-color"><strong>효율적인 치료</strong></span>로 <strong>최대한의 만족</strong>을 드리는 <span class="section-title-color"><strong>미소원치과</strong></span>
-            </h2>
-            <span class="small-line default-background"></span>
-            <div class="img-box">
-                <ul>
-                    <li class="img01"></li>
-                    <li class="img02"></li>
-                    <li class="img03"></li>
-                </ul>
-            </div>
-        </div>
-
         <div class="doctor-info-box">
             <div class="doctor-info position-relative">
                 <div class="bg"></div>
@@ -153,13 +138,22 @@
                 </div>
             </div>
         </div>
+        <div class="max-layout-width doctor-text-title">
+            <h2 class="section-title">
+                <span class="section-title-color"><strong>최적의 진료</strong></span>와 환자의 상황에 알맞는<br>
+                <span class="section-title-color"><strong>효율적인 치료</strong></span>로 <strong>최대한의 만족</strong>을 드리는 <span class="section-title-color"><strong>미소원치과</strong></span>
+            </h2>
+            <span class="small-line default-background"></span>
+            <div class="img-box">
+                <ul>
+                    <li class="img01"></li>
+                    <li class="img02"></li>
+                    <li class="img03"></li>
+                </ul>
+            </div>
+        </div>
     </section>
     <section class="tab-contents staff-contents">
-        <div class="max-layout-width">
-            <h2 class="section-title">항상<span class="section-title-color bold">밝고 친절한 미소</span>로 치과에 대한 <span>두려움</span>보단</h2>
-            <h2 class="section-title"><span class="section-title-color bold">편안함</span>으로 다가갈 수 있도록 노력하는 <span>미소원치과</span></h2>
-            <span class="small-line default-background"></span>
-        </div>
         <div class="staff-info-box">
             <div class="staff-info position-relative">
                 <div class="image_box_left img-box1">

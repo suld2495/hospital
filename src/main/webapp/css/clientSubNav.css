@@ -6,7 +6,7 @@
     position: relative;
     background-size: cover;
     box-sizing: border-box;
-    padding-top: 111px;
+    padding-top: 70px;
     height: 100%;
 }
 
@@ -127,7 +127,11 @@
 }
 
 .sub-image {
-    height: 404px;
+    height: 322px;
     background-size: cover;
     background-position: center;
+}
+
+.sub-image > .max-layout-width:first-child {
+    padding-left: 220px;
 }

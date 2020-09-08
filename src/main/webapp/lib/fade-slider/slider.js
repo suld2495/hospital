@@ -82,9 +82,9 @@ $(function() {
         $('.post-slider .posts .slides').css({'left':fromX});
 
         if (dir == 'prev') {
-            $('.post-slider .posts .slides .slide:last-child').remove().prependTo('.post-slider .posts .slides').stop().css('opacity', 0).animate({'opacity': 1}, speed * .9);
+            $('.post-slider .posts .slides .slide:last-child').remove().prependTo('.post-slider .posts .slides').stop().css('opacity', 0);
         } else {
-            $('.post-slider .posts .slides .slide:first-child').stop().css('opacity', 1).animate({'opacity': 0}, speed * .9);
+            $('.post-slider .posts .slides .slide:first-child').stop().css('opacity', 1);
         }
 
         $('.post-slider .posts .slides').stop().animate({'left': toX}, speed, 'easeOutSine', function(){
@@ -131,7 +131,7 @@ $(function() {
         slidesToShow: 1,
         fade: true,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 2000,
     });
 
     $('.scroll-bar-drag').draggable({

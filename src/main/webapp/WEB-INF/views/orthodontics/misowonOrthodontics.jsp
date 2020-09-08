@@ -50,7 +50,7 @@
                         <strong>나에게 꼭 맞는 교정장치 선택</strong><br>
                     </h2>
                     <p class="section-text">
-                        미소원치과에서는 자가결찰장치 클리피씨 교정과 일반치아교정장치인 세라믹 교정을 진행하고 있습니다. 교정은 어떤 교정장치를 선택하고 치료받느냐에
+                        자가결찰장치 클리피씨 교정과 일반치아교정장치인 세라믹 교정을 진행하고 있습니다. 교정은 어떤 교정장치를 선택하고 치료받느냐에
                         따라,장단점,비용,치료기간에 차이가 발생할 수 있습니다.<br>
                         환자에게 꼭 필요한 교정장치가 최고의 치아교정방법이라 생각하고, 라이프스타일에 맞는 교정장치를 선택할 수 있도록 미소원치과에서 도와드리겠습니다.
                     </p>
@@ -61,6 +61,7 @@
     </section>
 
     <section class="section03">
+        <div class="bg"></div>
         <div class="max-layout-width">
             <h2><strong>클리피씨 교정의 장점</strong>은?</h2>
             <p>
@@ -82,7 +83,6 @@
                 </li>
             </ul>
         </div>
-        <div class="border"></div>
     </section>
 
     <section class="section04 list-content">
@@ -357,7 +357,7 @@
         </div>
     </section>
 
-    <section class="section09 board-link">
+    <section class="board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>
@@ -369,7 +369,13 @@
                 <li>
                     <p>
                         <span>온라인 상담</span>
-                        <a href="<c:url value='/' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
+                    </p>
+                </li>
+                <li class="last-img">
+                    <p>
+                        <span>치료후기</span>
+                        <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="last-img">

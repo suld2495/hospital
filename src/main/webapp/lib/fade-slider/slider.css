@@ -260,6 +260,7 @@
     top: 0;
     position: absolute;
     right: 0;
+    overflow: hidden;
 }
 
 .left-fade-slider-container .img {

@@ -21,15 +21,14 @@
                     <p>울산 남구 화합로 150 <span class="location-color">(2F 교정,임플란트,심미보철,일반진료 / 3F 임플란트,심미보철,일반진료)</span></p>
                     <h2>T.1899-7518</h2>
                     <p class="info">
-                        처음 진료 받으시는분들은 전화 예약이 가능합니다.<br>
-                        예약환자를 우선 진료하고 있으니, 필히 약속하시고 내원토록 양해바랍니다.
+                        예약환자를 우선 진료하고 있으니, 필히 약속하시고 내원해주세요.
                     </p>
                     <p class="time">
                         <strong>평일.</strong> am 09:30 - pm 6:30<br>
                         <strong>수/금.</strong> am 09:30 - pm 8:00<br>
                         <strong>토.</strong> am 09:30 - pm 4:00<br>
                         <strong>점심시간.</strong> am 12:30 - pm 2:00<br>
-                        <span class="location-color">일요일 및 법정 굥휴일은 휴진입니다.</span>
+                        <span class="location-color">일요일 및 법정 공휴일은 휴진입니다.</span>
                     </p>
                     <p class=""></p>
                 </div>

@@ -71,7 +71,7 @@
 }
 
 .doctor-dec {
-    margin-top: 84px;
+    margin-top: 8px;
     margin-bottom: 18px;
     font-size: 18px;
     color: #a2a2a2;
@@ -288,4 +288,10 @@ p + .dec-title {
 .doctor-contents .section-title {
     line-height: 1.4;
     letter-spacing: -1.8px;
+}
+
+
+.doctor-text-title {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }

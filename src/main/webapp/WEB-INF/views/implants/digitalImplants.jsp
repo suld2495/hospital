@@ -349,7 +349,7 @@
         </div>
     </section>
 
-    <section class="section09 board-link">
+    <section class="board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>
@@ -361,7 +361,13 @@
                 <li>
                     <p>
                         <span>온라인 상담</span>
-                        <a href="<c:url value='/' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
+                    </p>
+                </li>
+                <li class="last-img">
+                    <p>
+                        <span>치료후기</span>
+                        <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="last-img">
