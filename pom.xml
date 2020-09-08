@@ -12,7 +12,7 @@
 
     <properties>
         <org.springframework-version>4.3.2.RELEASE</org.springframework-version>
-        <spring.security.version>4.2.3</spring.security.version>
+        <spring.security.version>4.2.3.RELEASE</spring.security.version>
     </properties>
 
     <dependencies>
@@ -29,7 +29,34 @@
             <version>${org.springframework-version}</version>
         </dependency>
 
-        <!--로그그-->
+        <!--스프링 시큐리티-->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+            <version>${spring.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+            <version>${spring.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+            <version>${spring.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-taglibs</artifactId>
+            <version>${spring.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-acl</artifactId>
+            <version>${spring.security.version}</version>
+        </dependency>
+
+        <!--로그-->
        <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>

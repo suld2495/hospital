@@ -1,10 +1,11 @@
 package kr.co.hospital.config;
 
 import com.google.gson.Gson;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.*;
 
 @Configuration
+@ComponentScan("kr.co.hospital")
+@Import(SecurityConfig.class)
 public class RootConfig {
     @Bean
     public Gson gson() {
