@@ -42,9 +42,9 @@ section {
     position: relative;
 }
 
-/* ---- eâ€â€i??i?Â¸ eÂ³Î¼iâ€ Î¼ ---- */
+/* ---- ea€?a€?i??i?A¸ eA³I¼ia€?I¼ ---- */
 
-/* i?Å“eÂ¸Å’ i?â‚¬i?Â´i?â‚¬ */
+/* i?A“eA¸A’ i?a?￢i?A´i?a?￢ */
 .sub-page-title {
     font-size: 43px;
     font-weight: bold;
@@ -67,7 +67,7 @@ section {
 
 
 
-/* iï¿ Å’i?Â°eÂ¡Å“ eÂ¶â„¢e?â€ i?Â´e?Â¸iÂ§â‚¬ */
+/* ii¿?A’i?A°eA¡A“ eA¶a?￠e?a€? i?A´e?A¸iA§a?￢ */
 .image_box_left {
     position: absolute;
     left: 0;
@@ -360,19 +360,23 @@ section.board-link ul li {
     width: 46.93%;
     float: left;
     margin-left: 3.07%;
-    padding-top: 344px;
+    padding-top: 265px;
 }
 
 .board-link ul li:first-child {
     background: url(../images/sub/implant/digital/digital20.jpg) no-repeat top center;
 }
 
-.board-link ul li.last-img {
+.board-link ul li.center-img {
     background: url(../images/sub/implant/digital/digital21.jpg) no-repeat top center;
 }
 
+.board-link ul li.last-img {
+    background: url(../images/sub/implant/digital/digital22.jpg) no-repeat top center;
+}
+
 .board-link ul li p {
-    height: 77px;
+    height: 71px;
     background: #9b8b7e;
     padding-left: 42px;
     padding-right: 35px;
@@ -381,9 +385,9 @@ section.board-link ul li {
 }
 
 .board-link ul li p span:first-child {
-    padding-top: 25px;
+    padding-top: 23px;
     display: block;
-    font-size: 23px;
+    font-size: 21px;
     color: #fff;
     font-weight: bold;
     letter-spacing: -2px;
@@ -392,8 +396,8 @@ section.board-link ul li {
 .board-link ul li p span.view {
     position: absolute;
     right: 78px;
-    top: 5px;
-    font-size: 19px;
+    top: 4px;
+    font-size: 18px;
     color: #fff;
     letter-spacing: 1px;
 }
