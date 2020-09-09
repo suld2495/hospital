@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <div>
     <div class="header-banner-slider-continer">
         <div class="header-banner-slider">
@@ -38,7 +39,7 @@
                             </a>
                         </div>
                         <div class="member-nav pointer">
-                            <a class="text-decoration-none" href="<c:url value='/' />">
+                            <a class="text-decoration-none" href="<c:url value='/member_agreement' />">
                                 <img src="<c:url value='/images/cmmn/login.png' />" alt="회원가입">
                                 <p class="font-12">회원가입</p>
                             </a>

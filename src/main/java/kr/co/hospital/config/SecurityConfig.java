@@ -1,5 +1,6 @@
 package kr.co.hospital.config;
 
+import kr.co.hospital.security.CustomAuthenticationProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.encoding.ShaPasswordEncoder;
@@ -17,8 +18,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserDetailsService userDetailsService;
 
+    @Autowired
+    private CustomAuthenticationProvider provider;
+
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.authenticationProvider(provider);
         auth.userDetailsService(userDetailsService).passwordEncoder(new ShaPasswordEncoder(256));
     }
 
