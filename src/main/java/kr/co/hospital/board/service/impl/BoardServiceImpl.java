@@ -23,4 +23,11 @@ public class BoardServiceImpl implements BoardService {
         pagingVo.makeLastPageNum(total);
         return list;
     }
+
+    @Override
+    public Map getBoardInfo(PagingVo pagingVo) throws Exception{
+        Map board = boardMapper.selectBoardInfo(pagingVo);
+        board.put("arrow", boardMapper.selectPrevNextNum(pagingVo));
+        return board;
+    }
 }

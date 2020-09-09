@@ -34,4 +34,50 @@
             </if>
         </where>
     </select>
+
+    <select id="selectBoardInfo" parameterType="pagingVo" resultType="map">
+        SELECT *
+            ,   date_format(created_date, '%Y-%m-%d') created_show_date
+          FROM ${tableName}
+         WHERE NUM = #{boardNum}
+    </select>
+    
+    <select id="selectPrevNextNum" parameterType="pagingVo" resultType="map">
+        SELECT
+            (
+                SELECT num
+                  FROM notice
+                 WHERE num IN(
+                        SELECT MAX(num)
+                        FROM notice
+                        WHERE num <![CDATA[ < ]]> #{boardNum}
+                )) prevNum,
+
+            (
+                SELECT subject
+                  FROM notice
+                 WHERE num IN(
+                        SELECT MAX(num)
+                        FROM notice
+                        WHERE num <![CDATA[ < ]]> #{boardNum}
+                )) prevSubject,
+
+            (
+                SELECT num
+                  FROM notice
+                 WHERE num IN(
+                        SELECT min(num)
+                        FROM notice
+                        WHERE num <![CDATA[ > ]]> #{boardNum}
+                )) nextNum,
+
+            (
+                SELECT subject
+                  FROM notice
+                 WHERE num IN(
+                        SELECT min(num)
+                        FROM notice
+                        WHERE num <![CDATA[ > ]]> #{boardNum}
+                )) nextSubject
+    </select>
 </mapper>

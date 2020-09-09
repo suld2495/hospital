@@ -3,6 +3,8 @@
 
 <link rel="stylesheet" href="<c:url value="/css/board/boardView.css"/>" />
 
+<c:set value="notice-view" var="url" />
+
 <div class="sub-contents notice-view">
     <h1 class="sub-page-title">공지사항</h1>
     <p class="sub-page-intro">NOTICE</p>
@@ -10,8 +12,8 @@
     <section class="board-view">
         <div class="max-layout-width">
             <div class="title">
-                <p class="subject">미소원치과 공지사항입니다.</p>
-                <p class="date">2020-08-30</p>
+                <p class="subject">${board.subject}</p>
+                <p class="date">${board.created_show_date}</p>
             </div>
             <div class="appendix">
                 <span class="txt">첨부파일</span>
@@ -19,22 +21,27 @@
             <div class="contents"></div>
             <div class="button">
                 <ul>
-                    <li class="next">
-                        <a href="<c:url value='/'/>">
-                            <span><i class="next-icon"></i>다음글</span>
-                            <span class="con">미소원치과 공지사항입니다.</span>
-                        </a>
-                    </li>
-                    <li class="prev">
-                        <a href="<c:url value='/'/>">
-                            <span><i class="prev-icon"></i>이전글</span>
-                            <span class="con">미소원치과 공지사항입니다.</span>
-                        </a>
-                    </li>
+                    <c:if test="${not empty board.arrow.nextNum}">
+                        <li class="next">
+                            <a href="<c:url value='/${url}/${board.arrow.nextNum}'/>">
+                                <span><i class="next-icon"></i>다음글</span>
+                                <span class="con">${board.arrow.nextSubject}</span>
+                            </a>
+                        </li>
+                    </c:if>
+
+                    <c:if test="${not empty board.arrow.prevNum}">
+                        <li class="prev">
+                            <a href="<c:url value='/${url}/${board.arrow.prevNum}'/>">
+                                <span><i class="prev-icon"></i>이전글</span>
+                                <span class="con">${board.arrow.prevSubject}</span>
+                            </a>
+                        </li>
+                    </c:if>
                 </ul>
             </div>
             <div class="list">
-                <a href="<c:url value='/notice'/>">목록</a>
+                <a href="<c:url value='/notice/1'/>">목록</a>
             </div>
         </div>
     </section>

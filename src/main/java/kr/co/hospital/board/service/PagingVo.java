@@ -13,6 +13,7 @@ public class PagingVo {
     private String search_text;
     private String type;
     private String tableName;
+    private int boardNum;
 
     public PagingVo(int pageCount, int currentPage, String tableName, String search_text, String type) {
         this.pageCount = pageCount;
@@ -22,6 +23,11 @@ public class PagingVo {
         this.type = type;
         this.start = (this.currentPage - 1) * this.pageCount;
         this.end = this.pageCount;
+    }
+
+    public PagingVo(String tableName, int boardNum) {
+        this.tableName = tableName;
+        this.boardNum = boardNum;
     }
 
     public String getTitle() {

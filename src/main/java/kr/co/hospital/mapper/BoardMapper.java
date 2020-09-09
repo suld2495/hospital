@@ -11,4 +11,8 @@ public interface BoardMapper {
     List<Map> selectBoardList(PagingVo pagingVo) throws Exception;
 
     int selectBoardTotal(PagingVo pagingVo) throws Exception;
+
+    Map selectBoardInfo(PagingVo pagingVo) throws Exception;
+
+    Map selectPrevNextNum(PagingVo pagingVo) throws Exception;
 }

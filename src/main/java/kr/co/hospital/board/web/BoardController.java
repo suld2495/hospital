@@ -32,10 +32,14 @@ public class BoardController {
         return prefix + "notice";
     }
 
-    @RequestMapping("notice-view")
-    public String noticeView(Model model) {
+    @RequestMapping("notice-view/{boardNum}")
+    public String noticeView(Model model,
+                             @PathVariable(value = "boardNum") int boardNum) throws Exception {
+        PagingVo pagingVo = new PagingVo("notice", boardNum);
+        Map board = boardService.getBoardInfo(pagingVo);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "공지사항");
+        model.addAttribute("board", board);
         return prefix + "noticeView";
     }
 
@@ -52,10 +56,14 @@ public class BoardController {
         return prefix + "media";
     }
 
-    @RequestMapping("media-view")
-    public String mediaView(Model model) {
+    @RequestMapping("media-view/{boardNum}")
+    public String mediaView(Model model,
+                            @PathVariable(value = "boardNum") int boardNum) throws Exception {
+        PagingVo pagingVo = new PagingVo("notice", boardNum);
+        Map board = boardService.getBoardInfo(pagingVo);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "미디어");
+        model.addAttribute("board", board);
         return prefix + "mediaView";
     }
 
@@ -79,10 +87,14 @@ public class BoardController {
         return prefix + "case";
     }
 
-    @RequestMapping("case-view")
-    public String caseView(Model model) {
+    @RequestMapping("case-view/{boardNum}")
+    public String caseView(Model model,
+                           @PathVariable(value = "boardNum") int boardNum) throws Exception {
+        PagingVo pagingVo = new PagingVo("notice", boardNum);
+        Map board = boardService.getBoardInfo(pagingVo);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "치료사례");
+        model.addAttribute("board", board);
         return prefix + "caseView";
     }
 
@@ -99,10 +111,14 @@ public class BoardController {
         return prefix + "onlineConsult";
     }
 
-    @RequestMapping("online-consult-view")
-    public String onlineConsultView(Model model) {
+    @RequestMapping("online-consult-view/{boardNum}")
+    public String onlineConsultView(Model model,
+                                    @PathVariable(value = "boardNum") int boardNum) throws Exception {
+        PagingVo pagingVo = new PagingVo("notice", boardNum);
+        Map board = boardService.getBoardInfo(pagingVo);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "온라인 상담");
+        model.addAttribute("board", board);
         return prefix + "onlineConsultView";
     }
 
@@ -126,10 +142,14 @@ public class BoardController {
         return prefix + "review";
     }
 
-    @RequestMapping("review-view")
-    public String reviewView(Model model) {
+    @RequestMapping("review-view/{boardNum}")
+    public String reviewView(Model model,
+                             @PathVariable(value = "boardNum") int boardNum) throws Exception {
+        PagingVo pagingVo = new PagingVo("notice", boardNum);
+        Map board = boardService.getBoardInfo(pagingVo);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "치료후기");
+        model.addAttribute("board", board);
         return prefix + "reviewView";
     }
 

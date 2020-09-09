@@ -5,4 +5,6 @@ import java.util.Map;
 
 public interface BoardService {
     List<Map> getBoardList(PagingVo pagingVo) throws Exception;
+
+    Map getBoardInfo(PagingVo pagingVo) throws Exception;
 }
