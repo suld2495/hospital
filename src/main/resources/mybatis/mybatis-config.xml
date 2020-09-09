@@ -20,6 +20,7 @@
 
     <typeAliases>
         <typeAlias alias="userVo" type="kr.co.hospital.login.service.UserVo"/>
+        <typeAlias alias="pagingVo" type="kr.co.hospital.board.service.PagingVo"/>
     </typeAliases>
 
     <mappers>

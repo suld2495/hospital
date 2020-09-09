@@ -57,7 +57,7 @@
                         <li><a data-nav="#nav02" href="<c:url value='/digital_implants' />">디지털 임플란트</a></li>
                         <li><a data-nav="#nav03" href="<c:url value='/misowon_orthodontics' />">디지털 치아교정</a></li>
                         <li><a data-nav="#nav04" href="<c:url value='/general' />">자연치아 클리닉</a></li>
-                        <li><a data-nav="#nav05" href="<c:url value='/notice' />">커뮤니티</a></li>
+                        <li><a data-nav="#nav05" href="<c:url value='/notice/1' />">커뮤니티</a></li>
                     </ol>
                 </div>
                 <ul class="nav-detail">

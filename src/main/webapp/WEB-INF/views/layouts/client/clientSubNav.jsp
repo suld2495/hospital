@@ -85,12 +85,12 @@
             </c:if>
             <c:if test="${category eq 4}">
                 <ul>
-                    <li><a <c:if test="${path eq '/notice'}">class="active"</c:if> href="<c:url value="/notice"/>" >공지사항</a></li>
-                    <li><a <c:if test="${path eq '/case'}">class="active"</c:if> href="<c:url value="/case"/>">치료사례</a></li>
-                    <li><a <c:if test="${path eq '/review'}">class="active"</c:if> href="<c:url value="/review"/>">치료후기</a></li>
-                    <li><a <c:if test="${path eq '/online-consult'}">class="active"</c:if> href="<c:url value="/online-consult"/>">온라인 상담</a></li>
-                    <li><a <c:if test="${path eq '/reserve'}">class="active"</c:if> href="<c:url value="/reserve"/>">예약 상담 신청</a></li>
-                    <li><a <c:if test="${path eq '/media'}">class="active"</c:if> href="<c:url value="/media"/>">미디어</a></li>
+                    <li><a <c:if test="${path eq '/notice'}">class="active"</c:if> href="<c:url value="/notice/1"/>" >공지사항</a></li>
+                    <li><a <c:if test="${path eq '/case'}">class="active"</c:if> href="<c:url value="/case/1"/>">치료사례</a></li>
+                    <li><a <c:if test="${path eq '/review'}">class="active"</c:if> href="<c:url value="/review/1"/>">치료후기</a></li>
+                    <li><a <c:if test="${path eq '/online-consult'}">class="active"</c:if> href="<c:url value="/online-consult/1"/>">온라인 상담</a></li>
+                    <li><a <c:if test="${path eq '/reserve'}">class="active"</c:if> href="<c:url value="/reserve/1"/>">예약 상담 신청</a></li>
+                    <li><a <c:if test="${path eq '/media'}">class="active"</c:if> href="<c:url value="/media/1"/>">미디어</a></li>
                 </ul>
             </c:if>
         </nav>
@@ -115,6 +115,7 @@
         var backgroundPrefix = 'images/sub/background/';
         var category = '${category}';
         var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg', 'img_sub05.jpg', 'img_sub06.jpg', 'img_sub07.jpg', 'img_sub08.jpg', 'img_sub09.jpg'];
+        if (category === '4') backgroundPrefix = "../" + backgroundPrefix;
         $('.sub-image').css('background-image', 'url(' + backgroundPrefix + categoryBackground[category] + ')');
     })
 </script>

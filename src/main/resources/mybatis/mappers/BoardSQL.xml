@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="kr.co.hospital.mapper.ClientMapper">
-    <select id="select" resultType="map">
-        select * from test
+<mapper namespace="kr.co.hospital.mapper.BoardMapper">
+    <select id="selectBoardList" parameterType="pagingVo" resultType="map">
+        SELECT  *
+            ,   date_format(created_date, '%Y-%m-%d') created_show_date
+          FROM ${tableName}
+         <where>
+             <if test="search_text != null and search_text != ''">
+                 <if test="type == 'title'">
+                     subject like concat('%', #{search_text}, '%')
+                 </if>
+                 <if test="type == 'contents'">
+                     contents like concat('%', #{search_text}, '%')
+                 </if>
+             </if>
+         </where>
+         ORDER BY created_date desc
+         LIMIT #{start}, #{end}
+    </select>
+
+    <select id="selectBoardTotal" parameterType="pagingVo" resultType="int">
+        SELECT COUNT(*)
+          FROM ${tableName}
+        <where>
+            <if test="search_text != null and search_text != ''">
+                <if test="type == 'title'">
+                    subject like concat('%', #{search_text}, '%')
+                </if>
+                <if test="type == 'contents'">
+                    contents like concat('%', #{search_text}, '%')
+                </if>
+            </if>
+        </where>
     </select>
 </mapper>
