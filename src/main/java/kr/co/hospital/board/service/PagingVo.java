@@ -122,5 +122,9 @@ public class PagingVo {
         if (blockLastNum > lastPageNum) {
             blockLastNum = lastPageNum;
         }
+
+        if (total == 0) {
+            blockLastNum = lastPageNum = 1;
+        }
     }
 }

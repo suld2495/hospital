@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="<c:url value="/css/board/galleryBoard.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/board/case.css"/>" />
 
-<c:set var="url" value="media"/>
+<c:set var="url" value="case"/>
 
 <div class="sub-contents notice">
     <h1 class="sub-page-title">치료사례</h1>
