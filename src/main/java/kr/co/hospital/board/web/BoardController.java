@@ -39,10 +39,16 @@ public class BoardController {
         return prefix + "noticeView";
     }
 
-    @RequestMapping("media")
-    public String media(Model model) {
+    @RequestMapping("media/{currentPage}")
+    public String media(Model model,
+                        @PathVariable(value="currentPage") int currentPage,
+                        @RequestParam(value = "search_text", required = false) String search_text,
+                        @RequestParam(value = "type", required = false) String type) throws Exception {
+        PagingVo pagingVo = new PagingVo(8, currentPage, "media", search_text, type);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "미디어");
+        model.addAttribute("list", boardService.getBoardList(pagingVo));
+        model.addAttribute("paging", pagingVo);
         return prefix + "media";
     }
 
@@ -53,20 +59,6 @@ public class BoardController {
         return prefix + "mediaView";
     }
 
-    @RequestMapping("reserve")
-    public String reserve(Model model) {
-        model.addAttribute("category", 4);
-        model.addAttribute("urlName", "예약 상담 신청");
-        return prefix + "reserve";
-    }
-
-    @RequestMapping("reserve-view")
-    public String reserveView(Model model) {
-        model.addAttribute("category", 4);
-        model.addAttribute("urlName", "예약 상담 신청");
-        return prefix + "reserveView";
-    }
-
     @RequestMapping(value = "reserve-write", method = RequestMethod.GET)
     public String reserveWrite(Model model) {
         model.addAttribute("category", 4);
@@ -74,10 +66,16 @@ public class BoardController {
         return prefix + "reserveWrite";
     }
 
-    @RequestMapping("case")
-    public String caseList(Model model) {
+    @RequestMapping("case/{currentPage}")
+    public String caseList(Model model,
+                           @PathVariable(value="currentPage") int currentPage,
+                           @RequestParam(value = "search_text", required = false) String search_text,
+                           @RequestParam(value = "type", required = false) String type) throws Exception {
+        PagingVo pagingVo = new PagingVo(8, currentPage, "treatment_case", search_text, type);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "치료사례");
+        model.addAttribute("list", boardService.getBoardList(pagingVo));
+        model.addAttribute("paging", pagingVo);
         return prefix + "case";
     }
 
@@ -88,10 +86,16 @@ public class BoardController {
         return prefix + "caseView";
     }
 
-    @RequestMapping("online-consult")
-    public String onlineConsult(Model model) {
+    @RequestMapping("online-consult/{currentPage}")
+    public String onlineConsult(Model model,
+                                @PathVariable(value="currentPage") int currentPage,
+                                @RequestParam(value = "search_text", required = false) String search_text,
+                                @RequestParam(value = "type", required = false) String type) throws Exception {
+        PagingVo pagingVo = new PagingVo(10, currentPage, "online", search_text, type);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "온라인 상담");
+        model.addAttribute("list", boardService.getBoardList(pagingVo));
+        model.addAttribute("paging", pagingVo);
         return prefix + "onlineConsult";
     }
 
@@ -109,10 +113,16 @@ public class BoardController {
         return prefix + "onlineConsultWrite";
     }
 
-    @RequestMapping("review")
-    public String review(Model model) {
+    @RequestMapping("review/{currentPage}")
+    public String review(Model model,
+                         @PathVariable(value="currentPage") int currentPage,
+                         @RequestParam(value = "search_text", required = false) String search_text,
+                         @RequestParam(value = "type", required = false) String type) throws Exception {
+        PagingVo pagingVo = new PagingVo(8, currentPage, "review", search_text, type);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "치료후기");
+        model.addAttribute("list", boardService.getBoardList(pagingVo));
+        model.addAttribute("paging", pagingVo);
         return prefix + "review";
     }
 

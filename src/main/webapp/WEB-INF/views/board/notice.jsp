@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="<c:url value="/css/board/boardCommn.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/board/listBoard.css"/>" />
 
+<c:set var="url" value="notice"/>
 
 <div class="sub-contents notice">
     <h1 class="sub-page-title">공지사항</h1>
@@ -30,7 +31,7 @@
                     <c:forEach items="${list}" var="board">
                         <tr>
                             <td>${board.num}</td>
-                            <td class="subject"><a href="<c:url value='/notice-view/${board.num}' />">${board.subject}</a></td>
+                            <td class="subject"><a href="<c:url value='/${url}-view/${board.num}' />">${board.subject}</a></td>
                             <td>${board.writer}</td>
                             <td>${board.created_show_date}</td>
                         </tr>
@@ -52,29 +53,29 @@
                             <li><a class="pointer prev-prev"></a></li>
                         </c:if>
                         <c:if test="${paging.currentPage > 1}">
-                            <li><a href="<c:url value='/notice/1?${params}' />" class="prev-prev"></a></li>
+                            <li><a href="<c:url value='/${url}/1?${params}' />" class="prev-prev"></a></li>
                         </c:if>
 
                         <c:if test="${paging.currentPage eq 1}">
                             <li><a class="pointer prev"></a></li>
                         </c:if>
                         <c:if test="${paging.currentPage > 1}">
-                            <li><a href="<c:url value='/notice/${paging.blockStartNum}?${params}' />" class="prev"></a></li>
+                            <li><a href="<c:url value='/${url}/${paging.blockStartNum}?${params}' />" class="prev"></a></li>
                         </c:if>
 
                         <c:forEach begin="${paging.blockStartNum}" end="${paging.blockLastNum}" varStatus="status">
-                            <li><a href="<c:url value='/notice/${status.count}?${params}' />" <c:if test="${paging.currentPage eq status.count}">class="active"</c:if>>${status.count}</a></li>
+                            <li><a href="<c:url value='/${url}/${status.count}?${params}' />" <c:if test="${paging.currentPage eq status.count}">class="active"</c:if>>${status.count}</a></li>
                         </c:forEach>
 
-                        <li><a href="<c:url value='/notice/${paging.blockLastNum}?${params}' />" class="next"></a></li>
-                        <li><a href="<c:url value='/notice/${paging.lastPageNum}?${params}' />" class="next-next"></a></li>
+                        <li><a href="<c:url value='/${url}/${paging.blockLastNum}?${params}' />" class="next"></a></li>
+                        <li><a href="<c:url value='/${url}/${paging.lastPageNum}?${params}' />" class="next-next"></a></li>
                     </ul>
                 </div>
             </div>
 
             <div class="search-container">
                 <div class="search">
-                    <form class="form" method="get" action="<c:url value='/notice/1'/>">
+                    <form class="form" method="get" action="<c:url value='/${url}/1'/>">
                         <select name="type" class="select-type">
                             <option value="title">제목</option>
                             <option value="contents">내용</option>

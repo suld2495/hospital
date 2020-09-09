@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="<c:url value="/css/board/listBoard.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/board/onlineConsult.css"/>" />
 
+<c:set var="url" value="online"/>
+
 <div class="sub-contents notice">
     <h1 class="sub-page-title">온라인 상담</h1>
     <p class="sub-page-intro">ONLINE COUNSELLING</p>
@@ -31,36 +33,54 @@
                 </tr>
                 </thead>
                 <tbody>
-                <c:forEach begin="1" end="10" varStatus="status">
-                    <tr>
-                        <td>${11-status.index}</td>
-                        <td>임플란트</td>
-                        <td class="subject"><a href="<c:url value='/' />">임플란트 문의 드립니다.<i class="lock-icon"></i></a></td>
-                        <td>미소원치과</td>
-                        <td>2020-08-30</td>
-                        <td><span class="status">답변완료</span></td>
-                    </tr>
-                </c:forEach>
+                    <c:forEach items="${list}" var="board">
+                        <tr>
+                            <td>${board.num}</td>
+                            <td class="subject"><a href="<c:url value='/${url}-view/${board.num}' />">${board.subject}</a></td>
+                            <td>${board.writer}</td>
+                            <td>${board.created_show_date}</td>
+                        </tr>
+                    </c:forEach>
+                    <c:if test="${paging.total eq 0}">
+                        <tr class="empty">
+                            <td colspan="6">조회 결과가 존재하지 않습니다.</td>
+                        </tr>
+                    </c:if>
                 </tbody>
             </table>
+
+            <c:set var="params" value="${requestScope['javax.servlet.forward.query_string']}"/>
 
             <div class="paging">
                 <div>
                     <ul>
-                        <li><a href="<c:url value='/' />" class="prev-prev"></a></li>
-                        <li><a href="<c:url value='/' />" class="prev"></a></li>
-                        <li><a href="<c:url value='/' />" class="active">1</a></li>
-                        <li><a href="<c:url value='/' />">2</a></li>
-                        <li><a href="<c:url value='/' />" class="next"></a></li>
-                        <li><a href="<c:url value='/' />" class="next-next"></a></li>
+                        <c:if test="${paging.currentPage eq 1}">
+                            <li><a class="pointer prev-prev"></a></li>
+                        </c:if>
+                        <c:if test="${paging.currentPage > 1}">
+                            <li><a href="<c:url value='/${url}/1?${params}' />" class="prev-prev"></a></li>
+                        </c:if>
+
+                        <c:if test="${paging.currentPage eq 1}">
+                            <li><a class="pointer prev"></a></li>
+                        </c:if>
+                        <c:if test="${paging.currentPage > 1}">
+                            <li><a href="<c:url value='/${url}/${paging.blockStartNum}?${params}' />" class="prev"></a></li>
+                        </c:if>
+
+                        <c:forEach begin="${paging.blockStartNum}" end="${paging.blockLastNum}" varStatus="status">
+                            <li><a href="<c:url value='/${url}/${status.count}?${params}' />" <c:if test="${paging.currentPage eq status.count}">class="active"</c:if>>${status.count}</a></li>
+                        </c:forEach>
+
+                        <li><a href="<c:url value='/${url}/${paging.blockLastNum}?${params}' />" class="next"></a></li>
+                        <li><a href="<c:url value='/${url}/${paging.lastPageNum}?${params}' />" class="next-next"></a></li>
                     </ul>
                 </div>
-                <a href="<c:url value='/'/>" class="write-btn">글쓰기</a>
             </div>
 
             <div class="search-container">
                 <div class="search">
-                    <form class="form" method="post">
+                    <form class="form" method="get" action="<c:url value='/${url}/1'/>">
                         <select name="type" class="select-type">
                             <option value="title">제목</option>
                             <option value="contents">내용</option>

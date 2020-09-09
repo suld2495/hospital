@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+.gallery-list .gallery li.empty {
+    width: 100%;
+}
+
 .gallery-list .gallery .img-box {
     overflow: hidden;
     position: relative;
