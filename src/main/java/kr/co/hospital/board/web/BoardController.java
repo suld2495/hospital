@@ -64,7 +64,7 @@ public class BoardController {
     @RequestMapping("media-view/{boardNum}")
     public String mediaView(Model model,
                             @PathVariable(value = "boardNum") int boardNum) throws Exception {
-        PagingVo pagingVo = new PagingVo("notice", boardNum);
+        PagingVo pagingVo = new PagingVo("media", boardNum);
         Map board = boardService.getBoardInfo(pagingVo);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "미디어");
@@ -110,7 +110,7 @@ public class BoardController {
     @RequestMapping("case-view/{boardNum}")
     public String caseView(Model model,
                            @PathVariable(value = "boardNum") int boardNum) throws Exception {
-        PagingVo pagingVo = new PagingVo("notice", boardNum);
+        PagingVo pagingVo = new PagingVo("case", boardNum);
         Map board = boardService.getBoardInfo(pagingVo);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "치료사례");
@@ -134,7 +134,7 @@ public class BoardController {
     @RequestMapping("online-consult-view/{boardNum}")
     public String onlineConsultView(Model model,
                                     @PathVariable(value = "boardNum") int boardNum) throws Exception {
-        PagingVo pagingVo = new PagingVo("notice", boardNum);
+        PagingVo pagingVo = new PagingVo("online", boardNum);
         Map board = boardService.getBoardInfo(pagingVo);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "온라인 상담");
@@ -182,7 +182,7 @@ public class BoardController {
     @RequestMapping("review-view/{boardNum}")
     public String reviewView(Model model,
                              @PathVariable(value = "boardNum") int boardNum) throws Exception {
-        PagingVo pagingVo = new PagingVo("notice", boardNum);
+        PagingVo pagingVo = new PagingVo("review", boardNum);
         Map board = boardService.getBoardInfo(pagingVo);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "치료후기");
