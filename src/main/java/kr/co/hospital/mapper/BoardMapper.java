@@ -1,5 +1,6 @@
 package kr.co.hospital.mapper;
 
+import kr.co.hospital.board.service.BoardVo;
 import kr.co.hospital.board.service.PagingVo;
 import org.springframework.stereotype.Repository;
 
@@ -15,4 +16,6 @@ public interface BoardMapper {
     Map selectBoardInfo(PagingVo pagingVo) throws Exception;
 
     Map selectPrevNextNum(PagingVo pagingVo) throws Exception;
+
+    int insertBoard(BoardVo boardVo) throws Exception;
 }

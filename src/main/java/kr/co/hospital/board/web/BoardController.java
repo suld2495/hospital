@@ -1,21 +1,27 @@
 package kr.co.hospital.board.web;
 
 import kr.co.hospital.board.service.BoardService;
+import kr.co.hospital.board.service.BoardVo;
+import kr.co.hospital.board.service.OnlineConsultValidator;
 import kr.co.hospital.board.service.PagingVo;
+import kr.co.hospital.login.service.UserVo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import javax.validation.Valid;
 import java.util.Map;
 
 @Controller
 public class BoardController {
     private BoardService boardService;
+    private OnlineConsultValidator onlineConsultValidator;
     private String prefix = "/sub/board/";
 
-    public BoardController(BoardService boardService) {
+    public BoardController(BoardService boardService, OnlineConsultValidator onlineConsultValidator) {
         this.boardService = boardService;
+        this.onlineConsultValidator = onlineConsultValidator;
     }
 
     @RequestMapping("notice/{currentPage}")
@@ -123,10 +129,27 @@ public class BoardController {
     }
 
     @RequestMapping(value = "online-consult-write", method = RequestMethod.GET)
-    public String onlineConsultWrite(Model model) {
+    public String onlineConsultWrite(Model model, @ModelAttribute(value = "boardVo") BoardVo boardVo) {
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "온라인 상담");
         return prefix + "onlineConsultWrite";
+    }
+
+    @RequestMapping(value = "online-consult-write", method = RequestMethod.POST)
+    public String onlineConsultWritePost(Model model, @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo, BindingResult result) throws Exception {
+
+        onlineConsultValidator.validate(boardVo, result);
+
+        if (result.hasErrors()) {
+            return prefix + "onlineConsultWrite";
+        }
+
+        boardVo.setTableName("online");
+        boardService.insertBoard(boardVo);
+
+        model.addAttribute("category", 4);
+        model.addAttribute("urlName", "온라인 상담");
+        return "redirect:/online-consult/1";
     }
 
     @RequestMapping("review/{currentPage}")

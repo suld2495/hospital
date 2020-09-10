@@ -1,11 +1,11 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <link rel="stylesheet" href="<c:url value="/css/board/boardCommn.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/board/listBoard.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/board/onlineConsult.css"/>" />
 
-<c:set var="url" value="online"/>
+<c:set var="url" value="online-consult"/>
 
 <div class="sub-contents notice">
     <h1 class="sub-page-title">온라인 상담</h1>
@@ -36,9 +36,18 @@
                     <c:forEach items="${list}" var="board">
                         <tr>
                             <td>${board.num}</td>
+                            <td>${board.consultType}</td>
                             <td class="subject"><a href="<c:url value='/${url}-view/${board.num}' />">${board.subject}</a></td>
                             <td>${board.writer}</td>
                             <td>${board.created_show_date}</td>
+                            <td><span class="status">
+                                <c:if test="${board.status eq 'Y'}">
+                                    답변완료
+                                </c:if>
+                                <c:if test="${board.status eq 'N'}">
+                                    답변대기중
+                                </c:if>
+                            </span></td>
                         </tr>
                     </c:forEach>
                     <c:if test="${paging.total eq 0}">

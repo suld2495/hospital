@@ -7,4 +7,6 @@ public interface BoardService {
     List<Map> getBoardList(PagingVo pagingVo) throws Exception;
 
     Map getBoardInfo(PagingVo pagingVo) throws Exception;
+
+    int insertBoard(BoardVo boardVo) throws Exception;
 }

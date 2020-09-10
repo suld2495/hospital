@@ -80,4 +80,96 @@
                         WHERE num <![CDATA[ > ]]> #{boardNum}
                 )) nextSubject
     </select>
+
+    <insert id="insertBoard" parameterType="boardVo" useGeneratedKeys="true" keyProperty="num">
+        INSERT INTO ${tableName}
+        (
+            subject,
+            writer,
+            contents,
+            created_date,
+            update_date
+            
+            <if test="phone != null and phone != ''">
+                ,phone
+            </if>
+
+            <if test="email != null and email != ''">
+                ,email
+            </if>
+
+            <if test="password != null and password != ''">
+                ,password
+            </if>
+
+            <if test="thumnail != null and thumnail != ''">
+                ,thumnail
+            </if>
+
+            <if test="thumnail_path != null and thumnail_path != ''">
+                ,thumnail_path
+            </if>
+
+            <if test="attachfile_code != null and attachfile_code != ''">
+                ,attachfile_code
+            </if>
+
+            <if test="emailYN != null and emailYN != ''">
+                ,emailYN
+            </if>
+
+            <if test="smsYN != null and smsYN != ''">
+                ,smsYN
+            </if>
+
+            <if test="consultType != null and consultType != ''">
+                ,consultType
+            </if>
+        )
+
+        VALUES
+        (
+            #{subject},
+            #{writer},
+            #{contents},
+            now(),
+            now()
+
+            <if test="phone != null and phone != ''">
+                ,#{phone}
+            </if>
+
+            <if test="email != null and email != ''">
+                ,#{email}
+            </if>
+
+            <if test="password != null and password != ''">
+                ,#{password}
+            </if>
+
+            <if test="thumnail != null and thumnail != ''">
+                ,#{thumnail}
+            </if>
+
+            <if test="thumnail_path != null and thumnail_path != ''">
+                ,#{thumnail_path}
+            </if>
+
+            <if test="attachfile_code != null and attachfile_code != ''">
+                ,#{attachfile_code}
+            </if>
+
+            <if test="emailYN != null and emailYN != ''">
+                ,#{emailYN}
+            </if>
+
+            <if test="smsYN != null and smsYN != ''">
+                ,#{smsYN}
+            </if>
+
+            <if test="consultType != null and consultType != ''">
+                ,#{consultType}
+            </if>
+        )
+    </insert>
 </mapper>

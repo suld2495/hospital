@@ -1,6 +1,7 @@
 package kr.co.hospital.board.service.impl;
 
 import kr.co.hospital.board.service.BoardService;
+import kr.co.hospital.board.service.BoardVo;
 import kr.co.hospital.board.service.PagingVo;
 import kr.co.hospital.mapper.BoardMapper;
 import org.springframework.stereotype.Service;
@@ -29,5 +30,10 @@ public class BoardServiceImpl implements BoardService {
         Map board = boardMapper.selectBoardInfo(pagingVo);
         board.put("arrow", boardMapper.selectPrevNextNum(pagingVo));
         return board;
+    }
+
+    @Override
+    public int insertBoard(BoardVo boardVo) throws Exception {
+        return boardMapper.insertBoard(boardVo);
     }
 }

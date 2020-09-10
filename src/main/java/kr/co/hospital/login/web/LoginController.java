@@ -47,7 +47,6 @@ public class LoginController {
             return "/sub/member/member";
         }
 
-        System.out.println(userVo.toString());
         loginService.insertUser(userVo);
 
         model.addAttribute("category", 7);
