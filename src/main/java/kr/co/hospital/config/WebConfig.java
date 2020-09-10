@@ -1,7 +1,12 @@
 package kr.co.hospital.config;
 
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+import javax.servlet.FilterRegistration;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
 
 @Configuration
 public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
@@ -18,5 +23,14 @@ public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitiali
     @Override
     protected String[] getServletMappings() {
         return new String[]{"/"};
+    }
+
+    @Override
+    public void onStartup(ServletContext servletContext) throws ServletException {
+        FilterRegistration charEncodingFilterReg = servletContext.addFilter("CharacterEncodingFilter", CharacterEncodingFilter.class);
+        charEncodingFilterReg.setInitParameter("encoding", "UTF-8");
+        charEncodingFilterReg.setInitParameter("forceEncoding", "true");
+        charEncodingFilterReg.addMappingForUrlPatterns(null, true, "/*");
+        super.onStartup(servletContext);
     }
 }
