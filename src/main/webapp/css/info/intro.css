@@ -41,7 +41,7 @@ section {
 }
 
 .section01 .text-box h2 + p {
-    margin-top: 111px;
+    margin-top: 87px;
 }
 
 .last-section-text {
@@ -384,7 +384,7 @@ section {
 
 .section-title {
     line-height: 1.37;
-    letter-spacing: -1.8px;
+    /* letter-spacing: -1.8px; */
 }
 
 .section06 .display-inline-block {

@@ -41,20 +41,20 @@
 .section01 .bx-pager-item {
     display: block;
     overflow: hidden;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
     outline: none;
 }
 
 .section01 .slider-pagenation .bx-pager-item span:first-child {
-    width: 42px;
-    height: 42px;
-    margin-right: 16px;
-    padding: 13px;
+    width: 40px;
+    height: 40px;
+    margin-right: 14px;
+    padding: 12px;
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: unset;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .section01 .slider-pagenation .bx-pager-item span {
