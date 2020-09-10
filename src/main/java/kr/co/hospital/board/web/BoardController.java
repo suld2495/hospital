@@ -4,7 +4,6 @@ import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.board.service.BoardVo;
 import kr.co.hospital.board.service.OnlineConsultValidator;
 import kr.co.hospital.board.service.PagingVo;
-import kr.co.hospital.login.service.UserVo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -74,10 +73,25 @@ public class BoardController {
     }
 
     @RequestMapping(value = "reserve-write", method = RequestMethod.GET)
-    public String reserveWrite(Model model) {
+    public String reserveWrite(Model model, @ModelAttribute(value = "boardVo") BoardVo boardVo) {
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "예약 상담 신청");
         return prefix + "reserveWrite";
+    }
+
+    @RequestMapping(value = "reserve-write", method = RequestMethod.POST)
+    public String reserveWritePost(Model model, @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo, BindingResult result) throws Exception {
+
+        if (result.hasErrors()) {
+            return prefix + "reserveWrite";
+        }
+
+        boardVo.setTableName("reserve");
+        boardService.insertBoard(boardVo);
+
+        model.addAttribute("category", 4);
+        model.addAttribute("urlName", "온라인 상담");
+        return "redirect:/reserve-write";
     }
 
     @RequestMapping("case/{currentPage}")

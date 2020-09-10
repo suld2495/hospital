@@ -232,6 +232,8 @@
             if ($email1.val() || $email2.val() || $email3.val()) {
                 $email.val($email1.val() + "-" + $email2.val() + "-" + $email3.val());
             }
+
+            alert('등록되었습니다.');
         })
     })
 </script>
