@@ -191,9 +191,24 @@ public class BoardController {
     }
 
     @RequestMapping(value = "review-write", method = RequestMethod.GET)
-    public String reviewWrite(Model model) {
+    public String reviewWrite(Model model, @ModelAttribute(value = "boardVo") BoardVo boardVo) {
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "치료후기");
         return prefix + "reviewWrite";
+    }
+
+    @RequestMapping(value = "review-write", method = RequestMethod.POST)
+    public String reviewWritePost(Model model, @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo, BindingResult result) throws Exception {
+
+        if (result.hasErrors()) {
+            return prefix + "reviewWrite";
+        }
+
+        boardVo.setTableName("review");
+        boardService.insertBoard(boardVo);
+
+        model.addAttribute("category", 4);
+        model.addAttribute("urlName", "온라인 상담");
+        return "redirect:/review-view/" + boardVo.getNum();
     }
 }
