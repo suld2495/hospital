@@ -76,6 +76,7 @@
                         <li><a href="<c:url value='/${url}/${paging.lastPageNum}?${params}' />" class="next-next"></a></li>
                     </ul>
                 </div>
+                <a href="<c:url value='/online-consult-write'/>" class="write-btn">글쓰기</a>
             </div>
 
             <div class="search-container">

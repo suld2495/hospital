@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 
 <link rel="stylesheet" href="<c:url value="/css/board/boardCommn.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/board/galleryBoard.css"/>" />
@@ -25,12 +26,25 @@
                     <li>
                         <a href="<c:url value="/${url}-view/${board.num}" />">
                             <div class="img-box">
-                                <span class="img" style="background-color: url(<c:url value='${board.thumnailPath}/${board.thumnail}'/>)"></span>
+                                <div class="login">
+                                    <span class="img" style="background-color: url(<c:url value='${board.thumnailPath}/${board.thumnail}'/>)"></span>
+                                </div>
+                                <sec:authorize access="isAuthenticated()">
+                                    <div class="no-login">
+                                        <div class="img-box">
+                                            <span class="img"></span>
+                                            <span class="text">
+                                                로그인하시면 <strong>치료 사례</strong>를 확인하실 수 있습니다.
+                                                <span class="login-btn">로그인하기</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </sec:authorize>
                             </div>
                             <div class="text">
                                 <h5>${board.subject}</h5>
                                 <p>
-                                        ${board.contents}
+                                        ${board.created_show_date}
                                 </p>
                             </div>
                         </a>
