@@ -28,6 +28,18 @@ url('../fonts/nanum_myeongjo/NanumMyeongjo.eot?#iefix') format('embedded-opentyp
 url('../fonts/nanum_myeongjo/NanumMyeongjo.woff') format('woff'), /* Super Modern Browsers */
 }
 
+
+@font-face {
+    font-family: 'KCC';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/kcc/KCC.eot'); /* IE9 Compat Modes */
+    url('../fonts/kcc/KCC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/kcc/KCC_1.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/kcc/KCC_1.woff') format('woff'), /* Super Modern Browsers */
+}
+
+
 * {
     font-family: Noto Sans KR !Important;
 }

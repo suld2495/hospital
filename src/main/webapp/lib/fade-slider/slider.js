@@ -82,7 +82,7 @@ $(function() {
         $('.post-slider .posts .slides').css({'left':fromX});
 
         if (dir == 'prev') {
-            $('.post-slider .posts .slides .slide:last-child').remove().prependTo('.post-slider .posts .slides').stop().css('opacity', 0);
+            $('.post-slider .posts .slides .slide:last-child').remove().prependTo('.post-slider .posts .slides').stop();
         } else {
             $('.post-slider .posts .slides .slide:first-child').stop().css('opacity', 1);
         }
