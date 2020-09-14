@@ -345,6 +345,7 @@
 
 .fade-in-slider .swiper-slide .text {
     width: 360px;
+    padding-top: 45px;
 }
 
 .fade-in-slider .swiper-slide .text h2 {
@@ -370,12 +371,13 @@
     font-size: 20px;
     font-weight: bold;
     margin-top: 70px;
-    display: block;
+    display: none;
     margin-bottom: 20px;
 }
 
 .fade-in-slider .swiper-container {
     height: 460px;
+    position: relative;
 }
 
 .fade-in-slider .max-layout-width {
@@ -399,6 +401,40 @@
     transition: left 500ms;
     cursor: pointer;
 }
+
+.fade-in-slider .slick-arrow {
+    position: absolute;
+    bottom: 0;
+    width: 87px;
+    height: 68px;
+    display: inline-block !important;
+    text-indent: -999px;
+    cursor: pointer;
+    z-index: 11111111;
+}
+
+
+.fade-in-slider .slider-prev {
+    background: #f5f5f5 url(../../images/sub/implant/digital/left_arrow01.png) no-repeat center;
+}
+
+.fade-in-slider .slider-prev:before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 10px;
+    right: 0;
+    top: 50%;
+    background: #999;
+    margin-top: -4px;
+}
+
+
+.fade-in-slider .slider-next {
+    background: #f5f5f5 url(../../images/sub/implant/digital/right_arrow01.png) no-repeat center;
+    left: 87px;
+}
+
 
 /*text-slider*/
 

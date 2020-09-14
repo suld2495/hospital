@@ -127,7 +127,8 @@ $(function() {
     $('.fade-in-slider .swiper-container').slick({
         infinite: true,
         dots: false,
-        arrows: false,
+        prevArrow: '<span class="slider-prev"><</span>',
+        nextArrow: '<span class="slider-next">></span>',
         slidesToShow: 1,
         fade: true,
         autoplay: true,

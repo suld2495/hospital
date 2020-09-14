@@ -48,10 +48,12 @@
     background: url(../../images/sub/implant/digital/digital11.jpg);
 }
 
-.section06 .imp-img {
+.section07 .imp-img {
     background: url(../../images/sub/implant/digital/digital19.png);
     width: 441px;
     height: 191px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 .imp-img {}
@@ -202,7 +204,7 @@
 }
 
 .section04 ul {
-    margin-top: 63px;
+    margin-top: 123px;
     margin-left: -2.69%;
     display: inline-block;
     width: 100%;
@@ -213,31 +215,37 @@
     margin-left: 2.69%;
     float: left;
     text-align: center;
-    background: #f5f5f5;
     font-weight: bold;
     position: relative;
-    padding-bottom: 193px;
+    border: 1px solid #cdcdcd;
+    box-sizing: border-box;
 }
 
 .section04 ul li p {
-    padding-top: 42px;
-    font-size: 19px;
+    padding-top: 22px;
+    font-size: 59px;
     margin-bottom: 21px;
     letter-spacing: -1px;
+    position: absolute;
+    top: -70px;
+    width: 100%;
+    color: #9c8c7f;
 }
 
 .section04 ul li h5 {
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1.4;
     letter-spacing: -1px;
     font-weight: 600;
+    margin-top: 233px;
+    margin-bottom: 34px;
 }
 
 .section04 ul li .bg {
     width: 100%;
     height: 189px;
     position: absolute;
-    bottom: -30px;
+    /* bottom: -30px; */
 }
 
 .section05 {
@@ -339,7 +347,8 @@
 }
 
 .section07 {
-    height: 317px;
+    height: 650px;
+    margin-top: 250px;
 }
 
 .section07 .max-layout-width {
@@ -462,4 +471,18 @@
 
 .section10 {
     margin-top: 96px;
+}
+
+.section07 .section-title {
+    padding-top: 136px;
+    color: #fff;
+}
+
+.section07 .section-title-color {
+    color: #fff;
+}
+
+.section07 .section-text {
+    color: #fff;
+    line-height: 2;
 }

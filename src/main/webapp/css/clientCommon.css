@@ -34,9 +34,9 @@ url('../fonts/nanum_myeongjo/NanumMyeongjo.woff') format('woff'), /* Super Moder
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/kcc/KCC.eot'); /* IE9 Compat Modes */
-    url('../fonts/kcc/KCC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/kcc/KCC_1.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/kcc/KCC_1.woff') format('woff'), /* Super Modern Browsers */
+url('../fonts/kcc/KCC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../fonts/kcc/KCC_1.woff2') format('woff2'), /* Super Modern Browsers */
+url('../fonts/kcc/KCC_1.woff') format('woff'), /* Super Modern Browsers */
 }
 
 
@@ -264,13 +264,13 @@ strong {
 /* treatment-case */
 .treatment-case {
     padding: 93px 0;
-    background: #f5f5f5 url(../images/sub/implant/cmmn/digital_bg3.jpg) center;
+    background: #f5f5f5 url(../images/sub/implant/cmmn/digital_bg.jpg) center;
 }
 
 .treatment-case .treatment-case-slider {
-    width: 868px;
-    height: 329px;
-    overflow: hidden;
+    width: 100%;
+    height: 387px;
+    /* overflow: hidden; */
 }
 
 .treatment-case .max-layout-width {
@@ -280,20 +280,21 @@ strong {
 }
 
 .treatment-case .max-layout-width > div {
-    float: left;
+    float: right;
 }
 
 .treatment-case .max-layout-width .text {
-    width: 432px;
+    width: 100%;
     box-sizing: border-box;
-    padding-left: 63px;
+    text-align: center;
+    color: #fff;
 }
 
 .treatment-case .max-layout-width .text h2 {
     font-size: 32px;
-    color: #222;
+    color: #fff;
     margin-bottom: 40px;
-    font-weight: bold;
+    /* font-weight: bold; */
     letter-spacing: -2.5px;
 }
 
@@ -301,6 +302,7 @@ strong {
     line-height: 1.7;
     word-break: keep-all;
     letter-spacing: -1px;
+    margin-bottom: 56px;
 }
 
 .treatment-case .treatment-case-swiper-slide {
@@ -308,35 +310,72 @@ strong {
 }
 
 .treatment-case .treatment-case-swiper-slide div {
-    width: 434px;
-    height: 329px;
+    width: 650px;
+    height: 387px;
     float: left;
     overflow: hidden;
+    position: relative;
+}
+
+.treatment-case .treatment-case-swiper-slide div.text-title {
+    width: 100%;
+    height: 58px;
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+    line-height: 58px;
+    position: absolute;
+    bottom: 0;
 }
 
 .treatment-case .left-img1 {
     background: url(../images/sub/implant/cmmn/case_after01.jpg);
 }
 
+.treatment-case .left-img1 div {
+    background: #545454;
+}
+
 .treatment-case .right-img1 {
     background: url(../images/sub/implant/cmmn/case_before01.jpg);
 }
+
+
+.treatment-case .right-img1 div {
+    background: #9b8b7e;
+}
+
 
 .treatment-case .treatment-case-scroll-bar {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 868px;
+    width: 100%;
     height: 3px;
     background: #ccc;
 }
 
 .treatment-case .treatment-case-scroll-bar-drag {
-    width: 289.33px;
+    width: 433.33px;
     background: #76695e;
     height: 3px;
     transition: left 500ms;
     cursor: pointer;
+}
+
+.treatment-case .slick-arrow {
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 45px;
+}
+
+.treatment-case .slider-prev {
+    background: url(../images/sub/implant/cmmn/left_arrow02.png);
+}
+
+.treatment-case .slider-next {
+    background: url(../images/sub/implant/cmmn/right_arrow02.png);
 }
 
 section.board-link {
@@ -388,7 +427,7 @@ section.board-link ul li {
 }
 
 .board-link ul li p {
-    height: 71px;
+    height: 61px;
     background: #9b8b7e;
     padding-left: 42px;
     padding-right: 35px;
@@ -397,11 +436,11 @@ section.board-link ul li {
 }
 
 .board-link ul li p span:first-child {
-    padding-top: 23px;
+    padding-top: 20px;
     display: block;
-    font-size: 21px;
+    font-size: 19px;
     color: #fff;
-    font-weight: bold;
+    /* font-weight: bold; */
     letter-spacing: -2px;
 }
 
@@ -412,14 +451,16 @@ section.board-link ul li {
     font-size: 18px;
     color: #fff;
     letter-spacing: 1px;
+    text-indent: -9999px;
 }
 
 .board-link ul li p span.view:after {
-    background: url(../images/sub/implant/digital/digital_arrow.png) no-repeat top center;
+    border: 1px solid #fff;
+    background: url(../images/main/more.png) no-repeat center;
     content: '';
     position: absolute;
-    right: -47px;
-    width: 33px;
-    height: 17px;
-    bottom: 0;
+    right: -64px;
+    width: 35px;
+    height: 35px;
+    bottom: -7px;
 }
