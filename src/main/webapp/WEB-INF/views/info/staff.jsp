@@ -18,8 +18,6 @@
         <div class="doctor-info-box">
             <div class="doctor-info position-relative">
                 <div class="bg"></div>
-                <p class="doctor-dec">풍부한 임상경험으로 정확하고 빠른 판단</p>
-                <h1 class="doctor-title">곽진원 원장</h1>
                 <div class="max-layout-width position-absolute image-container">
                     <div class="position-absolute full-layout-width image-box">
                         <div class="image-box1"></div>
@@ -33,6 +31,7 @@
                 </div>
                 <div class="text text-bg">
                     <div class="text-dec">
+                        <h1 class="doctor-title">곽진원 대표 원장</h1>
                         <h4 class="dec-title bold">진료분야</h4>
                         <p class="dec">
                             임플란트, 충치치료, 세렉보철, 잇몸치료, 사랑니발치,
@@ -58,8 +57,6 @@
 
             <div class="doctor-info doctor-info-left position-relative">
                 <div class="bg"></div>
-                <p class="doctor-dec">전체의 조화로움으로 자연스러운 미 추구</p>
-                <h1 class="doctor-title">송애진  원장</h1>
                 <div class="max-layout-width position-absolute image-container">
                     <div class="position-absolute image-box">
                         <div class="image-box2"></div>
@@ -74,6 +71,7 @@
                 </div>
                 <div class="text text-bg">
                     <div class="text-dec max-layout-width position-relative">
+                        <h1 class="doctor-title">송애진  원장</h1>
                         <h4 class="dec-title bold">진료분야</h4>
                         <p class="dec">
                             부분교정, 전체교정, 성장기예방교정, 청소년교정, 성인교정,
@@ -99,8 +97,6 @@
 
             <div class="doctor-info last-doctor-info position-relative">
                 <div class="bg"></div>
-                <p class="doctor-dec">기본과 원칙을 지키는 신뢰의 진료</p>
-                <h1 class="doctor-title">이상수 원장</h1>
                 <div class="max-layout-width position-absolute image-container">
                     <div class="position-absolute full-layout-width image-box">
                         <div class="image-box3"></div>
@@ -114,6 +110,7 @@
                 </div>
                 <div class="text text-bg">
                     <div class="text-dec">
+                        <h1 class="doctor-title">이상수 원장</h1>
                         <h4 class="dec-title bold">진료분야</h4>
                         <p class="dec">
                             임플란트, 충치치료, 세렉보철, 잇몸치료, 사랑니발치 ,
@@ -138,20 +135,6 @@
                 </div>
             </div>
         </div>
-        <div class="max-layout-width doctor-text-title">
-            <h2 class="section-title">
-                <span class="section-title-color"><strong>최적의 진료</strong></span>와 환자의 상황에 알맞는<br>
-                <span class="section-title-color"><strong>효율적인 치료</strong></span>로 <strong>최대한의 만족</strong>을 드리는 <span class="section-title-color"><strong>미소원치과</strong></span>
-            </h2>
-            <span class="small-line default-background"></span>
-            <div class="img-box">
-                <ul>
-                    <li class="img01"></li>
-                    <li class="img02"></li>
-                    <li class="img03"></li>
-                </ul>
-            </div>
-        </div>
     </section>
     <section class="tab-contents staff-contents">
         <div class="staff-info-box">
@@ -174,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div class="staff-info position-relative">
+            <div class="staff-info position-relative staff-info02">
                 <div class="image_box_right img-box2">
                     <p class="img"></p>
                 </div>

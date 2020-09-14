@@ -83,7 +83,6 @@
     font-size: 35px;
     font-width: bold;
     color: #222;
-    text-align: center;
     margin-bottom: 79px;
     font-weight: 600;
     letter-spacing: -1px;
@@ -123,14 +122,14 @@
     position: relative;
 }
 
-.last-title:after {
-    width: 100%;
+.last-title + p:after {
+    width: 650px;
     height: 3px;
     background: #7e6956;
     content: '';
     position: absolute;
-    bottom: -38px;
-    left: 0;
+    top: -38px;
+    left: -150px;
 }
 
 .dec-title {
@@ -255,6 +254,7 @@ p + .dec-title {
     margin-top: 65px;
     word-break: keep-all;
     letter-spacing: -1px;
+    position: relative;
 }
 
 .staff-info {
@@ -298,4 +298,16 @@ p + .dec-title {
 
 .doctor-info:first-child .doctor-dec {
     margin-top: 8px;
+}
+
+.staff-info02 p:after {
+    left: 0;
+}
+
+.doctor-info:first-child {
+    margin-top: 0;
+}
+
+.doctor-info {
+    margin-top: 100px;
 }
