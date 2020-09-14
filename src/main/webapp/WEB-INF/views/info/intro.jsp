@@ -8,13 +8,7 @@
     <p class="sub-page-intro">DENTAL CLINIC INTRODUCTION</p>
 
     <section class="section01">
-        <div class="image_box_left img01">
-            <p class="img"></p>
-        </div>
         <div class="max-layout-width">
-            <div class="image_box_left img02">
-                <p class="img"></p>
-            </div>
             <div class="text-box right-text-box">
                 <h2 class="section-title last-section-title">
                     미소원치과는 <strong>앞선기술</strong>과<br>
@@ -40,12 +34,12 @@
                     미소원치과
                 </h2>
                 <p class="section-text">
-                    미소원치과는 모든 진료를 <strong>의료진의 협진</strong>과 <strong>공동 연구</strong>를 통해 <strong>보다 정확하고 세밀한 치료계획 및 결과</strong>를 얻을 수 있습니다.
+                    모든 진료를 <strong>의료진의 협진</strong>과 <strong>공동 연구</strong>를 통해 <strong>보다 정확하고 세밀한 치료계획 및 결과</strong>를 얻을 수 있습니다.
                     의료진의 다양한 의견들을 조합하고 협의해 <strong>환자 개개인의 상황을 고려한 다양한 치료 방안을 제안</strong>하고 있습니다.
                     <br>
                     미소원치과의 어떤 의사가 진료를 하더라도 같은 결과를 이끌어 낼 수 있는 <strong>선진화된 진료시스템</strong>입니다.
                 </p>
-                <a class="link" href="<c:url value='/staff' />">의료진 소개 보러가기</a>
+                <a class="link"></a>
             </div>
         </div>
         <div class="image_box_right img01">
@@ -65,11 +59,11 @@
                     체계적인 시스템
                 </h2>
                 <p class="section-text">
-                    미소원치과에서는 효과적인 치료결과를 위해 <strong>3D CT, 3D 구강 스캐너, CAD/CAM, 포터블엑스레이 등의 최첨단 의료장비 시설</strong>과
+                    효과적인 치료결과를 위해 <strong>3D CT, 3D 구강 스캐너, CAD/CAM, 포터블엑스레이 등의 최첨단 의료장비 시설</strong>과
                     <strong>체계적인 관리 운영시스템을 구축</strong>하고 있습니다. 따라서, 의료진이 육안으로 확인할 수 없는 부분까지 개개인의 특성을
                     <strong>정밀하게 파악</strong>하여 <strong>치과 진료의 정확도를 최대한 높입니다.</strong>
                 </p>
-                <a class="link" href="<c:url value='/staff' />">진단장비 시스템보러가기</a>
+                <a class="link"></a>
             </div>
         </div>
     </section>
@@ -87,7 +81,7 @@
                     매일 철저한 세척과 멸균소독과정, 개별포장하여 사용</strong>
                     하고 있으며 정기적인 감염관리 교육과 함께 눈에 보이지 않는 곳까지 꼼꼼하게 위생관리를 하고 있어 환자분들이 안심하고 이용하실 수 있습니다.
                 </p>
-                <a class="link" href="<c:url value='/competitiveness' />">핵심 경쟁력 보러가기</a>
+                <a class="link"></a>
             </div>
         </div>
         <div class="image_box_right img01">
@@ -97,8 +91,6 @@
 
     <section class="section05">
         <div class="container">
-            <p>진화하는 디지털치료, 교정부터 임플란트까지</p>
-            <p>첨단 디지털 장비를 활용하는</p>
             <h2 class="section-title"><strong><span class="section-title-color">환자중심</span> 미소원치과</strong></h2>
             <div class="image-container">
                 <ul class="display-inline-block">
