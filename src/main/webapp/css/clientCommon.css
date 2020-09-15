@@ -110,7 +110,7 @@ section {
 /* i?A“eA¸A’ i?a?￢i?A´i?a?￢ */
 .sub-page-title {
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 26px;
     margin-top: 71px;
     text-align: center;
@@ -157,11 +157,12 @@ section {
 }
 
 .section-title strong {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .section-title-color {
     color: #9b8b7e;
+    font-weight: 500;
 }
 
 .section-text {
@@ -173,7 +174,7 @@ section {
 }
 
 .section-text strong {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .max-layout-width {
@@ -187,7 +188,7 @@ section {
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .display-inline-block {
@@ -288,9 +289,10 @@ a {
     font-size: 67px;
     line-height: 80px;
     color: #eee;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 59px;
     bottom: 0;
+    letter-spacing: 2px;
     font-family: Anton !important;
 }
 
@@ -305,7 +307,7 @@ a {
 }
 
 strong {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .section-top-title-left .max-layout-width {
@@ -345,9 +347,9 @@ strong {
 }
 
 .treatment-case .max-layout-width .text h2 {
-    font-size: 32px;
+    font-size: 37px;
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 29px;
     /* font-weight: bold; */
     letter-spacing: -2.5px;
 }
@@ -357,6 +359,7 @@ strong {
     word-break: keep-all;
     letter-spacing: -1px;
     margin-bottom: 56px;
+    font-weight: 300;
 }
 
 .treatment-case .treatment-case-swiper-slide {

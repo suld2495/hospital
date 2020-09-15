@@ -49,7 +49,7 @@
 }
 
 .section02 {
-    margin-top: 64px;
+    margin-top: 92px;
 }
 
 .section02 .max-layout-width .text {
@@ -125,7 +125,7 @@
 }
 
 .section03 {
-    margin-top: 152px;
+    margin-top: 172px;
     height: 549px;
 }
 
@@ -154,8 +154,8 @@
 }
 
 .section03 p {
-    line-height: 1.6;
-    font-size: 15px;
+    line-height: 1.5;
+    font-size: 16px;
     margin-bottom: 62px;
     letter-spacing: -1px;
 }
@@ -191,7 +191,7 @@
 }
 
 .section04 {
-    margin-top: 96px;
+    margin-top: 130px;
 }
 
 .section04 .section-title {
@@ -237,7 +237,7 @@
     position: relative;
     padding-left: 40px;
     display: inline-block;
-    font-weight: bold;
+    font-weight: 500;
     /* cursor: pointer; */
     letter-spacing: -1px;
 }
@@ -266,7 +266,7 @@
 }
 
 .section05 {
-    margin-top: 121px;
+    margin-top: 166px;
     margin-bottom: -93px;
 }
 
@@ -469,7 +469,7 @@
 }
 
 .section07 {
-    margin-top: 68px;
+    margin-top: 105px;
 }
 
 .section07 .img01 {
@@ -494,7 +494,7 @@
 
 
 .section08 {
-    margin-top: 79px;
+    margin-top: 114px;
 }
 
 

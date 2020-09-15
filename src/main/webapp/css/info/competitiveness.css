@@ -94,7 +94,7 @@ section {
 }
 
 .list li p {
-    font-size: 15px;
+    font-size: 16px;
     color: #fff;
     text-align: center;
     line-height: 22px;
@@ -194,11 +194,11 @@ section {
 
 .section03 {
     margin-top: 107px;
-    padding-bottom: 108px;
+    padding-bottom: 126px;
     background: #0c1534;
     color: #fff;
-    padding-top: 167px;
-    margin-bottom: 170px;
+    padding-top: 130px;
+    margin-bottom: 125px;
 }
 
 .move-title {
@@ -240,10 +240,11 @@ section {
 
 .section03 .img-box span {
     margin-top: 36px;
-    font-size: 22px;
+    font-size: 19px;
     display: block;
     text-align: center;
     letter-spacing: -1px;
+    font-weight: 400;
 }
 
 .section03 .image_box_right {
@@ -349,7 +350,7 @@ section {
 .sub-text {
     margin-top: 72px;
     color: #fff;
-    line-height: 1.7;
+    line-height: 1.5;
     font-size: 17px;
     letter-spacing: -1px;
 }
@@ -415,7 +416,7 @@ section {
 }
 
 .section-title {
-    line-height: 1.38;
+    line-height: 1.2;
     /* letter-spacing: -1.8px; */
     padding-bottom: 21px;
 }
@@ -423,6 +424,8 @@ section {
 .section03 .move-title {
     margin-bottom: 40px;
     color: #2b3149;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 
 .detail:after {

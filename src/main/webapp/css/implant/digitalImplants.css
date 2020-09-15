@@ -56,9 +56,9 @@
 }
 
 .section07 .imp-img {
-    background: url(../../images/sub/implant/digital/digital19.png);
-    width: 441px;
-    height: 191px;
+    background: url(../../images/sub/implant/digital/digital19.png) no-repeat;
+    width: 468px;
+    height: 243px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -115,20 +115,21 @@
 }
 
 .section02 {
-    margin-top: 76px;
+    margin-top: 111px;
     margin-bottom: 66px;
 }
 
 .section02 .section-title {
-    line-height: 1.3;
+    line-height: 1.25;
     letter-spacing: -2.3px;
 }
 
 .section02 .section-text {
-    line-height: 1.7;
+    line-height: 1.55;
     width: 600px;
     word-break: keep-all;
     letter-spacing: -1px;
+    color: #666;
 }
 
 .section03 {
@@ -162,7 +163,7 @@
     color: #fff;
     margin-top: 24px;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 17px;
     letter-spacing: -1.3px;
 }
 
@@ -198,16 +199,17 @@
 }
 
 .section04 .section-title {
-    line-height: 1.3;
+    line-height: 1.2;
     margin-bottom: 17px;
     letter-spacing: -3px;
 }
 
 .section04 .section-text {
-    line-height: 1.7;
+    line-height: 1.6;
     word-break: keep-all;
     padding-right: 31px;
     letter-spacing: -1px;
+    color: #666;
 }
 
 .section04 ul {
@@ -229,8 +231,8 @@
 }
 
 .section04 ul li p {
-    padding-top: 22px;
-    font-size: 89px;
+    padding-top: 20px;
+    font-size: 97px;
     margin-bottom: 21px;
     letter-spacing: -1px;
     position: absolute;
@@ -243,11 +245,11 @@
 }
 
 .section04 ul li h5 {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.4;
     letter-spacing: -1px;
-    font-weight: 600;
-    margin-top: 233px;
+    font-weight: 500;
+    margin-top: 225px;
     margin-bottom: 34px;
 }
 
@@ -357,8 +359,8 @@
 }
 
 .section07 {
-    height: 650px;
-    margin-top: 250px;
+    height: 608px;
+    margin-top: 232px;
 }
 
 .section07 .max-layout-width {
@@ -484,8 +486,9 @@
 }
 
 .section07 .section-title {
-    padding-top: 136px;
+    padding-top: 106px;
     color: #fff;
+    padding-bottom: 11px;
 }
 
 .section07 .section-title-color {
@@ -494,5 +497,7 @@
 
 .section07 .section-text {
     color: #fff;
-    line-height: 2;
+    line-height: 1.6;
+    letter-spacing: -1px;
+    font-weight: 300;
 }

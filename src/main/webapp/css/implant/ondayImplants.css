@@ -23,7 +23,7 @@
     margin-top: 42px;
     background: #f5f5f5;
     padding-top: 25px;
-    padding-bottom: 152px;
+    padding-bottom: 176px;
 }
 
 .section01 .section-text {
@@ -46,7 +46,7 @@
 }
 
 .section03 {
-    margin-top: 88px;
+    margin-top: 120px;
 }
 
 .section03 .max-layout-width .text {
@@ -120,8 +120,8 @@
 }
 
 .section04 {
-    margin-top: 164px;
-    margin-bottom: 96px;
+    margin-top: 176px;
+    margin-bottom: 121px;
 }
 
 .section04 .section-title {
@@ -171,7 +171,7 @@
 }
 
 .section05 {
-    padding-bottom: 14px;
+    padding-bottom: 24px;
     background: url(../../images/sub/implant/oneday/oneday_bg2.jpg);
 }
 
@@ -191,7 +191,7 @@
 }
 
 .section05 ul {
-    padding-top: 10px;
+    padding-top: 0px;
     box-sizing: border-box;
     width: 1000px;
     margin: 0 auto;
@@ -225,10 +225,10 @@
 }
 
 .section05 .text li p {
-    line-height: 1.7;
+    line-height: 1.5;
     color: #fff;
     letter-spacing: -1px;
-    padding-top: 90px;
+    padding-top: 145px;
 }
 
 .section05 .text .img01 {
@@ -258,7 +258,7 @@
 }
 
 .section06 {
-    margin-top: 78px;
+    margin-top: 110px;
 }
 
 .section06 .section-title {
@@ -298,13 +298,13 @@
 }
 
 .section06 .pager {
-    font-size: 16px;
+    font-size: 17px;
     color: #222;
     padding: 11px 0;
     position: relative;
     padding-left: 40px;
     display: inline-block;
-    font-weight: bold;
+    font-weight: 500;
     cursor: pointer;
     letter-spacing: -1.5px;
     line-height: 13px;
@@ -401,7 +401,7 @@
 }
 
 .section02 {
-    margin-top: 84px;
+    margin-top: 105px;
 }
 
 .section02 .section-title, .section02 .section-text {
@@ -436,7 +436,7 @@
     text-align: center;
     box-sizing: border-box;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
     color: #222;
     letter-spacing: -1px;
 }
@@ -491,8 +491,8 @@ body .section02 li:first-child {
 }
 
 .section07 {
-    margin-top: 124px;
-    height: 700px;
+    margin-top: 159px;
+    height: 618px;
 }
 
 .section07 .bg {
@@ -509,7 +509,7 @@ body .section02 li:first-child {
 
 .section07 .max-layout-width {
     position: relative;
-    padding-top: 183px;
+    padding-top: 139px;
     text-align: center;
     color: #fff;
 }
@@ -575,5 +575,5 @@ body .section02 li:first-child {
 }
 
 .section10 {
-    margin-top: 67px;
+    margin-top: 122px;
 }

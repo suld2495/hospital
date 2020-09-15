@@ -203,7 +203,7 @@
         </div>
     </section>
 
-    <section class="section08">
+    <!--section class="section08">
         <div class="max-layout-width">
             <h2 class="section-title">하루만에 완성되는 완벽한 치아,<span class="bold section-title-color">원데이 임플란트의 한계</span></h2>
             <p class="section-text">
@@ -212,7 +212,7 @@
                 염증으로 인해 치아가 빠진 경우 등은 원데이 임플란트가 불가능합니다.
             </p>
         </div>
-    </section>
+    </section-->
 
     <section class="section10 treatment-case">
         <div class="max-layout-width">
