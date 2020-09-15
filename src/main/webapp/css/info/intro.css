@@ -22,7 +22,7 @@ section {
     background: url(../../images/sub/info/intro/intro01.jpg) no-repeat center;
     color: #fff;
     height: 749px;
-    margin-top: 97px;
+    margin-top: 63px;
 }
 
 .section01 .img01 {
@@ -58,12 +58,13 @@ section {
 .section01 .text-box h2 + p {
     margin-top: 87px;
     padding-bottom: 70px;
+    font-weight: 300;
 }
 
 .last-section-text {
     margin-top: 42px;
     padding-bottom: 341px;
-    letter-spacing: -1.3px;
+    letter-spacing: -1px;
 }
 
 .last-section-title {
@@ -85,9 +86,10 @@ section {
     font-size: 67px;
     line-height: 80px;
     color: #eee;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 108px;
     bottom: 0;
+    letter-spacing: 2px;
 }
 
 .skrollable {
@@ -147,6 +149,7 @@ section {
 .section02 .move-title, .section04 .move-title {
     top: 27;
     margin-bottom: 30px;
+    padding-top: 74px;
 }
 
 .section02 .section-text span {
@@ -154,7 +157,7 @@ section {
 }
 
 .section03, .section04 {
-    margin-top: 16px;
+    margin-top: 0px;
 }
 
 .section03 .img01 {
@@ -165,7 +168,7 @@ section {
 }
 
 .section03 {
-    margin-top: 71px;
+    margin-top: 12px;
 }
 
 .section03 .img {
@@ -180,6 +183,7 @@ section {
 .section03 .move-title {
     top: 27px;
     margin-bottom: 30px;
+    padding-top: 75px;
 }
 
 .section03 .section-text {
@@ -214,7 +218,7 @@ section {
 }
 
 .section05 {
-    margin-top: 28px;
+    margin-top: 2px;
     padding-top: 96px;
     padding-bottom: 90px;
     background: #0c1534;
@@ -230,10 +234,12 @@ section {
 }
 
 .section05 .container p {
-    font-size: 23px;
-    line-height: 35px;
-    letter-spacing: -1.8px;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: -1px;
     /* margin-top: 6px; */
+    padding-bottom: 9px;
+    font-weight: 400;
 }
 
 .section05 .container p + h2 {
@@ -362,6 +368,7 @@ section {
     padding: 9px 0;
     margin: 0;
     padding-top: 27px;
+    font-weight: 500;
 }
 
 .section06 .text > div:first-child:after {
@@ -410,7 +417,7 @@ section {
 
 
 .section-title {
-    line-height: 1.37;
+    line-height: 1.25;
     /* letter-spacing: -1.8px; */
 }
 
@@ -428,7 +435,7 @@ section {
 
 .section05 .section-title {
     text-align: center;
-    margin-bottom: 66px;
+    margin-bottom: 54px;
     position: relative;
 }
 
@@ -448,7 +455,7 @@ section {
 
 .section05 .section-title-color {
     color: #fff;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .section05 .section-title strong {

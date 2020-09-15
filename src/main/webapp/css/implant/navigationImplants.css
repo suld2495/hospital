@@ -67,7 +67,7 @@
 }
 
 .section05 {
-    margin-top: 117px;
+    margin-top: 159px;
 }
 
 .section05 .max-layout-width .text {
@@ -92,7 +92,7 @@
     line-height: 1.3;
     margin-bottom: 134px;
     padding-left: 60px;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
 }
 
 .section05 .max-layout-width .text > div:before {
@@ -163,7 +163,7 @@
 }
 
 .section01 .section-text {
-    line-height: 1.8;
+    line-height: 1.6;
     letter-spacing: -1px;
 }
 
@@ -183,8 +183,8 @@
 }
 
 .section02 {
-    margin-top: 91px;
-    margin-bottom: 94px;
+    margin-top: 101px;
+    margin-bottom: 101px;
 }
 
 .section02 .section-title {
@@ -199,6 +199,7 @@
     word-break: keep-all;
     line-height: 1.7;
     margin-top: 17px;
+    color: #666;
 }
 
 .section02 .max-layout-width {
@@ -252,7 +253,7 @@
 }
 
 .section03 ul {
-    padding-top: 47px;
+    padding-top: 11px;
     box-sizing: border-box;
 }
 
@@ -291,7 +292,7 @@
     color: #fff;
     letter-spacing: -1.3px;
     font-size: 18px;
-    padding-top: 100px;
+    padding-top: 147px;
 }
 
 .section03 .text .img01 {
@@ -321,7 +322,7 @@
 }
 
 .section04 {
-    margin-top: 106px;
+    margin-top: 137px;
 }
 
 .section04 .section-title {
@@ -332,6 +333,7 @@
 .section04 .section-text {
     line-height: 1.7;
     margin-bottom: 91px;
+    color: #666;
 }
 
 .section04 .image_box_right {
@@ -347,7 +349,7 @@
 
 .section04 .bg {
     background: #f5f5f5;
-    width: 53.29%;
+    width: 100%;
     position: absolute;
     height: 315px;
     left: 0px;
@@ -360,13 +362,13 @@
 }
 
 .section04 .pager {
-    font-size: 15px;
+    font-size: 16px;
     color: #222;
     padding: 9px 0;
     position: relative;
     padding-left: 40px;
     display: inline-block;
-    font-weight: bold;
+    font-weight: 500;
     cursor: pointer;
     letter-spacing: -1px;
 }
@@ -402,6 +404,7 @@
     /* margin-top: 98px; */
     background: #f3f3f3;
     padding: 123px 0;
+    margin-bottom: -90px;
 }
 
 .section07 .max-layout-width h2 {
@@ -427,7 +430,7 @@
 .table-middle {
     padding: 32px 0;
     font-size: 21px;
-    font-weight: bold;
+    font-weight: 500;
     box-sizing: border-box;
     letter-spacing: -2px;
 }
@@ -543,3 +546,9 @@
     color: #fff;
     font-size: 22px;
 }
+
+.left-fade-slider-container {
+    margin-top: 218px;
+    background: #fff;
+    padding-top: 0px;
+    

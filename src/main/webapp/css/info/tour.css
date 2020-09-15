@@ -38,7 +38,7 @@
 
 .section01 li .text {
     font-size: 17px;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: -1px;
 }
 
@@ -63,8 +63,9 @@
 
 .section02 .swiper-slide .small h2 {
     font-size: 38px;
-    font-weight: bold;
-    margin-bottom: 30px;
+    font-weight: 500;
+    margin-bottom: 23px;
+    letter-spacing: -2px;
 }
 
 .section02 .swiper-slide .small p {
@@ -114,7 +115,7 @@
 .section02 .small p {
     font-size: 16px;
     margin-bottom: 30px;
-    color: #222;
+    color: #888;
 }
 
 .section02 .swiper-slide.slick-active {

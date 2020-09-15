@@ -27,7 +27,6 @@
 
 .logo {
     margin-right: 258px;
-    margin-left: 109px;
 }
 
 .location p {
@@ -78,7 +77,8 @@
 .section03 .bg h2 {
     font-size: 37px;
     color: #fff;
-    font-weight: bold;
+    font-weight: 500;
+    letter-spacing: -1px;
 }
 
 .location-bg {
@@ -108,7 +108,7 @@
     height: 272px;
     border-left: none;
     text-align: center;
-    padding-top: 39px;
+    padding-top: 41px;
 }
 
 
@@ -118,8 +118,8 @@
 
 .section04 li h2 {
     font-size: 29px;
-    font-weight: bold;
-    margin-bottom: 29px;
+    font-weight: 500;
+    margin-bottom: 21px;
     letter-spacing: -2px;
 }
 
@@ -134,7 +134,7 @@
 }
 
 .section04 li p strong {
-    font-weight: bold;
+    font-weight: 500;
     color: #222;
 }
 
