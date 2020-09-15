@@ -83,10 +83,10 @@
                     <h2 class="section-title">
                         <span class="section-title-color bold">부분 교정이</span> 필요한 경우<br>
                     </h2>
-                    <p class="pager active"><span>01</span>어금니는 괜찮은데 앞니만 고민이신분</p><br>
-                    <p class="pager">시간이 많이 없으신분</p><br>
-                    <p class="pager">어금니 조기발치로 인해 치아가 쓰러져 세우고 싶으신분</p><br>
-                    <p class="pager">경제적 부담을 덜고싶은분</p><br>      
+                    <p class="pager pointer active"><span>01</span>어금니는 괜찮은데 앞니만 고민이신분</p><br>
+                    <p class="pager pointer"><span>02</span>시간이 많이 없으신분</p><br>
+                    <p class="pager pointer"><span>03</span>어금니 조기발치로 인해 치아가 쓰러져 세우고 싶으신분</p><br>
+                    <p class="pager pointer"><span>04</span>경제적 부담을 덜고싶은분</p><br>
                 </div>
             </div>
         </div>
@@ -119,29 +119,41 @@
 
     <section class="section06 treatment-case">
         <div class="max-layout-width">
+            <div class="text">
+                <h2>미소원치과 <strong>치료사례</strong></h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
+                </p>
+            </div>
             <div class="treatment-case-scroll-bar">
                 <div class="treatment-case-scroll-bar-drag"></div>
             </div>
             <div class="treatment-case-slider">
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
-            </div>
-            <div class="text">
-                <h2>미소원치과 치료사례</h2>
-                <p>
-                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
-                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
-                </p>
             </div>
         </div>
     </section>
@@ -158,19 +170,19 @@
                 <li>
                     <p>
                         <span>온라인 상담</span>
-                        <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="center-img">
                     <p>
                         <span>치료후기</span>
-                        <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="last-img">
                     <p>
                         <span>치료사례</span>
-                        <a href="<c:url value='/' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
             </ul>
@@ -182,3 +194,13 @@
 <script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script src="<c:url value="/js/cmmn/slider.js" />"></script>
+
+
+<script>
+    $(function () {
+        $('.list-content .pager').click(function () {
+            $('.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
+    })
+</script>

@@ -44,7 +44,7 @@
     <section class="section02">
         <div class="max-layout-width">
             <h2 class="section-title">
-                <span class="section-title-color">세계적인 <strong>디지털 장비도입</strong>으로</span><br>
+                <span class="section-title-color">세계적인 <strong>디지털 장비도입</strong>로</span><br>
                 <strong>정확하고 안전한 진료를 약속합니다.</strong>
             </h2>
             <p class="section-text">
@@ -102,36 +102,36 @@
             </div>
             <ul>
                 <li>
-                    <p>장점1.</p>
+                    <p>01</p>
+                    <div class="bg bg01"></div>
                     <h5>
                         실시간 치아 상태<br>
                         생생하게 확인
                     </h5>
-                    <div class="bg bg01"></div>
                 </li>
                 <li>
-                    <p>장점2.</p>
+                    <p>02</p>
+                    <div class="bg bg02"></div>
                     <h5>
                         정밀한 기공물 제작을<br>
                         위한 고감도 사진 촬영
                     </h5>
-                    <div class="bg bg02"></div>
                 </li>
                 <li>
-                    <p>장점3.</p>
+                    <p>03</p>
+                    <div class="bg bg03"></div>
                     <h5>
                         Scan tip은 고압멸균<br>
                         장치로 관리
                     </h5>
-                    <div class="bg bg03"></div>
                 </li>
                 <li>
-                    <p>장점4.</p>
+                    <p>04</p>
+                    <div class="bg bg04"></div>
                     <h5>
                         정확한 shade 정보를<br>
                         기공소와 공유
                     </h5>
-                    <div class="bg bg04"></div>
                 </li>
             </ul>
         </div>
@@ -160,34 +160,21 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section06">
+    <section class="section07">
+        <div class="bg"></div>
         <div class="max-layout-width">
             <h2 class="section-title">
-                <strong>완성도 차이를 만드는 <span class="section-title-color">정품 임플란트 사용</span></strong><br>
-                미소원치과는 안전을 우선으로 합니다.
+                완성도 차이를 만드는 <strong><span class="section-title-color">정품 임플란트 사용</span></strong>
+                미소원치과는 <strong>안전을 우선</strong>으로 합니다.
             </h2>
             <p class="section-text">
                 안심하세요! 미소원치과의 모든재료는 정품재료 사용과 보증서 발급을 원칙으로 합니다.<br>
                 품질과 안전성이 검증된 브랜드 정품재료 사용은 임플란트 수술의 기본입니다.
             </p>
-        </div>
-        <div class="image_box_right">
-            <p class="img"></p>
-        </div>
-
-        <div class="full-layout-width">
-            <div class="max-layout-width">
-                <div class="imp-img"></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section07">
-        <div class="bg"></div>
-        <div class="max-layout-width">
-            <div class="text">
-                끝까지 책임을 다하겠다는 미소원치과의 약속, <span>임플란트진료 보증제도 도입</span><br>
-                정기적인 검진과 치료를 통하여 <strong>확실한 사후 관리를 진행</strong>해드립니다.
+            <div class="full-layout-width">
+                <div class="max-layout-width">
+                    <div class="imp-img"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -322,29 +309,41 @@
 
     <section class="section10 treatment-case">
         <div class="max-layout-width">
+            <div class="text">
+                <h2>미소원치과 <strong>치료사례</strong></h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
+                </p>
+            </div>
             <div class="treatment-case-scroll-bar">
                 <div class="treatment-case-scroll-bar-drag"></div>
             </div>
             <div class="treatment-case-slider">
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
-            </div>
-            <div class="text">
-                <h2>미소원치과 치료사례</h2>
-                <p>
-                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
-                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
-                </p>
             </div>
         </div>
     </section>
@@ -361,19 +360,19 @@
                 <li>
                     <p>
                         <span>온라인 상담</span>
-                        <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="center-img">
                     <p>
                         <span>치료후기</span>
-                        <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="last-img">
                     <p>
                         <span>치료사례</span>
-                        <a href="<c:url value='/' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
             </ul>

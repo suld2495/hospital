@@ -1,6 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+
+<link rel="stylesheet" href="<c:url value='/lib/wow/animate.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
+<link rel="stylesheet" href="<c:url value="/lib/fade-slider/slider.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/implant/fullImplants.css"/>" />
 
 <div class="sub-contents fullImplants">
@@ -39,7 +44,7 @@
     <section class="section02">
         <div class="max-layout-width">
             <div class="text-box left-text-box">
-                <h3 class="move-title" data-bottom="transform:translate3d(-50%,0,0)" data-top="transform:translate3d(0%,0,0)">FIXED FULL IMPLANT</h3>
+                <h3 class="move-title wow slideInLeft">FIXED FULL IMPLANT</h3>
                 <h2 class="section-title">
                     다수의 임플란트를 식립<br>
                     <span class="bold section-title-color">고정형 전체 임플란트</span>
@@ -59,7 +64,7 @@
         <div class="image_box_left img01">
             <p class="img"></p>
         </div>
-        <h3 class="move-title" data-bottom="transform:translate3d(50%,0, 0)" data-top="transform:translate3d(0%,0,0)">IMPLANT DENTURES</h3>
+        <h3 class="move-title wow slideInRight">IMPLANT DENTURES</h3>
         <div class="max-layout-width">
             <div class="text-box left-text-box">
                 <h2 class="section-title">
@@ -124,72 +129,66 @@
     <section class="section06">
         <div class="max-layout-width">
             <h2><strong>일반틀니</strong>와 <strong>임플란트 틀니</strong>의 차이점은?</h2>
-            <div class="cont con01">
-                <ul>
-                    <li class="table-left">일반틀니</li>
-                    <li class="table-middle">VS</li>
-                    <li class="table-right">임플란트 틀니</li>
-                </ul>
-            </div>
-            <div class="cont con02">
-                <ul>
-                    <li class="table-left">잇몸형태의 본을 떠서 틀니 맞춤 제작</li>
-                    <li class="table-middle">시술 방법</li>
-                    <li class="table-right">임플란트 식립 후 특수 틀니 연결</li>
-                </ul>
-            </div>
-            <div class="cont con03">
-                <ul>
-                    <li class="table-left">
-                        잇몸을 이용해 유지
-                    </li>
-                    <li class="table-middle">유지방법</li>
-                    <li class="table-right">
-                        잇몸뼈와 단단히 연결된 임플란트가 틀니를 고정
-                    </li>
-                </ul>
-            </div>
-            <div class="cont con04">
-                <ul>
-                    <li class="table-left">
-                        자연치아의 20~25%
-                    </li>
-                    <li class="table-middle">저작력</li>
-                    <li class="table-right">
-                        자연치아의 80~90%
-                    </li>
-                </ul>
-            </div>
-            <div class="cont con05">
-                <ul>
-                    <li class="table-left">
-                        잇몸뼈가 지속적으로 흡수되며서 쉽게 헐거워진 잇몸이 눌려서 상처가 나거나 통증 유발<br>
-                        대화도중이나 식사중에 틀니가 탈락될 가능성 있음<br>
-                        잇몸뼈의 변형으로 지속적인 수리 관리가 필요
-                    </li>
-                    <li class="table-middle">특징</li>
-                    <li class="table-right">
-                        임플란트에 고정되므로 유지력이 우수한 임플란트의 고정력으로 잇몸뼈 흡수를 어느정도 방지<br>
-                        대화중이나 식사중에 틀니가 쉽게 탈락되지 않음
-                    </li>
-                </ul>
-            </div>
-            <div class="cont con06">
-                <ul>
-                    <li class="table-left">
-                        <strong>본인부담률</strong> : 진료비의 <span>30%</span><br>
-                        <strong>급여대상</strong> : 만 65세 이상 건강보험 가입자 또는 피부양자<br>
-                        <strong>적용개수</strong> : 7년마다 1회씩<br>
-                        <strong>적용범위</strong> : 완전틀니(금속상,레진상),부분틀니
-                    </li>
-                    <li class="table-middle">만65세이상<br>건강보험</li>
-                    <li class="table-right">
-                        <strong>본인부담률</strong> : 진료비의 <span>30%</span><br>
-                        <strong>급여대상</strong> : 만 65세 이상 부분무치악환자(완전무치악 제외)<br>
-                        <strong>적용개수</strong> : 상,하악 구분없이 1인당 평생 2개<br>
-                    </li>
-                </ul>
-            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="table-left">일반틀니</th>
+                        <th class="table-middle">VS</th>
+                        <th class="table-right">임플란트 틀니</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table-left">잇몸형태의 본을 떠서 틀니 맞춤 제작</td>
+                        <td class="table-middle">시술 방법</td>
+                        <td class="table-right">임플란트 식립 후 특수 틀니 연결</td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            잇몸을 이용해 유지
+                        </td>
+                        <td class="table-middle">유지방법</td>
+                        <td class="table-right">
+                            잇몸뼈와 단단히 연결된 임플란트가 틀니를 고정
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            자연치아의 20~25%
+                        </td>
+                        <td class="table-middle">저작력</td>
+                        <td class="table-right">
+                            자연치아의 80~90%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            잇몸뼈가 지속적으로 흡수되며서 쉽게 헐거워진 잇몸이 눌려서 상처가 나거나 통증 유발<br>
+                            대화도중이나 식사중에 틀니가 탈락될 가능성 있음<br>
+                            잇몸뼈의 변형으로 지속적인 수리 관리가 필요
+                        </td>
+                        <td class="table-middle">특징</td>
+                        <td class="table-right">
+                            임플란트에 고정되므로 유지력이 우수한 임플란트의 고정력으로 잇몸뼈 흡수를 어느정도 방지<br>
+                            대화중이나 식사중에 틀니가 쉽게 탈락되지 않음
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            <strong>본인부담률</strong> : 진료비의 <span>30%</span><br>
+                            <strong>급여대상</strong> : 만 65세 이상 건강보험 가입자 또는 피부양자<br>
+                            <strong>적용개수</strong> : 7년마다 1회씩<br>
+                            <strong>적용범위</strong> : 완전틀니(금속상,레진상),부분틀니
+                        </td>
+                        <td class="table-middle">만65세이상<br>건강보험</td>
+                        <td class="table-right">
+                            <strong>본인부담률</strong> : 진료비의 <span>30%</span><br>
+                            <strong>급여대상</strong> : 만 65세 이상 부분무치악환자(완전무치악 제외)<br>
+                            <strong>적용개수</strong> : 상,하악 구분없이 1인당 평생 2개<br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>    
         </div>
     </section>
 
@@ -218,29 +217,41 @@
 
     <section class="section10 treatment-case">
         <div class="max-layout-width">
+            <div class="text">
+                <h2>미소원치과 <strong>치료사례</strong></h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
+                </p>
+            </div>
             <div class="treatment-case-scroll-bar">
                 <div class="treatment-case-scroll-bar-drag"></div>
             </div>
             <div class="treatment-case-slider">
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
-            </div>
-            <div class="text">
-                <h2>미소원치과 치료사례</h2>
-                <p>
-                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
-                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
-                </p>
             </div>
         </div>
     </section>
@@ -257,19 +268,19 @@
                 <li>
                     <p>
                         <span>온라인 상담</span>
-                        <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="center-img">
                     <p>
                         <span>치료후기</span>
-                        <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="last-img">
                     <p>
                         <span>치료사례</span>
-                        <a href="<c:url value='/' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
             </ul>
@@ -277,17 +288,19 @@
     </section>
 </div>
 
+<script src="<c:url value='/lib/fade-slider/jquery.easing.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/Hammer.js' />"></script>
+<script src="<c:url value='/lib/fade-slider/slider.js' />"></script>
 
-<script type="text/javascript" src="<c:url value='/lib/skrollr/skrollr.min.js' /> "></script>
+<script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
+<script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
+<script src="<c:url value="/js/cmmn/slider.js" />"></script>
 
-<!--[if lt IE 9]>
-<script type="text/javascript" src="<c:url value='/lib/skrollr/skrollr.ie.min.js' /> "></script>
-<![endif]-->
+<script src="<c:url value="/lib/wow/wow.js" />"></script>
 
 <script>
+    new WOW().init();
     $(function () {
-        var s = skrollr.init();
-
         $(window).scroll(function(){
             var scrollTop = $(this).scrollTop();
 

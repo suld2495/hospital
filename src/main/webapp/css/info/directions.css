@@ -4,7 +4,7 @@
 
 #map {
     width: 100%;
-    height: 345px;
+    height: 581px;
 }
 
 .section02 {
@@ -90,31 +90,52 @@
 
 .section04 {
     padding-top: 99px;
-    padding-bottom: 19px;
+    padding-bottom: 115px;
 }
 
+.section04 ul {
+    display: inline-block;
+    width: 100%;
+}
+
+
 .section04 li {
-    padding-left: 140px;
-    padding-bottom: 69px;
     position: relative;
+    float: left;
+    width: 33.3333333%;
+    border: 1px solid #d4d4d4;
+    box-sizing: border-box;
+    height: 272px;
+    border-left: none;
+    text-align: center;
+    padding-top: 39px;
+}
+
+
+.section04 li:first-child {
+    border-left: 1px solid #d4d4d4;
 }
 
 .section04 li h2 {
     font-size: 29px;
     font-weight: bold;
-    margin-bottom: 19px;
+    margin-bottom: 29px;
     letter-spacing: -2px;
 }
 
 .section04 li p {
     font-size: 16px;
     color: #646665;
-    line-height: 1.6;
+    line-height: 1.7;
     letter-spacing: -1px;
+    width: 310px;
+    margin: 0 auto;
+    word-break: keep-all;
 }
 
 .section04 li p strong {
     font-weight: bold;
+    color: #222;
 }
 
 li:before {
@@ -126,18 +147,22 @@ li:before {
     height: 97px;
 }
 
-.car:before {
-    background: url(../../images/sub/info/directions/location02.png);
-}
-
-.bus:before {
-    background: url(../../images/sub/info/directions/location03.png);
-}
-
-.taxi:before {
-    background: url(../../images/sub/info/directions/location04.png);
-}
-
 .section04 .max-layout-width {
-    width: 1080px;
+    width: 1300px;
+}
+
+.section04 .title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 42px;
+    position: relative;
+}
+
+.section04 .title:before {
+    position: absolute;
+    content: '';
+    width: 55px;
+    height: 35px;
+    background: url(../../images/sub/info/directions/icon.png);
+    margin-left: -74px;
 }

@@ -53,7 +53,7 @@ section {
 
 .list-img {
     width: 100%;
-    height: 145px;
+    height: 121px;
 }
 
 .list-img1 {
@@ -80,7 +80,7 @@ section {
 
 .list ul {
     display: inline-block;
-    height: 239px;
+    height: 205px;
     width: 100%;
     padding: 12px 0;
     box-sizing: border-box;
@@ -105,15 +105,15 @@ section {
     position: absolute;
     content: '';
     left: 0;
-    top: 0;
+    top: -12px;
     width: 1px;
-    height: 232px;
-    background: url(../../images/sub/info/competitiveness/compet_line.png);
+    height: 205px;
+    background: #fff;
 }
 
 .section02 {
     margin-top: 92px;
-    padding-bottom: 82px;
+    padding-bottom: 32px;
 }
 
 .section02 .max-layout-width > div:first-child {
@@ -168,6 +168,7 @@ section {
     right: -36px;
     bottom: -2px;
     content: '';
+    display: none;
 }
 
 .section02 .img01 {
@@ -175,7 +176,7 @@ section {
     max-width: 952px;
     height: 502px;
     left: 11.44444%;
-    bottom: 159px;
+    bottom: 90px;
     width: 40.1756%;
 }
 
@@ -184,7 +185,7 @@ section {
 }
 
 .section02 .default-background {
-    height: 582px;
+    height: 542px;
     background: #f1f1f1;
     position: absolute;
     width: 100%;
@@ -194,6 +195,10 @@ section {
 .section03 {
     margin-top: 107px;
     padding-bottom: 108px;
+    background: #0c1534;
+    color: #fff;
+    padding-top: 167px;
+    margin-bottom: 170px;
 }
 
 .move-title {
@@ -207,8 +212,9 @@ section {
 .section03 .text .section-text {
     width: 650px;
     word-break: keep-all;
-    margin-bottom: 75px;
+    margin-bottom: 34px;
     letter-spacing: -1px;
+    color: #fff;
 }
 
 .section03 .img-box {
@@ -217,7 +223,7 @@ section {
 
 .section03 .img-box .img {
     width: 307px;
-    height: 239px;
+    height: 195px;
 }
 
 .section03 .img-box:first-child {
@@ -248,7 +254,7 @@ section {
 
 .section03 .image_box_right .img {
     background: url(../../images/sub/info/competitiveness/compet07.jpg) no-repeat top center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .section04 {
@@ -412,4 +418,13 @@ section {
     line-height: 1.38;
     /* letter-spacing: -1.8px; */
     padding-bottom: 21px;
+}
+
+.section03 .move-title {
+    margin-bottom: 40px;
+    color: #2b3149;
+}
+
+.detail:after {
+    display: none;
 }

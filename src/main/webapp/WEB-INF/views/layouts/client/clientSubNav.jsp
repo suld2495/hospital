@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <c:set var="path" value="${requestScope['javax.servlet.forward.servlet_path']}" />
-<c:set var="array" value="${fn:split('미소원치과,디지털 임플란트,디지털 치아교정,자연치아 클리닉,커뮤니티,개인정보,회원로그인,회원가입,마이페이지',',')}"/>
+<c:set var="array" value="${fn:split('미소원치과,임플란트,치아교정,자연치아 클리닉,커뮤니티,개인정보,회원로그인,회원가입,마이페이지',',')}"/>
 <c:set var="urlArray" value="${fn:split('/intro,/digital_implants,/misowon_orthodontics,/general,/notice,/login,/member_agreement,/mypage_reservation',',')}"/>
 
 <div class="sub">
@@ -55,7 +55,7 @@
                     <li><a <c:if test="${path eq '/diagnostic_equipment_system'}">class="active"</c:if> href="<c:url value="/diagnostic_equipment_system"/>">진단장비 시스템</a></li>
                     <li><a <c:if test="${path eq '/tour'}">class="active"</c:if> href="<c:url value="/tour"/>">둘러보기</a></li>
                     <li><a <c:if test="${path eq '/directions'}">class="active"</c:if> href="<c:url value="/directions"/>">오시는길</a></li>
-                    <li><a <c:if test="${path eq '/medical'}">class="active"</c:if> href="<c:url value="/medical"/>">진료보증제도</a></li>
+<%--                    <li><a <c:if test="${path eq '/medical'}">class="active"</c:if> href="<c:url value="/medical"/>">진료보증제도</a></li>--%>
                 </ul>
             </c:if>
             <c:if test="${category eq 1}">

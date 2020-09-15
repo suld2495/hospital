@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'ramaraja';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/ramaraja/Ramaraja-Regular.woff') format('woff') /* Modern Browsers */
+}
+
+
 section {
     position: relative;
 }
@@ -8,6 +16,13 @@ section {
 
 .section01, .section01 .max-layout-width {
     position: relative;
+}
+
+.section01 {
+    background: url(../../images/sub/info/intro/intro01.jpg) no-repeat center;
+    color: #fff;
+    height: 749px;
+    margin-top: 97px;
 }
 
 .section01 .img01 {
@@ -42,6 +57,7 @@ section {
 
 .section01 .text-box h2 + p {
     margin-top: 87px;
+    padding-bottom: 70px;
 }
 
 .last-section-text {
@@ -60,9 +76,9 @@ section {
     left: 0;
     width: 634px;
     height: 3px;
-    background: #7e6956;
+    background: #ab9e95;
     bottom: -58px;
-    left: -71px;
+    left: -151px;
 }
 
 .move-title {
@@ -94,6 +110,7 @@ section {
     right: -36px;
     bottom: -2px;
     content: '';
+    display: none;
 }
 
 .section02 {
@@ -124,11 +141,12 @@ section {
 }
 
 .section02 .text-box, .section04 .text-box {
-    padding-top: 144px;
+    padding-top: 24px;
 }
 
 .section02 .move-title, .section04 .move-title {
     top: 27;
+    margin-bottom: 30px;
 }
 
 .section02 .section-text span {
@@ -156,11 +174,12 @@ section {
 
 .section03 .text-box {
     padding-left: 50%;
-    padding-top: 146px;
+    padding-top: 24px;
 }
 
 .section03 .move-title {
     top: 27px;
+    margin-bottom: 30px;
 }
 
 .section03 .section-text {
@@ -198,11 +217,11 @@ section {
     margin-top: 28px;
     padding-top: 96px;
     padding-bottom: 90px;
-    background: #f5f5f5;
+    background: #0c1534;
 }
 
 .container {
-    width: 1263px;
+    width: 1206px;
     margin: 0 auto;
 }
 
@@ -225,8 +244,8 @@ section {
 
 .section05 ul {
     width: 100%;
-    padding-left: 54px;
     position: relative;
+    margin-left: -2%;
 }
 
 .section05 ul:before {
@@ -237,12 +256,13 @@ section {
     position: absolute;
     left: 0;
     top: 0;
+    display: none;
 }
 
 .section05 ul li {
     float: left;
-    width: 30.33333%;
-    margin-right: 2%;
+    width: 31.33333%;
+    margin-left: 2%;
 }
 
 .image-container {
@@ -250,11 +270,18 @@ section {
 }
 
 .image-container h5 {
-    font-size: 23px;
-    font-width: bold;
+    font-size: 43px;
+
     margin-top: 33px;
     letter-spacing: -1px;
-    font-weight: 700;
+    /* font-weight: 700; */
+    color: #9b8a80;
+    font-family: ramaraja !important;
+}
+
+.image-container h5 span {
+    font-family: ramaraja !important;
+    font-size: 60px;
 }
 
 .image-container p {
@@ -305,7 +332,7 @@ section {
 }
 
 .img-bg-box {
-    margin-top: 29px;
+    margin-top: 58px;
 }
 
 .section06 {
@@ -389,4 +416,46 @@ section {
 
 .section06 .display-inline-block {
     width: 100%;
+}
+
+.section01 .section-title {
+    color: #fff;
+}
+
+.section01 p {
+    color: #fff;
+}
+
+.section05 .section-title {
+    text-align: center;
+    margin-bottom: 66px;
+    position: relative;
+}
+
+.section05 .section-title:before {
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 66px;
+    background: url(../../images/sub/info/intro/intro_icon01.png);
+    margin-left: -90px;
+    margin-top: -14px;
+}
+
+.section05 {
+    color: #fff;
+}
+
+.section05 .section-title-color {
+    color: #fff;
+    font-weight: bold;
+}
+
+.section05 .section-title strong {
+    color: #fff;
+    font-weight: 100;
+}
+
+.section02 .move-title {
+    margin-bottom: 30px;
 }

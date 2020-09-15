@@ -8,8 +8,7 @@
         </div>
         <div class="header-banner-close-continer max-layout-width">
             <div class="header-banner-close pointer">
-                <span class="font-13">CLOSE</span>
-<%--                <img src="" alt="배너 숨기기">--%>
+                <span class="font-13 banner-close"></span>
             </div>
         </div>
     </div>
@@ -18,6 +17,13 @@
             <div class="header-panel display-inline-block">
                 <div class="header-banner-slider-continer">
                     <div class="header-banner-small-slider">
+                        <div>
+                            <img class="small-slider-img" src="<c:url value='/images/cmmn/small_banner01.png' />">
+                            <div class="slider-text">
+                                <p>자가결찰 브라켓으로</p>
+                                <p class="bold">빠르고 안아프게 클리피씨 교정</p>
+                            </div>
+                        </div>
                         <div>
                             <img class="small-slider-img" src="<c:url value='/images/cmmn/small_banner01.png' />">
                             <div class="slider-text">
@@ -54,8 +60,8 @@
                 <div class="max-layout-width">
                     <ol>
                         <li><a data-nav="#nav01" href="<c:url value='/intro' />">미소원치과</a></li>
-                        <li><a data-nav="#nav02" href="<c:url value='/digital_implants' />">디지털 임플란트</a></li>
-                        <li><a data-nav="#nav03" href="<c:url value='/misowon_orthodontics' />">디지털 치아교정</a></li>
+                        <li><a data-nav="#nav02" href="<c:url value='/digital_implants' />">임플란트</a></li>
+                        <li><a data-nav="#nav03" href="<c:url value='/misowon_orthodontics' />">치아교정</a></li>
                         <li><a data-nav="#nav04" href="<c:url value='/general' />">자연치아 클리닉</a></li>
                         <li><a data-nav="#nav05" href="<c:url value='/notice/1' />">커뮤니티</a></li>
                     </ol>
@@ -67,7 +73,7 @@
                             <div class="title">
                                 <h2>미소원치과</h2>
                                 <p>
-                                    디저털치과의 현재<br>
+                                    디지털치과의 현재<br>
                                     미소원치과를 소개합니다.
                                 </p>
                             </div>
@@ -79,7 +85,7 @@
                                     <li><a href="<c:url value='/diagnostic_equipment_system' />">진단장비 시스템</a></li>
                                     <li><a href="<c:url value='/tour' />">둘러보기</a></li>
                                     <li><a href="<c:url value='/directions' />">오시는길</a></li>
-                                    <li><a href="<c:url value='/medical' />">진료보증제도</a></li>
+<%--                                    <li><a href="<c:url value='/medical' />">진료보증제도</a></li>--%>
                                 </ul>
                                 <div class="img img01"></div>
                             </div>
@@ -88,9 +94,9 @@
                     <li id="nav02">
                         <div class="max-layout-width">
                             <div class="title">
-                                <h2>미소원치과</h2>
+                                <h2>임플란트</h2>
                                 <p>
-                                    디저털치과의 현재<br>
+                                    디지털치과의 현재<br>
                                     미소원치과를 소개합니다.
                                 </p>
                             </div>
@@ -109,9 +115,9 @@
                     <li id="nav03">
                         <div class="max-layout-width">
                             <div class="title">
-                                <h2>미소원치과</h2>
+                                <h2>치아교정</h2>
                                 <p>
-                                    디저털치과의 현재<br>
+                                    디지털치과의 현재<br>
                                     미소원치과를 소개합니다.
                                 </p>
                             </div>
@@ -129,9 +135,9 @@
                     <li id="nav04">
                         <div class="max-layout-width">
                             <div class="title">
-                                <h2>미소원치과</h2>
+                                <h2>자연치아 클리닉</h2>
                                 <p>
-                                    디저털치과의 현재<br>
+                                    디지털치과의 현재<br>
                                     미소원치과를 소개합니다.
                                 </p>
                             </div>
@@ -149,9 +155,9 @@
                     <li id="nav05">
                         <div class="max-layout-width">
                             <div class="title">
-                                <h2>미소원치과</h2>
+                                <h2>커뮤니티</h2>
                                 <p>
-                                    디저털치과의 현재<br>
+                                    디지털치과의 현재<br>
                                     미소원치과를 소개합니다.
                                 </p>
                             </div>
@@ -193,6 +199,10 @@
             } else {
                 $('header').removeClass('active');
             }
+        })
+
+        $('.header-banner-small-slider').bxSlider({
+            pager: false
         })
     })
 </script>

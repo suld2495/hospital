@@ -8,56 +8,65 @@
 
 <div>
     <div class="section01">
-        <img class="full-layout-width" src="<c:url value='/images/main/img_main01.jpg' />" alt="미소원치과는 자신있습니다!">
+        <div class="section01-slider">
+            <div>
+                <img class="full-layout-width" src="<c:url value='/images/main/img_main01.jpg' />" alt="미소원치과는 자신있습니다!">
+            </div>
+            <div>
+                <img class="full-layout-width" src="<c:url value='/images/main/img_main01.jpg' />" alt="미소원치과는 자신있습니다!">
+            </div>
+            <div>
+                <img class="full-layout-width" src="<c:url value='/images/main/img_main01.jpg' />" alt="미소원치과는 자신있습니다!">
+            </div>
+        </div>
     </div>
     <div class="section02 position-relative max-layout-width wow fadeInUp">
-        <h2>디지털치과의 현재 <span>미소원치과</span></h2>
+        <h2>디지털치과의 현재 <span class="section-title-color"><strong>미소원치과</strong></span></h2>
         <p>3D CT, CEREC SYSTEM, 최상의 장비를 바탕으로 개인의 상태에 꼭 맞는 맞춤진료를 합니다 </p>
         <div class="display-inline-block">
-            <div class="contents-text-box float-left">
-                <div class="contents-text contents-text1 active">
-                    <h3>디지털 임플란트</h3>
-                    <p>모의 식립계획으로 정교하고 정확하게</p>
-                    <p class="last-contents-text">자연치아인듯 편안하고 안전한 임플란트</p>
-                    <span class="details-link display-inline-block"><a class="text-decoration-none" href="<c:url value='' /> ">자세히보기</a></span>
-                </div>
-                <div class="contents-text contents-text2">
-                    <h3>디지털 치아교정</h3>
-                    <p>3D CT를 활용한 정확한 진단으로</p>
-                    <p>수술없이 아름다운 라인을</p>
-                    <p class="last-contents-text">만들어주는 교정</p>
-                    <span class="details-link display-inline-block"><a class="text-decoration-none" href="<c:url value='' /> ">자세히보기</a></span>
-                </div>
-                <div class="contents-text contents-text3">
-                    <h3>자연치아 클리닉</h3>
-                    <p>CEREC SYSTEM을 활용한</p>
-                    <p class="last-contents-text">빠르고 정확한 치료</p>
-                    <span class="details-link display-inline-block"><a class="text-decoration-none" href="<c:url value='' /> ">자세히보기</a></span>
-                </div>
-                <div class="background-text position-absolute">
-                    <p>MISOWON</p>
-                    <p>DENTAL CLINIC</p>
-                </div>
-            </div>
-            <div class="img-box float-left">
-                <ul class="display-inline-block">
-                    <li class="float-left pointer module">
-                        <div class="module">
-                            <img src="<c:url value='/images/main/point_img01.jpg'/>" alt="디지털 임플란트">
-                        </div>
-                    </li>
-                    <li class="float-left pointer module">
-                        <div class="module">
-                            <img src="<c:url value='/images/main/point_img02.jpg'/>" alt="디지털 치아교정">
-                        </div>
-                    </li>
-                    <li class="float-left pointer module">
-                        <div class="module">
-                            <img src="<c:url value='/images/main/point_img03.jpg'/>" alt="자연치아 클리닉">
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            <ul>
+                <li>
+                   <img src="<c:url value='/images/main/point_img01.jpg'/>">
+                    <div class="nomal">
+                        <h3>디지털 임플란트</h3>
+                    </div>
+                    <div class="hover">
+                        <h3>디지털 임플란트</h3>
+                        <p>
+                            모의 식립계획으로<br>
+                            정교하고 정확하게 자연치아인듯<br>
+                            편안하고 안전한 임플란트
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="<c:url value='/images/main/point_img02.jpg'/>">
+                    <div class="nomal">
+                        <h3>디지털 치아교정</h3>
+                    </div>
+                    <div class="hover">
+                        <h3>디지털 치아교정</h3>
+                        <p>
+                            3D CT를 활용한 정확한 진단으로<br>
+                            수설없이 아름다운 라인을<br>
+                            만들어주는 교정
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="<c:url value='/images/main/point_img03.jpg'/>">
+                    <div class="nomal">
+                        <h3>자연치아 클리닉</h3>
+                    </div>
+                    <div class="hover">
+                        <h3>자연치아 클리닉</h3>
+                        <p>
+                            CEREC SYSTEM을 활용한<br>
+                            빠르고 정확한 치료
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
     <div class="section03 position-relative wow fadeInUp" data-wow-delay="500ms">
@@ -65,7 +74,7 @@
         <div class="max-layout-width">
             <div class="text">
                 <h4>앞선 디지털 장비와 기술에</h4>
-                <h4><span>마음을 담은 양심적인 진료</span>를</h4>
+                <h4><span><strong>마음을 담은 양심적인 진료</strong></span>를</h4>
                 <h4>약속합니다</h4>
                 <p>진보된 디지털 기술에 따뜻한 마음을 담아 최상의 치료를 경험할 수 있는</p>
                 <p>진료환경을 제공합니다.</p>
@@ -90,133 +99,137 @@
     <div class="section04 wow fadeInUp" data-wow-delay="500ms">
         <div class="text max-layout-width position-relative">
             <h4>늘 후회없는 선택을 하는 당신</h4>
-            <h4><span>미소원치과는 완벽한 선택</span>입니다</h4>
+            <h4><span><strong>미소원치과는 완벽한 선택</strong></span>입니다</h4>
             <p>다녀가신 환자분들의 후기로 현재의 미소원치과를 만나보세요</p>
-            <span class="details-link pointer">자세히보기</span>
+            <span class="details-link pointer"><a href="<c:url value='/review/1'/>">자세히보기</a></span>
         </div>
         <div class="max-layout-width">
             <div class="review">
                 <c:forEach begin="0" end="4" varStatus="status">
-                    <div>
-                        <img src="<c:url value='/images/main/review0${status.count % 4 + 1}.jpg' />">
-                        <div class="position-relative">
-                            <span>${status.count}</span>
-                            <div class="review-text">
-                                <h4>임플란트</h4>
-                                <p>의사선생님께</p>
+                    <div class="module">
+                        <a class="module" href="<c:url value='/'/>">
+                            <img src="<c:url value='/images/main/review0${status.count % 4 + 1}.jpg' />">
+                            <div class="position-relative">
+                                <div class="review-text">
+                                    <h4>임플란트</h4>
+                                    <p>의사선생님께서누 친절 하시고 걱정했던 임플란트</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </c:forEach>
             </div>
         </div>
     </div>
     <div class="section05 wow fadeInUp" data-wow-delay="500ms">
-        <div class="max-layout-width">
-            <h2 class="section-title">
-                정직하게 진료하고<br>
-                <span class="section-title-color">연구하는 의료진</span>
-            </h2>
-            <p class="section-text">
-                미소원치과의 의료진은 끊임없이 연구하며 환자를 최우선으로 생각하고 언제나 최선의 결과로 보답합니다.
-            </p>
-            <div class="slider-container">
-                <div></div>
-                <div class="big-img big-img-slider">
-                    <div class="cont01 cont">
-                        <div class="doctor-slide-item">
-                            <div class="img"></div>
-                            <div class="text">
-                                <div class="title">
-                                    <span>이상수</span>
-                                    <span>원장</span>
+        <div>
+            <div class="max-layout-width">
+                <h2 class="section-title">
+                    정직하게 진료하고<br>
+                    <span class="section-title-color"><strong>연구하는 의료진</strong></span>
+                </h2>
+                <p class="section-text">
+                    미소원치과의 의료진은 끊임없이 연구하며 환자를 최우선으로 생각하고 언제나 최선의 결과로 보답합니다.
+                </p>
+                <div class="img-arrow"></div>
+                <div class="slider-container">
+                    <div></div>
+                    <div class="big-img big-img-slider">
+                        <div class="cont01 cont">
+                            <div class="doctor-slide-item">
+                                <div class="img"></div>
+                                <div class="text">
+                                    <div class="title">
+                                        <span>이상수</span>
+                                        <span>원장</span>
+                                    </div>
+                                    <p class="sub-text">
+                                        첨단장비를 사용하여 꼼꼼하고 정확하게,<br>
+                                        원칙을 지키는 진료를 우선합니다.
+                                    </p>
+                                    <h5>약력</h5>
+                                    <p class="dc">
+                                        통합치의학 전문의<br/>
+                                        부산대학교 치의학전문대학원 졸업<br/>
+                                        서울아산재단 울산대학교병원 치과통합 전문임상의 수료<br/>
+                                        대한 구강악안면임플란트학회 정회원<br/>
+                                        대한 통합치과학회 정회원<br/>
+                                        대한 치과마과학회 정회원<br/>
+                                        KIM'S 교정연구회 정회원<br/>
+                                        전) 울산 한빛치과 원장<br/>
+                                        전) 부산 e웰니스치과 원장<br/>
+                                        전) 부산 수정치과 원장<br/>
+                                        MEAW Orthodontic Master Course 수료<br/>
+                                    </p>
                                 </div>
-                                <p class="sub-text">
-                                    첨단장비를 사용하여 꼼꼼하고 정확하게,<br>
-                                    원칙을 지키는 진료를 우선합니다.
-                                </p>
-                                <h5>약력</h5>
-                                <p class="dc">
-                                    통합치의학 전문의<br/>
-                                    부산대학교 치의학전문대학원 졸업<br/>
-                                    서울아산재단 울산대학교병원 치과통합 전문임상의 수료<br/>
-                                    대한 구강악안면임플란트학회 정회원<br/>
-                                    대한 통합치과학회 정회원<br/>
-                                    대한 치과마과학회 정회원<br/>
-                                    KIM'S 교정연구회 정회원<br/>
-                                    전) 울산 한빛치과 원장<br/>
-                                    전) 부산 e웰니스치과 원장<br/>
-                                    전) 부산 수정치과 원장<br/>
-                                    MEAW Orthodontic Master Course 수료<br/>
-                                </p>
+                            </div>
+                        </div>
+                        <div class="cont02 cont">
+                            <div class="doctor-slide-item">
+                                <div class="img"></div>
+                                <div class="text">
+                                    <div class="title">
+                                        <span>곽진원</span>
+                                        <span>원장</span>
+                                    </div>
+                                    <p class="sub-text">
+                                        섬세한 진료로 마음 편안하게,<br>
+                                        환자와의 신뢰가 먼저입니다.
+                                    </p>
+                                    <h5>약력</h5>
+                                    <p class="dc">
+                                        치의학 박사 / 전문의<br/>
+                                        부산대학교 치과대학 졸업<br/>
+                                        부산대학교 치의학대학원 석사<br/>
+                                        부산대학교 치의학대학원 박사<br/>
+                                        통합치의학과 전문의 취득<br/>
+                                        대한 치과마취과학회 정회원<br/>
+                                        대한 치과보철학회 정회원<br/>
+                                        대한 치과마취과학회 정회원<br/>
+                                        대한 구강악안면임플란트학회 정회원<br/>
+                                        대한통합치과학회 정회원<br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont03 cont">
+                            <div class="doctor-slide-item">
+                                <div class="img"></div>
+                                <div class="text">
+                                    <div class="title">
+                                        <span>송애진</span>
+                                        <span>원장</span>
+                                    </div>
+                                    <p class="sub-text">
+                                        얼굴과 조화를 이루는 균형잡힌 교정!<br>
+                                        아름답고 당당한 미소를 찾아드립니다.
+                                    </p>
+                                    <h5>약력</h5>
+                                    <p class="dc">
+                                        치의학 박사 / 전문의<br/>
+                                        부산대학교 치과대학 졸업<br/>
+                                        부산대학교 치의학대학원 석사<br/>
+                                        부산대학교 치의학대학원 박사<br/>
+                                        통합치의학과 전문의 취득<br/>
+                                        대한 치과마취과학회 정회원<br/>
+                                        대한 치과보철학회 정회원<br/>
+                                        대한 치과마취과학회 정회원<br/>
+                                        대한 구강악안면임플란트학회 정회원<br/>
+                                        대한통합치과학회 정회원<br/>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="cont02 cont">
-                        <div class="doctor-slide-item">
-                            <div class="img"></div>
-                            <div class="text">
-                                <div class="title">
-                                    <span>곽진원</span>
-                                    <span>원장</span>
-                                </div>
-                                <p class="sub-text">
-                                    섬세한 진료로 마음 편안하게,<br>
-                                    환자와의 신뢰가 먼저입니다.
-                                </p>
-                                <h5>약력</h5>
-                                <p class="dc">
-                                    치의학 박사 / 전문의<br/>
-                                    부산대학교 치과대학 졸업<br/>
-                                    부산대학교 치의학대학원 석사<br/>
-                                    부산대학교 치의학대학원 박사<br/>
-                                    통합치의학과 전문의 취득<br/>
-                                    대한 치과마취과학회 정회원<br/>
-                                    대한 치과보철학회 정회원<br/>
-                                    대한 치과마취과학회 정회원<br/>
-                                    대한 구강악안면임플란트학회 정회원<br/>
-                                    대한통합치과학회 정회원<br/>
-                                </p>
-                            </div>
-                        </div>
+                    <div class="doctor-slider">
+                        <div><div class="img-box"><div class="img01 doctor-slide-item"></div></div></div>
+                        <div><div class="img-box"><div class="img02 doctor-slide-item"></div></div></div>
+                        <div><div class="img-box"><div class="img03 doctor-slide-item"></div></div></div>
                     </div>
-                    <div class="cont03 cont">
-                        <div class="doctor-slide-item">
-                            <div class="img"></div>
-                            <div class="text">
-                                <div class="title">
-                                    <span>송애진</span>
-                                    <span>원장</span>
-                                </div>
-                                <p class="sub-text">
-                                    얼굴과 조화를 이루는 균형잡힌 교정!<br>
-                                    아름답고 당당한 미소를 찾아드립니다.
-                                </p>
-                                <h5>약력</h5>
-                                <p class="dc">
-                                    치의학 박사 / 전문의<br/>
-                                    부산대학교 치과대학 졸업<br/>
-                                    부산대학교 치의학대학원 석사<br/>
-                                    부산대학교 치의학대학원 박사<br/>
-                                    통합치의학과 전문의 취득<br/>
-                                    대한 치과마취과학회 정회원<br/>
-                                    대한 치과보철학회 정회원<br/>
-                                    대한 치과마취과학회 정회원<br/>
-                                    대한 구강악안면임플란트학회 정회원<br/>
-                                    대한통합치과학회 정회원<br/>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="doctor-slider">
-                    <div><div class="img-box"><div class="img01 doctor-slide-item"></div></div></div>
-                    <div><div class="img-box"><div class="img02 doctor-slide-item"></div></div></div>
-                    <div><div class="img-box"><div class="img03 doctor-slide-item"></div></div></div>
                 </div>
             </div>
+            <div class="bg"></div>
         </div>
-        <div class="bg"></div>
     </div>
     <div class="section06 wow fadeInUp" data-wow-delay="500ms">
         <div>
@@ -246,6 +259,13 @@
             <h4>이제, 당신 차례입니다</h4>
         </div>
         <div class="slider-box max-layout-width">
+            <div class="slider-origin-pagination">
+                <ul>
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
             <div class="slider-pagenation">
                 <div class="bx-pager-item">
                     <a href="" data-slide-index="0" class="bx-pager-link text-decoration-none">
@@ -302,7 +322,7 @@
             <div class="consultant">
                 <h4>
                     온라인 상담
-                    <span><a href="<c:url value='' /> ">VIEW MORE</a></span>
+                    <span><a href="<c:url value='/online-consult/1' /> ">VIEW MORE</a></span>
                 </h4>
                 <ul>
                     <li>
@@ -345,7 +365,7 @@
             <div class="media">
                 <h4>
                     미디어
-                    <span><a href="<c:url value='' /> ">VIEW MORE</a></span>
+                    <span><a href="<c:url value='/media/1' /> ">VIEW MORE</a></span>
                 </h4>
                 <ul>
                     <li>
@@ -372,7 +392,7 @@
     </div>
     <div class="section09 wow fadeInUp" data-wow-delay="500ms">
         <div class="max-layout-width">
-            <h4>미소원치과 둘러보기</h4>
+            <h4>미소원치과 <strong>미리보기</strong></h4>
             <p>따듯한 공간에서 편안하게 진료받으세요.</p>
             <div class="tour-slide">
                 <c:forEach begin="1" end="10" varStatus="status">
@@ -388,9 +408,8 @@
                 </div>
             </div>
             <div class="slide-text">
-                <a class="text-decoration-none" href="<c:url value='' />">
-                    <p>미소원치과 실내사진</p>
-                    <p>자세히 보러가기</p>
+                <a class="text-decoration-none" href="<c:url value='/tour' />">
+                    <p>실내사진 자세히보기</p>
                 </a>
             </div>
         </div>
@@ -414,11 +433,12 @@
             minSlides: 4,
             maxSlides: 4,
             moveSlides: 1,
-            slideWidth: 402,
+            slideWidth: 318,
             shrinkItems: true,
-            slideMargin: 58,
-            controls: false,
+            slideMargin: 10,
             auto: true,
+            nextText: '<img src="<c:url value="/images/main/arrow_right02.png"/>">',
+            prevText: '<img src="<c:url value="/images/main/arrow_left02.png"/>">',
         });
 
         $('.main-slider').bxSlider({
@@ -434,7 +454,7 @@
             auto: true,
         });
 
-        $('.slider').bxSlider({
+        var slider = $('.slider').bxSlider({
             minSlides: 2,
             maxSlides: 2,
             moveSlides: 1,
@@ -442,9 +462,22 @@
             shrinkItems: true,
             slideMargin: 40,
             pagerCustom: $('.slider-pagenation'),
-            controls: false,
+            nextText: '<img src="<c:url value="/images/main/right02.png"/>">',
+            prevText: '<img src="<c:url value="/images/main/left02.png"/>">',
             auto: true,
+            onSliderLoad: function() {
+                $('.slider-box').append($('.section07 .bx-controls'));
+            },
+            onSlideBefore: function ($slideElement, oldIndex, newIndex) {
+                $('.section07 .slider-origin-pagination li').removeClass('active');
+                $('.section07 .slider-origin-pagination li').eq(newIndex).addClass('active');
+            }
         });
+
+        $('.section07 .slider-origin-pagination li').click(function () {
+            var index = $(this).index();
+            slider.goToSlide(index);
+        })
 
         $('.tour-slide').bxSlider({
             controls: false,
@@ -465,6 +498,11 @@
             fade: true,
             asNavFor: '.doctor-slider',
         });
+
+        $('.doctor-slider').on('init', function(slick){
+            $('.section05 .img-arrow').append($('.section05 .slider-prev'));
+            $('.section05 .img-arrow').append($('.section05 .slider-next'));
+        });
         $('.doctor-slider').slick({
             infinite: true,
             slidesToShow: 2,
@@ -475,7 +513,15 @@
             variableWidth: true,
             autoplay: true,
             autoplaySpeed: 4000,
+            arrow: true,
+            prevArrow: '<span class="slider-prev"><</span>',
+            nextArrow: '<span class="slider-next">></span>',
         });
+
+        $('.section01-slider').bxSlider({
+            pager: false,
+            auto: true,
+        })
     });
 
     $(window).load(function () {

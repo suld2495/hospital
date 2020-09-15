@@ -99,12 +99,12 @@
                     <p class="section-text">
                         교정치과 선택시 꼭 확인하세요!
                     </p>
-                    <p class="pager active"><span>01</span>담당주치의가 교정에 대한 숙련된 기술력을 갖추었는가?</p><br>
-                    <p class="pager">최신 교정경향과 기술,첨단장비를 갖추었는가?</p><br>
-                    <p class="pager">치아의 배열과 증상에 따른 1:1맞춤교정을 진행하는가?</p><br>
-                    <p class="pager">교정주치의가 처음부터 끝까지 책임지는 시스템인가?</p><br>
-                    <p class="pager">치과위생관리가 엄격하게 이루어지고 있는 곳인가?</p><br>
-                    <p class="pager">치아교정 후에도 철저한 사후관리를 진행하는 곳인가?</p><br>
+                    <p class="pager pointer active"><span>01</span>담당주치의가 교정에 대한 숙련된 기술력을 갖추었는가?</p><br>
+                    <p class="pager pointer"><span>02</span>최신 교정경향과 기술,첨단장비를 갖추었는가?</p><br>
+                    <p class="pager pointer"><span>03</span>치아의 배열과 증상에 따른 1:1맞춤교정을 진행하는가?</p><br>
+                    <p class="pager pointer"><span>04</span>교정주치의가 처음부터 끝까지 책임지는 시스템인가?</p><br>
+                    <p class="pager pointer"><span>05</span>치과위생관리가 엄격하게 이루어지고 있는 곳인가?</p><br>
+                    <p class="pager pointer"><span>06</span>치아교정 후에도 철저한 사후관리를 진행하는 곳인가?</p><br>
                 </div>
             </div>
         </div>
@@ -115,58 +115,62 @@
     <section class="section05">
         <div class="max-layout-width">
             <h2><strong>세리믹 교정</strong>과 <strong>클리피씨 교정</strong>의 차이점은?</h2>
-            <div class="cont con01">
-                <ul>
-                    <li class="table-left">세라믹 교정</li>
-                    <li class="table-middle">VS</li>
-                    <li class="table-right">클리피씨 교정</li>
-                </ul>
-            </div>
-            <div class="cont con02">
-                <ul>
-                    <li class="table-left"><div class="img01"></div></li>
-                    <li class="table-middle">장치</li>
-                    <li class="table-right"><div class="img02"></div></li>
-                </ul>
-            </div>
-            <div class="cont con03">
-                <ul>
-                    <li class="table-left">
-                        가장 기본적인 치아교정방법으로 치아색과<br>
-                        비슷한 소재로 눈에 잘 띄지않아 심미성이 좋음
-                    </li>
-                    <li class="table-middle">특징</li>
-                    <li class="table-right">
-                        세라믹 교정장치와 비슷하나 연결 브라켓의<br>
-                        똑딱이 장치를 이용하여 오직 치아에게만 힘을 가하여<br>
-                        교정치료기간을 단축시켜 줌
-                    </li>
-                </ul>
-            </div>
-            <div class="cont con04">
-                <ul>
-                    <li class="table-left">
-                        기존 메탈 브라켓과 비슷한 결찰 방식으로<br>
-                        마찰력이 생겨 약간의 통증이 있음
-                    </li>
-                    <li class="table-middle">통증</li>
-                    <li class="table-right">
-                        자가결찰 방식으로 마찰력이 줄여 통증이 적음
-                    </li>
-                </ul>
-            </div>
-            <div class="cont con05">
-                <ul>
-                    <li class="table-left">
-                        일반적인 치료기간인<br>약 평균 2년
-                    </li>
-                    <li class="table-middle">치료기간</li>
-                    <li class="table-right">
-                        똑딱이 장치를 이용하여 약 평균 1년 6개월로<br>
-                        치료기간을 단축
-                    </li>
-                </ul>
-            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="table-left">세라믹 교정</th>
+                        <th class="table-middle">VS</th>
+                        <th class="table-right">클리피씨 교정</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table-left">
+                            <div class="img01">
+                                <img src="<c:url value='/images/sub/orthodontics/misowonOrthodontics/orthodontics05.jpg'/>">
+                            </div>
+                        </td>
+                        <td class="table-middle">장치</td>
+                        <td class="table-right">
+                            <div class="img02">
+                                <img src="<c:url value='/images/sub/orthodontics/misowonOrthodontics/orthodontics06.jpg'/>">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            가장 기본적인 치아교정방법으로 치아색과<br>
+                            비슷한 소재로 눈에 잘 띄지않아 심미성이 좋음
+                        </td>
+                        <td class="table-middle">특징</td>
+                        <td class="table-right">
+                            세라믹 교정장치와 비슷하나 연결 브라켓의<br>
+                            똑딱이 장치를 이용하여 오직 치아에게만 힘을 가하여<br>
+                            교정치료기간을 단축시켜 줌
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            기존 메탈 브라켓과 비슷한 결찰 방식으로<br>
+                            마찰력이 생겨 약간의 통증이 있음
+                        </td>
+                        <td class="table-middle">통증</td>
+                        <td class="table-right">
+                            자가결찰 방식으로 마찰력이 줄여 통증이 적음
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            일반적인 치료기간인 약 평균 2년
+                        </td>
+                        <td class="table-middle">치료기간</td>
+                        <td class="table-right">
+                            똑딱이 장치를 이용하여 약 평균 1년 6개월로<br>
+                            치료기간을 단축
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
@@ -174,16 +178,10 @@
         <div class="max-layout-width">
             <h2 class="section-title">
                 <strong><span class="section-title-color">
-                    교정기간은 Down<br>
-                    치료결과는 Up<br>
+                    교정기간은 Down 치료결과는 Up<br>
                 </span></strong>
                 미소원치과의 <strong>치아교정 단계</strong>
             </h2>
-
-            <div class="numbers">
-                <span class="current">01</span>
-                <span class="max">04</span>
-            </div>
         </div>
         <div class="slider-container post-slider">
             <div class="left-fade-sldier posts">
@@ -330,29 +328,41 @@
 
     <section class="section08 treatment-case">
         <div class="max-layout-width">
+            <div class="text">
+                <h2>미소원치과 <strong>치료사례</strong></h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
+                </p>
+            </div>
             <div class="treatment-case-scroll-bar">
                 <div class="treatment-case-scroll-bar-drag"></div>
             </div>
             <div class="treatment-case-slider">
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
-            </div>
-            <div class="text">
-                <h2>미소원치과 치료사례</h2>
-                <p>
-                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
-                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
-                </p>
             </div>
         </div>
     </section>
@@ -369,19 +379,19 @@
                 <li>
                     <p>
                         <span>온라인 상담</span>
-                        <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="center-img">
                     <p>
                         <span>치료후기</span>
-                        <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="last-img">
                     <p>
                         <span>치료사례</span>
-                        <a href="<c:url value='/' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
             </ul>
@@ -407,5 +417,10 @@
                 $('.border').css('border-width', 80 - (Math.floor(pos)/2));
             }
         });
+
+        $('.list-content .pager').click(function () {
+            $('.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
     })
 </script>

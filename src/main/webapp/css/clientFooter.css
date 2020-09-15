@@ -108,7 +108,7 @@
 }
 
 .footer {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 .footer .max-layout-width {
@@ -130,7 +130,7 @@
     color: #111;
     display: block;
     padding: 0 23px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .footer-link li:before {
@@ -152,10 +152,21 @@
     margin-bottom: 13px;
     color: #222;
     letter-spacing: -1px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .footer-copyright {
     color: #8a8a8a;
-    font-size: 14px;
+    font-size: 13px;
 }
+
+.footer-line {
+    width: 1px;
+    height: 17px;
+    background: #888886;
+    display: inline-block;
+    vertical-align: -2px;
+    margin: 0 10px;
+}
+
+

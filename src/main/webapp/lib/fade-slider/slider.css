@@ -14,6 +14,7 @@
     display: inline-block;
     font-size: 0;
     position: relative;
+    width: 100%;
 }
 
 .post-slider .posts .slides.is-transition {
@@ -38,7 +39,7 @@
     box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
-    width: 370px;
+    width: 25%;
 }
 
 
@@ -70,6 +71,23 @@
     padding-top: 106.9767441860465%;
     background: #aaa;
     overflow: hidden;
+}
+
+.post-slider .swiper-slide {
+    position: relative;
+    cursor: pointer
+}
+
+.post-slider .swiper-slide:hover .text {
+    opacity: 1;
+}
+
+.post-slider .text {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: rgba(139,125,114, 0.8);
+    opacity: 0;
 }
 
 .post-slider .posts .post-item .img img {
@@ -222,6 +240,8 @@
 .left-fade-slider-container .max-layout-width h2 {
     line-height: 1.3;
     margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
 }
 
 .left-fade-slider-container .numbers {
@@ -265,7 +285,7 @@
 
 .left-fade-slider-container .img {
     width: 100%;
-    height: 341px;
+    height: 283px;
     max-width: 370px;
 }
 
@@ -277,11 +297,9 @@
 }
 
 .left-fade-slider-container .slider-container {
-    width: 50%;
-    position: absolute;
-    height: 590px;
-    top: 50px;
-    right: 0;
+    width: 1300px;
+    height: 420px;
+    margin: 0 auto;
 }
 
 .left-fade-slider-container .slick-current {
@@ -292,10 +310,11 @@
     height: 315px;
     background: #9b8b7e;
     margin-top: 56px;
+    display: none;
 }
 
 .left-fade-slider-container .text h2 {
-    margin-top: 40px;
+    margin-top: 80px;
     font-size: 23px;
     font-weight: bold;
     text-align: center;
@@ -313,8 +332,8 @@
     height: 120px;
     font-size: 17px;
     white-space: initial;
-    padding: 0 10px;
-    letter-spacing:-1px
+    padding: 0 19px;
+    letter-spacing:-1px;
 }
 
 /*fade-in-slider*/
@@ -345,6 +364,7 @@
 
 .fade-in-slider .swiper-slide .text {
     width: 360px;
+    padding-top: 45px;
 }
 
 .fade-in-slider .swiper-slide .text h2 {
@@ -369,13 +389,14 @@
 .fade-in-slider .number {
     font-size: 20px;
     font-weight: bold;
-    margin-top: 70px;
-    display: block;
+    margin-top: 70px !important;
+    display: none !important;
     margin-bottom: 20px;
 }
 
 .fade-in-slider .swiper-container {
     height: 460px;
+    position: relative;
 }
 
 .fade-in-slider .max-layout-width {
@@ -399,6 +420,40 @@
     transition: left 500ms;
     cursor: pointer;
 }
+
+.fade-in-slider .slick-arrow {
+    position: absolute;
+    bottom: 0;
+    width: 87px;
+    height: 68px;
+    display: inline-block !important;
+    text-indent: -999px;
+    cursor: pointer;
+    z-index: 11111111;
+}
+
+
+.fade-in-slider .slider-prev {
+    background: #f5f5f5 url(../../images/sub/implant/digital/left_arrow01.png) no-repeat center;
+}
+
+.fade-in-slider .slider-prev:before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 10px;
+    right: 0;
+    top: 50%;
+    background: #999;
+    margin-top: -4px;
+}
+
+
+.fade-in-slider .slider-next {
+    background: #f5f5f5 url(../../images/sub/implant/digital/right_arrow01.png) no-repeat center;
+    left: 87px;
+}
+
 
 /*text-slider*/
 
@@ -468,8 +523,8 @@
     float: left;
     width: 50%;
     background: #9b8b7e;
-    height: 68px;
-    line-height: 61px;
+    height: 53px;
+    line-height: 51px;
     color: #fff;
     font-size: 40px;
     box-sizing: border-box;

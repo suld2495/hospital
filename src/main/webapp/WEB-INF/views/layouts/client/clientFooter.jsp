@@ -18,9 +18,9 @@
             </li>
             <li class="last-footer-info">
                 <h3>정보</h3>
-                <p>상호 : 미소원치과 | 대표자 : 곽진원</p>
+                <p>상호 : 미소원치과 <span class="footer-line"></span> 대표자 : 곽진원</p>
                 <p>사업자등록번호 : 690-23-00971</p>
-                <p>TEL : <a class="tel text-decoration-none" href="tel:1899-7518">1899-7518</a> | FAX : 052-258-2874</p>
+                <p>TEL : <a class="tel text-decoration-none" href="tel:1899-7518">1899-7518</a> <span class="footer-line"></span> FAX : 052-258-2874</p>
                 <p>E-MAIL : misowondent@daum.net</p>
             </li>
         </ul>

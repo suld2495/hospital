@@ -18,8 +18,8 @@
     width: 33.333333333%;
     border-left: 1px solid #ddd;
     box-sizing: border-box;
-    height: 70px;
-    line-height: 70px;
+    height: 60px;
+    line-height: 60px;
     text-align: center;
     cursor: pointer;
     color: #222;
@@ -117,12 +117,17 @@
     color: #222;
 }
 
+.section02 .swiper-slide.slick-active {
+    opacity: 1;
+}
+
 .section02 .swiper-slide {
     float: left;
     height: 690px;
     margin-right: 50px;
     position: relative;
     outline: none;
+    opacity: 0.4;
 }
 
 .section02 .swiper-slide-active {
@@ -210,4 +215,8 @@
 .tab-contents.active {
     opacity: 1;
     z-index: 2;
+}
+
+.section01 .max-layout-width {
+    width: 1080px;
 }

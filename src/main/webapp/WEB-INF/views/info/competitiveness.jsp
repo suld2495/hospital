@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/wow/animate.css' />">
 <link rel="stylesheet" href="<c:url value="/css/info/competitiveness.css"/>" />
 
 <div class="sub-contents">
@@ -73,7 +74,7 @@
                             3차원으로 <strong>주변 치아와 거리, 각도, 신경 위치를 촬영</strong>하여,
                             환자 <strong>개인에게 최적화된 치과치료를 진행</strong>하고 있습니다.
                         </p>
-                        <span class="detail"><a href="<c:url value='/digital_implants' /> ">디지털 장비 보러가기</a></span>
+                        <span class="detail"><a></a></span>
                     </div>
                 </div>
             </div>
@@ -84,15 +85,13 @@
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
-            <h3 class="move-title bold" data-bottom="transform:translate3d(-50%,0, 0)" data-top="transform:translate3d(-5%,0,0)">INFECTION CONTROL</h3>
+            <h3 class="move-title bold wow slideInLeft">INFECTION CONTROL</h3>
             <div class="text">
                 <h2 class="section-title">
-                    미소원치과의<br>
                     <strong><span class="section-title-color">철저한 감염 관리 시스템</span></strong>
                 </h2>
                 <p class="section-text">
                     미소원치과에서는 핸드피스, 미러, 핀셋 등 진료에 <strong>사용되는 모든 기구를 꼼꼼히 세척 후 전용 파우치에 개별 패킹 처리하여 멸균</strong> 시킵니다.
-                    <br/>
                     또한, 환자에게 사용되는 <strong>석션 팁과 글러브는 일회용품을 사용하며 1인 진료 후 곧바로 폐기합니다.</strong>
                 </p>
                 <div class="display-inline-block full-layout-width">
@@ -156,20 +155,17 @@
                 이 진료 보증 제도는 <strong>자연치아를 살릴 수 있다는 미소원치과의 자신감</strong>입니다.
                 여러분의 평생 의료진이 되겠습니다.
             </p>
-            <span class="detail"><a href="<c:url value='/medical' /> ">자세히 보러가기</a></span>
+            <span class="detail"><a></a></span>
         </div>
     </section>
 </div>
 
-<script type="text/javascript" src="<c:url value='/lib/skrollr/skrollr.min.js' /> "></script>
 
-<!--[if lt IE 9]>
-<script type="text/javascript" src="<c:url value='/lib/skrollr/skrollr.ie.min.js' /> "></script>
-<![endif]-->
+<script src="<c:url value="/lib/wow/wow.js" />"></script>
 
 <script>
+    new WOW().init();
     $(function () {
-        var s = skrollr.init();
         var time = 5000;
 
         $('.tab').click(function() {

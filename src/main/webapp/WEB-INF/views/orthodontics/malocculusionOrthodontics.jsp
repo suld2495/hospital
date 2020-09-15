@@ -150,7 +150,7 @@
         </div>
     </section>
 
-    <div class="tab-contents tab-contents1 active">
+    <div class="tab-contents tab-contents1 active list-content">
         <section class="section04">
             <div class="image_box_left">
                 <p class="img toothimg01"></p>
@@ -161,12 +161,12 @@
                         <h2 class="section-title">
                             <span class="section-title-color bold">돌출입 교정이</span> 필요한 경우<br>
                         </h2>
-                        <p class="pager active"><span>01</span>돌출된 구강으로 인해 발음이 새거나 특정 발음이 어려운분</p><br>
-                        <p class="pager">치아가 제대로 맞물리지 않아 저작이 어려운 분</p><br>
-                        <p class="pager">뚱해보이고 부정적인 인상이 컴플렉스인 분</p><br>
-                        <p class="pager">입이 제대로 다물어지지 않아 입으로 호흡을 하시는 분</p><br>
-                        <p class="pager">비수술적인 방법으로 돌출입 개선을 원하시는 분</p><br>
-                        <p class="pager">돌출된 입이 콤플렉스인분</p><br>
+                        <p class="pager pointer active"><span>01</span>돌출된 구강으로 인해 발음이 새거나 특정 발음이 어려운분</p><br>
+                        <p class="pager pointer"><span>02</span>치아가 제대로 맞물리지 않아 저작이 어려운 분</p><br>
+                        <p class="pager pointer"><span>03</span>뚱해보이고 부정적인 인상이 컴플렉스인 분</p><br>
+                        <p class="pager pointer"><span>04</span>입이 제대로 다물어지지 않아 입으로 호흡을 하시는 분</p><br>
+                        <p class="pager pointer"><span>05</span>비수술적인 방법으로 돌출입 개선을 원하시는 분</p><br>
+                        <p class="pager pointer"><span>06</span>돌출된 입이 콤플렉스인분</p><br>
                     </div>
                 </div>
             </div>
@@ -189,7 +189,7 @@
         </section>
     </div>
 
-    <div class="tab-contents tab-contents2">
+    <div class="tab-contents tab-contents2 list-content">
         <section class="section04">
             <div class="image_box_left">
                 <p class="img toothimg02"></p>
@@ -200,12 +200,12 @@
                         <h2 class="section-title">
                             <span class="section-title-color bold">주걱턱 교정이</span> 필요한 경우<br>
                         </h2>
-                        <p class="pager active"><span>01</span>앞니로 면을 끊어 먹기 어려운 경우</p><br>
-                        <p class="pager">코 양쪽 옆이 푹 꺼져 팔자루름이 생기는 경우</p><br>
-                        <p class="pager">앞니끼리 맞물려 이가 깨지거나 마모가 심할 경우</p><br>
-                        <p class="pager">코 끝에서 턱 끝이 돌출되고 길어보이는 경우</p><br>
-                        <p class="pager">코를 통한 호흡이 힘들어주로 입을 통해 호흡을 할 경우</p><br>
-                        <p class="pager">위아래 앞니 사이에 공간이 생겨 정확한 발음이 어려운 경우</p><br>
+                        <p class="pager pointer active"><span>01</span>앞니로 면을 끊어 먹기 어려운 경우</p><br>
+                        <p class="pager pointer"><span>02</span>코 양쪽 옆이 푹 꺼져 팔자루름이 생기는 경우</p><br>
+                        <p class="pager pointer"><span>03</span>앞니끼리 맞물려 이가 깨지거나 마모가 심할 경우</p><br>
+                        <p class="pager pointer"><span>04</span>코 끝에서 턱 끝이 돌출되고 길어보이는 경우</p><br>
+                        <p class="pager pointer"><span>05</span>코를 통한 호흡이 힘들어주로 입을 통해 호흡을 할 경우</p><br>
+                        <p class="pager pointer"><span>06</span>위아래 앞니 사이에 공간이 생겨 정확한 발음이 어려운 경우</p><br>
                     </div>
                 </div>
             </div>
@@ -231,7 +231,7 @@
         </section>
     </div>
 
-    <div class="tab-contents tab-contents3">
+    <div class="tab-contents tab-contents3 list-contents">
         <section class="section04">
             <div class="image_box_left">
                 <p class="img toothimg03"></p>
@@ -242,12 +242,12 @@
                         <h2 class="section-title">
                             <span class="section-title-color bold">개방교합 교정이</span> 필요한 경우<br>
                         </h2>
-                        <p class="pager active"><span>01</span>앞니가 정상적인 절단기능을 하지 못해 앞니 사용이 불편하신 분</p><br>
-                        <p class="pager">위턱이 좁고 얼굴이 길어보이는 경우</p><br>
-                        <p class="pager">발음이 부정확할 경우</p><br>
-                        <p class="pager">입을 자연스럽게 다물기가 어렵고 입으로 숨쉬는 경우가 많을 경우</p><br>
-                        <p class="pager">고호흡으로 인해 구강건조증과 충치가 자주 생기는 분</p><br>
-                        <p class="pager">치아가 점점 돌출되는 경향이 생기는 분</p><br>
+                        <p class="pager pointer active"><span>01</span>앞니가 정상적인 절단기능을 하지 못해 앞니 사용이 불편하신 분</p><br>
+                        <p class="pager pointer"><span>02</span>위턱이 좁고 얼굴이 길어보이는 경우</p><br>
+                        <p class="pager pointer"><span>03</span>발음이 부정확할 경우</p><br>
+                        <p class="pager pointer"><span>04</span>입을 자연스럽게 다물기가 어렵고 입으로 숨쉬는 경우가 많을 경우</p><br>
+                        <p class="pager pointer"><span>05</span>고호흡으로 인해 구강건조증과 충치가 자주 생기는 분</p><br>
+                        <p class="pager pointer"><span>06</span>치아가 점점 돌출되는 경향이 생기는 분</p><br>
                     </div>
                 </div>
             </div>
@@ -274,7 +274,7 @@
         </section>
     </div>
 
-    <div class="tab-contents tab-contents4">
+    <div class="tab-contents tab-contents4 list-contents">
         <section class="section04">
             <div class="image_box_left">
                 <p class="img toothimg04"></p>
@@ -285,12 +285,12 @@
                         <h2 class="section-title">
                             <span class="section-title-color bold">과개교합 교정이</span> 필요한 경우<br>
                         </h2>
-                        <p class="pager active"><span>01</span>저작시 과도한 힘이 작용하여 턱 관절에 무리가 오는 경우</p><br>
-                        <p class="pager">윗니가 아랫니를 많이 덮어 아랫니가 잘 드러나지 않는 경우</p><br>
-                        <p class="pager">앞니 뒤쪽 입천장에 상처가 자주 나는 경우</p><br>
-                        <p class="pager">치아 마모가 빠르게 진행되어 치아관리가 어려운 경우</p><br>
-                        <p class="pager">부정교합과 치아 시림증상을 겪고 있는 경우</p><br>
-                        <p class="pager">상악 앞니의 잎천장 속으로 하악 앞니가 닿아 염증이 발생하는 경우</p><br>
+                        <p class="pager pointer active"><span>01</span>저작시 과도한 힘이 작용하여 턱 관절에 무리가 오는 경우</p><br>
+                        <p class="pager pointer"><span>02</span>윗니가 아랫니를 많이 덮어 아랫니가 잘 드러나지 않는 경우</p><br>
+                        <p class="pager pointer"><span>03</span>앞니 뒤쪽 입천장에 상처가 자주 나는 경우</p><br>
+                        <p class="pager pointer"><span>04</span>치아 마모가 빠르게 진행되어 치아관리가 어려운 경우</p><br>
+                        <p class="pager pointer"><span>05</span>부정교합과 치아 시림증상을 겪고 있는 경우</p><br>
+                        <p class="pager pointer"><span>06</span>상악 앞니의 잎천장 속으로 하악 앞니가 닿아 염증이 발생하는 경우</p><br>
                     </div>
                 </div>
             </div>
@@ -486,29 +486,41 @@
 
     <section class="section10 treatment-case">
         <div class="max-layout-width">
+            <div class="text">
+                <h2>미소원치과 <strong>치료사례</strong></h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
+                </p>
+            </div>
             <div class="treatment-case-scroll-bar">
                 <div class="treatment-case-scroll-bar-drag"></div>
             </div>
             <div class="treatment-case-slider">
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
-            </div>
-            <div class="text">
-                <h2>미소원치과 치료사례</h2>
-                <p>
-                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
-                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
-                </p>
             </div>
         </div>
     </section>
@@ -525,19 +537,19 @@
                 <li>
                     <p>
                         <span>온라인 상담</span>
-                        <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="center-img">
                     <p>
                         <span>치료후기</span>
-                        <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="last-img">
                     <p>
                         <span>치료사례</span>
-                        <a href="<c:url value='/' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
             </ul>
@@ -557,5 +569,25 @@
             $('.tab-contents').removeClass('active');
             $('.tab-contents' + (index + 1)).addClass('active');
         });
+
+        $('.tab-contents1.list-content .pager').click(function () {
+            $('.tab-contents1.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
+
+        $('.tab-contents2.list-content .pager').click(function () {
+            $('.tab-contents2.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
+
+        $('.tab-contents3.list-contents .pager').click(function () {
+            $('.tab-contents3.list-contents .pager').removeClass('active');
+            $(this).addClass('active');
+        })
+
+        $('.tab-contents4.list-contents .pager').click(function () {
+            $('.tab-contents4.list-contents .pager').removeClass('active');
+            $(this).addClass('active');
+        })
     });
 </script>

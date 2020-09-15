@@ -39,14 +39,11 @@
     </section>
 
     <section class="section02">
-        <div class="image_box_right">
-            <p class="img"></p>
-        </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
                     <h2 class="section-title">
-                        성장기 성격 형성에 <span class="section-title-color"><strong>긍정적인<br>효과를 기대</strong></span>할 수 있는 치아교정
+                        성장기 성격 형성에 <span class="section-title-color"><strong>긍정적인 효과를<br> 기대</strong></span>할 수 있는 치아교정
                     </h2>
                     <p class="section-text">
                         치아에 콤플렉스가 있는 청소년들은 성장기 치아교정으로 사회성과 대인관계 형성에 자신감을 회복 또는 부여할 수 있습니다.
@@ -60,35 +57,20 @@
                 </div>
             </div>
         </div>
-        <div class="bg"></div>
     </section>
 
-    <section class="section03">
+    <section class="section03 list-content">
         <div class="max-layout-width">
+            <div class="image_box_right">
+                <p class="img"></p>
+            </div>
             <h2 class="section-title">
-                성장기 교정이 <strong>필요한 경우</strong>
+                <span class="section-title-color">성장기 교정이</span> 필요한 경우<br>
             </h2>
-            <p class="section-text">
-                성장기에 있는 아이들의 교정치료는 얼굴형을 바로 잡아주는 것이 아주 중요한 치료입니다.
-            </p>
-            <ul>
-                <li>
-                    <img src="<c:url value='/images/sub/orthodontics/grow/icon05.png' /> ">
-                    <p>한쪽으로 씹는 습관으로<br>부정교합이 생긴 경우</p>
-                </li>
-                <li>
-                    <img src="<c:url value='/images/sub/orthodontics/grow/icon06.png' /> ">
-                    <p>윗니와 아랫니가 반대로<br>물리는 경우(주걱턱)</p>
-                </li>
-                <li>
-                    <img src="<c:url value='/images/sub/orthodontics/grow/icon07.png' /> ">
-                    <p>아래턱의 성장이 적은 무턱의<br>증상인 경우</p>
-                </li>
-                <li>
-                    <img src="<c:url value='/images/sub/orthodontics/grow/icon08.png' /> ">
-                    <p>선척적 부정교합이 있는 경우<br>(유전)</p>
-                </li>
-            </ul>
+            <p class="pager active"><span></span>한쪽으로 씹는 습관으로 부정교합이 생긴 경우</p><br>
+            <p class="pager"><span></span>윗니와 아랫니가 반대로 물리는 경우 (주걱턱)</p><br>
+            <p class="pager"><span></span>아래턱의 성장이 적은 무턱의 증상인 경우</p><br>
+            <p class="pager"><span></span>선천적 부정교합이 있는 경우 (유전)</p><br>
         </div>
     </section>
 
@@ -115,29 +97,41 @@
 
     <section class="section07 treatment-case">
         <div class="max-layout-width">
+            <div class="text">
+                <h2>미소원치과 <strong>치료사례</strong></h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
+                </p>
+            </div>
             <div class="treatment-case-scroll-bar">
                 <div class="treatment-case-scroll-bar-drag"></div>
             </div>
             <div class="treatment-case-slider">
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
-            </div>
-            <div class="text">
-                <h2>미소원치과 치료사례</h2>
-                <p>
-                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
-                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
-                </p>
             </div>
         </div>
     </section>
@@ -154,19 +148,19 @@
                 <li>
                     <p>
                         <span>온라인 상담</span>
-                        <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="center-img">
                     <p>
                         <span>치료후기</span>
-                        <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="last-img">
                     <p>
                         <span>치료사례</span>
-                        <a href="<c:url value='/' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
             </ul>
@@ -177,3 +171,13 @@
 <script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script src="<c:url value="/js/cmmn/slider.js" />"></script>
+
+
+<script>
+    $(function () {
+        $('.list-content .pager').click(function () {
+            $('.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
+    })
+</script>

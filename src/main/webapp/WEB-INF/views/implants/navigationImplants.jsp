@@ -62,11 +62,13 @@
 
     <section class="section03">
         <div class="max-layout-width">
+            <div class="text">
+                <h2>네비게이션 임플란트 이런 분에게 추천해요</h2>
+            </div>
             <div class="image_box_left">
                 <p class="img"></p>
             </div>
             <div class="text">
-                <h2>네비게이션 임플란트 이런 분에게 추천해요</h2>
                 <ul>
                     <li class="img01"><p><strong>내원 횟수를 줄이고</strong><br>싶으신 환자분</p></li>
                     <li class="img02"><p>임플란트의 <strong>통증과 출혈의<br> 두려움이 크신</strong> 환자분</p></li>
@@ -92,12 +94,12 @@
                 미소원치과의 네비게이션 임플란트가 사랑받는 진짜 이유를 알려드립니다!
             </p>
             <p class="pager active"><span>01</span>잘못된 수술로 인한 부작용 최소화 (이물감,빠짐,흔들림,신경손상)</p><br>
-            <p class="pager">최소절개로 수술 시 출혈,통증,붓기 감소</p><br>
-            <p class="pager">내원 횟수 단축, 더욱 빨라지는 치료 기간</p><br>
-            <p class="pager">임플란트 수술 후 회복기간 감소</p><br>
-            <p class="pager">치아 교합을 정확히 고려한 임플란트 수술</p><br>
-            <p class="pager">건물 내 상주하는 기공실에서 나에게 꼭 맞는 보철물 제작</p><br>
-            <p class="pager">오랜 시간이 지나도 계속 사용할 수 있는 임플란트</p><br>
+            <p class="pager"><span>02</span>최소절개로 수술 시 출혈,통증,붓기 감소</p><br>
+            <p class="pager"><span>03</span>내원 횟수 단축, 더욱 빨라지는 치료 기간</p><br>
+            <p class="pager"><span>04</span>임플란트 수술 후 회복기간 감소</p><br>
+            <p class="pager"><span>05</span>치아 교합을 정확히 고려한 임플란트 수술</p><br>
+            <p class="pager"><span>06</span>건물 내 상주하는 기공실에서 나에게 꼭 맞는 보철물 제작</p><br>
+            <p class="pager"><span>07</span>오랜 시간이 지나도 계속 사용할 수 있는 임플란트</p><br>
         </div>
         <div class="bg">
         </div>
@@ -131,16 +133,10 @@
         <div class="max-layout-width">
             <h2 class="section-title">
                 <strong><span class="section-title-color">
-                    모의시술 / 최소 절개<br>
-                    빠른 회복 / 높은 성공률<br>
+                    모의시술 / 최소 절개 / 빠른 회복 / 높은 성공률<br>
                 </span></strong>
                 네비게이션 임플란트 <strong>치료 단계</strong>
             </h2>
-
-            <div class="numbers">
-                <span class="current">01</span>
-                <span class="max">04</span>
-            </div>
         </div>
         <div class="slider-container post-slider">
             <div class="left-fade-sldier posts">
@@ -198,100 +194,114 @@
     <section class="section07 table">
         <div class="max-layout-width">
             <h2><strong>일반 임플란트</strong>와 <strong>네비게이션 임플란트</strong>의 차이점은?</h2>
-            <div class="cont con01">
-                <ul>
-                    <li class="table-left">일반 임플란트</li>
-                    <li class="table-middle">VS</li>
-                    <li class="table-right">디지털 임플란트</li>
-                </ul>
-            </div>
-            <div class="cont con02">
-                <ul>
-                    <li class="table-left"><div class="img01"></div></li>
-                    <li class="table-middle">시술 방법</li>
-                    <li class="table-right"><div class="img02"></div></li>
-                </ul>
-            </div>
-            <div class="cont con03">
-                <ul>
-                    <li class="table-left">
-                        잇몸 절개로 많은 출혈과 붓기 동반되며<br>
-                        회복기간이 길어지고 염증감염 위험 높음
-                    </li>
-                    <li class="table-middle">절개</li>
-                    <li class="table-right">
-                        최소 절개로 붓기와 출혈, 감염위험이 줄어들어<br>
-                        빠른 회복이 가능
-                    </li>
-                </ul>
-            </div>
-            <div class="cont con04">
-                <ul>
-                    <li class="table-left">
-                        2차원적 치아 상태만<br>
-                        확인가능
-                    </li>
-                    <li class="table-middle">촬영</li>
-                    <li class="table-right">
-                        3D CT 촬영으로<br>
-                        정확한 치아정보 확인가능
-                    </li>
-                </ul>
-            </div>
-            <div class="cont con05">
-                <ul>
-                    <li class="table-left">
-                        채득이 어렵고 불편한<br>
-                        고무인상을 통한 아날로그 방식
-                    </li>
-                    <li class="table-middle">인상 채득</li>
-                    <li class="table-right">
-                        3차원 영상스캔 장비를 통해<br>
-                        편안한 촬영
-                    </li>
-                </ul>
-            </div>
-            <div class="cont con06">
-                <ul>
-                    <li class="table-left">
-                        의사의 경험에만 의존한<br>
-                        식립계획
-                    </li>
-                    <li class="table-middle">분석</li>
-                    <li class="table-right">
-                        구강스캔데이터와 CT데이터로<br>
-                        정확한 계획
-                    </li>
-                </ul>
-            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-left">일반 임플란트</th>
+                        <th class="table-middle">VS</th>
+                        <th class="table-right">디지털 임플란트</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table-left">
+                            <div class="img01">
+                                <img src="<c:url value='/images/sub/implant/navigation/navi11.jpg'/>">
+                            </div>
+                        </td>
+                        <td class="table-middle">시술 방법</td>
+                        <td class="table-right">
+                            <div class="img02">
+                                <img src="<c:url value='/images/sub/implant/navigation/navi12.jpg'/>">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            잇몸 절개로 많은 출혈과 붓기 동반되며<br>
+                            회복기간이 길어지고 염증감염 위험 높음
+                        </td>
+                        <td class="table-middle">절개</td>
+                        <td class="table-right">
+                            최소 절개로 붓기와 출혈, 감염위험이 줄어들어<br>
+                            빠른 회복이 가능
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            2차원적 치아 상태만<br>
+                            확인가능
+                        </td>
+                        <td class="table-middle">촬영</td>
+                        <td class="table-right">
+                            3D CT 촬영으로<br>
+                            정확한 치아정보 확인가능
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            채득이 어렵고 불편한<br>
+                            고무인상을 통한 아날로그 방식
+                        </td>
+                        <td class="table-middle">인상 채득</td>
+                        <td class="table-right">
+                            3차원 영상스캔 장비를 통해<br>
+                            편안한 촬영
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            의사의 경험에만 의존한<br>
+                            식립계획
+                        </td>
+                        <td class="table-middle">분석</td>
+                        <td class="table-right">
+                            구강스캔데이터와 CT데이터로<br>
+                            정확한 계획
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
     <section class="section09 treatment-case">
         <div class="max-layout-width">
+            <div class="text">
+                <h2>미소원치과 <strong>치료사례</strong></h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
+                </p>
+            </div>
             <div class="treatment-case-scroll-bar">
                 <div class="treatment-case-scroll-bar-drag"></div>
             </div>
             <div class="treatment-case-slider">
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
-            </div>
-            <div class="text">
-                <h2>미소원치과 치료사례</h2>
-                <p>
-                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
-                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
-                </p>
             </div>
         </div>
     </section>
@@ -308,19 +318,19 @@
                 <li>
                     <p>
                         <span>온라인 상담</span>
-                        <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="center-img">
                     <p>
                         <span>치료후기</span>
-                        <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="last-img">
                     <p>
                         <span>치료사례</span>
-                        <a href="<c:url value='/' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
             </ul>
@@ -335,3 +345,12 @@
 <script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script src="<c:url value="/js/cmmn/slider.js" />"></script>
+
+<script>
+    $(function () {
+        $('.list-content .pager').click(function () {
+            $('.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
+    })
+</script>

@@ -92,12 +92,12 @@
                     <h2 class="section-title">
                         <span class="section-title-color bold">스케일링</span>이 필요한 경우<br>
                     </h2>
-                    <p class="pager active"><span>01</span>그리 심하지 않은 초기 잇몸 질환 증상이 있는 경우</p><br>
-                    <p class="pager">잇몸 질환으로 양치를 할 때 잇몸에서 피가 나는 경우</p><br>
-                    <p class="pager">치석이나 착색이 있는 경우</p><br>
-                    <p class="pager">잇몸 수술 전 치석제거가 필요한 경우</p><br>
-                    <p class="pager">양치질 후에도 입 냄새가 심한 경우</p><br>
-                    <p class="pager">흡연자 및 잇몸질환이 있는 경우</p><br>
+                    <p class="pager pointer active"><span>01</span>그리 심하지 않은 초기 잇몸 질환 증상이 있는 경우</p><br>
+                    <p class="pager pointer"><span>02</span>잇몸 질환으로 양치를 할 때 잇몸에서 피가 나는 경우</p><br>
+                    <p class="pager pointer"><span>03</span>치석이나 착색이 있는 경우</p><br>
+                    <p class="pager pointer"><span>04</span>잇몸 수술 전 치석제거가 필요한 경우</p><br>
+                    <p class="pager pointer"><span>05</span>양치질 후에도 입 냄새가 심한 경우</p><br>
+                    <p class="pager pointer"><span>06</span>흡연자 및 잇몸질환이 있는 경우</p><br>
                 </div>
             </div>
         </div>
@@ -207,29 +207,41 @@
 
     <section class="section08 treatment-case">
         <div class="max-layout-width">
+            <div class="text">
+                <h2>미소원치과 <strong>치료사례</strong></h2>
+                <p>
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
+                </p>
+            </div>
             <div class="treatment-case-scroll-bar">
                 <div class="treatment-case-scroll-bar-drag"></div>
             </div>
             <div class="treatment-case-slider">
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
                 <div class="treatment-case-swiper-slide">
-                    <div class="left-img left-img1"></div>
-                    <div class="right-img right-img1"></div>
+                    <div class="left-img left-img1">
+                        <div class="text-title">BEFORE</div>
+                    </div>
+                    <div class="right-img right-img1">
+                        <div class="text-title">AFTER</div>
+                    </div>
                 </div>
-            </div>
-            <div class="text">
-                <h2>미소원치과 치료사례</h2>
-                <p>
-                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
-                    <strong>개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.</strong>
-                </p>
             </div>
         </div>
     </section>
@@ -246,19 +258,19 @@
                 <li>
                     <p>
                         <span>온라인 상담</span>
-                        <a href="<c:url value='/online-consult' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="center-img">
                     <p>
                         <span>치료후기</span>
-                        <a href="<c:url value='/review' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
                 <li class="last-img">
                     <p>
                         <span>치료사례</span>
-                        <a href="<c:url value='/' /> "><span class="view">VIEW</span></a>
+                        <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
             </ul>
@@ -272,8 +284,8 @@
 <script>
     $(function() {
         $('.text-slider .slider').on('init', function(slick){
-            $('.text-slider .slider-arrow').append($('.slider-prev'));
-            $('.text-slider .slider-arrow').append($('.slider-next'));
+            $('.text-slider .slider-arrow').append($('.text-slider .slider-prev'));
+            $('.text-slider .slider-arrow').append($('.text-slider .slider-next'));
         });
         $('.text-slider .slider').slick({
             infinite: true,
@@ -287,5 +299,10 @@
             prevArrow: '<span class="slider-prev"><</span>',
             nextArrow: '<span class="slider-next">></span>'
         });
+
+        $('.list-content .pager').click(function () {
+            $('.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
     });
 </script>
