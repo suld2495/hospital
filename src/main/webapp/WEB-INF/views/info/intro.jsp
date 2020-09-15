@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/wow/animate.css' />">
 <link rel="stylesheet" href="<c:url value="/css/info/intro.css"/>" />
 
 <div class="sub-contents">
@@ -20,7 +21,7 @@
                     안전하고 체계적으로 치아의 기능과 심미성을 되찾아드립니다.<br>
                     만족스러운 결과를 위해 최선을 다하는 미소원치과입니다.
                 </p>
-                <h3 class="move-title" data-top="transform:translate3d(50%,0,0)" data-top="transform:translate3d(0%,0,0)">MISOWON DENTAL CLINIC</h3>
+                <h3 class="move-title wow slideInRight">MISOWON DENTAL CLINIC</h3>
             </div>
         </div>
     </section>
@@ -28,7 +29,7 @@
     <section class="section02">
         <div class="max-layout-width">
             <div class="text-box left-text-box">
-                <h3 class="move-title" data-bottom="transform:translate3d(-50%,0,0)" data-top="transform:translate3d(0%,0,0)">COOPERATIVE</h3>
+                <h3 class="move-title wow slideInLeft">COOPERATIVE</h3>
                 <h2 class="section-title last-section-title">
                     <span class="section-title-color">의료진 <strong>협진진료 시스템</strong></span><br>
                     미소원치과
@@ -53,7 +54,7 @@
         </div>
         <div class="max-layout-width">
             <div class="text-box left-text-box">
-                <h3 class="move-title" data-bottom="transform:translate3d(50%,0, 0)" data-top="transform:translate3d(0%,0,0)">SYSTEMATIC</h3>
+                <h3 class="move-title wow slideInRight">SYSTEMATIC</h3>
                 <h2 class="section-title last-section-title">
                     <span class="section-title-color"><strong>최첨단장비</strong>를 통한</span><br>
                     체계적인 시스템
@@ -71,7 +72,7 @@
     <section class="section04">
         <div class="max-layout-width">
             <div class="text-box left-text-box">
-                <h3 class="move-title" data-bottom="transform:translate3d(-50%,0,0)" data-top="transform:translate3d(0%,0,0)">STERILIZATION</h3>
+                <h3 class="move-title wow slideInLeft">STERILIZATION</h3>
                 <h2 class="section-title last-section-title">
                     <span class="section-title-color">안심할 수 있는 <strong>철저한</strong></span><br>
                     <strong>감염 관리 시스템</strong>
@@ -98,42 +99,42 @@
                         <div>
                             <div class="img_bg img_bg1"></div>
                         </div>
-                        <h5>POINT 01.</h5>
+                        <h5>Point <span>01</span></h5>
                         <p>고객중심 1:1 맞춤 진료</p>
                     </li>
                     <li>
                         <div>
                             <div class="img_bg img_bg2"></div>
                         </div>
-                        <h5>POINT 02.</h5>
+                        <h5>Point <span>02</span></h5>
                         <p>통증과 부작용을 최소화</p>
                     </li>
                     <li>
                         <div>
                             <div class="img_bg img_bg3"></div>
                         </div>
-                        <h5>POINT 03.</h5>
+                        <h5>Point <span>03</span></h5>
                         <p>건물내 상주 협력기공소</p>
                     </li>
                     <li>
                         <div class="img-bg-box">
                             <div class="img_bg img_bg4"></div>
                         </div>
-                        <h5>POINT 04.</h5>
+                        <h5>Point <span>04</span></h5>
                         <p>고난도 케이스도 가능한 기술력</p>
                     </li>
                     <li>
                         <div class="img-bg-box">
                             <div class="img_bg img_bg5"></div>
                         </div>
-                        <h5>POINT 05.</h5>
+                        <h5>Point <span>05</span></h5>
                         <p>철저한 멸균시스템</p>
                     </li>
                     <li>
                         <div class="img-bg-box">
                             <div class="img_bg img_bg6"></div>
                         </div>
-                        <h5>POINT 06.</h5>
+                        <h5>Point <span>06</span></h5>
                         <p>첨단장비 시스템 사용</p>
                     </li>
                 </ul>
@@ -164,14 +165,8 @@
     </section>
 </div>
 
-<script type="text/javascript" src="<c:url value='/lib/skrollr/skrollr.min.js' /> "></script>
-
-<!--[if lt IE 9]>
-<script type="text/javascript" src="<c:url value='/lib/skrollr/skrollr.ie.min.js' /> "></script>
-<![endif]-->
+<script src="<c:url value="/lib/wow/wow.js" />"></script>
 
 <script>
-    $(function () {
-        var s = skrollr.init();
-    })
+    new WOW().init();
 </script>

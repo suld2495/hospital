@@ -102,10 +102,12 @@
     color: #222;
     margin-bottom: 16px;
     letter-spacing: -2.2px;
+    font-family: KCC !important;
 }
 
 .title span {
     color: #9c8c7f;
+    font-family: KCC !important;
 }
 
 .text-dec {

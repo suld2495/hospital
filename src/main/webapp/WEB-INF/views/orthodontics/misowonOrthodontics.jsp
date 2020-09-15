@@ -115,58 +115,62 @@
     <section class="section05">
         <div class="max-layout-width">
             <h2><strong>세리믹 교정</strong>과 <strong>클리피씨 교정</strong>의 차이점은?</h2>
-            <div class="cont con01">
-                <ul>
-                    <li class="table-left">세라믹 교정</li>
-                    <li class="table-middle">VS</li>
-                    <li class="table-right">클리피씨 교정</li>
-                </ul>
-            </div>
-            <div class="cont con02">
-                <ul>
-                    <li class="table-left"><div class="img01"></div></li>
-                    <li class="table-middle">장치</li>
-                    <li class="table-right"><div class="img02"></div></li>
-                </ul>
-            </div>
-            <div class="cont con03">
-                <ul>
-                    <li class="table-left">
-                        가장 기본적인 치아교정방법으로 치아색과<br>
-                        비슷한 소재로 눈에 잘 띄지않아 심미성이 좋음
-                    </li>
-                    <li class="table-middle">특징</li>
-                    <li class="table-right">
-                        세라믹 교정장치와 비슷하나 연결 브라켓의<br>
-                        똑딱이 장치를 이용하여 오직 치아에게만 힘을 가하여<br>
-                        교정치료기간을 단축시켜 줌
-                    </li>
-                </ul>
-            </div>
-            <div class="cont con04">
-                <ul>
-                    <li class="table-left">
-                        기존 메탈 브라켓과 비슷한 결찰 방식으로<br>
-                        마찰력이 생겨 약간의 통증이 있음
-                    </li>
-                    <li class="table-middle">통증</li>
-                    <li class="table-right">
-                        자가결찰 방식으로 마찰력이 줄여 통증이 적음
-                    </li>
-                </ul>
-            </div>
-            <div class="cont con05">
-                <ul>
-                    <li class="table-left">
-                        일반적인 치료기간인<br>약 평균 2년
-                    </li>
-                    <li class="table-middle">치료기간</li>
-                    <li class="table-right">
-                        똑딱이 장치를 이용하여 약 평균 1년 6개월로<br>
-                        치료기간을 단축
-                    </li>
-                </ul>
-            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="table-left">세라믹 교정</th>
+                        <th class="table-middle">VS</th>
+                        <th class="table-right">클리피씨 교정</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table-left">
+                            <div class="img01">
+                                <img src="<c:url value='/images/sub/orthodontics/misowonOrthodontics/orthodontics05.jpg'/>">
+                            </div>
+                        </td>
+                        <td class="table-middle">장치</td>
+                        <td class="table-right">
+                            <div class="img02">
+                                <img src="<c:url value='/images/sub/orthodontics/misowonOrthodontics/orthodontics06.jpg'/>">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            가장 기본적인 치아교정방법으로 치아색과<br>
+                            비슷한 소재로 눈에 잘 띄지않아 심미성이 좋음
+                        </td>
+                        <td class="table-middle">특징</td>
+                        <td class="table-right">
+                            세라믹 교정장치와 비슷하나 연결 브라켓의<br>
+                            똑딱이 장치를 이용하여 오직 치아에게만 힘을 가하여<br>
+                            교정치료기간을 단축시켜 줌
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            기존 메탈 브라켓과 비슷한 결찰 방식으로<br>
+                            마찰력이 생겨 약간의 통증이 있음
+                        </td>
+                        <td class="table-middle">통증</td>
+                        <td class="table-right">
+                            자가결찰 방식으로 마찰력이 줄여 통증이 적음
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">
+                            일반적인 치료기간인 약 평균 2년
+                        </td>
+                        <td class="table-middle">치료기간</td>
+                        <td class="table-right">
+                            똑딱이 장치를 이용하여 약 평균 1년 6개월로<br>
+                            치료기간을 단축
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 

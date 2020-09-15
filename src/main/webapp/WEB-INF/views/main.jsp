@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="section02 position-relative max-layout-width wow fadeInUp">
-        <h2>디지털치과의 현재 <span>미소원치과</span></h2>
+        <h2>디지털치과의 현재 <span class="section-title-color"><strong>미소원치과</strong></span></h2>
         <p>3D CT, CEREC SYSTEM, 최상의 장비를 바탕으로 개인의 상태에 꼭 맞는 맞춤진료를 합니다 </p>
         <div class="display-inline-block">
             <ul>
@@ -74,7 +74,7 @@
         <div class="max-layout-width">
             <div class="text">
                 <h4>앞선 디지털 장비와 기술에</h4>
-                <h4><span>마음을 담은 양심적인 진료</span>를</h4>
+                <h4><span><strong>마음을 담은 양심적인 진료</strong></span>를</h4>
                 <h4>약속합니다</h4>
                 <p>진보된 디지털 기술에 따뜻한 마음을 담아 최상의 치료를 경험할 수 있는</p>
                 <p>진료환경을 제공합니다.</p>
@@ -99,7 +99,7 @@
     <div class="section04 wow fadeInUp" data-wow-delay="500ms">
         <div class="text max-layout-width position-relative">
             <h4>늘 후회없는 선택을 하는 당신</h4>
-            <h4><span>미소원치과는 완벽한 선택</span>입니다</h4>
+            <h4><span><strong>미소원치과는 완벽한 선택</strong></span>입니다</h4>
             <p>다녀가신 환자분들의 후기로 현재의 미소원치과를 만나보세요</p>
             <span class="details-link pointer"><a href="<c:url value='/review/1'/>">자세히보기</a></span>
         </div>
@@ -126,7 +126,7 @@
             <div class="max-layout-width">
                 <h2 class="section-title">
                     정직하게 진료하고<br>
-                    <span class="section-title-color">연구하는 의료진</span>
+                    <span class="section-title-color"><strong>연구하는 의료진</strong></span>
                 </h2>
                 <p class="section-text">
                     미소원치과의 의료진은 끊임없이 연구하며 환자를 최우선으로 생각하고 언제나 최선의 결과로 보답합니다.
@@ -392,7 +392,7 @@
     </div>
     <div class="section09 wow fadeInUp" data-wow-delay="500ms">
         <div class="max-layout-width">
-            <h4>미소원치과 미리보기</h4>
+            <h4>미소원치과 <strong>미리보기</strong></h4>
             <p>따듯한 공간에서 편안하게 진료받으세요.</p>
             <div class="tour-slide">
                 <c:forEach begin="1" end="10" varStatus="status">

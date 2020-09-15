@@ -415,12 +415,13 @@
     width: 180px;
 }
 
+
 .table-left, .table-right {
     width: 559px;
     font-size: 16px;
-    padding: 18px 0px;
     line-height: 1.55;
     letter-spacing: -1px;
+    vertical-align: middle;
 }
 
 .table-middle {
@@ -428,8 +429,6 @@
     font-size: 21px;
     font-weight: bold;
     box-sizing: border-box;
-    border-left: 1px solid #8f8f8f;
-    border-right: 1px solid #8f8f8f;
     letter-spacing: -2px;
 }
 
@@ -439,11 +438,6 @@
 
 .cont li {
     float: left;
-}
-
-.cont {
-    text-align: center;
-    border-bottom: 1px solid #8f8f8f;
 }
 
 .cont.con01 {
@@ -517,4 +511,35 @@
 
 .section09 {
     margin-top: 90px;
+}
+
+.table td, .table th {
+    border: 1px solid #8f8f8f;
+    text-align: center;
+    background: #fff;
+    vertical-align: middle;
+}
+
+.table th {
+    height: 58px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.table th.table-left {
+    background: #8f8f8f;
+    color: #fff;
+    font-size: 22px;
+}
+
+.table th.table-middle {
+    background: #8f8f8f;
+    color: #fff;
+    background: #222;
+}
+
+.table th.table-right {
+    background: #9b8b7e;
+    color: #fff;
+    font-size: 22px;
 }

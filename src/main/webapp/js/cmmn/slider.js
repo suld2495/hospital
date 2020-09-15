@@ -4,6 +4,10 @@ $(function() {
         var index = (currentSlide.slickCurrentSlide()) % 3;
         $('.treatment-case-scroll-bar-drag').css('left',  width * index + 'px');
     });
+    $('.treatment-case-slider').on('init', function(slick){
+        $('.treatment-case-slider').append($('.treatment-case-slider .slider-prev'));
+        $('.treatment-case-slider').append($('.treatment-case-slider .slider-next'));
+    });
     $('.treatment-case-slider').slick({
         infinite: true,
         dots: false,

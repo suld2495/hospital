@@ -19,12 +19,14 @@ body {
     font-size: 39px;
     margin-bottom: 25px;
     letter-spacing: -3px;
+    font-weight: 200;
 }
 
 .section02 > p {
     font-size: 16px;
     margin-bottom: 58px;
     letter-spacing: -0.9px;
+    color: #9c9c9c;
 }
 
 .contents-text-box {
@@ -284,6 +286,7 @@ body {
     font-size: 38px;
     margin-bottom: 14px;
     letter-spacing: -4px;
+    font-weight: 200;
 }
 
 .section03 .text h4 span, .section04 .text h4 span {
@@ -294,6 +297,7 @@ body {
     margin-top: 36px;
     margin-bottom: 10px;
     letter-spacing: -1px;
+    color: #9c9c9c;
 }
 
 .section03 .text p {
@@ -452,7 +456,7 @@ body {
     position: relative;
     display: inline-block;
     letter-spacing: -3px;
-    font-weight: normal;
+    font-weight: 200;
 }
 
 .section06 h4:after {
@@ -537,6 +541,7 @@ body {
 .section07 h4 {
     font-size: 38px;
     letter-spacing: -3px;
+    font-weight: 200;
 }
 
 .section07 h4 span {
@@ -557,7 +562,7 @@ body {
 .section07 h5 {
     margin-top: 46px;
     font-size: 34px;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 26px;
     letter-spacing: -2px;
 }
@@ -621,7 +626,7 @@ body .section07 .bx-pager-link span + span {
 
 .section08 h4 {
     font-size: 38px;
-    font-weight: bold;
+    font-weight: 600;
     padding-bottom: 34px;
     position: relative;
     border-bottom: 1px solid #111;
@@ -746,7 +751,7 @@ body .section07 .bx-pager-link span + span {
     font-size: 38px;
     margin-bottom: 26px;
     letter-spacing: -2px;
-    font-weight: 600;
+    font-weight: 200;
 }
 
 .section09 h4 + p {
@@ -871,6 +876,7 @@ body .section07 .bx-pager-link span + span {
     padding-top: 32px;
     margin-bottom: 9px;
     letter-spacing: -3px;
+    font-weight: 200;
 }
 
 .section05 .section-text {
@@ -1211,4 +1217,8 @@ body .section07 .bx-pager-link span + span {
 
 .section01 .bx-controls {
     display: none;
+}
+
+.section-text {
+    color: #9c9c9c
 }

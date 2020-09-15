@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<link rel="stylesheet" href="<c:url value='/lib/wow/animate.css' />">
 <link rel="stylesheet" href="<c:url value="/css/info/competitiveness.css"/>" />
 
 <div class="sub-contents">
@@ -84,7 +85,7 @@
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
-            <h3 class="move-title bold" data-bottom="transform:translate3d(-50%,0, 0)" data-top="transform:translate3d(-5%,0,0)">INFECTION CONTROL</h3>
+            <h3 class="move-title bold wow slideInLeft">INFECTION CONTROL</h3>
             <div class="text">
                 <h2 class="section-title">
                     <strong><span class="section-title-color">철저한 감염 관리 시스템</span></strong>
@@ -159,15 +160,12 @@
     </section>
 </div>
 
-<script type="text/javascript" src="<c:url value='/lib/skrollr/skrollr.min.js' /> "></script>
 
-<!--[if lt IE 9]>
-<script type="text/javascript" src="<c:url value='/lib/skrollr/skrollr.ie.min.js' /> "></script>
-<![endif]-->
+<script src="<c:url value="/lib/wow/wow.js" />"></script>
 
 <script>
+    new WOW().init();
     $(function () {
-        var s = skrollr.init();
         var time = 5000;
 
         $('.tab').click(function() {

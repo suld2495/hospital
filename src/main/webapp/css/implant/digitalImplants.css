@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'ramaraja';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/ramaraja/Ramaraja-Regular.woff') format('woff') /* Modern Browsers */
+}
+
 .section01 .image_box_left {
     width: 50%;
     max-width: 1276px;
@@ -223,13 +230,16 @@
 
 .section04 ul li p {
     padding-top: 22px;
-    font-size: 59px;
+    font-size: 89px;
     margin-bottom: 21px;
     letter-spacing: -1px;
     position: absolute;
     top: -70px;
     width: 100%;
     color: #9c8c7f;
+    font-family: ramaraja !important;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .section04 ul li h5 {
