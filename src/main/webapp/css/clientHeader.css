@@ -5,14 +5,14 @@ header .header-banner-slider-continer .bx-wrapper {
 }
 
 .header-panel .header-banner-slider-continer {
-    padding-top: 3px;
+    padding-top: 16px;
 }
 
 .header-banner-close {
-    width: 58px;
+    width: 32px;
     height: 18px;
     color: #fff;
-    background: #333;
+    background: #333 url(../images/main/banner_close.png) no-repeat center;
     padding-left: 8px;
     line-height: 16px;
     box-sizing: border-box;
@@ -96,6 +96,7 @@ header .header-banner-slider-continer .bx-wrapper {
     height: 18px;
     border: 1px solid #d1d1d1;
     left: 85px;
+    background: url(../images/main/arrow_left00.png) no-repeat center;
 }
 
 .bx-wrapper .bx-controls-direction a.bx-next {
@@ -104,6 +105,7 @@ header .header-banner-slider-continer .bx-wrapper {
     border: 1px solid #d1d1d1;
     border-left: none;
     left: 103px;
+    background: url(../images/main/arrow_right00.png) no-repeat center;
 }
 
 header .cmmn-nav nav ol li {
@@ -125,6 +127,7 @@ header .cmmn-nav nav ol li a {
     height: 18px;
     display: inline-block;
     letter-spacing: -1.5px;
+    font-size: 16.5px;
 }
 
 header .cmmn-nav nav ol li:first-child {
@@ -162,6 +165,7 @@ header nav .nav-detail > li {
     overflow: hidden;
     padding-bottom: 10px;
     border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
     height: 309px;
     display: none;
 }
@@ -179,7 +183,7 @@ header nav .nav-detail > li .title {
 header nav .nav-detail > li .title h2 {
     font-size: 38px;
     color: #9b8b7e;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 40px;
 }
 
@@ -187,6 +191,7 @@ header nav .nav-detail > li .title p {
     line-height: 1.5;
     font-size: 17px;
     color: #222;
+    /* font-weight: 300; */
 }
 
 header nav .nav-detail > li .sub-category {
@@ -195,13 +200,13 @@ header nav .nav-detail > li .sub-category {
 }
 
 header nav .nav-detail > li .sub-category li a {
-    font-size: 15px;
+    font-size: 16px;
     color: #222;
     margin-bottom: 19px;
     display: inline-block;
     position: relative;
     padding-right: 5px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 header nav .nav-detail > li .sub-category li a:hover {
@@ -276,4 +281,8 @@ header.active {
 
 header.active .fixed {
     position: fixed;
+}
+
+header nav {
+    border-bottom: 1px solid #bbb;
 }
