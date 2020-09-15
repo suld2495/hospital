@@ -456,7 +456,7 @@ section.board-link ul li {
 
 .board-link ul li p span.view:after {
     border: 1px solid #fff;
-    background: url(../images/main/more.png) no-repeat center;
+    background: url(../images/sub/implant/cmmn/more.png) no-repeat center;
     content: '';
     position: absolute;
     right: -64px;

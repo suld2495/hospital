@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <c:set var="path" value="${requestScope['javax.servlet.forward.servlet_path']}" />
-<c:set var="array" value="${fn:split('미소원치과,임플란트,디지털 치아교정,자연치아 클리닉,커뮤니티,개인정보,회원로그인,회원가입,마이페이지',',')}"/>
+<c:set var="array" value="${fn:split('미소원치과,임플란트,치아교정,자연치아 클리닉,커뮤니티,개인정보,회원로그인,회원가입,마이페이지',',')}"/>
 <c:set var="urlArray" value="${fn:split('/intro,/digital_implants,/misowon_orthodontics,/general,/notice,/login,/member_agreement,/mypage_reservation',',')}"/>
 
 <div class="sub">

@@ -171,13 +171,16 @@
 }
 
 .section05 {
-    background: #9a8b7e;
-    padding-bottom: 64px;
+    padding-bottom: 14px;
+    background: url(../../images/sub/implant/oneday/oneday_bg2.jpg);
+}
+
+.section05 .image_box_right + .text {
+    padding-top: 0;
 }
 
 .section05 .text {
     padding-top: 81px;
-    padding-right: 50%;
 }
 
 .section05 .text h2 {
@@ -188,15 +191,17 @@
 }
 
 .section05 ul {
-    padding-top: 50px;
+    padding-top: 10px;
     box-sizing: border-box;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .section05 .image_box_right {
     width: 790px;
     height: 374px;
-    top: 49px;
-    right: -138px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .section05 .img {
@@ -205,6 +210,7 @@
 
 .section05 .max-layout-width {
     position: relative;
+    text-align: center;
 }
 
 .section05 .text ul {
@@ -212,10 +218,9 @@
 }
 
 .section05 .text li {
-    padding-left: 120px;
     box-sizing: border-box;
     float: left;
-    width: 50%;
+    width: 25%;
     position: relative;
 }
 
@@ -223,31 +228,31 @@
     line-height: 1.7;
     color: #fff;
     letter-spacing: -1px;
+    padding-top: 90px;
 }
 
 .section05 .text .img01 {
-    background: url(../../images/sub/implant/oneday/oneday_icon01.png) no-repeat left top;
+    background: url(../../images/sub/implant/oneday/oneday_icon01.png) no-repeat center top;
     padding-top: 27px;
     padding-bottom: 27px;
     /* margin-bottom: 40px; */
-    background-position-x: 23px;
 }
 
 .section05 .text .img02 {
-    background: url(../../images/sub/implant/oneday/oneday_icon02.png) no-repeat left top;
+    background: url(../../images/sub/implant/oneday/oneday_icon02.png) no-repeat center top;
     padding-top: 27px;
     padding-bottom: 27px;
     margin-bottom: 13px;
 }
 
 .section05 .text .img03 {
-    background: url(../../images/sub/implant/oneday/oneday_icon03.png) no-repeat left top;
+    background: url(../../images/sub/implant/oneday/oneday_icon03.png) no-repeat center top;
     padding-top: 20px;
     padding-bottom: 27px;
 }
 
 .section05 .text .img04 {
-    background: url(../../images/sub/implant/oneday/oneday_icon04.png) no-repeat left top;
+    background: url(../../images/sub/implant/oneday/oneday_icon04.png) no-repeat center top;
     padding-top: 20px;
     padding-bottom: 27px;
 }

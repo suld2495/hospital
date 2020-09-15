@@ -135,15 +135,17 @@
         <div class="max-layout-width">
             <div class="text">
                 <h2><strong>원데이 임플란트</strong> 이런 분에게 <strong>추천해요</strong></h2>
+            </div>
+            <div class="image_box_right">
+                <p class="img"></p>
+            </div>
+            <div class="text">
                 <ul>
                     <li class="img01"><p>심한 충치로 인해<br><strong>치아를 뽑아야</strong> 하는 분</p></li>
                     <li class="img02"><p>외상이나 사고 등으로<br> <strong>치아가 빠진지</strong> 얼마안되신 분</p></li>
                     <li class="img03"><p><strong>신경치료</strong>로 증상이<br>해결되지 않는 분</p></li>
                     <li class="img04"><p>치주질환(풍치)때문에<br><strong>치아를 뽑아야</strong>하는 분</p></li>
                 </ul>
-            </div>
-            <div class="image_box_right">
-                <p class="img"></p>
             </div>
         </div>
     </section>
