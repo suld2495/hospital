@@ -82,7 +82,7 @@
 .section02 li p {
     line-height: 1.5;
     font-size: 17px;
-    font-weight: bold;
+    font-weight: 500;
     color: #222;
     margin-top: 13px;
     letter-spacing: -1px;
@@ -110,7 +110,7 @@
 }
 
 .section03 {
-    margin-top: 66px;
+    margin-top: 112px;
 }
 
 .section03 .max-layout-width .text {
@@ -224,7 +224,7 @@
 }
 
 .section04 {
-    margin-top: 134px;
+    margin-top: 195px;
 }
 
 .section04 .section-title {
@@ -270,7 +270,7 @@
     position: relative;
     padding-left: 40px;
     display: inline-block;
-    font-weight: bold;
+    font-weight: 500;
     /* cursor: pointer; */
     letter-spacing: -1px;
 }
@@ -308,7 +308,7 @@
 
 .section05 {
     height: 333px;
-    margin-top: 119px;
+    margin-top: 179px;
 }
 
 .section05 .max-layout-width {
@@ -350,9 +350,9 @@
 }
 
 .section06 {
-    padding-top: 86px;
+    padding-top: 114px;
     background: #f5f5f5;
-    padding-bottom: 96px;
+    padding-bottom: 165px;
 }
 
 .section06 .section-title {
@@ -523,8 +523,8 @@
 }
 
 .text-slider {
-    margin-top: 70px;
-    /* padding-bottom: 34px; */
+    margin-top: 104px;
+    padding-bottom: 38px;
 }
 
 .text-slider .section-text {

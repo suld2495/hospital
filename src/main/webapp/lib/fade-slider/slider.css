@@ -477,23 +477,26 @@
 }
 
 .text-slider .slick-slide .text h2 {
-    font-size: 25px;
-    line-height: 1.4;
+    font-size: 28px;
+    line-height: 1.2;
     margin-bottom: 55px;
     color: #222;
+    letter-spacing: -1px;
 }
 
 .text-slider .slick-slide .text h3 {
-    font-size: 55px;
+    font-size: 89px;
     font-weight: bold;
     color: #e4e4e4;
-    margin-bottom: 25px;
+    margin-bottom: -3px;
+    font-family: ramaraja !important;
 }
 
 .text-slider .slick-slide .text p {
-    line-height: 1.4;
+    line-height: 1.5;
     width: 324px;
     word-break: keep-all;
+    letter-spacing: -1px;
 }
 
 .text-slider .section-text,

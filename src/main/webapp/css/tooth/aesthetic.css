@@ -59,7 +59,7 @@
 
 .section02 {
     text-align: center;
-    padding-top: 81px;
+    padding-top: 88px;
 }
 
 .section02 .section-title {
@@ -81,9 +81,9 @@
 }
 
 .section02 li p {
-    line-height: 1.5;
+    line-height: 1.4;
     font-size: 17px;
-    font-weight: bold;
+    font-weight: 500;
     color: #222;
     margin-top: 13px;
     letter-spacing: -1px;
@@ -116,16 +116,17 @@
 
 .section03 {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 88px;
 }
 
 .section03 .section-title {
-    line-height: 1.3;
-    margin-bottom: 3px;
+    line-height: 1.25;
+    margin-bottom: 0px;
 }
 
 .section03 .section-text {
     margin-bottom: 50px;
+    color: #9c9c9c;
 }
 
 .section03 .tab ul {
@@ -202,7 +203,7 @@
 
 .section04 .tab-contents img + div h2 {
     font-size: 38px;
-    font-weight: bold;
+    font-weight: 500;
     text-align: left;
     margin-bottom: 33px;
     letter-spacing: -2.5px;
@@ -230,7 +231,7 @@
 }
 
 .section05 {
-    margin-top: 39px;
+    margin-top: 102px;
 }
 
 .section05 .max-layout-width .text {
@@ -305,7 +306,7 @@
 }
 
 .section06 {
-    margin-top: 125px;
+    margin-top: 170px;
 }
 
 .section06 .section-title {
@@ -357,7 +358,7 @@ p.img allceramic {
     position: relative;
     padding-left: 40px;
     display: inline-block;
-    font-weight: bold;
+    font-weight: 500;
     /* cursor: pointer; */
     letter-spacing: -1px;
 }
@@ -462,7 +463,7 @@ p.img allceramic {
 }
 
 .section11 {
-    margin-top: 108px;
+    margin-top: 166px;
     height: 626px;
 }
 
@@ -530,7 +531,7 @@ p.img allceramic {
 
 
 .section12 {
-    margin-top: 88px;
+    margin-top: 128px;
 }
 
 .section12 .section-title {
@@ -584,7 +585,7 @@ p.img.allceramic{
     position: relative;
     padding-left: 31px;
     display: inline-block;
-    font-weight: bold;
+    font-weight: 500;
     /* cursor: pointer; */
     letter-spacing: -1px;
 }
@@ -633,7 +634,7 @@ p.img.allceramic{
 }
 
 .section13 {
-    margin-top: 75px;
+    margin-top: 108px;
 }
 
 .section13 .max-layout-width h2 {
@@ -764,31 +765,36 @@ p.img.allceramic{
 
 .text-slider {
     background: #f3f3f3;
-    margin-top: 107px;
+    margin-top: 170px;
     padding-top: 71px;
     padding-bottom: 87px;
 }
 
 .text-slider .section-text {
     margin-bottom: 50px;
+    color: #9c9c9c;
 }
 
 .left-fade-slider-container {
-    margin-top: 99px;
+    margin-top: 113px;
 }
+
+
 
 .section09  {
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
-.text-slider .slick-slide .text p {
+.text-slider .slick-slide .text
+    p {
     line-height: 1.6;
     width: 324px;
     word-break: keep-all;
     letter-spacing:-1px;
 }
 
-.text-slider .slick-slide .text h2 {
+.text-slider .slick-slide .text
+    h2 {
     font-size: 31px;
     line-height: 1.35;
     margin-bottom: 55px;
@@ -801,3 +807,5 @@ p.img.allceramic{
     background: #9b8b7e;
     margin-top: 56px;
 }
+ 
+
