@@ -529,3 +529,14 @@ section.board-link ul li {
 .header-banner-slider-continer01 img {
     width: 100%;
 }
+
+.list-content .pager.active span {
+    display: block;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    top: 1px;
+    background: url(../images/sub/orthodontics/grow/check_small.png);
+    width: 28px;
+    height: 24px;
+}
