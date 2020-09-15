@@ -6,7 +6,7 @@
     position: relative;
     background-size: cover;
     box-sizing: border-box;
-    padding-top: 80px;
+    padding-top: 104px;
     height: 100%;
 }
 
@@ -127,7 +127,7 @@
 }
 
 .sub-image {
-    height: 322px;
+    height: 379px;
     background-size: cover;
     background-position: center;
 }

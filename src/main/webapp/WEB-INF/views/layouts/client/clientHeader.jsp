@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <div>
-    <div class="header-banner-slider-continer">
+    <div class="header-banner-slider-continer header-banner-slider-continer01">
         <div class="header-banner-slider">
             <div><img src="<c:url value='/images/cmmn/top_banner01_1.jpg' />" alt="미소원치과에서 임플란트로 새 삶을 찾다!"></div>
         </div>

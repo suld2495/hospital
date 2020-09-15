@@ -522,3 +522,7 @@ section.board-link ul li {
     height: 35px;
     bottom: -6px;
 }
+
+.header-banner-slider-continer01 img {
+    width: 100%;
+}

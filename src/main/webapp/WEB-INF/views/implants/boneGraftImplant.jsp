@@ -83,15 +83,15 @@
             <h2>뼈이식 임플란트 <strong>진행과정</strong></h2>
             <ul>
                 <li class="img img01">
-                    <h5>1단계</h5>
+                    <h5>1 STEP</h5>
                     <p>잇몸뼈가 얼마나 부족한지<br>상태 확인</p>
                 </li>
                 <li class="img img02">
-                    <h5>2단계</h5>
+                    <h5>2 STEP</h5>
                     <p>환자에게 가장 적합한<br>이식재료로 뼈 이식 진행</p>
                 </li>
                 <li class="img img03">
-                    <h5>3단계</h5>
+                    <h5>3 STEP</h5>
                     <p>임플란트 식립 및<br>보철물 장착해 치료마무리</p>
                 </li>
             </ul>
