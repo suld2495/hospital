@@ -93,36 +93,41 @@
 }
 
 .section03 {
-    background: #9a8b7e;
-    padding-bottom: 58px;
+    background: url(../../images/sub/implant/navigation/navi_bg.jpg);
+    padding-bottom: 0px;
+}
+
+.section03 .image_box_left + .text {
+    padding-top: 0px;
 }
 
 .section03 .text {
-    padding-top: 72px;
-    padding-left: 50%;
+    padding-top: 86px;
+    text-align: center;
 }
 
 .section03 .text h2 {
-    font-size: 33px;
+    font-size: 34px;
     color: #fff;
     font-weight: 500;
     letter-spacing: -2px;
 }
 
 .section03 ul {
-    padding-top: 50px;
+    padding-top: 47px;
     box-sizing: border-box;
 }
 
 .section03 .image_box_left {
     width: 790px;
     height: 374px;
-    top: 47px;
-    left: -102px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .section03 .img {
     background: url(../../images/sub/implant/bone/bone04.png) no-repeat center;
+    margin-top: 20px;
 }
 
 .section03 .max-layout-width {
@@ -131,32 +136,36 @@
 
 .section03 .text ul {
     overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .section03 .text li {
-    padding-left: 120px;
+    /* padding-left: 117px; */
     box-sizing: border-box;
     float: left;
-    width: 50%;
+    width: 25%;
     position: relative;
 }
 
 .section03 .text li p {
-    line-height: 1.7;
+    line-height: 1.6;
     color: #fff;
-    letter-spacing: -1px;
+    letter-spacing: -1.3px;
+    font-size: 18px;
+    padding-top: 100px;
 }
 
+
 .section03 .text .img01 {
-    background: url(../../images/sub/implant/bone/bone_icon01.png) no-repeat left top;
+    background: url(../../images/sub/implant/bone/bone_icon01.png) no-repeat center top;
     padding-top: 27px;
     padding-bottom: 26px;
     margin-bottom: 40px;
-    background-position-x: 10px;
 }
 
 .section03 .text .img02 {
-    background: url(../../images/sub/implant/bone/bone_icon02.png) no-repeat left top;
+    background: url(../../images/sub/implant/bone/bone_icon02.png) no-repeat center top;
     padding-top: 27px;
     padding-bottom: 27px;
     margin-bottom: 39px;
@@ -164,13 +173,13 @@
 }
 
 .section03 .text .img03 {
-    background: url(../../images/sub/implant/bone/bone_icon03.png) no-repeat left top;
+    background: url(../../images/sub/implant/bone/bone_icon03.png) no-repeat center top;
     padding-top: 20px;
     padding-bottom: 27px;
 }
 
 .section03 .text .img04 {
-    background: url(../../images/sub/implant/bone/bone_icon04.png) no-repeat left top;
+    background: url(../../images/sub/implant/bone/bone_icon04.png) no-repeat center top;
     padding-top: 20px;
     padding-bottom: 27px;
 }
@@ -384,4 +393,30 @@ section.board-link {
 
 .treatment-case {
     margin-top: 150px;
+}
+
+
+.text-slider {
+    margin-top: 150px;
+    /* padding-bottom: 34px; */
+}
+
+.text-slider .section-text {
+    margin-bottom: 45px;
+}
+
+
+.text-slider .slick-slide .text p {
+    line-height: 1.6;
+    width: 324px;
+    word-break: keep-all;
+    letter-spacing:-1px;
+}
+
+.text-slider .slick-slide .text h2 {
+    font-size: 31px;
+    line-height: 1.35;
+    margin-bottom: 55px;
+    color: #222;
+    letter-spacing: -1.5px;
 }

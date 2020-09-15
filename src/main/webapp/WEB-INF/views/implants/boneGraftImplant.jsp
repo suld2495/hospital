@@ -61,11 +61,13 @@
 
     <section class="section03">
         <div class="max-layout-width">
+            <div class="text">
+                <h2><strong>뼈이식 임플란트</strong> 이런 분에게 <strong>추천해요</strong></h2>
+            </div>
             <div class="image_box_left">
                 <p class="img"></p>
             </div>
             <div class="text">
-                <h2><strong>뼈이식 임플란트</strong> 이런 분에게 <strong>추천해요</strong></h2>
                 <ul>
                     <li class="img01"><p><strong>치아를 상실한지</strong> 오랜<br>시간이 흐른 환자분</p></li>
                     <li class="img02"><p>오랜기간 <strong>틀니나 브릿지를<br> 사용해</strong> 잇몸이 약해진 경우</p></li>
@@ -118,7 +120,64 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section06"></section>
+    <section class="section07 text-slider">
+        <h2 class="section-title">
+            고난이도 뼈 이식술은 <strong class="section-title-color">의료진의 실력과</strong><br>
+            <strong class="section-title-color">경험이 매우 중요한</strong> 시술입니다.
+        </h2>
+        <p class="section-text">
+            미소원치과는 풍부한 임상경험과 노하우로 뼈가 부족한 임플란트 케이스도 자신있습니다.
+        </p>
+        <div class="slider">
+            <div>
+                <div class="text">
+                    <h2>
+                        <strong>3D CT를 통한 정밀한<br> 3차원적인 형태분석 및<br> 다년간의 임상경험</strong>
+                    </h2>
+                    <h3>01</h3>
+                    <p>
+                        미소원치과는 다년간의 경력과 임상경험을 통해 개인별로 다 다른 상태에 맞추어 최상의 의료서비스 제공이 가능합니다. 첨단 3D CT 진단을 통해 철저한 검진과 세심한 상담을 통해 원하는
+                        임플란트 수술을 진행합니다.
+                    </p>
+                </div>
+                <div class="img img01">
+                    <img src="<c:url value='/images/sub/implant/bone/bone09.jpg' />">
+                </div>
+            </div>
+            <div>
+                <div class="text">
+                    <h2>
+                        <strong>임플란트 수술 중<br> 가장 난이도가 높은<br> 상악동 거상술도 가능</strong>
+                    </h2>
+                    <h3>02</h3>
+                    <p>
+                        미소원치과의 임플란트 전문 의료진은 수많은 수술 경험과 노하우를 통해, 난이도가 높은 수술도 안정적으로 진행하고 있습니다. 오랫동안 안정적으로 임플란트를 사용하기 위한 맞춤치료를 하고 있습니다.
+                    </p>
+                </div>
+                <div class="img img02">
+                    <img src="<c:url value='/images/sub/implant/bone/bone10.jpg' />">
+                </div>
+            </div>
+            <div>
+                <div class="text">
+                    <h2>
+                        <strong>정품 뼈이식재료만을<br> 사용</strong>
+                    </h2>
+                    <h3>03</h3>
+                    <p>
+                        미소원치과는 생체적합성이 뛰어난 제품을 사용하며 한국 식약청, 미국FDA 인증을 받은 정품 재료로 안정성이 확보가 된 안전한 뼈이식재료를 사용하고 있습니다.
+                    </p>
+                </div>
+                <div class="img img03">
+                    <img src="<c:url value='/images/sub/implant/bone/bone11.jpg' />">
+                </div>
+            </div>
+        </div>
+        <div class="slider-arrow-container">
+            <div class="slider-arrow"></div>
+        </div>
+    </section>
+
     <section class="treatment-case">
         <div class="max-layout-width">
             <div class="text">
@@ -199,3 +258,24 @@
 <script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script src="<c:url value="/js/cmmn/slider.js" />"></script>
+
+<script>
+    $(function () {
+        $('.text-slider .slider').on('init', function(slick){
+            $('.text-slider .slider-arrow').append($('.text-slider .slider-prev'));
+            $('.text-slider .slider-arrow').append($('.text-slider .slider-next'));
+        });
+        $('.text-slider .slider').slick({
+            infinite: true,
+            dots: false,
+            arrows: true,
+            slidesToShow: 1,
+            centerMode: true,
+            variableWidth: true,
+            autoplay: false,
+            autoplaySpeed: 4000,
+            prevArrow: '<span class="slider-prev"><</span>',
+            nextArrow: '<span class="slider-next">></span>'
+        });
+    })
+</script>

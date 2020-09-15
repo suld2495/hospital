@@ -284,8 +284,8 @@
 <script>
     $(function() {
         $('.text-slider .slider').on('init', function(slick){
-            $('.text-slider .slider-arrow').append($('.slider-prev'));
-            $('.text-slider .slider-arrow').append($('.slider-next'));
+            $('.text-slider .slider-arrow').append($('.text-slider .slider-prev'));
+            $('.text-slider .slider-arrow').append($('.text-slider .slider-next'));
         });
         $('.text-slider .slider').slick({
             infinite: true,
