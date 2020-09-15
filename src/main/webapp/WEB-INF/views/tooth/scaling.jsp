@@ -92,12 +92,12 @@
                     <h2 class="section-title">
                         <span class="section-title-color bold">스케일링</span>이 필요한 경우<br>
                     </h2>
-                    <p class="pager active"><span>01</span>그리 심하지 않은 초기 잇몸 질환 증상이 있는 경우</p><br>
-                    <p class="pager">잇몸 질환으로 양치를 할 때 잇몸에서 피가 나는 경우</p><br>
-                    <p class="pager">치석이나 착색이 있는 경우</p><br>
-                    <p class="pager">잇몸 수술 전 치석제거가 필요한 경우</p><br>
-                    <p class="pager">양치질 후에도 입 냄새가 심한 경우</p><br>
-                    <p class="pager">흡연자 및 잇몸질환이 있는 경우</p><br>
+                    <p class="pager pointer active"><span>01</span>그리 심하지 않은 초기 잇몸 질환 증상이 있는 경우</p><br>
+                    <p class="pager pointer"><span>02</span>잇몸 질환으로 양치를 할 때 잇몸에서 피가 나는 경우</p><br>
+                    <p class="pager pointer"><span>03</span>치석이나 착색이 있는 경우</p><br>
+                    <p class="pager pointer"><span>04</span>잇몸 수술 전 치석제거가 필요한 경우</p><br>
+                    <p class="pager pointer"><span>05</span>양치질 후에도 입 냄새가 심한 경우</p><br>
+                    <p class="pager pointer"><span>06</span>흡연자 및 잇몸질환이 있는 경우</p><br>
                 </div>
             </div>
         </div>
@@ -299,5 +299,10 @@
             prevArrow: '<span class="slider-prev"><</span>',
             nextArrow: '<span class="slider-next">></span>'
         });
+
+        $('.list-content .pager').click(function () {
+            $('.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
     });
 </script>

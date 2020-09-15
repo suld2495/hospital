@@ -62,11 +62,13 @@
 
     <section class="section03">
         <div class="max-layout-width">
+            <div class="text">
+                <h2>네비게이션 임플란트 이런 분에게 추천해요</h2>
+            </div>
             <div class="image_box_left">
                 <p class="img"></p>
             </div>
             <div class="text">
-                <h2>네비게이션 임플란트 이런 분에게 추천해요</h2>
                 <ul>
                     <li class="img01"><p><strong>내원 횟수를 줄이고</strong><br>싶으신 환자분</p></li>
                     <li class="img02"><p>임플란트의 <strong>통증과 출혈의<br> 두려움이 크신</strong> 환자분</p></li>
@@ -92,12 +94,12 @@
                 미소원치과의 네비게이션 임플란트가 사랑받는 진짜 이유를 알려드립니다!
             </p>
             <p class="pager active"><span>01</span>잘못된 수술로 인한 부작용 최소화 (이물감,빠짐,흔들림,신경손상)</p><br>
-            <p class="pager">최소절개로 수술 시 출혈,통증,붓기 감소</p><br>
-            <p class="pager">내원 횟수 단축, 더욱 빨라지는 치료 기간</p><br>
-            <p class="pager">임플란트 수술 후 회복기간 감소</p><br>
-            <p class="pager">치아 교합을 정확히 고려한 임플란트 수술</p><br>
-            <p class="pager">건물 내 상주하는 기공실에서 나에게 꼭 맞는 보철물 제작</p><br>
-            <p class="pager">오랜 시간이 지나도 계속 사용할 수 있는 임플란트</p><br>
+            <p class="pager"><span>02</span>최소절개로 수술 시 출혈,통증,붓기 감소</p><br>
+            <p class="pager"><span>03</span>내원 횟수 단축, 더욱 빨라지는 치료 기간</p><br>
+            <p class="pager"><span>04</span>임플란트 수술 후 회복기간 감소</p><br>
+            <p class="pager"><span>05</span>치아 교합을 정확히 고려한 임플란트 수술</p><br>
+            <p class="pager"><span>06</span>건물 내 상주하는 기공실에서 나에게 꼭 맞는 보철물 제작</p><br>
+            <p class="pager"><span>07</span>오랜 시간이 지나도 계속 사용할 수 있는 임플란트</p><br>
         </div>
         <div class="bg">
         </div>
@@ -131,16 +133,10 @@
         <div class="max-layout-width">
             <h2 class="section-title">
                 <strong><span class="section-title-color">
-                    모의시술 / 최소 절개<br>
-                    빠른 회복 / 높은 성공률<br>
+                    모의시술 / 최소 절개 / 빠른 회복 / 높은 성공률<br>
                 </span></strong>
                 네비게이션 임플란트 <strong>치료 단계</strong>
             </h2>
-
-            <div class="numbers">
-                <span class="current">01</span>
-                <span class="max">04</span>
-            </div>
         </div>
         <div class="slider-container post-slider">
             <div class="left-fade-sldier posts">
@@ -347,3 +343,12 @@
 <script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script src="<c:url value="/js/cmmn/slider.js" />"></script>
+
+<script>
+    $(function () {
+        $('.list-content .pager').click(function () {
+            $('.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
+    })
+</script>

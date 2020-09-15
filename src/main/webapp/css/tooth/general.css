@@ -989,3 +989,7 @@
         opacity: 0;
     }
 }
+
+.left-fade-slider-container .slider-container {
+    height: 280px;
+}

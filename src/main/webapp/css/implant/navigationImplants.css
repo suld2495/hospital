@@ -231,13 +231,17 @@
 }
 
 .section03 {
-    background: #9a8b7e;
-    padding-bottom: 70px;
+    background: url(../../images/sub/implant/navigation/navi_bg.jpg);
+    padding-bottom: 0px;
+}
+
+.section03 .image_box_left + .text {
+    padding-top: 0px;
 }
 
 .section03 .text {
     padding-top: 86px;
-    padding-left: 50%;
+    text-align: center;
 }
 
 .section03 .text h2 {
@@ -255,12 +259,13 @@
 .section03 .image_box_left {
     width: 790px;
     height: 374px;
-    top: 62px;
-    left: -143px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .section03 .img {
     background: url(../../images/sub/implant/navigation/navi04.png) no-repeat center;
+    margin-top: 20px;
 }
 
 .section03 .max-layout-width {
@@ -269,13 +274,15 @@
 
 .section03 .text ul {
     overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .section03 .text li {
-    padding-left: 117px;
+    /* padding-left: 117px; */
     box-sizing: border-box;
     float: left;
-    width: 50%;
+    width: 25%;
     position: relative;
 }
 
@@ -284,30 +291,31 @@
     color: #fff;
     letter-spacing: -1.3px;
     font-size: 18px;
+    padding-top: 100px;
 }
 
 .section03 .text .img01 {
-    background: url(../../images/sub/implant/navigation/navi_icon01.png) no-repeat left top;
+    background: url(../../images/sub/implant/navigation/navi_icon01.png) no-repeat center top;
     padding-top: 27px;
     padding-bottom: 27px;
     margin-bottom: 40px;
 }
 
 .section03 .text .img02 {
-    background: url(../../images/sub/implant/navigation/navi_icon02.png) no-repeat left top;
+    background: url(../../images/sub/implant/navigation/navi_icon02.png) no-repeat center top;
     padding-top: 27px;
     padding-bottom: 27px;
     margin-bottom: 40px;
 }
 
 .section03 .text .img03 {
-    background: url(../../images/sub/implant/navigation/navi_icon03.png) no-repeat left top;
+    background: url(../../images/sub/implant/navigation/navi_icon03.png) no-repeat center top;
     padding-top: 20px;
     padding-bottom: 27px;
 }
 
 .section03 .text .img04 {
-    background: url(../../images/sub/implant/navigation/navi_icon04.png) no-repeat left top;
+    background: url(../../images/sub/implant/navigation/navi_icon04.png) no-repeat center top;
     padding-top: 20px;
     padding-bottom: 27px;
 }
@@ -391,7 +399,9 @@
 }
 
 .section07 {
-    margin-top: 98px;
+    /* margin-top: 98px; */
+    background: #f3f3f3;
+    padding: 123px 0;
 }
 
 .section07 .max-layout-width h2 {

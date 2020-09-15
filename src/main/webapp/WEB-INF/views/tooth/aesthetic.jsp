@@ -129,12 +129,12 @@
                         <h2 class="section-title">
                             <span class="section-title-color bold">라미네이트 치료</span>가 필요한 경우<br>
                         </h2>
-                        <p class="pager active"><span>01</span>앞니가 벌어지거나 틀어져 자신있게 웃을 수 없는 경우</p><br>
-                        <p class="pager">치아교정을 하고 싶지만 시간상 여유와 비용때문에 고민인 경우</p><br>
-                        <p class="pager">치아가 착색되거나 변색이 된 경우</p><br>
-                        <p class="pager">치아 모양이 올바르지 않고 치아 간의 크기가 다른 경우</p><br>
-                        <p class="pager">앞니에 생긴 충치를 해결하고 싶으신 경우</p><br>
-                        <p class="pager">선천적으로 치아 형태가 이상한 경우</p><br>
+                        <p class="pager pointer active"><span>01</span>앞니가 벌어지거나 틀어져 자신있게 웃을 수 없는 경우</p><br>
+                        <p class="pager pointer"><span>02</span>치아교정을 하고 싶지만 시간상 여유와 비용때문에 고민인 경우</p><br>
+                        <p class="pager pointer"><span>03</span>치아가 착색되거나 변색이 된 경우</p><br>
+                        <p class="pager pointer"><span>04</span>치아 모양이 올바르지 않고 치아 간의 크기가 다른 경우</p><br>
+                        <p class="pager pointer"><span>05</span>앞니에 생긴 충치를 해결하고 싶으신 경우</p><br>
+                        <p class="pager pointer"><span>06</span>선천적으로 치아 형태가 이상한 경우</p><br>
                     </div>
                 </div>
             </div>
@@ -218,16 +218,11 @@
             <div class="max-layout-width">
                 <h2 class="section-title">
                     <strong><span class="section-title-color">
-                    내 치아의 부족한 부분을 채워주는<br>
+                    내 치아의 부족한 부분을 채워주는
                 </span></strong>
                     미소원 치과의<br>
                     <strong>라미네이트 치료단계</strong>
                 </h2>
-
-                <div class="numbers">
-                    <span class="current">01</span>
-                    <span class="max">04</span>
-                </div>
             </div>
             <div class="slider-container post-slider">
                 <div class="left-fade-sldier posts">
@@ -486,11 +481,6 @@
                 </span></strong>
                     미소원 치과의<br> <strong>올세라믹 크라운 치료단계</strong>
                 </h2>
-
-                <div class="numbers">
-                    <span class="current">01</span>
-                    <span class="max">04</span>
-                </div>
             </div>
             <div class="slider-container post-slider">
                 <div class="left-fade-sldier posts">
@@ -678,5 +668,10 @@
             prevArrow: '<span class="slider-prev"><</span>',
             nextArrow: '<span class="slider-next">></span>'
         });
+
+        $('.list-content .pager').click(function () {
+            $('.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
     })
 </script>

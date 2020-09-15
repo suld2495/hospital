@@ -99,12 +99,12 @@
                     <p class="section-text">
                         교정치과 선택시 꼭 확인하세요!
                     </p>
-                    <p class="pager active"><span>01</span>담당주치의가 교정에 대한 숙련된 기술력을 갖추었는가?</p><br>
-                    <p class="pager">최신 교정경향과 기술,첨단장비를 갖추었는가?</p><br>
-                    <p class="pager">치아의 배열과 증상에 따른 1:1맞춤교정을 진행하는가?</p><br>
-                    <p class="pager">교정주치의가 처음부터 끝까지 책임지는 시스템인가?</p><br>
-                    <p class="pager">치과위생관리가 엄격하게 이루어지고 있는 곳인가?</p><br>
-                    <p class="pager">치아교정 후에도 철저한 사후관리를 진행하는 곳인가?</p><br>
+                    <p class="pager pointer active"><span>01</span>담당주치의가 교정에 대한 숙련된 기술력을 갖추었는가?</p><br>
+                    <p class="pager pointer"><span>02</span>최신 교정경향과 기술,첨단장비를 갖추었는가?</p><br>
+                    <p class="pager pointer"><span>03</span>치아의 배열과 증상에 따른 1:1맞춤교정을 진행하는가?</p><br>
+                    <p class="pager pointer"><span>04</span>교정주치의가 처음부터 끝까지 책임지는 시스템인가?</p><br>
+                    <p class="pager pointer"><span>05</span>치과위생관리가 엄격하게 이루어지고 있는 곳인가?</p><br>
+                    <p class="pager pointer"><span>06</span>치아교정 후에도 철저한 사후관리를 진행하는 곳인가?</p><br>
                 </div>
             </div>
         </div>
@@ -174,16 +174,10 @@
         <div class="max-layout-width">
             <h2 class="section-title">
                 <strong><span class="section-title-color">
-                    교정기간은 Down<br>
-                    치료결과는 Up<br>
+                    교정기간은 Down 치료결과는 Up<br>
                 </span></strong>
                 미소원치과의 <strong>치아교정 단계</strong>
             </h2>
-
-            <div class="numbers">
-                <span class="current">01</span>
-                <span class="max">04</span>
-            </div>
         </div>
         <div class="slider-container post-slider">
             <div class="left-fade-sldier posts">
@@ -419,5 +413,10 @@
                 $('.border').css('border-width', 80 - (Math.floor(pos)/2));
             }
         });
+
+        $('.list-content .pager').click(function () {
+            $('.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
     })
 </script>

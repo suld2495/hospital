@@ -239,16 +239,10 @@
             <div class="max-layout-width">
                 <h2 class="section-title">
                     <strong><span class="section-title-color">
-                    더이상 미루지 마세요!<br>
-                    빠를수록 좋은 충치치료<br>
+                    더이상 미루지 마세요! 빠를수록 좋은 충치치료<br>
                 </span></strong>
                     미소원 치과의 <strong>충치치료 단계</strong>
                 </h2>
-
-                <div class="numbers">
-                    <span class="current">01</span>
-                    <span class="max">04</span>
-                </div>
             </div>
             <div class="slider-container post-slider">
                 <div class="left-fade-sldier posts">
@@ -556,15 +550,9 @@
             <div class="max-layout-width">
                 <h2 class="section-title">
                     <strong><span class="section-title-color">
-                    치주질환은 치아를 읽게되는<br>
-                    가장 큰 원인입니다.<br>
+                        치주질환은 치아를 읽게되는 가장 큰 원인입니다.<br></span></strong>
                     미소원 치과의 <strong>잇몸치료 단계</strong>
                 </h2>
-
-                <div class="numbers">
-                    <span class="current">01</span>
-                    <span class="max">04</span>
-                </div>
             </div>
             <div class="slider-container post-slider">
                 <div class="left-fade-sldier posts">

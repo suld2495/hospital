@@ -114,16 +114,10 @@
         <div class="max-layout-width">
             <h2 class="section-title">
                 <strong><span class="section-title-color">
-                    숨어있고 누워있어도<br>
-                    안전하고 신속하게<br>
+                    숨어있고 누워있어도 안전하고 신속하게<br>
                 </span></strong>
                 미소원 치과의 <strong>사랑니 발치과정</strong>
             </h2>
-
-            <div class="numbers">
-                <span class="current">01</span>
-                <span class="max">04</span>
-            </div>
         </div>
         <div class="slider-container post-slider">
             <div class="left-fade-sldier posts">

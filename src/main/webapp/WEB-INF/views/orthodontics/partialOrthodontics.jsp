@@ -83,10 +83,10 @@
                     <h2 class="section-title">
                         <span class="section-title-color bold">부분 교정이</span> 필요한 경우<br>
                     </h2>
-                    <p class="pager active"><span>01</span>어금니는 괜찮은데 앞니만 고민이신분</p><br>
-                    <p class="pager">시간이 많이 없으신분</p><br>
-                    <p class="pager">어금니 조기발치로 인해 치아가 쓰러져 세우고 싶으신분</p><br>
-                    <p class="pager">경제적 부담을 덜고싶은분</p><br>      
+                    <p class="pager pointer active"><span>01</span>어금니는 괜찮은데 앞니만 고민이신분</p><br>
+                    <p class="pager pointer"><span>02</span>시간이 많이 없으신분</p><br>
+                    <p class="pager pointer"><span>03</span>어금니 조기발치로 인해 치아가 쓰러져 세우고 싶으신분</p><br>
+                    <p class="pager pointer"><span>04</span>경제적 부담을 덜고싶은분</p><br>
                 </div>
             </div>
         </div>
@@ -194,3 +194,13 @@
 <script src="<c:url value='/lib/jquery-ui/jquery-ui.min.js' />"></script>
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script src="<c:url value="/js/cmmn/slider.js" />"></script>
+
+
+<script>
+    $(function () {
+        $('.list-content .pager').click(function () {
+            $('.list-content .pager').removeClass('active');
+            $(this).addClass('active');
+        })
+    })
+</script>
