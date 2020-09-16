@@ -14,4 +14,6 @@ public interface BoardService {
     int insertBoard(BoardVo boardVo) throws Exception;
 
     void saveFile(MultipartHttpServletRequest mRequest, int num, String tableName) throws Exception;
+
+    String saveFile(MultipartHttpServletRequest mRequest) throws Exception;
 }

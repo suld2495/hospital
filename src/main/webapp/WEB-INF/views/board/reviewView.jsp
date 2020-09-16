@@ -18,7 +18,11 @@
             <div class="appendix">
                 <span class="txt">첨부파일</span>
             </div>
-            <div class="contents"></div>
+            <div class="contents">
+                <pre>
+                    ${board.contents}
+                </pre>
+            </div>
             <div class="button">
                 <ul>
                     <c:if test="${not empty board.arrow.nextNum}">

@@ -10,6 +10,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.Map;
 
@@ -221,4 +222,12 @@ public class BoardController {
         model.addAttribute("urlName", "온라인 상담");
         return "redirect:/review-view/" + boardVo.getNum();
     }
+
+    @RequestMapping(value = "/fileUploader")
+    public String fileUploader(MultipartHttpServletRequest mRequest, HttpServletRequest request, Model model) throws Exception {
+        model.addAttribute("fileName", boardService.saveFile(mRequest));
+        model.addAttribute("path", "download");
+        return "board/callback";
+    }
+
 }

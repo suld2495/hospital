@@ -87,4 +87,34 @@ public class BoardServiceImpl implements BoardService {
             throw e;
         }
     }
+
+    @Override
+    public String saveFile(MultipartHttpServletRequest mRequest) throws Exception {
+        MultipartFile mFile = mRequest.getFile("file");
+
+        String realFileName = mFile.getOriginalFilename();
+        String realPath = WebUtils.getRealPath(servletContext, path);
+
+        String extension = realFileName.substring(realFileName.lastIndexOf("."), realFileName.length());
+
+        UUID uuid = UUID.randomUUID();
+        String downloadFilename = uuid.toString() + extension;
+
+        File pathFile = new File(realPath);
+
+        if (!pathFile.exists()) {
+            pathFile.mkdirs();
+        }
+
+        File file = new File(realPath + File.separator + downloadFilename);
+
+        try {
+            mFile.transferTo(file);
+            return downloadFilename;
+        } catch (IllegalStateException e) {
+            throw e;
+        } catch (IOException e) {
+            throw e;
+        }
+    }
 }

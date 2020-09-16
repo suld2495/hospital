@@ -45,12 +45,14 @@
                     </div>
                 </div>
             </div>
+            <input type="hidden" name="thumnail">
         </form:form>
     </section>
 </div>
 
 <script type="text/javascript" src="<c:url value='/lib/editor/js/service/HuskyEZCreator.js'/>" charset="utf-8"></script>
 <script type="text/javascript">
+    var thumnail = false;
     var oEditors = [];
     nhn.husky.EZCreator.createInIFrame({
         oAppRef: oEditors,
@@ -58,6 +60,16 @@
         sSkinURI: "<c:url value='/lib/editor/SmartEditor2Skin.html'/>",
         fCreator: "createSEditor2"
     });
+
+    function imgAdd(img) {
+        var sHTML = "<img src='" + img + "'>"
+        oEditors.getById["ir1"].exec("PASTE_HTML", [sHTML]);
+
+        if (!thumnail) {
+            thumnail = true;
+            $('[name=thumnail]').val(img);
+        }
+    }
 
     $(function () {
         $('form').submit(function () {
@@ -83,6 +95,6 @@
                 alert('내용을 입력해주세요.');
                 return false;
             }
-        })
+        });
     })
 </script>
