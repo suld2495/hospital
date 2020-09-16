@@ -82,7 +82,7 @@
             <div class="text">
                 <div>
                     <h2 class="section-title">
-                        평생 쓸 임플란트 <strong>신중하게<br>결정하셔야 합니다.</strong>
+                        성장기 교정, <strong>왜<br>미소원 치과 일까요?.</strong>
                     </h2>
                     <p class="section-text">
                         성장기는 신체발달과 성장이 왕성하여 교정치료의 효과와 효율이 가장 좋은 시기입니다. 미소원 치과는 정기적인 검진을 통해 골격 교정이 가능한 적정 시기를 놓치지 않습니다.<br>
@@ -175,9 +175,20 @@
 
 <script>
     $(function () {
+        var index = 0;
         $('.list-content .pager').mouseover(function () {
-            $('.list-content .pager').removeClass('active');
-            $(this).addClass('active');
+            index = $('.list-content .pager').index($(this));
+            active(index);
         })
+
+        setInterval(function () {
+            active(index);
+        }, 4000);
+
+        function active(_index) {
+            $('.list-content .pager').removeClass('active');
+            $('.list-content .pager').eq(_index).addClass('active');
+            index = (_index + 1) % $('.list-content .pager').length;
+        }
     })
 </script>

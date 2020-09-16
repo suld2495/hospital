@@ -79,66 +79,70 @@
         <section class="section03">
             <div class="max-layout-width">
                 <h2>충치<strong>진행단계 및 치료방법</strong></h2>
-                <div class="table">
-                    <ul class="table-title">
-                        <li></li>
-                        <li>1단계 법랑충치</li>
-                        <li>2단계 상아질 충치</li>
-                        <li>3단계 치수염</li>
-                        <li>4단계 치수괴사</li>
-                    </ul>
-                    <ul class="img-col">
-                        <li>진행</li>
-                        <li><img src="<c:url value='/images/sub/tooth/general/decay05.jpg' /> "></li>
-                        <li><img src="<c:url value='/images/sub/tooth/general/decay06.jpg' /> "></li>
-                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/decay07.jpg' /> "></li>
-                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/decay08.jpg' /> "></li>
-                    </ul>
-                    <ul class="text-col">
-                        <li>증상</li>
-                        <li>
-                            통증 및 자각증상이 없음<br>
-                            주기적인 검진으로<br>
-                            초기 발견이 중요
-                        </li>
-                        <li>
-                            상아질까지 썩은상태로<br>
-                            시리거나 약한 통증이 있음<br>
-                            육안으로 확인이 가능
-                        </li>
-                        <li>
-                            신경에 염증이 생긴 상태로<br>
-                            온도에 민감해지고<br>
-                            심한 통증이 발생
-                        </li>
-                        <li>
-                            이 뿌리까지 썩은 상태로<br>
-                            극심한 통증과<br>
-                            뿌리 끝 염증 유발
-                        </li>
-                    </ul>
-                    <ul class="text-col">
-                        <li>치료</li>
-                        <li>
-                            충치 부위를 긁어내고<br>
-                            레진으로 떼우는 방식으로<br>
-                            간단히 치료 가능
-                        </li>
-                        <li class="text-two">
-                            아말감,금,세라믹 등으로<br>
-                            보철 치료 필요
-                        </li>
-                        <li class="text-two">
-                            신경치료 및<br>
-                            크라운 보철치료가 필요
-                        </li>
-                        <li>
-                            신경치료를<br>
-                            진행할 수 없을 경우 발치 후<br>
-                            임플란트
-                        </li>
-                    </ul>
-                </div>
+                <table class="table">
+                    <thead>
+                        <tr class="table-title">
+                            <th></th>
+                            <th>1단계 법랑충치</th>
+                            <th>2단계 상아질 충치</th>
+                            <th>3단계 치수염</th>
+                            <th>4단계 치수괴사</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="img-col">
+                            <td>진행</td>
+                            <td><img src="<c:url value='/images/sub/tooth/general/decay05.jpg' /> "></td>
+                            <td><img src="<c:url value='/images/sub/tooth/general/decay06.jpg' /> "></td>
+                            <td class="tdne-left"><img src="<c:url value='/images/sub/tooth/general/decay07.jpg' /> "></td>
+                            <td class="tdne-left"><img src="<c:url value='/images/sub/tooth/general/decay08.jpg' /> "></td>
+                        </tr>
+                        <tr class="text-col">
+                            <td>증상</td>
+                            <td>
+                                통증 및 자각증상이 없음<br>
+                                주기적인 검진으로<br>
+                                초기 발견이 중요
+                            </td>
+                            <td>
+                                상아질까지 썩은상태로<br>
+                                시리거나 약한 통증이 있음<br>
+                                육안으로 확인이 가능
+                            </td>
+                            <td>
+                                신경에 염증이 생긴 상태로<br>
+                                온도에 민감해지고<br>
+                                심한 통증이 발생
+                            </td>
+                            <td>
+                                이 뿌리까지 썩은 상태로<br>
+                                극심한 통증과<br>
+                                뿌리 끝 염증 유발
+                            </td>
+                        </tr>
+                        <tr class="text-col">
+                            <td>치료</td>
+                            <td>
+                                충치 부위를 긁어내고<br>
+                                레진으로 떼우는 방식으로<br>
+                                간단히 치료 가능
+                            </td>
+                            <td class="text-two">
+                                아말감,금,세라믹 등으로<br>
+                                보철 치료 필요
+                            </td>
+                            <td class="text-two">
+                                신경치료 및<br>
+                                크라운 보철치료가 필요
+                            </td>
+                            <td>
+                                신경치료를<br>
+                                진행할 수 없을 경우 발치 후<br>
+                                임플란트
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
 
@@ -322,66 +326,70 @@
         <section class="section03">
             <div class="max-layout-width">
                 <h2>치주질환(풍치) <strong>진행단계 및 치료방법</strong></h2>
-                <div class="table">
-                    <ul class="table-title">
-                        <li></li>
-                        <li>1단계 건강한 잇몸</li>
-                        <li>2단계 치은염</li>
-                        <li>3단계 진행된 치주염</li>
-                        <li>4단계 말기치주염</li>
-                    </ul>
-                    <ul class="img-col">
-                        <li>진행</li>
-                        <li><img src="<c:url value='/images/sub/tooth/general/periodontal02.jpg' /> "></li>
-                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/periodontal03.jpg' /> "></li>
-                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/periodontal04.jpg' /> "></li>
-                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/periodontal05.jpg' /> "></li>
-                    </ul>
-                    <ul class="text-col">
-                        <li>증상</li>
-                        <li>
-                            잇몸이 단단하고<br>
-                            연분홍색이며 칫솔질을 해도<br>
-                            피가 나지 않음
-                        </li>
-                        <li>
-                            칫솔질을 할 때 피가 나며,<br>
-                            잇몸이 붓고<br>
-                            검붉은 색으로 변함
-                        </li>
-                        <li>
-                            잇몸 사부가 치아로부터<br>
-                            분리되고 잇몸뿐만 아니라<br>
-                            치조골까지 염증이 퍼짐
-                        </li>
-                        <li>
-                            잇몸이 심하게 붓고 고름이<br>
-                            나오며,잇몸이 내려오면서<br>
-                            치아 뿌리가 드러나고 흔들림
-                        </li>
-                    </ul>
-                    <ul class="text-col">
-                        <li>치료</li>
-                        <li>
-                            연 2회 스케일링으로 치석제거<br>
-                            올바른 칫솔질과 치실사용으로<br>
-                            청결한 구강상태 유지
-                        </li>
-                        <li>
-                            잇몸 하방에 부착된 치석과<br>
-                            플라그를 스케일링 및<br>
-                            치근활택술로 깨끗하게 제거
-                        </li>
-                        <li>
-                            잇몸 하방에 다량의 치석 및<br>
-                            염증을 치주소파술로 깨끗하게<br>
-                            제거하고 잇몸뼈 손실 방지
-                        </li>
-                        <li class="text-one">
-                            치주 수술을 통해 치료
-                        </li>
-                    </ul>
-                </div>
+                <table class="table">
+                    <thead>
+                        <tr class="table-title">
+                            <th></th>
+                            <th>1단계 건강한 잇몸</th>
+                            <th>2단계 치은염</th>
+                            <th>3단계 진행된 치주염</th>
+                            <th>4단계 말기치주염</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="img-col">
+                            <td>진행</td>
+                            <td><img src="<c:url value='/images/sub/tooth/general/periodontal02.jpg' /> "></td>
+                            <td class="tdne-left"><img src="<c:url value='/images/sub/tooth/general/periodontal03.jpg' /> "></td>
+                            <td class="tdne-left"><img src="<c:url value='/images/sub/tooth/general/periodontal04.jpg' /> "></td>
+                            <td class="tdne-left"><img src="<c:url value='/images/sub/tooth/general/periodontal05.jpg' /> "></td>
+                        </tr>
+                        <tr class="text-col">
+                            <td>증상</td>
+                            <td>
+                                잇몸이 단단하고<br>
+                                연분홍색이며 칫솔질을 해도<br>
+                                피가 나지 않음
+                            </td>
+                            <td>
+                                칫솔질을 할 때 피가 나며,<br>
+                                잇몸이 붓고<br>
+                                검붉은 색으로 변함
+                            </td>
+                            <td>
+                                잇몸 사부가 치아로부터<br>
+                                분리되고 잇몸뿐만 아니라<br>
+                                치조골까지 염증이 퍼짐
+                            </td>
+                            <td>
+                                잇몸이 심하게 붓고 고름이<br>
+                                나오며,잇몸이 내려오면서<br>
+                                치아 뿌리가 드러나고 흔들림
+                            </td>
+                        </tr>
+                        <tr class="text-col">
+                            <td>치료</td>
+                            <td>
+                                연 2회 스케일링으로 치석제거<br>
+                                올바른 칫솔질과 치실사용으로<br>
+                                청결한 구강상태 유지
+                            </td>
+                            <td>
+                                잇몸 하방에 부착된 치석과<br>
+                                플라그를 스케일링 및<br>
+                                치근활택술로 깨끗하게 제거
+                            </td>
+                            <td>
+                                잇몸 하방에 다량의 치석 및<br>
+                                염증을 치주소파술로 깨끗하게<br>
+                                제거하고 잇몸뼈 손실 방지
+                            </td>
+                            <td class="text-one">
+                                치주 수술을 통해 치료
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
 
@@ -466,41 +474,45 @@
         <section class="section03">
             <div class="max-layout-width">
                 <h2>신경치료 <strong>치료방법</strong></h2>
-                <div class="table">
-                    <ul class="table-title">
-                        <li></li>
-                        <li>1단계 감염된 치수</li>
-                        <li>2단계 치수제거 및 소독</li>
-                        <li>3단계 치아내부 충전</li>
-                        <li>4단계 보철물 장착</li>
-                    </ul>
-                    <ul class="img-col">
-                        <li>과정</li>
-                        <li><img src="<c:url value='/images/sub/tooth/general/neurotherapy02.jpg' /> "></li>
-                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/neurotherapy03.jpg' /> "></li>
-                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/neurotherapy04.jpg' /> "></li>
-                        <li class="line-left"><img src="<c:url value='/images/sub/tooth/general/neurotherapy05.jpg' /> "></li>
-                    </ul>
-                    <ul class="text-col">
-                        <li>치료</li>
-                        <li>
-                            충치가 신경까지 진행된 겨우<br>
-                            신경치료를 시행
-                        </li>
-                        <li>
-                            오염된 신경을<br>
-                            제거하고 소독
-                        </li>
-                        <li>
-                            치아 뿌리와 머리 부분을<br>
-                            적절한 재료로 채워줌
-                        </li>
-                        <li>
-                            최종 보철물(크라운)을<br>
-                            씌워줌
-                        </li>
-                    </ul>
-                </div>
+                <table class="table">
+                    <thead>
+                        <tr class="table-title">
+                            <th></th>
+                            <th>1단계 감염된 치수</th>
+                            <th>2단계 치수제거 및 소독</th>
+                            <th>3단계 치아내부 충전</th>
+                            <th>4단계 보철물 장착</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="img-col">
+                            <td>과정</td>
+                            <td><img src="<c:url value='/images/sub/tooth/general/neurotherapy02.jpg' /> "></td>
+                            <td class="tdne-left"><img src="<c:url value='/images/sub/tooth/general/neurotherapy03.jpg' /> "></td>
+                            <td class="tdne-left"><img src="<c:url value='/images/sub/tooth/general/neurotherapy04.jpg' /> "></td>
+                            <td class="tdne-left"><img src="<c:url value='/images/sub/tooth/general/neurotherapy05.jpg' /> "></td>
+                        </tr>
+                        <tr class="text-col">
+                            <td>치료</td>
+                            <td>
+                                충치가 신경까지 진행된 겨우<br>
+                                신경치료를 시행
+                            </td>
+                            <td>
+                                오염된 신경을<br>
+                                제거하고 소독
+                            </td>
+                            <td>
+                                치아 뿌리와 머리 부분을<br>
+                                적절한 재료로 채워줌
+                            </td>
+                            <td>
+                                최종 보철물(크라운)을<br>
+                                씌워줌
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
 

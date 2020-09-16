@@ -348,9 +348,20 @@
 
 <script>
     $(function () {
+        var index = 0;
         $('.list-content .pager').mouseover(function () {
-            $('.list-content .pager').removeClass('active');
-            $(this).addClass('active');
+            index = $('.list-content .pager').index($(this));
+            active(index);
         })
+
+        setInterval(function () {
+            active(index);
+        }, 4000);
+
+        function active(_index) {
+            $('.list-content .pager').removeClass('active');
+            $('.list-content .pager').eq(_index).addClass('active');
+            index = (_index + 1) % $('.list-content .pager').length;
+        }
     })
 </script>

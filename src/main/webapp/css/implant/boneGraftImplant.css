@@ -153,7 +153,20 @@
     color: #fff;
     letter-spacing: -1.3px;
     font-size: 18px;
-    padding-top: 100px;
+    padding-top: 120px;
+    position: relative;
+}
+
+.section03 .text li p:before {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    content: '';
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    top: -43px;
+    left: 54px;
 }
 
 
