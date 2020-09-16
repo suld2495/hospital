@@ -81,7 +81,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section04">
+    <!--section class="section04">
         <div class="max-layout-width">
             <h2 class="section-title">
                 <strong>사랑니 유형</strong>
@@ -108,7 +108,7 @@
                 </li>
             </ul>
         </div>
-    </section>
+    </section-->
 
     <section class="section05 left-fade-slider-container">
         <div class="max-layout-width">

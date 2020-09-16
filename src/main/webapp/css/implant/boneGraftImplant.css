@@ -16,18 +16,18 @@
 }
 
 .section01 .section-title {
-    line-height: 1.3;
+    line-height: 1.25;
 }
 
 .section01 .bg {
     margin-top: 42px;
     background: #f5f5f5;
     padding-top: 22px;
-    padding-bottom: 150px;
+    padding-bottom: 176px;
 }
 
 .section01 .section-text {
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 .section01 .section-text:first-child {
@@ -46,20 +46,20 @@
 }
 
 .section02 {
-    margin-top: 92px;
-    margin-bottom: 83px;
+    margin-top: 118px;
+    margin-bottom: 115px;
 }
 
 .section02 .section-title {
-    line-height: 1.3;
+    line-height: 1.25;
     /* letter-spacing: -2px; */
-    padding-top: 29px;
+    padding-top: 46px;
 }
 
 .section02 .section-text {
     width: 590px;
     word-break: keep-all;
-    line-height: 1.7;
+    line-height: 1.6;
     margin-top: 16px;
 }
 
@@ -152,7 +152,7 @@
     line-height: 1.6;
     color: #fff;
     letter-spacing: -1.3px;
-    font-size: 18px;
+    font-size: 17px;
     padding-top: 120px;
     position: relative;
 }
@@ -198,7 +198,7 @@
 }
 
 .section05 {
-    margin-top: 87px;
+    margin-top: 101px;
 }
 
 .section05 .max-layout-width .text {
@@ -212,7 +212,7 @@
 
 .section05 .image_box_right {
     max-width: 1276px;
-    height: 521px;
+    height: 504px;
     width: 50%;
     z-index: 10;
 }
@@ -224,7 +224,7 @@
 .section05 .section-title {
     padding-top: 77px;
     position: relative;
-    line-height: 1.35;
+    line-height: 1.25;
     margin-bottom: 99px;
     letter-spacing: -1px;
     padding-left: 80px;
@@ -242,7 +242,7 @@
 
 .section05 .section-text {
     word-break: keep-all;
-    line-height: 1.7;
+    line-height: 1.6;
     position: relative;
     text-align: right;
 }
@@ -251,9 +251,9 @@
     content: '';
     position: absolute;
     width: 3px;
-    height: 79px;
+    height: 69px;
     background: #7f6a57;
-    top: -95px;
+    top: -84px;
     right: 0;
 }
 
@@ -261,9 +261,9 @@
     background: #f5f5f5;
     width: 64.65%;
     position: absolute;
-    height: 221px;
+    height: 232px;
     left: 0px;
-    bottom: -59px;
+    bottom: -66px;
 }
 
 .section05 .max-layout-width {
@@ -339,7 +339,7 @@
 }
 
 .section04 {
-    margin-top: 87px;
+    margin-top: 142px;
 }
 
 .section04 h2 {
@@ -373,7 +373,7 @@
     background: url(../../images/sub/implant/bone/right_icon02.jpg) no-repeat top center;
     width: 17px;
     height: 29px;
-    right: -90px;
+    right: -84px;
     top: 125px;
 }
 
@@ -387,23 +387,23 @@
 
 .section04 li h5 {
     padding: 32px 0 19px 0;
-    font-size: 26px;
+    font-size: 33px;
     color: #222;
     /* font-weight: bold; */
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: anton !important;
     padding-top: 55px;
 }
 
 .section04 li p {
-    line-height: 1.5;
+    line-height: 1.45;
     font-size: 16px;
     letter-spacing: -1px;
 }
 
 
 section.board-link {
-    margin-top: 135px;
+    margin-top: 126px;
 }
 
 .treatment-case {
@@ -412,12 +412,13 @@ section.board-link {
 
 
 .text-slider {
-    margin-top: 150px;
+    margin-top: 207px;
     /* padding-bottom: 34px; */
 }
 
 .text-slider .section-text {
     margin-bottom: 45px;
+    color: #9c9c9c;
 }
 
 
@@ -434,4 +435,30 @@ section.board-link {
     margin-bottom: 55px;
     color: #222;
     letter-spacing: -1.5px;
+}
+
+.text-slider .section-title {
+    line-height: 1.25;
+}
+
+.section-text {
+    padding-top: 15px;
+}
+
+  section.board-link {
+    margin-top: 125px;
+}
+
+.board-link {
+    margin-bottom: 127px;
+}
+
+
+.section-text {
+
+    padding-top: 12px;
+}
+
+.board-link .section-title {
+    line-height: 1.25;
 }

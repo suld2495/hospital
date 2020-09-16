@@ -49,9 +49,11 @@ section {
 
 .section01 .text h6 {
     margin-bottom: 32px;
-    font-size: 15px;
-    color: #998b82;
+    font-size: 52px;
+    color: #9b8b7e;
     font-family: Caveat !important;
+    opacity: 0.2;
+    font-weight: 800;
 }
 
 .section01 .text h6 + div:before {
@@ -126,7 +128,7 @@ section {
 }
 
 .section02 {
-    margin-top: 92px;
+    margin-top: 103px;
     padding-bottom: 32px;
 }
 
@@ -199,7 +201,7 @@ section {
 }
 
 .section02 .default-background {
-    height: 542px;
+    height: 543px;
     background: #f1f1f1;
     position: absolute;
     width: 100%;
@@ -226,7 +228,7 @@ section {
 .section03 .text .section-text {
     width: 650px;
     word-break: keep-all;
-    margin-bottom: 34px;
+    margin-bottom: 70px;
     letter-spacing: -1px;
     color: #fff;
 }
@@ -306,7 +308,7 @@ section {
 
 .tab-contents {
     height: 0;
-    font-size: 38px;
+    font-size: 40px;
     line-height: 1.4;
     opacity: 0;
     transition: none;
@@ -438,11 +440,17 @@ section {
 
 .section03 .move-title {
     margin-bottom: 40px;
-    color: #2b3149;
+    color: #ffffff;
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: 800;
+    font-family: Caveat !important;
+    opacity: 0.1;
 }
 
 .detail:after {
     display: none;
+}
+
+.section-text {
+    line-height: 24px;
 }

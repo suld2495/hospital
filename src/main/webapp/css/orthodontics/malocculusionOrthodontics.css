@@ -18,7 +18,7 @@
 }
 
 .section01 .section-title {
-    line-height: 1.3;
+    line-height: 1.25;
     display: inline-block;
 }
 
@@ -26,11 +26,11 @@
     margin-top: 43px;
     background: #f5f5f5;
     padding-top: 24px;
-    padding-bottom: 170px;
+    padding-bottom: 194px;
 }
 
 .section01 .section-text {
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 .section01 .section-text:first-child {
@@ -52,7 +52,7 @@
 
 .section05 {
     height: 418px;
-    margin-top: 167px;
+    margin-top: 183px;
 }
 
 .section05 .max-layout-width {
@@ -85,6 +85,7 @@
     margin-bottom: 32px;
     font-size: 36px;
     letter-spacing: -2.5px;
+    font-weight: 300;
 }
 
 .section05 .max-layout-width .text p {
@@ -92,7 +93,7 @@
     /* width: 549px; */
     word-break: keep-all;
     margin: 0 auto;
-    line-height: 1.7;
+    line-height: 1.6;
     letter-spacing: -1.5px;
 }
 
@@ -142,7 +143,7 @@
 
 
 .section04 {
-    margin-top: 88px;
+    margin-top: 110px;
 }
 
 .section04 .section-title {
@@ -319,7 +320,7 @@ p.img.toothimg05{
 
 .section02 {
     text-align: center;
-    padding-top: 88px;
+    padding-top: 110px;
 }
 
 .section02 .section-title {
@@ -375,9 +376,9 @@ p.img.toothimg05{
 }
 
 .section03 {
-    padding: 69px 0 63px 0;
+    padding: 88px 0 90px 0;
     background: #f3f3f3;
-    margin-top: 92px;
+    margin-top: 111px;
 }
 
 .section03 .section-title {
@@ -503,16 +504,16 @@ p.img.toothimg05{
 }
 
 .section06 {
-    margin-top: 88px;
+    margin-top: 113px;
 }
 
 .section06 .section-title {
-    line-height: 1.2;
+    line-height: 1.25;
     margin-bottom: 14px;
 }
 
 .section06 .section-text {
-    line-height: 1.5;
+    line-height: 1.6;
     width: 50%;
     word-break: keep-all;
     margin-bottom: 50px;
@@ -628,7 +629,7 @@ p.img.toothimg07 .img {
 }
 
 .section10 {
-    margin-top: 79px;
+    margin-top: 110px;
 }
 
 .tab-paging {
@@ -678,4 +679,24 @@ p.img.toothimg07 .img {
 
 .tab-paging .tab-pagination li.active {
     background: #9b8b7e;
+}
+
+
+
+  section.board-link {
+    margin-top: 125px;
+}
+
+.board-link {
+    margin-bottom: 127px;
+}
+
+
+.section-text {
+
+    padding-top: 12px;
+}
+
+.board-link .section-title {
+    line-height: 1.25;
 }

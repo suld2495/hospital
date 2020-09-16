@@ -9,8 +9,8 @@
 
 .section02 {
     background: #f5f5f5;
-    padding-bottom: 68px;
-    padding-top: 78px;
+    padding-bottom: 81px;
+    padding-top: 98px;
 }
 
 .location-color {
@@ -62,14 +62,14 @@
 
 .section03 {
     width: 100%;
-    height: 665px;
+    height: 645px;
 }
 
 .section03 .bg {
     width: 100%;
     height: 100%;
     background: url(../../images/sub/info/directions/location_bg.jpg) center top no-repeat fixed;
-    padding-top: 92px;
+    padding-top: 115px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -83,14 +83,14 @@
 
 .location-bg {
     background: url(../../images/sub/info/directions/location01.png) center top no-repeat;
-    height: 400px;
+    height: 357px;
     background-size: contain;
-    margin-top: 52px;
+    margin-top: 32px;
 }
 
 .section04 {
-    padding-top: 99px;
-    padding-bottom: 115px;
+    padding-top: 123px;
+    padding-bottom: 120px;
 }
 
 .section04 ul {
@@ -105,7 +105,7 @@
     width: 33.3333333%;
     border: 1px solid #d4d4d4;
     box-sizing: border-box;
-    height: 272px;
+    height: 259px;
     border-left: none;
     text-align: center;
     padding-top: 41px;
@@ -126,7 +126,7 @@
 .section04 li p {
     font-size: 16px;
     color: #646665;
-    line-height: 1.7;
+    line-height: 1.5;
     letter-spacing: -1px;
     width: 310px;
     margin: 0 auto;
@@ -156,6 +156,7 @@ li:before {
     font-size: 34px;
     margin-bottom: 42px;
     position: relative;
+    letter-spacing: -2px;
 }
 
 .section04 .title:before {
