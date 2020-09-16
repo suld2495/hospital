@@ -198,7 +198,7 @@
 
 <script>
     $(function () {
-        $('.list-content .pager').click(function () {
+        $('.list-content .pager').mouseover(function () {
             $('.list-content .pager').removeClass('active');
             $(this).addClass('active');
         })

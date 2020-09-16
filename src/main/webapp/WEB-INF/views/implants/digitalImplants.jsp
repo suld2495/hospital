@@ -44,7 +44,7 @@
     <section class="section02">
         <div class="max-layout-width">
             <h2 class="section-title">
-                <span class="section-title-color">세계적인 <strong>디지털 장비도입</strong>로</span><br>
+                <span class="section-title-color">세계적인 <strong>디지털 장비</strong>로</span><br>
                 <strong>정확하고 안전한 진료를 약속합니다.</strong>
             </h2>
             <p class="section-text">
@@ -287,9 +287,7 @@
                     <div class="text">
                         <span class="number">07</span>
                         <h2 class="section-title">
-                            임플란트 시술 후에도<br>
-                            끝까지 책임지는 미소원치과의<br>
-                            <strong>임플란트 보증제 미소원치과는 수술</strong>
+                            임플란트 시술 후에도 끝까지<br><strong>책입지는 미소원치과</strong>
                         </h2>
                         <p class="section-text">
                             전보다 수술 후를 더 중요하게 생각합니다. 진료보증제도를 통해 사후관리도 꼼꼼하게

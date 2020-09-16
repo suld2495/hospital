@@ -93,7 +93,7 @@
 }
 
 .section03 {
-    background: url(../../images/sub/implant/navigation/navi_bg.jpg);
+    background: url(../../images/sub/implant/bone/bone_bg.jpg) no-repeat center;
     padding-bottom: 0px;
 }
 
@@ -185,7 +185,7 @@
 }
 
 .section05 {
-    margin-top: 57px;
+    margin-top: 87px;
 }
 
 .section05 .max-layout-width .text {
@@ -374,10 +374,12 @@
 
 .section04 li h5 {
     padding: 32px 0 19px 0;
-    font-size: 25px;
+    font-size: 26px;
     color: #222;
-    font-weight: bold;
-    letter-spacing: -1px;
+    /* font-weight: bold; */
+    letter-spacing: 2px;
+    font-family: anton !important;
+    padding-top: 55px;
 }
 
 .section04 li p {

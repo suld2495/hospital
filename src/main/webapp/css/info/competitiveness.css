@@ -44,7 +44,7 @@ section {
     position: absolute;
     content: '';
     left: -31px;
-    top: 0;
+    top: 1px;
     width: 3px;
     height: 100%;
     background: #7e6956;
@@ -298,6 +298,7 @@ section {
     transition: none;
     color: #fff;
     letter-spacing: -2px;
+    font-family: KCC !important;
 }
 
 .tab-contents.active {
@@ -364,7 +365,7 @@ section {
     margin-top: 119px;
     width: 560px;
     word-break: keep-all;
-    padding-top: 6px;
+    padding-top: 102px;
 }
 
 .section05 .text p span {
@@ -408,7 +409,7 @@ section {
     height: 3px;
     background: #7e6954;
     right: -113px;
-    top: -64px;
+    top: -37px;
 }
 
 .section05 .img02 .img {
@@ -418,7 +419,7 @@ section {
 .section-title {
     line-height: 1.2;
     /* letter-spacing: -1.8px; */
-    padding-bottom: 21px;
+    /* padding-bottom: 21px; */
 }
 
 .section03 .move-title {

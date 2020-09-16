@@ -232,7 +232,7 @@
 }
 
 .section03 {
-    background: url(../../images/sub/implant/navigation/navi_bg.jpg);
+    background: url(../../images/sub/implant/navigation/navi_bg.jpg)  no-repeat center;
     padding-bottom: 0px;
 }
 
@@ -262,6 +262,7 @@
     height: 374px;
     position: relative;
     margin: 0 auto;
+    padding-right: 110px;
 }
 
 .section03 .img {
@@ -551,4 +552,5 @@
     margin-top: 218px;
     background: #fff;
     padding-top: 0px;
+}
     

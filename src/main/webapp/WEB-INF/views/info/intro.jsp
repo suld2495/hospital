@@ -12,8 +12,7 @@
         <div class="max-layout-width">
             <div class="text-box right-text-box">
                 <h2 class="section-title last-section-title">
-                    미소원치과는 <strong>앞선기술</strong>과<br>
-                    <strong>디지털 첨단장비</strong>를 통해 보다<br>
+                    <strong>앞선기술</strong>과 <strong>디지털 첨단장비</strong>를 통해 <br>보다
                     <strong>높은 수준의 진료</strong>를 추구합니다.
                 </h2>
                 <p class="section-text last-section-text">
@@ -32,7 +31,6 @@
                 <h3 class="move-title wow slideInLeft">COOPERATIVE</h3>
                 <h2 class="section-title last-section-title">
                     <span class="section-title-color">의료진 <strong>협진진료 시스템</strong></span><br>
-                    미소원치과
                 </h2>
                 <p class="section-text">
                     모든 진료를 <strong>의료진의 협진</strong>과 <strong>공동 연구</strong>를 통해 <strong>보다 정확하고 세밀한 치료계획 및 결과</strong>를 얻을 수 있습니다.

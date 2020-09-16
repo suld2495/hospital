@@ -58,7 +58,7 @@
                     <div class="nomal">
                         <h3>자연치아 클리닉</h3>
                     </div>
-                    <div class="hover">
+                    <div class="hover last">
                         <h3>자연치아 클리닉</h3>
                         <p>
                             CEREC SYSTEM을 활용한<br>

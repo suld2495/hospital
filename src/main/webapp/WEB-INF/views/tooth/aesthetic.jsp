@@ -263,7 +263,7 @@
                         <div class="slide" data-index="04">
                             <div class="swiper-slide">
                                 <div class="img04 img"></div>
-                                <div class="text">
+                                <div class="text last">
                                     <h2>라미네이트 부착</h2>
                                     <p>
                                         완성된 보철물을 환자에게 직접 확인 받은 후
@@ -669,7 +669,7 @@
             nextArrow: '<span class="slider-next">></span>'
         });
 
-        $('.list-content .pager').click(function () {
+        $('.list-content .pager').mouseover(function () {
             $('.list-content .pager').removeClass('active');
             $(this).addClass('active');
         })

@@ -122,6 +122,11 @@ section {
     text-align: center;
     letter-spacing: 5px;
     color: #ddd;
+    width: 49px;
+    height: 5px;
+    background: #9b8b7e;
+    text-indent: -9999px;
+    margin: 0 auto;
 }
 
 .default-background {
@@ -539,4 +544,5 @@ section.board-link ul li {
     background: url(../images/sub/orthodontics/grow/check_small.png);
     width: 28px;
     height: 24px;
+    text-indent: -9999px;
 }

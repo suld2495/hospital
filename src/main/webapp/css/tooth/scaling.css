@@ -61,22 +61,25 @@
 
 .section02 ul {
     overflow: hidden;
+    margin-left: -2%;
 }
 
 .section02 li {
-    width: 25%;
+    width: 23%;
     float: left;
     padding-top: 25px;
     padding-bottom: 31px;
+    margin-left: 2%;
+    box-sizing: border-box;
 }
 
 .section02 li {
-    border-right: 1px solid #c6c6c6;
+    border: 1px solid #c6c6c6;
     box-sizing: border-box;
 }
 
 .section02 li:first-child {
-    border-left: 1px solid #c6c6c6;
+    /* border-left: 1px solid #c6c6c6; */
 }
 
 .section02 li p {

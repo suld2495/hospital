@@ -16,9 +16,8 @@
             <h6>ONE-STOP CARE SYSTEM</h6>
             <div class="position-relative">
                 <h2 class="section-title">
-                    <span class="bold">사랑니 따로, 임플란트 따로,</span><br>
-                    <strong>치아교정 따로</strong> 여기저기<br>
-                    병원 찾아다니기 지치셨나요?
+                    <span class="bold">임플란트, 치아교정, 사랑니</span><br>
+                    따로 병원 찾아다니기 지치셨나요?
                 </h2>
             </div>
         </div>
@@ -113,9 +112,9 @@
             <p class="section-sub-title">건물 내 상주 협력 기공소</p>
             <div class="default-tab">
                 <ul class="tab-contents-box">
-                    <li class="tab-contents active">"환자분들의<br> 내원횟수 감소"</li>
-                    <li class="tab-contents">"빠른 시간 내<br> 보철물 수정 가능"</li>
-                    <li class="tab-contents">"개인별 맞춤<br> 보철물 제작 가능"</li>
+                    <li class="tab-contents active">"환자분들의 내원횟수 감소"</li>
+                    <li class="tab-contents">"빠른 시간 내 보철물 수정 가능"</li>
+                    <li class="tab-contents">"개인별 맞춤 보철물 제작 가능"</li>
                 </ul>
                 <ul class="tabs display-inline-block full-layout-width">
                     <li class="tab active">장점 하나.</li>
@@ -142,7 +141,6 @@
         </div>
         <div class="text">
             <h2 class="section-title">
-                여러분의 치아 건강을 책임지는<br>
                 <strong>
                     특별한 사후 관리,<br>
                     <span class="section-title-color">미소원치과의 진료 보증제도</span>

@@ -630,3 +630,52 @@ p.img.toothimg07 .img {
 .section10 {
     margin-top: 79px;
 }
+
+.tab-paging {
+    position: relative;
+    width: 100%;
+}
+
+.tab-paging a {
+    position: absolute;
+
+}
+
+.tab-paging .bx-prev {
+    left: 40px;
+}
+
+.tab-paging .bx-next {
+
+    right: 30px;
+}
+
+
+.tab-paging .tab-pagination {
+    position: absolute;
+    top: -60px;
+    width: 100%;
+    text-align: center;
+    height: 0;
+}
+
+.tab-paging .tab-pagination ul {
+    display: inline-block;
+}
+
+.tab-paging .tab-pagination li {
+    height: 10px;
+    width: 10px;
+    background: #d7d7d7;
+    float: left;
+    margin: 0 5px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+    line-height: inherit;
+    padding: 0;
+}
+
+.tab-paging .tab-pagination li.active {
+    background: #9b8b7e;
+}

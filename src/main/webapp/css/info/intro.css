@@ -466,3 +466,7 @@ section {
 .section02 .move-title {
     margin-bottom: 30px;
 }
+
+.section01 .move-title {
+    opacity: 0.1;
+}

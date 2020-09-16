@@ -1008,3 +1008,12 @@
 .left-fade-slider-container .slider-container {
     height: 280px;
 }
+
+
+.post-slider .text h2 {
+    padding-top: 10px;
+}
+
+.tab-container3 .left-fade-slider-container {
+    background: #fff;
+}

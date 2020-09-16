@@ -128,6 +128,27 @@
                     </div>
                 </div>
                 <div class="text">
+                    <div class="tab-paging">
+                        <div class="bx-controls bx-has-controls-direction">
+                            <div class="bx-controls-direction">
+                                <a class="bx-prev pointer">
+                                    <img src="/hospital/images/main/left02.png">
+                                </a>
+                                <a class="bx-next pointer">
+                                    <img src="/hospital/images/main/right02.png">
+                                </a>
+                            </div>
+                            <div class="tab-pagination">
+                                <ul>
+                                    <li class="active"></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                     <ul class="tab">
                         <li class="active odd">
                             <p><span>돌출입</span>치아나 잇몸뼈가 앞으로 나온 상태</p>
@@ -562,13 +583,38 @@
 <script src="<c:url value="/js/cmmn/slider.js" />"></script>
 <script>
     $(function() {
+        var count = 0;
         $('.tab li').click(function() {
             var index = $(this).index();
+            active(index);
+            count = index;
+        });
+
+        $('.tab-pagination li').click(function () {
+            var index = $(this).index();
+            active(index);
+            count = index;
+        })
+
+        $('.bx-prev').click(function () {
+            count = --count > 0 ? count : 0;
+            active(count);
+        });
+
+        $('.bx-next').click(function () {
+            count = ++count < 5 ? count : 0;
+            active(count);
+        });
+
+        function active(index) {
             $('.tab li').removeClass('active');
             $('.tab li').eq(index).addClass('active');
             $('.tab-contents').removeClass('active');
             $('.tab-contents' + (index + 1)).addClass('active');
-        });
+
+            $('.tab-pagination li').removeClass('active');
+            $('.tab-pagination li').eq(index).addClass('active');
+        }
 
         $('.tab-contents1.list-content .pager').click(function () {
             $('.tab-contents1.list-content .pager').removeClass('active');

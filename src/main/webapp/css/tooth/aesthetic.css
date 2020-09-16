@@ -786,7 +786,7 @@ p.img.allceramic{
 }
 
 .text-slider .slick-slide .text
-    p {
+p {
     line-height: 1.6;
     width: 324px;
     word-break: keep-all;
@@ -794,7 +794,7 @@ p.img.allceramic{
 }
 
 .text-slider .slick-slide .text
-    h2 {
+h2 {
     font-size: 31px;
     line-height: 1.35;
     margin-bottom: 55px;
@@ -807,5 +807,18 @@ p.img.allceramic{
     background: #9b8b7e;
     margin-top: 56px;
 }
- 
 
+
+
+.post-slider .text h2 {
+    padding-top: 10px;
+}
+
+.post-slider .text.last h2 {
+    padding-top: 0;
+}
+
+.tab-contents1 .left-fade-slider-container {
+    background: none;
+    margin-top: 0;
+}

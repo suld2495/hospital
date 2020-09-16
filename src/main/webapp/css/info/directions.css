@@ -166,3 +166,11 @@ li:before {
     background: url(../../images/sub/info/directions/icon.png);
     margin-left: -74px;
 }
+
+.section02 .max-layout-width {
+    text-align: center;
+}
+
+.section02 .max-layout-width > div {
+    text-align: left;
+}

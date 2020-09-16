@@ -456,10 +456,13 @@
 }
 
 .section07 ul {
-    display: inline-block;
-    width: 100%;
+    /* display: inline-block; */
+    /* width: 100%; */
     margin-left: -3%;
-    margin-top: 216px;
+    /* margin-top: 216px; */
+    overflow: hidden;
+    height: 461px;
+    padding-top: 216px;
 }
 
 .section07 li {
