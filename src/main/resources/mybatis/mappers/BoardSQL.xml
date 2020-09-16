@@ -172,4 +172,24 @@
             </if>
         )
     </insert>
+
+    <insert id="insertFile" parameterType="map">
+        INSERT INTO attach
+        (
+            real_filename,
+            download_filename,
+            file_path,
+            table_name,
+            board_num
+        )
+
+        VALUES
+        (
+            #{realFileName},
+            #{downloadFilename},
+            #{filePath},
+            #{tableName},
+            #{num}
+        )
+    </insert>
 </mapper>

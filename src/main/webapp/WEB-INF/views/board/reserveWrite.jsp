@@ -24,7 +24,7 @@
     </section>
 
     <section class="board-write">
-        <form:form class="form" action="${pageContext.servletContext.contextPath}/reserve-write" method="POST" commandName="boardVo" accept-charset="utf-8">
+        <form:form class="form" action="${pageContext.servletContext.contextPath}/reserve-write" method="POST" commandName="boardVo" accept-charset="utf-8" enctype="multipart/form-data">
             <div class="max-layout-width">
                 <div class="table">
                     <ul>
@@ -130,8 +130,9 @@
                             </div>
                             <div class="input">
                                 <div>
-                                    <input>
-                                    <button type="button">찾아보기</button>
+                                    <span class="filename"></span>
+                                    <input name="file" type="file" class="file display-none">
+                                    <button type="button" class="search">찾아보기</button>
                                 </div>
                             </div>
                         </li>
@@ -198,6 +199,17 @@
             }
 
             alert('등록되었습니다.');
+        });
+
+        $('.search').click(function() {
+            $('.file').trigger('click');
+        });
+
+        $('.file').change(function (e) {
+            var $filename = $('.filename');
+            var files = e.target.files;
+
+            $filename.text(files[0].name);
         })
     })
 </script>

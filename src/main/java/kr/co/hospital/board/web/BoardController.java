@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import javax.validation.Valid;
 import java.util.Map;
@@ -80,14 +81,19 @@ public class BoardController {
     }
 
     @RequestMapping(value = "reserve-write", method = RequestMethod.POST)
-    public String reserveWritePost(Model model, @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo, BindingResult result) throws Exception {
+    public String reserveWritePost(MultipartHttpServletRequest mRequest,
+                                   Model model,
+                                   @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo,
+                                   BindingResult result) throws Exception {
 
         if (result.hasErrors()) {
             return prefix + "reserveWrite";
         }
 
+
         boardVo.setTableName("reserve");
         boardService.insertBoard(boardVo);
+        boardService.saveFile(mRequest, boardVo.getNum(), "reserve");
 
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "온라인 상담");
@@ -150,7 +156,10 @@ public class BoardController {
     }
 
     @RequestMapping(value = "online-consult-write", method = RequestMethod.POST)
-    public String onlineConsultWritePost(Model model, @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo, BindingResult result) throws Exception {
+    public String onlineConsultWritePost(MultipartHttpServletRequest mRequest,
+                                         Model model,
+                                         @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo,
+                                         BindingResult result) throws Exception {
 
         onlineConsultValidator.validate(boardVo, result);
 
@@ -160,6 +169,7 @@ public class BoardController {
 
         boardVo.setTableName("online");
         boardService.insertBoard(boardVo);
+        boardService.saveFile(mRequest, boardVo.getNum(), "online");
 
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "온라인 상담");

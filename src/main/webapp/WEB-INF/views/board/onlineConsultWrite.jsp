@@ -8,7 +8,7 @@
 <div class="sub-contents online-consult-write">
     <h1 class="sub-page-title">온라인 상담</h1>
     <p class="sub-page-intro">ONLINE COUNSELLING</p>
-    <form:form class="form" action="${pageContext.servletContext.contextPath}/online-consult-write" method="POST" commandName="boardVo" accept-charset="utf-8">
+    <form:form class="form" action="${pageContext.servletContext.contextPath}/online-consult-write" method="POST" commandName="boardVo" accept-charset="utf-8" enctype="multipart/form-data">
         <section class="section01">
             <div class="max-layout-width">
                 <div class="agreement">
@@ -158,8 +158,9 @@
                                 </div>
                                 <div class="input">
                                     <div>
-                                        <input>
-                                        <button type="button">찾아보기</button>
+                                        <span class="filename"></span>
+                                        <input name="file" type="file" class="file display-none">
+                                        <button type="button" class="search">찾아보기</button>
                                     </div>
                                 </div>
                             </li>
@@ -234,6 +235,17 @@
             }
 
             alert('등록되었습니다.');
+        });
+
+        $('.search').click(function() {
+            $('.file').trigger('click');
+        });
+
+        $('.file').change(function (e) {
+            var $filename = $('.filename');
+            var files = e.target.files;
+
+            $filename.text(files[0].name);
         })
     })
 </script>

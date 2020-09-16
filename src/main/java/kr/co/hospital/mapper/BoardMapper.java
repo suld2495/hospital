@@ -18,4 +18,6 @@ public interface BoardMapper {
     Map selectPrevNextNum(PagingVo pagingVo) throws Exception;
 
     int insertBoard(BoardVo boardVo) throws Exception;
+
+    void insertFile(Map param) throws Exception;
 }
