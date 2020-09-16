@@ -112,7 +112,7 @@
                             <div class="position-relative">
                                 <div class="review-text">
                                     <h4>임플란트</h4>
-                                    <p>의사선생님께서누 친절 하시고 걱정했던 임플란트</p>
+                                    <p>의사선생님께서는 친절 하시고 걱정했던 임플란트</p>
                                 </div>
                             </div>
                         </a>

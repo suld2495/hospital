@@ -3,7 +3,7 @@
     width: 100%;
     overflow: hidden;
     margin-top: 66px;
-    margin-bottom: 100px;
+    margin-bottom: 142px;
 }
 
 .section01 .bx-wrapper .bx-viewport {
@@ -281,7 +281,7 @@
 
 .section03 {
     /* margin-top: 92px; */
-    padding-bottom: 235px;
+    padding-bottom: 302px;
     overflow: hidden;
 }
 
@@ -349,7 +349,7 @@
 
 
 .section03 .bg {
-    background: #7e6956;
+    background: #9b8b7e;
     position: absolute;
     left: -32px;
     top: 0;

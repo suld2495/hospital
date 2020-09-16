@@ -122,7 +122,7 @@ section {
 .section02 .img01 {
     width: 47.3354%;
     max-width: 1208px;
-    height: 582px;
+    height: 500px;
     top: 0;
 }
 
@@ -163,12 +163,12 @@ section {
 .section03 .img01 {
     width: 46.1598%;
     max-width: 1178px;
-    height: 582px;
+    height: 500px;
     top: 0;
 }
 
 .section03 {
-    margin-top: 12px;
+    margin-top: 65px;
 }
 
 .section03 .img {
@@ -177,7 +177,7 @@ section {
 
 .section03 .text-box {
     padding-left: 50%;
-    padding-top: 24px;
+    padding-top: 20px;
 }
 
 .section03 .move-title {
@@ -209,7 +209,7 @@ section {
 .section04 .img01 {
     width: 47.3354%;
     max-width: 1208px;
-    height: 582px;
+    height: 500px;
     top: 0;
 }
 
@@ -342,7 +342,7 @@ section {
 }
 
 .section06 {
-    margin-top: 81px;
+    margin-top: 110px;
 }
 
 .section06 .text > div.img_bg {

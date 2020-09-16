@@ -96,8 +96,8 @@
                             <div class="title">
                                 <h2>임플란트</h2>
                                 <p>
-                                    디지털치과의 현재<br>
-                                    미소원치과를 소개합니다.
+                                    자연치아에 가까운<br>
+                                    기능을 되찾아드립니다.
                                 </p>
                             </div>
                             <div class="sub-category">
@@ -117,8 +117,8 @@
                             <div class="title">
                                 <h2>치아교정</h2>
                                 <p>
-                                    디지털치과의 현재<br>
-                                    미소원치과를 소개합니다.
+                                 교합력 뿐아니라 전체적인<br>
+                                    균형까지 생각하여 교정합니다.
                                 </p>
                             </div>
                             <div class="sub-category">
@@ -137,8 +137,8 @@
                             <div class="title">
                                 <h2>자연치아 클리닉</h2>
                                 <p>
-                                    디지털치과의 현재<br>
-                                    미소원치과를 소개합니다.
+                                    당신의 소중한 자연치아를<br>
+                                    평생 지켜드리겠습니다.
                                 </p>
                             </div>
                             <div class="sub-category">
@@ -157,8 +157,8 @@
                             <div class="title">
                                 <h2>커뮤니티</h2>
                                 <p>
-                                    디지털치과의 현재<br>
-                                    미소원치과를 소개합니다.
+                                    미소원치과의 새로운 소식을<br>
+                                    전달해드립니다.
                                 </p>
                             </div>
                             <div class="sub-category">
