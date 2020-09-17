@@ -222,7 +222,7 @@
                             <span class="section-title-color bold">주걱턱 교정이</span> 필요한 경우<br>
                         </h2>
                         <p class="pager pointer active"><span>01</span>앞니로 면을 끊어 먹기 어려운 경우</p><br>
-                        <p class="pager pointer"><span>02</span>코 양쪽 옆이 푹 꺼져 팔자루름이 생기는 경우</p><br>
+                        <p class="pager pointer"><span>02</span>코 양쪽 옆이 푹 꺼져 팔자주름이 생기는 경우</p><br>
                         <p class="pager pointer"><span>03</span>앞니끼리 맞물려 이가 깨지거나 마모가 심할 경우</p><br>
                         <p class="pager pointer"><span>04</span>코 끝에서 턱 끝이 돌출되고 길어보이는 경우</p><br>
                         <p class="pager pointer"><span>05</span>코를 통한 호흡이 힘들어주로 입을 통해 호흡을 할 경우</p><br>
@@ -252,7 +252,7 @@
         </section>
     </div>
 
-    <div class="tab-contents tab-contents3 list-contents">
+    <div class="tab-contents tab-contents3 list-content">
         <section class="section04">
             <div class="image_box_left">
                 <p class="img toothimg03"></p>
@@ -295,7 +295,7 @@
         </section>
     </div>
 
-    <div class="tab-contents tab-contents4 list-contents">
+    <div class="tab-contents tab-contents4 list-content">
         <section class="section04">
             <div class="image_box_left">
                 <p class="img toothimg04"></p>
@@ -388,7 +388,7 @@
         </section>
     </div>
 
-    <div class="tab-contents tab-contents5">
+    <div class="tab-contents tab-contents5 list-content">
         <section class="section04">
             <div class="image_box_left">
                 <p class="img toothimg05"></p>
@@ -399,12 +399,12 @@
                         <h2 class="section-title">
                             <span class="section-title-color bold">덧니 교정이</span> 필요한 경우<br>
                         </h2>
-                        <p class="pager">세련되고 어른스러운 이미지를 원하시는 분</p><br>
-                        <p class="pager">덧니 때문에 남들 앞에서 웃거나 말하는게 부담스러운 분</p><br>
-                        <p class="pager">양치질을 열심히 해도 치석,구취 등이 발생하는 분</p><br>
-                        <p class="pager">송곳니가 튀어나온 경우</p><br>
-                        <p class="pager">가지런한 치열을 원하는 경우</p><br>
-                        <p class="pager">치아가 서로 겹쳐져 있어 음식물이 잘 끼고 칫솔질이 어려운 경우</p><br>
+                        <p class="pager active"><span>02</span>세련되고 어른스러운 이미지를 원하시는 분</p><br>
+                        <p class="pager"><span>02</span>덧니 때문에 남들 앞에서 웃거나 말하는게 부담스러운 분</p><br>
+                        <p class="pager"><span>02</span>양치질을 열심히 해도 치석,구취 등이 발생하는 분</p><br>
+                        <p class="pager"><span>02</span>송곳니가 튀어나온 경우</p><br>
+                        <p class="pager"><span>02</span>가지런한 치열을 원하는 경우</p><br>
+                        <p class="pager"><span>02</span>치아가 서로 겹쳐져 있어 음식물이 잘 끼고 칫솔질이 어려운 경우</p><br>
                     </div>
                 </div>
             </div>
@@ -616,37 +616,42 @@
             $('.tab-pagination li').eq(index).addClass('active');
         }
 
-        var index = [0,0,0,0];
+        var index = [0,0,0,0,0];
 
-        $('.tab-contents1.list-content .pager').click(function () {
+        $('.tab-contents1.list-content .pager').mouseover(function () {
             index[0] = $('.tab-contents1.list-content .pager').index($(this));
             activePager(0, index[0]);
         })
 
-        $('.tab-contents2.list-content .pager').click(function () {
+        $('.tab-contents2.list-content .pager').mouseover(function () {
             index[1] = $('.tab-contents2.list-content .pager').index($(this));
             activePager(1, index[1]);
         })
 
-        $('.tab-contents3.list-contents .pager').click(function () {
+        $('.tab-contents3.list-content .pager').mouseover(function () {
             index[2] = $('.tab-contents3.list-content .pager').index($(this));
             activePager(2, index[2]);
         })
 
-        $('.tab-contents4.list-contents .pager').click(function () {
+        $('.tab-contents4.list-content .pager').mouseover(function () {
             index[3] = $('.tab-contents4.list-content .pager').index($(this));
             activePager(3, index[3]);
         })
 
+        $('.tab-contents5.list-content .pager').mouseover(function () {
+            index[4] = $('.tab-contents5.list-content .pager').index($(this));
+            activePager(4, index[4]);
+        })
+
         setInterval(function () {
-            for (var i = 0; i < 4; i++) {
+            for (var i = 0; i < 5; i++) {
                 activePager(i, index[i]);
             }
         }, 4000);
 
         function activePager(num, _index) {
-            $('.tab-contents' + num + '.list-content .pager').removeClass('active');
-            $('.tab-contents' + num + '.list-content .pager').eq(_index).addClass('active');
+            $('.tab-contents' + (num + 1) + '.list-content .pager').removeClass('active');
+            $('.tab-contents' + (num + 1) + '.list-content .pager').eq(_index).addClass('active');
             index[num] = (_index + 1) % $('.tab-contents' + num + '.list-content .pager').length;
         }
     });

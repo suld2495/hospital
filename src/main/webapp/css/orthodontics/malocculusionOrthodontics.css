@@ -209,15 +209,6 @@ p.img.toothimg05{
     letter-spacing: -1.5px;
 }
 
-.tab-contents5 .section04 .pager:before {
-    position: absolute;
-    left: 0;
-    content: '';
-    top: 9px;
-    background: url(../../images/sub/orthodontics/malocculusion/check_icon.png) no-repeat center;
-    width: 19px;
-    height: 19px;
-}
 
 .section04 .pager span {
     display: none;
@@ -683,7 +674,7 @@ p.img.toothimg07 .img {
 
 
 
-  section.board-link {
+section.board-link {
     margin-top: 125px;
 }
 
