@@ -8,6 +8,13 @@
          WHERE ID = #{id}
     </select>
 
+    <select id="getUserWithProvider" parameterType="map" resultType="userVo">
+        SELECT *
+          FROM membership
+         WHERE UNIQUE_ID = #{id}
+           AND PROVIDER = #{provider}
+    </select>
+
     <insert id="insertUser" parameterType="userVo">
         INSERT INTO membership
         (
@@ -23,6 +30,14 @@
             access_date,
             serviceYN,
             privacyYN
+
+            <if test="provider != null and provider != ''">
+                , provider
+            </if>
+
+            <if test="uniqueId != null and uniqueId != ''">
+                , unique_id
+            </if>
         )
 
         VALUES
@@ -39,6 +54,14 @@
             NOW(),
             #{serviceYN},
             #{privacyYN}
+
+            <if test="provider != null and provider != ''">
+                , #{provider}
+            </if>
+
+            <if test="uniqueId != null and uniqueId != ''">
+                , #{uniqueId}
+            </if>
         )
     </insert>
 </mapper>

@@ -20,6 +20,43 @@ public class UserVo {
     private String privacyYN;
     private String emailYN;
     private String smsYN;
+    private String createdDate;
+    private String accessDate;
+    private String provider;
+    private String uniqueId;
+
+    public String getCreatedDate() {
+        return createdDate;
+    }
+
+    public void setCreatedDate(String createdDate) {
+        this.createdDate = createdDate;
+    }
+
+    public String getAccessDate() {
+        return accessDate;
+    }
+
+    public void setAccessDate(String accessDate) {
+        this.accessDate = accessDate;
+    }
+
+    public String getUniqueId() {
+        return uniqueId;
+    }
+
+    public void setUniqueId(String uniqueId) {
+        this.uniqueId = uniqueId;
+    }
+
+    public String getProvider() {
+        return provider;
+    }
+
+    public void setProvider(String provider) {
+        this.provider = provider;
+    }
+
 
     public String getId() {
         return id;

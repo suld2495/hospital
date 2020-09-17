@@ -7,6 +7,8 @@ import kr.co.hospital.util.EncodingUtil;
 import org.springframework.security.crypto.util.EncodingUtils;
 import org.springframework.stereotype.Service;
 
+import java.util.Map;
+
 @Service
 public class LoginServiceImpl implements LoginService {
     private UserMapper userMapper;
@@ -19,5 +21,10 @@ public class LoginServiceImpl implements LoginService {
     public void insertUser(UserVo userVo) throws Exception {
         userVo.setPassword(EncodingUtil.encode(userVo.getPassword()));
         userMapper.insertUser(userVo);
+    }
+
+    @Override
+    public UserVo getUserWithProvider(Map param) throws Exception {
+        return userMapper.getUserWithProvider(param);
     }
 }
