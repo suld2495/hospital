@@ -15,7 +15,7 @@
             </form>
             <a class="pointer link misowon-login"><i class="misowon"></i>미소원 아이디로 로그인</a>
             <a class="pointer link naver-login" href="${naverUrl}"><i class="naver"></i>네이버 아이디로 로그인</a>
-            <a class="pointer link kakao-login"><i class="kakao"></i>카카오계정으로 로그인</a>
+            <a class="pointer link kakao-login" href="${kakaoUrl}"><i class="kakao"></i>카카오계정으로 로그인</a>
         </div>
 
         <div class="member-box">

@@ -11,7 +11,7 @@
     <select id="getUserWithProvider" parameterType="map" resultType="userVo">
         SELECT *
           FROM membership
-         WHERE UNIQUE_ID = #{id}
+         WHERE ID = #{id}
            AND PROVIDER = #{provider}
     </select>
 
@@ -34,10 +34,6 @@
             <if test="provider != null and provider != ''">
                 , provider
             </if>
-
-            <if test="uniqueId != null and uniqueId != ''">
-                , unique_id
-            </if>
         )
 
         VALUES
@@ -57,10 +53,6 @@
 
             <if test="provider != null and provider != ''">
                 , #{provider}
-            </if>
-
-            <if test="uniqueId != null and uniqueId != ''">
-                , #{uniqueId}
             </if>
         )
     </insert>

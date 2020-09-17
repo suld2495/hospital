@@ -3,6 +3,7 @@ package kr.co.hospital.login.web;
 import com.github.scribejava.core.model.OAuth2AccessToken;
 import com.google.gson.Gson;
 import jdk.nashorn.internal.parser.JSONParser;
+import kr.co.hospital.login.service.KakaoLoginBO;
 import kr.co.hospital.login.service.LoginService;
 import kr.co.hospital.login.service.NaverLoginBO;
 import kr.co.hospital.login.service.UserVo;
@@ -26,15 +27,17 @@ import java.util.Map;
 @Controller
 public class LoginController {
     private NaverLoginBO naverLoginBO;
+    private KakaoLoginBO kakaoLoginBO;
     private LoginService loginService;
     private Gson gson;
+    private String kakaoUrl = "https://kauth.kakao.com/oauth/authorize?client_id=3592ad3572602b79d67ba10e40c4fee6&redirect_uri=http://localhost:8080/hospital/kakao-callback&response_type=code";
 
     private String apiResult = null;
 
-    public LoginController(NaverLoginBO naverLoginBO, LoginService loginService, Gson gson) {
+    public LoginController(NaverLoginBO naverLoginBO, KakaoLoginBO kakaoLoginBO, LoginService loginService) {
         this.naverLoginBO = naverLoginBO;
+        this.kakaoLoginBO = kakaoLoginBO;
         this.loginService = loginService;
-        this.gson = gson;
     }
 
     @RequestMapping("/login")
@@ -42,9 +45,42 @@ public class LoginController {
         String naverAuthUrl = naverLoginBO.getAuthorizationUrl(session);
 
         model.addAttribute("naverUrl", naverAuthUrl);
+        model.addAttribute("kakaoUrl", kakaoUrl);
         model.addAttribute("category", 6);
         model.addAttribute("urlName", "회원로그인");
         return "/sub/login/login";
+    }
+
+    @RequestMapping("kakao-callback")
+    public String kakaoCallback(Model model, @RequestParam String code) throws Exception {
+        String access_Token = kakaoLoginBO.getAccessToken(code);
+        Map<String, Object> info = kakaoLoginBO.getUserInfo(access_Token);
+        UserVo user = null;
+
+        if (info.get("result").equals("success")) {
+            Map param = new HashMap();
+            param.put("provider", "kakao");
+            param.put("id", info.get("id"));
+            user = loginService.getUserWithProvider(param);
+
+            if (user == null) {
+                user = new UserVo();
+                user.setEmail((String) info.get("email"));
+                user.setName((String) info.get("nickname"));
+                user.setPassword("1");
+                user.setServiceYN("Y");
+                user.setPrivacyYN("Y");
+                user.setProvider("kakao");
+                user.setId((String) info.get("id"));
+                user.setPhone("-");
+                loginService.insertUser(user);
+            }
+        } else {
+            return "redirect:/login?error=kakao_error";
+        }
+
+        authLogin(user);
+        return "redirect:/";
     }
 
     @RequestMapping("naver-callback")
@@ -80,13 +116,17 @@ public class LoginController {
             return "redirect:/login?error=naver_error";
         }
 
+        authLogin(user);
+        return "redirect:/";
+    }
+
+    private void authLogin(UserVo userVo) {
         List<GrantedAuthority> roles = new ArrayList<>(1);
         String roleStr = "ROLE_USER";
         roles.add(new SimpleGrantedAuthority(roleStr));
 
-        Authentication auth = new UsernamePasswordAuthenticationToken(user, null, roles);
+        Authentication auth = new UsernamePasswordAuthenticationToken(userVo, null, roles);
         SecurityContextHolder.getContext().setAuthentication(auth);
-        return "redirect:/";
     }
 
     @RequestMapping("/member_agreement")
