@@ -671,8 +671,8 @@
         });
 
         var index = 0;
-        $('.list-content .pager').mouseover(function () {
-            index = $('.list-content .pager').index($(this));
+        $('.section06.list-content .pager').mouseover(function () {
+            index = $('.section06.list-content .pager').index($(this));
             active(index);
         })
 
@@ -681,9 +681,9 @@
         }, 4000);
 
         function active(_index) {
-            $('.list-content .pager').removeClass('active');
-            $('.list-content .pager').eq(_index).addClass('active');
-            index = (_index + 1) % $('.list-content .pager').length;
+            $('.section06.list-content .pager').removeClass('active');
+            $('.section06.list-content .pager').eq(_index).addClass('active');
+            index = (_index + 1) % $('.section06.list-content .pager').length;
         }
     })
 </script>
