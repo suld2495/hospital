@@ -652,7 +652,7 @@
         function activePager(num, _index) {
             $('.tab-contents' + (num + 1) + '.list-content .pager').removeClass('active');
             $('.tab-contents' + (num + 1) + '.list-content .pager').eq(_index).addClass('active');
-            index[num] = (_index + 1) % $('.tab-contents' + num + '.list-content .pager').length;
+            index[num] = (_index + 1) % $('.tab-contents' + (num + 1) + '.list-content .pager').length;
         }
     });
 </script>
