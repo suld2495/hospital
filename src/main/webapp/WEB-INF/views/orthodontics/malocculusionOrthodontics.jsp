@@ -616,24 +616,38 @@
             $('.tab-pagination li').eq(index).addClass('active');
         }
 
+        var index = [0,0,0,0];
+
         $('.tab-contents1.list-content .pager').click(function () {
-            $('.tab-contents1.list-content .pager').removeClass('active');
-            $(this).addClass('active');
+            index[0] = $('.tab-contents1.list-content .pager').index($(this));
+            activePager(0, index[0]);
         })
 
         $('.tab-contents2.list-content .pager').click(function () {
-            $('.tab-contents2.list-content .pager').removeClass('active');
-            $(this).addClass('active');
+            index[1] = $('.tab-contents2.list-content .pager').index($(this));
+            activePager(1, index[1]);
         })
 
         $('.tab-contents3.list-contents .pager').click(function () {
-            $('.tab-contents3.list-contents .pager').removeClass('active');
-            $(this).addClass('active');
+            index[2] = $('.tab-contents3.list-content .pager').index($(this));
+            activePager(2, index[2]);
         })
 
         $('.tab-contents4.list-contents .pager').click(function () {
-            $('.tab-contents4.list-contents .pager').removeClass('active');
-            $(this).addClass('active');
+            index[3] = $('.tab-contents4.list-content .pager').index($(this));
+            activePager(3, index[3]);
         })
+
+        setInterval(function () {
+            for (var i = 0; i < 4; i++) {
+                activePager(i, index[i]);
+            }
+        }, 4000);
+
+        function activePager(num, _index) {
+            $('.tab-contents' + num + '.list-content .pager').removeClass('active');
+            $('.tab-contents' + num + '.list-content .pager').eq(_index).addClass('active');
+            index[num] = (_index + 1) % $('.tab-contents' + num + '.list-content .pager').length;
+        }
     });
 </script>

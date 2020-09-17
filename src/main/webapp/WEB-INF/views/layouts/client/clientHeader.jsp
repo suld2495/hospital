@@ -200,9 +200,5 @@
                 $('header').removeClass('active');
             }
         })
-
-        $('.header-banner-small-slider').bxSlider({
-            pager: false
-        })
     })
 </script>

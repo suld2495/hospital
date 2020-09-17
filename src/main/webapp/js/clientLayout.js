@@ -17,6 +17,7 @@ $(function() {
         controls: true,
         nextText: '<img src="lib/bxSlider/images/arrow_right01.png">',
         prevText: '<img src="lib/bxSlider/images/arrow_left01.png">',
+        auto: true,
     });
 
     $('.header-banner-close').click(function() {

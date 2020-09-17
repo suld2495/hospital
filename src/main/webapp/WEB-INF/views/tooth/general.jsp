@@ -87,7 +87,7 @@
                             <th>1단계 법랑충치</th>
                             <th>2단계 상아질 충치</th>
                             <th>3단계 치수염</th>
-                            <th>4단계 치수괴사</th>
+                            <th class="last">4단계 치수괴사</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -338,7 +338,7 @@
                             <th>1단계 건강한 잇몸</th>
                             <th>2단계 치은염</th>
                             <th>3단계 진행된 치주염</th>
-                            <th>4단계 말기치주염</th>
+                            <th class="last">4단계 말기치주염</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -486,7 +486,7 @@
                             <th>1단계 감염된 치수</th>
                             <th>2단계 치수제거 및 소독</th>
                             <th>3단계 치아내부 충전</th>
-                            <th>4단계 보철물 장착</th>
+                            <th class="last">4단계 보철물 장착</th>
                         </tr>
                     </thead>
                     <tbody>

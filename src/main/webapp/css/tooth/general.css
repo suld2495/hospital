@@ -485,6 +485,11 @@
     box-sizing: border-box;
     letter-spacing: -1px;
     border: 1px solid #8f8f8f;
+    border-right: 1px solid #fff;
+}
+
+.section03 .table .table-title th.last {
+    border-right: 1px solid #8f8f8f;
 }
 
 .section03 .img-col li:first-child {
@@ -1029,7 +1034,7 @@
 }
 
 
-  section.board-link {
+section.board-link {
     margin-top: 125px;
 }
 
