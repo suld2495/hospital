@@ -48,6 +48,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/online-consult-write").authenticated()
                 .antMatchers("/reserve-write").authenticated()
                 .antMatchers("/reserve-view").authenticated()
+                .antMatchers("/mypage_reservation").authenticated()
+                .antMatchers("/mypage_consult").authenticated()
+                .antMatchers("/mypage_reservation").authenticated()
                 .antMatchers("/admin/**").hasAnyAuthority("ROLE_ADMIN")
                 .anyRequest().permitAll();
 
