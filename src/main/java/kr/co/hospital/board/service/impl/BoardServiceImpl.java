@@ -54,6 +54,10 @@ public class BoardServiceImpl implements BoardService {
     public void saveFile(MultipartHttpServletRequest mRequest, int num, String tableName) throws Exception {
         MultipartFile mFile = mRequest.getFile("file");
 
+        if (mFile.isEmpty()) {
+            return;
+        }
+
         String realFileName = mFile.getOriginalFilename();
         String realPath = WebUtils.getRealPath(servletContext, path);
 
