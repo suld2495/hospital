@@ -12,8 +12,8 @@
     <div class="max-layout-width">
         <div class="tab">
             <ul>
-                <li><a href="<c:url value='/mypage_reservation' />">예약내역</a></li>
-                <li><a href="<c:url value='/mypage_consult' />">온라인 상담</a></li>
+                <li><a href="<c:url value='/mypage_reservation/1' />">예약내역</a></li>
+                <li><a href="<c:url value='/mypage_consult/1' />">온라인 상담</a></li>
                 <li class="active"><a href="<c:url value='/mypage_update' />">회원정보수정</a></li>
             </ul>
         </div>

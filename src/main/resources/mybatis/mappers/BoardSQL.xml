@@ -9,11 +9,14 @@
          <where>
              <if test="search_text != null and search_text != ''">
                  <if test="type == 'title'">
-                     subject like concat('%', #{search_text}, '%')
+                     and subject like concat('%', #{search_text}, '%')
                  </if>
                  <if test="type == 'contents'">
-                     contents like concat('%', #{search_text}, '%')
+                     and contents like concat('%', #{search_text}, '%')
                  </if>
+             </if>
+             <if test="id != null and id != ''">
+                 and id = #{id}
              </if>
          </where>
          ORDER BY created_date desc
@@ -26,11 +29,14 @@
         <where>
             <if test="search_text != null and search_text != ''">
                 <if test="type == 'title'">
-                    subject like concat('%', #{search_text}, '%')
+                    and subject like concat('%', #{search_text}, '%')
                 </if>
                 <if test="type == 'contents'">
-                    contents like concat('%', #{search_text}, '%')
+                    and contents like concat('%', #{search_text}, '%')
                 </if>
+            </if>
+            <if test="id != null and id != ''">
+                and id = #{id}
             </if>
         </where>
     </select>
@@ -88,7 +94,8 @@
             writer,
             contents,
             created_date,
-            update_date
+            update_date,
+            id
             
             <if test="phone != null and phone != ''">
                 ,phone
@@ -133,7 +140,8 @@
             #{writer},
             #{contents},
             now(),
-            now()
+            now(),
+            #{id}
 
             <if test="phone != null and phone != ''">
                 ,#{phone}

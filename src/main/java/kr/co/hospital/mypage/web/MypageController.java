@@ -1,28 +1,59 @@
 package kr.co.hospital.mypage.web;
 
+import kr.co.hospital.board.service.BoardService;
+import kr.co.hospital.board.service.PagingVo;
+import kr.co.hospital.login.service.UserVo;
 import kr.co.hospital.mypage.service.MypageService;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class MypageController {
     private MypageService mypageService;
+    private BoardService boardService;
 
-    public MypageController(MypageService mypageService) {
+    public MypageController(MypageService mypageService, BoardService boardService) {
         this.mypageService = mypageService;
+        this.boardService = boardService;
     }
 
-    @RequestMapping("/mypage_reservation")
-    public String mypageReservation(Model model) {
+    @RequestMapping("/mypage_reservation/{currentPage}")
+    public String mypageReservation(Model model,
+                                    Authentication auth,
+                                    @PathVariable(value="currentPage") int currentPage) throws Exception {
+        if (auth.getPrincipal() != null) {
+            PagingVo pagingVo = new PagingVo(10, currentPage, "reserve", "", "");
+            UserVo userVo = (UserVo) auth.getPrincipal();
+            pagingVo.setId(userVo.getId());
+            model.addAttribute("list", boardService.getBoardList(pagingVo));
+            model.addAttribute("paging", pagingVo);
+        }
+
         model.addAttribute("category", 8);
         model.addAttribute("urlName", "예약내역");
         return "/sub/mypage/mypageReservation";
     }
 
-    @RequestMapping("/mypage_consult")
-    public String mypageConsult(Model model) {
+    @RequestMapping("/mypage_consult/{currentPage}")
+    public String mypageConsult(Model model,
+                                Authentication auth,
+                                @PathVariable(value="currentPage") int currentPage,
+                                @RequestParam(value = "search_text", required = false) String search_text,
+                                @RequestParam(value = "type", required = false) String type) throws Exception {
+
+        if (auth.getPrincipal() != null) {
+            PagingVo pagingVo = new PagingVo(10, currentPage, "online", search_text, type);
+            UserVo userVo = (UserVo) auth.getPrincipal();
+            pagingVo.setId(userVo.getId());
+            model.addAttribute("list", boardService.getBoardList(pagingVo));
+            model.addAttribute("paging", pagingVo);
+        }
+
         model.addAttribute("category", 8);
         model.addAttribute("urlName", "온라인 상담");
         return "/sub/mypage/mypageConsult";

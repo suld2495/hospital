@@ -11,8 +11,8 @@
     <div class="max-layout-width">
         <div class="tab">
             <ul>
-                <li class="active"><a href="<c:url value='/mypage_reservation' />">예약내역</a></li>
-                <li><a href="<c:url value='/mypage_consult' />">온라인 상담</a></li>
+                <li class="active"><a href="<c:url value='/mypage_reservation/1' />">예약내역</a></li>
+                <li><a href="<c:url value='/mypage_consult/1' />">온라인 상담</a></li>
                 <li><a href="<c:url value='/mypage_update' />">회원정보수정</a></li>
             </ul>
         </div>
@@ -23,10 +23,19 @@
                 <li class="center">예약센터</li>
                 <li class="name">신청자명</li>
                 <li class="phone">연락처</li>
-                <li class="etc">비고</li>
+                <li class="etc">비고${paging.total}</li>
             </ul>
             <ul class="empty">
-                <li><p>등록된 자료가 없습니다.</p></li>
+                <c:forEach items="${list}" var="list">
+                    <li class="date">${list.created_show_date}</li>
+                    <li class="center"></li>
+                    <li class="name">${list.writer}</li>
+                    <li class="phone">${list.phone}</li>
+                    <li class="etc"></li>
+                </c:forEach>
+                <c:if test="${paging.total eq 0}">
+                    <li><p>등록된 자료가 없습니다.</p></li>
+                </c:if>
             </ul>
         </div>
     </div>

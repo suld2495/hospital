@@ -4,6 +4,8 @@ import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.board.service.BoardVo;
 import kr.co.hospital.board.service.OnlineConsultValidator;
 import kr.co.hospital.board.service.PagingVo;
+import kr.co.hospital.login.service.UserVo;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -85,14 +87,16 @@ public class BoardController {
     public String reserveWritePost(MultipartHttpServletRequest mRequest,
                                    Model model,
                                    @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo,
-                                   BindingResult result) throws Exception {
+                                   BindingResult result,
+                                   Authentication auth) throws Exception {
 
         if (result.hasErrors()) {
             return prefix + "reserveWrite";
         }
 
-
         boardVo.setTableName("reserve");
+        UserVo userVo = (UserVo) auth.getPrincipal();
+        boardVo.setId(userVo.getId());
         boardService.insertBoard(boardVo);
         boardService.saveFile(mRequest, boardVo.getNum(), "reserve");
 
@@ -160,7 +164,8 @@ public class BoardController {
     public String onlineConsultWritePost(MultipartHttpServletRequest mRequest,
                                          Model model,
                                          @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo,
-                                         BindingResult result) throws Exception {
+                                         BindingResult result,
+                                         Authentication auth) throws Exception {
 
         onlineConsultValidator.validate(boardVo, result);
 
@@ -169,6 +174,8 @@ public class BoardController {
         }
 
         boardVo.setTableName("online");
+        UserVo userVo = (UserVo) auth.getPrincipal();
+        boardVo.setId(userVo.getId());
         boardService.insertBoard(boardVo);
         boardService.saveFile(mRequest, boardVo.getNum(), "online");
 
@@ -209,7 +216,7 @@ public class BoardController {
     }
 
     @RequestMapping(value = "review-write", method = RequestMethod.POST)
-    public String reviewWritePost(Model model, @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo, BindingResult result) throws Exception {
+    public String reviewWritePost(Model model, @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo, BindingResult result, Authentication auth) throws Exception {
 
         if (result.hasErrors()) {
             return prefix + "reviewWrite";
@@ -217,6 +224,8 @@ public class BoardController {
 
         boardVo.setTableName("review");
         boardService.insertBoard(boardVo);
+        UserVo userVo = (UserVo) auth.getPrincipal();
+        boardVo.setId(userVo.getId());
 
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "온라인 상담");
