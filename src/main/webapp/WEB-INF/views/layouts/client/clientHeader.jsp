@@ -39,10 +39,19 @@
                 <div class="header-member">
                     <div class="display-inline-block">
                         <div class="login-nav pointer">
-                            <a class="text-decoration-none" href="<c:url value='/login' />">
-                                <img src="<c:url value='/images/cmmn/join.png' />" alt="로그인">
-                                <p class="font-12">로그인</p>
-                            </a>
+                            <sec:authorize access="isAnonymous()">
+                                <a class="text-decoration-none" href="<c:url value='/login' />">
+                                    <img src="<c:url value='/images/cmmn/join.png' />" alt="로그인">
+                                    <p class="font-12">로그인</p>
+                                </a>
+                            </sec:authorize>
+                            <sec:authorize access="isAuthenticated()">
+                                <a class="text-decoration-none" href="<c:url value='/logout' />">
+                                    <img src="<c:url value='/images/cmmn/join.png' />" alt="로그아웃">
+                                    <p class="font-12">로그아웃</p>
+                                </a>
+                            </sec:authorize>
+
                         </div>
                         <div class="member-nav pointer">
                             <a class="text-decoration-none" href="<c:url value='/member_agreement' />">
