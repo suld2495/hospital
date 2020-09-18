@@ -12,6 +12,9 @@ import java.util.HashMap;
 
 @Component
 public class KakaoLoginBO {
+    private String address = "http://localhost:8080/hospital";
+    private String clientId = "3592ad3572602b79d67ba10e40c4fee6";
+
     public String getAccessToken (String authorize_code) throws Exception {
         String access_Token = "";
         String refresh_Token = "";
@@ -29,8 +32,8 @@ public class KakaoLoginBO {
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(conn.getOutputStream()));
             StringBuilder sb = new StringBuilder();
             sb.append("grant_type=authorization_code");
-            sb.append("&client_id=3592ad3572602b79d67ba10e40c4fee6");
-            sb.append("&redirect_uri=http://localhost:8080/hospital/kakao-callback");
+            sb.append("&client_id=" + clientId);
+            sb.append("&redirect_uri=" + address + "/kakao-callback");
             sb.append("&code=" + authorize_code);
             bw.write(sb.toString());
             bw.flush();
@@ -38,7 +41,7 @@ public class KakaoLoginBO {
             //    결과 코드가 200이라면 성공
             int responseCode = conn.getResponseCode();
 
-            if (responseCode == 200) {
+            if (responseCode != 200) {
                 throw new Exception();
             } else {
                 //    요청을 통해 얻은 JSON타입의 Response 메세지 읽어오기
@@ -108,11 +111,16 @@ public class KakaoLoginBO {
 
                 userInfo.put("nickname", nickname);
                 userInfo.put("email", email);
+                userInfo.put("id", element.getAsJsonObject().get("id").getAsString());
             }
         } catch (IOException e) {
             throw e;
         }
 
         return userInfo;
+    }
+
+    public String getKakaoURL() {
+        return "https://kauth.kakao.com/oauth/authorize?client_id=" + clientId + "&redirect_uri=" + address + "/kakao-callback&response_type=code";
     }
 }

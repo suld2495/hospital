@@ -17,6 +17,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.util.ArrayList;
@@ -30,22 +31,22 @@ public class LoginController {
     private KakaoLoginBO kakaoLoginBO;
     private LoginService loginService;
     private Gson gson;
-    private String kakaoUrl = "https://kauth.kakao.com/oauth/authorize?client_id=3592ad3572602b79d67ba10e40c4fee6&redirect_uri=http://localhost:8080/hospital/kakao-callback&response_type=code";
 
     private String apiResult = null;
 
-    public LoginController(NaverLoginBO naverLoginBO, KakaoLoginBO kakaoLoginBO, LoginService loginService) {
+    public LoginController(NaverLoginBO naverLoginBO, KakaoLoginBO kakaoLoginBO, LoginService loginService, Gson gson) {
         this.naverLoginBO = naverLoginBO;
         this.kakaoLoginBO = kakaoLoginBO;
         this.loginService = loginService;
+        this.gson = gson;
     }
 
     @RequestMapping("/login")
-    public String login(Model model, HttpSession session) {
+    public String login(Model model, HttpSession session, HttpServletRequest request) {
         String naverAuthUrl = naverLoginBO.getAuthorizationUrl(session);
 
         model.addAttribute("naverUrl", naverAuthUrl);
-        model.addAttribute("kakaoUrl", kakaoUrl);
+        model.addAttribute("kakaoUrl", kakaoLoginBO.getKakaoURL());
         model.addAttribute("category", 6);
         model.addAttribute("urlName", "회원로그인");
         return "/sub/login/login";
@@ -53,9 +54,16 @@ public class LoginController {
 
     @RequestMapping("kakao-callback")
     public String kakaoCallback(Model model, @RequestParam String code) throws Exception {
-        String access_Token = kakaoLoginBO.getAccessToken(code);
-        Map<String, Object> info = kakaoLoginBO.getUserInfo(access_Token);
+        String access_Token = null;
+        Map<String, Object> info = null;
         UserVo user = null;
+        
+        try {
+            access_Token = kakaoLoginBO.getAccessToken(code);
+            info = kakaoLoginBO.getUserInfo(access_Token);
+        } catch (Exception e) {
+            return "redirect:/login?error=kakao_error";
+        }
 
         if (info.get("result").equals("success")) {
             Map param = new HashMap();
