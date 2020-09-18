@@ -1239,3 +1239,9 @@ body .section07 .bx-pager-link span + span {
 .section-text {
     color: #9c9c9c
 }
+
+@media screen and (max-width:1540px) {
+    .section05 .doctor-slider {
+        width: 20.6%;
+    }
+}

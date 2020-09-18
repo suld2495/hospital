@@ -516,6 +516,14 @@
             arrow: true,
             prevArrow: '<span class="slider-prev"><</span>',
             nextArrow: '<span class="slider-next">></span>',
+            responsive: [
+                {
+                    breakpoint: 1540,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+            ]
         });
 
         $('.section01-slider').bxSlider({
