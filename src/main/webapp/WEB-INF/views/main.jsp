@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<link rel="stylesheet" href="<c:url value='/lib/wow/animate.css' />">
+<link rel="stylesheet" href="<c:url value='/lib/fullPage/jquery.fullpage.min1.css' />">
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
 <link rel="stylesheet" href="<c:url value="/css/main.css"/>" />
 
-<div>
-    <div class="section01">
+<div id="fullpage">
+    <div class="section01 section">
         <div class="section01-slider">
             <div>
                 <img class="full-layout-width" src="<c:url value='/images/main/img_main01.jpg' />" alt="미소원치과는 자신있습니다!">
@@ -20,7 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="section02 position-relative max-layout-width wow fadeInUp">
+    <div class="section02 position-relative max-layout-width section">
         <h2>디지털치과의 현재 <span class="section-title-color"><strong>미소원치과</strong></span></h2>
         <p>3D CT, CEREC SYSTEM, 최상의 장비를 바탕으로 개인의 상태에 꼭 맞는 맞춤진료를 합니다 </p>
         <div class="display-inline-block">
@@ -69,7 +69,7 @@
             </ul>
         </div>
     </div>
-    <div class="section03 position-relative wow fadeInUp" data-wow-delay="500ms">
+    <div class="section03 position-relative section">
         <div class="main-bg"></div>
         <div class="max-layout-width">
             <div class="text">
@@ -96,7 +96,7 @@
         </div>
         <div class="bg"></div>
     </div>
-    <div class="section04 wow fadeInUp" data-wow-delay="500ms">
+    <div class="section04 section">
         <div class="text max-layout-width position-relative">
             <h4>늘 후회없는 선택을 하는 당신</h4>
             <h4><span><strong>미소원치과는 완벽한 선택</strong></span>입니다</h4>
@@ -121,7 +121,7 @@
             </div>
         </div>
     </div>
-    <div class="section05 wow fadeInUp" data-wow-delay="500ms">
+    <div class="section05 section">
         <div>
             <div class="max-layout-width">
                 <h2 class="section-title">
@@ -231,7 +231,7 @@
             <div class="bg"></div>
         </div>
     </div>
-    <div class="section06 wow fadeInUp" data-wow-delay="500ms">
+    <div class="section06 section">
         <div>
             <h4>소중한 당신의 치아 <span>믿고 맡길 수 있도록</span></h4>
             <div class="main-slider">
@@ -253,7 +253,7 @@
             </div>
         </div>
     </div>
-    <div class="section07 wow fadeInUp" data-wow-delay="500ms">
+    <div class="section07 section">
         <div class="max-layout-width">
             <h4>편안하고 정확한 <span>디지털 치과에서의 경험</span></h4>
             <h4>이제, 당신 차례입니다</h4>
@@ -317,7 +317,7 @@
             </div>
         </div>
     </div>
-    <div class="section08 max-layout-width wow fadeInUp" data-wow-delay="500ms">
+    <div class="section08 max-layout-width section">
         <div class="display-inline-block">
             <div class="consultant">
                 <h4>
@@ -390,7 +390,7 @@
             </div>
         </div>
     </div>
-    <div class="section09 wow fadeInUp" data-wow-delay="500ms">
+    <div class="section09 section">
         <div class="max-layout-width">
             <h4>미소원치과 <strong>미리보기</strong></h4>
             <p>따듯한 공간에서 편안하게 진료받으세요.</p>
@@ -416,10 +416,15 @@
     </div>
 </div>
 
-<script src="<c:url value="/lib/wow/wow.js" />"></script>
+<script src="<c:url value="/lib/fullPage/jquery.fullpage1.min.js" />"></script>
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script>
     $(function() {
+        $('#fullpage').fullpage({
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true
+        });
         new WOW().init();
 
         $('.img-box li').mouseenter(function() {
