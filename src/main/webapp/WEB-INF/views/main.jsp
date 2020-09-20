@@ -100,7 +100,7 @@
         </div>
         <div class="section01-slider">
             <div class="slide-item">
-                <div class="img01"></div>
+                <div class="img01 img"></div>
                 <div class="max-layout-width">
                     <div class="text">
                         <h2>
@@ -116,7 +116,7 @@
                 </div>
             </div>
             <div class="slide-item">
-                <div class="img02"></div>
+                <div class="img02 img"></div>
                 <div class="max-layout-width">
                     <div class="text">
                         <h2>
@@ -132,7 +132,7 @@
                 </div>
             </div>
             <div class="slide-item">
-                <div class="img03"></div>
+                <div class="img03 img"></div>
                 <div class="max-layout-width">
                     <div class="text">
                         <h2>
@@ -148,7 +148,7 @@
                 </div>
             </div>
             <div class="slide-item">
-                <div class="img04"></div>
+                <div class="img04 img"></div>
                 <div class="max-layout-width">
                     <div class="text">
                         <h2>
@@ -164,6 +164,7 @@
                 </div>
             </div>
         </div>
+        <div class="scroll">SCROLL</div>
     </div>
     <div class="section02 position-relative max-layout-width section">
         <h2>디지털치과의 현재 <span class="section-title-color"><strong>미소원치과</strong></span></h2>
