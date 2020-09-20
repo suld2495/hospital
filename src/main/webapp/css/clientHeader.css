@@ -286,3 +286,96 @@ header.active .fixed {
 header nav {
     border-bottom: 1px solid #bbb;
 }
+
+.header-banner-slider-continer01 {
+    height: 56px;
+    background: #88bdbb;
+    position: relative;
+}
+
+.header-banner-slider-continer01 .slide-item-box {
+    text-align: center;
+}
+
+.header-banner-slider-continer01 .slide-item {
+    display: inline-block;
+    padding-bottom: 0;
+    line-height: 56px;
+    color: #fff;
+}
+
+.header-banner-slider-continer01 .slide-item * {
+    float: left;
+}
+
+.header-banner-slider-continer01 .slide-item img {
+    width: auto;
+    margin-right: 25px;
+}
+
+.header-banner-slider-continer01 .slide-item span {
+    font-size: 16px;
+}
+
+.header-banner-slider-continer01 .slide-item .go {
+    margin-left: 15px;
+    background: #151d36;
+    width: 81px;
+    height: 31px;
+    margin-top: 12px;
+    line-height: 31px;
+    font-size: 11px;
+    border-radius: 20px;
+}
+
+.header-banner-slider-continer01 .bx-wrapper .bx-pager {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    height: 0;
+    width:  1300px;
+    text-align: left;
+    left: 50%;
+    margin-left: -650px;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+.header-banner-slider-continer01 .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #fff;
+}
+
+.header-banner-slider-continer01 .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #aacccd;
+    margin: 0px 2px;
+    width: 8px;
+    height: 8px;
+}
+
+header .banner-close {
+    position: absolute;
+    top: 0;
+    width: 1300px;
+    right: 50%;
+    margin-right: -650px;
+    text-align: right;
+    height: 0;
+}
+
+header .banner-close span {
+    float: right;
+    line-height: 56px;
+    color: #fff;
+    font-size: 13px;
+}
+
+header .banner-close img {
+    padding: 19.5px 0;
+    margin-left: 12px;
+    width: auto;
+}
+
+header .banner-close-box {
+    display: inline-block;
+    cursor: pointer;
+}

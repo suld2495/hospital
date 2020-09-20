@@ -2,11 +2,12 @@ $(function() {
     var isCloseBanner = getCookie('banner') === 'true';
 
     if (isCloseBanner) {
-        $('.header-banner-slider').css('display', 'none');
+        $('.header-banner-slider-continer01').css('display', 'none');
     } else {
         $('.header-banner-slider').bxSlider({
             mode: 'fade',
-            pager: false
+            auto: true,
+            controls: false,
         });
     }
 
@@ -20,8 +21,8 @@ $(function() {
         auto: true,
     });
 
-    $('.header-banner-close').click(function() {
-        $('.header-banner-slider-continer01 .bx-wrapper').slideToggle();
+    $('.banner-close-box').click(function() {
+        $('.header-banner-slider-continer01').slideToggle();
         isCloseBanner = !isCloseBanner;
         setCookie('banner', isCloseBanner, 10);
     });

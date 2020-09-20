@@ -425,7 +425,6 @@
             autoScrolling:true,
             scrollHorizontally: true
         });
-        new WOW().init();
 
         $('.img-box li').mouseenter(function() {
             var index = $(this).index();

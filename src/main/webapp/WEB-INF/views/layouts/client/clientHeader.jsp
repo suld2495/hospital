@@ -4,11 +4,38 @@
 <div>
     <div class="header-banner-slider-continer header-banner-slider-continer01">
         <div class="header-banner-slider">
-            <div><img src="<c:url value='/images/cmmn/top_banner01_1.jpg' />" alt="미소원치과에서 임플란트로 새 삶을 찾다!"></div>
+            <div class="slide-item-box pointer">
+                <div class="slide-item">
+                    <img src="<c:url value='/images/cmmn/banner01.png'/>">
+                    <span>뿌리부터 오래오래, 튼튼하게! 임플란트로 새 삶을 찾다!</span>
+                    <a class="go">바로가기</a>
+                </div>
+            </div>
+            <div class="slide-item-box pointer">
+                <div class="slide-item">
+                    <img src="<c:url value='/images/cmmn/banner02.png'/>">
+                    <span>뿌리부터 오래오래, 튼튼하게! 임플란트로 새 삶을 찾다!</span>
+                    <a class="go">바로가기</a>
+                </div>
+            </div>
+            <div class="slide-item-box pointer">
+                <div class="slide-item">
+                    <img src="<c:url value='/images/cmmn/banner03.png'/>">
+                    <span>뿌리부터 오래오래, 튼튼하게! 임플란트로 새 삶을 찾다!</span>
+                    <a class="go">바로가기</a>
+                </div>
+            </div>
+            <div class="slide-item-box pointer">
+                <div class="slide-item">
+                    <img src="<c:url value='/images/cmmn/banner04.png'/>">
+                    <span>뿌리부터 오래오래, 튼튼하게! 임플란트로 새 삶을 찾다!</span>
+                    <a class="go">바로가기</a>
+                </div>
+            </div>
         </div>
-        <div class="header-banner-close-continer max-layout-width">
-            <div class="header-banner-close pointer">
-                <span class="font-13 banner-close"></span>
+        <div class="banner-close">
+            <div class="banner-close-box">
+                <span class="close"><img src="<c:url value='/images/cmmn/close.png'/>"></span><span>오늘 하루 열지 않기</span>
             </div>
         </div>
     </div>
