@@ -339,6 +339,7 @@ header.active .fixed {
     height: 56px;
     background: #88bdbb;
     position: relative;
+    overflow: hidden;
 }
 
 .header-banner-slider-continer01 .slide-item-box {

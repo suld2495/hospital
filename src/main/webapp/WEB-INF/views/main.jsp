@@ -6,17 +6,162 @@
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
 <link rel="stylesheet" href="<c:url value="/css/main.css"/>" />
 
+<div class="fp-nav">
+    <div class="fp-menu">
+        <ul>
+            <li data-menuanchor="anchor1" class="active">
+                <a href="#anchor1">
+                    <div class="shape"></div>
+                    <div class="img"></div>
+                    <span class="text">MISOWON</span>
+                </a>
+            </li>
+            <li data-menuanchor="anchor2">
+                <a href="#anchor2">
+                    <div class="shape"></div>
+                    <div class="img"></div>
+                    <span class="text">MISOWON</span>
+                </a>
+            </li>
+            <li data-menuanchor="anchor3">
+                <a href="#anchor3">
+                    <div class="shape"></div>
+                    <div class="img"></div>
+                    <span class="text">MISOWON</span>
+                </a>
+            </li>
+            <li data-menuanchor="anchor4">
+                <a href="#anchor4">
+                    <div class="shape"></div>
+                    <div class="img"></div>
+                    <span class="text">MISOWON</span>
+                </a>
+            </li>
+            <li data-menuanchor="anchor5">
+                <a href="#anchor5">
+                    <div class="shape"></div>
+                    <div class="img"></div>
+                    <span class="text">MISOWON</span>
+                </a>
+            </li>
+            <li data-menuanchor="anchor6">
+                <a href="#anchor6">
+                    <div class="shape"></div>
+                    <div class="img"></div>
+                    <span class="text">MISOWON</span>
+                </a>
+            </li>
+            <li data-menuanchor="anchor7">
+                <a href="#anchor7">
+                    <div class="shape"></div>
+                    <div class="img"></div>
+                    <span class="text">MISOWON</span>
+                </a>
+            </li>
+            <li data-menuanchor="anchor8">
+                <a href="#anchor8">
+                    <div class="shape"></div>
+                    <div class="img"></div>
+                    <span class="text">MISOWON</span>
+                </a>
+            </li>
+            <li data-menuanchor="anchor9">
+                <a href="#anchor9">
+                    <div class="shape"></div>
+                    <div class="img"></div>
+                    <span class="text">MISOWON</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="quick">
+            <li class="plus"></li>
+            <li class="quick-button">
+                <a href="/reserve-write" class="reserve"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
 <div id="fullpage">
     <div class="section01 section">
+        <div class="max-layout-width">
+            <div class="control">
+                <div class="auto"></div>
+                <div class="num">
+                    <span class="current">1</span>
+                    <span class="shape">/</span>
+                    <span class="total">4</span>
+                </div>
+                <div class="arrow">
+                    <span class="prev"></span>
+                    <span class="next"></span>
+                </div>
+            </div>
+        </div>
         <div class="section01-slider">
-            <div>
-                <img class="full-layout-width" src="<c:url value='/images/main/img_main01.jpg' />" alt="미소원치과는 자신있습니다!">
+            <div class="slide-item">
+                <div class="img01"></div>
+                <div class="max-layout-width">
+                    <div class="text">
+                        <h2>
+                            풍부한 수술경혐을 바탕으로<br>
+                            고난이도 임플란트로 문제없이
+                        </h2>
+                        <p>검증된 재료와 풍부한 수술경험을 바탕으로 고난이도 수술이 가능합니다</p>
+                        <a>
+                            MORE
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img class="full-layout-width" src="<c:url value='/images/main/img_main01.jpg' />" alt="미소원치과는 자신있습니다!">
+            <div class="slide-item">
+                <div class="img02"></div>
+                <div class="max-layout-width">
+                    <div class="text">
+                        <h2>
+                            풍부한 수술경혐을 바탕으로<br>
+                            고난이도 임플란트로 문제없이
+                        </h2>
+                        <p>검증된 재료와 풍부한 수술경험을 바탕으로 고난이도 수술이 가능합니다</p>
+                        <a>
+                            MORE
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img class="full-layout-width" src="<c:url value='/images/main/img_main01.jpg' />" alt="미소원치과는 자신있습니다!">
+            <div class="slide-item">
+                <div class="img03"></div>
+                <div class="max-layout-width">
+                    <div class="text">
+                        <h2>
+                            풍부한 수술경혐을 바탕으로<br>
+                            고난이도 임플란트로 문제없이
+                        </h2>
+                        <p>검증된 재료와 풍부한 수술경험을 바탕으로 고난이도 수술이 가능합니다</p>
+                        <a>
+                            MORE
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item">
+                <div class="img04"></div>
+                <div class="max-layout-width">
+                    <div class="text">
+                        <h2>
+                            풍부한 수술경혐을 바탕으로<br>
+                            고난이도 임플란트로 문제없이
+                        </h2>
+                        <p>검증된 재료와 풍부한 수술경험을 바탕으로 고난이도 수술이 가능합니다</p>
+                        <a>
+                            MORE
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -423,7 +568,9 @@
         $('#fullpage').fullpage({
             //options here
             autoScrolling:true,
-            scrollHorizontally: true
+            scrollHorizontally: true,
+            anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6', 'anchor7', 'anchor8', 'anchor9'],
+            menu: '.fp-nav'
         });
 
         $('.img-box li').mouseenter(function() {
@@ -533,6 +680,22 @@
         $('.section01-slider').bxSlider({
             pager: false,
             auto: true,
+            mode: 'fade',
+            nextSelector: '.section01 .control .next',
+            prevSelector: '.section01 .control .prev',
+            startText: 'start',
+            autoControls: true,
+            onSliderLoad: function() {
+                $('.bx-controls-auto').appendTo($('.section01 .control .auto'));
+                $('.section01 .bx-controls-auto .bx-stop').after($('.section01 .bx-controls-auto .bx-start'));
+            },
+            onSlideAfter: function ($slideElement, oldIndex, newIndex) {
+                $('.section01 .num .current').text(newIndex + 1);
+            }
+        })
+
+        $('.quick .plus').click(function () {
+            $(this).toggleClass('active');
         })
     });
 
