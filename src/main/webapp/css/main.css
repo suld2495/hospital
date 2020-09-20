@@ -2898,8 +2898,18 @@ body .section07 .bx-pager-link span + span {
     width: 9px;
 }
 
+.section01 .bx-controls-auto .bx-start:hover {
+    background: url(../images/main/play_or.png) no-repeat center;
+    width: 9px;
+}
+
 .section01 .bx-controls-auto .bx-stop {
     background: url(../images/main/stop.png) no-repeat center;
+    width: 11px;
+}
+
+.section01 .bx-controls-auto .bx-stop:hover {
+    background: url(../images/main/stop_or.png) no-repeat center;
     width: 11px;
 }
 
@@ -2935,8 +2945,16 @@ body .section07 .bx-pager-link span + span {
     background: url(../images/main/left_icon.png) no-repeat center;
 }
 
+.section01 .bx-prev:hover {
+    background: url(../images/main/left_icon_or.png) no-repeat center;
+}
+
 .section01 .bx-next {
     background: url(../images/main/right_icon.png) no-repeat center;
+}
+
+.section01 .bx-next:hover {
+    background: url(../images/main/right_icon_or.png) no-repeat center;
 }
 
 .section01 .control .arrow a {

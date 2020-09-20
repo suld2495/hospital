@@ -90,133 +90,133 @@
                     </div>
                 </div>
             </div>
-            <ul class="nav-detail">
-                <li id="nav01">
-                    <div class="bg"></div>
-                    <div class="max-layout-width">
-                        <div class="title">
-                            <h2>미소원치과</h2>
-                            <p>
-                                디지털치과의 현재<br>
-                                미소원치과를 소개합니다.
-                            </p>
-                        </div>
-                        <div class="sub-category">
-                            <ul>
-                                <li><a href="<c:url value='/intro' />">본원소개</a></li>
-                                <li><a href="<c:url value='/staff' />">의료진소개</a></li>
-                                <li><a href="<c:url value='/competitiveness' />">핵심경쟁력</a></li>
-                                <li><a href="<c:url value='/diagnostic_equipment_system' />">진단장비 시스템</a></li>
-                                <li><a href="<c:url value='/tour' />">둘러보기</a></li>
-                                <li><a href="<c:url value='/directions' />">오시는길</a></li>
-                                <%--                                    <li><a href="<c:url value='/medical' />">진료보증제도</a></li>--%>
-                            </ul>
-                            <div class="img img01"></div>
-                        </div>
-                    </div>
-                </li>
-                <li id="nav02">
-                    <div class="max-layout-width">
-                        <div class="title">
-                            <h2>임플란트</h2>
-                            <p>
-                                자연치아에 가까운<br>
-                                기능을 되찾아드립니다.
-                            </p>
-                        </div>
-                        <div class="sub-category">
-                            <ul>
-                                <li><a href="<c:url value='/digital_implants' />">디지털 임플란트</a></li>
-                                <li><a href="<c:url value='/navigation_implants' />">네비게이션 임플란트</a></li>
-                                <li><a href="<c:url value='/oneday_implants' />">원데이 임플란트</a></li>
-                                <li><a href="<c:url value='/bone_graft_implant' />">뼈이식 임플란트</a></li>
-                                <li><a href="<c:url value='/full_implants' />">전체 임플란트</a></li>
-                            </ul>
-                            <div class="img img02"></div>
-                        </div>
-                    </div>
-                </li>
-                <li id="nav03">
-                    <div class="max-layout-width">
-                        <div class="title">
-                            <h2>치아교정</h2>
-                            <p>
-                                교합력 뿐아니라 전체적인<br>
-                                균형까지 생각하여 교정합니다.
-                            </p>
-                        </div>
-                        <div class="sub-category">
-                            <ul>
-                                <li><a href="<c:url value='/misowon_orthodontics' />">미소원 치아교정</a></li>
-                                <li><a href="<c:url value='/partial_orthodontics' />">부분교정</a></li>
-                                <li><a href="<c:url value='/malocculusion_orthodontics' />">부정교합 교정</a></li>
-                                <li><a href="<c:url value='/growth_reriod_orthodontics' />">성장기 교정</a></li>
-                            </ul>
-                            <div class="img img03"></div>
-                        </div>
-                    </div>
-                </li>
-                <li id="nav04">
-                    <div class="max-layout-width">
-                        <div class="title">
-                            <h2>심미보철치료</h2>
-                            <p>
-                                교합력 뿐아니라 전체적인<br>
-                                균형까지 생각하여 교정합니다.
-                            </p>
-                        </div>
-                        <div class="sub-category">
-                            <ul>
-                                <li><a href="<c:url value='/misowon_orthodontics' />">라미네이트</a></li>
-                                <li><a href="<c:url value='/partial_orthodontics' />">올세라믹 크라운</a></li>
-                            </ul>
-                            <div class="img img06"></div>
-                        </div>
-                    </div>
-                </li>
-                <li id="nav05">
-                    <div class="max-layout-width">
-                        <div class="title">
-                            <h2>자연치아 클리닉</h2>
-                            <p>
-                                당신의 소중한 자연치아를<br>
-                                평생 지켜드리겠습니다.
-                            </p>
-                        </div>
-                        <div class="sub-category">
-                            <ul>
-                                <li><a href="<c:url value='/general' />">충치/치주/신경치료</a></li>
-                                <li><a href="<c:url value='/wisdom' />">사랑니 발치</a></li>
-                                <li><a href="<c:url value='/scaling' />">스케일링</a></li>
-                            </ul>
-                            <div class="img img04"></div>
-                        </div>
-                    </div>
-                </li>
-                <li id="nav06">
-                    <div class="max-layout-width">
-                        <div class="title">
-                            <h2>커뮤니티</h2>
-                            <p>
-                                미소원치과의 새로운 소식을<br>
-                                전달해드립니다.
-                            </p>
-                        </div>
-                        <div class="sub-category">
-                            <ul>
-                                <li><a href="<c:url value='/notice/1' />">공지사항</a></li>
-                                <li><a href="<c:url value='/case/1' />">치료사례</a></li>
-                                <li><a href="<c:url value='/review/1' />">치료후기</a></li>
-                                <li><a href="<c:url value='/online-consult/1' />">온라인 상담</a></li>
-                                <li><a href="<c:url value='/reserve-write' />">예약 상담 신청</a></li>
-                                <li><a href="<c:url value='/media/1' />">미디어</a></li>
-                            </ul>
-                            <div class="img img05"></div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
         </div>
+        <ul class="nav-detail">
+            <li id="nav01">
+                <div class="bg"></div>
+                <div class="max-layout-width">
+                    <div class="title">
+                        <h2>미소원치과</h2>
+                        <p>
+                            디지털치과의 현재<br>
+                            미소원치과를 소개합니다.
+                        </p>
+                    </div>
+                    <div class="sub-category">
+                        <ul>
+                            <li><a href="<c:url value='/intro' />">본원소개</a></li>
+                            <li><a href="<c:url value='/staff' />">의료진소개</a></li>
+                            <li><a href="<c:url value='/competitiveness' />">핵심경쟁력</a></li>
+                            <li><a href="<c:url value='/diagnostic_equipment_system' />">진단장비 시스템</a></li>
+                            <li><a href="<c:url value='/tour' />">둘러보기</a></li>
+                            <li><a href="<c:url value='/directions' />">오시는길</a></li>
+                            <%--                                    <li><a href="<c:url value='/medical' />">진료보증제도</a></li>--%>
+                        </ul>
+                        <div class="img img01"></div>
+                    </div>
+                </div>
+            </li>
+            <li id="nav02">
+                <div class="max-layout-width">
+                    <div class="title">
+                        <h2>임플란트</h2>
+                        <p>
+                            자연치아에 가까운<br>
+                            기능을 되찾아드립니다.
+                        </p>
+                    </div>
+                    <div class="sub-category">
+                        <ul>
+                            <li><a href="<c:url value='/digital_implants' />">디지털 임플란트</a></li>
+                            <li><a href="<c:url value='/navigation_implants' />">네비게이션 임플란트</a></li>
+                            <li><a href="<c:url value='/oneday_implants' />">원데이 임플란트</a></li>
+                            <li><a href="<c:url value='/bone_graft_implant' />">뼈이식 임플란트</a></li>
+                            <li><a href="<c:url value='/full_implants' />">전체 임플란트</a></li>
+                        </ul>
+                        <div class="img img02"></div>
+                    </div>
+                </div>
+            </li>
+            <li id="nav03">
+                <div class="max-layout-width">
+                    <div class="title">
+                        <h2>치아교정</h2>
+                        <p>
+                            교합력 뿐아니라 전체적인<br>
+                            균형까지 생각하여 교정합니다.
+                        </p>
+                    </div>
+                    <div class="sub-category">
+                        <ul>
+                            <li><a href="<c:url value='/misowon_orthodontics' />">미소원 치아교정</a></li>
+                            <li><a href="<c:url value='/partial_orthodontics' />">부분교정</a></li>
+                            <li><a href="<c:url value='/malocculusion_orthodontics' />">부정교합 교정</a></li>
+                            <li><a href="<c:url value='/growth_reriod_orthodontics' />">성장기 교정</a></li>
+                        </ul>
+                        <div class="img img03"></div>
+                    </div>
+                </div>
+            </li>
+            <li id="nav04">
+                <div class="max-layout-width">
+                    <div class="title">
+                        <h2>심미보철치료</h2>
+                        <p>
+                            교합력 뿐아니라 전체적인<br>
+                            균형까지 생각하여 교정합니다.
+                        </p>
+                    </div>
+                    <div class="sub-category">
+                        <ul>
+                            <li><a href="<c:url value='/misowon_orthodontics' />">라미네이트</a></li>
+                            <li><a href="<c:url value='/partial_orthodontics' />">올세라믹 크라운</a></li>
+                        </ul>
+                        <div class="img img06"></div>
+                    </div>
+                </div>
+            </li>
+            <li id="nav05">
+                <div class="max-layout-width">
+                    <div class="title">
+                        <h2>자연치아 클리닉</h2>
+                        <p>
+                            당신의 소중한 자연치아를<br>
+                            평생 지켜드리겠습니다.
+                        </p>
+                    </div>
+                    <div class="sub-category">
+                        <ul>
+                            <li><a href="<c:url value='/general' />">충치/치주/신경치료</a></li>
+                            <li><a href="<c:url value='/wisdom' />">사랑니 발치</a></li>
+                            <li><a href="<c:url value='/scaling' />">스케일링</a></li>
+                        </ul>
+                        <div class="img img04"></div>
+                    </div>
+                </div>
+            </li>
+            <li id="nav06">
+                <div class="max-layout-width">
+                    <div class="title">
+                        <h2>커뮤니티</h2>
+                        <p>
+                            미소원치과의 새로운 소식을<br>
+                            전달해드립니다.
+                        </p>
+                    </div>
+                    <div class="sub-category">
+                        <ul>
+                            <li><a href="<c:url value='/notice/1' />">공지사항</a></li>
+                            <li><a href="<c:url value='/case/1' />">치료사례</a></li>
+                            <li><a href="<c:url value='/review/1' />">치료후기</a></li>
+                            <li><a href="<c:url value='/online-consult/1' />">온라인 상담</a></li>
+                            <li><a href="<c:url value='/reserve-write' />">예약 상담 신청</a></li>
+                            <li><a href="<c:url value='/media/1' />">미디어</a></li>
+                        </ul>
+                        <div class="img img05"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </div>
 </div>
 
@@ -233,7 +233,5 @@
             $('.nav-detail > li').stop().fadeOut();
             $('.cmmn-nav ol a').removeClass('active');
         });
-
-        var height = $('.header-banner-slider-continer').height();
     })
 </script>

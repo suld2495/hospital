@@ -166,8 +166,7 @@ header .cmmn-nav nav ol li a {
     position: relative;
 }
 
-header .cmmn-nav nav ol a.active:before,
-header .cmmn-nav nav ol a:hover:before {
+header .cmmn-nav nav ol a:before {
     content: '';
     position: absolute;
     height: 4px;
@@ -175,6 +174,15 @@ header .cmmn-nav nav ol a:hover:before {
     display: block;
     background: #cec4bd;
     bottom: -31px;
+    width: 0;
+    transition: all 0.2s ease-out;
+    left: 50%;
+}
+
+header .cmmn-nav nav ol a.active:before,
+header .cmmn-nav nav ol a:hover:before {
+    width: 100%;
+    margin-left: -50%;
 }
 
 header .cmmn-nav nav ol li:first-child {
