@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+
+.paging .middle li {width: 27px;height: 27px;}
+.paging li.active {background: #111;color: #fff;}
+.paging>div>div.left, .paging>div>div.right {/* margin-top:7px; */}

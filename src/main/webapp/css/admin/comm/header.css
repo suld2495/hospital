@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+#head {float:right;width: 82.5%;}
+.logo_area {height: 66px;border-bottom:solid 1px #b0b0b0;}
+.logo_area ul {margin:15px 0 0 40px;}
+.logo_area ul li {display:inline-block;float:left;margin-top: 10px;}
+.logo_area ul li:last-child {margin-left:30px; line-height:70px; font-size:16px;}
+.small_nav {background:#f5f5f5;height: 56px;border-bottom:solid 1px #e4e4e4;}
+.small_nav ul {padding:23px 0 0 25px;}
+.small_nav ul li {display:inline-block; margin-left:20px;}
+.subName {color: #002ec4;}

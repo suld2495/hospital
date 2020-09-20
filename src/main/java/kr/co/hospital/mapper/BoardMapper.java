@@ -20,4 +20,6 @@ public interface BoardMapper {
     int insertBoard(BoardVo boardVo) throws Exception;
 
     void insertFile(Map param) throws Exception;
+
+    Map<String, Object> selectTable(String url) throws Exception;
 }

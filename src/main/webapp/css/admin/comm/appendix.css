@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+.imgChange {width: 220px;background:#fff;border:1px solid #ccc;position:fixed;left:50%;top:50%;padding:10px;margin-left: -110px;margin-top: -63px;}
+.imgChangeBig {color:#333;font-weight:bold;font-size:18px;border-bottom: 1px solid #ccc;height: 26px;}
+.imgChangeCurrent,.imgChangeFile,.imgChangeInputCon,.submitBnCon {font-size:12px;color:#333;}
+.imgChangeCurrent {margin-top:10px;overflow:hidden;}
+.imgChangeCurrent span {float:left;}
+.imgChangeCurrent span:first-child {margin-right:5px}
+.imgChangeCurrent span.listStyle img {height:4px}
+.imgChangeCurrent span img {height:12px}
+.fileNameSpan {margin-right:5px}
+.listStyle {font-size: 10px;height: 16px;line-height: 9px;margin-right: 4px;display: inline-block;}
+.imgChangeFile {margin-top:5px;overflow: hidden;}
+.imgChangeFile span {display:inline-block;height: 16px;float: left;}
+.imgChangeInputCon {overflow:hidden;margin-top:5px;}
+.imgChangeInput,.imgChangeAppendixImg {overflow:hidden;float: left;}
+.fileName {width:100px;height: 16px;display: inline-block;float: left;line-height: 15px;padding-left: 5px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;box-sizing: border-box;}
+.imgName {margin-left:30px;display: inline-block;width: 128px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;height: 16px;}
+.imgChangeInput {border:1px solid #ccc;box-sizing: border-box;height: 18px;}
+.imgChangeAppendixImg {margin: 0 7px;}
+.imgChangeAppendixImg img {height: 17px;}
+.imgChangeAppendixText {height:17px;line-height: 15px;}
+
+.submitBnCon {height:20px;width:50px;margin:0 auto;margin-top: 10px;background:gray;color:#fff;text-align:center;line-height: 20px;border-radius: 3px;}

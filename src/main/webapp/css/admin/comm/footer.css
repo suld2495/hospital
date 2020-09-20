@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+footer {/* clear:both; */height:70px;float:right;width: 82.5%;}
+footer p {text-indent:30px;line-height:70px;text-transform:uppercase;background:#eeeeee;}
+
+.footSpan {text-transform:capitalize;padding-left: 28px;color: #fff;}

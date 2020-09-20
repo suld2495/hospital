@@ -87,6 +87,12 @@
                 )) nextSubject
     </select>
 
+    <select id="selectTable" parameterType="string" resultType="map">
+        SELECT *
+          FROM table_info
+         WHERE URL = #{url}
+    </select>
+
     <insert id="insertBoard" parameterType="boardVo" useGeneratedKeys="true" keyProperty="num">
         INSERT INTO ${tableName}
         (

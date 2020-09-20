@@ -121,4 +121,9 @@ public class BoardServiceImpl implements BoardService {
             throw e;
         }
     }
+
+    @Override
+    public Map<String, Object> selectTable(String url) throws Exception {
+        return boardMapper.selectTable(url);
+    }
 }

@@ -1,0 +1,43 @@
+
+@charset "utf-8";
+/* @IMPORT url("http://ussoft.kr/font/css/nanum-barun.css");
+@IMPORT url("http://ussoft.kr/font/css/nanum-square-r.css");
+@IMPORT url("http://ussoft.kr/font/css/nanum-myeongjo.css"); */
+@import url("//cdn.jsdelivr.net/nanumsquare/1.0/nanumsquare.css");
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(/font/nanumbarungothic/nanumbarungothic.css);
+
+* {font-family: 'Nanum Barun Gothic', sans-serif !important;}
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {display: block;}
+body {line-height: 1;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+p, h2, h3 {orphans: 3;  widows: 3;}
+h2, h3 {page-break-after: avoid;font-family: nanumsquarer,"Ã«â€šËœÃ«Ë†â€ Ã¬Å Â¤Ã­â‚¬ËœÃ¬â€“Â´" !important;}
+
+a {color: #606060;text-decoration: none;outline: none;}
+a:hover, a:focus {color: #606060;text-decoration: none;outline: none;}
+h1 {font-size: 48px;}
+h2 {font-size: 32px;}
+h3 {font-size: 24px;}
+h4 {font-size: 20px;}
+h5 {font-size: 16px;}
+h6 {font-size: 13.6px;}
+ul,ol {padding: 0;margin: 0;}
+ul ul,ul ol,ol ol,ol ul {list-style: none; margin-bottom: 0;}
+li {list-style-type: none;}
+
+#wrapper {width:1500px;}
+
+.content_wrap table {width:100%;}
+.content_wrap th {font-size:14px; color:#333;}
+.content_wrap td {font-size:14px; color:#333;}
+.content_wrap {float: right; width:79.8%;}
+.no_border {border-right:0 !important;}
+
+.pointer {cursor:pointer;}
+.none {display:none;}
