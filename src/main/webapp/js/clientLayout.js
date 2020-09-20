@@ -11,16 +11,6 @@ $(function() {
         });
     }
 
-
-    $('.header-banner-small-slider').bxSlider({
-        mode: 'fade',
-        pager: false,
-        controls: true,
-        nextText: '<img src="lib/bxSlider/images/arrow_right01.png">',
-        prevText: '<img src="lib/bxSlider/images/arrow_left01.png">',
-        auto: true,
-    });
-
     $('.banner-close-box').click(function() {
         $('.header-banner-slider-continer01').slideToggle();
         isCloseBanner = !isCloseBanner;
