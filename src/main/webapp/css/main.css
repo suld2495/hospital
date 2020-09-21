@@ -2206,3 +2206,13 @@ body .section07 .bx-pager-link span + span {
 .section04 .text {
     padding-top: 180px;
 }
+
+.footer-info-container, .footer-info-container .fp-tableCell {
+    height: 411px !important;
+    display: block !important;
+}
+
+.footer, .footer .fp-tableCell  {
+    height: 99px !important;
+    display: block !important;
+}
