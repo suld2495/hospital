@@ -166,54 +166,63 @@
         </div>
         <div class="scroll">SCROLL</div>
     </div>
-    <div class="section02 position-relative max-layout-width section">
-        <h2>디지털치과의 현재 <span class="section-title-color"><strong>미소원치과</strong></span></h2>
-        <p>3D CT, CEREC SYSTEM, 최상의 장비를 바탕으로 개인의 상태에 꼭 맞는 맞춤진료를 합니다 </p>
-        <div class="display-inline-block">
-            <ul>
-                <li>
-                   <img src="<c:url value='/images/main/point_img01.jpg'/>">
-                    <div class="nomal">
-                        <h3>디지털 임플란트</h3>
-                    </div>
-                    <div class="hover">
-                        <h3>디지털 임플란트</h3>
-                        <p>
-                            모의 식립계획으로<br>
-                            정교하고 정확하게 자연치아인듯<br>
-                            편안하고 안전한 임플란트
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <img src="<c:url value='/images/main/point_img02.jpg'/>">
-                    <div class="nomal">
-                        <h3>디지털 치아교정</h3>
-                    </div>
-                    <div class="hover">
-                        <h3>디지털 치아교정</h3>
-                        <p>
-                            3D CT를 활용한 정확한 진단으로<br>
-                            수설없이 아름다운 라인을<br>
-                            만들어주는 교정
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <img src="<c:url value='/images/main/point_img03.jpg'/>">
-                    <div class="nomal">
-                        <h3>자연치아 클리닉</h3>
-                    </div>
-                    <div class="hover last">
-                        <h3>자연치아 클리닉</h3>
-                        <p>
-                            CEREC SYSTEM을 활용한<br>
-                            빠르고 정확한 치료
-                        </p>
-                    </div>
-                </li>
-            </ul>
+    <div class="section02 position-relative section">
+        <div class="max-layout-width">
+            <h2>
+                <strong>치아가 불편할 때 가장 먼저</strong><br>
+                생각나는 미소원 치과
+            </h2>
+            <div class="display-inline-block">
+                <ul>
+                    <li>
+                       <img src="<c:url value='/images/main/point_img01.jpg'/>">
+                        <div class="nomal">
+                            <h3>#디지털 임플란트</h3>
+                        </div>
+                        <div class="hover">
+                            <h3>디지털 임플란트</h3>
+                            <p>
+                                모의 식립계획으로<br>
+                                정교하고 정확하게 자연치아인듯<br>
+                                편안하고 안전한 임플란트
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="<c:url value='/images/main/point_img02.jpg'/>">
+                        <div class="nomal">
+                            <h3>#치아교정</h3>
+                        </div>
+                        <div class="hover">
+                            <h3>디지털 치아교정</h3>
+                            <p>
+                                3D CT를 활용한 정확한 진단으로<br>
+                                수설없이 아름다운 라인을<br>
+                                만들어주는 교정
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="<c:url value='/images/main/point_img03.jpg'/>">
+                        <div class="nomal">
+                            <h3>#자연치아</h3>
+                        </div>
+                        <div class="hover last">
+                            <h3>자연치아 클리닉</h3>
+                            <p>
+                                CEREC SYSTEM을 활용한<br>
+                                빠르고 정확한 치료
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <h5>
+                "앞선 디지털 기술에 마음을 담은 진료,<br>
+                환자를 향한 <strong>정직하고 양심적인 진료를 원칙</strong>으로 합니다"
+            </h5>
         </div>
+        <div class="bg"></div>
     </div>
     <div class="section03 position-relative section">
         <div class="main-bg"></div>
@@ -571,7 +580,16 @@
             autoScrolling:true,
             scrollHorizontally: true,
             anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6', 'anchor7', 'anchor8', 'anchor9'],
-            menu: '.fp-nav'
+            menu: '.fp-nav',
+            onLeave: function (index, nextIndex, direction) {
+                var $temp = $('header,.fp-nav');
+
+                if (nextIndex === 2) {
+                    $temp.addClass('dark');
+                } else {
+                    $temp.removeClass('dark');
+                }
+            }
         });
 
         $('.img-box li').mouseenter(function() {
