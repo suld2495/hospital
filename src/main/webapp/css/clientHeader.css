@@ -207,6 +207,7 @@ header .nav-detail {
     z-index: 1;
     letter-spacing: -1px;
     clear: both;
+    border-top: 1px solid #bbb;
 }
 
 header .nav-detail .max-layout-width {
@@ -339,7 +340,6 @@ header .fixed-box {
     width: 100%;
     max-width: 1905px;
     display: inline-block;
-    border-bottom: 1px solid #bbb;
 }
 
 header .fixed-box > div {
