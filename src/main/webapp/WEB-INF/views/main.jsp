@@ -498,79 +498,46 @@
         </div>
     </div>
 
-    <div class="section08 max-layout-width section">
-        <div class="display-inline-block">
-            <div class="consultant">
-                <h4>
-                    온라인 상담
-                    <span><a href="<c:url value='/online-consult/1' /> ">VIEW MORE</a></span>
-                </h4>
-                <ul>
-                    <li>
-                        <div>
-                            <p class="board-contents">임플란트 상담문의합니다.</p>
-                            <span class="writer">김민재</span>
-                            <span class="reply">답변완료</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p class="board-contents">부분교정 문의합니다.</p>
-                            <span class="writer">서이수</span>
-                            <span class="reply">답변완료</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p class="board-contents">치아미백 주의사항 문의합니다.</p>
-                            <span class="writer">김지민</span>
-                            <span class="reply">답변완료</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p class="board-contents">부정교합 교정 문의합니다.</p>
-                            <span class="writer">오병관</span>
-                            <span class="reply">답변완료</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p class="board-contents">부정교합 교정 문의합니다.</p>
-                            <span class="writer">오병관</span>
-                            <span class="reply">답변완료</span>
-                        </div>
-                    </li>
-                </ul>
+    <div class="community section">
+        <div class="community-container">
+            <h1>COMMUNITY</h1>
+            <div class="online">
+                <a href="<c:url value='/online-consult/1'/>">
+                    <h2>온라인 상담</h2>
+                    <h3>맞춤 치료를 통해 고객님의<br>환한 미소를 찾아드립니다</h3>
+                    <p>질문하신 내용에 대해 성심껏 답변드리겠습니다.</p>
+                </a>
             </div>
-            <div class="media">
-                <h4>
-                    미디어
-                    <span><a href="<c:url value='/media/1' /> ">VIEW MORE</a></span>
-                </h4>
+            <div class="etc">
+                <div class="reserve">
+                    <a href="<c:url value='/reserve-write'/>">
+                        <h2>예약 상담 신청</h2>
+                        <p>
+                            상담신청을 남겨주시면<br>
+                            확인후 빠른 연락드리겠습니다.
+                        </p>
+                    </a>
+                </div>
                 <ul>
-                    <li>
-                        <div class="media-thumnail" style="background:url(<c:url value='/images/main/media01.jpg' />)"></div>
-                        <div class="media-contents">
-                            <h5 class="media-title">
-                                코로나19 감염예방
-                            </h5>
-                            <p>코로나19의 감염예방을 위해 1층에서 내원객의 체온측정과</p>
-                        </div>
+                    <li class="notice">
+                        <a href="<c:url value='/notice/1'/>">
+                            <h2>공지사항</h2>
+                            <p>각종 미소원치과 소식을 빠르게<br>확인하세요</p>
+                            <span></span>
+                        </a>
                     </li>
-                    <li>
-                        <div class="media-thumnail" style="background:url(<c:url value='/images/main/media02.jpg' />)"></div>
-                        <div class="media-contents">
-                            <h5 class="media-title">
-                                코로나19 감염예방
-                            </h5>
-                            <p>코로나19의 감염예방을 위해 1층에서 내원객의 체온측정과</p>
-                        </div>
+                    <li class="media">
+                        <a href="<c:url value='/media/1'/>">
+                            <h2>미디어</h2>
+                            <p>미소원치과의 다양한 영상을<br>통해 환자분들과 소통합니다.</p>
+                            <span></span>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+
     <div class="section09 section">
         <div class="max-layout-width">
             <h4>미소원치과 <strong>미리보기</strong></h4>
