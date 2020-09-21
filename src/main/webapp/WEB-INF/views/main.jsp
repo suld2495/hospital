@@ -577,7 +577,7 @@
             onLeave: function (index, nextIndex, direction) {
                 var $temp = $('header,.fp-nav');
 
-                if (nextIndex === 2 || nextIndex === 3 || nextIndex === 5) {
+                if (nextIndex === 2 || nextIndex === 3 || nextIndex === 5 || nextIndex === 8) {
                     $temp.addClass('dark');
                 } else {
                     $temp.removeClass('dark');
@@ -649,7 +649,8 @@
         })
 
         $('.tour-slide').bxSlider({
-            controls: false,
+            nextText: '<img src="<c:url value="/images/main/arrowbig_right.png"/>">',
+            prevText: '<img src="<c:url value="/images/main/arrowbig_left.png"/>">',
             pager: false,
             auto: true,
             onSlideAfter: function($slideElement, oldIndex, newIndex) {

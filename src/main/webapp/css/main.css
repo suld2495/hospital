@@ -807,10 +807,7 @@ body .section07 .bx-pager-link span + span {
 }
 
 .section09 {
-    margin-top: 90px;
-    padding-top: 79px;
-    background: #f5f5f5;
-    padding-bottom: 90px;
+    background: url(../images/main/bg06.jpg) no-repeat;
 }
 
 .section09 h4 {
@@ -818,6 +815,7 @@ body .section07 .bx-pager-link span + span {
     margin-bottom: 26px;
     letter-spacing: -2px;
     font-weight: 200;
+    text-align: center;
 }
 
 .section09 h4 + p {
@@ -825,14 +823,15 @@ body .section07 .bx-pager-link span + span {
     color: #212121;
     margin-bottom: 51px;
     letter-spacing: -1px;
+    text-align: center;
 }
 
 .section09 .slide-text {
     width: 303px;
     height: 181px;
     position: absolute;
-    bottom: 0px;
-    right: 64px;
+    bottom: -40px;
+    right: 40px;
 }
 
 .slide-item {
@@ -860,7 +859,7 @@ body .section07 .bx-pager-link span + span {
     padding-top: 43px;
     padding-left: 40px;
     box-sizing: border-box;
-    background: #7e6956;
+    background: #161b2f;
 }
 
 .section09 .slide-text p {
@@ -880,13 +879,17 @@ body .section07 .bx-pager-link span + span {
 
 .count {
     position: absolute;
-    bottom: 76px;
-    left: 50px;
+    bottom: 18px;
+    left: 30px;
     font-weight: bold;
 }
 
 .count-box {
     position: absolute;
+}
+
+.count-box span {
+    font-family: gmarket !important;
 }
 
 .current-count {
@@ -897,7 +900,7 @@ body .section07 .bx-pager-link span + span {
     font-size: 32px;
     position: absolute;
     bottom: -20px;
-    left: 63px;
+    left: 73px;
     font-weight: 500;
 }
 
@@ -2154,4 +2157,44 @@ body .section07 .bx-pager-link span + span {
     display: block;
     width: 33px;
     height: 18px;
+}
+
+.section09 .slide-item {
+    height: 490px;
+    padding-bottom: 0;
+}
+
+.section09 .slide-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.section09 .max-layout-width {
+    position: relative;
+    padding-top: 100px;
+}
+
+.section09 .bx-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -32px;
+}
+
+.section09 .bx-wrapper .bx-controls-direction a {
+    width: 35px;
+    height: 64px;
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section09 .bx-wrapper .bx-controls-direction a.bx-prev {
+    left: -60px;
+}
+
+.section09 .bx-wrapper .bx-controls-direction a.bx-next {
+    right: -60px;
+    left: auto;
 }
