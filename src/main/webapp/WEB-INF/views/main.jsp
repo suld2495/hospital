@@ -727,6 +727,9 @@
             moveSlides: 1,
             slideWidth: 310,
             slideMargin: 19,
+            onSliderLoad: function() {
+                $('.case .control').appendTo($('.case .bx-controls'));
+            },
         })
 
         $('.login').click(function () {

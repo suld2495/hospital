@@ -590,7 +590,6 @@ body {
 
 .section07 {
     background: #f5f5f5;
-    padding-top: 20px;
     box-sizing: border-box;
 }
 
@@ -613,6 +612,10 @@ body {
 .section07 .max-layout-width {
     margin-bottom: 68px;
     /* letter-spacing: -2px; */
+}
+
+.section07 .max-layout-width:first-child {
+    padding-top: 100px;
 }
 
 .section07 h5 {
@@ -927,7 +930,6 @@ body .section07 .bx-pager-link span + span {
     /* margin-top: 113px; */
     position: relative;
     height: 627px;
-    padding-top: 77px;
     background: #f5f5f5;
     box-sizing: border-box;
 }
@@ -1112,7 +1114,8 @@ body .section07 .bx-pager-link span + span {
 
 .section05 .max-layout-width {
     position: relative;
-    z-index: 1
+    z-index: 1;
+    padding-top: 95px;
 }
 
 .section05 .bg {
@@ -1120,8 +1123,8 @@ body .section07 .bx-pager-link span + span {
     height: 100%;
     background: #161b2f url(../images/main/main_bg02.jpg) no-repeat center;
     position: absolute;
-    top: -19px;
     right: 0;
+    bottom: 0px;
 }
 
 .slick-slide {
@@ -1803,16 +1806,16 @@ body .section07 .bx-pager-link span + span {
 
 .section02 .max-layout-width {
     z-index: 11;
-    position: relative
+    position: relative;
+    padding-top: 130px;
+    box-sizing: border-box;
 }
 
 .section02 {
-    padding-top: 50px;
     box-sizing: border-box;
 }
 
 .section04 {
-    padding-top: 50px;
     background: url(../images/main/bg02.jpg) no-repeat;
     background-position-y: 80px;
 }
@@ -1874,7 +1877,6 @@ body .section07 .bx-pager-link span + span {
 
 .case {
     background: url(../images/main/bg04.jpg);
-    padding-top: 60px;
     box-sizing: border-box;
 }
 
@@ -1956,12 +1958,13 @@ body .section07 .bx-pager-link span + span {
 .case .control {
     position: absolute;
     height: 0;
-    top: 190px;
+    top: 80px;
     width: 100%;
 }
 
 .case .max-layout-width {
     position: relative;
+    padding-top: 140px;
 }
 
 .case .control span {
@@ -2008,6 +2011,7 @@ body .section07 .bx-pager-link span + span {
 .community .community-container {
     width: 1538px;
     margin: 0 auto;
+    padding-top: 120px;
 }
 
 .community .community-container h1 {
@@ -2171,7 +2175,7 @@ body .section07 .bx-pager-link span + span {
 
 .section09 .max-layout-width {
     position: relative;
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 .section09 .bx-controls {
@@ -2197,4 +2201,8 @@ body .section07 .bx-pager-link span + span {
 .section09 .bx-wrapper .bx-controls-direction a.bx-next {
     right: -60px;
     left: auto;
+}
+
+.section04 .text {
+    padding-top: 180px;
 }
