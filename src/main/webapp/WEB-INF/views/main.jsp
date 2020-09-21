@@ -224,37 +224,10 @@
         </div>
         <div class="bg"></div>
     </div>
-    <div class="section03 position-relative section">
-        <div class="main-bg"></div>
-        <div class="max-layout-width">
-            <div class="text">
-                <h4>앞선 디지털 장비와 기술에</h4>
-                <h4><span><strong>마음을 담은 양심적인 진료</strong></span>를</h4>
-                <h4>약속합니다</h4>
-                <p>진보된 디지털 기술에 따뜻한 마음을 담아 최상의 치료를 경험할 수 있는</p>
-                <p>진료환경을 제공합니다.</p>
-                <ul class="display-inline-block">
-                    <li>
-                        <span class="img01"></span>
-                        <span class="text">철저한 멸균</span>
-                    </li>
-                    <li>
-                        <span class="img02"></span>
-                        <span class="text">전문성</span>
-                    </li>
-                    <li>
-                        <span class="img03"></span>
-                        <span class="text">디지털 치과</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="bg"></div>
-    </div>
     <div class="section04 section">
         <div class="text max-layout-width position-relative">
-            <h4>늘 후회없는 선택을 하는 당신</h4>
-            <h4><span><strong>미소원치과는 완벽한 선택</strong></span>입니다</h4>
+            <h4>소중한 사람에게 권해주고 싶은</h4>
+            <h4><span><strong>미소가 활짝, 미소원치과</strong></span></h4>
             <p>다녀가신 환자분들의 후기로 현재의 미소원치과를 만나보세요</p>
             <span class="details-link pointer"><a href="<c:url value='/review/1'/>">자세히보기</a></span>
         </div>
@@ -284,7 +257,8 @@
                     <span class="section-title-color"><strong>연구하는 의료진</strong></span>
                 </h2>
                 <p class="section-text">
-                    미소원치과의 의료진은 끊임없이 연구하며 환자를 최우선으로 생각하고 언제나 최선의 결과로 보답합니다.
+                    환자를 최우선으로 생각하고<br>
+                    언제나 최선의 결과로 보답합니다.
                 </p>
                 <div class="img-arrow"></div>
                 <div class="slider-container">
@@ -299,7 +273,7 @@
                                         <span>원장</span>
                                     </div>
                                     <p class="sub-text">
-                                        첨단장비를 사용하여 꼼꼼하고 정확하게,<br>
+                                        <span>첨단장비를 사용하여 꼼꼼하고 정확하게,</span><br>
                                         원칙을 지키는 진료를 우선합니다.
                                     </p>
                                     <h5>약력</h5>
@@ -328,7 +302,7 @@
                                         <span>원장</span>
                                     </div>
                                     <p class="sub-text">
-                                        섬세한 진료로 마음 편안하게,<br>
+                                        <span>섬세한 진료로 마음 편안하게,</span><br>
                                         환자와의 신뢰가 먼저입니다.
                                     </p>
                                     <h5>약력</h5>
@@ -356,7 +330,7 @@
                                         <span>원장</span>
                                     </div>
                                     <p class="sub-text">
-                                        얼굴과 조화를 이루는 균형잡힌 교정!<br>
+                                        <span>얼굴과 조화를 이루는 균형잡힌 교정!</span><br>
                                         아름답고 당당한 미소를 찾아드립니다.
                                     </p>
                                     <h5>약력</h5>
@@ -584,7 +558,7 @@
             onLeave: function (index, nextIndex, direction) {
                 var $temp = $('header,.fp-nav');
 
-                if (nextIndex === 2) {
+                if (nextIndex === 2 || nextIndex === 3) {
                     $temp.addClass('dark');
                 } else {
                     $temp.removeClass('dark');
@@ -607,8 +581,8 @@
             shrinkItems: true,
             slideMargin: 10,
             auto: true,
-            nextText: '<img src="<c:url value="/images/main/arrow_right02.png"/>">',
-            prevText: '<img src="<c:url value="/images/main/arrow_left02.png"/>">',
+            nextText: '<img src="<c:url value="/images/main/right_gr.png"/>">',
+            prevText: '<img src="<c:url value="/images/main/left_gr.png"/>">',
         });
 
         $('.main-slider').bxSlider({
