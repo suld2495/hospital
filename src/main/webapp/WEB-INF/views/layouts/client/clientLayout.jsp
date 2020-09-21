@@ -16,8 +16,8 @@
 <body class="skrollr-body">
     <header>
         <tiles:insertAttribute name="header" />
-        <tiles:insertAttribute name="nav" />
     </header>
+    <tiles:insertAttribute name="nav" />
 
     <section>
         <div id="contents">

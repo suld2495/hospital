@@ -1,6 +1,7 @@
 .sub {
     width: 100%;
     /* height: 538px; */
+    padding-top: 81px;
 }
 .sub-image {
     position: relative;
