@@ -357,7 +357,6 @@ header.active .fixed {
 
 .header-banner-slider-continer01 {
     height: 56px;
-    background: #88bdbb;
     position: relative;
     overflow: hidden;
 }
@@ -489,4 +488,40 @@ header .menu .icon {
 header .menu:hover:before,
 header .menu:hover:after {
     width: 30px;
+}
+
+header .header-banner-slider .slide-item-box:nth-child(1) {
+    background: #88bdbb;
+}
+
+header .header-banner-slider .slide-item-box:nth-child(2) {
+    background: #e7b3b5;
+}
+
+header .header-banner-slider .slide-item-box:nth-child(3) {
+    background: #34394c;
+}
+
+header .header-banner-slider .slide-item-box:nth-child(4) {
+    background: #5884b5;
+}
+
+header .header-banner-slider .slide-item-box .go {
+    color: #fff;
+}
+
+header .header-banner-slider .slide-item01 .go {
+    background: #161d37;
+}
+
+header .header-banner-slider .slide-item02 .go {
+    background: #b63f53;
+}
+
+header .header-banner-slider .slide-item03 .go {
+    background: #009fb5;
+}
+
+header .header-banner-slider .slide-item04 .go {
+    background: #1f2e69;
 }
