@@ -3,9 +3,38 @@
     font-style: normal;
     font-weight: 200;
     src: url('../fonts/InkLipquid/InkLipquid.woff'); /* IE9 Compat Modes */
-    src: local('Noto Sans KR Regular'), local('NotoSansKR-Light'),
-    url('../fonts/InkLipquid/InkLipquid.woff') format('woff') /* Modern Browsers */
+url('../fonts/InkLipquid/InkLipquid.woff') format('woff') /* Modern Browsers */
 }
+
+@font-face {
+    font-family: 'gmarket';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/gmarket-sans/GmarketSansLight.woff'); /* IE9 Compat Modes */
+url('../fonts/gmarket-sans/GmarketSansLight.woff2') format('woff2'), /* Modern Browsers */
+url('../fonts/gmarket-sans/GmarketSansLight.woff') format('woff') /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'gmarket';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/gmarket-sans/GmarketSansMedium.woff'); /* IE9 Compat Modes */
+url('../fonts/gmarket-sans/GmarketSansMedium.woff2') format('woff2'), /* Modern Browsers */
+url('../fonts/gmarket-sans/GmarketSansMedium.woff') format('woff') /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'gmarket';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/gmarket-sans/GmarketSansBold.woff'); /* IE9 Compat Modes */
+url('../fonts/gmarket-sans/GmarketSansBold.woff2') format('woff2'), /* Modern Browsers */
+url('../fonts/gmarket-sans/GmarketSansBold.woff') format('woff') /* Modern Browsers */
+}
+
+
+
 body {
     overflow-x: hidden;
 }
@@ -156,7 +185,7 @@ body {
     background-color: #9a8b7e;
     background: -webkit-gradient(linear, right top, left top, from(#ed7d1b), to(#ed7d1b));
     background: -webkit-linear-gradient(right, #ed7d1b 0%, #ed7d1b 100%);
-    background: -o-linear-gradient(right, #ed7d1b 0%, ed7d1b9a8b7e 100%);
+    background: -o-linear-gradient(right, #ed7d1b 0%, #ed7d1b 100%);
     background: linear-gradient(to left, #ed7d1b 0%, #ed7d1b 100%);
 }
 
@@ -550,8 +579,7 @@ body {
 
 .section07 {
     background: #f5f5f5;
-    padding-top: 88px;
-    margin-top: 100px;
+    padding-top: 20px;
     padding-bottom: 149px;
 }
 
@@ -596,16 +624,17 @@ body {
 .slider-pagenation {
     position: relative;
     z-index: 10;
-    margin-top: 240px;
-    width: auto;
+    margin-top: 220px;
+    width: 360px;
 }
 
 body .section07 .bx-wrapper {
     margin-left: auto;
     margin-right: 0;
-    top: -190px;
+    top: -310px;
     left: 410px;
     width: 1700px;
+    z-index: 1000;
 }
 
 body .section07 .bx-pager-link {
@@ -614,23 +643,29 @@ body .section07 .bx-pager-link {
     color: #fff;
     box-sizing: border-box;
     padding: 22px 30px;
-    background: #9b8b7e;
+    background: #fff;
     width: 100%;
 }
 
 body .section07 .bx-pager-link.active {
-    background: #aa9a8b;
+    background: #191919;
+    color: #fff;
+}
+
+body .section07 .bx-pager-link.active span {
+    color: #fff;
 }
 
 body .section07 .bx-pager-link span {
-    color: #fff;
+    color: #222;
 }
 
 body .section07 .bx-pager-link span:first-child {
     font-size: 25px;
-    font-width: bold;
+    font-weight: 200;
     margin-right: 15px;
-    font-weight: 600;
+    font-weight: 200;
+    font-family: gmarket !important;
 }
 
 body .section07 .bx-pager-link span + span {
@@ -1515,6 +1550,11 @@ body .section07 .bx-pager-link span + span {
     z-index: 2;
 }
 
+.light .fp-menu {
+    background: #fff;
+    border-left: 1px solid #cfcfcf;
+}
+
 .fp-menu {
     display: block;
     position: relative;
@@ -1765,4 +1805,55 @@ body .section07 .bx-pager-link span + span {
 
 .section05 .section-title-color {
     color: #010101;
+}
+
+.section07 .text {
+    position: absolute;
+    bottom: 67px;
+    width: 100%;
+}
+
+.section07 .text span:first-child {
+    width: 121px;
+    height: 121px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    margin-left: 65px;
+    text-align: center;
+    color: #fff;
+    line-height: 121px;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+
+.section07 .text .num {
+    margin-right: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    font-family: gmarket !important;
+    position: absolute;
+    bottom: 0;
+    right: 65px;
+
+}
+
+.section07 .module:before, .section07 .module:after {
+    display: none;
+}
+
+.section07 .module {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.section07 .module:hover {
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, .2);
+}
+
+.section07 .slider .module:hover .square {
+    background: #fff;
+    color: #222;
 }

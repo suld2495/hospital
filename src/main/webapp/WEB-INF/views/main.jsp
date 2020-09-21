@@ -360,32 +360,10 @@
             <div class="bg"></div>
         </div>
     </div>
-    <div class="section06 section">
-        <div>
-            <h4>소중한 당신의 치아 <span>믿고 맡길 수 있도록</span></h4>
-            <div class="main-slider">
-                <div>
-                    <img src="<c:url value='/images/main/case01.jpg' />">
-                    <h5>임플란트</h5>
-                    <p>임플란트 치료 전/후 사진입니다.</p>
-                </div>
-                <div>
-                    <img src="<c:url value='/images/main/case02.jpg' />">
-                    <h5>디지털 치아교정</h5>
-                    <p>디지털 치아교정 치료 전/후 사진입니다.</p>
-                </div>
-                <div>
-                    <img src="<c:url value='/images/main/case03.jpg' />">
-                    <h5>임플란트</h5>
-                    <p>자연치아 클리닉 치료 전/후 사진입니다.</p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="section07 section">
         <div class="max-layout-width">
-            <h4>편안하고 정확한 <span>디지털 치과에서의 경험</span></h4>
-            <h4>이제, 당신 차례입니다</h4>
+            <h4>고민에 따른</h4>
+            <h4><strong>개인별 맞춤 치료 제공</strong></h4>
         </div>
         <div class="slider-box max-layout-width">
             <div class="slider-origin-pagination">
@@ -399,19 +377,19 @@
                 <div class="bx-pager-item">
                     <a href="" data-slide-index="0" class="bx-pager-link text-decoration-none">
                         <span>01</span>
-                        <span>개개인에 맞춘 치료계획수립</span>
+                        <span>임플란트 - 자연치와 같은 저작력</span>
                     </a>
                 </div><br>
                 <div class="bx-pager-item">
                     <a href="" data-slide-index="1" class="bx-pager-link text-decoration-none">
                         <span>02</span>
-                        <span>더 확실한 진단 더 편안한 진단</span>
+                        <span>치아교정 - 신중해야합니다</span>
                     </a>
                 </div><br>
                 <div class="bx-pager-item">
                     <a href="" data-slide-index="2" class="bx-pager-link text-decoration-none">
                         <span>03</span>
-                        <span>건물내 상주 협력 기공소</span>
+                        <span>사랑니에도 난이도가 있습니다.</span>
                     </a>
                 </div>
             </div>
@@ -419,28 +397,40 @@
                 <div>
                     <div class="module slide-box">
                         <div class="module">
-                            <img src="<c:url value='/images/main/characteristics01.jpg' /> " class="pointer">
+                            <img src="<c:url value='/images/main/img01.jpg' /> " class="pointer">
+                            <div class="text">
+                                <span class="square">IMPLANT</span>
+                                <span class="num">01</span>
+                            </div>
                         </div>
                     </div>
-                    <h5>개개인에 맞춘 치료계획수립</h5>
-                    <p>과학적 진단을 통해, 개별 맞춤형 치료계획을 수립하여 정확하게 치료합니다.</p>
+                    <h5>임플란트 - 자연치와 거의 같은 저작력</h5>
+                    <p>사라진 치아뿐만 아니라 기능까지 회복시키는 치료입니다.</p>
                 </div>
                 <div>
                     <div class="module slide-box">
                         <div class="module">
-                            <img src="<c:url value='/images/main/characteristics02.jpg' /> " class="pointer">
+                            <img src="<c:url value='/images/main/img02.jpg' /> " class="pointer">
+                            <div class="text">
+                                <span class="square">3D CT</span>
+                                <span class="num">02</span>
+                            </div>
                         </div>
                     </div>
-                    <h5>더 확실한 진단, 더 편안한 진단</h5>
+                    <h5>치아교정 - 신중해야합니다</h5>
                     <p>3D 광학스캐너를 통해 본뜨는 과정은 더 정교하고 더 편안합니다.</p>
                 </div>
                 <div>
                     <div class="module slide-box">
                         <div class="module">
-                            <img src="<c:url value='/images/main/characteristics03.jpg' /> " class="pointer">
+                            <img src="<c:url value='/images/main/img03.jpg' /> " class="pointer">
+                            <div class="text">
+                                <span class="square">WISDOM</span>
+                                <span class="num">03</span>
+                            </div>
                         </div>
                     </div>
-                    <h5>건물 내 상주 협력기공소</h5>
+                    <h5>사랑니에도 난이도가 있습니다.</h5>
                     <p>첨단장비와 남다른 기술력으로 시간과 비용절감에 효과적입니다.</p>
                 </div>
             </div>
@@ -558,10 +548,16 @@
             onLeave: function (index, nextIndex, direction) {
                 var $temp = $('header,.fp-nav');
 
-                if (nextIndex === 2 || nextIndex === 3) {
+                if (nextIndex === 2 || nextIndex === 3 || nextIndex === 5) {
                     $temp.addClass('dark');
                 } else {
                     $temp.removeClass('dark');
+                }
+
+                if (nextIndex === 5) {
+                    $temp.addClass('light');
+                } else {
+                    $temp.removeClass('light');
                 }
             }
         });
@@ -602,7 +598,7 @@
             minSlides: 2,
             maxSlides: 2,
             moveSlides: 1,
-            slideWidth: 718,
+            slideWidth: 510,
             shrinkItems: true,
             slideMargin: 40,
             pagerCustom: $('.slider-pagenation'),
