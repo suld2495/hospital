@@ -153,7 +153,7 @@ body {
     overflow: hidden;
 }
 
-.img-box li:before, .slide-box:before, .review > div:before {
+.img-box li:before, .slide-box:before, .review > div:before, .case .slide-item > .module:before {
     top: 0;
     left: 0;
     width: 0;
@@ -163,9 +163,10 @@ body {
     background: -webkit-linear-gradient(left, #ed7d1b 0%, #ed7d1b 100%);
     background: -o-linear-gradient(left, #ed7d1b 0%, #ed7d1b 100%);
     background: linear-gradient(to right, #ed7d1b 0%, #ed7d1b 100%);
+    z-index: 10000;
 }
 
-.img-box li:after, .slide-box:after, .review > div:after {
+.img-box li:after, .slide-box:after, .review > div:after, .case .slide-item > .module:after {
     bottom: 0;
     left: 0;
     width: 0;
@@ -175,9 +176,10 @@ body {
     background: -webkit-linear-gradient(bottom, #ed7d1b 0%, #ed7d1b 100%);
     background: -o-linear-gradient(bottom, #ed7d1b 0%, #ed7d1b 100%);
     background: linear-gradient(to top, #ed7d1b 0%, #ed7d1b 100%);
+    z-index: 1000;
 }
 
-.img-box li div:before, .slide-box div:before, .review > div a:before {
+.img-box li div:before, .slide-box div:before, .review > div a:before, .case .module .module:before {
     bottom: 0;
     right: 0;
     width: 0;
@@ -187,9 +189,10 @@ body {
     background: -webkit-linear-gradient(right, #ed7d1b 0%, #ed7d1b 100%);
     background: -o-linear-gradient(right, #ed7d1b 0%, #ed7d1b 100%);
     background: linear-gradient(to left, #ed7d1b 0%, #ed7d1b 100%);
+    z-index: 1000;
 }
 
-.img-box li div:after, .slide-box div:after, .review > div a:after {
+.img-box li div:after, .slide-box div:after, .review > div a:after, .case .module .module:after {
     top: 0;
     right: 0;
     width: 0;
@@ -199,11 +202,13 @@ body {
     background: -webkit-linear-gradient(top, #ed7d1b 0%, #ed7d1b 100%);
     background: -o-linear-gradient(top, #ed7d1b 0%, #ed7d1b 100%);
     background: linear-gradient(to bottom, #ed7d1b 0%, #ed7d1b 100%);
+    z-index: 1000;
 }
 
 .img-box li:hover:before, .img-box li div:hover:before,
 .slide-box:hover:before, .slide-box div:hover:before,
-.review > div:hover:before, .review > div a:hover:before
+.review > div:hover:before, .review > div a:hover:before,
+.case .slide-item > .module:hover:before, .case .module .module:hover:before
 {
     width: 100%;
     height: 6px;
@@ -215,7 +220,8 @@ body {
 
 .img-box li:hover:after, .img-box li div:hover:after,
 .slide-box:hover:after, .slide-box div:hover:after,
-.review > div:hover:after, .review > div a:hover:after {
+.review > div:hover:after, .review > div a:hover:after,
+.case .slide-item > .module:hover:after, .case .module .module:hover:after {
     height: 100%;
     width: 6px;
     -webkit-transition: width 0s 0s, height 0.3s 0s;
@@ -225,7 +231,8 @@ body {
 
 .img-box li:before, .img-box li div:before,
 .slide-box:before, .slide-box div:before,
-.review > div:before, .review > div a:before {
+.review > div:before, .review > div a:before,
+.case .slide-item > .module:before, .case .module .module:before {
     -webkit-transition: width 0s 0.3s, height 0.3s 0s;
     -o-transition: width 0s 0.3s, height 0.3s 0s;
     transition: width 0s 0.3s, height 0.3s 0s;
@@ -233,20 +240,24 @@ body {
 
 .img-box li:after, .img-box li div:after,
 .slide-box:after, .slide-box div:after,
-.review > div:after, .review > div a:after {
+.review > div:after, .review > div a:after,
+.case .slide-item > .module:after, .case .module .module:after {
     -webkit-transition: width 0.3s 0s, height 0s 0.3s;
     -o-transition: width 0.3s 0s, height 0s 0.3s;
     transition: width 0.3s 0s, height 0s 0.3s;
 }
 
 
-.review > div:hover:before, .review > div a:hover:before {
-    height: 2px;
+.review > div:hover:before, .review > div a:hover:before,
+.case .slide-item > .module:before, .case .module .module:before {
+    height: 2px !important;
 }
 
-.review > div:hover:after, .review > div a:hover:after {
-    width: 2px;
+.review > div:hover:after, .review > div a:hover:after,
+.case .slide-item > .module:after, .case .module .module:after {
+    width: 2px !important;
 }
+
 
 .img-box img {
     z-index: 0;
@@ -580,7 +591,7 @@ body {
 .section07 {
     background: #f5f5f5;
     padding-top: 20px;
-    padding-bottom: 149px;
+    box-sizing: border-box;
 }
 
 .section07 h4 {
@@ -913,7 +924,7 @@ body .section07 .bx-pager-link span + span {
     /* margin-top: 113px; */
     position: relative;
     height: 627px;
-    padding-top: 57px;
+    padding-top: 77px;
     background: #f5f5f5;
     box-sizing: border-box;
 }
@@ -1856,4 +1867,132 @@ body .section07 .bx-pager-link span + span {
 .section07 .slider .module:hover .square {
     background: #fff;
     color: #222;
+}
+
+.case {
+    background: url(../images/main/bg04.jpg);
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.case h2 {
+    color: #fff;
+    font-size: 47px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.case .case-slider h3 {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.case .case-slider p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    color: #8e8e90;
+}
+
+.case .login {
+    /* position: absolute; */
+    width: 100%;
+    height: 235px;
+    background: #050608;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 21px;
+    cursor: pointer;
+    transition: all .3s ease;
+    opacity: 0;
+    z-index: 10;
+}
+
+.case .case-slider > div:hover .login,
+.case .case-slider > div:active .login {
+    opacity: 1;
+}
+
+.case .login a {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 130px;
+    box-sizing: border-box;
+}
+
+.case .login a:before {
+    background: url(../images/main/login_icon.png);
+    content: '';
+    display: block;
+    width: 20px;
+    height: 23px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -35px;
+}
+
+.case .more {
+    width: 194px;
+    height: 56px;
+    box-sizing: border-box;
+    border: 2px solid #666668;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+}
+
+.case .control {
+    position: absolute;
+    height: 0;
+    top: 190px;
+    width: 100%;
+}
+
+.case .max-layout-width {
+    position: relative;
+}
+
+.case .control span {
+    position: absolute;
+    text-indent: -9999px;
+}
+
+.case .control a {
+    width: 71px;
+    height: 71px;
+    border: 1px solid #959698;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.case .prev {
+    left: -120px;
+}
+
+.case .bx-prev {
+    background: url(../images/main/left_wh.png) no-repeat center;
+}
+
+.case .next {
+    right: -120px;
+}
+
+.case .bx-next {
+    background: url(../images/main/right_wh.png) no-repeat center;
+}
+
+.slide-item > .module {
+    height: 235px;
+    position: absolute;
+    width: 100%;
 }

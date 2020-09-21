@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 
 <link rel="stylesheet" href="<c:url value='/lib/fullPage/jquery.fullpage.min1.css' />">
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
@@ -436,6 +437,67 @@
             </div>
         </div>
     </div>
+    <div class="case section">
+        <div class="max-layout-width">
+            <h2>치료사례</h2>
+            <div class="control">
+                <span class="prev"></span>
+                <span class="next"></span>
+            </div>
+            <div class="case-slider">
+                <div class="slide-item">
+                    <sec:authorize access="isAnonymous()">
+                        <div  class="module">
+                            <div class="login module"><a href="<c:url value='/login'/>">로그인 해주세요</a></div>
+                        </div>
+                    </sec:authorize>
+                    <img src="<c:url value='/images/main/case01.jpg'/>">
+                    <div class="text">
+                        <h3>임플란트</h3>
+                        <p>강oo 환자</p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <sec:authorize access="isAnonymous()">
+                        <div  class="module">
+                            <div class="login module"><a href="<c:url value='/login'/>">로그인 해주세요</a></div>
+                        </div>
+                    </sec:authorize>
+                    <img src="<c:url value='/images/main/case02.jpg'/>">
+                    <div class="text">
+                        <h3>라미네이트</h3>
+                        <p>권oo 환자</p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <sec:authorize access="isAnonymous()">
+                        <div  class="module">
+                            <div class="login module"><a href="<c:url value='/login'/>">로그인 해주세요</a></div>
+                        </div>
+                    </sec:authorize>
+                    <img src="<c:url value='/images/main/case03.jpg'/>">
+                    <div class="text">
+                        <h3>치아교정</h3>
+                        <p>박oo 환자</p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <sec:authorize access="isAnonymous()">
+                        <div  class="module">
+                            <div class="login module"><a href="<c:url value='/login'/>">로그인 해주세요</a></div>
+                        </div>
+                    </sec:authorize>
+                    <img src="<c:url value='/images/main/case04.jpg'/>">
+                    <div class="text">
+                        <h3>스케일링</h3>
+                        <p>김oo 환자</p>
+                    </div>
+                </div>
+            </div>
+            <a class="more" href="<c:url value='/case/1'/>">사례 더보기</a>
+        </div>
+    </div>
+
     <div class="section08 max-layout-width section">
         <div class="display-inline-block">
             <div class="consultant">
@@ -685,6 +747,22 @@
 
         $('.quick .plus').click(function () {
             $(this).toggleClass('active');
+        })
+
+        $('.case-slider').bxSlider({
+            pager: false,
+            nextSelector: '.case .control .next',
+            prevSelector: '.case .control .prev',
+            auto: true,
+            minSlides: 4,
+            maxSlides: 4,
+            moveSlides: 1,
+            slideWidth: 310,
+            slideMargin: 19,
+        })
+
+        $('.login').click(function () {
+            window.location.href = "<c:url value='/login'/>";
         })
     });
 
