@@ -280,7 +280,7 @@
 .table-left, .table-right {
     width: 559px;
     font-size: 16px;
-    padding: 22px 110px;
+    padding: 22px 0;
     line-height: 1.5;
     letter-spacing: -1px;
     word-break: keep-all;
@@ -587,7 +587,7 @@
     font-size: 22px;
 }
 
-  section.board-link {
+section.board-link {
     margin-top: 125px;
 }
 
