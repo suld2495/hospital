@@ -8,13 +8,15 @@
 <link type="text/css" rel="stylesheet" href="<c:url value='/css/admin/comm/appendix.css' />">
 <link rel="stylesheet" href="<c:url value='/css/admin/paging/adminPaging.css' />">
 
+<c:set var="total" value="${paging.total}"/>
+
 <section class="content">
     <div class="content_wrap">
 
         <article class="boardTop">
 
             <div class="boardName">
-                <p><span><img src="">HM 일상</span>에이치엠디자인의 공지사항 및 다양한 소식들을 안내해드립니다.</p>
+                <p><span><img src="">미소원치과 일상</span>미소원치과의 공지사항 및 다양한 소식들을 안내해드립니다.</p>
             </div>
 
             <div class="boardSearch">
@@ -99,31 +101,31 @@
 
                 <c:if test="${total > 0}">
                     <c:forEach var="list" items="${list}">
-                        <tr class="sampleTr s${list.boardSecret}" data-num="${list.boardNum}">
-                            <td><input type="checkbox" data-num="${list.boardNum}" class="check"></td>
-                            <td class="boardOrder boardNumdata boardOrderdata" data-boardnum="${list.boardNum}" data-boardorder="${list.boardOrder}">${list.boardOrder}</td>
+                        <tr class="sampleTr s${list.boardSecret}" data-num="${list.num}">
+                            <td><input type="checkbox" data-num="${list.num}" class="check"></td>
+                            <td class="boardOrder boardNumdata boardOrderdata board_order" data-boardnum="${list.num}" data-boardorder="${list.board_order}">${list.board_order}</td>
                             <td class="appendixTd">
                                 <c:if test="${list.appendixCount > 0}">
-                                    <img src="<c:url value='/images/admin/add.jpg'/>" data-num="${list.boardNum}" data-tablename="${tableName}">
+                                    <img src="<c:url value='/images/admin/add.jpg'/>" data-num="${list.num}" data-tablename="${tableName}">
                                 </c:if>
                             </td>
-                            <td class="boardSubjectTd pointer sn" data-num="${list.boardNum}">
-                                <p class="boardSubject pointer sn">${list.boardSubject}</p>
-                                <span class="none boardNumdata boardOrderdata" data-boardnum="${list.boardNum}" data-boardorder="${list.boardOrder}"></span>
+                            <td class="boardSubjectTd pointer sn" data-num="${list.num}">
+                                <p class="boardSubject pointer sn subject">${list.subject}</p>
+                                <span class="none boardNumdata boardOrderdata" data-boardnum="${list.num}" data-boardorder="${list.board_order}"></span>
                             </td>
-                            <td class="boardWriter">${list.boardWriter}</td>
-                            <td class="boardWriteDate">${list.boardWriteDate}</td>
-                            <td class="boardHits">${list.boardHits}</td>
-                            <td class="boardUse ${list.boardUse}">
+                            <td class="boardWriter writer">${list.writer}</td>
+                            <td class="boardWriteDate created_show_date">${list.created_show_date}</td>
+                            <td class="boardHits recommend_count">${list.recommend_count}</td>
+                            <td class="boardUse status ${list.status}">
 
-                                <c:if test="${list.boardUse == 'y'}">	정상	</c:if>
-                                <c:if test="${list.boardUse == 'n'}">	삭제	</c:if>
+                                <c:if test="${list.status == 'N'}">	정상	</c:if>
+                                <c:if test="${list.status == 'Y'}">	삭제	</c:if>
                             </td>
-                            <td><a href="/admin/${url}Write.do?update=modify&board_num=${list.boardNum}" class="linkChange boardNumdata"><img src="<c:url value='/images/admin/modify.jpg'/>" data-num="${list.boardNum}" class="modify pointer"></a></td>
-                            <td><img src="<c:url value='/images/admin/delete.jpg'/>" data-num="${list.boardNum}" data-boardnum="${list.boardNum}" data-type="delete" class="boardNumdata updateBoard admin delete pointer"></td>
+                            <td><a href="/admin/${url}Write.do?update=modify&board_num=${list.num}" class="linkChange boardNumdata"><img src="<c:url value='/images/admin/modify.jpg'/>" data-num="${list.num}" class="modify pointer"></a></td>
+                            <td><img src="<c:url value='/images/admin/delete.jpg'/>" data-num="${list.num}" data-boardnum="${list.num}" data-type="delete" class="boardNumdata updateBoard admin delete pointer"></td>
                             <td>
-                                <img src="<c:url value='/images/admin/orderArrowBottom.jpg'/>" data-num="${list.boardNum}" class="orderArrowBottom pointer">
-                                <img src="<c:url value='/images/admin/orderArrowTop.jpg'/>" data-num="${list.boardNum}" class="orderArrowTop pointer">
+                                <img src="<c:url value='/images/admin/orderArrowBottom.jpg'/>" data-num="${list.num}" class="orderArrowBottom pointer">
+                                <img src="<c:url value='/images/admin/orderArrowTop.jpg'/>" data-num="${list.num}" class="orderArrowTop pointer">
                             </td>
                         </tr>
                     </c:forEach>
@@ -144,7 +146,7 @@
                             <span>선택글 삭제하기</span>
                         </div>
                     </td>
-                    <td colspan="7"><a href="${url}Write.do?update=write"><img src="<c:url value='/images/admin/write.jpg'/>" class="write pointer"></a></td>
+                    <td colspan="7"><a href="<c:url value='/admin/${url}-write?update=write'/>"><img src="<c:url value='/images/admin/write.jpg'/>" class="write pointer"></a></td>
                 </tr>
                 </tfoot>
             </table>
@@ -171,7 +173,7 @@
     </div>
 </section>
 
-<script src="../js/board/board.js"></script>
+<script src="<c:url value="/js/admin/board.js"/>"></script>
 
 <script>
 
@@ -185,9 +187,9 @@
 
             //게시판 설치
             $(".boardTable").boardCreate({
-                boardList: "<c:out value='${boardList}' />",
-                totalPage: "<c:out value='${totalPage}' />",
-                page: "<c:out value='${page}' />",
+                boardList: "<c:out value='${paging.pageCount}' />",
+                totalPage: "<c:out value='${paging.lastPageNum}' />",
+                page: "<c:out value='${paging.currentPage}' />",
                 tableName: "<c:out value='${tableName}' />",
                 total: "<c:out value='${total}' />",
                 link: {

@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+.qna_board_wrap {width:974px;margin:0;}
+
+.basicText {overflow:hidden;margin-top: 36px;margin-bottom: 21px;}
+.basicText>div {float:left;height: 27px;}
+.headerTextDiv1 h2 {font-size: 25px;color:#333;font-weight:bold;margin-right: 22px;}
+.headerTextDiv2 {line-height: 38px;color: #282828;font-weight: bold;font-size: 15px;}
+
+form {border-top:3px solid #555;}
+form>div>div:first-child {width: 13.7%;height: 41px;line-height: 23px;color: #333333;font-weight: 600;}
+form>div>div input {height: 27px;width:100%;box-sizing:border-box;text-indent: 10px;}
+
+.contentInputDiv {padding-top: 7px;position: relative;text-align: left;}
+.contentInputDiv textarea {resize:none;width:768px;height:316px;border:1px solid #d5d5d5;padding: 10px;}
+.contentDiv {padding: 0;}
+form>div>div:first-child.contentText {line-height: 23px;}
+
+form>div .input {border-left: 1px solid #d4d4d4;padding-left:6px;padding-right: 49px;}
+
+.bn {background:none;width: 75px;height: 33px;}
+
+.bnController {margin-top:19px;}
+
+.appendixDiv p>span {height: 28px;}
+.appendixDiv p>span img {padding-top: 2px;height: 24px;}
+.fileNameSpan>span {line-height: 31px;}
+
+.boardContent {position:absolute;top: 38px;left: 6.5px;margin:0;padding:0;font-family:'돋움',Dotum,Helvetica,Sans-serif;font-size:12px;line-height:1.5;width: 781px;height: 440px;text-align: left;padding-top: 16px;padding-left: 15px;box-sizing: border-box;}
+.boardContent img {max-width:100%;}
+
+.thumnailInputDiv {height:40px;text-align: left;}
+.thumnailInputDiv>span {float:left;height: 29px;line-height: 9px;}
+.fileNameSpan {line-height:29px;}
+.thumnailInputDiv .thumnailName {height:29px;line-height: 21px;}
+
+form>div .input.inputtop {height:41px;line-height: 30px;text-align: left;padding-left: 12px;color: #696969;font-size: 15px;}
+
+.processInputDiv>div {float:left;margin-right: 22px;}
+.processInputDiv input {width: 19px;float: left;margin-right: 6px;}
+.processInputDiv label {height:27px;display: inline-block;line-height: 35px;}
+
+.qnaNotice {border-bottom:none;padding-top: 26px;}
+
+.n .no {font-weight:bold;}
+.w .wait {font-weight:bold;}
+.y .complete {font-weight:bold;}
+
+.boardCategory {text-align:left;}
+.boardCategory select{height:27px;padding:0 10px;}

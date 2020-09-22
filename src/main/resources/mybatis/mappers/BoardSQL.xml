@@ -93,6 +93,16 @@
          WHERE URL = #{url}
     </select>
 
+    <select id="selectAppendix" parameterType="pagingVo" resultType="map" >
+
+		select @total as total, a.*
+
+		from 		attach a
+				, 	(select @total := (select count(*) from attach where table_name = #{tableName} and board_num = #{board_num})) b
+
+		where table_name = #{tableName} and board_num = #{board_num} and del_gb = 'n'
+	</select>
+
     <insert id="insertBoard" parameterType="boardVo" useGeneratedKeys="true" keyProperty="num">
         INSERT INTO ${tableName}
         (

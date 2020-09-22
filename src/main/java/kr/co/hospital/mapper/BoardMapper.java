@@ -22,4 +22,6 @@ public interface BoardMapper {
     void insertFile(Map param) throws Exception;
 
     Map<String, Object> selectTable(String url) throws Exception;
+
+    List<Map> selectAppendix(PagingVo pagingVo) throws Exception;
 }

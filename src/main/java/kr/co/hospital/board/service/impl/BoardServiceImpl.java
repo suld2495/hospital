@@ -54,7 +54,7 @@ public class BoardServiceImpl implements BoardService {
     public void saveFile(MultipartHttpServletRequest mRequest, int num, String tableName) throws Exception {
         MultipartFile mFile = mRequest.getFile("file");
 
-        if (mFile.isEmpty()) {
+        if (mFile == null || mFile.isEmpty()) {
             return;
         }
 
@@ -125,5 +125,10 @@ public class BoardServiceImpl implements BoardService {
     @Override
     public Map<String, Object> selectTable(String url) throws Exception {
         return boardMapper.selectTable(url);
+    }
+
+    @Override
+    public List<Map> selectAppendix(PagingVo pagingVo) throws Exception {
+        return boardMapper.selectAppendix(pagingVo);
     }
 }

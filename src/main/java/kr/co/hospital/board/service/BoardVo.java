@@ -4,7 +4,7 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
 public class BoardVo {
-    private int num;
+    private Integer num;
 
     @NotEmpty
     @Length(min=2, max=200)
