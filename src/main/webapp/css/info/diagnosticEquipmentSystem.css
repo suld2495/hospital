@@ -55,6 +55,7 @@
     border-radius: unset;
     font-size: 15px;
     font-weight: 600;
+    font-family: gmarket !important;
 }
 
 .section01 .slider-pagenation .bx-pager-item span {
@@ -146,6 +147,7 @@
 
 .section01 .pager span {
     float: left;
+    font-family: gmarket !important;
 }
 
 .section01 .pager span.current {

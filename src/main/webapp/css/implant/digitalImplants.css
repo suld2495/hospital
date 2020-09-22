@@ -232,14 +232,14 @@
 
 .section04 ul li p {
     padding-top: 22px;
-    font-size: 97px;
+    font-size: 67px;
     margin-bottom: 21px;
     letter-spacing: -1px;
     position: absolute;
-    top: -70px;
+    top: -65px;
     width: 100%;
     color: #9c8c7f;
-    font-family: ramaraja !important;
+    font-family: gmarket !important;
     font-weight: 100;
     font-style: italic;
 }

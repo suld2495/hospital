@@ -90,6 +90,41 @@ url('../fonts/nanum_myeongjo/NanumMyeongjo.woff') format('woff'), /* Super Moder
     url('../fonts/anton/anton-v12-latin-regular.svg#Anton') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+    font-family: 'ink';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/InkLipquid/InkLipquid.woff'); /* IE9 Compat Modes */
+url('../fonts/InkLipquid/InkLipquid.woff') format('woff') /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'gmarket';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/gmarket-sans/GmarketSansLight.woff'); /* IE9 Compat Modes */
+url('../fonts/gmarket-sans/GmarketSansLight.woff2') format('woff2'), /* Modern Browsers */
+url('../fonts/gmarket-sans/GmarketSansLight.woff') format('woff') /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'gmarket';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/gmarket-sans/GmarketSansMedium.woff'); /* IE9 Compat Modes */
+url('../fonts/gmarket-sans/GmarketSansMedium.woff2') format('woff2'), /* Modern Browsers */
+url('../fonts/gmarket-sans/GmarketSansMedium.woff') format('woff') /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'gmarket';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/gmarket-sans/GmarketSansBold.woff'); /* IE9 Compat Modes */
+url('../fonts/gmarket-sans/GmarketSansBold.woff2') format('woff2'), /* Modern Browsers */
+url('../fonts/gmarket-sans/GmarketSansBold.woff') format('woff') /* Modern Browsers */
+}
+
 
 * {
     font-family: Noto Sans KR !Important;
