@@ -128,33 +128,33 @@
 
     <section class="section06">
         <div class="max-layout-width">
-            <h2><strong>일반틀니</strong>와 <strong>임플란트 틀니</strong>의 차이점은?</h2>
+            <h2><strong>전체임플란트</strong>랑 <strong>임플란트 틀니</strong>의 차이점은?</h2>
             <table class="table">
                 <thead>
                     <tr>
-                        <th class="table-left">일반틀니</th>
+                        <th class="table-left">전체임플란트</th>
                         <th class="table-middle">VS</th>
                         <th class="table-right">임플란트 틀니</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="table-left">잇몸형태의 본을 떠서 틀니 맞춤 제작</td>
+                        <td class="table-left">치아의 전체를 보철물로 만든 뒤<br>6~8개 이상의 임플란트를 식립하여 보철물을 부착</td>
                         <td class="table-middle">시술 방법</td>
                         <td class="table-right">임플란트 식립 후 특수 틀니 연결</td>
                     </tr>
                     <tr>
                         <td class="table-left">
-                            잇몸을 이용해 유지
+                            보통 40~60세 환자분들에게 권하는 치료
                         </td>
                         <td class="table-middle">유지방법</td>
                         <td class="table-right">
-                            잇몸뼈와 단단히 연결된 임플란트가 틀니를 고정
+                            65세 이상 환자분들에게 권하는 치료
                         </td>
                     </tr>
                     <tr>
                         <td class="table-left">
-                            자연치아의 20~25%
+                            자연치아와 저작력 거의 동일
                         </td>
                         <td class="table-middle">저작력</td>
                         <td class="table-right">
@@ -163,14 +163,18 @@
                     </tr>
                     <tr>
                         <td class="table-left">
-                            잇몸뼈가 지속적으로 흡수되며서 쉽게 헐거워진 잇몸이 눌려서 상처가 나거나 통증 유발<br>
-                            대화도중이나 식사중에 틀니가 탈락될 가능성 있음<br>
-                            잇몸뼈의 변형으로 지속적인 수리 관리가 필요
+                            심미적으로도 우수하며 내 치아처럼 단단하게 사용할 수 있습니다.<br>
+                            게다가 단단한 음식이나 질긴 음식들도 먹을 수 있어<br>
+                            임플란트 틀니에 비해 더 좋은 효과를 볼 수 있다는 것이 장점이며<br>
+                            반영구적으로 사용할 수 있습니다.
                         </td>
                         <td class="table-middle">특징</td>
                         <td class="table-right">
-                            임플란트에 고정되므로 유지력이 우수한 임플란트의 고정력으로 잇몸뼈 흡수를 어느정도 방지<br>
-                            대화중이나 식사중에 틀니가 쉽게 탈락되지 않음
+                            틀니를 잇몸에 탈부착할 수 있는 장점이있으며<br>
+                            또한 기존 사용하던 틀니가 있으시다면 별도로<br>
+                            틀니를 만드는 비용 없이 기존 틀니를 개조하여<br>
+                            임플란트 틀니로 만들어 드리고 있기 때문에<br>
+                            비용적으로 전체 임플란트보다 부담은 적습니다.
                         </td>
                     </tr>
                     <tr>
