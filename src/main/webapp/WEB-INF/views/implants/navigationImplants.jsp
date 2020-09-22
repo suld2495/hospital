@@ -60,25 +60,6 @@
         </div>
     </section>
 
-    <section class="section03">
-        <div class="max-layout-width">
-            <div class="text">
-                <h2>네비게이션 임플란트 이런 분에게 추천해요</h2>
-            </div>
-            <div class="image_box_left">
-                <p class="img"></p>
-            </div>
-            <div class="text">
-                <ul>
-                    <li class="img01"><p><strong>내원 횟수를 줄이고</strong><br>싶으신 환자분</p></li>
-                    <li class="img02"><p>임플란트의 <strong>통증과 출혈의<br> 두려움이 크신</strong> 환자분</p></li>
-                    <li class="img03"><p>당뇨, 고혈압등<br><strong>전신질환</strong>이 있는 환자분</p></li>
-                    <li class="img04"><p>당뇨, 고혈압등<br><strong>전신질환</strong>이 있는 환자분</p></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
     <section class="section04 list-content">
         <div class="image_box_right">
             <p class="img"></p>
