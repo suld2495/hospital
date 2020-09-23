@@ -676,10 +676,24 @@
             $('.contents-text' + (index + 1)).addClass('active');
         });
 
+        var minSlides = 4;
+        var maxSlides = 4;
+
+        if (768 < windowWidth && windowWidth < 1000) {
+            minSlides = 3;
+            maxSlides = 3;
+        } else if (414 < windowWidth && windowWidth <= 768) {
+            minSlides = 2;
+            maxSlides = 2;
+        } else if (windowWidth <= 414) {
+            minSlides = 1;
+            maxSlides = 1;
+        }
+
         $('.review').bxSlider({
             pager: false,
-            minSlides: 4,
-            maxSlides: 4,
+            minSlides: minSlides,
+            maxSlides: maxSlides,
             moveSlides: 1,
             slideWidth: 318,
             shrinkItems: true,

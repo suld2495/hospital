@@ -1785,7 +1785,7 @@ body .section07 .bx-pager-link span + span {
 }
 
 .section04 {
-    background: url(../images/main/bg02.jpg) no-repeat;
+    background: url(../images/main/bg02.jpg) no-repeat center;
     background-position-y: 80px;
     background-size: cover;
 }
@@ -2175,7 +2175,7 @@ body .section07 .bx-pager-link span + span {
 }
 
 .section04 .text {
-    padding-top: 180px;
+    padding-top: 150px;
 }
 
 .footer-info-container, .footer-info-container .fp-tableCell {
@@ -2271,6 +2271,44 @@ body .section07 .bx-pager-link span + span {
         padding: 0 19px;
         box-sizing: border-box;
     }
+
+    .section04 {
+        padding: 0 10px;
+        padding-bottom: 200px;
+        box-sizing: border-box;
+    }
+
+    .section04 .text {
+        text-align: center;
+    }
+
+    .section04 .bx-wrapper {
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+
+    .section04 .details-link {
+        bottom: -627px;
+        top: auto;
+        left: 50%;
+        margin-left: -92px;
+        background: #fff;
+    }
+
+    .section04 .bx-wrapper .bx-controls-direction a {
+        margin: 0;
+        top: -110px;
+    }
+
+    .section04 .bx-wrapper .bx-controls-direction a.bx-prev {
+        left: 50%;
+        margin-left: -76px;
+    }
+
+    .section04 .bx-wrapper .bx-controls-direction a.bx-next {
+        right: 50%;
+        margin-right: -76px;
+    }
 }
 
 @media screen and (max-width:582px) {
@@ -2310,6 +2348,35 @@ body .section07 .bx-pager-link span + span {
 
     .section02 h5 {
         font-size: 17px;
+    }
+
+    .review-text p {
+        box-sizing: border-box;
+    }
+
+    .section04 .text h4 {
+        font-size: 33px;
+    }
+
+    .section04 .bx-wrapper .bx-controls-direction a {
+        width: 60px;
+        height: 60px;
+    }
+
+    .section04 .bx-wrapper .bx-controls-direction a img {
+        padding-top: 17px;
+    }
+
+    .section04 .bx-wrapper .bx-controls-direction a.bx-prev {
+        margin-left: -66px;
+    }
+
+    .section04 .bx-wrapper .bx-controls-direction a.bx-next {
+        margin-right: -66px;
+    }
+
+    .section04 .details-link {
+        bottom: -560px;
     }
 }
 
@@ -2353,6 +2420,24 @@ body .section07 .bx-pager-link span + span {
     }
 
     .section02 h5 {
+        font-size: 14px;
+    }
+
+    .review-text p {
+        width: 100%;
+        padding: 0 10px;
+        font-size: 15px;
+    }
+
+    .section04 .details-link {
+        bottom: -620px;
+    }
+
+    .section04 .text h4 {
+        font-size: 28px;
+    }
+
+    .section04 .text h4 + p {
         font-size: 14px;
     }
 }
