@@ -104,7 +104,7 @@
     <section class="section05 background-animation wow fadeInUp">
         <div class="bg"></div>
         <div class="max-layout-width">
-            <h2><strong>임플란트 틀니의 장점</strong>은?</h2>
+            <h2><strong>전체 임플란트의 장점</strong>은?</h2>
             <p>
                 전체 임플란트 성공의 핵심은 얼마나 <strong>최소한의 개수로 최대한의 효과를 내느냐</strong>입니다.<br>
                 미소원치과는 <strong>다년간의 임상 경험을 가진 의료진</strong>들이 임플란트 시술을 합니다.
