@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+.th1,.th2 {width:46px;}
+.th3 {width:127}
+.th4 {width:448px;}
+.th5 {width:80px}
+.th6 {width:112px}
+.th7 {width:60px;}
+.th8 {width:60px;}
+.th9 {width:58px;} 
+.th10 {width:59px;}
+.th11 {width:88px;}
+
+.boardTable tbody td.boardSubject {width:448px;}
+.boardTable tbody td.boardSubject p {width:448px;}
+
+.boardImg img {margin:5px 0;}
+.boardImg img:first-child {margin-bottom:0;width: 110px;}
+
+.imgChange {width: 220px;height: 126px;background:#fff;border:1px solid #ccc;position:fixed;left:50%;top:50%;padding:10px;margin-left: -110px;margin-top: -63px;}
+.imgChangeBig {color:#333;font-weight:bold;font-size:18px;font;border-bottom: 1px solid #ccc;height: 26px;}
+.imgChangeCurrent,.imgChangeFile,.imgChangeInputCon,.submitBnCon {font-size:12px;color:#333;}
+.imgChangeCurrent {margin-top:10px;overflow:hidden;}
+.imgChangeCurrent span {float:left;}
+.listStyle {font-size: 10px;height: 16px;line-height: 9px;margin-right: 4px;display: inline-block;}
+.imgChangeFile {margin-top:5px;overflow: hidden;}
+.imgChangeFile span {display:inline-block;height: 16px;float: left;}
+.imgChangeInputCon {overflow:hidden;margin-top:5px;}
+.imgChangeInput,.imgChangeAppendixImg {overflow:hidden;float: left;}
+.fileName {width:100px;height: 16px;display: inline-block;float: left;line-height: 15px;padding-left: 5px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;box-sizing: border-box;}
+.imgName {margin-left:30px;display: inline-block;width: 128px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;height: 16px;}
+.imgChangeInput {border:1px solid #ccc;box-sizing: border-box;height: 18px;}
+.imgChangeAppendixImg {margin: 0 7px;}
+.imgChangeAppendixImg img {height: 17px;}
+.imgChangeAppendixText {height:17px;line-height: 15px;}
+.imgChangeClose {position:absolute;right:10px;}
+.submitBnCon {height:20px;width:50px;margin:0 auto;margin-top: 10px;background:gray;color:#fff;text-align:center;line-height: 19px;border-radius: 3px;}
