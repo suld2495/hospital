@@ -643,28 +643,32 @@
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script>
     $(function() {
-        $('#fullpage').fullpage({
-            //options here
-            autoScrolling:true,
-            scrollHorizontally: true,
-            anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6', 'anchor7', 'anchor8', 'anchor9', 'anchor10'],
-            menu: '.fp-nav',
-            onLeave: function (index, nextIndex, direction) {
-                var $temp = $('header,.fp-nav');
+        var windowWidth = $(window).width();
 
-                if (nextIndex === 2 || nextIndex === 3 || nextIndex === 5 || nextIndex === 8) {
-                    $temp.addClass('dark');
-                } else {
-                    $temp.removeClass('dark');
-                }
+        if (windowWidth > 768) {
+            $('#fullpage').fullpage({
+                //options here
+                autoScrolling:true,
+                scrollHorizontally: true,
+                anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6', 'anchor7', 'anchor8', 'anchor9', 'anchor10'],
+                menu: '.fp-nav',
+                onLeave: function (index, nextIndex, direction) {
+                    var $temp = $('header,.fp-nav');
 
-                if (nextIndex === 5) {
-                    $temp.addClass('light');
-                } else {
-                    $temp.removeClass('light');
+                    if (nextIndex === 2 || nextIndex === 3 || nextIndex === 5 || nextIndex === 8) {
+                        $temp.addClass('dark');
+                    } else {
+                        $temp.removeClass('dark');
+                    }
+
+                    if (nextIndex === 5) {
+                        $temp.addClass('light');
+                    } else {
+                        $temp.removeClass('light');
+                    }
                 }
-            }
-        });
+            });
+        }
 
         $('.img-box li').mouseenter(function() {
             var index = $(this).index();

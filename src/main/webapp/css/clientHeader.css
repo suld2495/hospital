@@ -530,14 +530,17 @@ header .header-banner-slider .slide-item04 .go {
 @media screen and (max-width:768px) {
     header .fixed-box > div {
         margin-left: 40px;
+        padding-right: 0;
     }
 
     header .fixed-box > div.cmmn-nav {
         float: right;
+        margin-left: 0;
     }
 
     .header-panel {
         padding-right: 30px;
+        padding-left: 0;
     }
 
     header .menu {

@@ -2186,3 +2186,92 @@ body .section07 .bx-pager-link span + span {
     height: 99px !important;
     display: block !important;
 }
+
+@media screen and (max-width:768px) {
+    .fp-menu ul:first-child {
+        display: none;
+    }
+
+    .fp-menu {
+        border-left: none;
+    }
+
+    .section01 {
+        height: 982px;
+        text-align: c;
+    }
+
+    .section01 .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section01 .text h2 {
+        font-size: 42px;
+        margin-bottom: 42px;
+    }
+
+    .section01 .text p {
+        width: 320px;
+        margin: 0 auto;
+        line-height: 1.6;
+        word-break: keep-all;
+        margin-bottom: 20px;
+    }
+
+    .section01 .control {
+        width: 195px;
+        left: 50%;
+        margin-left: -92px;
+        top: 330px;
+    }
+
+    .fp-menu ul.quick {
+        /* top: auto; */
+        /* bottom: 0; */
+        transform: translateX(-50%) translateY(130px);
+    }
+}
+
+@media screen and (max-width:582px) {
+    .section01 .text h2 {
+        font-size: 30px;
+    }
+
+    .section01 {
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width:414px) {
+    .section01 .text h2 {
+        font-size: 27px;
+    }
+
+    .section01 .control {
+        top: 240px;
+    }
+
+    .section01 .text {
+        top: 300px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .section01 .text h2 {
+        font-size: 27px;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+
+    .section01 .control {
+        top: 220px;
+    }
+
+    .section01 .text {
+        top: 280px;
+    }
+}
