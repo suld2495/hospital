@@ -38,7 +38,7 @@
         </div>
     </section>
 
-    <section class="section02">
+    <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2 class="section-title">
@@ -59,7 +59,7 @@
         </div>
     </section>
 
-    <section class="section03">
+    <section class="section03 wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2><strong>뼈이식 임플란트</strong> 이런 분에게 <strong>추천해요</strong></h2>
@@ -78,7 +78,7 @@
         </div>
     </section>
 
-    <section class="section04">
+    <section class="section04 wow fadeInUp">
         <div class="max-layout-width">
             <h2>뼈이식 임플란트 <strong>진행과정</strong></h2>
             <ul>
@@ -98,7 +98,7 @@
         </div>
     </section>
 
-    <section class="section05 section-quotes-title section-quotes-title-right">
+    <section class="section05 section-quotes-title section-quotes-title-right wow fadeInUp">
         <div class="image_box_right">
             <p class="img"></p>
         </div>
@@ -120,7 +120,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section07 text-slider">
+    <section class="section07 text-slider wow fadeInUp">
         <h2 class="section-title">
             고난이도 뼈 이식술은 <strong class="section-title-color">의료진의 실력과</strong><br>
             <strong class="section-title-color">경험이 매우 중요한</strong> 시술입니다.
@@ -178,7 +178,7 @@
         </div>
     </section>
 
-    <section class="treatment-case">
+    <section class="treatment-case wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
@@ -219,7 +219,7 @@
         </div>
     </section>
 
-    <section class="board-link">
+    <section class="board-link wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

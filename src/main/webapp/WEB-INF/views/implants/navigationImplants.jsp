@@ -39,7 +39,7 @@
         </div>
     </section>
 
-    <section class="section02">
+    <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2 class="section-title">
@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section class="section04 list-content">
+    <section class="section04 list-content wow fadeInUp">
         <div class="image_box_right">
             <p class="img"></p>
         </div>
@@ -86,7 +86,7 @@
         </div>
     </section>
 
-    <section class="section05 section-quotes-title section-quotes-title-left">
+    <section class="section05 section-quotes-title section-quotes-title-left wow fadeInUp">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -110,7 +110,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section06 left-fade-slider-container">
+    <section class="section06 left-fade-slider-container wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 <strong><span class="section-title-color">
@@ -172,7 +172,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section07 table">
+    <section class="section07 table wow fadeInUp">
         <div class="max-layout-width">
             <h2><strong>일반 임플란트</strong>와 <strong>네비게이션 임플란트</strong>의 차이점은?</h2>
             <table>
@@ -246,7 +246,7 @@
         </div>
     </section>
 
-    <section class="section09 treatment-case">
+    <section class="section09 treatment-case wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
@@ -287,7 +287,7 @@
         </div>
     </section>
 
-    <section class="board-link">
+    <section class="board-link wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

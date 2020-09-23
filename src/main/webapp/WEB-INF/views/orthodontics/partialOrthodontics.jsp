@@ -36,7 +36,7 @@
         </div>
     </section>
 
-    <section class="section02">
+    <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title"><strong>부분교정의 </strong>장점은?</h2>
             <ul>
@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section class="section03">
+    <section class="section03 wow fadeInUp">
         <div class="bg"></div>
         <div class="max-layout-width">
             <div class="text">
@@ -73,7 +73,7 @@
         </div>
     </section>
 
-    <section class="section04 list-content list-content-right">
+    <section class="section04 list-content list-content-right wow fadeInUp">
         <div class="max-layout-width">
             <div class="image_box_left">
                 <p class="img"></p>
@@ -94,7 +94,7 @@
         </div>
     </section>
 
-    <section class="section05 section-quotes-title section-quotes-title-left">
+    <section class="section05 section-quotes-title section-quotes-title-left wow fadeInUp">
         <div class="image_box_right">
             <p class="img"></p>
         </div>
@@ -117,7 +117,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section06 treatment-case">
+    <section class="section06 treatment-case wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
@@ -158,7 +158,7 @@
         </div>
     </section>
 
-    <section class="board-link">
+    <section class="board-link wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

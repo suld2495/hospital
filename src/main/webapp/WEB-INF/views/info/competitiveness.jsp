@@ -49,7 +49,7 @@
         </div>
     </section>
 
-    <section class="section02 position-relative">
+    <section class="section02 position-relative wow fadeInUp">
         <div class="default-background"></div>
         <div class="image_box_left img01">
             <p class="img"></p>
@@ -79,7 +79,7 @@
             </div>
         </div>
     </section>
-    <section class="section03">
+    <section class="section03 wow fadeInUp">
         <div class="image_box_right">
             <p class="img"></p>
         </div>
@@ -107,7 +107,7 @@
         </div>
     </section>
 
-    <section class="section04">
+    <section class="section04 wow fadeInUp">
         <div class="contents max-layout-width">
             <p class="section-sub-title">건물 내 상주 협력 기공소</p>
             <div class="default-tab">
@@ -132,7 +132,7 @@
         </div>
     </section>
 
-    <section class="section05">
+    <section class="section05 wow fadeInUp">
         <div class="image_box_left img01">
             <p class="img"></p>
             <div class="image_box_left img02">

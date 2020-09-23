@@ -25,7 +25,7 @@
         </div>
     </section>
 
-    <section class="section02">
+    <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <div class="text-box left-text-box">
                 <h3 class="move-title wow slideInLeft">COOPERATIVE</h3>
@@ -46,7 +46,7 @@
         </div>
     </section>
 
-    <section class="section03">
+    <section class="section03 wow fadeInUp">
         <div class="image_box_left img01">
             <p class="img"></p>
         </div>
@@ -67,7 +67,7 @@
         </div>
     </section>
 
-    <section class="section04">
+    <section class="section04 wow fadeInUp">
         <div class="max-layout-width">
             <div class="text-box left-text-box">
                 <h3 class="move-title wow slideInLeft">STERILIZATION</h3>
@@ -88,7 +88,7 @@
         </div>
     </section>
 
-    <section class="section05">
+    <section class="section05 wow fadeInUp">
         <div class="container">
             <h2 class="section-title"><strong><span class="section-title-color">환자중심</span> 미소원치과</strong></h2>
             <div class="image-container">
@@ -140,7 +140,7 @@
         </div>
     </section>
 
-    <section class="section06">
+    <section class="section06 wow fadeInUp">
         <div class="bg"></div>
         <div class="max-layout-width">
             <div class="text display-inline-block">
@@ -162,9 +162,3 @@
         </div>
     </section>
 </div>
-
-<script src="<c:url value="/lib/wow/wow.js" />"></script>
-
-<script>
-    new WOW().init();
-</script>

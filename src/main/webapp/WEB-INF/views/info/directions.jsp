@@ -11,7 +11,7 @@
         <div id="map"></div>
     </section>
 
-    <section class="section02">
+    <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <div class="display-inline-block">
                 <div class="logo float-left">
@@ -36,14 +36,14 @@
         </div>
     </section>
 
-    <section class="section03">
+    <section class="section03 wow fadeInUp">
         <div class="bg">
             <h2>약도 및 주차장 안내</h2>
             <div class="location-bg"></div>
         </div>
     </section>
 
-    <section class="section04">
+    <section class="section04 wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="title"><strong>내원</strong>하시는 <strong>방법</strong></h2>
             <ul>

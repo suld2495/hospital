@@ -37,7 +37,7 @@
         </div>
     </section>
 
-    <section class="section02">
+    <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">사랑니 발치<strong>가 필요한 경우</strong></h2>
             <ul>
@@ -61,7 +61,7 @@
         </div>
     </section>
 
-    <section class="section03 section-quotes-title section-quotes-title-right">
+    <section class="section03 section-quotes-title section-quotes-title-right wow fadeInUp">
         <div class="image_box_right">
             <p class="img"></p>
         </div>
@@ -110,7 +110,7 @@
         </div>
     </section-->
 
-    <section class="section05 left-fade-slider-container">
+    <section class="section05 left-fade-slider-container wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 <strong><span class="section-title-color">
@@ -171,7 +171,7 @@
         </div>
         <div class="bg"></div>
     </section>
-    <section class="section09 treatment-case">
+    <section class="section09 treatment-case wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
@@ -212,7 +212,7 @@
         </div>
     </section>
 
-    <section class="board-link">
+    <section class="board-link wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

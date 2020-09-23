@@ -38,7 +38,7 @@
         </div>
     </section>
 
-    <section class="section02">
+    <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">미소원치과 부정교합<strong>교정치료 효과 </strong></h2>
             <ul>
@@ -62,7 +62,7 @@
         </div>
     </section>
 
-    <section class="section03 list-content list-content-right">
+    <section class="section03 list-content list-content-right wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 미소원치과의 수준 높은 교정치료<br>
@@ -172,7 +172,7 @@
     </section>
 
     <div class="tab-contents tab-contents1 active list-content">
-        <section class="section04">
+        <section class="section04 wow fadeInUp">
             <div class="image_box_left">
                 <p class="img toothimg01"></p>
             </div>
@@ -196,7 +196,7 @@
         </section>
 
 
-        <section class="section05">
+        <section class="section05 wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
@@ -211,7 +211,7 @@
     </div>
 
     <div class="tab-contents tab-contents2 list-content">
-        <section class="section04">
+        <section class="section04 wow fadeInUp">
             <div class="image_box_left">
                 <p class="img toothimg02"></p>
             </div>
@@ -235,7 +235,7 @@
         </section>
 
 
-        <section class="section05">
+        <section class="section05 wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
@@ -253,7 +253,7 @@
     </div>
 
     <div class="tab-contents tab-contents3 list-content">
-        <section class="section04">
+        <section class="section04 wow fadeInUp">
             <div class="image_box_left">
                 <p class="img toothimg03"></p>
             </div>
@@ -277,7 +277,7 @@
         </section>
 
 
-        <section class="section05">
+        <section class="section05 wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
@@ -296,7 +296,7 @@
     </div>
 
     <div class="tab-contents tab-contents4 list-content">
-        <section class="section04">
+        <section class="section04 wow fadeInUp">
             <div class="image_box_left">
                 <p class="img toothimg04"></p>
             </div>
@@ -320,7 +320,7 @@
         </section>
 
 
-        <section class="section05">
+        <section class="section05 wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
@@ -337,7 +337,7 @@
             </div>
         </section>
 
-        <section class="section08">
+        <section class="section08 wow fadeInUp">
             <div class="max-layout-width">
                 <div class="text">
                     <h2 class="section-title">
@@ -358,7 +358,7 @@
             </div>
         </section>
 
-        <section class="section09">
+        <section class="section09 wow fadeInUp">
             <div class="max-layout-width">
                 <h2>과개교합의 <strong>원인</strong></h2>
                 <ul>
@@ -389,7 +389,7 @@
     </div>
 
     <div class="tab-contents tab-contents5 list-content">
-        <section class="section04">
+        <section class="section04 wow fadeInUp">
             <div class="image_box_left">
                 <p class="img toothimg05"></p>
             </div>
@@ -412,7 +412,7 @@
             </div>
         </section>
 
-        <section class="section05">
+        <section class="section05 wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
@@ -431,7 +431,7 @@
             </div>
         </section>
 
-        <section class="section08">
+        <section class="section08 wow fadeInUp">
             <div class="max-layout-width">
                 <div class="text">
                     <h2 class="section-title">
@@ -449,7 +449,7 @@
             </div>
         </section>
 
-        <section class="section09">
+        <section class="section09 wow fadeInUp">
             <div class="max-layout-width">
                 <h2>덧니의 <strong>원인</strong></h2>
                 <ul>
@@ -479,7 +479,7 @@
         </section>
     </div>
 
-    <section class="section06">
+    <section class="section06 wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 부정교합의 가능성을 확인하고<br>
@@ -505,7 +505,7 @@
         </div>
     </section>
 
-    <section class="section10 treatment-case">
+    <section class="section10 treatment-case wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
@@ -546,7 +546,7 @@
         </div>
     </section>
 
-    <section class="board-link">
+    <section class="board-link wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="doctor-info doctor-info-left position-relative">
+            <div class="doctor-info doctor-info-left position-relative wow fadeInUp">
                 <div class="bg"></div>
                 <div class="max-layout-width position-absolute image-container">
                     <div class="position-absolute image-box">
@@ -95,7 +95,7 @@
                 </div>
             </div>
 
-            <div class="doctor-info last-doctor-info position-relative">
+            <div class="doctor-info last-doctor-info position-relative wow fadeInUp">
                 <div class="bg"></div>
                 <div class="max-layout-width position-absolute image-container">
                     <div class="position-absolute full-layout-width image-box">
@@ -138,7 +138,7 @@
     </section>
     <section class="tab-contents staff-contents">
         <div class="staff-info-box">
-            <div class="staff-info position-relative">
+            <div class="staff-info position-relative wow fadeInUp">
                 <div class="image_box_left img-box1">
                     <p class="img"></p>
                 </div>
@@ -157,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div class="staff-info position-relative staff-info02">
+            <div class="staff-info position-relative staff-info02 wow fadeInUp">
                 <div class="image_box_right img-box2">
                     <p class="img"></p>
                 </div>
@@ -176,7 +176,7 @@
                     </div>
                 </div>
             </div>
-            <div class="staff-info position-relative">
+            <div class="staff-info position-relative wow fadeInUp">
                 <div class="image_box_left img-box3">
                     <p class="img"></p>
                 </div>

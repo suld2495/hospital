@@ -41,7 +41,7 @@
         </div>
     </section>
 
-    <section class="section02">
+    <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 <span class="section-title-color">세계적인 <strong>디지털 장비</strong>로</span><br>
@@ -54,7 +54,7 @@
         </div>
     </section>
 
-    <section class="section03">
+    <section class="section03 wow fadeInUp">
         <div class="bg"></div>
         <div class="max-layout-width">
             <ul>
@@ -79,7 +79,7 @@
         </div>
     </section>
 
-    <section class="section04">
+    <section class="section04 wow fadeInUp">
         <div class="max-layout-width">
             <div class="con">
                 <div class="image_box_left">
@@ -137,7 +137,7 @@
         </div>
     </section>
 
-    <section class="section05 section-quotes-title-left section-quotes-title">
+    <section class="section05 section-quotes-title-left section-quotes-title wow fadeInUp">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -160,7 +160,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section07">
+    <section class="section07 wow fadeInUp">
         <div class="bg"></div>
         <div class="max-layout-width">
             <h2 class="section-title">
@@ -179,7 +179,7 @@
         </div>
     </section>
 
-    <section class="section08 fade-in-slider">
+    <section class="section08 fade-in-slider wow fadeInUp">
         <div class="max-layout-width">
             <div class="title">
                 <h2>
@@ -305,7 +305,7 @@
         </div>
     </section>
 
-    <section class="section10 treatment-case">
+    <section class="section10 treatment-case wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
@@ -346,7 +346,7 @@
         </div>
     </section>
 
-    <section class="board-link">
+    <section class="board-link wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

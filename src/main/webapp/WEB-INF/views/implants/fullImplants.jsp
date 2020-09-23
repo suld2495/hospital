@@ -41,7 +41,7 @@
         </div>
     </section>
 
-    <section class="section02">
+    <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <div class="text-box left-text-box">
                 <h3 class="move-title wow slideInLeft">FIXED FULL IMPLANT</h3>
@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section class="section03">
+    <section class="section03 wow fadeInUp">
         <div class="image_box_left img01">
             <p class="img"></p>
         </div>
@@ -80,7 +80,7 @@
         </div>
     </section>
 
-    <section class="section04">
+    <section class="section04 wow fadeInUp">
         <div class="image_box_right">
             <p class="img"></p>
         </div>
@@ -101,7 +101,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section05 background-animation">
+    <section class="section05 background-animation wow fadeInUp">
         <div class="bg"></div>
         <div class="max-layout-width">
             <h2><strong>임플란트 틀니의 장점</strong>은?</h2>
@@ -126,7 +126,7 @@
         </div>
     </section>
 
-    <section class="section06">
+    <section class="section06 wow fadeInUp">
         <div class="max-layout-width">
             <h2><strong>전체임플란트</strong>랑 <strong>임플란트 틀니</strong>의 차이점은?</h2>
             <table class="table">
@@ -196,7 +196,7 @@
         </div>
     </section>
 
-    <section class="section07">
+    <section class="section07 wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title"><span class="section-title-color">만 65세 이상</span> 임플란트틀니·건강보험</h2>
             <p class="section-text">3D 디지털 기술력으로 오차를 최소화하여 정확한 위치에 임플란트를 심습니다.</p>
@@ -219,7 +219,7 @@
         </div>
     </section>
 
-    <section class="section10 treatment-case">
+    <section class="section10 treatment-case wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
@@ -260,7 +260,7 @@
         </div>
     </section>
 
-    <section class="board-link">
+    <section class="board-link wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

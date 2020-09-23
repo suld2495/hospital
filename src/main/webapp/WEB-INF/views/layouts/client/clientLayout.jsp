@@ -4,6 +4,7 @@
 <html>
 <head>
     <title>병원</title>
+    <link rel="stylesheet" href="<c:url value='/lib/wow/animate.css' />">
     <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
     <link rel="stylesheet" href="<c:url value='/css/clientCommon.css' />">
     <link rel="stylesheet" href="<c:url value='/lib/bxSlider/bxSlider.css' />">
@@ -32,5 +33,10 @@
     <script src="<c:url value='/js/utils/StringUtils.js' /> "></script>
     <script src="<c:url value='/lib/bxSlider/bxSlider.js' />"></script>
     <script src="<c:url value='/js/clientLayout.js' />"></script>
+    <script src="<c:url value="/lib/wow/wow.js" />"></script>
+
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>

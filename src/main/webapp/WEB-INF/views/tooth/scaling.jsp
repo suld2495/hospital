@@ -38,7 +38,7 @@
         </div>
     </section>
 
-    <section class="section02">
+    <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">안심하고 받을 수 있는<strong><br>미소원치과의 스케일링 효과</strong></h2>
             <ul>
@@ -62,7 +62,7 @@
         </div>
     </section>
 
-    <section class="section03 section-quotes-title section-quotes-title-right">
+    <section class="section03 section-quotes-title section-quotes-title-right wow fadeInUp">
         <div class="image_box_right">
             <p class="img"></p>
         </div>
@@ -82,7 +82,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section04 list-content list-content-right">
+    <section class="section04 list-content list-content-right wow fadeInUp">
         <div class="max-layout-width">
             <div class="image_box_left">
                 <p class="img"></p>
@@ -105,7 +105,7 @@
         </div>
     </section>
 
-    <section class="section05">
+    <section class="section05 wow fadeInUp">
         <div class="bg"></div>
         <div class="max-layout-width">
             <div class="text">
@@ -121,7 +121,7 @@
         </div>
     </section>
 
-    <section class="section06 list-content list-content-right">
+    <section class="section06 list-content list-content-right wow fadeInUp">
         <div class="max-layout-width">
             <div class="image_box_left">
                 <p class="img"></p>
@@ -146,7 +146,7 @@
         </div>
     </section>
 
-    <section class="section07 text-slider">
+    <section class="section07 text-slider wow fadeInUp">
         <h2 class="section-title">
             환자분들의 <strong class="section-title-color">구강건강을 위한</strong><br>
             미소원치과의 <strong class="section-title-color">꼼꼼한 스케일링</strong>
@@ -205,7 +205,7 @@
         </div>
     </section>
 
-    <section class="section08 treatment-case">
+    <section class="section08 treatment-case wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
@@ -246,7 +246,7 @@
         </div>
     </section>
 
-    <section class="board-link">
+    <section class="board-link wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>

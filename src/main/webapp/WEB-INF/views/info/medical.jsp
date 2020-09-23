@@ -31,7 +31,7 @@
         </div>
     </section>
 
-    <section class="section02">
+    <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <div class="img"></div>
             <div class="full-layout-width display-inline-block">
@@ -62,7 +62,7 @@
         </div>
     </section>
 
-    <section class="section03">
+    <section class="section03 wow fadeInUp">
         <div class="image_box_left">
             <p class="img"></p>
         </div>
@@ -79,7 +79,7 @@
         </div>
     </section>
 
-    <section class="section04">
+    <section class="section04 wow fadeInUp">
         <div class="max-layout-width">
             <div>
                 <h2>환자의 <strong>의무사항</strong>은?</h2>
@@ -94,7 +94,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section05">
+    <section class="section05 wow fadeInUp">
         <div class="max-layout-width">
             <span class="title">NATURE TOOTH</span>
             <h2 class="section-title bold">

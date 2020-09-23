@@ -202,7 +202,7 @@
 <%--        </div>--%>
 <%--    </section>--%>
 
-    <section class="section03">
+    <section class="section03 wow fadeInUp">
         <div class="max-layout-width">
             <span class="title">ADVANCED EQUIPMENT</span>
             <h2 class="section-title">
