@@ -1115,9 +1115,10 @@ body .section07 .bx-pager-link span + span {
 }
 
 .section02 ul {
-    width: 100%;
-    display: inline-block;
+    /* width: 100%; */
     margin-left: -2%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .section02 li {
@@ -2187,6 +2188,12 @@ body .section07 .bx-pager-link span + span {
     display: block !important;
 }
 
+@media screen and (max-width:1100px) {
+    .section02 .display-inline-block {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width:768px) {
     .fp-menu ul:first-child {
         display: none;
@@ -2227,9 +2234,42 @@ body .section07 .bx-pager-link span + span {
     }
 
     .fp-menu ul.quick {
-        /* top: auto; */
-        /* bottom: 0; */
         transform: translateX(-50%) translateY(130px);
+    }
+
+    .section02 li {
+        width: 48%;
+        height: 280px;
+    }
+
+    .section02 .last {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .section02 li div.hover {
+        padding-top: 77px;
+    }
+
+    .section02 li.last div.hover {
+        padding-top: 88px;
+    }
+
+    .section02 .max-layout-width {
+        padding-top: 82px;
+    }
+
+    .section02 h2 {
+        font-size: 40px;
+    }
+
+    .section02 .bg {
+        bottom: -70px;
+    }
+
+    .section02 .display-inline-block {
+        padding: 0 19px;
+        box-sizing: border-box;
     }
 }
 
@@ -2240,6 +2280,36 @@ body .section07 .bx-pager-link span + span {
 
     .section01 {
         height: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .section02 li {
+        height: 200px;
+    }
+
+    .section02 li div h3 {
+        font-size: 24px;
+    }
+
+    .section02 h2 {
+        font-size: 35px;
+    }
+
+    .section02 li.last div.hover {
+        padding-top: 58px;
+    }
+
+    .section02 li div.hover {
+        padding-top: 47px;
+    }
+
+    .section02 li div.hover p {
+        font-size: 13px;
+    }
+
+    .section02 h5 {
+        font-size: 17px;
     }
 }
 
@@ -2255,6 +2325,35 @@ body .section07 .bx-pager-link span + span {
 
     .section01 .text {
         top: 300px;
+    }
+
+
+    .section02 li {
+        height: 170px;
+    }
+
+    .section02 li div h3 {
+        font-size: 21px;
+    }
+
+    .section02 h2 {
+        font-size: 30px;
+    }
+
+    .section02 li.last div.hover {
+        padding-top: 45px;
+    }
+
+    .section02 li div.hover {
+        padding-top: 36px;
+    }
+
+    .section02 li div.hover p {
+        font-size: 12px;
+    }
+
+    .section02 h5 {
+        font-size: 14px;
     }
 }
 

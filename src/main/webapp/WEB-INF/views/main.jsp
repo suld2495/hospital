@@ -210,7 +210,7 @@
                             </p>
                         </div>
                     </li>
-                    <li>
+                    <li class="last">
                         <img src="<c:url value='/images/main/point_img03.jpg'/>">
                         <div class="nomal">
                             <h3>#자연치아</h3>

@@ -527,6 +527,38 @@ header .header-banner-slider .slide-item04 .go {
 }
 
 
+@media screen and (max-width: 1870px) {
+    header .cmmn-nav ol {
+        width: 100%;
+    }
+
+    header .fixed-box > div.mobile_display_none {
+        width: 55%;
+    }
+
+    .header-logo {
+        padding-right: 4%;
+    }
+
+    header .fixed-box > div.cmmn-nav:last-child {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    header .fixed-box > div.mobile_display_none {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    header .fixed-box > div.mobile_display_none {
+        display: none;
+    }
+}
+
+
+
 @media screen and (max-width:768px) {
     header .fixed-box > div {
         margin-left: 40px;
