@@ -42,6 +42,23 @@ public class AdminController {
         return "admin/community/" + url + "Write";
     }
 
+
+    @RequestMapping("/media/{currentPage}")
+    public String media(Model model,
+                         @PathVariable int currentPage,
+                         @RequestParam Map map) throws Exception {
+        String url = "media";
+        adminService.listModule(url, model, map, currentPage);
+        return "admin/community/" + url;
+    }
+
+    @RequestMapping(value = "/media-write", method = RequestMethod.GET)
+    public String mediaWrite(@RequestParam Map map, HttpServletRequest request, Model model, @ModelAttribute(value = "boardVo") BoardVo boardVo) throws Exception {
+        String url = "media";
+        adminService.writeModule(url, map, request, model);
+        return "admin/community/" + url + "Write";
+    }
+
     @RequestMapping(value = "/boardUpdate/{url}", method = RequestMethod.POST)
     public String boardUpdate(MultipartHttpServletRequest mRequest,
                               @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo,
