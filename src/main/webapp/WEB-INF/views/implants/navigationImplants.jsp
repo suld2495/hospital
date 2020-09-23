@@ -61,33 +61,35 @@
     </section>
 
     <section class="section04 list-content wow fadeInUp">
-        <div class="image_box_right">
+        <div class="image_box_left">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
-            <h2 class="section-title">
-                <span class="section-title-color">정확하니까, 빠르고, 편안하고</span><br>
-                안전지향적인 네비게이션 임플란트
-            </h2>
-            <p class="section-text">
-                임플란트는 잘 심을수록 오래갑니다.<br>
-                1:1 맞춤 시스템으로 잇몸 라인을 따라 들뜸 없이 착!<br>
-                미소원치과의 네비게이션 임플란트가 사랑받는 진짜 이유를 알려드립니다!
-            </p>
-            <p class="pager active"><span>01</span>잘못된 수술로 인한 부작용 최소화 (이물감,빠짐,흔들림,신경손상)</p><br>
-            <p class="pager"><span>02</span>최소절개로 수술 시 출혈,통증,붓기 감소</p><br>
-            <p class="pager"><span>03</span>내원 횟수 단축, 더욱 빨라지는 치료 기간</p><br>
-            <p class="pager"><span>04</span>임플란트 수술 후 회복기간 감소</p><br>
-            <p class="pager"><span>05</span>치아 교합을 정확히 고려한 임플란트 수술</p><br>
-            <p class="pager"><span>06</span>건물 내 상주하는 기공실에서 나에게 꼭 맞는 보철물 제작</p><br>
-            <p class="pager"><span>07</span>오랜 시간이 지나도 계속 사용할 수 있는 임플란트</p><br>
+            <div>
+                <h2 class="section-title">
+                    <span class="section-title-color">정확하니까, 빠르고, 편안하고</span><br>
+                    안전지향적인 네비게이션 임플란트
+                </h2>
+                <p class="section-text">
+                    임플란트는 잘 심을수록 오래갑니다.<br>
+                    1:1 맞춤 시스템으로 잇몸 라인을 따라 들뜸 없이 착!<br>
+                    미소원치과의 네비게이션 임플란트가 사랑받는 진짜 이유를 알려드립니다!
+                </p>
+                <p class="pager active"><span>01</span>잘못된 수술로 인한 부작용 최소화 (이물감,빠짐,흔들림,신경손상)</p><br>
+                <p class="pager"><span>02</span>최소절개로 수술 시 출혈,통증,붓기 감소</p><br>
+                <p class="pager"><span>03</span>내원 횟수 단축, 더욱 빨라지는 치료 기간</p><br>
+                <p class="pager"><span>04</span>임플란트 수술 후 회복기간 감소</p><br>
+                <p class="pager"><span>05</span>치아 교합을 정확히 고려한 임플란트 수술</p><br>
+                <p class="pager"><span>06</span>건물 내 상주하는 기공실에서 나에게 꼭 맞는 보철물 제작</p><br>
+                <p class="pager"><span>07</span>오랜 시간이 지나도 계속 사용할 수 있는 임플란트</p><br>
+            </div>
         </div>
         <div class="bg">
         </div>
     </section>
 
     <section class="section05 section-quotes-title section-quotes-title-left wow fadeInUp">
-        <div class="image_box_left">
+        <div class="image_box_right">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">

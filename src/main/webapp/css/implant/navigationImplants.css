@@ -70,16 +70,12 @@
     margin-top: 171px;
 }
 
-.section05 .max-layout-width .text {
-    padding-left: 50%;
-}
-
 .section05 .max-layout-width .text > div {
-    padding-left: 120px;
+
     position: relative
 }
 
-.section05 .image_box_left {
+.section05 .image_box_right {
     max-width: 1276px;
     height: 521px;
     width: 50%;
@@ -91,7 +87,7 @@
     position: relative;
     line-height: 1.25;
     margin-bottom: 134px;
-    padding-left: 60px;
+    padding-left: 164px;
     letter-spacing: -2px;
 }
 
@@ -109,6 +105,8 @@
     word-break: keep-all;
     line-height: 1.6;
     position: relative;
+    padding-right: 60px;
+    text-align: right;
 }
 
 .section05 .section-text:before {
@@ -118,20 +116,26 @@
     height: 89px;
     background: #7f6a57;
     top: -120px;
+    right: 60px;
 }
 
 .section05 .bg {
     width: 64.65%;
     position: absolute;
     height: 262px;
-    right: 0px;
-    bottom: -79px;
+    left: 0;
+    bottom: -97px;
     background: #f5f5f5;
 }
 
 .section05 .max-layout-width {
     position: relative;
     z-index: 10;
+}
+
+.section05 .max-layout-width .text {
+    padding-right: 50%;
+    box-sizing: border-box;
 }
 
 .section01 {
@@ -346,7 +350,7 @@
     color: #fff;
 }
 
-.section04 .image_box_right {
+.section04 .image_box_left {
     max-width: 1315px;
     height: 435px;
     width: 51.52%;
@@ -369,6 +373,10 @@
 .section04 .max-layout-width {
     position: relative;
     z-index: 2;
+}
+
+.section04 .max-layout-width > div {
+    padding-left: 57%;
 }
 
 .section04 .pager {
