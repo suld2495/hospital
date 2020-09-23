@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <div>
-    <div class="header-banner-slider-continer header-banner-slider-continer01">
+    <div class="header-banner-slider-continer header-banner-slider-continer01 mobile_display_none">
         <div class="header-banner-slider">
             <div class="slide-item-box pointer">
                 <div class="slide-item slide-item01">
@@ -44,7 +44,7 @@
             <div class="header-logo">
                 <a href="<c:url value='/' />"><img src="<c:url value='/images/cmmn/logo1.png' />"></a>
             </div>
-            <div class="cmmn-nav">
+            <div class="cmmn-nav mobile_display_none">
                 <nav>
                     <div class="max-layout-width">
                         <ol>
@@ -77,7 +77,7 @@
                                 </sec:authorize>
 
                             </div>
-                            <div class="member-nav pointer">
+                            <div class="member-nav pointer mobile_display_none">
                                 <a class="text-decoration-none" href="<c:url value='/member_agreement' />">
                                     <img src="<c:url value='/images/cmmn/join.png' />" alt="회원가입">
                                     <p class="font-12">JOIN US</p>
@@ -91,7 +91,7 @@
                 </div>
             </div>
         </div>
-        <ul class="nav-detail">
+        <ul class="nav-detail mobile_display_none">
             <li id="nav01">
                 <div class="bg"></div>
                 <div class="max-layout-width">
