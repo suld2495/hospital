@@ -782,7 +782,7 @@
             $('.tab-container' + (index + 1)).addClass('active');
         });
 
-        $('.img-tab li').click(function () {
+        $('.img-tab li').mouseenter(function () {
             $('.img-tab li').removeClass('active');
             $(this).addClass('active');
             $('.img-contents').removeClass('active');
