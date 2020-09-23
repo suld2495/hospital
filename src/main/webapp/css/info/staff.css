@@ -98,15 +98,16 @@
 }
 
 .title {
-    font-size: 36px;
+    font-size: 39px;
     color: #222;
     margin-bottom: 8px;
-    letter-spacing: -0.2px;
+    letter-spacing: -2px;
     font-family: ink !important;
+    line-height: 39px;
 }
 
 .title span {
-    color: #9c8c7f;
+    color: #ec6707;
     font-family: ink !important;
 }
 
@@ -127,7 +128,7 @@
 .last-title + p:after {
     width: 650px;
     height: 3px;
-    background: #7e6956;
+    background: #161b2f;
     content: '';
     position: absolute;
     top: -38px;

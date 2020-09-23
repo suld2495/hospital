@@ -128,7 +128,7 @@
 
     <section class="section06 wow fadeInUp">
         <div class="max-layout-width">
-            <h2><strong>전체임플란트</strong>랑 <strong>임플란트 틀니</strong>의 차이점은?</h2>
+            <h2><strong>전체임플란트</strong>와 <strong>임플란트 틀니</strong>의 차이점은?</h2>
             <table class="table">
                 <thead>
                     <tr>
@@ -147,7 +147,7 @@
                         <td class="table-left">
                             보통 40~60세 환자분들에게 권하는 치료
                         </td>
-                        <td class="table-middle">유지방법</td>
+                        <td class="table-middle">적합한<br>적용대상</td>
                         <td class="table-right">
                             65세 이상 환자분들에게 권하는 치료
                         </td>
