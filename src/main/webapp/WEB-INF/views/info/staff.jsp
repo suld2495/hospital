@@ -44,8 +44,7 @@
                             부산대학교 치과대학 졸업<br/>
                             부산대학교 치의학대학원 석사<br/>
                             부산대학교 치의학대학원 박사<br/>
-                            통합치의학과 전문의 취득<br/>
-                            대한 치과마취과학회 정회원<br/>
+                            통합치의학과 전문의 취득<br/>                            
                             대한 치과보철학회 정회원<br/>
                             대한 치과마취과학회 정회원<br/>
                             대한 구강악안면임플란트학회 정회원<br/>
@@ -65,7 +64,7 @@
                 <div class="text">
                     <div class="max-layout-width position-relative">
                         <div class="title title-font">얼굴과 조화를 이루는 <span>균형잡힌 교정!</span></div>
-                        <div class="title title-font last-title"><span>아름답고 당당한 미소를</span>찾아드립니다.</div>
+                        <div class="title title-font last-title"><span>아름답고 당당한 미소를</span> 찾아드립니다.</div>
                     </div>
                     <div class="line"></div>
                 </div>
@@ -84,8 +83,7 @@
                             부산대학교 치과대학 졸업<br/>
                             부산대학교 치의학대학원 석사<br/>
                             부산대학교 치의학대학원 박사<br/>
-                            통합치의학과 전문의 취득<br/>
-                            대한 치과마취과학회 정회원<br/>
+                            통합치의학과 전문의 취득<br/>                           
                             대한 치과보철학회 정회원<br/>
                             대한 치과마취과학회 정회원<br/>
                             대한 구강악안면임플란트학회 정회원<br/>
@@ -124,7 +122,7 @@
                             서울아산재단 울산대학교병원 치과통합 전문임상의 수료<br/>
                             대한 구강악안면임플란트학회 정회원<br/>
                             대한 통합치과학회 정회원<br/>
-                            대한 치과마과학회 정회원<br/>
+                            대한 치과마취과학회 정회원<br/>
                             KIM'S 교정연구회 정회원<br/>
                             전) 울산 한빛치과 원장<br/>
                             전) 부산 e웰니스치과 원장<br/>
@@ -165,7 +163,7 @@
                     <div>
                         <h1>진료팀</h1>
                         <div class="title title-font"><span>언제나 환자를 최우선으로 생각</span>하는</div>
-                        <div class="title title-font last-title"><span>미소원치과의 진료팀</span>입니다.</div>
+                        <div class="title title-font last-title">미소원치과의 진료팀입니다.</div>
                         <p>
                             환자가 더욱 안심하고 불편하지 않은 환경에서 수술을 받을 수 있도록,
                             시술과정을 돕는 어시스트 업무부터, 쾌적한 시술과 청결 유지를 위해

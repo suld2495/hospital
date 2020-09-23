@@ -406,7 +406,7 @@
                 <div class="text">
                     <div>
                         <h2 class="section-title">
-                            치조골이 절만만 남아있어도<br>
+                            치조골이 절반만 남아있어도<br>
                             <strong>치주치료를 통해 자연치아를<br>살릴 가능성</strong>이 있습니다.
                         </h2>
                         <p class="section-text">
