@@ -525,3 +525,34 @@ header .header-banner-slider .slide-item03 .go {
 header .header-banner-slider .slide-item04 .go {
     background: #1f2e69;
 }
+
+
+@media screen and (max-width:768px) {
+    header .fixed-box > div {
+        margin-left: 40px;
+    }
+
+    header .fixed-box > div.cmmn-nav {
+        float: right;
+    }
+
+    .header-panel {
+        padding-right: 30px;
+    }
+
+    header .menu {
+        margin-left: 0;
+    }
+
+    .login-nav p {
+        text-indent: -9999px;
+    }
+
+    .login-nav:before {
+        display: none;
+    }
+
+    .login-nav {
+        padding-right: 0;
+    }
+}
