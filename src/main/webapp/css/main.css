@@ -963,7 +963,7 @@ body .section07 .bx-pager-link span + span {
 
 .section05 .big-img > div {
     width: auto;
-    height: 567px;
+    height: auto;
 }
 
 .section05 .big-img .img {
@@ -2188,6 +2188,23 @@ body .section07 .bx-pager-link span + span {
     display: block !important;
 }
 
+@media screen and (max-width:1300px) {
+    .section05 .big-img-slider {
+        width: 67.4%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .section05 .big-img-slider {
+        width: 79.8%;
+    }
+
+    .doctor-slider {
+        display: none;
+    }
+}
+
 @media screen and (max-width:1100px) {
     .section02 .display-inline-block {
         width: 100%;
@@ -2309,6 +2326,77 @@ body .section07 .bx-pager-link span + span {
         right: 50%;
         margin-right: -76px;
     }
+
+    .section {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .section05 {
+        height: auto;
+    }
+
+    .section05 .max-layout-width {
+        padding-top: 50px;
+        overflow: inherit;
+        height: auto;
+    }
+
+    .section05 .bg {
+        width: 100%;
+        bottom: -60px;
+        height: 676px;
+    }
+
+    .section05 .slider-container {
+        margin-top: 30px;;
+    }
+
+    .section05 .slider-container, .section05 .slider-container > div {
+        float: none;
+        height: auto;
+    }
+
+    .section05 .big-img-slider {
+        margin-top: 0;
+    }
+
+    .section05 > div {
+        padding: 0 30px;
+        height: auto;
+    }
+
+    .section05 .section-text:before {
+        display: none;
+    }
+
+    .section05 .big-img .img {
+        height: 306px;
+        width: 100%;
+        background-size: cover !important;
+        background-position-y: -140px !important;
+        position: relative;
+    }
+
+    .section05 .big-img-slider {
+        width: 100%;
+        margin-right: 0 !important;
+    }
+
+    .section05 .img-arrow {
+        top: 118px;
+        right: 0;
+    }
+
+    .section05 .img-arrow .slick-arrow {
+        width: 75px;
+        height: 55px;
+    }
+
+    .section05 .text {
+        padding-top: 57px;
+        padding-left: 23px;
+    }
 }
 
 @media screen and (max-width:582px) {
@@ -2318,6 +2406,10 @@ body .section07 .bx-pager-link span + span {
 
     .section01 {
         height: 100%;
+    }
+
+    .section05 .sub-text {
+        font-size: 30px;
     }
 }
 
@@ -2445,6 +2537,20 @@ body .section07 .bx-pager-link span + span {
 @media screen and (max-width:400px) {
     .section01 .text h2 {
         font-size: 27px;
+    }
+
+    .section05 .text {
+        padding-left: 0;
+    }
+
+    .section05 .sub-text {
+        font-size: 25px;
+        margin-bottom: 36px;
+    }
+
+    .section05 .dc {
+        font-size: 14px;
+        line-height: 1.7;
     }
 }
 

@@ -752,8 +752,15 @@
         })
 
         let windoWidth = $(window).width();
-        $('.slider-container').width(windoWidth);
+
+        if (windoWidth > 768) {
+            $('.slider-container').width(windoWidth);
+        } else {
+            $('.slider-container').width(windoWidth - 60);
+        }
+
         $('.doctor-slider .img-box').width(windoWidth * 0.1614);
+
         $('.big-img-slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
