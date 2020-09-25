@@ -385,19 +385,19 @@
                 <div class="bx-pager-item">
                     <a href="" data-slide-index="0" class="bx-pager-link text-decoration-none">
                         <span>01</span>
-                        <span>임플란트 - 자연치와 같은 저작력</span>
+                        <span>임플란트 <span class="line">-</span> 자연치와 같은 저작력</span>
                     </a>
                 </div><br>
                 <div class="bx-pager-item">
                     <a href="" data-slide-index="1" class="bx-pager-link text-decoration-none">
                         <span>02</span>
-                        <span>치아교정 - 신중해야합니다</span>
+                        <span>치아교정 <span class="line">-</span> 신중해야합니다</span>
                     </a>
                 </div><br>
                 <div class="bx-pager-item">
                     <a href="" data-slide-index="2" class="bx-pager-link text-decoration-none">
                         <span>03</span>
-                        <span>사랑니에도 난이도가 있습니다.</span>
+                        <span>사랑니에도<span class="line"></span> 난이도가 있습니다.</span>
                     </a>
                 </div>
             </div>
@@ -716,11 +716,19 @@
             auto: true,
         });
 
+        var _sliderWidth;
+
+        if (windowWidth > 768) {
+            _sliderWidth = 510;
+        } else {
+            _sliderWidth = windowWidth - 60;
+        }
+
         var slider = $('.slider').bxSlider({
             minSlides: 2,
             maxSlides: 2,
             moveSlides: 1,
-            slideWidth: 510,
+            slideWidth: _sliderWidth,
             shrinkItems: true,
             slideMargin: 40,
             pagerCustom: $('.slider-pagenation'),

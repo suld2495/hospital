@@ -582,6 +582,7 @@ body {
 
 .section07 .max-layout-width:first-child {
     padding-top: 100px;
+    margin-bottom: 0;
 }
 
 .section07 h5 {
@@ -646,6 +647,11 @@ body .section07 .bx-pager-link span:first-child {
     margin-right: 15px;
     font-weight: 200;
     font-family: gmarket !important;
+}
+
+body .section07 .bx-pager-link span.line {
+    margin-right: 0;
+    display: inline-block;
 }
 
 body .section07 .bx-pager-link span + span {
@@ -1532,7 +1538,7 @@ body .section07 .bx-pager-link span + span {
     top: 0;
     box-sizing: border-box;
     padding: 81px 0 0;
-    z-index: 2;
+    z-index: 100000;
 }
 
 .light .fp-menu {
@@ -2206,12 +2212,94 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:1100px) {
-    .section02 .display-inline-block {
+    .section02 .display-inline-block, .section07 .slider-origin-pagination {
         width: 100%;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
+    body .section07 .bx-pager-link {
+        padding: 22px 0;
+    }
+
+    .section07 .bx-controls .bx-prev {
+        left: 30px;
+    }
+
+    .section07 .bx-controls .bx-next {
+        right: 30px;
+    }
+
+    .section07 {
+        padding-bottom: 51px;
+    }
+
+    .section07 .slider-origin-pagination {
+        top: initial;
+        bottom: -49px;
+        left: 0;
+    }
+
+    .bx-wrapper img {
+        width: 100%;
+
+    }
+    .section07 .bx-controls {
+        top: initial;
+        bottom: -40px;
+        width: 100%;
+        left: 0;
+    }
+
+    body .section07 .bx-wrapper {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-top: 55px;
+    }
+
+    .section07 .max-layout-width {
+        text-align: center;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    .slider-pagenation br {
+        display: none;
+    }
+
+    body .section07 .bx-pager-link span:first-child {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    body .section07 .bx-pager-link span {
+        display: block;
+        margin-right: 0;
+    }
+
+    body .section07 .bx-pager-link span.line {
+        display: block;
+        text-indent: -9999px;
+        height: 9px;
+        margin-bottom: 0;
+    }
+
+    .slider-pagenation {
+        margin-top: 39px;
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .section07 .bx-pager-item {
+        float: left;
+        width: 33.333333333%;
+        height: auto;
+    }
+
+
+
     .fp-menu ul:first-child {
         display: none;
     }
@@ -2327,11 +2415,6 @@ body .section07 .bx-pager-link span + span {
         margin-right: -76px;
     }
 
-    .section {
-        overflow: hidden;
-        width: 100%;
-    }
-
     .section05 {
         height: auto;
     }
@@ -2414,6 +2497,18 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:500px) {
+    .section07 h5 {
+        font-size: 25px;
+    }
+
+    .section07 h5 + p {
+        font-size: 15px;
+    }
+
+    body .section07 .bx-pager-link span + span {
+        font-size: 15px;
+    }
+
     .section02 li {
         height: 200px;
     }
@@ -2474,6 +2569,17 @@ body .section07 .bx-pager-link span + span {
 
 
 @media screen and (max-width:414px) {
+    .section07 h4 {
+        font-size: 33px;
+    }
+    body .section07 .bx-pager-link span:first-child {
+        font-size: 20px;
+    }
+
+    body .section07 .bx-pager-link span + span {
+        font-size: 13px;
+    }
+
     .section01 .text h2 {
         font-size: 27px;
     }
