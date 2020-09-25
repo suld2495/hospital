@@ -2194,14 +2194,65 @@ body .section07 .bx-pager-link span + span {
     display: block !important;
 }
 
+@media screen and (max-width: 1572px) {
+    .community .community-container {
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .community .online {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .community .etc {
+        width: 50%;
+    }
+    .community .etc .reserve {
+        width: 48%;
+        margin-right: 2%;
+    }
+    .community .etc ul {
+        width: 50%;
+    }
+}
+
 @media screen and (max-width:1300px) {
+    .community .etc ul li a {
+        padding: 22px 24px 0;
+    }
     .section05 .big-img-slider {
         width: 67.4%;
+        box-sizing: border-box;
+    }
+
+    .case .control {
+        top: -120px;
+    }
+
+    .case .prev {
+        left: 0;
+    }
+    .case .next {
+        right: 0;
+    }
+    .case .max-layout-width {
+        padding: 0px 30px;
         box-sizing: border-box;
     }
 }
 
 @media screen and (max-width:1100px) {
+    .community .etc ul li a {
+        padding: 42px 44px 0;
+    }
+    .community .community-container > div {
+        margin-bottom: 25px;
+    }
+    .community .community-container > div, .community .etc {
+        width: 100%;
+        float: none;
+    }
     .section05 .big-img-slider {
         width: 79.8%;
     }
@@ -2218,6 +2269,12 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width: 768px) {
+    .community  {
+        padding: 100px 0;
+    }
+    .case {
+        padding: 75px 0;
+    }
     body .section07 .bx-pager-link {
         padding: 22px 0;
     }
@@ -2239,10 +2296,11 @@ body .section07 .bx-pager-link span + span {
         bottom: -49px;
         left: 0;
     }
-
+    .section04 .bx-wrapper .bx-controls-direction a img {
+        width: auto;
+    }
     .bx-wrapper img {
         width: 100%;
-
     }
     .section07 .bx-controls {
         top: initial;
@@ -2496,7 +2554,85 @@ body .section07 .bx-pager-link span + span {
     }
 }
 
+@media screen and (max-width: 640px) {
+    .community .online a {
+        padding-right: 20;
+    }
+    .community .online p {
+        font-size: 15px;
+    }
+    .community .online h3 {
+        font-size: 25px;
+    }
+    .community .community-container > div.etc  {
+        height: auto;
+    }
+    .community .community-container > div, .community .etc {
+        overflow: hidden;
+    }
+    .community .etc ul {
+        overflow: hidden;
+    }
+    .community .etc ul li:first-child {
+        border-right: none;
+    }
+    .community .etc ul li {
+        width: 50%;
+        float: left;
+        height: 112px;
+        position: relative;
+    }
+    .community .etc ul li p {
+        display: none;
+    }
+    .community .etc ul li span {
+        position: absolute;
+        right: 22px;
+        top: 50%;
+        margin-top: -9px;
+    }
+    .community .etc ul {
+        width: 100%;
+        margin-top: 25px;
+        height: auto;
+    }
+    .community .etc .reserve p br {
+        display: none;
+    }
+    .community .etc .reserve h2 {
+        margin-bottom: 10px;
+    }
+    .community .etc .reserve {
+        width: 100%;
+        height: 154px;
+    }
+    .community .etc .reserve a {
+        padding-top: 50px;
+        padding-left: 36px;
+        text-align: left;
+    }
+    .community .etc .reserve h2:before {
+        top: 12px;
+        left: 211px;
+    }
+}
+
 @media screen and (max-width:500px) {
+    .community .etc ul li a {
+        padding: 42px 24px;
+    }
+    .community .etc ul li h2 {
+        font-size: 22px;
+    }
+    .case h2 {
+        font-size: 30px;
+    }
+    .case .case-slider h3 {
+        font-size: 20px;
+    }
+    .case .case-slider p {
+        font-size: 14px;
+    }
     .section07 h5 {
         font-size: 25px;
     }
@@ -2544,10 +2680,17 @@ body .section07 .bx-pager-link span + span {
     .section04 .text h4 {
         font-size: 33px;
     }
+    .community .etc .reserve p {
+        word-break: keep-all;
+    }
 
     .section04 .bx-wrapper .bx-controls-direction a {
         width: 60px;
         height: 60px;
+    }
+    .community .online p {
+        word-break: keep-all;
+        line-height: 1.7;
     }
 
     .section04 .bx-wrapper .bx-controls-direction a img {
@@ -2568,7 +2711,27 @@ body .section07 .bx-pager-link span + span {
 }
 
 
+@media screen and (max-width:450px) {
+    .community .online h3 {
+        font-size: 21px;
+    }
+}
+
 @media screen and (max-width:414px) {
+    .community .etc ul li h2 {
+        font-size: 20px;
+    }
+    .community .etc .reserve p {
+        font-size: 15px;
+        margin-top: 20px
+    }
+    .community .etc .reserve a {
+        padding-left: 20px;
+        padding-top: 35px
+    }
+    .community .online a {
+        padding-left: 30px;
+    }
     .section07 h4 {
         font-size: 33px;
     }

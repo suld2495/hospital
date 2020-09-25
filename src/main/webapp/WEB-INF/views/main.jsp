@@ -825,15 +825,30 @@
             $(this).toggleClass('active');
         })
 
+        var caseSlider;
+        var caseViewSlides;
+
+        if (windowWidth > 900) {
+            caseViewSlides = 4;
+        } else if (windowWidth > 600) {
+            caseViewSlides = 3;
+        } else if (windowWidth > 414) {
+            caseViewSlides = 2;
+        } else {
+            caseViewSlides = 1;
+        }
+
+        caseSlider = (windowWidth - 60) / caseViewSlides
+
         $('.case-slider').bxSlider({
             pager: false,
             nextSelector: '.case .control .next',
             prevSelector: '.case .control .prev',
             auto: true,
-            minSlides: 4,
-            maxSlides: 4,
+            minSlides: caseViewSlides,
+            maxSlides: caseViewSlides,
             moveSlides: 1,
-            slideWidth: 310,
+            slideWidth: caseSlider,
             slideMargin: 19,
             onSliderLoad: function() {
                 $('.case .control').appendTo($('.case .bx-controls'));
