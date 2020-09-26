@@ -350,7 +350,7 @@ section {
 .section06 .text > div.img_bg {
     width: 100%;
     height: 473px;
-    background: url('../../images/sub/info/intro/intro05.jpg') no-repeat;
+    background: url('../../images/sub/info/intro/intro05.jpg') no-repeat center;
     margin-top: 51px;
 }
 
@@ -471,4 +471,173 @@ section {
 
 .section01 .move-title {
     opacity: 0.1;
+}
+
+@media screen and (max-width: 1300px) {
+    .section02, .section04, .section03 {
+        padding: 0 30px;
+    }
+    .section02 .section-text, .section04 .section-text  {
+        width: 50%;
+        padding-right: 0;
+        word-break: keep-all;
+    }
+    .section03 .section-text {
+        width: 90%;
+        padding-right: 0;
+        word-break: keep-all;
+    }
+    .section06 .section-text {
+        padding-right: 30px;
+        word-break: keep-all;
+    }
+    .section06 .section-title {
+        word-break: keep-all;
+    }
+}
+
+@media screen and (max-width: 1154px) {
+    .image-container {
+        /* padding: 0 30px; */
+        box-sizing: border-box;
+    }
+    .section01 .section-title br {
+        display: none;
+    }
+
+    .section01 .section-title  {
+        word-break: keep-all;
+        padding-right: 30px;
+    }
+    .section05 ul {
+        box-sizing: border-box;
+        display: block;
+        overflow: hidden;
+        margin-left: 0;
+        padding: 0 15px;
+        box-sizing: border-box
+    }
+    .section05 ul li {
+        width: 33.33333333333%;
+        margin-left: 0;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 888px) {
+    .section01 .text-box h2 + p br {
+        display: none;
+    }
+    .section01 .text-box h2 + p {
+        word-break: keep-all;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .section01 {
+        height: 800px;
+        background-size: cover;
+    }
+    .section02 .move-title, .section04 .move-title, .section03 .move-title {
+        display: none;
+    }
+    .section02 .img01, .section04 .img01, .section03 .img01 {
+        width: 100%;
+        height: 344px;
+    }
+    .section02 .text-box, .section04 .text-box, .section03 .text-box {
+        padding-top: 414px;
+    }
+    .section02 .section-title, .section04 .section-title, .section03 .section-title {
+        width: 100%;
+    }
+    .section02 .text-box h2 + p, .section04 .text-box h2 + p {
+        width: 100%;
+    }
+    .section03 .text-box {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .section06 .text > div:first-child .section-title {
+        font-size: 32px;
+    }
+    .section06 .max-layout-width {
+        padding-bottom: 100px;
+    }
+    .last-text {
+        margin-top: 600px
+    }
+    .section06 .text > div.img_bg {
+        position: absolute;
+        top: 90px;
+    }
+    .section06 .bg {
+        display: none;
+    }
+    .section06 .text > div:first-child {
+        text-align: center;
+        padding-right: 0;
+    }
+    .section06 .text > div:first-child:after {
+        bottom: -20px;
+        left: 50%;
+        width: 56px;
+        height: 6px;
+        top: auto;
+        margin-left: -28px;
+    }
+    .section06 .text > div {
+        float: none;
+        width: 100%;
+    }
+    .section01 .text-box {
+        padding-left: 0;
+        padding: 0 30px;
+        padding-top: 80px;
+        background: #9a8b7e;
+    }
+    .section01 .section-title {
+
+    }
+    .section01 .max-layout-width {
+        padding-top: 445px;
+    }
+    .section01 .last-section-title:after {
+        display: none;
+    }
+    .section01 .text-box h2 + p {
+        margin-top: 34px;
+        padding-bottom: 70px;
+    }
+    .section01 .move-title {
+        display: none;
+    }
+
+    .section01 {
+        height: auto;
+    }
+    .section02 .section-title {
+        font-size: 34px;
+    }
+    .section05 ul li {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .img-bg-box {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:518px) {
+    .section05 ul li  {
+        width: 100%;
+    }
 }
