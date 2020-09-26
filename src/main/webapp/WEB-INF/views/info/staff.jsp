@@ -102,8 +102,10 @@
                 </div>
                 <div class="text">
                     <div>
-                        <div class="title title-font">첨단장비를 사용하여 <span>꼼꼼하고 정확하게,</span></div>
-                        <div class="title title-font last-title"><span>원칙을 지키는 진료를 우선</span>합니다.</div>
+                        <div class="title title-font last-title">
+                            첨단장비를 사용하여 <span>꼼꼼하고 정확하게,</span>
+                            <span>원칙을 지키는 진료를 우선</span>합니다.
+                        </div>
                     </div>
                 </div>
                 <div class="text text-bg">
@@ -143,8 +145,10 @@
                 <div class="text">
                     <div>
                         <h1>CS팀</h1>
-                        <div class="title title-font">항상 친절한 마음으로 <span>만족할 수 있는</span></div>
-                        <div class="title title-font last-title"><span>서비스를 위해 최선을 </span>다합니다.</div>
+                        <div class="title title-font last-title">
+                            항상 친절한 마음으로 <span>만족할 수 있는</span><br>
+                            <span>서비스를 위해 최선을 </span>다합니다.
+                        </div>
                         <p>
                             미소원치과에 발 딛는 순간, 기분 좋은 목소리와 미소로 환자분들의
                             긴장된 마음을 한 층 녹여줄 수 있는 미소원치과의 CS팀입니다.
@@ -162,8 +166,10 @@
                 <div class="text text-left">
                     <div>
                         <h1>진료팀</h1>
-                        <div class="title title-font"><span>언제나 환자를 최우선으로 생각</span>하는</div>
-                        <div class="title title-font last-title">미소원치과의 진료팀입니다.</div>
+                        <div class="title title-font last-title">
+                            <span>언제나 환자를 최우선으로 생각</span>하는<br>
+                            미소원치과의 진료팀입니다.
+                        </div>
                         <p>
                             환자가 더욱 안심하고 불편하지 않은 환경에서 수술을 받을 수 있도록,
                             시술과정을 돕는 어시스트 업무부터, 쾌적한 시술과 청결 유지를 위해
@@ -181,8 +187,10 @@
                 <div class="text">
                     <div>
                         <h1>기공실</h1>
-                        <div class="title title-font">의료진과 기공사가 <span>직접 소통하면서</span></div>
-                        <div class="title title-font last-title"><span>환자별 맞춤 기공물 </span>을 제작합니다.</div>
+                        <div class="title title-font last-title">
+                            의료진과 기공사가 <span>직접 소통하면서</span><br>
+                            <span>환자별 맞춤 기공물 </span>을 제작합니다.
+                        </div>
                         <p>
                             꼭 맞는 보철물을 보다 빠르게 제공할 수 있는 이유, 미소원치과
                             건물 내 상주하고 있는 기공실입니다. 치과 보철물을 제작하는

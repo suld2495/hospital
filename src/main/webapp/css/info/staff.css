@@ -315,3 +315,123 @@ p + .dec-title {
 .doctor-info {
     margin-top: 100px;
 }
+
+@media screen and (max-width: 1300px) {
+    .sub-contents > .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .tab-contents .text .max-layout-width {
+        padding: 0 30px;
+    }
+    .doctor-info-left .image-box {
+        width: 50%;
+    }
+    .staff-info-box .text p {
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+        word-break: keep-all
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .staff-info-box .text-left.text p {
+        float: none;
+    }
+    .staff-contents .text-left.text > div {
+        text-align: left;
+    }
+    .line {
+        display: none;
+    }
+    .doctor-info-left .text {
+        padding-top: 670px;
+    }
+    .doctor-info-left .text-bg {
+        padding-top: 0;
+    }
+    .doctor-info-left .text:before {
+        height: 160px;
+    }
+    .image-container {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+    .image-box {
+        width: 100% !important;
+        top: 0;
+        max-width: 100% !important;
+    }
+    .image-box1, .image-box2 {
+        width: 100% !important;
+        max-width: 100%;
+        height: 634px;
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    .text {
+        padding-top: 650px;
+        padding-left: 0;
+        position: relative;
+    }
+    .text:before {
+        content: '';
+        width: 100%;
+        height: 140px;
+        position: absolute;
+        bottom: -39px;
+        background: #f1f1f1;
+        display: block;
+    }
+    .text-bg {
+        padding-top: 0;
+    }
+    .text-bg:before {
+        display: none;
+    }
+    .staff-contents .image_box_left, .staff-contents .image_box_right {
+        width: 100%;
+        height: 341px;
+    }
+    .staff-contents .text {
+        padding-top: 341px;
+        padding-right: 0;
+    }
+    .staff-contents .text > div {
+        padding: 0 30px;
+    }
+    .staff-info {
+        height: auto;
+    }
+    .staff-contents .text:before {
+        display: none;
+    }
+    .staff-info-box .text p {
+        padding-left: 0;
+    }
+    .staff-contents .last-title + p:after {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 414px)  {
+    .title {
+        font-size: 32px;
+    }
+    .doctor-title {
+        font-size: 30px;
+    }
+    .dec {
+        font-size: 15px;
+    }
+    .text > div {
+        padding-left: 30px
+    }
+    .staff-contents .title br {
+        display: none;
+    }
+}
