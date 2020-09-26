@@ -32,7 +32,7 @@
         <div class="max-layout-width">
             <div class="pager">
                 <span class="current">01</span>
-                <span class="max">/03</span>
+                <span class="max">/08</span>
             </div>
         </div>
     </section>
@@ -246,7 +246,11 @@
             '<h2>핸드피스 멸균기</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>',
         ]
 
-        $('.swiper-slide').width($(window).width() * 0.33);
+        var windowWidth = $(window).width();
+
+        if (windowWidth > 640) {
+            $('.swiper-slide').width(windowWidth * 0.33);
+        }
 
         $('.slider').on('init', function(slick){
             $('.slick-dots').appendTo($('.slider-pagenation'));
@@ -260,14 +264,23 @@
         });
 
         $('.slider').slick({
-            infinite: true,
             dots: true,
             arrows: false,
             slidesToShow: 1,
+            slidesToScroll: 1,
             centerMode: true,
             variableWidth: true,
             autoplay: true,
             autoplaySpeed: 4000,
+            responsive: [
+                {
+                    breakpoint: 640,
+                    settings: {
+                        centerMode: false,
+                        variableWidth: false,
+                    }
+                }
+            ],
             customPaging: function(slider, i) {
                 return $(pagination[i]);
             }
