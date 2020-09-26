@@ -335,6 +335,17 @@
             variableWidth: true,
             autoplay: true,
             autoplaySpeed: 4000,
+            responsive: [
+                {
+                    breakpoint: 981,
+                    settings: {
+                        centerMode: false,
+                        variableWidth: false,
+                        centerPadding: '0px',
+                        autoplay: false,
+                    }
+                },
+            ]
         });
         $('.swiper-wrapper2').slick({
             slidesToShow: 1,
@@ -346,6 +357,17 @@
             variableWidth: true,
             autoplay: true,
             autoplaySpeed: 4000,
+            responsive: [
+                {
+                    breakpoint: 981,
+                    settings: {
+                        centerMode: false,
+                        variableWidth: false,
+                        centerPadding: '0px',
+                        autoplay: false,
+                    }
+                },
+            ]
         });
         $('.swiper-wrapper3').slick({
             slidesToShow: 1,
@@ -357,6 +379,17 @@
             variableWidth: true,
             autoplay: true,
             autoplaySpeed: 4000,
+            responsive: [
+                {
+                    breakpoint: 981,
+                    settings: {
+                        centerMode: false,
+                        variableWidth: false,
+                        centerPadding: '0px',
+                        autoplay: false,
+                    }
+                },
+            ]
         });
 
         $('.tab li').click(function () {
