@@ -570,7 +570,7 @@
         </div>
     </div>
 
-    <section class="footer-info-container section">
+    <section class="footer-info-container section main-footer">
         <div class="max-layout-width">
             <ul class="display-inline-block">
                 <li>
@@ -621,7 +621,7 @@
             </div>
         </div>
     </section>
-    <section class="footer section">
+    <section class="footer section main-footer">
         <div class="max-layout-width">
             <div class="footer-location-container">
                 <p class="footer-location">울산광역시 남구 화합로 150 / 시외고속버스 터미널맞은편 2,3층</p>
@@ -754,6 +754,11 @@
             prevText: '<img src="<c:url value="/images/main/arrowbig_left.png"/>">',
             pager: false,
             auto: true,
+            minSlides: 2,
+            maxSlides: 2,
+            moveSlides: 1,
+            adaptiveHeight: true,
+            shrinkItems: true,
             onSlideAfter: function($slideElement, oldIndex, newIndex) {
                 $('.current-count').text(numberPad(newIndex + 1, 2));
             }

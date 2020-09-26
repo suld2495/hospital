@@ -2269,6 +2269,14 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width: 768px) {
+    .main-footer {
+        display: none !important;
+    }
+    .section09 {
+        padding: 0 30px;
+        padding-bottom: 130px;
+        box-sizing: border-box;
+    }
     .community  {
         padding: 100px 0;
     }
@@ -2552,9 +2560,38 @@ body .section07 .bx-pager-link span + span {
     .section05 .sub-text {
         font-size: 30px;
     }
+
+
 }
 
 @media screen and (max-width: 640px) {
+    .section09 .bx-controls {
+        display: none;
+    }
+    .section09 .slide-text {
+        right: 20px;
+    }
+    .section09 .slide-text p:after {
+        top: 40px;
+    }
+    .section09 .slide-text a {
+        padding: 36px 32px 0
+    }
+    .section09 .slide-text {
+        width: 254px;
+        height: 145px;
+    }
+    .section09 .slide-item img {
+        height: 100%;
+        width: 827px;
+        max-width: none;
+        transform: translateX(50%);
+        position: absolute;
+        left: -413px;
+    }
+    .section09 .slide-item {
+        height: 389px;
+    }
     .community .online a {
         padding-right: 20;
     }
@@ -2618,6 +2655,27 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:500px) {
+    .section09 .slide-text p:after {
+        width: 30px;
+        height: 30px;
+        background-size: contain;
+    }
+    .section09 .slide-text p {
+        font-size: 13px;
+    }
+    .section09 .slide-text {
+        right: 15px;
+    }
+    .section09 .slide-text p:after {
+        top: 40px;
+    }
+    .section09 .slide-text a {
+        padding: 26px 22px 0
+    }
+    .section09 .slide-text {
+        width: 190px;
+        height: 125px;
+    }
     .community .etc ul li a {
         padding: 42px 24px;
     }
@@ -2718,6 +2776,38 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:414px) {
+    .count {
+        left: 17px;
+    }
+    .max-count {
+        font-size: 28px;
+        left: 50px;
+    }
+    .current-count {
+        font-size: 30px;
+    }
+
+    .section09 .slide-text p:after {
+        width: 30px;
+        height: 30px;
+        background-size: contain;
+    }
+    .section09 .slide-text p {
+        font-size: 13px;
+    }
+    .section09 .slide-text {
+        right: 15px;
+    }
+    .section09 .slide-text p:after {
+        top: 30px;
+    }
+    .section09 .slide-text a {
+        padding: 20px 14px 0
+    }
+    .section09 .slide-text {
+        width: 150px;
+        height: 95px;
+    }
     .community .etc ul li h2 {
         font-size: 20px;
     }
@@ -2825,7 +2915,12 @@ body .section07 .bx-pager-link span + span {
 
 
 @media screen and (max-width:375px) {
-
+    .section09 h4 + p {
+        font-size: 14px;
+    }
+    .section09 h4 {
+        font-size: 30px;
+    }
     .section01 .control {
         top: 220px;
     }
