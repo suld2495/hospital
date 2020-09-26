@@ -152,3 +152,96 @@
 .sub-image > .max-layout-width:first-child {
     padding-left: 220px;
 }
+.mobile-category {
+    display: none;
+}
+@media screen and (max-width: 850px) {
+    .mobile-category {
+        display: block;
+    }
+    .pc-category {
+        display: none;
+    }
+    .sub-image > .max-layout-width:first-child {
+        padding-left: 63px;
+    }
+    .mobile-category {
+        position: absolute;
+        bottom: 0;
+        height: 70px;
+        width: 100%;
+    }
+
+    .mobile-category ul.sub-category-active {
+        width: 100%;
+        display: inline-block;
+        padding-left: 70px;
+        box-sizing: border-box;
+        height: 100%;
+    }
+    .mobile-category ul.sub-category-active > li:first-child {
+        width: 70px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.6) url(../images/cmmn/icon_home.png) no-repeat center;
+        border: none;
+    }
+    .mobile-category ul.sub-category-active > li {
+        width: 50%;
+        height: 70px;
+        float: left;
+        background: rgba(0,0,0,0.6);
+        line-height: 70px;
+        color: #fff;
+        border-left: 1px solid #fff;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .mobile-category ul.sub-category-active > li > span {
+        color: #fff;
+        text-align: left;
+        padding-left: 20px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .mobile-category ul.sub-category-active > li.active > span:before {
+        transform: rotate(180deg);
+    }
+    .mobile-category ul.sub-category-active > li > span:before {
+        background: url(../images/cmmn/sub_arrow.png) right center;
+        position: absolute;
+        content: '';
+        width: 13px;
+        height: 9px;
+        right: 12px;
+        top: 31px;
+    }
+    .mobile-category ul.sub-category-active > li:before {
+        display: none;
+    }
+    .sub-category-list.active {
+        display: block;
+    }
+    .sub-category-list {
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        z-index: 100000;
+        display: none;
+    }
+    .sub-category-list li {
+        background: rgba(0,0,0,0.7);
+    }
+    .sub-category-list a {
+        padding-left: 20px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        display: block;
+        color: #fff;
+    }
+}

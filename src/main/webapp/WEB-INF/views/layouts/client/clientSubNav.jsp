@@ -46,7 +46,7 @@
                 <p>확인하실 수 있습니다.</p>
             </c:if>
         </div>
-        <nav>
+        <nav class="pc-category">
             <c:if test="${category eq 0}">
                 <ul>
                     <li><a <c:if test="${path eq '/intro'}">class="active"</c:if> href="<c:url value="/intro"/>" >본원소개</a></li>
@@ -94,7 +94,7 @@
                 </ul>
             </c:if>
         </nav>
-        <div class="breadcrumb max-layout-width">
+        <div class="breadcrumb max-layout-width pc-category">
             <ul class="display-inline-block">
                 <li>
                     <a href="<c:url value='/' />" class="home">홈</a>
@@ -104,6 +104,63 @@
                 </li>
                 <li>
                     <a href="<c:url value='${path}' />" class="category-url text-decoration-none">${urlName}</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-category">
+            <ul class="sub-category-active">
+                <li class="mobile-home"><a href="<c:url value='/' />"></a></li>
+                <li class="mobile-sub-category sub-category-button">
+                    <span>${array[category]}</span>
+                    <ul class="sub-category-list">
+                        <li><a href="<c:url value="/intro"/>" >미소원치과</a></li>
+                        <li><a href="<c:url value="/digital_implants"/>" >임플란트</a></li>
+                        <li><a href="<c:url value="/misowon_orthodontics"/>" >치아교정</a></li>
+                        <li><a href="<c:url value="/aesthetic"/>" >심미보철치료</a></li>
+                        <li><a href="<c:url value="/general"/>" >자연치아 클리닉</a></li>
+                        <li><a href="<c:url value="/notice/1"/>" >커뮤니티</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-current-category sub-category-current-button">
+                    <span>${urlName}</span>
+                    <ul class="sub-category-list">
+                        <c:if test="${category eq 0}">
+                            <li><a href="<c:url value="/intro"/>" >본원소개</a></li>
+                            <li><a href="<c:url value="/staff"/>">의료진소개</a></li>
+                            <li><a href="<c:url value="/competitiveness"/>">핵심경쟁력</a></li>
+                            <li><a href="<c:url value="/diagnostic_equipment_system"/>">진단장비 시스템</a></li>
+                            <li><a href="<c:url value="/tour"/>">둘러보기</a></li>
+                            <li><a href="<c:url value="/directions"/>">오시는길</a></li>
+                                <%--                    <li><a <c:if test="${path eq '/medical'}">class="active"</c:if> href="<c:url value="/medical"/>">진료보증제도</a></li>--%>
+                        </c:if>
+                        <c:if test="${category eq 1}">
+                            <li><a href="<c:url value="/digital_implants"/>" >디지털 임플란트</a></li>
+                            <li><a href="<c:url value="/navigation_implants"/>">네비게이션 임플란트</a></li>
+                            <li><a href="<c:url value="/oneday_implants"/>">원데이 임플란트</a></li>
+                            <li><a href="<c:url value="/bone_graft_implant"/>">뼈이식 임플란트</a></li>
+                            <li><a href="<c:url value="/full_implants"/>">전체 임플란트</a></li>
+                        </c:if>
+                        <c:if test="${category eq 2}">
+                            <li><a href="<c:url value="/misowon_orthodontics"/>" >미소원 치아교정</a></li>
+                            <li><a href="<c:url value="/partial_orthodontics"/>">부분교정</a></li>
+                            <li><a href="<c:url value="/malocculusion_orthodontics"/>">부정교합 교정</a></li>
+                            <li><a href="<c:url value="/growth_reriod_orthodontics"/>">성장기 교정</a></li>
+                        </c:if>
+                        <c:if test="${category eq 3}">
+                                <li><a href="<c:url value="/general"/>" >충치/치주/신경치료</a></li>
+                                <li><a href="<c:url value="/aesthetic"/>">심미보철치료</a></li>
+                                <li><a href="<c:url value="/wisdom"/>">사랑니 발치</a></li>
+                                <li><a href="<c:url value="/scaling"/>">스케일링</a></li>
+                        </c:if>
+                        <c:if test="${category eq 4}">
+                                <li><a href="<c:url value="/notice/1"/>" >공지사항</a></li>
+                                <li><a href="<c:url value="/case/1"/>">치료사례</a></li>
+                                <li><a href="<c:url value="/review/1"/>">치료후기</a></li>
+                                <li><a href="<c:url value="/online-consult/1"/>">온라인 상담</a></li>
+                                <li><a href="<c:url value="/reserve-write"/>">예약 상담 신청</a></li>
+                                <li><a href="<c:url value="/media/1"/>">미디어</a></li>
+                        </c:if>
+                    </ul>
                 </li>
             </ul>
         </div>
@@ -117,5 +174,10 @@
         var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg', 'img_sub05.jpg', 'img_sub06.jpg', 'img_sub07.jpg', 'img_sub08.jpg', 'img_sub09.jpg'];
         if (category === '4') backgroundPrefix = "../" + backgroundPrefix;
         $('.sub-image').css('background-image', 'url(' + backgroundPrefix + categoryBackground[category] + ')');
+
+        $('.sub-category-button,.sub-category-current-button').click(function () {
+            $(this).toggleClass('active');
+            $(this).find('.sub-category-list').toggleClass('active');
+        });
     })
 </script>
