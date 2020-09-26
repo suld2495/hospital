@@ -2218,6 +2218,10 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:1300px) {
+    .footer .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
     .community .etc ul li a {
         padding: 22px 24px 0;
     }
@@ -2265,6 +2269,21 @@ body .section07 .bx-pager-link span + span {
 @media screen and (max-width:1100px) {
     .section02 .display-inline-block, .section07 .slider-origin-pagination {
         width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 914px) {
+
+    .footer-info-container, .footer-info-container .fp-tableCell {
+        height: 580px !important;
+    }
+}
+
+
+@media screen and (max-width: 828px) {
+    .footer, .footer .fp-tableCell {
+        height: 140px !important;
     }
 }
 
@@ -2654,6 +2673,12 @@ body .section07 .bx-pager-link span + span {
     }
 }
 
+@media screen and (max-width:550px) {
+    .footer-info-container, .footer-info-container .fp-tableCell {
+        height: 680px !important;
+    }
+}
+
 @media screen and (max-width:500px) {
     .section09 .slide-text p:after {
         width: 30px;
@@ -2768,6 +2793,12 @@ body .section07 .bx-pager-link span + span {
     }
 }
 
+
+@media screen and (max-width: 470px) {
+    .footer-info-container, .footer-info-container .fp-tableCell {
+        height: 810px !important;
+    }
+}
 
 @media screen and (max-width:450px) {
     .community .online h3 {
