@@ -189,13 +189,19 @@
     }
 }
 @media screen and (max-width:640px) {
+    .left-fade-slider-container .max-layout-width h2 {
+        font-size: 28px;
+    }
+    .left-fade-slider-container .img {
+        background-size: cover;
+    }
 
     .post-slider {
         margin-left: 20%;
     }
 
     .post-slider .posts .slide {
-        padding: 0 20px;
+        padding: 0 0px;
     }
 
     .post-slider .posts .post-item {
@@ -573,6 +579,19 @@
 }
 
 @media screen and (max-width: 1300px) {
+    section.table {
+        padding: 123px 30px;
+        box-sizing: border-box;
+    }
+    .table img {
+        width: 100%;
+    }
+    .table table {
+        width: 100%;
+    }
+    .left-fade-slider-container .slider-container {
+        width: 100%;
+    }
     .fade-in-slider .swiper-container {
         padding: 0 30px;
     }
@@ -607,6 +626,22 @@
 }
 
 @media screen and (max-width: 640px) {
+    body .left-fade-slider-container .slider-container {
+        height: 740px;
+        display: block;
+        overflow: hidden;
+    }
+    body .post-slider .posts .slide {
+        width: 50%;
+        display: block;
+        float: left;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    body .post-slider .posts .slides {
+        overflow: hidden;
+        margin-top: 10px;
+    }
     section.fade-in-slider .swiper-slide .text h2 {
         font-size: 28px;
     }

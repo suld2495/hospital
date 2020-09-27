@@ -39,7 +39,7 @@
         </div>
     </section>
 
-    <section class="section02 wow fadeInUp">
+    <section class="section02 section-top-title-left-two wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2 class="section-title">
@@ -88,7 +88,7 @@
         </div>
     </section>
 
-    <section class="section05 section-quotes-title section-quotes-title-left wow fadeInUp">
+    <section class="section05 section-quotes-title section-quotes-title-right wow fadeInUp">
         <div class="image_box_right">
             <p class="img"></p>
         </div>
@@ -177,74 +177,81 @@
     <section class="section07 table wow fadeInUp">
         <div class="max-layout-width">
             <h2><strong>일반 임플란트</strong>와 <strong>네비게이션 임플란트</strong>의 차이점은?</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th class="table-left">일반 임플란트</th>
-                        <th class="table-middle">VS</th>
-                        <th class="table-right">디지털 임플란트</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="table-left">
-                            <div class="img01">
-                                <img src="<c:url value='/images/sub/implant/navigation/navi11.jpg'/>">
-                            </div>
-                        </td>
-                        <td class="table-middle">시술 방법</td>
-                        <td class="table-right">
-                            <div class="img02">
-                                <img src="<c:url value='/images/sub/implant/navigation/navi12.jpg'/>">
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="table-left">
-                            잇몸 절개로 많은 출혈과 붓기 동반되며<br>
-                            회복기간이 길어지고 염증감염 위험 높음
-                        </td>
-                        <td class="table-middle">절개</td>
-                        <td class="table-right">
-                            최소 절개로 붓기와 출혈, 감염위험이 줄어들어<br>
-                            빠른 회복이 가능
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="table-left">
-                            2차원적 치아 상태만<br>
-                            확인가능
-                        </td>
-                        <td class="table-middle">촬영</td>
-                        <td class="table-right">
-                            3D CT 촬영으로<br>
-                            정확한 치아정보 확인가능
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="table-left">
-                            채득이 어렵고 불편한<br>
-                            고무인상을 통한 아날로그 방식
-                        </td>
-                        <td class="table-middle">인상 채득</td>
-                        <td class="table-right">
-                            3차원 영상스캔 장비를 통해<br>
-                            편안한 촬영
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="table-left">
-                            의사의 경험에만 의존한<br>
-                            식립계획
-                        </td>
-                        <td class="table-middle">분석</td>
-                        <td class="table-right">
-                            구강스캔데이터와 CT데이터로<br>
-                            정확한 계획
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-container">
+                <table>
+                    <colgroup>
+                        <col width="43%">
+                        <col width="14%">
+                        <col width="43%">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th class="table-left">일반 임플란트</th>
+                            <th class="table-middle">VS</th>
+                            <th class="table-right">디지털 임플란트</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-left">
+                                <div class="img01">
+                                    <img src="<c:url value='/images/sub/implant/navigation/navi11.jpg'/>">
+                                </div>
+                            </td>
+                            <td class="table-middle">시술 방법</td>
+                            <td class="table-right">
+                                <div class="img02">
+                                    <img src="<c:url value='/images/sub/implant/navigation/navi12.jpg'/>">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-left">
+                                잇몸 절개로 많은 출혈과 붓기 동반되며<br>
+                                회복기간이 길어지고 염증감염 위험 높음
+                            </td>
+                            <td class="table-middle">절개</td>
+                            <td class="table-right">
+                                최소 절개로 붓기와 출혈, 감염위험이 줄어들어<br>
+                                빠른 회복이 가능
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-left">
+                                2차원적 치아 상태만<br>
+                                확인가능
+                            </td>
+                            <td class="table-middle">촬영</td>
+                            <td class="table-right">
+                                3D CT 촬영으로<br>
+                                정확한 치아정보 확인가능
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-left">
+                                채득이 어렵고 불편한<br>
+                                고무인상을 통한 아날로그 방식
+                            </td>
+                            <td class="table-middle">인상 채득</td>
+                            <td class="table-right">
+                                3차원 영상스캔 장비를 통해<br>
+                                편안한 촬영
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-left">
+                                의사의 경험에만 의존한<br>
+                                식립계획
+                            </td>
+                            <td class="table-middle">분석</td>
+                            <td class="table-right">
+                                구강스캔데이터와 CT데이터로<br>
+                                정확한 계획
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 
