@@ -38,7 +38,7 @@
         </div>
     </section>
 
-    <section class="section02 wow fadeInUp">
+    <section class="section02 section-top-title-left-two wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2 class="section-title">
@@ -59,7 +59,7 @@
         </div>
     </section>
 
-    <section class="section03 wow fadeInUp">
+    <section class="section03 img-four wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2><strong>뼈이식 임플란트</strong> 이런 분에게 <strong>추천해요</strong></h2>
@@ -143,6 +143,16 @@
                 <div class="img img01">
                     <img src="<c:url value='/images/sub/implant/bone/bone09.jpg' />">
                 </div>
+                <div class="text mobile-text">
+                    <h2>
+                        <strong>3D CT를 통한 정밀한<br> 3차원적인 형태분석 및<br> 다년간의 임상경험</strong>
+                    </h2>
+                    <h3>01</h3>
+                    <p>
+                        미소원치과는 다년간의 경력과 임상경험을 통해 개인별로 다 다른 상태에 맞추어 최상의 의료서비스 제공이 가능합니다. 첨단 3D CT 진단을 통해 철저한 검진과 세심한 상담을 통해 원하는
+                        임플란트 수술을 진행합니다.
+                    </p>
+                </div>
             </div>
             <div>
                 <div class="text">
@@ -157,6 +167,15 @@
                 <div class="img img02">
                     <img src="<c:url value='/images/sub/implant/bone/bone10.jpg' />">
                 </div>
+                <div class="text mobile-text">
+                    <h2>
+                        <strong>임플란트 수술 중<br> 가장 난이도가 높은<br> 상악동 거상술도 가능</strong>
+                    </h2>
+                    <h3>02</h3>
+                    <p>
+                        미소원치과의 임플란트 전문 의료진은 수많은 수술 경험과 노하우를 통해, 난이도가 높은 수술도 안정적으로 진행하고 있습니다. 오랫동안 안정적으로 임플란트를 사용하기 위한 맞춤치료를 하고 있습니다.
+                    </p>
+                </div>
             </div>
             <div>
                 <div class="text">
@@ -170,6 +189,15 @@
                 </div>
                 <div class="img img03">
                     <img src="<c:url value='/images/sub/implant/bone/bone11.jpg' />">
+                </div>
+                <div class="text mobile-text">
+                    <h2>
+                        <strong>정품 뼈이식재료만을<br> 사용</strong>
+                    </h2>
+                    <h3>03</h3>
+                    <p>
+                        미소원치과는 생체적합성이 뛰어난 제품을 사용하며 한국 식약청, 미국FDA 인증을 받은 정품 재료로 안정성이 확보가 된 안전한 뼈이식재료를 사용하고 있습니다.
+                    </p>
                 </div>
             </div>
         </div>
@@ -275,7 +303,16 @@
             autoplay: false,
             autoplaySpeed: 4000,
             prevArrow: '<span class="slider-prev"><</span>',
-            nextArrow: '<span class="slider-next">></span>'
+            nextArrow: '<span class="slider-next">></span>',
+            responsive: [
+                {
+                    breakpoint: 780,
+                    settings: {
+                        centerMode: false,
+                        variableWidth: false,
+                    }
+                }
+            ]
         });
     })
 </script>

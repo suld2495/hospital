@@ -567,6 +567,10 @@
     right: 0;
 }
 
+.text-slider .slick-slide .text.text-mobile {
+    display: none;
+}
+
 .text-slider .slider-arrow .slider-prev {
     padding-left: 20px;
     background: #9b8b7e url(../../images/sub/implant/cmmn/left_slider.png) no-repeat center;
@@ -625,7 +629,66 @@
     }
 }
 
+@media screen and (max-width: 780px) {
+    .text-slider .slider-arrow-container {
+        position: absolute;
+        bottom: 300px;
+        left: 30px;
+    }
+    .text-slider .slick-slide {
+        width: 100%;
+    }
+    .slick-slider {
+        width: 100%;
+    }
+    .text-slider .slick-slide > div img {
+        width: 100%;
+    }
+    .text-slider .slick-slide .text h3 {
+        display: inline-block;
+    }
+    .text-slider .slick-slide > div {
+        float: none;
+        width: 100%;
+    }
+    .text-slider .slick-slide .text {
+        display: none;
+    }
+    .text-slider .slick-slide .text.mobile-text {
+        display: block;
+        float: none;
+        padding-top: 40px;
+        padding-left: 30px;
+        width: 100%;
+    }
+    .text-slider .slick-slide .text.mobile-text br {
+        display: none;
+    }
+    .text-slider .slick-slide .text h2 {
+        width: 60%;
+        word-break: keep-all;
+    }
+    section.text-slider .slick-slide .text p {
+        word-break: keep-all;
+        margin: 0;
+        max-width: 620px;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 640px) {
+    .text-slider .section-title {
+        font-size: 32px;
+    }
+    .text-slider .section-text {
+        font-size: 12px;
+    }
+    .text-slider .slider-arrow-container {
+        bottom: 391px;
+    }
+    section.text-slider .slick-slide .text p {
+        max-width: 340px;
+    }
     body .left-fade-slider-container .slider-container {
         height: 740px;
         display: block;
@@ -661,6 +724,26 @@
         box-sizing: border-box;
         line-height: 1.7;
         word-break: keep-all;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .text-slider .slick-slide .text h2 {
+        width: 80%;
+    }
+    .text-slider .section-title br {
+        display: none;
+    }
+    .text-slider .section-title {
+        padding: 0 30px;
+        box-sizing: border-box;
+        word-break: keep-all;
+    }
+    .text-slider .section-text {
+        padding: 0 30px;
+        box-sizing: border-box;
+        word-break: keep-all;
+        margin-top: 30px;
     }
 }
 
