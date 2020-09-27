@@ -582,6 +582,16 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 1300px) {
+    section.section-top-title-right-two .img {
+        width: 48%;
+        margin-left: 2%;
+        margin-right: 0;
+    }
+    section.section-top-title-right-two .section-text {
+        width: 100%;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
     section-quotes-title-right .section-title {
         padding-right: 30px;
         box-sizing: border-box;
@@ -698,7 +708,18 @@ section.board-link ul li {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    section.img-four ul {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 850px) {
+    section.img-four .image_box_right{
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
     section.list-content .section-text + .pager {
         margin-top: 310px;
     }
@@ -722,6 +743,27 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 768px) {
+    section.section-top-title-right-two {
+        padding-bottom: 330px;
+    }
+    section.section-top-title-right-two .img {
+        background-size: cover
+    ;
+    }
+    section.section-top-title-right-two .max-layout-width .text > div {
+        padding-left: 30px;
+    }
+    section.section-top-title-right-two .max-layout-width .text, .section04 .max-layout-width ul {
+        width: 100%;
+    }
+    section.section-top-title-right-two .max-layout-width ul {
+        position: absolute;
+        top: 300px;
+        width: 100%;
+        margin-left: -2%;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
     section.section-quotes-title-right .bg {
         width: 100%;
     }
@@ -799,6 +841,9 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    section.img-four .text li {
+        width: 50%;
+    }
     .table-container {
         overflow: scroll
     }

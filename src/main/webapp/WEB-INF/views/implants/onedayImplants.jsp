@@ -42,49 +42,51 @@
             <h2 class="section-title">원데이 임플란트 <span class="bold section-title-color">임시 보철물 부착까지 하루 만에</span></h2>
             <p class="section-text">원데이 임플란트는 환자 잇몸 뼈 상태, 전신질환 여부를 고려하여 치료여부가 결정되므로 전문의 상담이 반드시 필요합니다.</p>
 
-            <ul class="step">
-                <li>구분</li>
-                <li>1단계</li>
-                <li>2단계</li>
-                <li>3단계</li>
-                <li>4단계</li>
-                <li>5단계</li>
-            </ul>
+            <div class="table-container">
+                <ul class="step">
+                    <li>구분</li>
+                    <li>1단계</li>
+                    <li>2단계</li>
+                    <li>3단계</li>
+                    <li>4단계</li>
+                    <li>5단계</li>
+                </ul>
 
-            <ul class="basic">
-                <li>일반<br>임플란트</li>
-                <li class="arrow">
-                    <p></p>
-                    <p>발치</p>
-                </li>
-                <li class="arrow">
-                    <p></p>
-                    <p>잇몸회복</p>
-                </li>
-                <li class="arrow">
-                    <p></p>
-                    <p>임플란트 식립</p>
-                </li>
-                <li class="arrow">
-                    <p></p>
-                    <p>임시보철물</p>
-                </li>
-                <li class="arrow">
-                    <p></p>
-                    <p>최종보철물</p>
-                </li>
-            </ul>
-            <ul class="oneday">
-                <li>원데이<br>임플란트</li>
-                <li class="long-arrow">
-                    <p></p>
-                    <p>정밀진단,상담,발치,픽스처식립,임시치아제작 (당일 완료)</p>
-                </li>
-                <li class="arrow">
-                    <p></p>
-                    <p>최종보철물</p>
-                </li>
-            </ul>
+                <ul class="basic">
+                    <li>일반<br>임플란트</li>
+                    <li class="arrow">
+                        <p></p>
+                        <p>발치</p>
+                    </li>
+                    <li class="arrow">
+                        <p></p>
+                        <p>잇몸회복</p>
+                    </li>
+                    <li class="arrow">
+                        <p></p>
+                        <p>임플란트 식립</p>
+                    </li>
+                    <li class="arrow">
+                        <p></p>
+                        <p>임시보철물</p>
+                    </li>
+                    <li class="arrow">
+                        <p></p>
+                        <p>최종보철물</p>
+                    </li>
+                </ul>
+                <ul class="oneday">
+                    <li>원데이<br>임플란트</li>
+                    <li class="long-arrow">
+                        <p></p>
+                        <p>정밀진단,상담,발치,픽스처식립,임시치아제작 (당일 완료)</p>
+                    </li>
+                    <li class="arrow">
+                        <p></p>
+                        <p>최종보철물</p>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -109,7 +111,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section04 wow fadeInUp">
+    <section class="section04 section-top-title-right-two wow fadeInUp">
         <div class="max-layout-width">
             <ul>
                 <li class="img01 img"></li>
@@ -131,7 +133,7 @@
         </div>
     </section>
 
-    <section class="section05 wow fadeInUp">
+    <section class="section05 img-four wow fadeInUp">
         <div class="max-layout-width">
             <div class="text">
                 <h2><strong>원데이 임플란트</strong> 이런 분에게 <strong>추천해요</strong></h2>
@@ -178,7 +180,7 @@
         </div>
     </section>
 
-    <section class="section07 background-animation wow fadeInUp">
+    <section class="section07 img-four background-animation wow fadeInUp">
         <div class="bg"></div>
         <div class="max-layout-width">
             <h2><strong>원데이 임플란트 수술 장점</strong>은?</h2>
@@ -186,7 +188,7 @@
                 어떤 이유로든 치아가 심하게 손상되어 발치해야하는 경우 또는 치아가 없이<br>
                 몇 년 동안 오래지속된 경우 <span><strong>모두 원데이 임플란트 수술 당일 식사</strong></span>를 하실 수 있도록 해드립니다.
             </p>
-            <ul>
+            <ul class="text">
                 <li class="img01">
                     <p>치료 당일 포함 1~3회<br>최소한의 병원내원</p>
                 </li>
