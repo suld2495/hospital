@@ -380,7 +380,7 @@
     margin-top: 189px;
 }
 
-  section.board-link {
+section.board-link {
     margin-top: 125px;
 }
 
@@ -396,4 +396,120 @@
 
 .board-link .section-title {
     line-height: 1.25;
+}
+
+@media screen and (max-width: 1300px) {
+    section.list-content .max-layout-width > div {
+        padding-left: 0;
+    }
+    section.list-content .max-layout-width > div.text {
+        padding-left: 50%;
+    }
+    .section04 .image_box_left {
+        width: 50%;
+    }
+    .section04 .text > div {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    section.list-content .max-layout-width > div {
+        /* padding-left: 50%; */
+        width: 50%;
+        /* position: absolute; */
+        top: 0;
+        left: 0;
+    }
+    section.list-content .max-layout-width > div.text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 754px) {
+    section.list-content {
+        margin-top: 0;
+        padding-top: 40px;
+    }
+    section.list-content .max-layout-width > div {
+        top: 140px;
+        width: 100%;
+    }
+    .section04 .text > div {
+        padding-left: 0;
+    }
+    section.list-content .max-layout-width > div.text {
+        padding-left: 0;
+    }
+    section.list-content .section-title {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 380px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .section02 ul {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .section02 li {
+        width: 48%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+    .section06 {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    .section03 .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .section03 .max-layout-width .text h2 {
+        word-break:keep-all;
+    }
+    .section03 .max-layout-width .text p {
+        word-break: keep-all;
+        line-height:1.4;
+    }
+    .section03 .max-layout-width .text {
+        padding-top: 70px
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .section02 li {
+        padding-top: 8px;
+    }
+    .section02 li {
+        height: 160px;
+        box-sizing: border-box;
+    }
+    .section02 .img {
+        transform: scale(0.8);
+    }
+    .section02 li p {
+        font-size: 14px;
+    }
+    section.list-content .max-layout-width > div {
+        top: 80px;
+    }
+    section.list-content .section-title {
+        margin-bottom: 280px;
+    }
+    .section04 .img {
+        background-size: contain
+    }
+}
+
+@media screen and (max-width: 414px) {
+    section.list-content .max-layout-width > div {
+        top: 60px;
+    }
+    section.list-content .section-title {
+        margin-bottom: 240px;
+    }
 }

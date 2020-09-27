@@ -2316,6 +2316,7 @@ body .section07 .bx-pager-link span + span {
 
     .section07 {
         padding-bottom: 51px;
+        overflow: hidden;
     }
 
     .section07 .slider-origin-pagination {

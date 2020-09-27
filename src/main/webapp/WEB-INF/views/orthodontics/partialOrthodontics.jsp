@@ -94,7 +94,7 @@
         </div>
     </section>
 
-    <section class="section05 section-quotes-title section-quotes-title-left wow fadeInUp">
+    <section class="section05 section-quotes-title section-quotes-title-right wow fadeInUp">
         <div class="image_box_right">
             <p class="img"></p>
         </div>
