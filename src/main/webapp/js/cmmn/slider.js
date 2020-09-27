@@ -1,7 +1,12 @@
 $(function() {
-    var width = 433.33;
+    var windowWidth = $(window).width();
+
+    if (windowWidth < 640) {
+        $('.treatment-case-scroll-bar').width(windowWidth - 60);
+    }
     $('.treatment-case-slider').on('afterChange', function(slick, currentSlide) {
         var index = (currentSlide.slickCurrentSlide()) % 3;
+        var width = $('.treatment-case-scroll-bar').width() / 3;
         $('.treatment-case-scroll-bar-drag').css('left',  width * index + 'px');
     });
     $('.treatment-case-slider').on('init', function(slick){

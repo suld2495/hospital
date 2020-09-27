@@ -44,7 +44,7 @@
 }
 
 .section05 .img {
-    background: url(../../images/sub/implant/digital/digital10.jpg);
+    background: url(../../images/sub/implant/digital/digital10.jpg) center;
 }
 
 .section06 .section-title:before {
@@ -175,7 +175,7 @@
 }
 
 .section03 .img {
-    background: url(../../images/sub/implant/digital/digital04.png);
+    background: url(../../images/sub/implant/digital/digital04.png) center;
 }
 
 .section04 .text {
@@ -215,8 +215,10 @@
 .section04 ul {
     margin-top: 152px;
     margin-left: -2.69%;
-    display: inline-block;
-    width: 100%;
+    display: block;
+    width: auto;
+    /* overflow: hidden; */
+    height: 307px;
 }
 
 .section04 ul li {
@@ -454,31 +456,31 @@
 }
 
 .fade-in-slider .img01 {
-    background: url(../../images/sub/implant/digital/digital12.jpg);
+    background: url(../../images/sub/implant/digital/digital12.jpg) center;
 }
 
 .fade-in-slider .img02 {
-    background: url(../../images/sub/implant/digital/digital13.jpg);
+    background: url(../../images/sub/implant/digital/digital13.jpg) center;
 }
 
 .fade-in-slider .img03 {
-    background: url(../../images/sub/implant/digital/digital14.jpg);
+    background: url(../../images/sub/implant/digital/digital14.jpg) center;
 }
 
 .fade-in-slider .img04 {
-    background: url(../../images/sub/implant/digital/digital15.jpg);
+    background: url(../../images/sub/implant/digital/digital15.jpg) center;
 }
 
 .fade-in-slider .img05 {
-    background: url(../../images/sub/implant/digital/digital16.jpg);
+    background: url(../../images/sub/implant/digital/digital16.jpg) center;
 }
 
 .fade-in-slider .img06 {
-    background: url(../../images/sub/implant/digital/digital17.jpg);
+    background: url(../../images/sub/implant/digital/digital17.jpg) center;
 }
 
 .fade-in-slider .img07 {
-    background: url(../../images/sub/implant/digital/digital18.jpg);
+    background: url(../../images/sub/implant/digital/digital18.jpg) center;
 }
 
 .section10 {
@@ -516,4 +518,68 @@
 
 .board-link .section-title {
     line-height: 1.2;
+}
+
+@media screen and (max-width: 1300px) {
+    .section04 .text {
+        width: 100%;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    .section04 .image_box_left {
+        width: 50%;
+    }
+    .section04 .text > div {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section04 ul {
+        margin-left: -2%;
+        height: 650px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .section04 ul li {
+        width: 48%;
+        margin-left: 2%;
+        margin-bottom: 73px;
+    }
+    .section04 ul li .bg {
+        background-size: cover
+    ;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .section04 .image_box_left {
+        top: 0;
+        width: 100%;
+        height: 439px;
+    }
+    .section04 {
+        margin-top: 100px;
+    }
+    .section04 .text {
+        padding-left: 0;
+        margin-top: 400px;
+    }
+    .section04 ul {
+        margin-top: 100px;
+    }
+    .section04 .section-title {
+        word-break: keep-all
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .section04 ul li {
+        width: 100%;
+        margin-left: 0;
+    }
+    .section04 ul {
+        margin-left: 0;
+        height: 1380px;
+    }
 }

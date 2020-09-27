@@ -453,7 +453,7 @@ strong {
 }
 
 .treatment-case .treatment-case-scroll-bar-drag {
-    width: 433.33px;
+    width: 33.3333333333%;
     background: #76695e;
     height: 3px;
     transition: left 500ms;
@@ -582,8 +582,221 @@ section.board-link ul li {
     text-indent: -9999px;
 }
 
+@media screen and (max-width: 1300px) {
+    .board-link ul {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .treatment-case .treatment-case-swiper-slide div {
+        width: 50%;
+        background-position: center;
+        background-size: cover;
+    }
+    .treatment-case .treatment-case-slider {
+    }
+    .treatment-case .slider-prev {
+        left: 0;
+    }
+    .treatment-case .slider-next {
+        right: 0;
+    }
+    section.background-common .section-title {
+        padding: 0 30px;
+        box-sizing: border-box;
+        padding-top: 119px;
+        line-height: 1.4;
+        word-break: keep-all;
+    }
+    body .section-top-title-left .bg .max-layout-width > div{
+        width: 100%;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    body .section-top-title-left .text > div, body .section-top-title-left .bg .max-layout-width > div {
+        padding-left: 40px
+    }
+    .two-image-right-text .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .two-image-right ul {
+        padding: 0 30px;
+        box-sizing: border-box;
+        margin-left: -2%;
+        display: block;
+    }
+    section.two-image-right .max-layout-width > * {
+        width: 50%;
+    }
+    section.two-image-right .max-layout-width li {
+        width: 48%;
+        margin-left: 2%;
+        margin-right: 0;
+    }
+    section.two-image-right .max-layout-width li img {
+        width: 100%;
+    }
+    section.section-quotes-title-left .section-text {
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    section.section-quotes-title-left .max-layout-width .text > div {
+        padding-left: 50px;
+    }
+    section.section-quotes-title-left .max-layout-width .text > div:before {
+        left: 30px;
+    }
+    section.section-quotes-title-left .section-title {
+        font-size: 32px;
+        word-break: keep-all
+    }
+}
+
 @media screen and (max-width: 768px) {
     .mobile_display_none {
         display: none;
+    }
+
+    section.section-top-title-left .image_box_left {
+        width: 100%;
+        height: 342px;
+        bottom: 0;
+        top: inherit;
+    }
+    section.section-top-title-left .text, section.section-top-title-left .bg .max-layout-width {
+        width: 100%;
+        padding-left: 0;
+    }
+    section.section-top-title-left .bg {
+        margin-top: 0;
+        padding-top: 10px;
+    }
+
+    section.section-top-title-left {
+        background: #f5f5f5;
+        padding-top: 60px;
+        margin-top: 55px;
+        padding-bottom: 240px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .section-text {
+        font-size: 14px;
+    }
+    .board-link .section-title {
+        font-size: 30px;
+    }
+    section.board-link ul li {
+        width: 100%;
+        background-size: cover !important;
+        margin-bottom: 30px;
+    }
+    .treatment-case .treatment-case-scroll-bar {
+        left: 30px;
+    }
+    .treatment-case .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .treatment-case .max-layout-width .text p {
+    }
+    .treatment-case .treatment-case-swiper-slide div.text-title {
+        height: 50px;
+        line-height: 50px;
+    }
+    .treatment-case .slider-prev {
+        left: 30px;
+    }
+    .treatment-case .slider-next {
+        right: 30px;
+    }
+    .treatment-case .slick-arrow {
+        top: 218px;
+    }
+    .treatment-case .treatment-case-slider {
+        height: 610px;
+    }
+    section.treatment-case .left-img {
+        height: 240px;
+    }
+    section.treatment-case .right-img {
+        height: 345px;
+    }
+    .treatment-case .treatment-case-swiper-slide div {
+        width: 100%;
+    }
+    section.background-common {
+        padding-bottom: 50px;
+    }
+    section.background-common .imp-img {
+        width: 80%;
+        background-position-x: center;
+        box-sizing: border-box;
+        background-size: contain;
+    }
+    section.background-common .section-text {
+        padding: 0 30px;
+        box-sizing: border-box;
+        margin-top: 30px
+    }
+    section.background-common .section-text br {
+        display: none;
+    }
+    section.section-quotes-title-left .section-text:before {
+        top: -120px;
+    }
+    section.section-quotes-title-left .bg {
+        width: 100%;
+    }
+    section.section-quotes-title-left .section-title {
+        padding-left: 80px
+    }
+    section.section-quotes-title-left .image_box_left {
+        width: 100%;
+        height: 330px;
+    }
+    section.two-image-right .max-layout-width > * {
+        width: 100%;
+    }
+    section.section-quotes-title-left .max-layout-width .text {
+        padding-left: 0;
+        padding-top: 350px;
+    }
+    section.two-image-right .image_box_right {
+        top: -40px;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+    section.two-image-right  .max-layout-width ul {
+        padding-top: 620px;
+    }
+    section.two-image-right {
+        height: auto;
+        padding-bottom: 75px;
+    }
+    section.two-image-right-text .section-text {
+        width: 100%;
+    }
+    section.two-image-right-text .section-title {
+        word-break: keep-all;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    body .section-top-title-left .text > div, body .section-top-title-left .bg .max-layout-width > div {
+        padding: 0 30px;
+    }
+    body .section-top-title-left .section-title {
+        font-size: 32px;
+    }
+    section.two-image-right-text .section-title br {
+        display: none;
+    }
+    section.section-quotes-title-left .bg {
+        height: 400px
+    }
+    section.background-common {
+        padding-bottom: 100px;
     }
 }

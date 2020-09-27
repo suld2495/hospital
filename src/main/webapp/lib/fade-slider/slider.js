@@ -4,6 +4,11 @@
 $(function() {
     if (!$('.fade-in-slider .swiper-container').length) return;
 
+    var windowWidth = $(window).width();
+    if (windowWidth < 938) {
+        $('.scroll-bar').width(windowWidth - 60);
+    }
+
     var width = $('.scroll-bar').width() / $('.fade-in-slider .swiper-slide').length; //131.142;
     $('.fade-in-slider .scroll-bar-drag').width(width);
     $('.fade-in-slider .swiper-container').on('afterChange', function(slick, currentSlide) {

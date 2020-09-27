@@ -41,7 +41,7 @@
         </div>
     </section>
 
-    <section class="section02 wow fadeInUp">
+    <section class="section02 two-image-right-text wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 <span class="section-title-color">세계적인 <strong>디지털 장비</strong>로</span><br>
@@ -54,7 +54,7 @@
         </div>
     </section>
 
-    <section class="section03 wow fadeInUp">
+    <section class="section03 two-image-right wow fadeInUp">
         <div class="bg"></div>
         <div class="max-layout-width">
             <ul>
@@ -160,7 +160,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section07 wow fadeInUp">
+    <section class="section07 background-common wow fadeInUp">
         <div class="bg"></div>
         <div class="max-layout-width">
             <h2 class="section-title">
