@@ -841,6 +841,11 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    section.img-four p {
+        padding: 0 30px;
+        box-sizing: border-box;
+        word-break: keep-all;
+    }
     section.img-four .text li {
         width: 50%;
     }
