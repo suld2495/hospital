@@ -62,7 +62,7 @@
         </div>
     </section>
 
-    <section class="section03 list-content list-content-right wow fadeInUp">
+    <section class="section03 list-content-right wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
                 미소원치과의 수준 높은 교정치료<br>
@@ -72,6 +72,25 @@
                 미소원치과에서는 다양한 부정교합도 얼굴과 치아에 맞는 교정방법으로 교정치료가 가능합니다.
             </p>
             <div class="con">
+                <div class="text mobile-text">
+                    <ul class="tab">
+                        <li class="active odd">
+                            <p><span>돌출입</span></p>
+                        </li>
+                        <li class="even">
+                            <p><span>주걱턱</span></p>
+                        </li>
+                        <li class="odd">
+                            <p><span>개방교합</span></p>
+                        </li>
+                        <li class="even">
+                            <p><span>과개교합</span></p>
+                        </li>
+                        <li class="odd">
+                            <p><span>덧니</span></p>
+                        </li>
+                    </ul>
+                </div>
                 <div class="img-box">
                     <div class="border"></div>
                     <div class="tab-contents tab-contents1 active">
@@ -172,7 +191,7 @@
     </section>
 
     <div class="tab-contents tab-contents1 active list-content">
-        <section class="section04 wow fadeInUp">
+        <section class="section04 list-content wow fadeInUp">
             <div class="image_box_left">
                 <p class="img toothimg01"></p>
             </div>
@@ -196,7 +215,7 @@
         </section>
 
 
-        <section class="section05 wow fadeInUp">
+        <section class="section05 background-animation wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
@@ -211,7 +230,7 @@
     </div>
 
     <div class="tab-contents tab-contents2 list-content">
-        <section class="section04 wow fadeInUp">
+        <section class="section04 list-content wow fadeInUp">
             <div class="image_box_left">
                 <p class="img toothimg02"></p>
             </div>
@@ -235,7 +254,7 @@
         </section>
 
 
-        <section class="section05 wow fadeInUp">
+        <section class="section05 background-animation wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
@@ -253,7 +272,7 @@
     </div>
 
     <div class="tab-contents tab-contents3 list-content">
-        <section class="section04 wow fadeInUp">
+        <section class="section04 list-content wow fadeInUp">
             <div class="image_box_left">
                 <p class="img toothimg03"></p>
             </div>
@@ -277,7 +296,7 @@
         </section>
 
 
-        <section class="section05 wow fadeInUp">
+        <section class="section05 background-animation wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
@@ -296,7 +315,7 @@
     </div>
 
     <div class="tab-contents tab-contents4 list-content">
-        <section class="section04 wow fadeInUp">
+        <section class="section04 list-content wow fadeInUp">
             <div class="image_box_left">
                 <p class="img toothimg04"></p>
             </div>
@@ -320,7 +339,7 @@
         </section>
 
 
-        <section class="section05 wow fadeInUp">
+        <section class="section05 background-animation wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
@@ -337,7 +356,7 @@
             </div>
         </section>
 
-        <section class="section08 wow fadeInUp">
+        <section class="section08 img-right wow fadeInUp">
             <div class="max-layout-width">
                 <div class="text">
                     <h2 class="section-title">
@@ -358,7 +377,7 @@
             </div>
         </section>
 
-        <section class="section09 wow fadeInUp">
+        <section class="section09 img-three wow fadeInUp">
             <div class="max-layout-width">
                 <h2>과개교합의 <strong>원인</strong></h2>
                 <ul>
@@ -389,7 +408,7 @@
     </div>
 
     <div class="tab-contents tab-contents5 list-content">
-        <section class="section04 wow fadeInUp">
+        <section class="section04 list-content wow fadeInUp">
             <div class="image_box_left">
                 <p class="img toothimg05"></p>
             </div>
@@ -412,7 +431,7 @@
             </div>
         </section>
 
-        <section class="section05 wow fadeInUp">
+        <section class="section05 background-animation wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
                 <div class="text">
@@ -431,7 +450,7 @@
             </div>
         </section>
 
-        <section class="section08 wow fadeInUp">
+        <section class="section08 img-right wow fadeInUp">
             <div class="max-layout-width">
                 <div class="text">
                     <h2 class="section-title">
@@ -449,7 +468,7 @@
             </div>
         </section>
 
-        <section class="section09 wow fadeInUp">
+        <section class="section09 img-three wow fadeInUp">
             <div class="max-layout-width">
                 <h2>덧니의 <strong>원인</strong></h2>
                 <ul>
