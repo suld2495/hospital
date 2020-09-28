@@ -2816,9 +2816,15 @@ body .section07 .bx-pager-link span + span {
     .community .online h3 {
         font-size: 21px;
     }
+    .section05 .text {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:414px) {
+    #contents {
+        overflow: hidden;
+    }
     .count {
         left: 17px;
     }

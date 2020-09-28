@@ -56,7 +56,7 @@
 }
 
 .section02 .max-layout-width .text > div {
-    padding-right: 50px;
+    /* padding-right: 50px; */
     position: relative;
 }
 
@@ -442,4 +442,61 @@
 
 .section07 {
     margin-top: 203px;
+}
+
+@media screen and (max-width: 1300px) {
+    .section02 .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .section03 .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    section.list-content .max-layout-width > div {
+        height: 370px;
+        top: -30px;
+    }
+    section.list-content .section-title {
+        padding-top: 380px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .section02 .text li {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .section02 .section-title {
+        word-break: keep-all;
+        padding-right: 0;
+    }
+    .section02 .section-text {
+        padding: 0 30px;
+        margin-top: 30px;
+    }
+    section.section-quotes-title-left .bg {
+        height: 280px;
+    }
+    section.section-quotes-title-left .section-text:before {
+        top: -71px;
+    }
+    section.section-quotes-title-left .section-title {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    section.section-quotes-title-left .bg {
+        height: 300px;
+        bottom: -45px;
+    }
+    section.section-quotes-title-left .section-text:before {
+        top: -71px;
+    }
 }
