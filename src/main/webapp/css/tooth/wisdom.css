@@ -328,7 +328,7 @@
     padding-top: 10px;
 }
 
-  section.board-link {
+section.board-link {
     margin-top: 125px;
 }
 
@@ -348,4 +348,100 @@
 
 .left-fade-slider-container {
     margin-top: 187px;
+}
+
+@media screen and (max-width: 640px) {
+    .left-fade-slider-container {
+        margin-top: 20px;
+        background: #fff;
+        padding-top: 60px;
+    }
+    section.section-quotes-title-right .bg {
+        height: 167px;
+    }
+    section.section-quotes-title-right .max-layout-width .text {
+        padding-top: 220px;
+    }
+    section.section-quotes-title-right .image_box_right {
+        height: 202px;
+    }
+    .section03 .image_box_right .img {
+        background-size: contain;
+    }
+    .section02 ul {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .section02 li {
+        width: 48%;
+        margin-bottom: 20px;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    section.section-quotes-title-right .bg {
+        height: 201px;
+    }
+    section.section-quotes-title-right .max-layout-width .text {
+        padding-top: 150px;
+    }
+    section.section-quotes-title-right .image_box_right {
+        height: 130px;
+    }
+    .section02 li p {
+        font-size: 14px;
+    }
+    .section02 .img {
+        height: 70px;
+        background-size: contain;
+    }
+    .section02 .section-title {
+        font-size: 30px;
+    }
+    body .section-top-title-left .section-title {
+        font-size: 30px;
+    }
+    section.section-top-title-left {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    section.section-quotes-title-right .bg {
+        height: 201px;
+    }
+    section.section-quotes-title-right .max-layout-width .text {
+        padding-top: 140px;
+    }
+    section.section-quotes-title-right .image_box_right {
+        height: 119px;
+    }
+    .section02 li p {
+        font-size: 13px;
+    }
+    body .section-top-title-left .section-title {
+        font-size: 30px;
+    }
+    section.section-top-title-left {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    section.section-quotes-title-right .bg {
+        height: 213px;
+    }
+    section.section-quotes-title-right .max-layout-width .text {
+        padding-top: 130px;
+    }
+    section.section-quotes-title-right .image_box_right {
+        height: 112px;
+    }
+    body .section-top-title-left .section-title {
+        font-size: 30px;
+    }
+    section.section-top-title-left {
+        padding-bottom: 20px;
+    }
 }

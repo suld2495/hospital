@@ -39,6 +39,91 @@
             </div>
         </div>
     </div>
+
+    <div class="pc-sub-category">
+        <div>
+            <span class="category-close"></span>
+            <h2 class="title">ALL MENU</h2>
+            <ul class="large-category">
+                <li>
+                    <h3>미소원치과</h3>
+                    <img src="<c:url value='/images/cmmn/cate01.jpg'/>">
+                    <ul class="sub-category">
+                        <li><a href="<c:url value='/intro' />">본원소개</a></li>
+                        <li><a href="<c:url value='/staff' />">의료진소개</a></li>
+                        <li><a href="<c:url value='/competitiveness' />">핵심경쟁력</a></li>
+                        <li><a href="<c:url value='/diagnostic_equipment_system' />">진단장비 시스템</a></li>
+                        <li><a href="<c:url value='/tour' />">둘러보기</a></li>
+                        <li><a href="<c:url value='/directions' />">오시는길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>임플란트</h3>
+                    <img src="<c:url value='/images/cmmn/cate02.jpg'/>">
+                    <ul class="sub-category">
+                        <li><a href="<c:url value='/digital_implants' />">디지털 임플란트</a></li>
+                        <li><a href="<c:url value='/navigation_implants' />">네비게이션 임플란트</a></li>
+                        <li><a href="<c:url value='/oneday_implants' />">원데이 임플란트</a></li>
+                        <li><a href="<c:url value='/bone_graft_implant' />">뼈이식 임플란트</a></li>
+                        <li><a href="<c:url value='/full_implants' />">전체 임플란트</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>치아교정</h3>
+                    <img src="<c:url value='/images/cmmn/cate03.jpg'/>">
+                    <ul class="sub-category">
+                        <li><a href="<c:url value='/misowon_orthodontics' />">미소원 치아교정</a></li>
+                        <li><a href="<c:url value='/malocculusion_orthodontics' />">부정교합 교정</a></li>
+                        <li><a href="<c:url value='/partial_orthodontics' />">부분교정</a></li>
+                        <li><a href="<c:url value='/growth_reriod_orthodontics' />">성장기 교정</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>심미보철치료</h3>
+                    <img src="<c:url value='/images/cmmn/cate04.jpg'/>">
+                    <ul class="sub-category">
+                        <li><a href="<c:url value='/aesthetic' />">라미네이트</a></li>
+                        <li><a href="<c:url value='/aesthetic-ceramic' />">올세라믹 크라운</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>자연치아 클리닉</h3>
+                    <img src="<c:url value='/images/cmmn/cate05.jpg'/>">
+                    <ul class="sub-category">
+                        <li><a href="<c:url value='/general' />">충치 / 치주 / 신경치료</a></li>
+                        <li><a href="<c:url value='/wisdom' />">사랑니 발치</a></li>
+                        <li><a href="<c:url value='/scaling' />">스케일링</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>커뮤니티</h3>
+                    <img src="<c:url value='/images/cmmn/cate06.jpg'/>">
+                    <ul class="sub-category">
+                        <li><a href="<c:url value='/notice/1' />">공지사항</a></li>
+                        <li><a href="<c:url value='/case/1' />">치료사례</a></li>
+                        <li><a href="<c:url value='/review/1' />">치료후기</a></li>
+                        <li><a href="<c:url value='/online-consult/1' />">온라인 상담</a></li>
+                        <li><a href="<c:url value='/reserve-write' />">예약 상담 신청</a></li>
+                        <li><a href="<c:url value='/media/1' />">미디어</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="category-footer">
+            <div>
+                <ul>
+                    <li>
+                        <div>·평일 : AM 09:30 ~ PM 18:30</div>
+                        <div><p>·수/금 : AM 09:30 ~ PM 20:00 (야간진료)</p><p class="color">※ 일요일 및 공휴일은 휴진입니다.</p><p>울산광역시 남구 화합로 150 / 시외고속버스 터미널맞은편 2,3층</p></div>
+                        <div>·토요일 : AM 09:30 ~ PM 16:00</div>
+                        <div><p>·점심시간 : PM 12:30 ~ PM 14:00 (13:30)</p><p>TEL : 1899-7518<span></span>FAX : 052-258-2874</p><p>Copyright 2020 Misowon Dental Clinic. All Rights Reserved.</p></div>
+                    </li>
+                </ul>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <div class="fixed">
         <div class="fixed-box">
             <div class="header-logo">
@@ -220,6 +305,105 @@
     </div>
 </div>
 
+<div class="mobile-sub-category">
+    <div class="header">
+        <div class="category-logo"><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/logo_m.png'/>"></a></div>
+        <div class="category-close"></div>
+    </div>
+    <div class="content">
+        <div class="login-container">
+            <sec:authorize access="isAnonymous()">
+                <h2>로그인 해주세요.</h2>
+                <ul class="login">
+                    <li><a href="<c:url value='/login'/>"><i class="login-icon"></i>로그인</a></li>
+                    <li><a href="<c:url value='/member_agreement'/>"><i class="join-icon"></i>회원가입</a></li>
+                </ul>
+            </sec:authorize>
+            <sec:authorize access="isAuthenticated()">
+                <h2>환영합니다.</h2>
+            </sec:authorize>
+        </div>
+        <ul class="large-category">
+           <li>
+               <p>미소원치과</p>
+               <div>
+                   <ul class="small-category">
+                       <li><a href="<c:url value='/intro' />">본원소개</a></li>
+                       <li><a href="<c:url value='/staff' />">의료진소개</a></li>
+                       <li><a href="<c:url value='/competitiveness' />">핵심경쟁력</a></li>
+                       <li><a href="<c:url value='/diagnostic_equipment_system' />">진단장비 시스템</a></li>
+                       <li><a href="<c:url value='/tour' />">둘러보기</a></li>
+                       <li><a href="<c:url value='/directions' />">오시는길</a></li>
+                   </ul>
+               </div>
+           </li>
+            <li>
+                <p>임플란트</p>
+                <div>
+                    <ul class="small-category">
+                        <li><a href="<c:url value='/digital_implants' />">디지털 임플란트</a></li>
+                        <li><a href="<c:url value='/navigation_implants' />">네비게이션 임플란트</a></li>
+                        <li><a href="<c:url value='/oneday_implants' />">원데이 임플란트</a></li>
+                        <li><a href="<c:url value='/bone_graft_implant' />">뼈이식 임플란트</a></li>
+                        <li><a href="<c:url value='/full_implants' />">전체 임플란트</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <p>치아교정</p>
+                <div>
+                    <ul class="small-category">
+                        <li><a href="<c:url value='/misowon_orthodontics' />">미소원 치아교정</a></li>
+                        <li><a href="<c:url value='/malocculusion_orthodontics' />">부정교합 교정</a></li>
+                        <li><a href="<c:url value='/partial_orthodontics' />">부분교정</a></li>
+                        <li><a href="<c:url value='/growth_reriod_orthodontics' />">성장기 교정</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <p>심미보철 치료</p>
+                <div>
+                    <ul class="small-category">
+                        <li><a href="<c:url value='/aesthetic' />">라미네이트</a></li>
+                        <li><a href="<c:url value='/aesthetic-ceramic' />">올세라믹 크라운</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <p>자연치아 클리닉</p>
+                <div>
+                    <ul class="small-category">
+                        <li><a href="<c:url value='/general' />">충치 / 치주 / 신경치료</a></li>
+                        <li><a href="<c:url value='/wisdom' />">사랑니 발치</a></li>
+                        <li><a href="<c:url value='/scaling' />">스케일링</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <p>커뮤니티</p>
+                <div>
+                    <ul class="small-category">
+                        <li><a href="<c:url value='/notice/1' />">공지사항</a></li>
+                        <li><a href="<c:url value='/case/1' />">치료사례</a></li>
+                        <li><a href="<c:url value='/review/1' />">치료후기</a></li>
+                        <li><a href="<c:url value='/online-consult/1' />">온라인 상담</a></li>
+                        <li><a href="<c:url value='/reserve-write' />">예약 상담 신청</a></li>
+                        <li><a href="<c:url value='/media/1' />">미디어</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="sns">
+            <ul>
+                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/instagram_m.png'/>"></a></li>
+                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/facebook_m.png'/>"></a></li>
+                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/blog_m.png'/>"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="cover"></div>
+
 <script>
     $(function () {
         $('.cmmn-nav ol a').on('mouseover focus', function() {
@@ -233,5 +417,19 @@
             $('.nav-detail > li').stop().fadeOut();
             $('.cmmn-nav ol a').removeClass('active');
         });
+        $('.menu').click(function () {
+            $('header').addClass('category-active');
+        })
+        $('.category-close').click(function () {
+            $('header').removeClass('category-active');
+        })
+        $('.mobile-sub-category .large-category > li p').click(function () {
+            if ($(this).hasClass('active')) {
+                $(this).removeClass('active');
+            } else {
+                $('.mobile-sub-category .large-category > li p').removeClass('active');
+                $(this).addClass('active');
+            }
+        })
     })
 </script>

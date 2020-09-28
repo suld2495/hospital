@@ -807,6 +807,9 @@
 }
 
 @media screen and (max-width: 375px) {
+    section.left-fade-slider-container .img {
+        height: 154px;
+    }
     .fade-in-slider .swiper-container {
         height: 500px;
     }
@@ -828,6 +831,9 @@
 }
 
 @media screen and (max-width: 360px) {
+    section.left-fade-slider-container .img {
+        height: 147px;
+    }
     .fade-in-slider .swiper-container {
         height: 470px;
     }

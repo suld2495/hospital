@@ -169,6 +169,16 @@
                 <div class="img img01">
                     <img src="<c:url value='/images/sub/tooth/scaling/scaling05_1.jpg' />">
                 </div>
+                <div class="text mobile-text">
+                    <h2>
+                        <strong>간단한 치료라도<br> 소홀히 하지 않는<br> 미소원치과의 스케일링 치료</strong>
+                    </h2>
+                    <h3>01</h3>
+                    <p>
+                        스케일링 치료로 돌처럼 굳어있는 치석이나 치주 질환의 원인을 제거하고 치아 표면을 깨끗하게 만들어 줍니다.<br>
+                        스케일링의 생활화로 치아 건강을 지키세요.
+                    </p>
+                </div>
             </div>
             <div>
                 <div class="text">
@@ -182,6 +192,15 @@
                 </div>
                 <div class="img img02">
                     <img src="<c:url value='/images/sub/tooth/scaling/scaling05_2.jpg' />">
+                </div>
+                <div class="text mobile-text">
+                    <h2>
+                        <strong>치료에 대한 공포를<br> 느끼는 분들을 위한<br> 도포마취 시스템</strong>
+                    </h2>
+                    <h3>02</h3>
+                    <p>
+                        스프레이, 연구, 가글 등 안전성이 입증된 다양한 도포마취제를 통해 표면마취를 시행합니다.
+                    </p>
                 </div>
             </div>
             <div>
@@ -197,6 +216,16 @@
                 </div>
                 <div class="img img03">
                     <img src="<c:url value='/images/sub/tooth/scaling/scaling05_3.jpg' />">
+                </div>
+                <div class="text mobile-text">
+                    <h2>
+                        <strong>스케일링 후 지속적인<br> 구강관리를 위해<br> 올바른 양치법 안내</strong>
+                    </h2>
+                    <h3>03</h3>
+                    <p>
+                        스케일링이 완료되면 건강한 구강상태를 오래 유지할 수 있도록 올바른 양치법과 정기적인 구강
+                        관리법에 대해서 상세한 안내를 드립니다.
+                    </p>
                 </div>
             </div>
         </div>
@@ -297,7 +326,16 @@
             autoplay: false,
             autoplaySpeed: 4000,
             prevArrow: '<span class="slider-prev"><</span>',
-            nextArrow: '<span class="slider-next">></span>'
+            nextArrow: '<span class="slider-next">></span>',
+            responsive: [
+                {
+                    breakpoint: 780,
+                    settings: {
+                        centerMode: false,
+                        variableWidth: false,
+                    }
+                }
+            ]
         });
 
         var index = 0;

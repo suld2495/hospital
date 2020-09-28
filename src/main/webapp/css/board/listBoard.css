@@ -37,3 +37,34 @@
 .board-list table td, .board-list table th {
     vertical-align: middle;
 }
+
+@media screen and (max-width: 1300px) {
+    .board-list table colgroup {
+        display: none;
+    }
+    .board-list .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .board-list table td:nth-child(1),
+    .board-list table th:nth-child(1) {
+        width: 50px;
+    }
+    .board-list table td:nth-child(3),
+    .board-list table th:nth-child(3) {
+        width: 100px;
+    }
+    .board-list table td:nth-child(4),
+    .board-list table th:nth-child(4) {
+        width: 150px;
+    }
+    .paging li {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .paging li a {
+        line-height: 30px;
+        font-size: 13px;
+    }
+}
