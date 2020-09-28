@@ -739,6 +739,7 @@ section {
 }
 
 @media screen and (max-width: 414px) {
+    
     .section03 .img-box .img {
         height: 135px;
     }
@@ -750,6 +751,7 @@ section {
     }
     .section03 .image_box_right {
         height: 172px;
+        top: 302px;
     }
     .section03 .image_box_right .img, .section03 .img-box .img {
         background-size: contain;

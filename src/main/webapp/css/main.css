@@ -1432,9 +1432,10 @@ body .section07 .bx-pager-link span + span {
 .section01 .text p {
     margin-top: 15px;
     color: #fff;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 200;
     letter-spacing: -0.5px;
+    line-height: 1.4;
 }
 
 .section01 .text a {
@@ -2672,6 +2673,9 @@ display: block;
 }
 
 @media screen and (max-width: 640px) {
+    .section09 .max-layout-width {
+    padding-top: 62px;
+}
     .section05 .big-img .cont01 .img {
     background: url(../images/main/docter03_m.jpg) no-repeat;
     background-size: contain;

@@ -557,6 +557,7 @@ section {
     }
     .section02 .section-title, .section04 .section-title, .section03 .section-title {
         width: 100%;
+        font-size: 28px;
     }
     .section02 .text-box h2 + p, .section04 .text-box h2 + p {
         width: 100%;
@@ -688,6 +689,18 @@ margin-top: -33px;
 }
 
 @media screen and (max-width:414px) {
+    .section-title {
+    font-size: 28px;
+}
+
+    .section05 ul li {
+    margin-bottom: 45px;
+}
+    .image-container h5 {   
+    margin-top: 2px;
+    font-size:30px;
+ 
+}
     #contents {
         overflow: hidden;
     }
@@ -705,7 +718,7 @@ margin-top: -33px;
         margin-bottom: 36px;
     }
     .section05 .image-container li > div {
-        height: 106px;
+        /* height: 106px; */
     }
 }
 
