@@ -893,6 +893,41 @@ section.board-link {
 }
 
 @media screen and (max-width: 414px) {
+    .img-right .max-layout-width .text {
+        padding-top: 220px;
+    }
+    .img-right .image_box_right {
+        height: 254px;
+    }
+    p.img.toothimg06 {
+        background-size: contain;
+    }
+    .section06 .section-title {
+        font-size: 28px;
+        word-break: keep-all;
+    }
+    section.list-content .section-title {
+        margin-bottom: 160px;
+    }
+    section.list-content .image_box_left {
+        height: 118px;
+        top: 60px;
+    }
+    p.img.toothimg01 {
+        background-size: contain;
+    }
+    .section03 {
+        margin-top: 70px;
+    }
+    .section02 .section-title {
+        font-size: 28px;
+    }
+    body .section-top-title-left .section-title {
+        font-size: 28px;
+    }
+    section.section-top-title-left .bg {
+        height: 180px;
+    }
     .section09 li p {
         font-size: 14px;
     }
@@ -903,6 +938,7 @@ section.board-link {
     .section05 {
         height: auto;
         padding-bottom: 60px;
+        margin-top: 60px;
     }
     .section03 .img-box .img {
         background-size: contain;
@@ -923,6 +959,7 @@ section.board-link {
     }
     .section02 li p {
         font-size: 14px;
+        margin-top: 0;
     }
     .section03 .border {
         height:203px
@@ -930,7 +967,51 @@ section.board-link {
 }
 
 @media screen and (max-width: 380px)  {
+    .img-right .max-layout-width .text {
+        padding-top: 200px;
+    }
+    .img-right .image_box_right {
+        height: 232px;
+    }
+    section.list-content .section-title {
+        margin-bottom: 160px;
+    }
+    section.list-content .image_box_left {
+        height: 107px;
+        top: 60px;
+    }
     .section03 .border {
         height:180px
+    }
+    body .section-top-title-left .section-title {
+        font-size: 27px;
+    }
+    section.section-top-title-left .bg {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 360px)  {
+    .img-right .max-layout-width .text {
+        padding-top: 200px;
+    }
+    .img-right .image_box_right {
+        height: 222px;
+    }
+    section.list-content .section-title {
+        margin-bottom: 160px;
+    }
+    section.list-content .image_box_left {
+        height: 103px;
+        top: 60px;
+    }
+    .section03 .border {
+        height:180px
+    }
+    body .section-top-title-left .section-title {
+        font-size: 25px;
+    }
+    section.section-top-title-left .bg {
+        height: 220px;
     }
 }

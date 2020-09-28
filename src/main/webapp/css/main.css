@@ -2389,10 +2389,15 @@ body .section07 .bx-pager-link span + span {
         height: auto;
     }
 
+    .section07 .bx-pager-item:first-child {
+        border-left: none;
+    }
     .section07 .bx-pager-item {
         float: left;
         width: 33.333333333%;
         height: auto;
+        border-left: 1px solid #ededed;
+        box-sizing: border-box;
     }
 
 
@@ -2556,6 +2561,7 @@ body .section07 .bx-pager-link span + span {
         background-size: cover !important;
         background-position-y: -140px !important;
         position: relative;
+        background-position-y: top !important;
     }
 
     .section05 .big-img-slider {
@@ -2613,15 +2619,15 @@ body .section07 .bx-pager-link span + span {
         height: 145px;
     }
     .section09 .slide-item img {
-        height: 100%;
-        width: 827px;
+        height: auto;
+        width: 100%;
         max-width: none;
-        transform: translateX(50%);
+        /* transform: translateX(50%); */
         position: absolute;
-        left: -413px;
+        /* left: -413px; */
     }
     .section09 .slide-item {
-        height: 389px;
+        height: 273px;
     }
     .community .online a {
         padding-right: 20;
@@ -2687,7 +2693,7 @@ body .section07 .bx-pager-link span + span {
 
 @media screen and (max-width:550px) {
     .footer-info-container, .footer-info-container .fp-tableCell {
-        height: 680px !important;
+        height: 560px !important;
     }
 }
 
@@ -2730,6 +2736,7 @@ body .section07 .bx-pager-link span + span {
     }
     .section07 h5 {
         font-size: 25px;
+        word-break: keep-all;
     }
 
     .section07 h5 + p {
@@ -2808,7 +2815,6 @@ body .section07 .bx-pager-link span + span {
 
 @media screen and (max-width: 470px) {
     .footer-info-container, .footer-info-container .fp-tableCell {
-        height: 810px !important;
     }
 }
 
@@ -2822,6 +2828,41 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:414px) {
+    .section09 .slide-item {
+        height: 166px;
+    }
+    .community .etc ul li {
+        height: 86px;
+    }
+    .community .etc ul li a {
+        padding: 30px 24px;
+    }
+    .community .community-container > div {
+        height: 350px;
+    }
+    .slide-item {
+        width: 166px;
+    }
+    .section07 .text .num {
+        right: 0;
+        font-size: 50px;
+    }
+    .section07 .text {
+        bottom: 30px;
+    }
+    .section07 .text span:first-child {
+        margin-left: 30;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+    }
+    .review-text h4 {
+        font-size: 20px;
+    }
+    .review-text {
+        padding-top: 20px;
+        height: 126px;
+    }
     #contents {
         overflow: hidden;
     }
@@ -2870,6 +2911,7 @@ body .section07 .bx-pager-link span + span {
     }
     .community .online a {
         padding-left: 30px;
+        padding-top: 80px;
     }
     .section07 h4 {
         font-size: 33px;
@@ -2926,11 +2968,11 @@ body .section07 .bx-pager-link span + span {
     .review-text p {
         width: 100%;
         padding: 0 10px;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .section04 .details-link {
-        bottom: -620px;
+        bottom: -510px;
     }
 
     .section04 .text h4 {
@@ -2939,6 +2981,16 @@ body .section07 .bx-pager-link span + span {
 
     .section04 .text h4 + p {
         font-size: 14px;
+    }
+    .section05 .section-title {
+        font-size: 36px;
+    }
+    .section05 .img-arrow {
+        top: 100px;
+    }
+    .section05 .img-arrow .slick-arrow {
+        width: 50px;
+        height: 45px;
     }
 }
 
@@ -2962,8 +3014,38 @@ body .section07 .bx-pager-link span + span {
     }
 }
 
+@media screen and (max-width:380px) {
+    .review-text {
+        height: 115px;
+    }
+}
 
 @media screen and (max-width:375px) {
+    .section09 .slide-item {
+        height: 148px;
+    }
+    .community .etc ul li span {
+        width: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 11px;
+        margin-top: -5.5px;
+    }
+    .slide-item {
+        width: 148px;
+    }
+    .section05 .img-arrow {
+        top: 75px;
+    }
+    .section05 .section-text {
+        font-size: 13px;
+    }
+    .section05 .section-title {
+        font-size: 28px;
+    }
+    .section04 .details-link {
+        bottom: -480px;
+    }
     .section09 h4 + p {
         font-size: 14px;
     }
@@ -2976,5 +3058,14 @@ body .section07 .bx-pager-link span + span {
 
     .section01 .text {
         top: 280px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .section09 .slide-item {
+        height: 141px;
+    }
+    .slide-item {
+        width: 140px;
     }
 }

@@ -1037,3 +1037,55 @@ section.board-link {
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 414px) {
+    section.section-quotes-title-right .bg {
+        height: 208px;
+    }
+    .section05 .max-layout-width .text > div {
+        padding-right: 20px;
+        word-break: keep-all;
+    }
+    .section05 .max-layout-width .text > div br {
+        display: none;
+    }
+    .section03 .text li p {
+        font-size: 14px;
+    }
+    .section03 .image_box_left {
+        height: 300px;
+    }
+    .section03 .img {
+        background-size: contain;
+        height: 280px;
+    }
+    section.section04 li {
+        background-size: contain !important;
+        background-repeat: no-repeat;
+    }
+    .section07 {
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .section03 .image_box_left {
+        height: 270px;
+    }
+    .section03 .text li p {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .section03 .image_box_left {
+        height: 250px;
+    }
+    .section03 .text li p {
+        font-size: 12px;
+    }
+    section.section-quotes-title-right .bg {
+        height: 196px;
+    }
+}

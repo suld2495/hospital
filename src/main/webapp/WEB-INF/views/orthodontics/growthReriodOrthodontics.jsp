@@ -82,7 +82,7 @@
             <div class="text">
                 <div>
                     <h2 class="section-title">
-                        성장기 교정, <strong>왜<br>미소원 치과 일까요?.</strong>
+                        성장기 교정, <strong>왜<br>미소원 치과 일까요?</strong>
                     </h2>
                     <p class="section-text">
                         성장기는 신체발달과 성장이 왕성하여 교정치료의 효과와 효율이 가장 좋은 시기입니다. 미소원 치과는 정기적인 검진을 통해 골격 교정이 가능한 적정 시기를 놓치지 않습니다.<br>

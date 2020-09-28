@@ -1,3 +1,6 @@
+#contents {
+    overflow: hidden;
+}
 @font-face {
     font-family: 'Noto Sans KR';
     font-style: normal;
@@ -743,6 +746,7 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 768px) {
+
     section.section-top-title-right-two {
         padding-bottom: 330px;
     }
@@ -817,6 +821,11 @@ section.board-link ul li {
         display: none;
     }
 
+    section.section-top-title-left .img {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
     section.section-top-title-left .image_box_left {
         width: 100%;
         height: 342px;
@@ -841,6 +850,9 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    div.sub {
+        padding-top: 0;
+    }
     section.img-four p {
         padding: 0 30px;
         box-sizing: border-box;
@@ -976,6 +988,26 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 414px) {
+    section.section-quotes-title-left .max-layout-width .text > div:before {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+    }
+
+    section.section-top-title-right-two {
+        padding-bottom: 150px;
+    }
+    section.section-top-title-right-two .img {
+        background-size: contain;
+        height: 157px;
+    }
+    section.section-top-title-left .bg {
+        padding-bottom: 0;
+        height: 360px;
+    }
+    section.section-top-title-left .image_box_left {
+        height: 163px;
+    }
     section.section-quotes-title-right .bg {
         bottom: -25px;
     }
@@ -990,8 +1022,9 @@ section.board-link ul li {
         display: none;
     }
     section.section-top-title-left-two .img {
-        width: 100%;
         margin-bottom: 30px;
+        background-size: contain;
+        height: 185px;
     }
     body .section-top-title-left .text > div, body .section-top-title-left .bg .max-layout-width > div {
         padding: 0 30px;
@@ -1011,6 +1044,9 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 375px) {
+    section.section-top-title-left {
+        padding-bottom: 200px;
+    }
     section.section-quotes-title-right .bg {
         bottom: -25px;
         height: 260px;
@@ -1018,6 +1054,9 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 360px) {
+    section.section-top-title-left {
+        padding-bottom: 180px;
+    }
     section.list-content .image_box_left {
         top: 350px;
     }

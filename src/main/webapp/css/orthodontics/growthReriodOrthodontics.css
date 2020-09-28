@@ -472,6 +472,51 @@
 }
 
 @media screen and (max-width: 414px) {
+    .section07 {
+        margin-top: 100px;
+    }
+    section.section-quotes-title-left .max-layout-width .text {
+        padding-top: 180px;
+    }
+    .section04 .image_box_left .img {
+        background-size: contain;
+    }
+    section.list-content {
+        padding-bottom: 50px;
+    }
+    section.list-content .section-title {
+        padding-top: 200px;
+    }
+    section.list-content .max-layout-width > div {
+        height: 200px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .section03 .img {
+        background-size: contain;
+    }
+    .section02 .text .img01,.section02 .text .img02,
+    .section02 .text .img03, .section02 .text .img04 {
+        background-position-y: 35px;
+    }
+    .section02 .text li:before {
+        height: 150px;
+    }
+    .section02 .text li p {
+        font-size: 14px;
+    }
+    .section02 {
+        margin-top: 50px;
+    }
+    .section02 .section-title {
+        font-size: 28px;
+    }
+    .section02 .section-title br {
+        display: none;
+    }
+    section.section-top-title-left .bg {
+        height: 200px;
+    }
     .section02 .section-title {
         word-break: keep-all;
         padding-right: 0;
@@ -488,15 +533,41 @@
     }
     section.section-quotes-title-left .section-title {
         padding-left: 30px;
+        padding-top: 50px;
     }
 }
 
 @media screen and (max-width: 375px) {
+    section.section-quotes-title-left .max-layout-width .text {
+        padding-top: 170px;
+    }
+    section.list-content .section-title {
+        padding-top: 180px;
+    }
+    section.list-content .max-layout-width > div {
+        height: 180px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
     section.section-quotes-title-left .bg {
         height: 300px;
         bottom: -45px;
     }
     section.section-quotes-title-left .section-text:before {
         top: -71px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    section.section-quotes-title-left .max-layout-width .text {
+        padding-top: 150px;
+    }
+    section.list-content .section-title {
+        padding-top: 170px;
+    }
+    section.list-content .max-layout-width > div {
+        height: 172px;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 }

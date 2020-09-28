@@ -748,6 +748,47 @@
 }
 
 @media screen and (max-width: 414px) {
+    .fade-in-slider .swiper-container {
+        height: 530px;
+    }
+    .fade-in-slider .scroll-bar {
+        top: 328px;
+    }
+    section.fade-in-slider .swiper-slide .text {
+        padding-top: 230px;
+    }
+    .fade-in-slider .image_box_right {
+        height: 179px;
+    }
+    .fade-in-slider .image_box_right .img {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    section.left-fade-slider-container .img {
+        background-size: contain;
+        height: 172px;
+    }
+    .left-fade-slider-container .max-layout-width h2 {
+        font-size: 26px;
+        word-break: keep-all;
+        /* padding: 0 20px; */
+        box-sizing: border-box;
+        width: 330px;
+        margin: 0 auto;
+    }
+    body .post-slider .posts .slide {
+        height: 172px;
+    }
+    body .left-fade-slider-container .slider-container {
+        height: 430px;
+    }
+    .left-fade-slider-container .text p {
+        font-size: 12px;
+    }
+    .left-fade-slider-container .text h2 {
+        margin-top: 33px;
+        font-size: 18px;
+    }
     .fade-in-slider .title h2 {
         font-size: 28px;
     }
@@ -758,6 +799,45 @@
 
 @media screen and (max-width: 380px) {
     .fade-in-slider .scroll-bar {
-        top: 530px;
+        /* top: 530px; */
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .fade-in-slider .swiper-container {
+        height: 500px;
+    }
+    .fade-in-slider .scroll-bar {
+        top: 303px;
+    }
+    section.fade-in-slider .swiper-slide .text {
+        padding-top: 200px;
+    }
+    .fade-in-slider .image_box_right {
+        height: 159px;
+    }
+    .fade-in-slider .title h2 {
+        font-size: 25px;
+    }
+    body .post-slider .posts .slide, .left-fade-slider-container .img  {
+        height: 164px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .fade-in-slider .swiper-container {
+        height: 470px;
+    }
+    .fade-in-slider .scroll-bar {
+        top: 292px;
+    }
+    section.fade-in-slider .swiper-slide .text {
+        padding-top: 190px;
+    }
+    .fade-in-slider .image_box_right {
+        height: 151px;
+    }
+    body .post-slider .posts .slide, .left-fade-slider-container .img  {
+        height: 160px;
     }
 }

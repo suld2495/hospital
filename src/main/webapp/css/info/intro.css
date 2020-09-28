@@ -566,6 +566,9 @@ section {
 }
 
 @media screen and (max-width:640px) {
+    .section01  {
+        background: url(../../images/sub/info/intro/intro01_m.jpg) no-repeat top;
+    }
     .section06 .text > div:first-child .section-title {
         font-size: 32px;
     }
@@ -597,6 +600,7 @@ section {
     .section06 .text > div {
         float: none;
         width: 100%;
+        padding-left: 30px;
     }
     .section01 .text-box {
         padding-left: 0;
@@ -608,7 +612,7 @@ section {
 
     }
     .section01 .max-layout-width {
-        padding-top: 445px;
+        padding-top: 399px;
     }
     .section01 .last-section-title:after {
         display: none;
@@ -637,7 +641,67 @@ section {
 }
 
 @media screen and (max-width:518px) {
-    .section05 ul li  {
-        width: 100%;
+    .section05 {
+        padding-bottom: 50px;
+    }
+    .image-container h5 span {
+        font-size: 30px;
+    }
+    .section05 .container p {
+        font-size: 16px;
+        margin-top: 14px;
+    }
+    .image-container h5 {
+        font-size: 37px;
+    }
+    .section05 .image-container li > div {
+        height: 138px;
+    }
+    .section05 .image-container li .img_bg {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width:414px) {
+    #contents {
+        overflow: hidden;
+    }
+    .section05 .section-title:before {
+        width: 64px;
+        height: 56px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .section05 .section-title {
+        font-size: 30px;
+        margin-right: -84px;
+    }
+    .section05 .image-container li > div {
+        height: 106px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .section05 .image-container li > div {
+        height: 94px;
+    }
+    .image-container h5 span {
+        font-size: 28px;
+    }
+    .section05 .container p {
+        font-size: 14px;
+        margin-top: 14px;
+    }
+    .image-container h5 {
+        font-size: 35px;
+    }
+    .section05 ul li {
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .section05 .image-container li > div {
+        height: 89px;
     }
 }

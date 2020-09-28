@@ -40,7 +40,7 @@
 
     <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
-            <h2 class="section-title">미소원치과 부정교합<strong>교정치료 효과 </strong></h2>
+            <h2 class="section-title">부정교합<strong>교정치료 효과 </strong></h2>
             <ul>
                 <li>
                     <div class="img img01"></div>

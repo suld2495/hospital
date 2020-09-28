@@ -137,7 +137,7 @@
 }
 
 .section03 .bg {
-    background: url(../../images/sub/implant/digital/digital_bg.jpg);
+    background: url(../../images/sub/implant/digital/digital_bg.jpg) no-repeat center;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -574,12 +574,88 @@
 }
 
 @media screen and (max-width: 414px) {
-    .section04 ul li {
-        width: 100%;
-        margin-left: 0;
+    section.section-quotes-title-left .section-text:before {
+        top: -62px;
+        height: 60px;
     }
+    section.section-quotes-title-left .section-title {
+        margin-bottom: 70px;
+    }
+    section.section-quotes-title-left .bg{
+        bottom: -40px;
+    }
+    section.section-quotes-title-left .bg {
+        height: 220px;
+    }
+    section.two-image-right .max-layout-width ul {
+        padding-top: 300px;
+    }
+    section.two-image-right .image_box_right {
+        height: 300px;
+    }
+    .section03 .img {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
     .section04 ul {
         margin-left: 0;
-        height: 1380px;
+        height: 380px;
+    }
+    .section04 ul li .bg {
+        background-size: contain;
+        height: 113px;
+    }
+    .section04 ul li h5 {
+        margin-top: 134px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    section.section-quotes-title-left .bg {
+        height: 241px;
+    }
+
+    .section03 .max-layout-width li p {
+        font-size: 14px;
+    }
+
+    .section04 ul {
+        margin-left: 0;
+        height: 320px;
+    }
+    .section04 ul li .bg {
+        background-size: cover;
+        height: 100px;
+    }
+    .section04 ul li h5 {
+        margin-top: 114px;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    section.two-image-right .image_box_right {
+        height: 251px;
+    }
+    section.two-image-right .max-layout-width ul {
+        padding-top: 250px;
+    }
+
+    .section04 ul {
+        margin-left: 0;
+        height: 310px;
+    }
+    .section04 ul li .bg {
+        background-size: contain;
+        height: 96px;
+    }
+    .section04 ul li h5 {
+        margin-top: 114px;
+        margin-bottom: 20px;
+        font-size: 13px;
     }
 }

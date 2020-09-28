@@ -661,7 +661,7 @@ section.board-link {
         padding-left: 0;
         padding: 0 30px;
         box-sizing: border-box;
-        padding-top: 320px;
+        padding-top: 220px;
     }
     section.section-top-title-left .image_box_left {
         top: 0;
@@ -680,7 +680,8 @@ section.board-link {
     section.section-top-title-left {
         background: none;
         padding-bottom: 0;
-        margin-top: 100px;
+        /* margin-top: 100px; */
+        padding-top: 0;
     }
 }
 
@@ -721,13 +722,53 @@ section.board-link {
     }
 }
 
+@media screen and (max-width: 414px) {
+    section.section-quotes-title-right .bg {
+        height: 226px;
+    }
+    section.section-quotes-title-right .max-layout-width .text {
+        padding-top: 150px;
+    }
+    section.section-quotes-title-right .image_box_right {
+        height: 130px;
+    }
+    .section04 .image_box_right .img {
+        background-size: contain;
+    }
+    .section02 .text-box h2 + p {
+        word-break: keep-all;
+    }
+    .section02 .section-title {
+        font-size: 30px;
+    }
+    body .section-top-title-left .text > div {
+        padding-top: 30px;
+    }
+    body .section-top-title-left .text > div, body .section-top-title-left .bg .max-layout-width > div {
+        background: #f5f5f5;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .section07 li {
         height: auto;
     }
 }
 
+@media screen and (max-width: 375px) {
+    section.section-quotes-title-right .bg {
+        height: 246px;
+    }
+    section.sec
+    body .section-top-title-left .section-title {
+        font-size: 28px;
+    }
+}
+
 @media screen and (max-width: 360px) {
+    section.section-quotes-title-right .bg {
+        height: 239px;
+    }
     .section07 .img:before {
         top: -160px;
     }

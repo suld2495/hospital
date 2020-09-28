@@ -595,3 +595,54 @@ section.board-link {
 .board-link .section-title {
     line-height: 1.25;
 }
+
+@media screen and (max-width:414px) {
+    .left-fade-slider-container .max-layout-width h2 {
+        font-size: 26px;
+        word-break: keep-all;
+        padding: 0 20px;
+        box-sizing: border-box;
+        width: 330px;
+        margin: 0 auto;
+    }
+    .section06  {
+        margin-top: 130px;
+    }
+    section.section-quotes-title-right .section-text:before {
+        height: 60px;
+        top: -89px;
+    }
+    section.section-quotes-title-left .section-text:before {
+        top: -62px;
+        height: 60px;
+    }
+    section.section-quotes-title-left .section-title {
+        margin-bottom: 70px;
+    }
+    section.section-quotes-title-left .bg{
+        bottom: -40px;
+    }
+    section.section-quotes-title-left .bg {
+        height: 220px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    section.section-quotes-title-right .section-text:before {
+        height: 60px;
+        top: -89px;
+    }
+    section.section-quotes-title-left .section-text:before {
+        top: -62px;
+        height: 60px;
+    }
+    section.section-quotes-title-left .section-title {
+        margin-bottom: 70px;
+    }
+    section.section-quotes-title-left .bg{
+        bottom: -40px;
+    }
+    section.section-quotes-title-left .bg {
+        height: 220px;
+    }
+}

@@ -230,7 +230,7 @@
 
 @media screen and (max-width: 828px) {
     .footer, .footer .fp-tableCell {
-        height: 200px !important;
+        height: 140px !important;
     }
     .footer-location-container {
         text-align: center;
@@ -277,6 +277,7 @@
     }
     .sns-link {
         margin-top: 35px;
+        display: none;
     }
     .footer-info-container, .footer-info-container .fp-tableCell {
         height: 700px;
@@ -296,7 +297,6 @@
         display: block;
     }
     .footer-info-container, .footer-info-container .fp-tableCell {
-        height: 810px !important;
     }
 
     .footer-location {

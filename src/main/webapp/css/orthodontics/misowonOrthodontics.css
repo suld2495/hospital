@@ -600,3 +600,48 @@ section.board-link {
         padding: 0 5px;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .section05 .max-layout-width h2 {
+        font-size: 30px;
+    }
+    section.list-content .section-text + .pager {
+        margin-top: 180px;
+    }
+    section.list-content .image_box_left {
+        top: 170px;
+    }
+    section.list-content .section-text, section.list-content .pager {
+        margin-bottom: 0;
+    }
+    .section04 .img {
+        background-size: contain;
+    }
+    section.section-quotes-title-right .bg {
+        height: 220px;
+    }
+    .section02 {
+        margin: 0;
+    }
+    .section02 .image_box_right .img {
+        background-size: contain;
+    }
+    section.section-top-title-left .bg {
+        height: 200px;
+    }
+    section.section-quotes-title-right .max-layout-width .text {
+        padding-top: 250px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    section.section-quotes-title-right .bg {
+        height: 245px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    section.section-quotes-title-right .bg {
+        height: 255px;
+    }
+}

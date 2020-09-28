@@ -682,12 +682,9 @@
         if (768 < windowWidth && windowWidth < 1000) {
             minSlides = 3;
             maxSlides = 3;
-        } else if (414 < windowWidth && windowWidth <= 768) {
+        } else if (windowWidth <= 768) {
             minSlides = 2;
             maxSlides = 2;
-        } else if (windowWidth <= 414) {
-            minSlides = 1;
-            maxSlides = 1;
         }
 
         $('.review').bxSlider({
@@ -754,8 +751,8 @@
             prevText: '<img src="<c:url value="/images/main/arrowbig_left.png"/>">',
             pager: false,
             auto: true,
-            minSlides: 2,
-            maxSlides: 2,
+            minSlides: 1,
+            maxSlides: 1,
             moveSlides: 1,
             adaptiveHeight: true,
             shrinkItems: true,
@@ -839,8 +836,6 @@
             caseViewSlides = 3;
         } else if (windowWidth > 414) {
             caseViewSlides = 2;
-        } else {
-            caseViewSlides = 1;
         }
 
         caseSlider = (windowWidth - 60) / caseViewSlides

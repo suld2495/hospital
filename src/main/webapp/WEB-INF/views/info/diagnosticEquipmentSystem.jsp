@@ -13,14 +13,30 @@
         <div class="slider-container">
             <div class="slider-box">
                 <div class="slider swiper-wrapper">
-                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')"></div></div>
-                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')"></div></div>
-                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')"></div></div>
-                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')"></div></div>
-                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')"></div></div>
-                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')"></div></div>
-                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')"></div></div>
-                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')"></div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')">
+                        <img class="display-none" src="<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>">
+                    </div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')">
+                        <img class="display-none" src="<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>">
+                    </div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')">
+                        <img class="display-none" src="<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>">
+                    </div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')">
+                        <img class="display-none" src="<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>">
+                    </div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')">
+                        <img class="display-none" src="<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>">
+                    </div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')">
+                        <img class="display-none" src="<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>">
+                    </div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')">
+                        <img class="display-none" src="<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>">
+                    </div></div>
+                    <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>')">
+                        <img class="display-none" src="<c:url value='/images/sub/info/diagnosticEquipmentSystem/device02_img01.jpg'/>">
+                    </div></div>
                 </div>
                 <div class="text-box">
                     <h2>3D 구강 스캐너</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>
