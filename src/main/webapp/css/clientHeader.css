@@ -89,6 +89,15 @@
 .mobile-sub-category .content {
     padding-top: 45px;
 }
+.mobile-sub-category .logout-icon {
+    background: url(../images/cmmn/login_m.png);
+    width: 21px;
+    height: 29px;
+    display: inline-block;
+    margin-right: 27px;
+    vertical-align: -8px;
+    margin-left: 3px;
+}
 
 .mobile-sub-category .login-icon {
     background: url(../images/cmmn/login_m.png);
@@ -189,18 +198,18 @@ div.category-footer > div {
 .large-category img {
     margin-bottom: 40px;
 }
-.sub-category li {
+.pc-sub-category .sub-category li {
     margin-bottom: 16px;
 }
-.sub-category li a {
+.pc-sub-category .sub-category li a {
     color: #222;
 }
-.large-category h3 {
+.pc-sub-category .large-category h3 {
     font-size: 26px;
     margin-bottom: 40px;
     font-weight: bold;
 }
-.large-category > li {
+.pc-sub-category .large-category > li {
     width: 14.66666666666%;
     margin-left: 2%;
     float: left;
