@@ -97,3 +97,24 @@
     background: #f5f5f5;
     margin-bottom: 95px;
 }
+
+@media screen and (max-width: 1300px) {
+    .search .select-type {
+        width: 100px;
+        height: 40px;
+    }
+    .search .search-input {
+        height: 40px;
+    }
+    .search {
+        padding-left: 105px;
+        margin: 30px auto;
+    }
+    .search .btn {
+        height: 40px;
+    }
+    .search {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
