@@ -179,6 +179,10 @@
     </div>
 </div>
 
+<div class="top">
+    <div class="top-button">TOP</div>
+</div>
+
 <script>
     $(function() {
         var backgroundPrefix = 'images/sub/background/';
@@ -191,5 +195,8 @@
             $(this).toggleClass('active');
             $(this).find('.sub-category-list').toggleClass('active');
         });
+        $('.top').click(function () {
+            $(window).scrollTop(0);
+        })
     })
 </script>
