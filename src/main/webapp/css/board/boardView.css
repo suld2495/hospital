@@ -35,8 +35,9 @@
 }
 
 .board-view .contents {
-    min-height: 500px;
+    min-height: 110px;
     border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
 
 .board-view .button {
@@ -100,4 +101,17 @@
     text-align: center;
     color: #fff;
 
+}
+
+@media screen and (max-width: 1300px) {
+    .board-view .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .board-view .button li span:first-child {
+        width: 100px;
+    }
 }
