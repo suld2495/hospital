@@ -1426,7 +1426,7 @@ body .section07 .bx-pager-link span + span {
     font-weight: bold;
     line-height: 1.25;
     letter-spacing: -1px;
-    padding-top: 10px;
+    padding-top: 35px;
 }
 
 .section01 .text p {
@@ -2003,7 +2003,7 @@ body .section07 .bx-pager-link span + span {
 
 .community .community-container h1 {
     text-align: center;
-    font-size: 36px;
+    font-size: 35px;
     color: #fff;
     font-weight: 500;
     margin-bottom: 67px;
@@ -2167,7 +2167,7 @@ body .section07 .bx-pager-link span + span {
 
 .section09 .max-layout-width {
     position: relative;
-    padding-top: 114px;
+    padding-top: 46px;
 }
 
 .section09 .bx-controls {
@@ -2212,7 +2212,7 @@ body .section07 .bx-pager-link span + span {
 @media screen and (max-width: 1572px) {
     .community .community-container {
         width: 100%;
-        padding: 0 30px;
+        padding: 0 20px;
         box-sizing: border-box;
     }
     .community .online {
@@ -2251,12 +2251,14 @@ body .section07 .bx-pager-link span + span {
 
     .case .prev {
         left: 0;
+        top: 29px;
     }
     .case .next {
         right: 0;
+        top: 29px;
     }
     .case .max-layout-width {
-        padding: 0px 30px;
+        padding: 0px 20px;
         box-sizing: border-box;
     }
 }
@@ -2266,7 +2268,7 @@ body .section07 .bx-pager-link span + span {
         padding: 42px 44px 0;
     }
     .community .community-container > div {
-        margin-bottom: 25px;
+        margin-bottom: 17px;
     }
     .community .community-container > div, .community .etc {
         width: 100%;
@@ -2298,45 +2300,64 @@ body .section07 .bx-pager-link span + span {
 
 @media screen and (max-width: 828px) {
     .footer, .footer .fp-tableCell {
-        height: 140px !important;
+        height: 66px !important;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .section05 .big-img .cont01 .img {
+    background: url(../images/main/docter03_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont02 .img {
+    background: url(../images/main/docter01_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont03 .img {
+    background: url(../images/main/docter02_m.jpg) no-repeat;
+    background-size: contain;
+}
+
     .main-footer {
         display: none !important;
     }
     .section09 {
-        padding: 0 30px;
-        padding-bottom: 130px;
+        padding: 0 20px;
+        padding-bottom: 89px;
         box-sizing: border-box;
     }
     .community  {
-        padding: 100px 0;
+        padding: 54px 0;
+        padding-bottom: 22px;
     }
     .case {
-        padding: 75px 0;
+        padding: 67px 0;
+        padding-bottom: 60px;
     }
     body .section07 .bx-pager-link {
-        padding: 22px 0;
+        padding: 19px 0;
     }
 
     .section07 .bx-controls .bx-prev {
         left: 30px;
+        top: 20px;
     }
 
     .section07 .bx-controls .bx-next {
         right: 30px;
+        top: 20px;
     }
 
     .section07 {
-        padding-bottom: 51px;
+        padding-bottom: 14px;
         overflow: hidden;
     }
 
     .section07 .slider-origin-pagination {
         top: initial;
-        bottom: -49px;
+        bottom: -1px;
         left: 0;
     }
     .section04 .bx-wrapper .bx-controls-direction a img {
@@ -2347,22 +2368,27 @@ body .section07 .bx-pager-link span + span {
     }
     .section07 .bx-controls {
         top: initial;
-        bottom: -40px;
+        bottom: 30px;
         width: 100%;
         left: 0;
     }
 
     body .section07 .bx-wrapper {
         position: relative;
-        top: 0;
+        top: -22px;
         left: 0;
         margin-top: 55px;
     }
 
+.section07 .max-layout-width:first-child {
+    padding-top: 81px;
+    margin-bottom: 0;
+}
     .section07 .max-layout-width {
         text-align: center;
-        padding: 0 30px;
+        padding: 0 20px;
         box-sizing: border-box;
+        margin-bottom: 50px;
     }
 
     .slider-pagenation br {
@@ -2371,12 +2397,14 @@ body .section07 .bx-pager-link span + span {
 
     body .section07 .bx-pager-link span:first-child {
         margin-right: 0;
-        margin-bottom: 10px;
+        margin-bottom: 14px;
+        font-weight: 500;
     }
 
     body .section07 .bx-pager-link span {
         display: block;
         margin-right: 0;
+        line-height: 0.65;
     }
 
     body .section07 .bx-pager-link span.line {
@@ -2387,7 +2415,7 @@ body .section07 .bx-pager-link span + span {
     }
 
     .slider-pagenation {
-        margin-top: 39px;
+        margin-top: 32px;
         width: 100%;
         overflow: hidden;
         height: auto;
@@ -2426,15 +2454,18 @@ body .section07 .bx-pager-link span + span {
 
     .section01 .text h2 {
         font-size: 42px;
-        margin-bottom: 42px;
+        margin-bottom: 22px;
+        padding-top: 17px;
     }
 
     .section01 .text p {
         width: 320px;
         margin: 0 auto;
-        line-height: 1.6;
+        line-height: 1.5;
         word-break: keep-all;
         margin-bottom: 20px;
+        font-size: 14px;
+        letter-spacing: -1px;
     }
 
     .section01 .control {
@@ -2447,6 +2478,10 @@ body .section07 .bx-pager-link span + span {
     .fp-menu ul.quick {
         transform: translateX(-50%) translateY(130px);
     }
+
+.section02 li img.mobile {
+display: block;
+}
 
     .section02 li {
         width: 48%;
@@ -2467,7 +2502,7 @@ body .section07 .bx-pager-link span + span {
     }
 
     .section02 .max-layout-width {
-        padding-top: 82px;
+        padding-top: 21px;
     }
 
     .section02 h2 {
@@ -2475,35 +2510,40 @@ body .section07 .bx-pager-link span + span {
     }
 
     .section02 .bg {
-        bottom: -70px;
+        bottom: -39px;
+        height: 343px;
     }
 
     .section02 .display-inline-block {
-        padding: 0 19px;
+        padding: 0 20px;
         box-sizing: border-box;
     }
 
     .section04 {
         padding: 0 10px;
-        padding-bottom: 200px;
+        padding-bottom: 128px;
         box-sizing: border-box;
+        background: #fff;
     }
 
     .section04 .text {
         text-align: center;
+        padding-top: 101px;
     }
 
     .section04 .bx-wrapper {
         margin: 0 auto;
-        margin-top: 150px;
+        margin-top: 118px;
     }
 
     .section04 .details-link {
         bottom: -627px;
         top: auto;
         left: 50%;
-        margin-left: -92px;
+        margin-left: -66px;
         background: #fff;
+        font-size: 15px;
+        line-height: 0.7;
     }
 
     .section04 .bx-wrapper .bx-controls-direction a {
@@ -2542,7 +2582,7 @@ body .section07 .bx-pager-link span + span {
 
     .section05 .bg {
         width: 100%;
-        bottom: -60px;
+        bottom: -19px;
         height: 676px;
     }
 
@@ -2560,7 +2600,7 @@ body .section07 .bx-pager-link span + span {
     }
 
     .section05 > div {
-        padding: 0 30px;
+        padding: 0 20px;
         height: auto;
     }
 
@@ -2569,7 +2609,7 @@ body .section07 .bx-pager-link span + span {
     }
 
     .section05 .big-img .img {
-        height: 306px;
+        height: 223px;
         width: 100%;
         background-size: cover !important;
         background-position-y: -140px !important;
@@ -2599,6 +2639,21 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:582px) {
+    .section05 .big-img .cont01 .img {
+    background: url(../images/main/docter03_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont02 .img {
+    background: url(../images/main/docter01_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont03 .img {
+    background: url(../images/main/docter02_m.jpg) no-repeat;
+    background-size: contain;
+}
+
     .section01 .text h2 {
         font-size: 30px;
     }
@@ -2608,13 +2663,29 @@ body .section07 .bx-pager-link span + span {
     }
 
     .section05 .sub-text {
-        font-size: 30px;
+        font-size: 28px;
+        margin-bottom: 38px;
+        line-height: 1.2;
     }
 
 
 }
 
 @media screen and (max-width: 640px) {
+    .section05 .big-img .cont01 .img {
+    background: url(../images/main/docter03_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont02 .img {
+    background: url(../images/main/docter01_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont03 .img {
+    background: url(../images/main/docter02_m.jpg) no-repeat;
+    background-size: contain;
+}
     .section01 .img01 {
         background: url(../images/main/img_main01_m.jpg) no-repeat;
         background-size: cover;
@@ -2681,10 +2752,11 @@ body .section07 .bx-pager-link span + span {
         padding-right: 20;
     }
     .community .online p {
-        font-size: 15px;
+        font-size: 14px;
     }
     .community .online h3 {
         font-size: 25px;
+        margin-bottom: 31px;
     }
     .community .community-container > div.etc  {
         height: auto;
@@ -2715,18 +2787,20 @@ body .section07 .bx-pager-link span + span {
     }
     .community .etc ul {
         width: 100%;
-        margin-top: 25px;
+        margin-top: 18px;
         height: auto;
     }
     .community .etc .reserve p br {
         display: none;
     }
     .community .etc .reserve h2 {
-        margin-bottom: 10px;
+        margin-bottom: -9px;
+        font-size: 23px;
+        letter-spacing: -1px;
     }
     .community .etc .reserve {
         width: 100%;
-        height: 154px;
+        height: 110px;
     }
     .community .etc .reserve a {
         padding-top: 50px;
@@ -2735,17 +2809,36 @@ body .section07 .bx-pager-link span + span {
     }
     .community .etc .reserve h2:before {
         top: 12px;
-        left: 211px;
+        left: 174px;
+        width: 26px;
+        height: 5px;
     }
 }
 
 @media screen and (max-width:550px) {
+    .section05 .big-img .cont01 .img {
+    background: url(../images/main/docter03_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont02 .img {
+    background: url(../images/main/docter01_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont03 .img {
+    background: url(../images/main/docter02_m.jpg) no-repeat;
+    background-size: contain;
+}
     .footer-info-container, .footer-info-container .fp-tableCell {
-        height: 560px !important;
+        height: 411px !important;
     }
 }
 
 @media screen and (max-width:500px) {
+    .section01 .slide-item {
+    padding-top: 0px;
+     }
     .section09 .slide-text p:after {
         width: 30px;
         height: 30px;
@@ -2774,21 +2867,46 @@ body .section07 .bx-pager-link span + span {
         font-size: 22px;
     }
     .case h2 {
-        font-size: 30px;
+        font-size: 28px;
+        margin-bottom: 41px;
     }
     .case .case-slider h3 {
-        font-size: 20px;
+        font-size: 18px;
+        padding-top: 17px;
     }
     .case .case-slider p {
-        font-size: 14px;
+        font-size: 15px;
+        margin-top: 6px;
     }
     .section07 h5 {
-        font-size: 25px;
+        font-size: 21px;
         word-break: keep-all;
+        margin-top: 36px;
+        margin-bottom: 10px;
     }
 
+    .section07 .module {
+    cursor: pointer;
+    transition: all .3s ease;
+    width: 100%;
+}
+
+.case .more {
+    width: 142px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 2px solid #666668;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-top: -77px;
+    font-size: 15px;
+}
+
     .section07 h5 + p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     body .section07 .bx-pager-link span + span {
@@ -2848,16 +2966,33 @@ body .section07 .bx-pager-link span + span {
     }
 
     .section04 .bx-wrapper .bx-controls-direction a.bx-prev {
-        margin-left: -66px;
+        margin-left: -61px;
+        top: -86px;
     }
 
     .section04 .bx-wrapper .bx-controls-direction a.bx-next {
-        margin-right: -66px;
+        margin-right: -61px;
+        top: -86px;
     }
 
     .section04 .details-link {
         bottom: -560px;
     }
+    .community .community-container h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.community .online h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 19px;
+    letter-spacing: -1.5px;
+}
+
 }
 
 
@@ -2868,17 +3003,71 @@ body .section07 .bx-pager-link span + span {
 
 @media screen and (max-width:450px) {
     .community .online h3 {
-        font-size: 21px;
+        font-size: 19px;
     }
     .section05 .text {
         width: 100%;
     }
+    .section01 .slide-item {
+    padding-top: 0px;
+     }
 }
 
 @media screen and (max-width:414px) {
+    .section05 .big-img .cont01 .img {
+    background: url(../images/main/docter03_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont02 .img {
+    background: url(../images/main/docter01_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont03 .img {
+    background: url(../images/main/docter02_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+    .section05 .text .title span:first-child {
+    font-size: 33px;
+    margin-right: 13px;
+}
+
+.section05 .dc {
+    line-height: 1.65;
+    letter-spacing: -1px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.section05 .sub-text span {
+    font-family: ink !Important;
+    color: #dc7113;
+}
+
+    .section09 h4 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    letter-spacing: -2px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.section09 h4 + p {
+    font-size: 14px;
+    color: #212121;
+    margin-bottom: 29px;
+    letter-spacing: -1px;
+    text-align: center;
+}
     .section02 li img.pc {
         display: none;
     }
+
+    .section01 .slide-item {
+    padding-top: 0px;
+     }
     .section02 li img.mobile {
         width: 100%;
     }
@@ -2894,16 +3083,17 @@ body .section07 .bx-pager-link span + span {
         height: 166px;
     }
     .community .etc ul li {
-        height: 86px;
+        height: 62px;
     }
     .community .etc ul li a {
-        padding: 30px 24px;
+        padding: 20px 24px;
     }
     .community .community-container > div {
-        height: 350px;
+        height: 223px;
     }
     .slide-item {
-        width: 166px;
+        width: 174px;
+        /* padding-bottom: 52px; */
     }
     .section07 .text .num {
         right: 0;
@@ -2919,7 +3109,8 @@ body .section07 .bx-pager-link span + span {
         line-height: 90px;
     }
     .review-text h4 {
-        font-size: 20px;
+        font-size: 19px;
+        margin-bottom: 11px;
     }
     .review-text {
         padding-top: 20px;
@@ -2961,23 +3152,33 @@ body .section07 .bx-pager-link span + span {
         height: 95px;
     }
     .community .etc ul li h2 {
-        font-size: 20px;
+        font-size: 16px;
+        letter-spacing: -1px;
     }
     .community .etc .reserve p {
-        font-size: 15px;
-        margin-top: 20px
+        font-size: 14px;
+        margin-top: 20px;
+        letter-spacing: -1px;
     }
     .community .etc .reserve a {
-        padding-left: 20px;
-        padding-top: 35px
+        padding-left: 27px;
+        padding-top: 30px;
     }
     .community .online a {
         padding-left: 30px;
-        padding-top: 80px;
+        padding-top: 46px;
     }
     .section07 h4 {
-        font-size: 33px;
+        font-size: 28px;
+        line-height: 0.8;
     }
+
+    .section05 .bg {
+    width: 100%;
+    bottom: -33px;
+    height: 573px;
+}
+
     body .section07 .bx-pager-link span:first-child {
         font-size: 20px;
     }
@@ -2991,7 +3192,7 @@ body .section07 .bx-pager-link span + span {
     }
 
     .section01 .control {
-        top: 240px;
+        top: 286px;
     }
 
     .section01 .text {
@@ -3004,11 +3205,14 @@ body .section07 .bx-pager-link span + span {
     }
 
     .section02 li div h3 {
-        font-size: 21px;
+        font-size: 19px;
     }
 
     .section02 h2 {
-        font-size: 30px;
+        font-size: 26px;
+        line-height: 1.2;
+        padding-top: 29px;
+        margin-bottom: 27px;
     }
 
     .section02 li.last div.hover {
@@ -3025,17 +3229,33 @@ body .section07 .bx-pager-link span + span {
 
     .section02 h5 {
         font-size: 14px;
+        margin-top: 25px;
     }
 
     .review-text p {
         width: 100%;
         padding: 0 10px;
-        font-size: 14px;
+        font-size: 13px;
+        line-height: 1.4;
     }
 
     .section04 .details-link {
-        bottom: -510px;
+        bottom: -432px;
+        margin-left: -65px;
+        width: 146px;
+        height: 46px;
     }
+
+    .section04 .details-link:after {
+    content: '';
+    width: 21px;
+    height: 2px;
+    position: absolute;
+    background: #9b8b7e;
+    right: 0;
+    top: 22px;
+    left: auto;
+}
 
     .section04 .text h4 {
         font-size: 28px;
@@ -3043,9 +3263,11 @@ body .section07 .bx-pager-link span + span {
 
     .section04 .text h4 + p {
         font-size: 14px;
+        margin-top: 21px;
+        margin-bottom: -11px;
     }
     .section05 .section-title {
-        font-size: 36px;
+        font-size: 28px;
     }
     .section05 .img-arrow {
         top: 100px;
@@ -3054,11 +3276,32 @@ body .section07 .bx-pager-link span + span {
         width: 50px;
         height: 45px;
     }
+
+    .case .more {
+    width: 142px;
+    height: 43px;
+    box-sizing: border-box;
+    border: 2px solid #666668;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-top: -79px;
+    font-size: 15px;
 }
 
+}
+
+@media screen and (max-width:414px) {
+.footer-info-container, .footer-info-container .fp-tableCell {
+    height: 469px !important;
+}
+
+}
 @media screen and (max-width:400px) {
     .section01 .text h2 {
-        font-size: 27px;
+        font-size: 26px;
     }
 
     .section05 .text {
@@ -3077,12 +3320,52 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:380px) {
+    .section01 .slide-item {
+    padding-top: 0px;
+     }
     .review-text {
         height: 115px;
     }
 }
 
 @media screen and (max-width:375px) {
+
+    .section05 .big-img .cont01 .img {
+    background: url(../images/main/docter03_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont02 .img {
+    background: url(../images/main/docter01_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.section05 .big-img .cont03 .img {
+    background: url(../images/main/docter02_m.jpg) no-repeat;
+    background-size: contain;
+}
+
+.footer-info-container, .footer-info-container .fp-tableCell {
+    height: 449px !important;
+}
+
+    .case .more {
+    width: 142px;
+    height: 43px;
+    box-sizing: border-box;
+    border: 2px solid #666668;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-top: -44px;
+    font-size: 15px;
+}
+
+    .section01 .slide-item {
+    padding-top: 0px;
+     }
     .case .login, .case .slide-item > .module:hover:after {
         height: 112px;
     }
@@ -3097,28 +3380,38 @@ body .section07 .bx-pager-link span + span {
         margin-top: -5.5px;
     }
     .slide-item {
-        width: 148px;
+        width: 155px;
+        padding-bottom: 12px;
     }
     .section05 .img-arrow {
         top: 75px;
     }
     .section05 .section-text {
         font-size: 13px;
+        line-height: 1.4;
     }
     .section05 .section-title {
         font-size: 28px;
     }
     .section04 .details-link {
-        bottom: -480px;
+        bottom: -411px;
+        width: 134px;
+        height: 44px;
     }
+
+    .section04 .details-link:after {
+    top: 21px;
+}
     .section09 h4 + p {
         font-size: 14px;
+        margin-bottom: 34px;
     }
     .section09 h4 {
-        font-size: 30px;
+        font-size: 28px;
+        margin-bottom: 12px;
     }
     .section01 .control {
-        top: 220px;
+        top: 245px;
     }
 
     .section01 .text {
@@ -3138,5 +3431,12 @@ body .section07 .bx-pager-link span + span {
     }
     .slide-item {
         width: 140px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .fp-nav {
+        width: 0;
+        right: 42px;    
     }
 }

@@ -820,9 +820,35 @@ header .header-banner-slider .slide-item04 .go {
 
 
 @media screen and (max-width:768px) {
+.header-logo img {
+    width: 135px;
+}
+    .login-nav {
+    padding-right: 18px;
+    position: relative;
+    margin-right: 8px;
+    margin-top:-8px;
+    }
+
+    header .menu {
+    margin-top: -23px;
+}
+
+    .header-member a img {
+    width: 23px;
+}
+
     header .fixed-box > div {
-        margin-left: 40px;
+        margin-left: 21px;
         padding-right: 0;
+    }
+
+.header-logo {
+    padding-top: 21px;
+    }
+
+    header .fixed {
+    height: 65px;
     }
 
     header .fixed-box > div.cmmn-nav {
@@ -831,7 +857,7 @@ header .header-banner-slider .slide-item04 .go {
     }
 
     .header-panel {
-        padding-right: 30px;
+        padding-right: 7px;
         padding-left: 0;
     }
 
