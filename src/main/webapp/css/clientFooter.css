@@ -330,3 +330,19 @@
         font-size: 12px;
     }
 }
+
+
+
+@media screen and (max-width: 375px) {
+.footer-info-container li p {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.footer-info-container li h3 {
+    font-size: 15px;
+    padding-bottom: 11px;
+    margin-bottom: 15px;
+}
+
+}
