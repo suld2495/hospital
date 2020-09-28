@@ -22,6 +22,7 @@
                 <p>사업자등록번호 : 690-23-00971</p>
                 <p>TEL : <a class="tel text-decoration-none" href="tel:1899-7518">1899-7518</a> <span class="footer-line"></span> FAX : 052-258-2874</p>
                 <p>E-MAIL : misowondent@daum.net</p>
+                <p class="footer-location">주소 : 울산광역시 남구 화합로 150 / 시외고속버스 터미널맞은편 2,3층</p>
             </li>
         </ul>
         <div class="sns-link text-align-center">
@@ -54,7 +55,6 @@
 <section class="footer">
     <div class="max-layout-width">
         <div class="footer-location-container">
-            <p class="footer-location">울산광역시 남구 화합로 150 / 시외고속버스 터미널맞은편 2,3층</p>
             <p class="footer-copyright">Copyright 2020 Misowon Dental Clinic. All Rights Reserved.</p>
         </div>
         <div class="footer-link">
