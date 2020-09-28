@@ -1976,6 +1976,13 @@ body .section07 .bx-pager-link span + span {
     background: url(../images/main/left_wh.png) no-repeat center;
 }
 
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-prev:focus,
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-next:focus  {
+    background-position: center;
+}
+
 .case .next {
     right: -120px;
 }
@@ -2306,19 +2313,19 @@ body .section07 .bx-pager-link span + span {
 
 @media screen and (max-width: 768px) {
     .section05 .big-img .cont01 .img {
-    background: url(../images/main/docter03_m.jpg) no-repeat;
-    background-size: contain;
-}
+        background: url(../images/main/docter03_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont02 .img {
-    background: url(../images/main/docter01_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont02 .img {
+        background: url(../images/main/docter01_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont03 .img {
-    background: url(../images/main/docter02_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont03 .img {
+        background: url(../images/main/docter02_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
     .main-footer {
         display: none !important;
@@ -2380,10 +2387,10 @@ body .section07 .bx-pager-link span + span {
         margin-top: 55px;
     }
 
-.section07 .max-layout-width:first-child {
-    padding-top: 81px;
-    margin-bottom: 0;
-}
+    .section07 .max-layout-width:first-child {
+        padding-top: 81px;
+        margin-bottom: 0;
+    }
     .section07 .max-layout-width {
         text-align: center;
         padding: 0 20px;
@@ -2479,9 +2486,9 @@ body .section07 .bx-pager-link span + span {
         transform: translateX(-50%) translateY(130px);
     }
 
-.section02 li img.mobile {
-display: block;
-}
+    .section02 li img.mobile {
+        display: block;
+    }
 
     .section02 li {
         width: 48%;
@@ -2640,19 +2647,19 @@ display: block;
 
 @media screen and (max-width:582px) {
     .section05 .big-img .cont01 .img {
-    background: url(../images/main/docter03_m.jpg) no-repeat;
-    background-size: contain;
-}
+        background: url(../images/main/docter03_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont02 .img {
-    background: url(../images/main/docter01_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont02 .img {
+        background: url(../images/main/docter01_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont03 .img {
-    background: url(../images/main/docter02_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont03 .img {
+        background: url(../images/main/docter02_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
     .section01 .text h2 {
         font-size: 30px;
@@ -2673,19 +2680,19 @@ display: block;
 
 @media screen and (max-width: 640px) {
     .section05 .big-img .cont01 .img {
-    background: url(../images/main/docter03_m.jpg) no-repeat;
-    background-size: contain;
-}
+        background: url(../images/main/docter03_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont02 .img {
-    background: url(../images/main/docter01_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont02 .img {
+        background: url(../images/main/docter01_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont03 .img {
-    background: url(../images/main/docter02_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont03 .img {
+        background: url(../images/main/docter02_m.jpg) no-repeat;
+        background-size: contain;
+    }
     .section01 .img01 {
         background: url(../images/main/img_main01_m.jpg) no-repeat;
         background-size: cover;
@@ -2817,19 +2824,19 @@ display: block;
 
 @media screen and (max-width:550px) {
     .section05 .big-img .cont01 .img {
-    background: url(../images/main/docter03_m.jpg) no-repeat;
-    background-size: contain;
-}
+        background: url(../images/main/docter03_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont02 .img {
-    background: url(../images/main/docter01_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont02 .img {
+        background: url(../images/main/docter01_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont03 .img {
-    background: url(../images/main/docter02_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont03 .img {
+        background: url(../images/main/docter02_m.jpg) no-repeat;
+        background-size: contain;
+    }
     .footer-info-container, .footer-info-container .fp-tableCell {
         height: 411px !important;
     }
@@ -2837,8 +2844,8 @@ display: block;
 
 @media screen and (max-width:500px) {
     .section01 .slide-item {
-    padding-top: 0px;
-     }
+        padding-top: 0px;
+    }
     .section09 .slide-text p:after {
         width: 30px;
         height: 30px;
@@ -2886,24 +2893,24 @@ display: block;
     }
 
     .section07 .module {
-    cursor: pointer;
-    transition: all .3s ease;
-    width: 100%;
-}
+        cursor: pointer;
+        transition: all .3s ease;
+        width: 100%;
+    }
 
-.case .more {
-    width: 142px;
-    height: 44px;
-    box-sizing: border-box;
-    border: 2px solid #666668;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 40px;
-    color: #fff;
-    margin-top: -77px;
-    font-size: 15px;
-}
+    .case .more {
+        width: 142px;
+        height: 44px;
+        box-sizing: border-box;
+        border: 2px solid #666668;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        margin-top: -77px;
+        font-size: 15px;
+    }
 
     .section07 h5 + p {
         font-size: 14px;
@@ -2979,19 +2986,19 @@ display: block;
         bottom: -560px;
     }
     .community .community-container h1 {
-    text-align: center;
-    font-size: 28px;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 35px;
-}
+        text-align: center;
+        font-size: 28px;
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 35px;
+    }
 
-.community .online h2 {
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 19px;
-    letter-spacing: -1.5px;
-}
+    .community .online h2 {
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 19px;
+        letter-spacing: -1.5px;
+    }
 
 }
 
@@ -3009,65 +3016,65 @@ display: block;
         width: 100%;
     }
     .section01 .slide-item {
-    padding-top: 0px;
-     }
+        padding-top: 0px;
+    }
 }
 
 @media screen and (max-width:414px) {
     .section05 .big-img .cont01 .img {
-    background: url(../images/main/docter03_m.jpg) no-repeat;
-    background-size: contain;
-}
+        background: url(../images/main/docter03_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont02 .img {
-    background: url(../images/main/docter01_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont02 .img {
+        background: url(../images/main/docter01_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont03 .img {
-    background: url(../images/main/docter02_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont03 .img {
+        background: url(../images/main/docter02_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
     .section05 .text .title span:first-child {
-    font-size: 33px;
-    margin-right: 13px;
-}
+        font-size: 33px;
+        margin-right: 13px;
+    }
 
-.section05 .dc {
-    line-height: 1.65;
-    letter-spacing: -1px;
-    font-size: 13px;
-    font-weight: 300;
-}
+    .section05 .dc {
+        line-height: 1.65;
+        letter-spacing: -1px;
+        font-size: 13px;
+        font-weight: 300;
+    }
 
-.section05 .sub-text span {
-    font-family: ink !Important;
-    color: #dc7113;
-}
+    .section05 .sub-text span {
+        font-family: ink !Important;
+        color: #dc7113;
+    }
 
     .section09 h4 {
-    font-size: 28px;
-    margin-bottom: 10px;
-    letter-spacing: -2px;
-    font-weight: 200;
-    text-align: center;
-}
+        font-size: 28px;
+        margin-bottom: 10px;
+        letter-spacing: -2px;
+        font-weight: 200;
+        text-align: center;
+    }
 
-.section09 h4 + p {
-    font-size: 14px;
-    color: #212121;
-    margin-bottom: 29px;
-    letter-spacing: -1px;
-    text-align: center;
-}
+    .section09 h4 + p {
+        font-size: 14px;
+        color: #212121;
+        margin-bottom: 29px;
+        letter-spacing: -1px;
+        text-align: center;
+    }
     .section02 li img.pc {
         display: none;
     }
 
     .section01 .slide-item {
-    padding-top: 0px;
-     }
+        padding-top: 0px;
+    }
     .section02 li img.mobile {
         width: 100%;
     }
@@ -3174,10 +3181,10 @@ display: block;
     }
 
     .section05 .bg {
-    width: 100%;
-    bottom: -33px;
-    height: 573px;
-}
+        width: 100%;
+        bottom: -33px;
+        height: 573px;
+    }
 
     body .section07 .bx-pager-link span:first-child {
         font-size: 20px;
@@ -3247,15 +3254,15 @@ display: block;
     }
 
     .section04 .details-link:after {
-    content: '';
-    width: 21px;
-    height: 2px;
-    position: absolute;
-    background: #9b8b7e;
-    right: 0;
-    top: 22px;
-    left: auto;
-}
+        content: '';
+        width: 21px;
+        height: 2px;
+        position: absolute;
+        background: #9b8b7e;
+        right: 0;
+        top: 22px;
+        left: auto;
+    }
 
     .section04 .text h4 {
         font-size: 28px;
@@ -3278,25 +3285,25 @@ display: block;
     }
 
     .case .more {
-    width: 142px;
-    height: 43px;
-    box-sizing: border-box;
-    border: 2px solid #666668;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 40px;
-    color: #fff;
-    margin-top: -79px;
-    font-size: 15px;
-}
+        width: 142px;
+        height: 43px;
+        box-sizing: border-box;
+        border: 2px solid #666668;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        margin-top: -79px;
+        font-size: 15px;
+    }
 
 }
 
 @media screen and (max-width:414px) {
-.footer-info-container, .footer-info-container .fp-tableCell {
-    height: 469px !important;
-}
+    .footer-info-container, .footer-info-container .fp-tableCell {
+        height: 469px !important;
+    }
 
 }
 @media screen and (max-width:400px) {
@@ -3321,8 +3328,8 @@ display: block;
 
 @media screen and (max-width:380px) {
     .section01 .slide-item {
-    padding-top: 0px;
-     }
+        padding-top: 0px;
+    }
     .review-text {
         height: 115px;
     }
@@ -3331,41 +3338,41 @@ display: block;
 @media screen and (max-width:375px) {
 
     .section05 .big-img .cont01 .img {
-    background: url(../images/main/docter03_m.jpg) no-repeat;
-    background-size: contain;
-}
+        background: url(../images/main/docter03_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont02 .img {
-    background: url(../images/main/docter01_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont02 .img {
+        background: url(../images/main/docter01_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.section05 .big-img .cont03 .img {
-    background: url(../images/main/docter02_m.jpg) no-repeat;
-    background-size: contain;
-}
+    .section05 .big-img .cont03 .img {
+        background: url(../images/main/docter02_m.jpg) no-repeat;
+        background-size: contain;
+    }
 
-.footer-info-container, .footer-info-container .fp-tableCell {
-    height: 449px !important;
-}
+    .footer-info-container, .footer-info-container .fp-tableCell {
+        height: 449px !important;
+    }
 
     .case .more {
-    width: 142px;
-    height: 43px;
-    box-sizing: border-box;
-    border: 2px solid #666668;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 40px;
-    color: #fff;
-    margin-top: -44px;
-    font-size: 15px;
-}
+        width: 142px;
+        height: 43px;
+        box-sizing: border-box;
+        border: 2px solid #666668;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        margin-top: -44px;
+        font-size: 15px;
+    }
 
     .section01 .slide-item {
-    padding-top: 0px;
-     }
+        padding-top: 0px;
+    }
     .case .login, .case .slide-item > .module:hover:after {
         height: 112px;
     }
@@ -3400,8 +3407,8 @@ display: block;
     }
 
     .section04 .details-link:after {
-    top: 21px;
-}
+        top: 21px;
+    }
     .section09 h4 + p {
         font-size: 14px;
         margin-bottom: 34px;
@@ -3437,6 +3444,6 @@ display: block;
 @media screen and (max-width: 820px) {
     .fp-nav {
         width: 0;
-        right: 42px;    
+        right: 42px;
     }
 }
