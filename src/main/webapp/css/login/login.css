@@ -100,3 +100,23 @@
 .naver {
     background: url(../../images/sub/login/join_naver.png);
 }
+
+@media screen and (max-width: 1300px) {
+    .login .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .member-box a {
+        font-size: 13px;
+        padding: 17px 0;
+    }
+}
