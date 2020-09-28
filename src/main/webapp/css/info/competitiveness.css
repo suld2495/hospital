@@ -432,6 +432,8 @@ section {
     background: url(../../images/sub/info/competitiveness/compet10.jpg) no-repeat top center;
 }
 
+
+
 .section-title {
     line-height: 1.2;
     /* letter-spacing: -1.8px; */
@@ -519,13 +521,14 @@ section {
         padding-left: 50px;
     }
     .section02 .section-title {
-        font-size: 30px;
+        font-size: 28px;
     }
 }
 
 @media screen and (max-width: 700px) {
     .section05 {
-        padding-bottom: 50px;
+        padding-bottom: 21px;
+        margin-top: -67px;
     }
     .section05 .img02:after {
         display: none;
@@ -545,9 +548,11 @@ section {
         top: 80px;
     }
     .section04 .sub-text {
-        padding: 0 30px;
+        padding: 0px 30px;
         box-sizing: border-box;
         word-break: keep-all;
+        font-size: 14px;
+        margin-top: 43px;
     }
     .section04 .sub-text br {
         display: none;
@@ -558,6 +563,7 @@ section {
     .section03 {
         margin-top: 300px;
         padding-top: 70px;
+        margin-bottom: 53px;
     }
     .section02 .max-layout-width > div:first-child {
         padding: 0 30px;
@@ -613,29 +619,88 @@ section {
 }
 
 @media screen and (max-width: 640px) {
+    .tabs {
+    margin-top: 45px;
+}
+
+    .tab {
+    font-size: 16px;
+}
+
+
+    .default-tab {
+    margin-top: 40px;
+}
+
+    .tab-contents {
+    height: 0;
+    font-size: 28px;
+    /* line-height: 1.4; */
+    opacity: 0;
+    transition: none;
+    color: #fff;
+    letter-spacing: -2px;
+    font-family: KCC !important;
+}
+
+
+    .section04 .section-sub-title {
+    font-size: 19px;
+
+}
+
+    .section04 {
+    padding: 79px 0 70px 0;
+}
+
+    .section-title {
+    line-height: 1.2;
+    /* letter-spacing: -1.8px; */
+    /* padding-bottom: 21px; */
+    font-size: 28px;
+}
+
+    .section03 .move-title {
+    margin-bottom: 17px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: Caveat !important;
+    opacity: 0.1;
+    font-size: 38px;
+    margin-top: -17px;
+    line-height: 1.1;
+}
+    .section02 {
+    margin-top: 20px;
+    padding-bottom: 32px;
+}
+.section01 {
+    margin-top: 40px;
+}
     .section03 .image_box_right {
-        top: 470px;
+        top: 347px;
     }
     .section01 .img01 {
         width: 100%;
         left: 0;
-        height: 337px;
+        height: 256px;
     }
     .section01 .text h6 {
         display: none;
     }
     .section01 .text {
-        padding-top: 400px
+        padding-top: 291px;
     }
     .section01 .section-title {
-        padding: 0 30px;
+        padding: 0px 21px;
     }
     .section01 .text h6 + div:before {
         left: 0;
     }
     .section01 .list{
-        margin-top: 30px;
-        padding: 0 30px;
+        margin-top: 18px;
+        padding: 0 0px;
         background: none;
     }
     .list li {
@@ -668,7 +733,8 @@ section {
         font-size: 15px;
     }
     .section03 .text .section-text {
-        font-size: 15px;
+        font-size: 14px;
+        line-height: 1.6;
     }
 }
 
@@ -693,7 +759,8 @@ section {
         height: 760px;
     }
     .section02 .section-text {
-        margin-top: 20px;
+        margin-top: 9px;
+        line-height: 1.6;
     }
     .section02 .img01 .img {
         background-size: contain;
@@ -704,13 +771,13 @@ section {
         margin-bottom: -3px;
     }
     .list-img {
-        height: 100px;
+        height: 108px;
         width: 100px;
         background-size: contain;
         margin: 0 auto;
     }
     .section01 .section-title {
-        font-size: 31px;
+        font-size: 28px;
         word-break: keep-all;
     }
     .section01 .section-title br {
@@ -720,7 +787,7 @@ section {
         border-top: none;
     }
     .list li {
-        height: 161px;
+        height: 165px;
         border-top: 1px solid #c6c6c6 !important;
     }
     .list ul {

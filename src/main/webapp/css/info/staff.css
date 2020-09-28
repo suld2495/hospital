@@ -318,7 +318,7 @@ p + .dec-title {
 
 @media screen and (max-width: 1300px) {
     .sub-contents > .max-layout-width {
-        padding: 0 30px;
+        padding: 0 20px;
         box-sizing: border-box;
     }
     .tab-contents .text .max-layout-width {
@@ -329,13 +329,64 @@ p + .dec-title {
     }
     .staff-info-box .text p {
         width: 100%;
-        padding: 0 30px;
+        padding: 0px 30px;
         box-sizing: border-box;
-        word-break: keep-all
+        word-break: keep-all;
     }
 }
 
 @media screen and (max-width: 900px) {
+
+    .staff-info-box {
+    padding-bottom: 75px;
+    padding-top: 8px;
+}
+
+    .staff-info {
+    margin-top: 55px;
+}
+
+    .staff-info-box h1 {
+    padding-top: 57px;
+    margin-bottom: 30px;
+    font-size: 31px;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+}
+
+    .doctor-info {
+    margin-top: 40px;
+}
+
+
+    p + .dec-title {
+    margin-top: 30px;
+    letter-spacing: -1px;
+}
+
+    .dec-title {
+    margin-bottom: 8px;
+    font-size: 17px;
+    letter-spacing: -1px;
+}
+    .tab li {
+    width: 50%;
+    float: left;
+    background: #fff;
+    color: #373330;
+    padding: 12px 0px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 16px;
+    letter-spacing: -1px;
+    /* margin-bottom: 2px; */
+}
+
+.tab {
+    width: 100%;
+    margin: 40px 0;
+    border: 1px solid #ddd;
+}
     .staff-info-box .text-left.text p {
         float: none;
     }
@@ -346,7 +397,7 @@ p + .dec-title {
         display: none;
     }
     .doctor-info-left .text {
-        padding-top: 474px;
+        padding-top: 502px;
     }
     .doctor-info-left .text-bg {
         padding-top: 0;
@@ -395,10 +446,10 @@ p + .dec-title {
     }
     .staff-contents .image_box_left, .staff-contents .image_box_right {
         width: 100%;
-        height: 341px;
+        height: 211px;
     }
     .staff-contents .text {
-        padding-top: 341px;
+        padding-top: 201px;
         padding-right: 0;
     }
     .staff-contents .text > div {
@@ -412,6 +463,9 @@ p + .dec-title {
     }
     .staff-info-box .text p {
         padding-left: 0;
+        font-size: 14px;
+        line-height: 1.6;
+        margin-top: 64px;
     }
     .staff-contents .last-title + p:after {
         width: 100%;
@@ -421,15 +475,18 @@ p + .dec-title {
 
 @media screen and (max-width: 414px)  {
     .title {
-        font-size: 32px;
+        font-size: 30px;
         padding-right: 30px;
         word-break: keep-all;
+        line-height: 1.0;
     }
     .doctor-title {
-        font-size: 30px;
+        font-size: 28px;
+        margin-bottom: 39px;
     }
     .dec {
-        font-size: 15px;
+        font-size: 14px;
+        line-height: 1.6;
     }
     .text > div {
         padding-left: 30px

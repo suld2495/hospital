@@ -205,7 +205,7 @@
         height: 220px;
     }
     .footer-info-container, .footer-info-container .fp-tableCell {
-        height: 600px !important;
+        height: 453px !important;
     }
     .footer-info-container .max-layout-width > ul li:last-child {
         margin-top: 23px;
@@ -237,7 +237,7 @@
 
 @media screen and (max-width: 828px) {
     .footer, .footer .fp-tableCell {
-        height: 140px !important;
+        height: 72px !important;
     }
     .footer-location-container {
         text-align: center;

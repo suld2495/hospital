@@ -854,6 +854,25 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    .sub-page-title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 13px;
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+.sub-page-intro {
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #ddd;
+    width: 39px;
+    height: 5px;
+    background: #9b8b7e;
+    text-indent: -9999px;
+  }
 
     div.sub {
         padding-top: 0;
