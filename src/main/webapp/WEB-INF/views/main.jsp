@@ -211,7 +211,8 @@
                         </div>
                     </li>
                     <li class="last">
-                        <img src="<c:url value='/images/main/point_img03.jpg'/>">
+                        <img class="pc" src="<c:url value='/images/main/point_img03.jpg'/>">
+                        <img class="mobile" src="<c:url value='/images/main/point_img03_m.png'/>">
                         <div class="nomal">
                             <h3>#자연치아</h3>
                         </div>

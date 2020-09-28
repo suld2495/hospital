@@ -2611,6 +2611,24 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width: 640px) {
+    .section01 .img01 {
+        background: url(../images/main/img_main01_m.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .section01 .img02 {
+        background: url(../images/main/img_main02_m.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .section01 .img03 {
+        background: url(../images/main/img_main03_m.jpg) no-repeat;
+        background-size: cover;
+    }
+    .section01 .img04 {
+        background: url(../images/main/img_main04_m.jpg) no-repeat;
+        background-size: cover;
+    }
     .case .control {
         top: -109px;
     }
@@ -2854,8 +2872,19 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:414px) {
-    .case .login {
+    .section02 li img.pc {
+        display: none;
+    }
+    .section02 li img.mobile {
+        width: 100%;
+    }
+    .case .login a {
+        padding-top: 67px;
+        font-size: 15px;
+    }
+    .case .login, .case .slide-item > .module:hover:after {
         height: 126px;
+        top: 0;
     }
     .section09 .slide-item {
         height: 166px;
@@ -3050,7 +3079,7 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:375px) {
-    .case .login {
+    .case .login, .case .slide-item > .module:hover:after {
         height: 112px;
     }
     .section09 .slide-item {
@@ -3094,7 +3123,10 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width: 360px) {
-    .case .login {
+    .case .login a {
+        font-size: 12px;
+    }
+    .case .login, .case .slide-item > .module:hover:after {
         height: 106px;
     }
     .section09 .slide-item {
