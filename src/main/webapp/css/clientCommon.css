@@ -782,9 +782,13 @@ section.board-link ul li {
     }
     section.section-quotes-title-right .max-layout-width .text > div:before {
         left: 30px;
+        height: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     section.section-quotes-title-right .section-title {
         padding-left: 130px;
+        padding-top: 66px;
     }
     section.section-quotes-title-right .image_box_right {
         width: 100%;
@@ -850,6 +854,7 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+
     div.sub {
         padding-top: 0;
     }
@@ -988,6 +993,9 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 414px) {
+    .section05 .max-layout-width .text > div {
+        padding-right: 0px;
+    }
     section.section-quotes-title-left .max-layout-width .text > div:before {
         width: 100px;
         height: 100px;
@@ -1017,6 +1025,8 @@ section.board-link ul li {
     }
     section.section-quotes-title-right .section-title {
         padding-left: 50px;
+        font-size: 28px;
+        word-break: keep-all;
     }
     section.section-quotes-title-right .section-title br {
         display: none;

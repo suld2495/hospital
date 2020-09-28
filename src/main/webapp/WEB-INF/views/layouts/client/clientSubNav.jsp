@@ -2,8 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <c:set var="path" value="${requestScope['javax.servlet.forward.servlet_path']}" />
-<c:set var="array" value="${fn:split('미소원치과,임플란트,치아교정,자연치아 클리닉,커뮤니티,개인정보,회원로그인,회원가입,마이페이지',',')}"/>
-<c:set var="urlArray" value="${fn:split('/intro,/digital_implants,/misowon_orthodontics,/general,/notice,/login,/member_agreement,/mypage_reservation',',')}"/>
+<c:set var="array" value="${fn:split('미소원치과,임플란트,치아교정,자연치아 클리닉,커뮤니티,개인정보,회원로그인,회원가입,마이페이지,심미보철치료',',')}"/>
+<c:set var="urlArray" value="${fn:split('/intro,/digital_implants,/misowon_orthodontics,/general,/notice,/login,/member_agreement,/mypage_reservation,/aesthetic',',')}"/>
 
 <div class="sub">
     <div class="sub-image">
@@ -45,6 +45,10 @@
                 <p>내 정보 관리와 미소원치과 예약내역을</p>
                 <p>확인하실 수 있습니다.</p>
             </c:if>
+            <c:if test="${category eq 9}">
+                <p>웃는 모습의 아름다움을 찾을 수 있도록</p>
+                <p>개인의 얼굴에 맞는 치아로 미소를 찾아드립니다.</p>
+            </c:if>
         </div>
         <nav class="pc-category">
             <c:if test="${category eq 0}">
@@ -78,7 +82,6 @@
             <c:if test="${category eq 3}">
                 <ul>
                     <li><a <c:if test="${path eq '/general'}">class="active"</c:if> href="<c:url value="/general"/>" >충치/치주/신경치료</a></li>
-                    <li><a <c:if test="${path eq '/aesthetic'}">class="active"</c:if> href="<c:url value="/aesthetic"/>">심미보철치료</a></li>
                     <li><a <c:if test="${path eq '/wisdom'}">class="active"</c:if> href="<c:url value="/wisdom"/>">사랑니 발치</a></li>
                     <li><a <c:if test="${path eq '/scaling'}">class="active"</c:if> href="<c:url value="/scaling"/>">스케일링</a></li>
                 </ul>
@@ -91,6 +94,12 @@
                     <li><a <c:if test="${path eq '/online-consult'}">class="active"</c:if> href="<c:url value="/online-consult/1"/>">온라인 상담</a></li>
                     <li><a <c:if test="${path eq '/reserve'}">class="active"</c:if> href="<c:url value="/reserve-write"/>">예약 상담 신청</a></li>
                     <li><a <c:if test="${path eq '/media'}">class="active"</c:if> href="<c:url value="/media/1"/>">미디어</a></li>
+                </ul>
+            </c:if>
+            <c:if test="${category eq 9}">
+                <ul>
+                    <li><a <c:if test="${path eq '/aesthetic'}">class="active"</c:if> href="<c:url value="/aesthetic"/>" >라미네이트</a></li>
+                    <li><a <c:if test="${path eq '/aesthetic-ceramic'}">class="active"</c:if> href="<c:url value="/aesthetic-ceramic"/>">올 세라믹 크라운</a></li>
                 </ul>
             </c:if>
         </nav>
@@ -148,7 +157,6 @@
                         </c:if>
                         <c:if test="${category eq 3}">
                                 <li><a href="<c:url value="/general"/>" >충치/치주/신경치료</a></li>
-                                <li><a href="<c:url value="/aesthetic"/>">심미보철치료</a></li>
                                 <li><a href="<c:url value="/wisdom"/>">사랑니 발치</a></li>
                                 <li><a href="<c:url value="/scaling"/>">스케일링</a></li>
                         </c:if>
@@ -159,6 +167,10 @@
                                 <li><a href="<c:url value="/online-consult/1"/>">온라인 상담</a></li>
                                 <li><a href="<c:url value="/reserve-write"/>">예약 상담 신청</a></li>
                                 <li><a href="<c:url value="/media/1"/>">미디어</a></li>
+                        </c:if>
+                        <c:if test="${category eq 9}">
+                            <li><a href="<c:url value="/aesthetic"/>" >라미네이트</a></li>
+                            <li><a href="<c:url value="/aesthetic-ceramic"/>">올세라믹 크라운</a></li>
                         </c:if>
                     </ul>
                 </li>

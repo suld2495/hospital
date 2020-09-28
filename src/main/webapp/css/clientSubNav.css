@@ -246,3 +246,10 @@
         color: #fff;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .mobile-category ul.sub-category-active > li > span,
+    .sub-category-list a {
+        font-size: 13px;
+    }
+}

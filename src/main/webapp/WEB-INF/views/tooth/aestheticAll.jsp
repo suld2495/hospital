@@ -70,26 +70,27 @@
             <p class="section-text">미소원치과는 개인 맞춤형 심미보철 치료를 통해 건강하고 아름다운 인상을 만들어 드립니다.</p>
             <div class="tab">
                 <ul>
-                    <li class="active"><a href="<c:url value='/aesthetic'/>">라미네이트</a></li>
-                    <li><a href="<c:url value='/aesthetic-ceramic'/>">올세라믹 크라운</a></li>
+                    <li><a href="<c:url value='/aesthetic'/>">라미네이트</a></li>
+                    <li class="active"><a href="<c:url value='/aesthetic-ceramic'/>">올세라믹 크라운</a></li>
                 </ul>
             </div>
         </div>
         <div class="bg"></div>
     </section>
 
-    <div class="tab-container tab-contents1 active">
+    <div class="tab-container tab-contents2 active">
         <div class="section04 wow fadeInUp">
             <div class="max-layout-width">
                 <div class="tab-contents">
                     <ul>
                         <li class="active">
-                            <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic08.jpg' />">
+                            <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic02.jpg' />">
                             <div>
-                                <h2>라미네이트</h2>
+                                <h2>올세라믹 크라운</h2>
                                 <p>
-                                    <strong>치아 삭제량을 최소</strong>로 하여 손상,변형,변색 등으로 치아가 제 기능을 하지 못하고 심미적으로도 만족스럽지 못할 때 <strong>단 기간에 치아색,모양,크기,배열 등을 바꿔주는
-                                    심미치료방법</strong>으로 원하는 대로 디자인 할 수 있고, <strong>반영구적인 미백효과</strong>가 있습니다. 인조손톱 모양의 얇은 사기판을 접착하는 방식의 치료입니다.
+                                    올세라믹 크라운은 라미네이트와 같은 치사성형의 한 방법으로,세라믹을 이용하여 <strong>치아 전체를 감싸주는 치료방법</strong>입니다.
+                                    <strong>치아 사이가 벌어졌거나, 치열이 고르지않거나 단기간에 치아색,모양,크기 배열을 바꿀 때 </strong>올세라믹 치료가 이루어집니다. 전체치료기간은 약 1주일
+                                    정도로 짧으며 보철물이 두터우므로 <strong>쉽게 깨지거나 떨어지지않으며 비교적 저작력이 우수</strong>합니다.
                                 </p>
                             </div>
                         </li>
@@ -107,12 +108,12 @@
                 <div class="text">
                     <div>
                         <h2 class="section-title">
-                            <strong>최소한의 치아삭제</strong>로<br>
-                            하루만에 가능한 라미네이트
+                            <strong>라미네이트보다<br>튼튼하고 씹는 힘이 강한</strong><br>
+                            올세라믹 크라운
                         </h2>
                         <p class="section-text">
-                           자연치아를 최대한 보존하는 상태에서 치아의 건강함과 아름다움을 동시에 만족시키며 더욱 자신있고 매력적인 인상을 하루만에 만들어 드립니다. 가능한 매우 얇고 심미성이 뛰어난 재질로
-                            라미네이트를 제작합니다. 투명하며 자연치아와 거의 같은 색상을 구현하며, 환자의 구강구조를 고려한 심미적인 디자인을 만들기때문에 많은분들이 만족감을 느낍니다.
+                            올세라믹 치료는 라미네이트 치료보다 더 많은 변화가 가능한 만큼 더 많은 치아삭제가 필요합니다. 신경치료 후 치아보호를 위해 사용하거나 치료범위가 넓어 라미네이트 치료가 곤란한 경우
+                            치아삭제 후 전체에 세라믹 보철물 캡을 씌우는 치료입니다. 단순히 치아만 하얗게 만드는 것이 아니라 치아의 명도,투명도,피부톤 등 종합적인 밸런스를 고려합니다.
                         </p>
                     </div>
                 </div>
@@ -120,22 +121,47 @@
             <div class="bg"></div>
         </section>
 
-        <section class="section06 list-content list-content-right wow fadeInUp">
+        <section class="section11 img-four wow fadeInUp">
+            <div class="bg"></div>
+            <div class="max-layout-width">
+                <h2><strong>올세라믹 크라운의 장점은?</strong></h2>
+                <p>
+                    올세라믹은 다양한 사례에 폭넓게 사용될 수 있어 장점이 많지만, <strong>라미네이트에 비해 치아 삭제량이 많아</strong><br>
+                    <strong><span>초기 상담부터 정확한 정밀진단을 토대로 의료진과 충분한 상담</span></strong>을 거치는 것이 중요합니다.
+                </p>
+                <ul class="text">
+                    <li class="img01">
+                        <p>치아나 잇몸에<br> 해가 없는 좋은 성분</p>
+                    </li>
+                    <li class="img02">
+                        <p>금속을 사용하지 않아<br>알레르기 환자에 적합</p>
+                    </li>
+                    <li class="img03">
+                        <p>자연치아와 매우<br>유사한 형태가 가능</p>
+                    </li>
+                    <li class="img04">
+                        <p>라미네이트보다 다양한<br>부위의 치아성형 가능</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section12 list-content list-content-right wow fadeInUp">
             <div class="max-layout-width">
                 <div class="image_box_left">
-                    <p class="img laminate"></p>
+                    <p class="img allceramic"></p>
                 </div>
                 <div class="text">
                     <div>
                         <h2 class="section-title">
-                            <span class="section-title-color bold">라미네이트 치료</span>가 필요한 경우<br>
+                            <strong>올세라믹 클리닉</strong>이 필요한 경우
                         </h2>
-                        <p class="pager pointer active"><span>01</span>앞니가 벌어지거나 틀어져 자신있게 웃을 수 없는 경우</p><br>
-                        <p class="pager pointer"><span>02</span>치아교정을 하고 싶지만 시간상 여유와 비용때문에 고민인 경우</p><br>
-                        <p class="pager pointer"><span>03</span>치아가 착색되거나 변색이 된 경우</p><br>
-                        <p class="pager pointer"><span>04</span>치아 모양이 올바르지 않고 치아 간의 크기가 다른 경우</p><br>
-                        <p class="pager pointer"><span>05</span>앞니에 생긴 충치를 해결하고 싶으신 경우</p><br>
-                        <p class="pager pointer"><span>06</span>선천적으로 치아 형태가 이상한 경우</p><br>
+                        <p class="pager">덧니,돌출된 치아,불규칙한 앞니를 갖고 계신 분</p><br>
+                        <p class="pager">사고나 충치로 신경치료가 필요하신 분</p><br>
+                        <p class="pager">치아의 모양,위치,형태 등 심미적으로 좋지 않은 경우</p><br>
+                        <p class="pager">심한 착색 또는 변색으로 나아지지 않자 고민이신 분</p><br>
+                        <p class="pager">교정 치료를 원하지만 치료 기간을 단축하고 싶은 경우</p><br>
+                        <p class="pager">치료 범위가 넓어 라미네이트 진행이 어려운 경우</p><br>
                     </div>
                 </div>
             </div>
@@ -145,104 +171,83 @@
 
         <section class="text-slider wow fadeInUp">
             <h2 class="section-title">
-                라미네이트,편리해도<br>
-                <strong class="section-title-color">정확한 진료와 안전한 시술이 필요</strong>합니다.
+                한 번의 내원만으로도 <strong class="section-title-color">만족스러운 결과</strong><br>
+                미소원치과의 <strong class="section-title-color">올세라믹 크라운 치료</strong>
             </h2>
             <p class="section-text">
-                미소원치과는 끊임없는 연구로 각 개인의 얼굴 및 치아에 최적화된 심미치료 결과를 얻습니다.
+                미소원치과는 무리한 시술 강행으로 인한 부작용 없는 시술과 풍부한 경험 및 기술력으로 만족도 높은 결과를 보여드립니다.
             </p>
             <div class="slider">
                 <div>
                     <div class="text">
                         <h2>
-                            <strong>미소원치과는<br> 최소삭제로 안전하고<br> 예쁘게 살려냅니다.</strong>
+                            <strong>미소원치과는 최소삭제로<br>안전하고 예쁘게<br>치아를 살려냅니다.</strong>
                         </h2>
                         <h3>01</h3>
                         <p>
-                            미소원치과에서는 치아삭제를 많이하면 치아의 근관이 훼손되어 시림 증상이나 통증이 일어나는 부작용을 방지하기위해 시술경험이 풍부한 의료진들이 치아 앞면을 미세하게 삭제하여 치아건강을
-                            고려하여 라미네이트를 시행합니다.
+                            치아 겉면에 붙이는 라미네이트와는 달리 치아 전체를 덮어 씌우는 올세라믹의 경우 크기와 형태 색상까지 원하는 대로 바꿀 수 있으며 필요한 경우 교정치료의 효과도 얻을 수 있습니다.
                         </p>
                     </div>
                     <div class="img img01">
-                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic11_1.jpg' />">
+                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic05_1.jpg' />">
                     </div>
                     <div class="text mobile-text">
                         <h2>
-                            <strong>미소원치과는<br> 최소삭제로 안전하고<br> 예쁘게 살려냅니다.</strong>
+                            <strong>미소원치과는 최소삭제로<br>안전하고 예쁘게<br>치아를 살려냅니다.</strong>
                         </h2>
                         <h3>01</h3>
                         <p>
-                            미소원치과에서는 치아삭제를 많이하면 치아의 근관이 훼손되어 시림 증상이나 통증이 일어나는 부작용을 방지하기위해 시술경험이 풍부한 의료진들이 치아 앞면을 미세하게 삭제하여 치아건강을
-                            고려하여 라미네이트를 시행합니다.
+                            치아 겉면에 붙이는 라미네이트와는 달리 치아 전체를 덮어 씌우는 올세라믹의 경우 크기와 형태 색상까지 원하는 대로 바꿀 수 있으며 필요한 경우 교정치료의 효과도 얻을 수 있습니다.
                         </p>
                     </div>
                 </div>
                 <div>
                     <div class="text">
                         <h2>
-                            <strong>높은 완성도로<br> 치아의 광채까지<br> 자연스럽게 살려냅니다.</strong>
+                            <strong>안전한 올세라믹<br> 시술을 위해 사전에<br> 일반진료를 진행합니다.</strong>
                         </h2>
                         <h3>02</h3>
                         <p>
-                            얼굴형에 따라, 느낌에 따라 아름다움이 부각될 수 있는 치아 디자인이 가능합니다 환자의 니즈에 따라 다양한 치아 디자인이 가능합니다.
+                            부작용의 우려가 없도록 시술 전에 충치 치료, 신경치료등 필요한 치료를 진행하고, 최소한의
+                            치아를 삭제하여 시린 증상 등 부작용을 최소화하도록 안전하게 치료를 진행하고 있습니다.
+
                         </p>
                     </div>
                     <div class="img img02">
-                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic11_2.jpg' />">
+                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic05_2.jpg' />">
                     </div>
-                    <div class="text">
+                    <div class="text mobile-text">
                         <h2>
-                            <strong>높은 완성도로<br> 치아의 광채까지<br> 자연스럽게 살려냅니다.</strong>
+                            <strong>안전한 올세라믹<br> 시술을 위해 사전에<br> 일반진료를 진행합니다.</strong>
                         </h2>
                         <h3>02</h3>
                         <p>
-                            얼굴형에 따라, 느낌에 따라 아름다움이 부각될 수 있는 치아 디자인이 가능합니다 환자의 니즈에 따라 다양한 치아 디자인이 가능합니다.
+                            부작용의 우려가 없도록 시술 전에 충치 치료, 신경치료등 필요한 치료를 진행하고, 최소한의
+                            치아를 삭제하여 시린 증상 등 부작용을 최소화하도록 안전하게 치료를 진행하고 있습니다.
+
                         </p>
                     </div>
                 </div>
                 <div>
                     <div class="text">
                         <h2>
-                            <strong>빠르고 안전한<br> 디지털 라미네이트</strong>
+                            <strong>첨단장비로<br> 정밀하고 정확한<br> 진단 후 진료</strong>
                         </h2>
                         <h3>03</h3>
                         <p>
-                            라미네이트는 정밀함이 중요하기에 0.1mm의 차이까지 확인할 수 있도록 첨단 디지털 장비를 이용해 시술합니다.
+                            3D 구강스캐너, 3D CT 등 첨단 디지털 장비를 통해 정확한 진단 후 환자에게 적합한 최적의 보철물을 제작합니다. 원하는 치아의 형태와 모양뿐만 아니라 색상도 맞춤 제작할 수 있습니다.
                         </p>
                     </div>
                     <div class="img img03">
-                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic11_3.jpg' />">
+                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic05_3.jpg' />">
                     </div>
                     <div class="text mobile-text">
                         <h2>
-                            <strong>빠르고 안전한<br> 디지털 라미네이트</strong>
+                            <strong>첨단장비로<br> 정밀하고 정확한<br> 진단 후 진료</strong>
                         </h2>
                         <h3>03</h3>
                         <p>
-                            라미네이트는 정밀함이 중요하기에 0.1mm의 차이까지 확인할 수 있도록 첨단 디지털 장비를 이용해 시술합니다.
-                        </p>
-                    </div>
-                </div>
-                <div>
-                    <div class="text">
-                        <h2>
-                            <strong>자연치아의 아름다움을<br> 재연하기 위해<br>끊임없이 연구합니다.</strong>
-                        </h2>
-                        <h3>04</h3>
-                        <p>
-                            자연스러움과 함께 건강한 치료를 위해 치아 삭제는 최소화하면서 만족스러운 결과를 얻을 수 있도록 자연치아의 특성을 지속적으로 연구하고 있습니다.
-                        </p>
-                    </div>
-                    <div class="img img04">
-                        <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic11_4.jpg' />">
-                    </div>
-                    <div class="text mobile-text">
-                        <h2>
-                            <strong>자연치아의 아름다움을<br> 재연하기 위해<br>끊임없이 연구합니다.</strong>
-                        </h2>
-                        <h3>04</h3>
-                        <p>
-                            자연스러움과 함께 건강한 치료를 위해 치아 삭제는 최소화하면서 만족스러운 결과를 얻을 수 있도록 자연치아의 특성을 지속적으로 연구하고 있습니다.
+                            3D 구강스캐너, 3D CT 등 첨단 디지털 장비를 통해 정확한 진단 후 환자에게 적합한 최적의 보철물을 제작합니다. 원하는 치아의 형태와 모양뿐만 아니라 색상도 맞춤 제작할 수 있습니다.
                         </p>
                     </div>
                 </div>
@@ -252,14 +257,61 @@
             </div>
         </section>
 
+        <section class="section13 table wow fadeInUp">
+            <div class="max-layout-width">
+                <h2><strong>라미네이트와</strong> <strong>올세라믹 크라운</strong>의 차이점은?</h2>
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th class="table-left">라미네이트</th>
+                            <th class="table-middle">VS</th>
+                            <th class="table-right">올세라믹 크라운</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="table-left"><div class="img01">
+                                <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic06_1.jpg'/>">
+                            </div></td>
+                            <td class="table-middle">시술 방법</td>
+                            <td class="table-right"><div class="img02">
+                                <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic06_2.jpg'/>">
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td class="table-left">
+                                치아 옆면을 0.3~0.5mm 정도만 얇게 삭제해<br>
+                                인조손톱 모양의 얇은 세라믹 박편을 제작해 붙임
+                            </td>
+                            <td class="table-middle">치아 삭제</td>
+                            <td class="table-right">
+                                치아 전체를 골고루 삭제하여 세라믹 도재관을<br>
+                                치아에 덮어씌움
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-left">
+                                최소한의 치아삭제로 심미효과를<br>
+                                원하시는 분들
+                            </td>
+                            <td class="table-middle">적합한 분</td>
+                            <td class="table-right">
+                                치아 손상이 심하거나 넓은 범위의 치아개선을 원하는 분들
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
         <section class="left-fade-slider-container wow fadeInUp">
             <div class="max-layout-width">
                 <h2 class="section-title">
                     <strong><span class="section-title-color">
-                    내 치아의 부족한 부분을 채워주는
+                    치아를 위한 맞춤 성형
                 </span></strong>
-                    미소원 치과의<br>
-                    <strong>라미네이트 치료단계</strong>
+                    미소원 치과의<br> <strong>올세라믹 크라운 치료단계</strong>
                 </h2>
             </div>
             <div class="slider-container post-slider">
@@ -269,7 +321,7 @@
                             <div class="swiper-slide">
                                 <div class="img01 img"></div>
                                 <div class="text">
-                                    <h2>정밀검사 후 치료계획 수립</h2>
+                                    <h2>정밀 진단 및 치료계획 수립</h2>
                                     <p>
                                         최첨단 장비로 정밀하게 진단하고, 치료 계획을 철저하게 수립합니다.
                                     </p>
@@ -282,7 +334,7 @@
                                 <div class="text">
                                     <h2>최소한의 치아 삭제</h2>
                                     <p>
-                                        최소한의 치아만 삭제해 라미네이트를 부착할 준비를 진행합니다.
+                                        올세라믹 보철물을 부착하기 위해 최소한의 치아를 삭제합니다.
                                     </p>
                                 </div>
                             </div>
@@ -291,9 +343,9 @@
                             <div class="swiper-slide">
                                 <div class="img03 img"></div>
                                 <div class="text">
-                                    <h2>맞춤 보철물 제작</h2>
+                                    <h2>환자에게 맞는 맞춤 보철물 제작</h2>
                                     <p>
-                                        건물내 상주 협력기공소에서 환자에게 적합한 최적의 보철물을 제작합니다.
+                                        건물내 상주 협력기공소에서 환자에게 적합한 보철물을 제작합니다.
                                     </p>
                                 </div>
                             </div>
@@ -301,11 +353,10 @@
                         <div class="slide" data-index="04">
                             <div class="swiper-slide">
                                 <div class="img04 img"></div>
-                                <div class="text last">
-                                    <h2>라미네이트 부착</h2>
+                                <div class="text">
+                                    <h2>단단하게 보철물 부착</h2>
                                     <p>
-                                        완성된 보철물을 환자에게 직접 확인 받은 후
-                                        치아 옆면에 접착하여 치료를 완성합니다.
+                                        완성된 보철물을 환자에게 직접 확인 받은 후 치아에 부착하여 치료합니다.
                                     </p>
                                 </div>
                             </div>
@@ -408,11 +459,11 @@
             }
         });
 
-        $('.tab-contents1 .text-slider .slider').on('init', function(slick){
-            $('.tab-contents1 .text-slider .slider-arrow').append($('.tab-contents1 .slider-prev'));
-            $('.tab-contents1 .text-slider .slider-arrow').append($('.tab-contents1 .slider-next'));
+        $('.tab-contents2 .text-slider .slider').on('init', function(slick){
+            $('.tab-contents2 .text-slider .slider-arrow').append($('.tab-contents2 .slider-prev'));
+            $('.tab-contents2 .text-slider .slider-arrow').append($('.tab-contents2 .slider-next'));
         });
-        $('.tab-contents1 .text-slider .slider').slick({
+        $('.tab-contents2 .text-slider .slider').slick({
             infinite: true,
             dots: false,
             arrows: true,
@@ -433,21 +484,5 @@
                 }
             ]
         });
-
-        var index = 0;
-        $('.section06.list-content .pager').mouseover(function () {
-            index = $('.section06.list-content .pager').index($(this));
-            active(index);
-        })
-
-        setInterval(function () {
-            active(index);
-        }, 4000);
-
-        function active(_index) {
-            $('.section06.list-content .pager').removeClass('active');
-            $('.section06.list-content .pager').eq(_index).addClass('active');
-            index = (_index + 1) % $('.section06.list-content .pager').length;
-        }
     })
 </script>

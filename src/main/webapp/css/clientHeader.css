@@ -334,6 +334,7 @@ header .fixed {
     top: 0;
     display: inline-block;
     text-align: center;
+    border-bottom: 1px solid #bbb;
 }
 
 header .fixed-box {

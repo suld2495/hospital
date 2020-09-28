@@ -168,8 +168,8 @@
                     </div>
                     <div class="sub-category">
                         <ul>
-                            <li><a href="<c:url value='/misowon_orthodontics' />">라미네이트</a></li>
-                            <li><a href="<c:url value='/partial_orthodontics' />">올세라믹 크라운</a></li>
+                            <li><a href="<c:url value='/aesthetic' />">라미네이트</a></li>
+                            <li><a href="<c:url value='/aesthetic-ceramic' />">올세라믹 크라운</a></li>
                         </ul>
                         <div class="img img06"></div>
                     </div>
