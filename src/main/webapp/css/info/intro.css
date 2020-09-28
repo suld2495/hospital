@@ -571,16 +571,16 @@ section {
 
 @media screen and (max-width:640px) {
     .section06 {
-    margin-top: 31px;
-}
+        margin-top: 31px;
+    }
 
     .section03{
-    margin-top: 0px;
-    margin-bottom: -126px;
-}
+        margin-top: 0px;
+        margin-bottom: -126px;
+    }
     .section02 {
         margin-top: 0px;
-}
+    }
     .section01  {
         background: url(../../images/sub/info/intro/intro01_m.jpg) no-repeat top;
     }
@@ -628,11 +628,11 @@ section {
     }
     .section01 .section-title {
 
-font-size: 28px;
+        font-size: 28px;
 
-margin-top: -33px;
+        margin-top: -33px;
 
-}
+    }
     .section01 .max-layout-width {
         padding-top: 339px;
     }
@@ -689,18 +689,31 @@ margin-top: -33px;
 }
 
 @media screen and (max-width:414px) {
+
+    .section03 .img {
+        background: url(../../images/sub/info/intro/intro03_m.png) no-repeat center;
+    }
+    .section02 .img {
+        background: url(../../images/sub/info/intro/intro02_m.png) no-repeat center;
+    }
+    .section04 .img {
+        background: url(../../images/sub/info/intro/intro04_m.png) no-repeat center;
+    }
+    .section05 .img {
+        background: url(../../images/sub/info/intro/intro05_m.png) no-repeat center;
+    }
     .section-title {
-    font-size: 28px;
-}
+        font-size: 28px;
+    }
 
     .section05 ul li {
-    margin-bottom: 45px;
-}
-    .image-container h5 {   
-    margin-top: 2px;
-    font-size:30px;
- 
-}
+        margin-bottom: 45px;
+    }
+    .image-container h5 {
+        margin-top: 2px;
+        font-size:30px;
+
+    }
     #contents {
         overflow: hidden;
     }
@@ -729,7 +742,7 @@ margin-top: -33px;
     }
 
     h2.section-title.last-section-title{
-        
+
     }
 
     .section05 .image-container li > div {
