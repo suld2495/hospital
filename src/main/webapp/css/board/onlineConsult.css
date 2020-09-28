@@ -33,3 +33,50 @@
     margin-left: 15px;
     vertical-align: -1px;
 }
+
+@media screen and (max-width: 1300px) {
+    .board-list table td:nth-child(2),
+    .board-list table th:nth-child(2) {
+        width: 100px;
+    }
+    .board-list table td:nth-child(4),
+    .board-list table th:nth-child(4) {
+        width: 100px;
+    }
+    .board-list table td:nth-child(5),
+    .board-list table th:nth-child(5) {
+        width: 100px;
+    }
+    .board-list table td:nth-child(6),
+    .board-list table th:nth-child(6) {
+        width: 100px;
+    }
+    td {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .board-list table td:nth-child(2),
+    .board-list table th:nth-child(2) {
+        width: 70px;
+    }
+    .board-list table td:nth-child(1),
+    .board-list table th:nth-child(1),
+    .board-list table td:nth-child(5),
+    .board-list table th:nth-child(5) {
+        display: none;
+    }
+    span.status {
+        width: 70px;
+        min-width: 70px;
+        font-size: 10px;
+    }
+    .board-list .max-layout-width {
+        padding: 0 10px;
+    }
+    .paging .write-btn {
+        top: 40px;
+    }
+}
