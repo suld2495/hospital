@@ -151,3 +151,83 @@
 .table label:hover:before {
     border-color: #111;
 }
+
+@media screen and (max-width: 1300px) {
+    .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .table .input {
+        padding-left: 140px;
+    }
+    .table .long-input {
+        box-sizing: border-box;
+    }
+    .table li strong {
+        width: 110px;
+    }
+    .table .phone-con span, .table .email-con span {
+        width: 27.33333333333%;
+        margin-left: 6%;
+    }
+    .table span.mail {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .appendix-con button {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    .table .input p {
+        word-break: keep-all;
+        line-height: 1.3;
+    }
+    .table .id-con button {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .agreement label {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .filename {
+        width: 100%;
+    }
+    form .max-layout-width {
+        padding: 0 20px;
+    }
+    .table li strong {
+        width: 50px;
+        font-size: 13px;
+        padding-left: 10;
+    }
+    .table .input {
+        padding-left: 75px;
+    }
+    .table span.mail {
+        margin-left: 10%;
+    }
+    .table .phone-con span {
+        width: 27.33333333333%;
+        margin-left: 8%;
+    }
+    .appendix-con .input {
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+}

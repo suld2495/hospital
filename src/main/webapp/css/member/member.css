@@ -55,7 +55,7 @@
     overflow: hidden;
     margin-left: -3%;
     margin-top: 110px;
-    margin-bottom: 437px;
+    margin-bottom: 137px;
 }
 
 .button-box button, .button-box a {
@@ -82,4 +82,58 @@
 .right-button {
     background: #dbdbdb ;
     color: #222;
+}
+
+
+@media screen and (max-width: 950px) {
+    .tab {
+        margin-left: 0;
+    }
+    .tab li span {
+        font-size: 41px;
+    }
+    .tab li div p {
+        display: none;
+    }
+    .tab li div h2 {
+        display: block;
+        float: none;
+    }
+    .tab li span, .tab li > div > div {
+        float: none;
+    }
+    .tab li {
+        padding-top: 21px;
+        margin-left: 0;
+        width: 33.33333333333%;
+        height: 120px;
+    }
+    .tab li > div > div {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .tab li {
+        height: 115px;
+    }
+    .tab li span {
+        font-size: 35px;
+    }
+    .tab li div h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .tab li {
+        height: 105px;
+    }
+    .tab li span {
+        font-size: 32px;
+    }
+    .tab li div h2 {
+        font-size: 14px;
+    }
 }
