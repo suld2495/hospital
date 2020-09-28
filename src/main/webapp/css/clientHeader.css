@@ -564,6 +564,10 @@ header .nav-detail > li .sub-category .img.img05 {
     background: url(../images/category/category05.jpg)
 }
 
+header .nav-detail > li .sub-category .img.img06 {
+    background: url(../images/category/category06.jpg)
+}
+
 header .cmmn-nav ol {
     padding: 31px 0;
     width: 1150px;
@@ -820,35 +824,35 @@ header .header-banner-slider .slide-item04 .go {
 
 
 @media screen and (max-width:768px) {
-.header-logo img {
-    width: 135px;
-}
+    .header-logo img {
+        width: 135px;
+    }
     .login-nav {
-    padding-right: 18px;
-    position: relative;
-    margin-right: 8px;
-    margin-top:-8px;
+        padding-right: 18px;
+        position: relative;
+        margin-right: 8px;
+        margin-top:-8px;
     }
 
     header .menu {
-    margin-top: -23px;
-}
+        margin-top: -23px;
+    }
 
     .header-member a img {
-    width: 23px;
-}
+        width: 23px;
+    }
 
     header .fixed-box > div {
         margin-left: 21px;
         padding-right: 0;
     }
 
-.header-logo {
-    padding-top: 21px;
+    .header-logo {
+        padding-top: 21px;
     }
 
     header .fixed {
-    height: 65px;
+        height: 65px;
     }
 
     header .fixed-box > div.cmmn-nav {

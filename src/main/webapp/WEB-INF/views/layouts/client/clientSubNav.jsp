@@ -3,7 +3,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <c:set var="path" value="${requestScope['javax.servlet.forward.servlet_path']}" />
 <c:set var="array" value="${fn:split('미소원치과,임플란트,치아교정,자연치아 클리닉,커뮤니티,개인정보,회원로그인,회원가입,마이페이지,심미보철치료',',')}"/>
-<c:set var="urlArray" value="${fn:split('/intro,/digital_implants,/misowon_orthodontics,/general,/notice,/login,/member_agreement,/mypage_reservation,/aesthetic',',')}"/>
+<c:set var="urlArray" value="${fn:split('/intro,/digital_implants,/misowon_orthodontics,/general,/notice/1,/login,/member_agreement,/mypage_reservation,/aesthetic',',')}"/>
 
 <div class="sub">
     <div class="sub-image">
@@ -88,12 +88,12 @@
             </c:if>
             <c:if test="${category eq 4}">
                 <ul>
-                    <li><a <c:if test="${path eq '/notice'}">class="active"</c:if> href="<c:url value="/notice/1"/>" >공지사항</a></li>
-                    <li><a <c:if test="${path eq '/case'}">class="active"</c:if> href="<c:url value="/case/1"/>">치료사례</a></li>
-                    <li><a <c:if test="${path eq '/review'}">class="active"</c:if> href="<c:url value="/review/1"/>">치료후기</a></li>
-                    <li><a <c:if test="${path eq '/online-consult'}">class="active"</c:if> href="<c:url value="/online-consult/1"/>">온라인 상담</a></li>
-                    <li><a <c:if test="${path eq '/reserve'}">class="active"</c:if> href="<c:url value="/reserve-write"/>">예약 상담 신청</a></li>
-                    <li><a <c:if test="${path eq '/media'}">class="active"</c:if> href="<c:url value="/media/1"/>">미디어</a></li>
+                    <li><a <c:if test="${fn:contains(path,'/notice')}">class="active"</c:if> href="<c:url value="/notice/1"/>" >공지사항</a></li>
+                    <li><a <c:if test="${fn:contains(path,'/case')}">class="active"</c:if> href="<c:url value="/case/1"/>">치료사례</a></li>
+                    <li><a <c:if test="${fn:contains(path,'/review')}">class="active"</c:if> href="<c:url value="/review/1"/>">치료후기</a></li>
+                    <li><a <c:if test="${fn:contains(path,'/online-consult')}">class="active"</c:if> href="<c:url value="/online-consult/1"/>">온라인 상담</a></li>
+                    <li><a <c:if test="${fn:contains(path,'/reserve')}">class="active"</c:if> href="<c:url value="/reserve-write"/>">예약 상담 신청</a></li>
+                    <li><a <c:if test="${fn:contains(path,'/media')}">class="active"</c:if> href="<c:url value="/media/1"/>">미디어</a></li>
                 </ul>
             </c:if>
             <c:if test="${category eq 9}">
@@ -183,8 +183,8 @@
     $(function() {
         var backgroundPrefix = 'images/sub/background/';
         var category = '${category}';
-        var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg', 'img_sub05.jpg', 'img_sub06.jpg', 'img_sub07.jpg', 'img_sub08.jpg', 'img_sub09.jpg'];
-        if (category === '4') backgroundPrefix = "../" + backgroundPrefix;
+        var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg', 'img_sub05.jpg', 'img_sub06.jpg', 'img_sub07.jpg', 'img_sub08.jpg', 'img_sub09.jpg', 'img_sub10.jpg'];
+        if (category === '4' && !('${path}' === '/reserve-write' || '${path}' === '/online-consult-write')) backgroundPrefix = "../" + backgroundPrefix;
         $('.sub-image').css('background-image', 'url(' + backgroundPrefix + categoryBackground[category] + ')');
 
         $('.sub-category-button,.sub-category-current-button').click(function () {
