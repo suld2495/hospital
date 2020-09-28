@@ -22,9 +22,9 @@
                             </div>
                             <div class="text">
                                 <h5>${board.subject}</h5>
-                                <p>
+                                <div class="contents">
                                     ${board.contents}
-                                </p>
+                                </div>
                             </div>
                         </a>
                     </li>

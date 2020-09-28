@@ -138,3 +138,10 @@ textarea {
     line-height: 44px;
     padding-left: 10px;
 }
+
+@media screen and (max-width: 1300px) {
+    form .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+}

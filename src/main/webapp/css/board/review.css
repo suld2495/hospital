@@ -1,4 +1,4 @@
-.gallery-list .gallery li P {
+.gallery-list .gallery li div.contents {
     height: 40px;
     line-height: 20px;
     overflow: hidden;
@@ -27,4 +27,8 @@
     line-height: 49px;
     color: #fff;
     cursor: pointer;
+}
+
+.gallery-list .gallery li div.contents img {
+    display: none;
 }

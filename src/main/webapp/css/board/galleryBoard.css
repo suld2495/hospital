@@ -50,7 +50,26 @@
     font-size: 17px;
 }
 
-.gallery-list .gallery li p {
+.gallery-list .gallery li .contents {
     color: #8d8d8d;
     margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+    .gallery-list .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .gallery-list .gallery li {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body .paging .write-btn {
+        top: 50px;
+    }
 }
