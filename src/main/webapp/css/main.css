@@ -2510,11 +2510,19 @@ body .section07 .bx-pager-link span + span {
     .section04 .bx-wrapper .bx-controls-direction a.bx-prev {
         left: 50%;
         margin-left: -76px;
+        background: url(../images/main/left01_m.png) no-repeat center;
+        border: none;
+    }
+
+    .section04 .bx-wrapper .bx-controls-direction a img {
+        display: none;
     }
 
     .section04 .bx-wrapper .bx-controls-direction a.bx-next {
         right: 50%;
         margin-right: -76px;
+        background: url(../images/main/right01_m.png) no-repeat center;
+        border: none;
     }
 
     .section05 {
@@ -2525,6 +2533,7 @@ body .section07 .bx-pager-link span + span {
         padding-top: 50px;
         overflow: inherit;
         height: auto;
+        overflow: hidden;
     }
 
     .section05 .bg {
@@ -2602,6 +2611,23 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width: 640px) {
+    .case .control {
+        top: -109px;
+    }
+    .case .control a.bx-prev {
+        background: url(../images/main/left02_m.png) no-repeat center;
+        border: none !important;
+        width: 51px;
+        height: 51px;
+    }
+
+    .case .control a.bx-next {
+        background: url(../images/main/right02_m.png) no-repeat center;
+        border: none !important;
+        width: 51px;
+        height: 51px;
+    }
+
     .section09 .bx-controls {
         display: none;
     }
@@ -2828,6 +2854,9 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:414px) {
+    .case .login {
+        height: 126px;
+    }
     .section09 .slide-item {
         height: 166px;
     }
@@ -3021,6 +3050,9 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:375px) {
+    .case .login {
+        height: 112px;
+    }
     .section09 .slide-item {
         height: 148px;
     }
@@ -3062,6 +3094,9 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width: 360px) {
+    .case .login {
+        height: 106px;
+    }
     .section09 .slide-item {
         height: 141px;
     }
