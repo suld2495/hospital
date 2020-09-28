@@ -724,6 +724,8 @@
         }
 
         var slider = $('.slider').bxSlider({
+            stopAutoOnClick: true,
+            autoHover: true,
             minSlides: 2,
             maxSlides: 2,
             moveSlides: 1,
