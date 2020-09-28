@@ -1177,6 +1177,10 @@ body .section07 .bx-pager-link span + span {
     letter-spacing: -1px;
 }
 
+.section02 li img.mobile {
+    display: none;
+}
+
 .section02 li img {
     width: 100%;
     transition: transform 300ms;
