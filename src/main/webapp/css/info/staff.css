@@ -338,55 +338,55 @@ p + .dec-title {
 @media screen and (max-width: 900px) {
 
     .staff-info-box {
-    padding-bottom: 75px;
-    padding-top: 8px;
-}
+        padding-bottom: 75px;
+        padding-top: 8px;
+    }
 
     .staff-info {
-    margin-top: 55px;
-}
+        margin-top: 55px;
+    }
 
     .staff-info-box h1 {
-    padding-top: 57px;
-    margin-bottom: 30px;
-    font-size: 31px;
-    font-weight: 500;
-    letter-spacing: -1.5px;
-}
+        padding-top: 57px;
+        margin-bottom: 30px;
+        font-size: 31px;
+        font-weight: 500;
+        letter-spacing: -1.5px;
+    }
 
     .doctor-info {
-    margin-top: 40px;
-}
+        margin-top: 40px;
+    }
 
 
     p + .dec-title {
-    margin-top: 30px;
-    letter-spacing: -1px;
-}
+        margin-top: 30px;
+        letter-spacing: -1px;
+    }
 
     .dec-title {
-    margin-bottom: 8px;
-    font-size: 17px;
-    letter-spacing: -1px;
-}
+        margin-bottom: 8px;
+        font-size: 17px;
+        letter-spacing: -1px;
+    }
     .tab li {
-    width: 50%;
-    float: left;
-    background: #fff;
-    color: #373330;
-    padding: 12px 0px;
-    font-size: 15px;
-    text-align: center;
-    line-height: 16px;
-    letter-spacing: -1px;
-    /* margin-bottom: 2px; */
-}
+        width: 50%;
+        float: left;
+        background: #fff;
+        color: #373330;
+        padding: 12px 0px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 16px;
+        letter-spacing: -1px;
+        /* margin-bottom: 2px; */
+    }
 
-.tab {
-    width: 100%;
-    margin: 40px 0;
-    border: 1px solid #ddd;
-}
+    .tab {
+        width: 100%;
+        margin: 40px 0;
+        border: 1px solid #ddd;
+    }
     .staff-info-box .text-left.text p {
         float: none;
     }
@@ -474,6 +474,18 @@ p + .dec-title {
 }
 
 @media screen and (max-width: 414px)  {
+    .img-box1 .img {
+        background: url('../../images/sub/info/staff/staff_01_m.png') no-repeat center;
+    }
+
+    .img-box2 .img {
+        background: url('../../images/sub/info/staff/staff_02_m.png') no-repeat center;
+    }
+
+    .img-box3 .img {
+        background: url('../../images/sub/info/staff/staff_03_m.png') no-repeat center;
+    }
+
     .title {
         font-size: 30px;
         padding-right: 30px;

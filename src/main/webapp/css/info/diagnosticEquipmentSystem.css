@@ -570,7 +570,7 @@
     .section01 .slider, .section01 .slick-slider .slick-list {
         height: auto;
     }
-    .slick-slide img {
+    .slick-slide img.display-none {
         display: block;
         width: 100%;
     }

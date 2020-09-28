@@ -320,7 +320,10 @@
                 </ul>
             </sec:authorize>
             <sec:authorize access="isAuthenticated()">
-                <h2>환영합니다.</h2>
+                <h2><sec:authentication property="principal"/>님 환영합니다.</h2>
+                <ul class="login">
+                    <li><a href="<c:url value='/logout'/>"><i class="logout-icon"></i>로그아웃</a></li>
+                </ul>
             </sec:authorize>
         </div>
         <ul class="large-category">
