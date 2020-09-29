@@ -842,7 +842,7 @@
             caseViewSlides = 2;
         }
 
-        caseSlider = (windowWidth - 60) / caseViewSlides
+        caseSlider = (windowWidth - 40) / caseViewSlides
 
         $('.case-slider').bxSlider({
             pager: false,
