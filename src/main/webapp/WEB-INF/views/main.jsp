@@ -770,7 +770,7 @@
         if (windoWidth > 768) {
             $('.slider-container').width(windoWidth);
         } else {
-            $('.slider-container').width(windoWidth - 60);
+            $('.slider-container').width(windoWidth - 40);
         }
 
         $('.doctor-slider .img-box').width(windoWidth * 0.1614);

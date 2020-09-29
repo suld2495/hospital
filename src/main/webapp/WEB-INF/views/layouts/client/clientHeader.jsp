@@ -247,8 +247,8 @@
                     <div class="title">
                         <h2>심미보철치료</h2>
                         <p>
-                            교합력 뿐아니라 전체적인<br>
-                            균형까지 생각하여 교정합니다.
+                            웃는 모습의 아름다움을 찾을 수 있도록<br>
+                            얼굴에 맞는 치아로 미소를 찾아드립니다.
                         </p>
                     </div>
                     <div class="sub-category">
@@ -307,7 +307,7 @@
 
 <div class="mobile-sub-category">
     <div class="header">
-        <div class="category-logo"><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/logo_m.png'/>"></a></div>
+        <div class="category-logo"><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/logo_m_1.png'/>"></a></div>
         <div class="category-close"></div>
     </div>
     <div class="content">
@@ -398,9 +398,9 @@
         </ul>
         <div class="sns">
             <ul>
-                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/instagram_m.png'/>"></a></li>
-                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/facebook_m.png'/>"></a></li>
-                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/blog_m.png'/>"></a></li>
+                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/instagram_sns.png'/>"></a></li>
+                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/facebook_sns.png'/>"></a></li>
+                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/blog_sns.png'/>"></a></li>
             </ul>
         </div>
     </div>

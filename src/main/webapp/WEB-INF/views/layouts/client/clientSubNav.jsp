@@ -179,8 +179,14 @@
     </div>
 </div>
 
-<div class="top">
-    <div class="top-button">TOP</div>
+<div class="top-container">
+    <div class="top-box">
+        <div class="top-top">
+            <div class="top">
+                <div class="top-button">TOP</div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
@@ -197,6 +203,15 @@
         });
         $('.top').click(function () {
             $(window).scrollTop(0);
+        });
+        $(window).scroll(function () {
+            var height = 1000;
+
+            if ($(this).scrollTop() > height) {
+                $('.top-container').addClass('active');
+            } else {
+                $('.top-container').removeClass('active');
+            }
         })
     })
 </script>

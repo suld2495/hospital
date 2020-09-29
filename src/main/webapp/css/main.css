@@ -2681,8 +2681,8 @@ body .section07 .bx-pager-link span + span {
 
 @media screen and (max-width: 640px) {
     .section09 .max-layout-width {
-    padding-top: 62px;
-}
+        padding-top: 62px;
+    }
     .section05 .big-img .cont01 .img {
         background: url(../images/main/docter03_m.jpg) no-repeat;
         background-size: contain;
@@ -3187,7 +3187,7 @@ body .section07 .bx-pager-link span + span {
     .section05 .bg {
         width: 100%;
         bottom: -33px;
-        height: 573px;
+        height: 713px;
     }
 
     body .section07 .bx-pager-link span:first-child {

@@ -699,7 +699,7 @@ section {
     .section04 .img {
         background: url(../../images/sub/info/intro/intro04_m.png) no-repeat center;
     }
-    .section05 .img {
+    .section06 .text > div.img_bg {
         background: url(../../images/sub/info/intro/intro05_m.png) no-repeat center;
     }
     .section-title {
