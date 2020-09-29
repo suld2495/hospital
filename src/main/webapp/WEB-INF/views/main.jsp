@@ -259,14 +259,28 @@
         </div>
         <div class="max-layout-width">
             <div class="review">
-                <c:forEach begin="0" end="4" varStatus="status">
+                <c:forEach begin="1" end="4" varStatus="status">
                     <div class="module">
                         <a class="module" href="<c:url value='/'/>">
                             <img src="<c:url value='/images/main/review0${status.count % 4 + 1}.jpg' />">
                             <div class="position-relative">
                                 <div class="review-text">
-                                    <h4>임플란트</h4>
-                                    <p>의사선생님께서는 친절 하시고 걱정했던 임플란트</p>
+                                    <c:if test="${status.count eq 1}">
+                                        <h4>임플란트</h4>
+                                        <p>의사선생님께서는 친절 하시고 걱정했던 임플란트</p>
+                                    </c:if>
+                                    <c:if test="${status.count eq 2}">
+                                        <h4>라미네이트</h4>
+                                        <p>내 치아처럼 자연스럽게 라미네이트 되어서 만족</p>
+                                    </c:if>
+                                    <c:if test="${status.count eq 3}">
+                                        <h4>치아교정</h4>
+                                        <p>어릴때부터 컴플렉스였던 치아를 이렇게 가지런</p>
+                                    </c:if>
+                                    <c:if test="${status.count eq 4}">
+                                        <h4>일반치료</h4>
+                                        <p>치과는 아플까봐 안가고 싶었는데 막상 가보니 치료를</p>
+                                    </c:if>
                                 </div>
                             </div>
                         </a>
@@ -886,11 +900,19 @@
             window.location.href = "<c:url value='/login'/>";
         })
 
+        var popupWidth = 0;
+
+        if (windowWidth < 490) {
+            popupWidth = 490;
+        } else {
+            popupWidth = windowWidth;
+        }
+
         $('.popup-slider').slick({
             minSlides: 1,
             maxSlides: 1,
             moveSlides: 1,
-            slideWidth: 490,
+            slideWidth: popupWidth,
             pager: false,
         })
 

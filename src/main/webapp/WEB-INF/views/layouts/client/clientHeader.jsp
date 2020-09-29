@@ -7,21 +7,21 @@
             <div class="slide-item-box pointer">
                 <div class="slide-item slide-item01">
                     <img src="<c:url value='/images/cmmn/banner01.png'/>">
-                    <span>뿌리부터 오래오래, 튼튼하게! <strong>임플란트로 새 삶을 찾다!</strong></span>
+                    <span><span>뿌리부터 오래오래, 튼튼하게!</span> <strong>임플란트로 새 삶을 찾다!</strong></span>
                     <a href="<c:url value='/digital_implants'/>" class="go">바로가기</a>
                 </div>
             </div>
             <div class="slide-item-box pointer">
                 <div class="slide-item slide-item02">
                     <img src="<c:url value='/images/cmmn/banner02.png'/>">
-                    <span>지금이야! 웃을 때가 가장 예쁜 나이♥ <strong>예뻐지는 치아교정</strong></span>
+                    <span><span>지금이야! 웃을 때가 가장 예쁜 나이♥</span> <strong>예뻐지는 치아교정</strong></span>
                     <a href="<c:url value='/misowon_orthodontics'/>" class="go">바로가기</a>
                 </div>
             </div>
             <div class="slide-item-box pointer">
                 <div class="slide-item slide-item03">
                     <img src="<c:url value='/images/cmmn/banner03.png'/>">
-                    <span>안전이 가장 중요한 시기, <strong>울산광역시 청정인증! 미소원치과</strong></span>
+                    <span><span>안전이 가장 중요한 시기,</span> <strong>울산광역시 청정인증! 미소원치과</strong></span>
                     <a href="<c:url value='/'/>" class="go">바로가기</a>
                 </div>
             </div>
@@ -35,7 +35,7 @@
         </div>
         <div class="banner-close">
             <div class="banner-close-box">
-                <span class="close"><img src="<c:url value='/images/cmmn/close.png'/>"></span><span>오늘 하루 열지 않기</span>
+<%--                <span class="close"><img src="<c:url value='/images/cmmn/close.png'/>"></span><span>오늘 하루 열지 않기</span>--%>
             </div>
         </div>
     </div>

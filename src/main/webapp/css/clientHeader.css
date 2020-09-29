@@ -1,3 +1,6 @@
+.header-logo + div {
+    margin-left: 130px;
+}
 .cover {
     display: none;
     width: 100%;
@@ -19,7 +22,7 @@ header .mobile-sub-category .sns {
     padding-bottom: 100px;
 }
 header .mobile-sub-category .sns img {
-    width: 66px;
+    width: 46px;
 }
 header .mobile-sub-category .sns ul {
     overflow: hidden;
@@ -310,6 +313,7 @@ header .header-banner-slider-continer .bx-wrapper {
     margin-top: 32px;
     padding: 0px 43px;
     box-sizing: border-box;
+    padding-right: 28px;
 }
 
 .header-panel > div {
@@ -320,7 +324,7 @@ header .header-banner-slider-continer .bx-wrapper {
 .header-logo {
     text-align: center;
     padding-top: 24px;
-    margin-left: 63px;
+    margin-left: 28px;
     padding-right: 5%;
     box-sizing: border-box;
 }
@@ -811,6 +815,12 @@ header .header-banner-slider .slide-item04 .go {
 
     header .fixed-box > div.cmmn-nav:last-child {
         float: right;
+    }
+}
+
+@media screen and (max-width: 1869px) {
+    .header-logo + div {
+        margin-left: 4%;
     }
 }
 

@@ -3517,3 +3517,10 @@ body .section07 .bx-pager-link span + span {
         right: 42px;
     }
 }
+
+@media screen and (max-width: 490px) {
+    .popup-slider img, .popup-slider, .popup {
+        width: 100%;
+        left: 0;
+    }
+}
