@@ -198,7 +198,9 @@ li:before {
     .section04 li {
         width: 100%;
         border: none;
-        border-top: 1px solid #d4d4d4;;
+        border-top: 1px solid #d4d4d4;
+        height: 211px;
+        padding-top: 33px;
     }
     .section04 ul {
         border: 1px solid #d4d4d4;
@@ -211,8 +213,8 @@ li:before {
     }
     .mobile-location-bg {
         display: block;
-        margin-top: 50px;
-        padding: 0 30px;
+        margin-top: 29px;
+        padding: 0 15px;
         box-sizing: border-box;
     }
 
@@ -230,6 +232,8 @@ li:before {
     }
     .section04 .title {
         padding-left: 74px;
+        font-size: 28px;
+        margin-bottom: 30px;
     }
     .location {
         float: none;
@@ -240,9 +244,44 @@ li:before {
         box-sizing: border-box;
     }
     .location p {
-        line-height: 1.4;
+        line-height: 1.5;
         word-break: keep-all;
+        font-size: 14px;
     }
+    .section01 {
+    margin-top: 41px;
+}
+
+.section02 {
+    background: #f5f5f5;
+    padding-bottom: 53px;
+    padding-top: 60px;
+    }
+
+    .section03 .bg h2 {
+    font-size: 28px;
+}
+
+
+.section03 .bg {
+    padding-bottom: 62px;
+    padding-top: 71px;
+}
+
+
+.section04 {
+    padding-top: 59px;
+    padding-bottom: 52px;
+}
+
+.section04 li h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 17px;
+    letter-spacing: -2px;
+}
+
+
 }
 
 @media screen and (max-width: 380px) {
@@ -251,3 +290,5 @@ li:before {
         width: 90%;
     }
 }
+
+
