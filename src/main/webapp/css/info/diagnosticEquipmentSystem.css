@@ -483,6 +483,13 @@
 }
 
 @media screen and (max-width: 640px) {
+    .section01 {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 39px;
+    margin-bottom: 41px;
+}
 
     .section01 .slider, .section01 .slick-slider .slick-list {
         width: 100%;
@@ -507,14 +514,14 @@
         bottom: -90px;
     }
     .section01 .pager {
-        bottom: 468px;
+        bottom: 401px;
         z-index: 100;
     }
     .section01 .text-box h2 {
         font-size: 29px;
     }
     .section01 .text-box p {
-        font-size: 19px;
+        font-size: 14px;
     }
     .section01 .pager span {
         color: #fff;
@@ -537,6 +544,31 @@
     .section01 .slider {
         overflow: hidden;
     }
+
+    .section01 .slider-pagenation .bx-pager-item span:first-child {
+    width: 43px;
+    height: 35px;
+    margin-right: 14px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: unset;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: gmarket !important;
+}
+
+.section01 .bx-pager-item {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 1px;
+    outline: none;
+}
+
+.section03 {
+    padding-bottom: 500px;
+    background: #f1f1f1;
+    padding-top: 60px;
 }
 
 @media screen and (max-width: 640px)  {
@@ -557,11 +589,12 @@
     }
     .section01 .text-box {
         padding-top: 30px;
-        height: 160px;
+        height: 138px;
         bottom: -30px;
     }
     .section01 .text-box h2 {
-        font-size: 24px;
+        font-size: 22px;
+        margin-bottom: 17px;
     }
     .section01 .slider-pagenation {
         margin-top: 340px;
