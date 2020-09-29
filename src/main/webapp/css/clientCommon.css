@@ -662,7 +662,7 @@ section.board-link ul li {
         width: 43%;
     }
     .board-link ul {
-        padding: 0 30px;
+        padding: 0px 30px;
         box-sizing: border-box;
     }
     .treatment-case .treatment-case-swiper-slide div {
@@ -681,9 +681,10 @@ section.board-link ul li {
     section.background-common .section-title {
         padding: 0 30px;
         box-sizing: border-box;
-        padding-top: 119px;
-        line-height: 1.4;
+        padding-top: 73px;
+        line-height: 1.2;
         word-break: keep-all;
+        font-size: 28px;
     }
     body .section-top-title-left .bg .max-layout-width > div{
         width: 100%;
@@ -698,9 +699,9 @@ section.board-link ul li {
         box-sizing: border-box;
     }
     .two-image-right ul {
-        padding: 0 30px;
+        padding: 0 15px;
         box-sizing: border-box;
-        margin-left: -2%;
+        margin-left: -1%;
         display: block;
     }
     section.two-image-right .max-layout-width > * {
@@ -725,8 +726,8 @@ section.board-link ul li {
         left: 30px;
     }
     section.section-quotes-title-left .section-title {
-        font-size: 32px;
-        word-break: keep-all
+        font-size: 28px;
+        word-break: keep-all;
     }
 }
 
@@ -866,13 +867,65 @@ section.board-link ul li {
 
     section.section-top-title-left {
         background: #f5f5f5;
-        padding-top: 60px;
-        margin-top: 55px;
+        padding-top: 46px;
+        margin-top: 43px;
         padding-bottom: 240px;
     }
 }
 
 @media screen and (max-width: 640px) {
+
+    #contents {
+    overflow: hidden;
+    margin-bottom: -65px;
+}
+
+    .board-link ul {
+    margin-top: 35px;
+    margin-left: -3.07%;
+    overflow: hidden;
+}
+
+
+    .board-link ul li p {
+    height: 46px;
+    background: #0e1621;
+    padding-left: 19px;
+    padding-right: 35px;
+    text-align: left;
+    position: relative;
+    top: -65px;
+    }
+
+.board-link ul li p span:first-child {
+    padding-top: 14px;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    /* font-weight: bold; */
+    letter-spacing: -2px;
+    }
+    
+    .board-link ul li:first-child:before {
+    background: url(../images/sub/implant/digital/digital20.jpg) no-repeat top center;
+    height: 200px;
+    }
+
+    .board-link ul li.center-img:before {
+    background: url(../images/sub/implant/digital/digital21.jpg) no-repeat top center;
+    height: 200px;
+    }
+
+    .board-link ul li.last-img:before {
+    background: url(../images/sub/implant/digital/digital22.jpg) no-repeat top center;
+    height: 200px;
+    } 
+
+
+    section.board-link {
+    margin-top: 55px;
+    }
+
     .sub-page-title {
         font-size: 30px;
         font-weight: 400;
@@ -920,12 +973,12 @@ section.board-link ul li {
         font-size: 14px;
     }
     .board-link .section-title {
-        font-size: 30px;
+        font-size: 28px;
     }
     section.board-link ul li {
         width: 100%;
         background-size: cover !important;
-        margin-bottom: 30px;
+        margin-bottom: -47px;
     }
     .treatment-case .treatment-case-scroll-bar {
         left: 30px;
@@ -935,10 +988,17 @@ section.board-link ul li {
         box-sizing: border-box;
     }
     .treatment-case .max-layout-width .text p {
+    line-height: 1.5;
+    word-break: keep-all;
+    letter-spacing: -1px;
+    margin-bottom: 32px;
+    font-weight: 300;
+    font-size: 14px;
     }
     .treatment-case .treatment-case-swiper-slide div.text-title {
-        height: 50px;
-        line-height: 50px;
+        height: 37px;
+        line-height: 36px;
+        font-size: 15px;
     }
     .treatment-case .slider-prev {
         left: 30px;
@@ -947,22 +1007,22 @@ section.board-link ul li {
         right: 30px;
     }
     .treatment-case .slick-arrow {
-        top: 218px;
+        top: 159px;
     }
     .treatment-case .treatment-case-slider {
         height: 610px;
     }
     section.treatment-case .left-img {
-        height: 240px;
+        height: 200px;
     }
     section.treatment-case .right-img {
-        height: 345px;
+        height: 200px;
     }
     .treatment-case .treatment-case-swiper-slide div {
         width: 100%;
     }
     section.background-common {
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
     section.background-common .imp-img {
         width: 80%;
@@ -973,7 +1033,7 @@ section.board-link ul li {
     section.background-common .section-text {
         padding: 0 30px;
         box-sizing: border-box;
-        margin-top: 30px
+        margin-top: 21px;
     }
     section.background-common .section-text br {
         display: none;
@@ -985,18 +1045,23 @@ section.board-link ul li {
         width: 100%;
     }
     section.section-quotes-title-left .section-title {
-        padding-left: 80px
+        padding-left: 20px;
+    .section05 {
+
+};
+        padding-top: 54px;
+        line-height: 1.2;
     }
     section.section-quotes-title-left .image_box_left {
         width: 100%;
-        height: 330px;
+        height: 242px;
     }
     section.two-image-right .max-layout-width > * {
         width: 100%;
     }
     section.section-quotes-title-left .max-layout-width .text {
         padding-left: 0;
-        padding-top: 350px;
+        padding-top: 267px;
     }
     section.two-image-right .image_box_right {
         top: -40px;
@@ -1008,14 +1073,31 @@ section.board-link ul li {
     }
     section.two-image-right {
         height: auto;
-        padding-bottom: 75px;
+        padding-bottom: 53px;
     }
     section.two-image-right-text .section-text {
         width: 100%;
     }
     section.two-image-right-text .section-title {
         word-break: keep-all;
+        font-size: 28px;
     }
+
+    .treatment-case .max-layout-width .text h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 21px;
+    /* font-weight: bold; */
+    letter-spacing: -2.5px;
+}
+
+.treatment-case {
+    padding: 65px 0;
+    background: #f5f5f5 url(../images/sub/implant/cmmn/digital_bg.jpg) center;
+    text-align: center;
+}
+
+
 }
 
 @media screen and (max-width: 474px) {
@@ -1052,7 +1134,7 @@ section.board-link ul li {
         height: 360px;
     }
     section.section-top-title-left .image_box_left {
-        height: 163px;
+        height: 182px;
     }
     section.section-quotes-title-right .bg {
         bottom: -25px;
@@ -1078,7 +1160,7 @@ section.board-link ul li {
         padding: 0 30px;
     }
     body .section-top-title-left .section-title {
-        font-size: 32px;
+        font-size: 28px;
     }
     section.two-image-right-text .section-title br {
         display: none;
@@ -1087,13 +1169,15 @@ section.board-link ul li {
         height: 400px
     }
     section.background-common {
-        padding-bottom: 100px;
+        /* padding-bottom: 100px; */
     }
+    section.section-top-title-left {
+    padding-bottom: 45px;
 }
 
 @media screen and (max-width: 375px) {
     section.section-top-title-left {
-        padding-bottom: 200px;
+        padding-bottom: 39px;
     }
     section.section-quotes-title-right .bg {
         bottom: -25px;
