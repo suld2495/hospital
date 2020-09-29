@@ -676,7 +676,7 @@ section {
         padding-bottom: 32px;
     }
     .section01 {
-        margin-top: 40px;
+        margin-top: 38px;
     }
     .section03 .image_box_right {
         top: 347px;
@@ -833,7 +833,7 @@ section {
         height: 120px;
     }
     .section03 {
-        padding-bottom: 50px;
+        padding-bottom: 33px;
     }
     .section03 .full-layout-width {
         margin-top: 190px;
@@ -851,6 +851,19 @@ section {
     .section02 .max-layout-width > div:first-child {
         height: 700px;
     }
+    .section03 .image_box_right {
+    height: 172px;
+    top: 347px;
+}
+
+.section03 .img-box span {
+    margin-top: 23px;
+    display: block;
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+
 }
 
 @media screen and (max-width: 360px) {
