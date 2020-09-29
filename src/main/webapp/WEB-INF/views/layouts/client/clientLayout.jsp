@@ -3,7 +3,21 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>병원</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="archive" />
+    <meta name="description" content="미소원치과의 공지사항, 진료안내, 예약안내, 상담안내, 리얼스토리 등을 소개하는 홈페이지입니다." />
+    <meta name="keyword" content="울산치과, 울산 치과추천,울산임플란트, 울산치아교정, 양악수술, 윤곽수술 ,울산교정, 울산사랑니" />
+    <meta name="author" content='울산치과 미소원치과' />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="울산치과 미소원치과">
+    <meta property="og:site_name" content="울산치과 미소원치과">
+    <meta property="og:description" content="미소원치과의 공지사항, 진료안내, 예약안내, 상담안내, 리얼스토리 등을 소개하는 홈페이지입니다.">
+<%--    <meta property="og:url" content="http://misowon.co.kr">--%>
+<%--    <meta property="og:image" content="http://misowon.co.kr/img_meta.png">--%>
+<%--    <meta name="naver-site-verification" content="67965aa40a3ba8955db1c2ef87c209254c64c1f4" />--%>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>미소가 활짝! 미소원치과</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<c:url value='/lib/wow/animate.css' />">
     <link rel="stylesheet" href="<c:url value='/css/reset.css' />">

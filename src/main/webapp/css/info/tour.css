@@ -114,7 +114,7 @@
 
 .section02 .small p {
     font-size: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     color: #888;
 }
 
@@ -273,60 +273,60 @@
 @media screen and (max-width:716px) {
 
     .section02 .slick-list {
-    padding-bottom: 0px !important;
-}
+        padding-bottom: 0px !important;
+    }
 
     .section02 .swiper-slide .small p {
-    line-height: 1.45;
-}
+        line-height: 1.45;
+    }
 
     .section02 .small p {
-    font-size: 14px;
-}
+        font-size: 14px;
+    }
 
 
     .section02 .small h2 {
-    padding-top: 26px;
+        padding-top: 26px;
     }
-    
+
     .section02 .swiper-slide .small h2 {
-    font-size: 28px;
-    font-weight: 500;
-    margin-bottom: 15px;
-    letter-spacing: -2px;
-    margin-top: -15px;
-}
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        letter-spacing: -2px;
+        margin-top: -15px;
+    }
 
     .section01 {
-    margin-top: 38px;
-    margin-bottom: 43px;
-}
+        margin-top: 38px;
+        margin-bottom: 43px;
+    }
 
 
     .section01 li .title {
-    font-size: 30px;
-    vertical-align: -9px;
-    margin-right: 4px;
-    font-weight: 100;
-}
+        font-size: 30px;
+        vertical-align: -9px;
+        margin-right: 4px;
+        font-weight: 100;
+    }
 
     .section01 li .text {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: -1px;
-}
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -1px;
+    }
 
     .section01 li {
-    float: left;
-    width: 33.333333333%;
-    border-left: 1px solid #ddd;
-    box-sizing: border-box;
-    height: 45px;
-    line-height: 42px;
-    text-align: center;
-    cursor: pointer;
-    color: #222;
-}
+        float: left;
+        width: 33.333333333%;
+        border-left: 1px solid #ddd;
+        box-sizing: border-box;
+        height: 45px;
+        line-height: 42px;
+        text-align: center;
+        cursor: pointer;
+        color: #222;
+    }
     .section01 li:first-child {
         border-top: none;
     }

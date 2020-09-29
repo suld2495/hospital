@@ -398,9 +398,9 @@
         </ul>
         <div class="sns">
             <ul>
-                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/instagram_sns.png'/>"></a></li>
-                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/facebook_sns.png'/>"></a></li>
-                <li><a href="<c:url value='/'/>"><img src="<c:url value='/images/cmmn/blog_sns.png'/>"></a></li>
+                <li><a href="https://www.instagram.com/misowondent/" target="_blank"><img src="<c:url value='/images/cmmn/instagram_sns.png'/>"></a></li>
+                <li><a href="https://www.facebook.com/misowondental/" target="_blank"><img src="<c:url value='/images/cmmn/facebook_sns.png'/>"></a></li>
+                <li><a href="https://blog.naver.com/meseoul7" target="_blank"><img src="<c:url value='/images/cmmn/blog_sns.png'/>"></a></li>
             </ul>
         </div>
     </div>
@@ -433,6 +433,7 @@
                 $('.mobile-sub-category .large-category > li p').removeClass('active');
                 $(this).addClass('active');
             }
-        })
+        });
+
     })
 </script>

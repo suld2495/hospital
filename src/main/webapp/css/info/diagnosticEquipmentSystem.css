@@ -418,7 +418,8 @@
         display: none;
     }
     .section03 .title {
-        margin-left: 75px !important
+        margin-left: 75px !important;
+        margin-bottom: 30px;
     }
     .section03 .title:before {
         left: -75px;;
@@ -447,6 +448,7 @@
     .section03 {
         padding-bottom: 500px;
         background: #f1f1f1;
+        padding-top: 60px;
     }
 }
 
@@ -547,6 +549,12 @@
 }
 
 @media screen and (max-width: 414px) {
+    .section03 .section-text {
+        font-size: 14px;
+    }
+    .section03 .max-layout-width > h2 {
+        font-size: 28px;
+    }
     .section01 .text-box {
         padding-top: 30px;
         height: 160px;

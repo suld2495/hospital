@@ -1,5 +1,49 @@
+.popup.active {
+    display: block;
+}
+.popup-button {
+    height: 50px;
+    background: #eee;
+    line-height: 50px;
+}
 
+.popup-button li:first-child {
+    position: relative;
+}
+.popup-button li:first-child:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 35px;
+    background: #ddd;
+}
 
+.popup-button li {
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: #222;
+    cursor: pointer;
+}
+
+.popup-slider, .popup {
+    width: 490px;
+    display: inline-block;
+    z-index: 111;
+}
+.popup {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    display: none;
+}
+.popup-slider img {
+    width: 490px;
+    display: block;
+}
 
 body {
     overflow-x: hidden;
@@ -8,6 +52,7 @@ body {
 .section02 {
     /* margin-bottom: 107px; */
     text-align: center;
+    padding-bottom: 39px;
 }
 
 .section02 > h2, .section02 > p {
@@ -2207,13 +2252,18 @@ body .section07 .bx-pager-link span + span {
     padding-top: 190px;
 }
 
+.section09 + div, .section09 + div .fp-tableCell {
+    height: 594px !important;
+    display: block !important;
+}
+
 .footer-info-container, .footer-info-container .fp-tableCell {
     height: 411px !important;
     display: block !important;
 }
 
 .footer, .footer .fp-tableCell  {
-    height: 99px !important;
+    height: 15px !important;
     display: block !important;
 }
 
@@ -2266,7 +2316,7 @@ body .section07 .bx-pager-link span + span {
         top: 29px;
     }
     .case .max-layout-width {
-        padding: 0px 20px;
+        /* padding: 0px 20px; */
         box-sizing: border-box;
     }
 }
@@ -2452,7 +2502,7 @@ body .section07 .bx-pager-link span + span {
 
     .section01 {
         height: 982px;
-        text-align: c;
+        text-align: center;
     }
 
     .section01 .text {
@@ -2518,8 +2568,8 @@ body .section07 .bx-pager-link span + span {
     }
 
     .section02 .bg {
-        bottom: -39px;
-        height: 343px;
+        /* bottom: -39px; */
+        height: 304px;
     }
 
     .section02 .display-inline-block {
@@ -2578,7 +2628,8 @@ body .section07 .bx-pager-link span + span {
     }
 
     .section05 {
-        height: auto;
+        height: 737px;
+        margin-bottom: 223px;
     }
 
     .section05 .max-layout-width {
@@ -3087,7 +3138,7 @@ body .section07 .bx-pager-link span + span {
         font-size: 15px;
     }
     .case .login, .case .slide-item > .module:hover:after {
-        height: 126px;
+        height: 149.7px;
         top: 0;
     }
     .section09 .slide-item {
@@ -3103,7 +3154,7 @@ body .section07 .bx-pager-link span + span {
         height: 223px;
     }
     .slide-item {
-        width: 174px;
+        width: 197.5px;
         /* padding-bottom: 52px; */
     }
     .section07 .text .num {
@@ -3187,7 +3238,7 @@ body .section07 .bx-pager-link span + span {
     .section05 .bg {
         width: 100%;
         bottom: -33px;
-        height: 713px;
+        height: 653px;
     }
 
     body .section07 .bx-pager-link span:first-child {
@@ -3305,6 +3356,9 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:414px) {
+    .section02 {
+        height: 601px;
+    }
     .footer-info-container, .footer-info-container .fp-tableCell {
         height: 469px !important;
     }
@@ -3339,7 +3393,13 @@ body .section07 .bx-pager-link span + span {
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
+    .section02 li {
+        height: 154.48px;
+    }
+    .section02 {
+        height: 601px;
+    }
 
     .section05 .big-img .cont01 .img {
         background: url(../images/main/docter03_m.jpg) no-repeat;
@@ -3378,7 +3438,7 @@ body .section07 .bx-pager-link span + span {
         padding-top: 0px;
     }
     .case .login, .case .slide-item > .module:hover:after {
-        height: 112px;
+        height: 134.92px;
     }
     .section09 .slide-item {
         height: 148px;
@@ -3391,7 +3451,7 @@ body .section07 .bx-pager-link span + span {
         margin-top: -5.5px;
     }
     .slide-item {
-        width: 155px;
+        width: 178px;
         padding-bottom: 12px;
     }
     .section05 .img-arrow {
@@ -3431,17 +3491,23 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width: 360px) {
+    .section02 li {
+        height: 147.56px;
+    }
+    .section02 {
+        height: 601px;
+    }
     .case .login a {
         font-size: 12px;
     }
     .case .login, .case .slide-item > .module:hover:after {
-        height: 106px;
+        height: 129.25px;
     }
     .section09 .slide-item {
         height: 141px;
     }
     .slide-item {
-        width: 140px;
+        width: 170.5px;
     }
 }
 

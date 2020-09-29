@@ -14,7 +14,7 @@ public class ClientController {
         this.clientService = clientService;
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/main")
     public String main() {
         return "/main/main";
     }

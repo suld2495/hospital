@@ -226,7 +226,7 @@ li:before {
 
 @media screen and (max-width: 640px) {
     #map {
-        height: 530px;
+        height: 265px;
     }
     .section04 .title {
         padding-left: 74px;

@@ -28,21 +28,21 @@
         <div class="sns-link text-align-center">
             <ul class="display-inline-block">
                 <li class="sns-instagram">
-                    <a class="text-decoration-none" href="<c:url value='' />">
+                    <a class="text-decoration-none" href="https://www.instagram.com/misowondent/" target="_blank">
                         <img src="<c:url value='/images/cmmn/sns_instagram.png' />" alt="인스타그램">
                         <span>인스타그램</span>
                         <img class="sns-arrow" src="<c:url value='/images/cmmn/arrow01.png' />">
                     </a>
                 </li>
                 <li class="sns-facebook">
-                    <a class="text-decoration-none" href="<c:url value='' />" alt="페이스북">
+                    <a class="text-decoration-none" href="https://www.facebook.com/misowondental/" target="_blank" alt="페이스북">
                         <img src="<c:url value='/images/cmmn/sns_facebook.png' />">
                         <span>페이스북</span>
                         <img class="sns-arrow" src="<c:url value='/images/cmmn/arrow01.png' />">
                     </a>
                 </li>
                 <li class="sns-blog">
-                    <a class="text-decoration-none" href="<c:url value='' />" alt="블로그">
+                    <a class="text-decoration-none" href="https://blog.naver.com/meseoul7" target="_blank" alt="블로그">
                         <img src="<c:url value='/images/cmmn/sns_blog.png' />">
                         <span>블로그</span>
                         <img class="sns-arrow" src="<c:url value='/images/cmmn/arrow01.png' />">
