@@ -318,7 +318,7 @@
 
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script>
-    $(function () {
+    $(window).load(function() {
         $('.swiper-slide').width(981);
         $('.swiper-wrapper').on('init', function(){
             setTimeout(function () {
