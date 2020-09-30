@@ -141,14 +141,14 @@ public class ClientController {
     @RequestMapping("/aesthetic")
     public String aesthetic(Model model) {
         model.addAttribute("category", 9);
-        model.addAttribute("urlName", "심미보철치료");
+        model.addAttribute("urlName", "라미네이트");
         return "/sub/tooth/aesthetic";
     }
 
     @RequestMapping("/aesthetic-ceramic")
     public String aestheticAll(Model model) {
         model.addAttribute("category", 9);
-        model.addAttribute("urlName", "심미보철치료");
+        model.addAttribute("urlName", "올세라믹 크라운");
         return "/sub/tooth/aestheticAll";
     }
 

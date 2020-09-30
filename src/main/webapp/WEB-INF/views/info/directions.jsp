@@ -36,7 +36,17 @@
         </div>
     </section>
 
-    <section class="section03 wow fadeInUp">
+    <section class="section03 scrolled-image wow fadeInUp">
+        <div class="first">
+            <div class="bg-wrap">
+                <div class="background"></div>
+            </div>
+        </div>
+        <div class="second">
+            <div class="bg-wrap">
+                <div class="background"></div>
+            </div>
+        </div>
         <div class="bg">
             <h2>약도 및 주차장 안내</h2>
             <div class="location-bg"></div>
