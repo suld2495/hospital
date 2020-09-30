@@ -190,6 +190,7 @@ li:before {
         width: 100%;
         padding: 0 30px;
         box-sizing: border-box;
+        padding-bottom: 67px;
     }
 }
 
@@ -206,6 +207,7 @@ li:before {
         border-top: 1px solid #d4d4d4;
         height: 211px;
         padding-top: 33px;
+        margin-bottom: -20px;
     }
     .section04 ul {
         border: 1px solid #d4d4d4;
@@ -232,6 +234,12 @@ li:before {
 }
 
 @media screen and (max-width: 640px) {
+
+    .section04 li p {
+    font-size: 14px;
+}
+
+
     #map {
         height: 265px;
     }
@@ -275,12 +283,12 @@ li:before {
 
 
     .section04 {
-        padding-top: 59px;
+        padding-top: 51px;
         padding-bottom: 52px;
     }
 
     .section04 li h2 {
-        font-size: 24px;
+        font-size: 23px;
         font-weight: 500;
         margin-bottom: 17px;
         letter-spacing: -2px;
@@ -297,6 +305,14 @@ li:before {
         font-size: 14px;
         width: 90%;
     }
+    .section04 li {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #d4d4d4;
+    height: 211px;
+    padding-top: 33px;
+    margin-bottom: 0px;
+}
 }
 
 
