@@ -876,54 +876,54 @@ section.board-link ul li {
 @media screen and (max-width: 640px) {
 
     #contents {
-    overflow: hidden;
-    margin-bottom: -65px;
-}
+        overflow: hidden;
+        margin-bottom: -65px;
+    }
 
     .board-link ul {
-    margin-top: 35px;
-    margin-left: -3.07%;
-    overflow: hidden;
-}
+        margin-top: 35px;
+        margin-left: -3.07%;
+        overflow: hidden;
+    }
 
 
     .board-link ul li p {
-    height: 46px;
-    background: #0e1621;
-    padding-left: 19px;
-    padding-right: 35px;
-    text-align: left;
-    position: relative;
-    top: -65px;
+        height: 46px;
+        background: #0e1621;
+        padding-left: 19px;
+        padding-right: 35px;
+        text-align: left;
+        position: relative;
+        top: -65px;
     }
 
-.board-link ul li p span:first-child {
-    padding-top: 14px;
-    display: block;
-    font-size: 16px;
-    color: #fff;
-    /* font-weight: bold; */
-    letter-spacing: -2px;
+    .board-link ul li p span:first-child {
+        padding-top: 14px;
+        display: block;
+        font-size: 16px;
+        color: #fff;
+        /* font-weight: bold; */
+        letter-spacing: -2px;
     }
-    
+
     .board-link ul li:first-child:before {
-    background: url(../images/sub/implant/digital/digital20.jpg) no-repeat top center;
-    height: 200px;
+        background: url(../images/sub/implant/digital/digital20.jpg) no-repeat top center;
+        height: 200px;
     }
 
     .board-link ul li.center-img:before {
-    background: url(../images/sub/implant/digital/digital21.jpg) no-repeat top center;
-    height: 200px;
+        background: url(../images/sub/implant/digital/digital21.jpg) no-repeat top center;
+        height: 200px;
     }
 
     .board-link ul li.last-img:before {
-    background: url(../images/sub/implant/digital/digital22.jpg) no-repeat top center;
-    height: 200px;
-    } 
+        background: url(../images/sub/implant/digital/digital22.jpg) no-repeat top center;
+        height: 200px;
+    }
 
 
     section.board-link {
-    margin-top: 55px;
+        margin-top: 55px;
     }
 
     .sub-page-title {
@@ -988,12 +988,12 @@ section.board-link ul li {
         box-sizing: border-box;
     }
     .treatment-case .max-layout-width .text p {
-    line-height: 1.5;
-    word-break: keep-all;
-    letter-spacing: -1px;
-    margin-bottom: 32px;
-    font-weight: 300;
-    font-size: 14px;
+        line-height: 1.5;
+        word-break: keep-all;
+        letter-spacing: -1px;
+        margin-bottom: 32px;
+        font-weight: 300;
+        font-size: 14px;
     }
     .treatment-case .treatment-case-swiper-slide div.text-title {
         height: 37px;
@@ -1010,7 +1010,7 @@ section.board-link ul li {
         top: 159px;
     }
     .treatment-case .treatment-case-slider {
-        height: 610px;
+        height: 430px;
     }
     section.treatment-case .left-img {
         height: 200px;
@@ -1046,9 +1046,6 @@ section.board-link ul li {
     }
     section.section-quotes-title-left .section-title {
         padding-left: 20px;
-    .section05 {
-
-};
         padding-top: 54px;
         line-height: 1.2;
     }
@@ -1084,18 +1081,18 @@ section.board-link ul li {
     }
 
     .treatment-case .max-layout-width .text h2 {
-    font-size: 28px;
-    color: #fff;
-    margin-bottom: 21px;
-    /* font-weight: bold; */
-    letter-spacing: -2.5px;
-}
+        font-size: 28px;
+        color: #fff;
+        margin-bottom: 21px;
+        /* font-weight: bold; */
+        letter-spacing: -2.5px;
+    }
 
-.treatment-case {
-    padding: 65px 0;
-    background: #f5f5f5 url(../images/sub/implant/cmmn/digital_bg.jpg) center;
-    text-align: center;
-}
+    .treatment-case {
+        padding: 65px 0;
+        background: #f5f5f5 url(../images/sub/implant/cmmn/digital_bg.jpg) center;
+        text-align: center;
+    }
 
 
 }
@@ -1116,6 +1113,7 @@ section.board-link ul li {
     .section05 .max-layout-width .text > div {
         padding-right: 0px;
     }
+
     section.section-quotes-title-left .max-layout-width .text > div:before {
         width: 100px;
         height: 100px;
@@ -1125,56 +1123,70 @@ section.board-link ul li {
     section.section-top-title-right-two {
         padding-bottom: 150px;
     }
+
     section.section-top-title-right-two .img {
         background-size: contain;
         height: 157px;
     }
+
     section.section-top-title-left .bg {
         padding-bottom: 0;
         height: 360px;
     }
+
     section.section-top-title-left .image_box_left {
         height: 182px;
     }
+
     section.section-quotes-title-right .bg {
         bottom: -25px;
     }
+
     .table .max-layout-width h2 {
         line-height: 1.3;
         word-break: keep-all;
     }
+
     section.section-quotes-title-right .section-title {
         padding-left: 50px;
         font-size: 28px;
         word-break: keep-all;
     }
+
     section.section-quotes-title-right .section-title br {
         display: none;
     }
+
     section.section-top-title-left-two .img {
         margin-bottom: 30px;
         background-size: contain;
         height: 185px;
     }
+
     body .section-top-title-left .text > div, body .section-top-title-left .bg .max-layout-width > div {
         padding: 0 30px;
     }
+
     body .section-top-title-left .section-title {
         font-size: 28px;
     }
+
     section.two-image-right-text .section-title br {
         display: none;
     }
+
     section.section-quotes-title-left .bg {
         height: 400px
     }
+
     section.background-common {
         /* padding-bottom: 100px; */
     }
-    section.section-top-title-left {
-    padding-bottom: 45px;
-}
 
+    section.section-top-title-left {
+        padding-bottom: 45px;
+    }
+}
 @media screen and (max-width: 375px) {
     section.section-top-title-left {
         padding-bottom: 39px;
