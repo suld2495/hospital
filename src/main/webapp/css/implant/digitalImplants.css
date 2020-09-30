@@ -555,7 +555,7 @@
 @media screen and (max-width: 640px) {
 
     .section05 {
-        margin-top: 129px;
+        margin-top: 124px;
     }
     .section04 .image_box_left {
         top: 0;
@@ -673,8 +673,9 @@
     }
     .section04 ul li h5 {
         margin-top: 134px;
-        margin-bottom: 20px;
+        margin-bottom: 16px;
         font-size: 15px;
+        line-height: 1.35;
     }
     .section-text {
         font-size: 14px;
