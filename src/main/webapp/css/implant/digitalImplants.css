@@ -538,13 +538,13 @@
     .section04 ul {
         margin-left: -2%;
         height: 650px;
-        padding: 0 20px;
+        padding: 0 15px;
         box-sizing: border-box;
     }
     .section04 ul li {
         width: 48%;
         margin-left: 2%;
-        margin-bottom: 73px;
+        margin-bottom: 59px;
     }
     .section04 ul li .bg {
         background-size: cover
@@ -553,24 +553,71 @@
 }
 
 @media screen and (max-width: 640px) {
+    .section05 {
+    margin-top: 135px;
+}
     .section04 .image_box_left {
         top: 0;
         width: 100%;
-        height: 439px;
+        height: 269px;
     }
     .section04 {
-        margin-top: 100px;
+        margin-top: 64px;
     }
     .section04 .text {
         padding-left: 0;
-        margin-top: 400px;
+        margin-top: 202px;
     }
     .section04 ul {
-        margin-top: 100px;
+        margin-top: 81px;
     }
     .section04 .section-title {
-        word-break: keep-all
+        word-break: keep-all;
+        font-size: 28px;
+        margin-bottom: 6px;
     }
+
+    .section02 {
+    margin-top: 50px;
+    margin-bottom: 66px;
+}
+
+.section04 .con {
+    position: relative;
+    padding-top: 113px;
+}
+.section04 ul li p {
+    padding-top: 51px;
+    font-size: 61px;
+    margin-bottom: 21px;
+    letter-spacing: -1px;
+    position: absolute;
+    top: -87px;
+    width: 100%;
+    color: #9c8c7f;
+    font-family: gmarket !important;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.section07 {
+    height: 515px;
+    margin-top: 95px;
+}
+.section07 .imp-img {
+    background: url(../../images/sub/implant/digital/digital19.png) no-repeat;
+    width: 468px;
+    height: 243px;
+    margin: 0px auto;
+    margin-top: 25px;
+}
+.fade-in-slider {
+    margin-top: 61px;
+}
+.section10 {
+    margin-top: 72px;
+}
+
 }
 
 @media screen and (max-width: 414px) {
@@ -588,10 +635,10 @@
         height: 220px;
     }
     section.two-image-right .max-layout-width ul {
-        padding-top: 300px;
+        padding-top: 267px;
     }
     section.two-image-right .image_box_right {
-        height: 300px;
+        height: 276px;
     }
     .section03 .img {
         background-size: contain;
@@ -611,6 +658,13 @@
         margin-bottom: 20px;
         font-size: 15px;
     }
+    .section-text {
+    font-size: 14px;
+    color: #222;
+    line-height: 1.6;
+    letter-spacing: -1.5px;
+    padding-top: 13px;
+}
 }
 
 @media screen and (max-width: 375px) {
