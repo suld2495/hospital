@@ -549,6 +549,12 @@
 }
 
 @media screen and (max-width: 414px) {
+    .section01 .slick-slider .slick-list {
+        transform: none;
+    }
+    .section01 .slick-slide {
+        margin-right: 0;
+    }
     .section03 .section-text {
         font-size: 14px;
     }

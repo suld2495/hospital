@@ -798,7 +798,11 @@ header .header-banner-slider .slide-item04 .go {
     background: #1f2e69;
 }
 
-
+@media screen and (min-width: 1871px) {
+    .header-logo {
+        padding-right: 0%;
+    }
+}
 
 @media screen and (max-width: 1870px) {
     header .cmmn-nav ol {

@@ -2253,12 +2253,12 @@ body .section07 .bx-pager-link span + span {
 }
 
 .section09 + div, .section09 + div .fp-tableCell {
-    height: 594px !important;
+    height: 481px !important;
     display: block !important;
 }
 
 .footer-info-container, .footer-info-container .fp-tableCell {
-    height: 411px !important;
+    height: 351px !important;
     display: block !important;
 }
 
@@ -3361,6 +3361,10 @@ body .section07 .bx-pager-link span + span {
     }
     .footer-info-container, .footer-info-container .fp-tableCell {
         height: 469px !important;
+    }
+    .section .footer-info-container, .footer-info-container .fp-tableCell,
+    .section09 + div, .section09 + div .fp-tableCell {
+        display: none !important;
     }
 
 }
