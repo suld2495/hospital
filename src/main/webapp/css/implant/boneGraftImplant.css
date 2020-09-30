@@ -1039,6 +1039,9 @@ section.board-link {
 }
 
 @media screen and (max-width: 414px) {
+    section.section-quotes-title-right .max-layout-width .text {
+        padding-top: 140px;
+    }
     section.section-quotes-title-right .bg {
         height: 208px;
     }

@@ -893,11 +893,14 @@ section.board-link {
 }
 
 @media screen and (max-width: 414px) {
+    section.section-top-title-left {
+        padding-bottom: 210px;
+    }
     section.section-top-title-left .bg {
         height: 180px;
     }
     body .section-top-title-left .section-title {
-        font-size: 28px;
+        font-size: 25px;
     }
     .section09 li p {
         font-size: 14px;

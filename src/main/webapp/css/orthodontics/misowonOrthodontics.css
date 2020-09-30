@@ -602,6 +602,9 @@ section.board-link {
 }
 
 @media screen and (max-width: 414px) {
+    body .section-top-title-left .section-title {
+        font-size: 26px;
+    }
     .section05 .max-layout-width h2 {
         font-size: 30px;
     }
@@ -635,12 +638,18 @@ section.board-link {
 }
 
 @media screen and (max-width: 375px) {
+    body .section-top-title-left .section-title {
+        font-size: 25px;
+    }
     section.section-quotes-title-right .bg {
         height: 245px;
     }
 }
 
 @media screen and (max-width: 360px) {
+    body .section-top-title-left .section-title {
+        font-size: 24px;
+    }
     section.section-quotes-title-right .bg {
         height: 255px;
     }
