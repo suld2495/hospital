@@ -162,7 +162,7 @@
 .top-container {
     display: block;
     position: fixed;
-    width: 82px;
+    width: 0;
     height: 100%;
     right: 0;
     top: 0;
@@ -171,6 +171,7 @@
     z-index: 100000;
     opacity: 0;
     transition: opacity .3s ease;
+    margin-left: -82px;
 }
 .top-box {
     display: block;
@@ -185,6 +186,7 @@
     height: 113px;
     position: absolute;
     width: 48px;
+    margin-left: -42px;
 }
 .top {
     z-index: 11111111;
