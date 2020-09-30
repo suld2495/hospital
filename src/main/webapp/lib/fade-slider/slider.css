@@ -584,7 +584,7 @@
 
 @media screen and (max-width: 1300px) {
     section.table {
-        padding: 123px 30px;
+        padding: 57px 20px;
         box-sizing: border-box;
     }
     .table img {
@@ -803,10 +803,12 @@
     }
     .left-fade-slider-container .text p {
         font-size: 12px;
+        line-height: 1.4;
     }
     .left-fade-slider-container .text h2 {
-        margin-top: 33px;
-        font-size: 18px;
+        margin-top: 24px;
+        font-size: 17px;
+        margin-bottom: 13px;
     }
     .fade-in-slider .title h2 {
         font-size: 28px;

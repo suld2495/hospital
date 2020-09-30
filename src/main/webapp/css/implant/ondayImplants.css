@@ -233,9 +233,9 @@
 
 .section05 .text .img01 {
     background: url(../../images/sub/implant/oneday/oneday_icon01.png) no-repeat center top;
-    padding-top: 27px;
+    /* padding-top: 27px; */
     padding-bottom: 27px;
-    /* margin-bottom: 40px; */
+    margin-bottom: 40px;
 }
 
 .section05 .text .img02 {
@@ -587,21 +587,24 @@ section.board-link {
 }
 
 
-.section-text {
-
-    padding-top: 12px;
-}
+.section-text {padding-top: 12px;}
 
 .board-link .section-title {
     line-height: 1.25;
 }
 
 @media screen and (max-width: 1300px) {
+
+    .section02 .arrow p:first-child {
+    background: url(../../images/sub/implant/oneday/oneday_arrow01.png) no-repeat center;
+    border-bottom: 1px solid #acacac;
+}
+
     .section02 .section-title, .section02 .section-text {
         line-height: 1.3;
         word-break: keep-all;
         padding: 0 100px;
-        margin-bottom: 30px;
+        margin-bottom: 12px;
     }
     .section02 .long-arrow p:first-child {
         background-size: contain;
@@ -610,7 +613,7 @@ section.board-link {
 
 @media screen and (max-width: 768px) {
     .section07 {
-        margin-top: 100px;
+        margin-top: 62px;
     }
     .section06 .text > div {
         padding-left: 30px;
@@ -625,6 +628,67 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+
+    section.board-link {
+    margin-top: 50px;
+}
+
+    .section07 .max-layout-width {
+    position: relative;
+    padding-top: 72px;
+    text-align: center;
+    color: #fff;
+}
+    .section06 .pager {
+    font-size: 16px;
+    color: #222;
+    padding: 9px 0;
+    position: relative;
+    padding-left: 30px;
+    display: inline-block;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: -1.5px;
+    line-height: 13px;
+}
+
+    .section05 .text {
+    padding-top: 64px;
+}
+
+    .section03 {
+    margin-top: 60px;
+    }
+
+    .section02 .oneday li:first-child, .section02 .basic li:first-child {
+    line-height: 1.3;
+    font-weight: 600;
+    padding: 21px 0;
+    font-size: 15;
+    }
+
+    .section02 .arrow p, .section02 .long-arrow p {
+    height: 40px;
+    line-height: 39px;
+    font-size: 15px;
+    }
+
+
+    .section02 .step {
+    margin-top: 52px;
+    padding: 11px 0;
+    background: #f5f5f5;
+    font-weight: bold;
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 13px;
+}
+
+
+    .section02 li {
+    font-size: 16px;
+    }
+    
     .section10 {
         margin-top: 0;
     }
@@ -649,6 +713,7 @@ section.board-link {
         overflow: scroll;
         box-sizing: border-box;
         padding: 0 30px;
+        padding-top: 23px;
     }
     section .table-container > * {
         width: 640px;
@@ -660,19 +725,19 @@ section.board-link {
 
 @media screen and (max-width: 414px) {
     section.list-content .section-text + .pager {
-        margin-top: 150px;
+        margin-top: 172px;
     }
     section.list-content .image_box_left {
-        height: 157px;
+        height: 200px;
     }
     .section06 .img {
         background-size: cover;
     }
     section.section-quotes-title-right .max-layout-width .text {
-        padding-top: 160px;
+        padding-top: 231px;
     }
     section.section-quotes-title-right .image_box_right {
-        height: 146px;
+        height: 220px;
     }
     .section03 .image_box_right .img {
         background-size: cover;
@@ -687,11 +752,14 @@ section.board-link {
         font-size: 14px;
     }
     section.img-four .image_box_right {
-        height: 250px;
+        height: 187px;
     }
     .section05 .img {
         background-size: contain;
         margin-bottom: 30px;
+        height: 180px;
+        /* padding-top: 10px; */
+        margin-top: 27px;
     }
     .section05 .text h2 {
         font-size: 28px;
@@ -708,12 +776,13 @@ section.board-link {
     }
     .section02 .section-title, .section04 .section-title {
         font-size: 28px;
+        padding-top: 9px;
     }
     body .section-top-title-left .section-title {
         font-size: 25px;
     }
     section.section-top-title-right-two .max-layout-width ul {
-        top: 350px;
+        top: 299px;
     }
     .section07 p {
         font-size: 14px;
