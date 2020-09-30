@@ -469,8 +469,17 @@ body .section02 li:first-child {
 }
 
 .section02 .arrow p:first-child {
-    background: url(../../images/sub/implant/oneday/oneday_arrow01.png) no-repeat center;
+    position: relative;
     border-bottom: 1px solid #acacac;
+}
+
+.section02 .arrow p:first-child:before {
+    background: url(../../images/sub/implant/oneday/oneday_arrow01.png) no-repeat center;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    content: '';
+    left: 0;
 }
 
 .section02 .long-arrow p:first-child {
