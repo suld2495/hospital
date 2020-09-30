@@ -321,7 +321,7 @@ p + .dec-title {
         padding: 0 20px;
         box-sizing: border-box;
     }
-    .tab-contents .text .max-layout-width {
+    .tab-contents .text >div {
         padding: 0 30px;
         position: relative;
         z-index: 11;
