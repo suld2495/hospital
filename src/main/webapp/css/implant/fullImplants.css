@@ -664,7 +664,7 @@ section.board-link {
         padding-top: 220px;
     }
     section.section-top-title-left .image_box_left {
-        top: 0;
+        top: 337px;
     }
     .section02 .move-title {
         display: none;
@@ -723,6 +723,27 @@ section.board-link {
 }
 
 @media screen and (max-width: 414px) {
+    section.section-top-title-left .image_box_left {
+        top: 0;
+    }
+    section.section-top-title-left {
+        margin-top: 50px;
+    }
+    .section04 {
+        margin-top: 40px;
+    }
+    .section03 .text-box {
+        padding-top: 200px;
+    }
+    .section02 .text-box {
+        padding-top: 190px;
+    }
+    .section02 .img01 {
+        height: 167px;
+    }
+    .section02 .img {
+        background-size: cover;
+    }
     section.section-quotes-title-right .bg {
         height: 226px;
     }
