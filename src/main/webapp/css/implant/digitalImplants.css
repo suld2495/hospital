@@ -162,8 +162,8 @@
 .section03 .max-layout-width li p {
     color: #fff;
     margin-top: 24px;
-    line-height: 1.5;
-    font-size: 17px;
+    line-height: 1.4;
+    font-size: 14px;
     letter-spacing: -1.3px;
 }
 
@@ -563,7 +563,7 @@
         height: 269px;
     }
     .section04 {
-        margin-top: 64px;
+        margin-top: 53px;
     }
     .section04 .text {
         padding-left: 0;
