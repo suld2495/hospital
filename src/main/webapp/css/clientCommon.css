@@ -664,6 +664,9 @@ section.board-link ul li {
     section.section-top-title-left-two .section-title {
         padding-right: 10px;
         word-break: keep-all;
+        font-size: 28px;
+        margin-bottom: -17px;
+        padding-top: 0px;
     }
     section.section-top-title-left-two .section-text {
         width: 50%;
@@ -773,7 +776,7 @@ section.board-link ul li {
         margin-top: 310px;
     }
     section.list-content {
-        padding-top: 100px;
+        padding-top: 63px;
     }
     section.list-content .max-layout-width > div {
         padding-left: 0;
@@ -1125,10 +1128,10 @@ section.board-link ul li {
 
 @media screen and (max-width: 474px) {
     section.list-content .section-title {
-        font-size: 25px;
+        font-size: 27px;
     }
     section.list-content .section-text, section.list-content .pager {
-        font-size: 12px;
+        font-size: 14px;
     }
     section.list-content .section-text + .pager {
         margin-top: 350px;

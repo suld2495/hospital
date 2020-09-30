@@ -597,6 +597,31 @@ section.board-link {
 }
 
 @media screen and (max-width:414px) {
+    .section04 .pager {
+    font-size: 16px;
+    color: #222;
+    padding: 9px 0;
+    position: relative;
+    padding-left: 32px;
+    display: inline-block;
+    font-weight: 400;
+    cursor: pointer;
+    letter-spacing: -1px;
+    color: #fff;
+    }
+    
+    .section04 {
+    background: url(../../images/sub/implant/navigation/navi_bg.jpg)  no-repeat center;
+    margin-top: -77px;
+    padding-top: 128px;
+    padding-bottom: 55px;
+    margin-bottom: -61px;
+    }
+
+    .section02 {
+    margin-top: 103px;
+    margin-bottom: 100px;
+    }
     section.section-quotes-title-right .bg {
         height: 195px;
     }
@@ -610,7 +635,7 @@ section.board-link {
         background-size: cover;
     }
     section.list-content .section-text + .pager {
-        margin-top: 180px;
+        margin-top: 154px;
     }
     section.list-content .image_box_left {
         height: 146px;
