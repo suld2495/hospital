@@ -547,7 +547,7 @@ section {
         height: 316px;
     }
     .section05 .img02 {
-        left: 10px;
+        left: 29px;
         top: 80px;
     }
     .section04 .sub-text {
@@ -623,11 +623,12 @@ section {
 
 @media screen and (max-width: 640px) {
     .tabs {
-        margin-top: 45px;
+        margin-top: 38px;
     }
 
     .tab {
         font-size: 16px;
+        height: 34px;
     }
 
 
@@ -637,7 +638,7 @@ section {
 
     .tab-contents {
         height: 0;
-        font-size: 28px;
+        font-size: 36px;
         /* line-height: 1.4; */
         opacity: 0;
         transition: none;
@@ -653,7 +654,7 @@ section {
     }
 
     .section04 {
-        padding: 79px 0 70px 0;
+        padding: 75px 0 60px 0;
     }
 
     .section-title {
@@ -743,14 +744,15 @@ section {
 
 @media screen and (max-width: 414px) {
     .section05 .text {
-        padding-top: 280px;
+        padding-top: 288px;
+        padding-bottom: 46px;
     }
     .section05 .img02 {
         height: 180px;
         width: 130px;
     }
     .section05 .img01  {
-        height: 144px;
+        height: 225px;
     }
     .section05 .img01 .img {
         background-size: cover;

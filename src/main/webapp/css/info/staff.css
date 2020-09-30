@@ -340,7 +340,7 @@ p + .dec-title {
 @media screen and (max-width: 900px) {
 
     .staff-info-box {
-        padding-bottom: 75px;
+        padding-bottom: 115px;
         padding-top: 8px;
     }
 
@@ -349,7 +349,7 @@ p + .dec-title {
     }
 
     .staff-info-box h1 {
-        padding-top: 57px;
+        padding-top: 149px;
         margin-bottom: 30px;
         font-size: 31px;
         font-weight: 500;
@@ -467,7 +467,7 @@ p + .dec-title {
     .staff-info-box .text p {
         padding-left: 0;
         font-size: 14px;
-        line-height: 1.6;
+        line-height: 1.5;
         margin-top: 64px;
     }
     .staff-contents .last-title + p:after {
@@ -481,7 +481,7 @@ p + .dec-title {
         padding-top: 120px;
     }
     .staff-contents .image_box_left, .staff-contents .image_box_right {
-        height: 144px;
+        height: 225px;
     }
     .img-box1 .img {
         background-size: cover;
