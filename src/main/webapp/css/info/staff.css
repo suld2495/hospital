@@ -474,16 +474,22 @@ p + .dec-title {
 }
 
 @media screen and (max-width: 414px)  {
+    .staff-contents .text {
+        padding-top: 120px;
+    }
+    .staff-contents .image_box_left, .staff-contents .image_box_right {
+        height: 144px;
+    }
     .img-box1 .img {
-        background: url('../../images/sub/info/staff/staff_01_m.png') no-repeat center;
+        background-size: cover;
     }
 
     .img-box2 .img {
-        background: url('../../images/sub/info/staff/staff_02_m.png') no-repeat center;
+        background-size: cover;
     }
 
     .img-box3 .img {
-        background: url('../../images/sub/info/staff/staff_03_m.png') no-repeat center;
+        background-size: cover;
     }
 
     .title {
