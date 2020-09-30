@@ -659,6 +659,24 @@ section.board-link {
 }
 
 @media screen and (max-width: 414px) {
+    section.list-content .section-text + .pager {
+        margin-top: 150px;
+    }
+    section.list-content .image_box_left {
+        height: 157px;
+    }
+    .section06 .img {
+        background-size: cover;
+    }
+    section.section-quotes-title-right .max-layout-width .text {
+        padding-top: 160px;
+    }
+    section.section-quotes-title-right .image_box_right {
+        height: 146px;
+    }
+    .section03 .image_box_right .img {
+        background-size: cover;
+    }
     .section05 .image_box_right + .text {
         margin-top: 30px
     }

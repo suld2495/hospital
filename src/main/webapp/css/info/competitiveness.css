@@ -1,3 +1,6 @@
+.img {
+    background-size: cover;
+}
 @font-face {
     font-family: 'Caveat';
     font-style: normal;
@@ -739,9 +742,28 @@ section {
 }
 
 @media screen and (max-width: 414px) {
+    .section05 .text {
+        padding-top: 280px;
+    }
+    .section05 .img02 {
+        height: 180px;
+        width: 130px;
+    }
+    .section05 .img01  {
+        height: 144px;
+    }
+    .section05 .img01 .img {
+        background-size: cover;
+    }
+    .section01 .text {
+        padding-top: 240px;
+    }
+    .section01 .img01 {
+        height: 198px;
+    }
 
     .section01 .img01 .img {
-        background: url(../../images/sub/info/competitiveness/compet01_m.png) no-repeat center;
+        background-size: cover;
     }
 
 
@@ -852,17 +874,17 @@ section {
         height: 700px;
     }
     .section03 .image_box_right {
-    height: 172px;
-    top: 347px;
-}
+        height: 172px;
+        top: 347px;
+    }
 
-.section03 .img-box span {
-    margin-top: 23px;
-    display: block;
-    text-align: center;
-    letter-spacing: -1px;
-    font-weight: 400;
-}
+    .section03 .img-box span {
+        margin-top: 23px;
+        display: block;
+        text-align: center;
+        letter-spacing: -1px;
+        font-weight: 400;
+    }
 
 }
 

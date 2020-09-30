@@ -597,6 +597,27 @@ section.board-link {
 }
 
 @media screen and (max-width:414px) {
+    section.section-quotes-title-right .bg {
+        height: 195px;
+    }
+    section.section-quotes-title-right .max-layout-width .text {
+        padding-top: 180px;
+    }
+    .section05.section-quotes-title-right .image_box_right {
+        height: 159px;
+    }
+    .section05 .img {
+        background-size: cover;
+    }
+    section.list-content .section-text + .pager {
+        margin-top: 180px;
+    }
+    section.list-content .image_box_left {
+        height: 146px;
+    }
+    .section04 .img {
+        background-size: cover;
+    }
     .left-fade-slider-container .max-layout-width h2 {
         font-size: 26px;
         word-break: keep-all;

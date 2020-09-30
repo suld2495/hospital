@@ -553,6 +553,7 @@
 }
 
 @media screen and (max-width: 640px) {
+
     .section05 {
         margin-top: 135px;
     }
@@ -621,6 +622,23 @@
 }
 
 @media screen and (max-width: 414px) {
+    section.section-quotes-title-left .max-layout-width .text {
+        padding-top: 160px;
+    }
+    section.section-quotes-title-left .image_box_left {
+        height: 144px;
+    }
+    .section05 .img {
+        height: 144px;
+        background-size: cover;
+    }
+    .section04 .text {
+        margin-top: 230px;
+    }
+    .section04 .img {
+        height: 313px;
+        background-size: cover;
+    }
     section.section-quotes-title-left .section-text:before {
         top: -62px;
         height: 60px;

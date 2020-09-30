@@ -689,18 +689,33 @@ section {
 }
 
 @media screen and (max-width:414px) {
-
+    .section06 .text > div {
+        margin-top: 110px;
+    }
+    .section03 .img01,
+    .section04 .img01 {
+        height: 155px;
+    }
+    .section02 .text-box,
+    .section03 .text-box,
+    .section04 .text-box {
+        padding-top: 180px;
+    }
+    .section02 .img01 {
+        height: 155px;
+    }
     .section03 .img {
-        background: url(../../images/sub/info/intro/intro03_m.png) no-repeat center;
+        background-size: cover;
     }
     .section02 .img {
-        background: url(../../images/sub/info/intro/intro02_m.png) no-repeat center;
+        background-size: cover;
     }
     .section04 .img {
-        background: url(../../images/sub/info/intro/intro04_m.png) no-repeat center;
+        background-size: cover;
     }
     .section06 .text > div.img_bg {
-        background: url(../../images/sub/info/intro/intro05_m.png) no-repeat center;
+        background-size: cover;
+        height: 147px;
     }
     .section-title {
         font-size: 28px;
