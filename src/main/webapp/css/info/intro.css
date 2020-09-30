@@ -486,6 +486,7 @@ section {
         width: 90%;
         padding-right: 0;
         word-break: keep-all;
+        line-height: 1.5;
     }
     .section06 .section-text {
         padding-right: 30px;
@@ -564,6 +565,7 @@ section {
         width: 100%;
         margin-top: 0px;
         margin-bottom: 23px;
+        line-height: 1.5;
     }
     .section03 .text-box {
         padding-left: 0;
@@ -646,7 +648,7 @@ section {
 
     }
     .section01 .max-layout-width {
-        padding-top: 339px;
+        padding-top: 297px;
     }
     .section01 .last-section-title:after {
         display: none;
@@ -679,8 +681,8 @@ section {
 @media screen and (max-width:518px) {
     .section05 {
         padding-bottom: 27px;
-        margin-top: -158px;
-        padding-top: 69px;
+        margin-top: -165px;
+        padding-top: 67px;
     }
     .image-container h5 span {
         font-size: 30px;
