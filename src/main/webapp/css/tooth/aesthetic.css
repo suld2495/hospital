@@ -525,21 +525,32 @@ p.img allceramic {
     width: 25%;
     float: left;
     padding-top: 170px;
+    position: relative;
 }
 
-.section11 .img01 {
+.section11 li:before {
+    position: absolute;
+    content: '';
+    width: 153px;
+    height: 153px;
+    margin-left: -76px;
+    left: 50%;
+    top: 0;
+}
+
+.section11 .img01:before {
     background: url(../../images/sub/tooth/aesthetic/aesthetic_icon05.png) no-repeat top center;
 }
 
-.section11 .img02 {
+.section11 .img02:before {
     background: url(../../images/sub/tooth/aesthetic/aesthetic_icon06.png) no-repeat top center;
 }
 
-.section11 .img03 {
+.section11 .img03:before {
     background: url(../../images/sub/tooth/aesthetic/aesthetic_icon07.png) no-repeat top center;
 }
 
-.section11 .img04 {
+.section11 .img04:before {
     background: url(../../images/sub/tooth/aesthetic/aesthetic_icon08.png) no-repeat top center;
 }
 
