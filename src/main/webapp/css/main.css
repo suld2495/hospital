@@ -1,3 +1,7 @@
+.footer-info-container {
+    padding-bottom: 0;
+}
+
 .popup.active {
     display: block;
 }
@@ -1105,7 +1109,7 @@ body .section07 .bx-pager-link span + span {
 }
 
 .section05 .sub-text {
-    font-size: 40;
+    font-size: 40px;
     line-height: 1.15;
     color: #fff;
     margin-bottom: 78px;
@@ -2733,8 +2737,8 @@ body .section07 .bx-pager-link span + span {
 @media screen and (max-width: 640px) {
 
     .case .max-layout-width {
-    padding-top: 20px;
-}
+        padding-top: 20px;
+    }
     .section09 .max-layout-width {
         padding-top: 57px;
     }
@@ -2815,7 +2819,7 @@ body .section07 .bx-pager-link span + span {
         height: 273px;
     }
     .community .online a {
-        padding-right: 20;
+        padding-right: 20px;
     }
     .community .online p {
         font-size: 14px;
@@ -3170,7 +3174,7 @@ body .section07 .bx-pager-link span + span {
         bottom: 30px;
     }
     .section07 .text span:first-child {
-        margin-left: 30;
+        margin-left: 30px;
         width: 90px;
         height: 90px;
         line-height: 90px;
@@ -3365,7 +3369,7 @@ body .section07 .bx-pager-link span + span {
         height: 601px;
     }
     .footer-info-container, .footer-info-container .fp-tableCell {
-        height: 469px !important;
+        height: 347px !important;
     }
     .section .footer-info-container, .footer-info-container .fp-tableCell,
     .section09 + div, .section09 + div .fp-tableCell {
@@ -3403,14 +3407,14 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width: 375px) {
-        .section02 .bg {
-    bottom: 21px;
-    height: 337px;
-}
-.section04 .text {
-    text-align: center;
-    padding-top: 30px;
-}
+    .section02 .bg {
+        bottom: 21px;
+        height: 337px;
+    }
+    .section04 .text {
+        text-align: center;
+        padding-top: 30px;
+    }
     .section02 li {
         height: 154.48px;
     }

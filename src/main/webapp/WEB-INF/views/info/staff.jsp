@@ -103,7 +103,7 @@
                 <div class="text">
                     <div>
                         <div class="title title-font last-title">
-                            첨단장비를 사용하여 <span>꼼꼼하고 정확하게,</span>
+                            첨단장비를 사용하여 <span>꼼꼼하고 정확하게,</span><br>
                             <span>원칙을 지키는 진료를 우선</span>합니다.
                         </div>
                     </div>

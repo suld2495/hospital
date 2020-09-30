@@ -323,6 +323,8 @@ p + .dec-title {
     }
     .tab-contents .text .max-layout-width {
         padding: 0 30px;
+        position: relative;
+        z-index: 11;
     }
     .doctor-info-left .image-box {
         width: 50%;
@@ -437,6 +439,7 @@ p + .dec-title {
         bottom: -39px;
         background: #f1f1f1;
         display: block;
+        z-index: 10;
     }
     .text-bg {
         padding-top: 0;
