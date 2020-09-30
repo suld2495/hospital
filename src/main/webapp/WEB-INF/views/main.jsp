@@ -24,6 +24,8 @@
     </div>
 </div>
 
+<div class="cover"></div>
+
 <div class="fp-nav">
     <div class="fp-menu">
         <ul>
