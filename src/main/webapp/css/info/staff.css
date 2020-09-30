@@ -338,7 +338,7 @@ p + .dec-title {
 @media screen and (max-width: 900px) {
 
     .staff-info-box {
-        padding-bottom: 75px;
+        padding-bottom: 115px;
         padding-top: 8px;
     }
 
@@ -347,7 +347,7 @@ p + .dec-title {
     }
 
     .staff-info-box h1 {
-        padding-top: 57px;
+        padding-top: 149px;
         margin-bottom: 30px;
         font-size: 31px;
         font-weight: 500;
@@ -397,7 +397,7 @@ p + .dec-title {
         display: none;
     }
     .doctor-info-left .text {
-        padding-top: 502px;
+        padding-top: 492px;
     }
     .doctor-info-left .text-bg {
         padding-top: 0;
@@ -464,7 +464,7 @@ p + .dec-title {
     .staff-info-box .text p {
         padding-left: 0;
         font-size: 14px;
-        line-height: 1.6;
+        line-height: 1.5;
         margin-top: 64px;
     }
     .staff-contents .last-title + p:after {
@@ -474,16 +474,22 @@ p + .dec-title {
 }
 
 @media screen and (max-width: 414px)  {
+    .staff-contents .text {
+        padding-top: 120px;
+    }
+    .staff-contents .image_box_left, .staff-contents .image_box_right {
+        height: 225px;
+    }
     .img-box1 .img {
-        background: url('../../images/sub/info/staff/staff_01_m.png') no-repeat center;
+        background-size: cover;
     }
 
     .img-box2 .img {
-        background: url('../../images/sub/info/staff/staff_02_m.png') no-repeat center;
+        background-size: cover;
     }
 
     .img-box3 .img {
-        background: url('../../images/sub/info/staff/staff_03_m.png') no-repeat center;
+        background-size: cover;
     }
 
     .title {
