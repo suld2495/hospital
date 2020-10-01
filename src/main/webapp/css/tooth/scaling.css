@@ -557,6 +557,10 @@
 
 
 @media screen and (max-width: 640px) {
+    .section05 .bg {
+        background-attachment: initial;
+        background-size: cover;
+    }
     .section08 {
         margin-top: 0;
     }

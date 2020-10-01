@@ -1071,6 +1071,10 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+    .tab-container1 .section20 .bg {
+        background-attachment: initial;
+        background-size: cover;
+    }
     .tab-container3 .section04 {
         margin-top: 50px;
     }

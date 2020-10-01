@@ -1,6 +1,7 @@
 #contents {
     overflow: hidden;
 }
+
 @font-face {
     font-family: 'Noto Sans KR';
     font-style: normal;
@@ -951,6 +952,10 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    .background-common .bg, .img-four .bg {
+        background-attachment: initial !important;
+        background-size: cover !important;
+    }
     .treatment-case .pc {
         display: none;
     }
