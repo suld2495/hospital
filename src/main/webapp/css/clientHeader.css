@@ -267,7 +267,7 @@ div.category-footer > div {
 header {
     position: fixed;
     width: 100%;
-    z-index: 10000000000000;
+    z-index: 100000000;
 }
 
 header .header-banner-slider-continer .bx-wrapper {

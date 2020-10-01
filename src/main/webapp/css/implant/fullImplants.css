@@ -243,21 +243,32 @@
     width: 25%;
     float: left;
     padding-top: 171px;
+    position:relative;
 }
 
-.section05 .img01 {
+.section05 li:before {
+    position: absolute;
+    content: '';
+    width: 153px;
+    height: 153px;
+    left: 50%;
+    top: 0;
+    margin-left: -76px;
+}
+
+.section05 .img01:before {
     background: url(../../images/sub/implant/full/total_icon01.png) no-repeat top center;
 }
 
-.section05 .img02 {
+.section05 .img02:before {
     background: url(../../images/sub/implant/full/total_icon02.png) no-repeat top center;
 }
 
-.section05 .img03 {
+.section05 .img03:before {
     background: url(../../images/sub/implant/full/total_icon03.png) no-repeat top center;
 }
 
-.section05 .img04 {
+.section05 .img04:before {
     background: url(../../images/sub/implant/full/total_icon04.png) no-repeat top center;
 }
 
@@ -780,7 +791,6 @@ section.board-link {
     section.section-quotes-title-right .bg {
         height: 246px;
     }
-    section.sec
     body .section-top-title-left .section-title {
         font-size: 28px;
     }

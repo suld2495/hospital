@@ -360,6 +360,9 @@ strong {
 
 
 /* treatment-case */
+.treatment-case .mobile {
+    display: none;
+}
 .treatment-case {
     padding: 93px 0;
     background: #f5f5f5 url(../images/sub/implant/cmmn/digital_bg.jpg) center;
@@ -415,6 +418,7 @@ strong {
     float: left;
     overflow: hidden;
     position: relative;
+    color: #fff;
 }
 
 .treatment-case .treatment-case-swiper-slide div.text-title {
@@ -434,6 +438,45 @@ strong {
 
 .treatment-case .left-img1 div {
     background: #545454;
+}
+
+.treatment-case .left-img1 div.login {
+    background: rgba(0,0,0,0.7);
+    box-sizing: border-box;
+}
+
+.treatment-case .left-img1 div.login a {
+    position: absolute;
+    background: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.treatment-case .left-img1 div.login a p {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    margin-top: -70px;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+
+.treatment-case .left-img1 div.login span {
+    width: 153px;
+    height: 40px;
+    border: 1px solid #fff;
+    display: block;
+    margin: 0 auto;
+    line-height: 39px;
+    font-size: 13px;
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #fff;
 }
 
 .treatment-case .right-img1 {
@@ -908,6 +951,12 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    .treatment-case .pc {
+        display: none;
+    }
+    .treatment-case .mobile {
+        display: block;
+    }
 
     #contents {
         overflow: hidden;
@@ -1145,6 +1194,25 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 414px) {
+    .treatment-case .left-img1 div.login {
+        background: rgba(0,0,0,0.7);
+        padding-top: 40px;
+        height: 100%;
+    }
+
+    .treatment-case .left-img1 div.login a {
+
+        height: 100%;
+
+        top: 0;
+    }
+
+    .treatment-case .left-img1 div.login a p {
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: -58px;
+    }
+
 
     .section05 .max-layout-width .text > div {
         padding-right: 0px;

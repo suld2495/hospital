@@ -1,3 +1,14 @@
+.popup .cover {
+    display: none;
+}
+.popup.active + .cover {
+    display: block;
+    z-index: 1111111111;
+}
+.popup .slick-prev:before, .popup .slick-next:before {
+    display: none;
+}
+
 .footer-info-container {
     padding-bottom: 0;
 }
@@ -9,6 +20,7 @@
     height: 50px;
     background: #eee;
     line-height: 50px;
+    width: 100%;
 }
 
 .popup-button li:first-child {
@@ -36,13 +48,14 @@
 .popup-slider, .popup {
     width: 490px;
     display: inline-block;
-    z-index: 111;
+    z-index: 11111111111;
 }
 .popup {
     position: absolute;
     top: 150px;
-    left: 10px;
+    left: 50%;
     display: none;
+    margin-left: -245px;
 }
 .popup-slider img {
     width: 490px;
@@ -3085,6 +3098,9 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:414px) {
+    .popup  {
+        position: fixed;
+    }
     .section05 .big-img .cont01 .img {
         background: url(../images/main/docter03_m.jpg) no-repeat;
         background-size: contain;
@@ -3543,5 +3559,11 @@ body .section07 .bx-pager-link span + span {
     .popup-slider img, .popup-slider, .popup {
         width: 100%;
         left: 0;
+    }
+    .popup {
+        width: 90%;
+        left: 5%;
+        top: 66px;
+        margin-left: 0;
     }
 }

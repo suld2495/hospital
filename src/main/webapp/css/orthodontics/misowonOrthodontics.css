@@ -172,21 +172,32 @@
     width: 25%;
     float: left;
     padding-top: 172px;
+    position: relative;
 }
 
-.section03 .img01 {
+.section03 li:before {
+    position: absolute;
+    content: '';
+    width: 153px;
+    height: 153px;
+    margin-left: -76px;
+    left: 50%;
+    top: 0;
+}
+
+.section03 .img01:before {
     background: url(../../images/sub/orthodontics/misowonOrthodontics/orthodontics_icon01.png) no-repeat top center;
 }
 
-.section03 .img02 {
+.section03 .img02:before {
     background: url(../../images/sub/orthodontics/misowonOrthodontics/orthodontics_icon02.png) no-repeat top center;
 }
 
-.section03 .img03 {
+.section03 .img03:before {
     background: url(../../images/sub/orthodontics/misowonOrthodontics/orthodontics_icon03.png) no-repeat top center;
 }
 
-.section03 .img04 {
+.section03 .img04:before {
     background: url(../../images/sub/orthodontics/misowonOrthodontics/orthodontics_icon04.png) no-repeat top center;
 }
 
