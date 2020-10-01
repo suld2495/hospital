@@ -211,9 +211,11 @@
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
-                <p class="pc">
+                <p>
                     치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
-                    개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
+                    <span class="pc">
+                        개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
+                    </span>
                 </p>
             </div>
             <div class="treatment-case-scroll-bar">
@@ -277,7 +279,6 @@
             </div>
             <div class="text">
                 <p class="mobile">
-                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
                     개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
                 </p>
             </div>
