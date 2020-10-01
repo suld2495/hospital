@@ -1,6 +1,7 @@
 #contents {
     overflow: hidden;
 }
+
 @font-face {
     font-family: 'Noto Sans KR';
     font-style: normal;
@@ -477,6 +478,17 @@ strong {
     padding-left: 20px;
     box-sizing: border-box;
     color: #fff;
+    position: relative;
+}
+.treatment-case .left-img1 div.login span:before {
+    content: '';
+    background: url(../images/cmmn/case_arrow.png);
+    width: 30px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 14px;
 }
 
 .treatment-case .right-img1 {
@@ -951,6 +963,10 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    .background-common .bg, .img-four .bg {
+        background-attachment: initial !important;
+        background-size: cover !important;
+    }
     .treatment-case .pc {
         display: none;
     }
