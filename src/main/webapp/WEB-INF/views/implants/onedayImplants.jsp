@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
@@ -220,7 +221,7 @@
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
-                <p>
+                <p class="pc">
                     치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
                     개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
                 </p>
@@ -231,6 +232,16 @@
             <div class="treatment-case-slider">
                 <div class="treatment-case-swiper-slide">
                     <div class="left-img left-img1">
+                        <sec:authorize access="isAnonymous()">
+                            <div class="login">
+                                <a href="<c:url value='/login'/>">
+                                    <p>
+                                        로그인하시면 Before를 보실 수 있습니다.
+                                        <span>로그인하기</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </sec:authorize>
                         <div class="text-title">BEFORE</div>
                     </div>
                     <div class="right-img right-img1">
@@ -239,6 +250,16 @@
                 </div>
                 <div class="treatment-case-swiper-slide">
                     <div class="left-img left-img1">
+                        <sec:authorize access="isAnonymous()">
+                            <div class="login">
+                                <a href="<c:url value='/login'/>">
+                                    <p>
+                                        로그인하시면 Before를 보실 수 있습니다.
+                                        <span>로그인하기</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </sec:authorize>
                         <div class="text-title">BEFORE</div>
                     </div>
                     <div class="right-img right-img1">
@@ -247,12 +268,28 @@
                 </div>
                 <div class="treatment-case-swiper-slide">
                     <div class="left-img left-img1">
+                        <sec:authorize access="isAnonymous()">
+                            <div class="login">
+                                <a href="<c:url value='/login'/>">
+                                    <p>
+                                        로그인하시면 Before를 보실 수 있습니다.
+                                        <span>로그인하기</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </sec:authorize>
                         <div class="text-title">BEFORE</div>
                     </div>
                     <div class="right-img right-img1">
                         <div class="text-title">AFTER</div>
                     </div>
                 </div>
+            </div>
+            <div class="text">
+                <p class="mobile">
+                    치료기간 개인 구강상태 및 전신상태등에 따라 3~6개월의 치료기간이 소요됩니다.<br>
+                    개인별로 치료결과가 다를 수 있으며 본 이미지는 실제와 상이할 수 있습니다.
+                </p>
             </div>
         </div>
     </section>
