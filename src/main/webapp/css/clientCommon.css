@@ -1025,16 +1025,19 @@ section.board-link ul li {
     .board-link ul li:first-child:before {
         background: url(../images/sub/implant/digital/digital20.jpg) no-repeat top center;
         height: 200px;
+        background-size: cover;
     }
 
     .board-link ul li.center-img:before {
         background: url(../images/sub/implant/digital/digital21.jpg) no-repeat top center;
         height: 200px;
+        background-size: cover
     }
 
     .board-link ul li.last-img:before {
         background: url(../images/sub/implant/digital/digital22.jpg) no-repeat top center;
         height: 200px;
+        background-size: cover
     }
 
 
