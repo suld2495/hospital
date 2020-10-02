@@ -18,7 +18,7 @@
         <div class="max-layout-width text">
             <div>
                 <h2 class="section-title">
-                    <span class="section-title-color">섬세한 테크닉과 풍부한 경험이 필요한</span><br>
+                    <span class="section-title-color">섬세한 테크닉과<br> 풍부한 경험이 필요한</span><br>
                     <strong>고난이도 뼈이식 임플란트</strong>
                 </h2>
             </div>
@@ -43,7 +43,7 @@
         <div class="max-layout-width">
             <div class="text">
                 <h2 class="section-title">
-                    미소원 치과는<span class="section-title-color bold"> 맞춤형 잇몸뼈 이식</span>으로<br>
+                    미소원 치과는<br class="mobile"><span class="section-title-color bold"> 맞춤형 잇몸뼈 이식</span>으로<br>
                     <strong>오래가는 임플란트</strong>입니다.
                 </h2>
                 <p class="section-text">
