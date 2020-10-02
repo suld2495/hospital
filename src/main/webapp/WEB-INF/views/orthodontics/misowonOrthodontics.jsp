@@ -66,8 +66,8 @@
         <div class="max-layout-width">
             <h2><strong>클리피씨 교정의 장점</strong>은?</h2>
             <p>
-                기존 장치에 비해 <strong>치아에 가해지는 마찰력이 적기 때문</strong>에 보다 적은 힘으로<br>
-                치아의 교정이 가능하여 <strong>통증이 적고 구강 내 교정장치로 인한 상처발생이 적습니다.</strong>
+                기존 장치에 비해 <strong>치아에 가해지는 마찰력이 적기 때문</strong>에<br class="mobile"> 보다 적은 힘으로<br>
+                치아의 교정이 가능하여 <strong>통증이 적고<br class="mobile"> 구강 내 교정장치로 인한 상처발생이 적습니다.</strong>
             </p>
             <ul class="text">
                 <li class="img01">
