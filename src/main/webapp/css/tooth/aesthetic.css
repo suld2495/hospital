@@ -38,7 +38,7 @@
 }
 
 .section01 .section-text {
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .section01 .section-text:first-child {
@@ -290,7 +290,7 @@
 
 .section05 .section-text {
     word-break: keep-all;
-    line-height: 1.6;
+    line-height: 1.5;
     position: relative;
     text-align: right;
     letter-spacing: -1.5px;
@@ -765,35 +765,43 @@ p.img.allceramic{
 
 .tab-contents1 .left-fade-slider-container .img01 {
     background: url(../../images/sub/tooth/aesthetic/aesthetic12_1.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .tab-contents1 .left-fade-slider-container .img02 {
     background: url(../../images/sub/tooth/aesthetic/aesthetic12_2.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .tab-contents1 .left-fade-slider-container .img03 {
     background: url(../../images/sub/tooth/aesthetic/aesthetic12_3.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .tab-contents1 .left-fade-slider-container .img04 {
     background: url(../../images/sub/tooth/aesthetic/aesthetic12_4.jpg) no-repeat center;
+    background-size: cover;
 }
 
 
 .tab-contents2 .left-fade-slider-container .img01 {
     background: url(../../images/sub/tooth/aesthetic/aesthetic07_1.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .tab-contents2 .left-fade-slider-container .img02 {
     background: url(../../images/sub/tooth/aesthetic/aesthetic07_2.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .tab-contents2 .left-fade-slider-container .img03 {
     background: url(../../images/sub/tooth/aesthetic/aesthetic07_3.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .tab-contents2 .left-fade-slider-container .img04 {
     background: url(../../images/sub/tooth/aesthetic/aesthetic07_4.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .text-slider {
@@ -895,7 +903,7 @@ section.board-link {
         padding-left: 0;
     }
     section.list-content {
-        margin-top: 50px;
+        margin-top: -53px;
     }
     .section06.list-content .max-layout-width > div.text,
     .section12.list-content .max-layout-width > div.text {
@@ -911,27 +919,204 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+    .text-slider .slick-slide .text.mobile-text {
+    display: block;
+    float: none;
+    padding-top: 40px;
+    padding-left: 30px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+        section.img-four li:nth-child(2n) p {
+        padding-right: 18px;
+        line-height: 1.3;
+    }
+    .table th {
+    font-size: 21px;
+    color: #fff;
+    padding: 10px 0;
+    background: #8f8f8f;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+    .table .table-left, .table .table-right {
+    font-size: 14px;
+    /* line-height: 1.4; */
+}
+    .section12 .pager {
+    font-size: 16px;
+    color: #222;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 31px;
+    display: inline-block;
+    font-weight: 500;
+    /* cursor: pointer; */
+    letter-spacing: -1px;
+}
+    section.img-four li:nth-child(2n-1) p {
+    padding-left: 25px;
+    line-height:1.3;
+}
+    section.img-four li {
+    padding: 27px 0 0 !important;
+    height: 185px;
+    margin: 0 !important;
+}
+    .section11 p {
+    line-height: 1.5;
+    font-size: 14px;
+    margin-bottom: 47px;
+    letter-spacing: -1px;
+}
+    section.img-four p {
+    margin-bottom: 29px;
+    }
+    .section11 h2 {
+    font-size: 28px;
+    margin-bottom: -100px;
+    }
+    .section11 .max-layout-width {
+    position: relative;
+    padding-top: 60px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 27px;
+    }
+
+    body .post-slider .posts .slide, .left-fade-slider-container .img {
+    height: 140px;
+    }
+    body .left-fade-slider-container .slider-container {
+    height: 410px;
+    }
+
+    section.section-top-title-left .image_box_left {
+    height: 220px;
+    bottom: -220px;
+    }
+    section.board-link {
+    margin-top: 53px;
+    }
+
+    .left-fade-slider-container .max-layout-width h2 {
+    font-size: 26px;
+    word-break: keep-all;
+    /* padding: 0 20px; */
+    box-sizing: border-box;
+    width: 330px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+    section.text-slider .slick-slide .text p {
+    font-size:14px;
+    line-height:1.5;
+    max-width: 340px;
+}
+
+    .text-slider .slick-slide .text h3 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #e4e4e4;
+    margin-bottom: -3px;
+    font-family: gmarket !important;
+    margin-top: -23px;
+    padding-bottom: 9px;
+}
+
+    .text-slider .slick-slide .text h2 {
+    font-size: 25px;
+    line-height: 1.25;
+    margin-bottom: 55px;
+    color: #222;
+    letter-spacing: -1.5px;
+}
+
+
+    .text-slider .section-text {
+    font-size: 14px;
+    line-height:1.5;
+    margin-top:15px;
+    margin-bottom: 34px;
+}
+    .text-slider .section-title {
+    font-size: 28px;
+    line-height: 1.2;
+}
+    .section06 .pager {
+    font-size: 16px;
+    color: #222;
+    padding: 6px 0;
+    position: relative;
+    padding-left: 30px;
+    display: inline-block;
+    font-weight: 500;
+    /* cursor: pointer; */
+    letter-spacing: -1px;
+}
+    .section04 {
+    position: relative;
+    padding-bottom: 50px;
+}
+    .section04 .tab-contents img + div p {
+    text-align: left;
+    line-height: 1.5;
+    padding-right: 70px;
+    word-break: keep-all;
+    letter-spacing: -1px;
+    font-size:14px
+}
+    .section04 .tab-contents img + div h2 {
+    font-size: 27px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 17px;
+    letter-spacing: -2.5px;
+}
+    .section04 .tab-contents {
+    padding-top: 45px;
+}
+    .section03 .tab li a {
+    padding: 13px 0;
+    width: 100%;
+    display: block;
+    color: #222;
+    font-size:15px;
+    letter-spacing:-1px;
+}
+    .section02 {
+    text-align: center;
+    padding-top: 280px;
+}
     .left-fade-slider-container {
         margin-top: 0;
+        padding-top: 52px;
+        margin-bottom: -36px;
     }
     .section13 .max-layout-width h2 {
         font-size: 28px;
         word-break: keep-all;
+        margin-bottom: 29px;
     }
     .section13  {
         margin-top: 0;
     }
     .section11 {
         height: auto;
+        margin-top: 91px;
     }
     .tab-contents1 .left-fade-slider-container {
         padding-top: 50px;
+        padding-bottom: 0px;
     }
     .text-slider .slider-arrow-container {
         bottom: 490px;
     }
     .text-slider {
         margin-top: 50px;
+        padding-top: 52px;
+        padding-bottom: 44px;
     }
     section.list-content .section-title {
         margin-bottom: 470px;
@@ -940,7 +1125,7 @@ section.board-link {
         height: 410px;
     }
     p.img.laminate, p.img.allceramic {
-        background-size: contain;;
+        /* background-size: contain; */
     }
     .section06 .text > div,
     .section12 .text > div {
@@ -962,7 +1147,7 @@ section.board-link {
         height: 242px;
     }
     section.section-quotes-title-right .image_box_right .img {
-        background-size: contain;
+        background-size: cover;
     }
     .section04 .tab-contents img + div {
         padding-left: 0;
@@ -974,7 +1159,7 @@ section.board-link {
     }
     .section04 .tab-contents img + div {
         width: 100%;
-        padding-top: 50px;
+        padding-top: 33px;
     }
     .section04 .tab-contents li {
         padding: 0 30px;
@@ -994,32 +1179,34 @@ section.board-link {
         box-sizing: border-box;
     }
     .section02 li {
-        height: 170px;
+        height: 124px;
         width: 48%;
         margin-bottom: 20px;
     }
 }
 
 @media screen and (max-width: 414px) {
+
     section.list-content .section-title {
-        margin-bottom: 330px;
+        margin-bottom: 321px;
     }
     section.list-content .max-layout-width > div.image_box_left {
         height: 268px;
     }
     section.section-quotes-title-right .bg {
-        height: 192px;
+        height: 184px;
     }
     section.section-quotes-title-right .max-layout-width .text {
-        padding-top: 240px;
+        padding-top: 260px;
     }
     section.section-quotes-title-right .image_box_right {
-        height: 158px;
+        height: 220px;
+        margin-top: 22px;
     }
     .section03 {
         background: #f3f3f3;
-        padding-top: 40px;
-        margin-top: 60px;
+        padding-top: 68px;
+        margin-top: 44px;
     }
     .section02 li p {
         font-size: 14px;
@@ -1029,8 +1216,9 @@ section.board-link {
         background-size: contain;
     }
     .section02 ul {
-        padding: 0 20px;
+        padding: 0;
         box-sizing: border-box;
+        padding-top: 23px;
     }
     .section02 li {
         width: 48%;
@@ -1040,6 +1228,8 @@ section.board-link {
     body .section-top-title-left .section-title, .section02 .section-title,
     .section03 .section-title {
         font-size: 28px;
+        margin-bottom: 4px;
+        margin-top: -17px;
     }
     section.section-top-title-left .bg {
         height: 140px;
@@ -1048,7 +1238,9 @@ section.board-link {
         display: none;
     }
     .section03 .section-text {
-        margin-top: 30px;
+        margin-top: 17px;
+        line-height: 1.5;
+        margin-bottom: 30px;
     }
     .section03 .section-title,
     .section03 .section-text {
@@ -1060,19 +1252,20 @@ section.board-link {
 
 @media screen and (max-width: 375px) {
     section.list-content .section-title {
-        margin-bottom: 300px;
+        margin-bottom: 315px;
+        margin-top: 23px;
     }
     section.list-content .max-layout-width > div.image_box_left {
-        height: 240px;
+        /* height: 240px; */
     }
     section.section-quotes-title-right .bg {
-        height: 213px;
+        height: 222px;
     }
     section.section-quotes-title-right .max-layout-width .text {
-        padding-top: 230px;
+        padding-top: 262px;
     }
     section.section-quotes-title-right .image_box_right {
-        height: 142px;
+        height: 220px;
     }
     body .section-top-title-left .section-title, .section02 .section-title,
     .section03 .section-title {
@@ -1084,6 +1277,9 @@ section.board-link {
 }
 
 @media screen and (max-width: 360px) {
+    section.section-top-title-left {
+    padding-bottom: 39px;
+}
     section.list-content .section-title {
         margin-bottom: 290px;
     }
@@ -1097,7 +1293,7 @@ section.board-link {
         padding-top: 230px;
     }
     section.section-quotes-title-right .image_box_right {
-        height: 142px;
+        height: 200px;
     }
     body .section-top-title-left .section-title, .section02 .section-title,
     .section03 .section-title {
