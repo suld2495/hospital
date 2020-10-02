@@ -964,8 +964,8 @@ section.board-link ul li {
 
 @media screen and (max-width: 640px) {
     .img-four .text li:before {
-        width: 140px;
-        height: 140px;
+        width: 140px !important;
+        height: 140px !important;
     }
     .section
     .img-four .text .img04 {
