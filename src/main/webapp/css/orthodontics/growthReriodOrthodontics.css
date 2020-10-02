@@ -596,8 +596,8 @@
     }
     .section02 .section-text {
         padding: 0 30px;
-        margin-top: 18px;
-        line-height: 1.5;
+        margin-top: 15px;
+        line-height: 1.4;
     }
     section.section-quotes-title-left .bg {
         height: 220px;
@@ -614,6 +614,11 @@
 }
 
 @media screen and (max-width: 375px) {
+    .section02 .section-title {
+    word-break: keep-all;
+    padding-right: 0;
+    padding-top: 226px;
+}
     section.section-quotes-title-left .max-layout-width .text {
         padding-top: 260px;
     }
@@ -636,6 +641,7 @@
 }
 
 @media screen and (max-width: 360px) {
+
     section.section-quotes-title-left .max-layout-width .text {
         padding-top: 259px;
     }
