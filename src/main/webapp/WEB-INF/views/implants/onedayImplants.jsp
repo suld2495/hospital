@@ -186,8 +186,8 @@
         <div class="max-layout-width">
             <h2><strong>원데이 임플란트 수술 장점</strong>은?</h2>
             <p>
-                어떤 이유로든 치아가 심하게 손상되어 발치해야하는 경우 또는 치아가 없이<br>
-                몇 년 동안 오래지속된 경우 <span><strong>모두 원데이 임플란트 수술 당일 식사</strong></span>를 하실 수 있도록 해드립니다.
+                어떤 이유로든 치아가 심하게 손상되어 발치해야하는 경우<br class="mobile-640"> 또는 치아가 없이<br>
+                몇 년 동안 오래지속된 경우 <span><strong>모두<br class="mobile-640"> 원데이 임플란트 수술 당일 식사</strong></span>를 하실 수 있도록 해드립니다.
             </p>
             <ul class="text">
                 <li class="img01">
