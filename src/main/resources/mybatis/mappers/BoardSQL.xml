@@ -14,6 +14,14 @@
                  <if test="type == 'contents'">
                      and contents like concat('%', #{search_text}, '%')
                  </if>
+                 <if test="type == 'board_subject|board_content'">
+                     and
+                     (
+                        subject like concat('%', #{search_text}, '%')
+                        or
+                        contents like concat('%', #{search_text}, '%')
+                     )
+                 </if>
              </if>
              <if test="id != null and id != ''">
                  and id = #{id}
@@ -216,4 +224,13 @@
             #{num}
         )
     </insert>
+
+    <delete id="deleteBoard" parameterType="map">
+        DELETE FROM ${tableName}
+        WHERE num IN (
+            <foreach collection="boardarray" separator="," item="item">
+                #{item}
+            </foreach>
+        )
+    </delete>
 </mapper>

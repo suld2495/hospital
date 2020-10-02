@@ -307,17 +307,10 @@ document.write("<script type='text/javascript' src='" + content + "'/js/admin/fo
 		
 		if($search.val()) {
 
-			var string = that.option.search.scope.split("|");
-			var i, length = string.length;
-			
+			var string = that.option.search.scope;
 			data.search = $search.val();
-			data.searcharray = [];
-			
-			for(i = 0; i < length; i += 1) {
-				
-				data.searcharray[i] = string[i];
-			}
-		} 
+			data.searcharray = string;
+		}
 		
 		that.searchAjax(data);
 	}
@@ -488,7 +481,7 @@ document.write("<script type='text/javascript' src='" + content + "'/js/admin/fo
 	Board.prototype.secretDelete = function(data, that) {
 		
 		$.simpleAjax({
-			url: "/passwordCheck.do",
+			url: content + "/admin/board/delete",
 			data: data,
 			fun: that.boardSecretViewFn,
 			that: this

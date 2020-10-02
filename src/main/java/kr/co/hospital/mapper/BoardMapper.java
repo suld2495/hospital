@@ -24,4 +24,6 @@ public interface BoardMapper {
     Map<String, Object> selectTable(String url) throws Exception;
 
     List<Map> selectAppendix(PagingVo pagingVo) throws Exception;
+
+    void deleteBoard(Map paramMap) throws Exception;
 }

@@ -52,12 +52,22 @@ public class AdminServiceImpl implements AdminService {
         PagingVo pagingVo = new PagingVo(10,
                 Integer.parseInt(paramMap.get("page").toString()),
                 String.valueOf(paramMap.get("tableName")),
-                "",
-                "");
+                String.valueOf(paramMap.get("search")),
+                changeSearchType(String.valueOf(paramMap.get("searcharray"))));
         map.put("list", boardService.getBoardList(pagingVo));
         map.put("total", pagingVo.getTotal());
         map.put("uploadPath", WebUtils.getRealPath(servletContext, path));
         return map;
+    }
+
+    private String changeSearchType(String text) {
+        if ("board_subject".equals(text)) {
+            return "title";
+        } else if ("board_content".equals(text)) {
+            return "contents";
+        }
+
+        return text;
     }
 
     @Override

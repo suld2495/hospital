@@ -13,6 +13,8 @@ import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Controller
@@ -83,4 +85,19 @@ public class AdminController {
         return adminService.listModule(paramMap, request);
     }
 
+    @RequestMapping(value = "/board/delete", method = RequestMethod.POST)
+    @ResponseBody
+    public Map baordDelete(@RequestParam Map paramMap, @RequestParam List boardarray) throws Exception {
+        Map result = new HashMap();
+        paramMap.put("boardarray", boardarray);
+
+        try {
+            boardService.deleteBoard(paramMap);
+            result.put("board_type", "delete");
+        } catch (Exception e) {
+            result.put("board_type", "");
+        }
+
+        return result;
+    }
 }

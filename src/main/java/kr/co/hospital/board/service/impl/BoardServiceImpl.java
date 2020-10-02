@@ -131,4 +131,9 @@ public class BoardServiceImpl implements BoardService {
     public List<Map> selectAppendix(PagingVo pagingVo) throws Exception {
         return boardMapper.selectAppendix(pagingVo);
     }
+
+    @Override
+    public void deleteBoard(Map paramMap) throws Exception {
+        boardMapper.deleteBoard(paramMap);
+    }
 }
