@@ -156,7 +156,7 @@
                                 </sec:authorize>
                                 <sec:authorize access="isAuthenticated()">
                                     <a class="text-decoration-none" href="<c:url value='/logout' />">
-                                        <img src="<c:url value='/images/cmmn/logout.png' />" alt="로그아웃">
+                                        <img src="<c:url value='/images/cmmn/logout_1.png' />" alt="로그아웃">
                                         <p class="font-12">LOGOUT</p>
                                     </a>
                                 </sec:authorize>
@@ -170,7 +170,7 @@
                                 </sec:authorize>
                                 <sec:authorize access="isAuthenticated()">
                                     <a class="text-decoration-none" href="<c:url value='/mypage_consult/1' />">
-                                        <img src="<c:url value='/images/cmmn/mypage.png' />" alt="마이페이지">
+                                        <img src="<c:url value='/images/cmmn/mypage_1.png' />" alt="마이페이지">
                                         <p class="font-12">MYPAGE</p>
                                     </a>
                                 </sec:authorize>
