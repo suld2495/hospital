@@ -640,7 +640,7 @@ section.board-link {
         height: 261px;
         word-break: keep-all;
         line-height: 1.1;
-        padding: 56px 0 0 30px;
+        padding: 44px 0 0 31px;
     }
 }
 
@@ -652,17 +652,17 @@ section.board-link {
     .section07 ul {
         /* padding: 0 30px; */
         box-sizing: border-box;
-        padding-top: 189px;
+        padding-top: 188px;
         height: auto;
         margin-left: 0;
     }
     .section07 li:first-child {
-        margin-bottom: 240px;
+        margin-bottom: 222px;
     }
     .section07 li {
         width: 100%;
         margin: 0;
-        margin-bottom: 55px;
+        margin-bottom: 52px;
     }
     .section04 {
         margin-top: 100px;
@@ -699,6 +699,25 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+
+    .section07 .img02:before {
+    width: 200px;
+    height: 200px;
+    background: url(../../images/sub/implant/full/total06.png) no-repeat top center;
+    top: -180px;
+}
+
+    .section07 .img01:before {
+    width: 200px;
+    height: 200px;
+    background: url(../../images/sub/implant/full/total05.png) no-repeat top center;
+}
+
+
+body .table .padding-table {
+        padding: 20px 10px;
+    }
+
     section.board-link {
     margin-top: 53px;
 }
@@ -862,7 +881,7 @@ section.board-link {
 
 @media screen and (max-width: 400px) {
     .section07 li {
-        /* height: auto; */
+        height: 253px;
     }
 }
 
