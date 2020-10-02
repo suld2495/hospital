@@ -908,6 +908,9 @@ section.board-link {
 }
 
 @media screen and (max-width: 375px) {
+    .section10 {
+    margin-top: 58px;
+}
     .section04 .section-text {
     width: 590px;
     word-break: keep-all;
@@ -917,7 +920,7 @@ section.board-link {
 
         section.list-content .image_box_left {
         height: 220px;
-        margin-top:-30px;
+        margin-top: -3px;
     }
     .section05 {
     padding-bottom: 40px;
@@ -925,7 +928,7 @@ section.board-link {
 }
     
     section.section-top-title-right-two {
-    padding-bottom: 95px;
+    padding-bottom: 124px;
     }
     section.section-quotes-title-right .bg {
         height: 216px;

@@ -709,14 +709,21 @@ section.board-link {
 }
 
 @media screen and (max-width:375px) {
+    .section02 {
+    margin-top: 105px;
+    margin-bottom: 93px;
+    }
+    section.section-quotes-title-right .bg {
+    height: 175px;
+    }
     .section06 {
-    margin-top: 81px;
+    margin-top: 85px;
     padding-bottom: 0px;
-    margin-bottom: -12px;
-}
+    margin-bottom: -17px;
+    }
     section.section-quotes-title-right .section-text:before {
         height: 36px;
-        top: -54px;
+        top: -51px;
     }
     section.section-quotes-title-left .section-text:before {
         top: -62px;
@@ -731,4 +738,19 @@ section.board-link {
     section.section-quotes-title-left .bg {
         height: 220px;
     }
+}
+
+
+@media screen and (max-width:360px) {
+    section.section-quotes-title-right .section-text:before {
+    height: 36px;
+    top: -45px;
+}
+section.section-quotes-title-right .bg {
+    height: 160px;
+}
+.section02 {
+    margin-top: 115px;
+    margin-bottom: 100px;
+}
 }

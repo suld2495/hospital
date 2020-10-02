@@ -1107,10 +1107,12 @@ section.board-link ul li {
     .section-text {
         font-size: 14px;
         /* margin-bottom: 26px; */
-        margin-top: 12px;
+        margin-top: 4px;
+        /* padding: 0 25px; */
     }
     .board-link .section-title {
         font-size: 28px;
+        padding: 0 15;
     }
     section.board-link ul li {
         width: 100%;
