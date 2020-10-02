@@ -845,7 +845,7 @@ section.board-link ul li {
     section.list-content .image_box_left {
         width: 93%;
         height: 294px;
-        top: 275px;
+        top: 308px;
         left: 3.5%;
     }
 }
@@ -1203,6 +1203,7 @@ section.board-link ul li {
     }
     section.list-content .section-text, section.list-content .pager {
         font-size: 14px;
+        line-height: 1.5;
     }
     section.list-content .section-text + .pager {
         margin-top: 350px;
@@ -1241,7 +1242,7 @@ section.board-link ul li {
     }
 
     section.section-top-title-right-two {
-        padding-bottom: 118px;
+        padding-bottom: 106px;
     }
 
     section.section-top-title-right-two .img {

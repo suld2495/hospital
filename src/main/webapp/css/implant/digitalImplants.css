@@ -105,7 +105,7 @@
 }
 
 .section01 .section-text {
-    line-height: 1.6;
+    line-height: 1.5;
     letter-spacing: -1px;
 }
 
@@ -205,7 +205,7 @@
 }
 
 .section04 .section-text {
-    line-height: 1.6;
+    line-height: 1.5;
     word-break: keep-all;
     padding-right: 31px;
     letter-spacing: -1px;
@@ -302,7 +302,7 @@
 
 .section05 .section-text {
     word-break: keep-all;
-    line-height: 1.6;
+    line-height: 1.5;
     position: relative;
     letter-spacing: -1px;
 }
@@ -499,7 +499,7 @@
 
 .section07 .section-text {
     color: #fff;
-    line-height: 1.6;
+    line-height: 1.5;
     letter-spacing: -1px;
     font-weight: 300;
 }
