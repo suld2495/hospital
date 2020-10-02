@@ -156,7 +156,30 @@ header .mobile-sub-category h2 {
 }
 header .mobile-sub-category .category-close {
     height: 66px;
-    background: url(../images/cmmn/category_close.png) no-repeat center;
+    background: none;
+    padding-right: 30px;
+}
+header .mobile-sub-category .category-close:before {
+    width: 32px;
+    height: 2.5px;
+    background: #fff;
+    position: absolute;
+    content: '';
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: rotate(45deg);
+}
+header .mobile-sub-category .category-close:after {
+    width: 32px;
+    height: 2.5px;
+    background: #fff;
+    position: absolute;
+    content: '';
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: rotate(135deg);
 }
 .category-logo a {
     display: block;
