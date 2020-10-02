@@ -28,8 +28,8 @@
 }
 
 .section01 .section-text {
-    line-height: 1.6;
-    margin-bottom: 0;
+    line-height: 1.5;
+    margin-bottom: -7px;
 }
 
 .section01 .section-text:first-child {
@@ -66,7 +66,7 @@
     width: 720px;
     padding-right: 111px;
     box-sizing: border-box;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .section02 .text-box h2 + p {
@@ -115,7 +115,7 @@
 
 .section03 .section-text {
     width: 620px;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .section03 .link {
@@ -629,7 +629,7 @@ section.board-link {
     }
     .section03 .section-text {
         width: 100%;
-        padding-right: 30px;
+        /* padding-right: 30px; */
         box-sizing: border-box;
         word-break: keep-all;
     }
@@ -698,6 +698,9 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+    .section02 {
+    margin-top: 135px;
+    }
     .section05 {
         height: auto;
     }
@@ -742,19 +745,19 @@ section.board-link {
         top: 370px;
     }
     section.section-top-title-left {
-        margin-top: 50px;
+        margin-top: 39px;
     }
     .section04 {
         margin-top: 40px;
     }
     .section03 .text-box {
-        padding-top: 240px;
+        padding-top: 249px;
     }
     .section02 .text-box {
-        padding-top: 190px;
+        padding-top: 249px;
     }
     .section02 .img01 {
-        height: 167px;
+        height: 220px;
     }
     .section02 .img {
         background-size: cover;
@@ -766,10 +769,10 @@ section.board-link {
         padding-top: 150px;
     }
     section.section-quotes-title-right .image_box_right {
-        height: 130px;
+        height: 220px;
     }
     .section04 .image_box_right .img {
-        background-size: contain;
+        background-size: contain !important;
     }
     .section02 .text-box h2 + p {
         word-break: keep-all;
@@ -796,7 +799,8 @@ section.board-link {
         height: 246px;
     }
     body .section-top-title-left .section-title {
-        font-size: 28px;
+        font-size: 26px;
+        padding-top: 5px;
     }
 }
 
