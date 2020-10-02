@@ -527,6 +527,7 @@ p + .dec-title {
     }
     .text-bg {
         padding-top: 0;
+        padding-bottom: 120px;
     }
     .last-doctor-info .text:before {
         height: 180px;
