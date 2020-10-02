@@ -96,15 +96,30 @@ header .mobile-sub-category .content {
     padding-top: 45px;
 }
 header .mobile-sub-category .logout-icon {
-    background: url(../images/cmmn/login_m.png);
-    width: 21px;
+    background: url(../images/cmmn/logout.png);
+    width: 26px;
     height: 29px;
     display: inline-block;
-    margin-right: 27px;
+    margin-right: 17px;
     vertical-align: -8px;
     margin-left: 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
 
+header .mobile-sub-category .mypage-icon {
+    background: url(../images/cmmn/mypage.png);
+    width: 26px;
+    height: 29px;
+    display: inline-block;
+    margin-right: 17px;
+    vertical-align: -8px;
+    margin-left: 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
 header .mobile-sub-category .login-icon {
     background: url(../images/cmmn/login_m.png);
     width: 21px;

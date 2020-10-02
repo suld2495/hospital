@@ -156,17 +156,24 @@
                                 </sec:authorize>
                                 <sec:authorize access="isAuthenticated()">
                                     <a class="text-decoration-none" href="<c:url value='/logout' />">
-                                        <img src="<c:url value='/images/cmmn/login.png' />" alt="로그아웃">
+                                        <img src="<c:url value='/images/cmmn/logout.png' />" alt="로그아웃">
                                         <p class="font-12">LOGOUT</p>
                                     </a>
                                 </sec:authorize>
-
                             </div>
                             <div class="member-nav pointer mobile_display_none">
-                                <a class="text-decoration-none" href="<c:url value='/member_agreement' />">
-                                    <img src="<c:url value='/images/cmmn/join.png' />" alt="회원가입">
-                                    <p class="font-12">JOIN US</p>
-                                </a>
+                                <sec:authorize access="isAnonymous()">
+                                    <a class="text-decoration-none" href="<c:url value='/member_agreement' />">
+                                        <img src="<c:url value='/images/cmmn/join.png' />" alt="회원가입">
+                                        <p class="font-12">JOIN US</p>
+                                    </a>
+                                </sec:authorize>
+                                <sec:authorize access="isAuthenticated()">
+                                    <a class="text-decoration-none" href="<c:url value='/mypage_consult/1' />">
+                                        <img src="<c:url value='/images/cmmn/mypage.png' />" alt="마이페이지">
+                                        <p class="font-12">MYPAGE</p>
+                                    </a>
+                                </sec:authorize>
                             </div>
                             <div class="menu">
                                 <span class="icon"></span>
@@ -323,6 +330,7 @@
                 <h2><sec:authentication property="principal"/>님 환영합니다.</h2>
                 <ul class="login">
                     <li><a href="<c:url value='/logout'/>"><i class="logout-icon"></i>로그아웃</a></li>
+                    <li><a href="<c:url value='/mypage_consult/1'/>"><i class="mypage-icon"></i>마이페이지</a></li>
                 </ul>
             </sec:authorize>
         </div>
