@@ -745,7 +745,7 @@ section.board-link {
 
 @media screen and (max-width: 375px) {
     body .section-top-title-left .section-title {
-        font-size: 25px;
+        font-size: 28px;
     }
     section.section-quotes-title-right .bg {
         height: 226px;
