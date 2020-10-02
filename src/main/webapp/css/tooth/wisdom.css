@@ -121,7 +121,7 @@
 }
 
 .section03 .max-layout-width .text > div {
-    padding-right: 15px;
+   padding-right: 70px;
     position: relative;
 }
 
@@ -352,6 +352,10 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+    .section03 .max-layout-width .text > div {
+    padding-right: 0px;
+    position: relative;
+}
     section.board-link {
     margin-top: 53px;
 }
