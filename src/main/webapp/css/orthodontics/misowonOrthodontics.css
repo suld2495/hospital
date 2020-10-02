@@ -144,6 +144,7 @@
     padding-top: 136px;
     text-align: center;
     color: #fff;
+    padding-bottom: 33px;
 }
 
 .section03 h2 {
@@ -579,10 +580,11 @@ section.board-link {
 
 @media screen and (max-width: 850px) {
     section.table {
-        margin-top: 50px;
+        margin-top: 25px;
+        padding: 57px 25px;
     }
     section.list-content {
-        margin-top: 0px;
+        margin-top: -46px;
     }
     .section04 .bg {
         width: 100%;
@@ -600,8 +602,97 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+    .table th.table-left {
+    background: #8f8f8f;
+    color: #fff;
+    font-size: 18px;
+}
+    .table th {
+    height: 40px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+        section.section-top-title-left .image_box_left {
+        height: 220px;
+        bottom: -209px;
+    }
+
+    section.section-quotes-title-right .image_box_right {
+    width: 100%;
+    height: 225px;
+}
+
+    section.board-link {
+    margin-top: 50px;
+}
+    .section08 {
+    margin-top: 28px;
+    }
+.fade-in-slider .slick-arrow {
+    position: absolute;
+    bottom:25px;
+    width: 77px;
+    height: 51px;
+    display: inline-block !important;
+    text-indent: -999px;
+    cursor: pointer;
+    z-index: 11111111;
+    }
+    .section07 {
+    margin-top: 50px;
+    }
+    body .left-fade-slider-container .slider-container {
+    height: 400px;
+    }
+    .left-fade-slider-container .max-layout-width h2 {
+    font-size: 26px;
+    word-break: keep-all;
+    /* padding: 0 20px; */
+    box-sizing: border-box;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: -62px;
+    padding-bottom: 16px;
+    }
+    .section04 .bg {
+    height: 323px;
+    bottom: -38px;
+    }
+    .section04 .pager {
+    font-size: 16px;
+    color: #222;
+    padding: 6px 0;
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+    font-weight: 500;
+    /* cursor: pointer; */
+    letter-spacing: -1px;
+    }
+    section.img-four li {
+    padding: 27px 0 0 !important;
+    height: 185px;
+    margin: 0 !important;
+}
+    section.img-four p {
+        font-size:14px;
+        margin-bottom: 32px;
+        line-height: 1.3;
+        padding: 125px 0 0;
+     }
+    .section03 h2 {
+    font-size: 28px;
+    margin-bottom: -102px;
+    margin-top: -76px;
+    }
+    .section02 .max-layout-width .text > div {
+    padding-right:0px;
+    position: relative;
+    }
     .section03 {
         height: auto;
+        margin-top: 86px;
     }
     .section05 .max-layout-width h2 {
         word-break: keep-all;
@@ -609,6 +700,7 @@ section.board-link {
     }
     body .post-slider .posts .slide {
         padding: 0 5px;
+        margin-bottom: 11px;
     }
 }
 
@@ -617,28 +709,31 @@ section.board-link {
         font-size: 26px;
     }
     .section05 .max-layout-width h2 {
-        font-size: 30px;
+        font-size: 28px;
+        margin-bottom: 25px;
     }
     section.list-content .section-text + .pager {
-        margin-top: 180px;
+        margin-top: 257px;
     }
     section.list-content .image_box_left {
-        top: 170px;
+        top: 225px;
+        height: 200px;
     }
     section.list-content .section-text, section.list-content .pager {
         margin-bottom: 0;
     }
     .section04 .img {
-        background-size: contain;
+        background-size: cover;
     }
     section.section-quotes-title-right .bg {
         height: 220px;
     }
     .section02 {
         margin: 0;
+        padding-top: 255px;
     }
     .section02 .image_box_right .img {
-        background-size: contain;
+        background-size: cover;
     }
     section.section-top-title-left .bg {
         height: 200px;
@@ -653,7 +748,7 @@ section.board-link {
         font-size: 25px;
     }
     section.section-quotes-title-right .bg {
-        height: 245px;
+        height: 226px;
     }
 }
 
