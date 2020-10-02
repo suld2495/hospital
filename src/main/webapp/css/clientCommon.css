@@ -966,6 +966,7 @@ section.board-link ul li {
     .img-four .text li:before {
         width: 140px !important;
         height: 140px !important;
+        background-size: contain;
     }
     .section
     .img-four .text .img04 {

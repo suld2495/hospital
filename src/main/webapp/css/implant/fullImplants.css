@@ -734,8 +734,11 @@ section.board-link {
 }
 
 @media screen and (max-width: 414px) {
-    section.section-top-title-left .image_box_left {
+    section.section03.section-top-title-left .image_box_left {
         top: 0;
+    }
+    section.section-top-title-left .image_box_left {
+        top: 370px;
     }
     section.section-top-title-left {
         margin-top: 50px;
@@ -744,7 +747,7 @@ section.board-link {
         margin-top: 40px;
     }
     .section03 .text-box {
-        padding-top: 200px;
+        padding-top: 240px;
     }
     .section02 .text-box {
         padding-top: 190px;
