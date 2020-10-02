@@ -34,7 +34,7 @@
 }
 
 .section01 .section-text {
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .section01 .section-text:first-child {
@@ -125,10 +125,12 @@
 
 .tab-contents1 .section05 .bg {
     background: url(../../images/sub/orthodontics/malocculusion/malocclusion_bg01.jpg) center top no-repeat fixed;
+    background-size: cover;
 }
 
 .tab-contents2 .section05 .bg {
     background: url(../../images/sub/orthodontics/malocculusion/malocclusion_bg02.jpg) center top no-repeat fixed;
+    background-size: cover;
 }
 
 .tab-contents3 .section05 .bg {
@@ -138,11 +140,13 @@
 
 .tab-contents4 .section05 .bg {
     background: url(../../images/sub/orthodontics/malocculusion/malocclusion_bg04.jpg) center top no-repeat fixed;
+    background-size: cover;
 }
 
 
 .tab-contents5 .section05 .bg {
     background: url(../../images/sub/orthodontics/malocculusion/malocclusion_bg05.jpg) center top no-repeat fixed;
+    background-size: cover;
 }
 
 
@@ -176,15 +180,19 @@ p.img.toothimg01{
 }
 p.img.toothimg02{
     background: url(../../images/sub/orthodontics/malocculusion/malocclusion18.jpg) no-repeat center;
+    background-size: cover;
 }
 p.img.toothimg03{
     background: url(../../images/sub/orthodontics/malocculusion/malocclusion16.jpg) no-repeat center;
+    background-size: cover;
 }
 p.img.toothimg04{
     background: url(../../images/sub/orthodontics/malocculusion/malocclusion09.jpg) no-repeat center;
+    background-size: cover;
 }
 p.img.toothimg05{
     background: url(../../images/sub/orthodontics/malocculusion/malocclusion23.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .section04 .bg {
@@ -508,7 +516,7 @@ p.img.toothimg05{
 }
 
 .section06 .section-text {
-    line-height: 1.6;
+    line-height: 1.5;
     width: 50%;
     word-break: keep-all;
     margin-bottom: 50px;
@@ -580,6 +588,7 @@ p.img.toothimg05{
 
 .section08 .img {
     background: url(../../images/sub/orthodontics/malocculusion/malocclusion24.jpg) no-repeat center;
+    background-size: cover;
 }
 
 
@@ -717,7 +726,7 @@ section.board-link {
     }
     .section03 .img-box .img {
         margin: 0 auto;
-        margin-top: 80px;
+        margin-top: 67px;
     }
     .section03 .text ul {
         overflow: hidden;
@@ -725,7 +734,8 @@ section.board-link {
     }
     .section03 .text li span {
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 2.9;
     }
     .section03 .text li p {
         overflow: hidden;
@@ -737,7 +747,7 @@ section.board-link {
         margin: 0 !important;
         text-align: center;
         padding-left: 0;
-        height: 55px;
+        height: 48px;
         line-height: 55px;
     }
     .section03 .max-layout-width .con > div.text {
@@ -793,8 +803,61 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+    .tab-contents5 .section05 .max-layout-width .text {
+    padding-top: 40px;
+}
+    .section09 {
+    background: #f5f5f5;
+    padding-top: 55px;
+    padding-bottom: 25px;
+}
+    .section09 h2 {
+    font-size: 28px;
+    letter-spacing: -2px;
+    margin-bottom:-15px;
+}
+    .section08 {
+    margin-top: 60px;
+    padding-bottom: 35px;
+}
+    section.section-top-title-left {
+    padding-bottom: 35px;
+}
+
+    section.board-link {
+    margin-top: 50px;
+}
+    .section10 {
+    margin-top: 55px;
+}
+
+    .section06 {
+    margin-top: 56px;
+}
+    section.list-content .section-text, section.list-content .pager {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+    .section04 {
+    margin-top: 50px;
+}
+
+    .section03 .max-layout-width .con .img-box h2 {
+    margin: 20px 0;
+    font-size: 26px;
+}
+    .section02 {
+    text-align: center;
+    padding-top: 265px;
+}
+    section.section-top-title-left .image_box_left {
+    height: 220px;
+    bottom: -219px;
+}
     .section06 ul li p {
-        font-size: 15px;
+        font-size: 14px;
+        margin-top: -12px;
     }
     .section06 .section-title {
         font-size: 32px;
@@ -809,6 +872,7 @@ section.board-link {
         width: 100%;
         padding: 0 20px;
         box-sizing: border-box;
+        margin-bottom: 35px;
     }
     .section09 li p {
         font-size: 12px;
@@ -822,15 +886,17 @@ section.board-link {
         height: 321px;
     }
     .background-animation .max-layout-width .text h2 {
-        padding: 0 30px;
+        padding: 0 29px;
         box-sizing: border-box;
         word-break: keep-all;
+        font-size: 25px;
+        margin-bottom: 23px;
     }
     .section03 .text ul {
         padding-top: 30px;
     }
     .section02 ul {
-        padding: 0 30px;
+        /* padding: 0 30px; */
         box-sizing: border-box;
     }
     .section02 li {
@@ -845,12 +911,13 @@ section.board-link {
     }
     .section03 .img-box .img {
         width: 90%;
-        margin-right: 3%
+        margin-right: 3%;
     }
     .section03 .max-layout-width .con .img-box p {
         padding: 0 30px;
         box-sizing: border-box;
         word-break: keep-all;
+        font-size: 14px;
     }
     .section03 .max-layout-width .con .img-box p br {
         display: none;
@@ -858,16 +925,17 @@ section.board-link {
     .section03 .section-title {
         box-sizing: border-box;
         padding: 0 30px;
-        font-size: 32px;
+        font-size: 26px;
         word-break: keep-all;
     }
     .section03 .section-text {
         box-sizing: border-box;
         padding: 0 30px;
-        font-size: 12px;
-        margin-top: 30px;
+        font-size: 14px;
+        margin-top: 15px;
         margin-bottom: 0;
         word-break: keep-all;
+        line-height: 1.5;
     }
 }
 
@@ -884,11 +952,13 @@ section.board-link {
     }
     .section05 .max-layout-width .text p {
         box-sizing: border-box;
-        padding: 0 30px;
+        padding: 0px 30px;
         word-break: keep-all;
+        line-height: 1.5;
+        font-size: 14px;
     }
     .section05 .max-layout-width .text {
-        padding-top: 70px;
+        padding-top: 63px;
     }
 }
 
@@ -903,21 +973,23 @@ section.board-link {
         background-size: contain;
     }
     .section06 .section-title {
-        font-size: 28px;
+        font-size: 27px;
         word-break: keep-all;
+        padding-bottom: 5px;
     }
     section.list-content .section-title {
-        margin-bottom: 160px;
+        margin-bottom: 269px;
     }
     section.list-content .image_box_left {
-        height: 118px;
+        height: 220px;
         top: 60px;
     }
     p.img.toothimg01 {
-        background-size: contain;
+        background-size: cover;
     }
     .section03 {
-        margin-top: 70px;
+        margin-top: 45px;
+        padding: 45px 0 51px 0;
     }
     .section02 .section-title {
         font-size: 28px;
@@ -933,12 +1005,12 @@ section.board-link {
     }
     .section09 li {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 31px;
     }
     .section05 {
-        height: auto;
+        height: 228px;
         padding-bottom: 60px;
-        margin-top: 60px;
+        margin-top: 49px;
     }
     .section03 .img-box .img {
         background-size: contain;
@@ -946,6 +1018,7 @@ section.board-link {
     }
     .section02 .section-title {
         word-break: keep-all;
+        margin-bottom: 29px;
     }
     .section02 li {
         padding-top: 8px;
@@ -969,29 +1042,55 @@ section.board-link {
 @media screen and (max-width: 380px)  {
     .img-right .max-layout-width .text {
         padding-top: 200px;
+        padding-right: 0px;
     }
     .img-right .image_box_right {
         height: 232px;
     }
     section.list-content .section-title {
-        margin-bottom: 160px;
+        margin-bottom: 274px;
     }
     section.list-content .image_box_left {
-        height: 107px;
+        height: 220px;
         top: 60px;
     }
     .section03 .border {
         height:180px
     }
     body .section-top-title-left .section-title {
-        font-size: 27px;
+        font-size: 28px;
     }
     section.section-top-title-left .bg {
         height: 200px;
     }
 }
 
+@media screen and (max-width: 375px)  {
+    .section08 .section-title {
+    line-height: 1.3;
+    margin-bottom: 6px;
+    padding-top: 66px;
+    font-size: 28px;
+}
+
+    .tab-contents4 .section05 .max-layout-width .text {
+    padding-top: 53px;
+}
+.section05 {
+    height: 228px;
+    padding-bottom: 128px;
+    margin-top: 49px;
+}
+}
+
+
+
 @media screen and (max-width: 360px)  {
+    .section05 {
+    height: 228px;
+    padding-bottom: 100px;
+    margin-top: 49px;
+}
     .img-right .max-layout-width .text {
         padding-top: 200px;
     }

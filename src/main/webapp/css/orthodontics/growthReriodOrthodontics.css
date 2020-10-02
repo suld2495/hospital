@@ -30,7 +30,7 @@
 }
 
 .section01 .section-text {
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .section01 .section-text:first-child {
@@ -149,12 +149,13 @@
     margin: 0 auto;
     margin-top: 12px;
     margin-bottom: 9px;
+    background-size: cover;
 }
 
 .section02 .text .img01 {
     background: url(../../images/sub/orthodontics/grow/growth_icon01.png) no-repeat center top;
     /* padding-top: 27px; */
-    padding-bottom: 27px;
+    padding-bottom: 24px;
     margin-bottom: 25px;
     background-position-y: 45px;
 }
@@ -168,7 +169,7 @@
 
 .section02 .text .img03 {
     background: url(../../images/sub/orthodontics/grow/growth_icon03.png) no-repeat center top;
-    padding-bottom: 27px;
+    /* padding-bottom: 27px; */
     background-position-y: 43px;
 }
 
@@ -223,7 +224,7 @@
 
 .section04 .section-text {
     word-break: keep-all;
-    line-height: 1.6;
+    line-height: 1.5;
     position: relative;
     letter-spacing: -1.2px;
 }
@@ -466,23 +467,94 @@
 }
 
 @media screen and (max-width: 640px) {
+    .section04 .section-title {
+    padding-top: 87px;
+    position: relative;
+    line-height: 1.25;
+    margin-bottom: 45px;
+    padding-left: 60px;
+    letter-spacing: -3px;
+}
+
+    .section04 {
+    margin-top: 53px;
+}
+    section.list-content .section-text, section.list-content .pager {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+    .section03 .section-title {
+    line-height: 1.35;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+    .section03 {
+    margin-top: 20px;
+}
+
+    .section02 .text .img04 {
+    background: url(../../images/sub/orthodontics/grow/growth_icon04.png) no-repeat center top;
+    /* padding-bottom: 27px; */
+    background-position-y: 43px;
+    margin-top:-28px;
+}
+
+.section02 .text .img03 {
+    background: url(../../images/sub/orthodontics/grow/growth_icon03.png) no-repeat center top;
+    /* padding-bottom: 27px; */
+    background-position-y: 43px;
+    margin-top:-28px;
+}
+
+    .section02 .text li p:before {
+    background: url(../../images/sub/orthodontics/grow/check_big.png);
+    content: '';
+    width: 48px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 9px;
+    background-size: cover;
+}
+    .section02 ul {
+    padding-top: 9px;
+    box-sizing: border-box;
+    margin-left: -2%;
+}
+     .section02 .section-title {
+     word-break: keep-all;
+     padding-right: 0;
+     padding-top: 205px;
+    }
+    .section02 {
+    margin-top: 150px;
+}
+    section.section-top-title-left .image_box_left {
+    height: 220px;
+    bottom: -218px;
+}
     .section02 .text li {
         width: 48%;
     }
 }
 
 @media screen and (max-width: 414px) {
+
     .section07 {
-        margin-top: 100px;
+        margin-top: 87px;
     }
     section.section-quotes-title-left .max-layout-width .text {
-        padding-top: 180px;
+        padding-top: 253px;
     }
     .section04 .image_box_left .img {
-        background-size: contain;
+        background-size: cover;
     }
     section.list-content {
-        padding-bottom: 50px;
+        padding-bottom: 42px;
+        padding-top: 83px;
     }
     section.list-content .section-title {
         padding-top: 200px;
@@ -520,16 +592,20 @@
     .section02 .section-title {
         word-break: keep-all;
         padding-right: 0;
+        padding-top: 205px;
     }
     .section02 .section-text {
         padding: 0 30px;
-        margin-top: 30px;
+        margin-top: 18px;
+        line-height: 1.5;
     }
     section.section-quotes-title-left .bg {
-        height: 280px;
+        height: 220px;
+        bottom: -35px;
     }
     section.section-quotes-title-left .section-text:before {
-        top: -71px;
+        top: -42px;
+        height: 41px;
     }
     section.section-quotes-title-left .section-title {
         padding-left: 30px;
@@ -539,7 +615,7 @@
 
 @media screen and (max-width: 375px) {
     section.section-quotes-title-left .max-layout-width .text {
-        padding-top: 170px;
+        padding-top: 260px;
     }
     section.list-content .section-title {
         padding-top: 180px;
@@ -550,17 +626,18 @@
         box-sizing: border-box;
     }
     section.section-quotes-title-left .bg {
-        height: 300px;
-        bottom: -45px;
+        height: 255px;
+        bottom: -32px;
     }
     section.section-quotes-title-left .section-text:before {
-        top: -71px;
+        top: -39px;
+        height: 42px;
     }
 }
 
 @media screen and (max-width: 360px) {
     section.section-quotes-title-left .max-layout-width .text {
-        padding-top: 150px;
+        padding-top: 259px;
     }
     section.list-content .section-title {
         padding-top: 170px;
