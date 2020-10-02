@@ -845,7 +845,7 @@ section.board-link ul li {
     section.list-content .image_box_left {
         width: 93%;
         height: 294px;
-        top: 308px;
+        top: 277px;
         left: 3.5%;
     }
 }
@@ -880,7 +880,7 @@ section.board-link ul li {
         text-align: left;
         padding: 0 30px;
         box-sizing: border-box;
-        word-break: keep-all
+        word-break: keep-all;
     }
     section.section-quotes-title-right .section-text:before {
         left: 30px;
@@ -963,9 +963,11 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+
     .img-four .text li:before {
         width: 140px !important;
         height: 140px !important;
+        background-size: cover;
     }
     .section
     .img-four .text .img04 {
@@ -1068,17 +1070,17 @@ section.board-link ul li {
         padding: 0 30px;
         box-sizing: border-box;
         word-break: keep-all;
-        padding: 131px 0 0;
+        padding: 130px 30 0;
     }
     section.img-four li:nth-child(2n-1) p {
-        padding-left: 25px;
+        padding-left: 37px;
     }
     section.img-four li:nth-child(2n) p {
-        padding-right: 18px;
+        padding-right: 44px;
     }
     section.img-four li {
         padding: 27px 0 0 !important;
-        height: 230px;
+        height: 197px;
         margin: 0 !important;
     }
     section.img-four p {
@@ -1102,6 +1104,7 @@ section.board-link ul li {
     .section-text {
         font-size: 14px;
         margin-bottom: 26px;
+        margin-top: 12px;
     }
     .board-link .section-title {
         font-size: 28px;
@@ -1236,7 +1239,7 @@ section.board-link ul li {
         line-height: 1.5;
     }
     section.list-content .section-text + .pager {
-        margin-top: 350px;
+        margin-top: 210px;
     }
 }
 
@@ -1277,7 +1280,7 @@ section.board-link ul li {
 
     section.section-top-title-right-two .img {
         background-size: contain;
-        height: 157px;
+        /* height: 157px; */
     }
 
     section.section-top-title-left .bg {
@@ -1291,7 +1294,7 @@ section.board-link ul li {
     }
 
     section.section-quotes-title-right .bg {
-        bottom: -25px;
+        bottom: -34px;
     }
 
     .table .max-layout-width h2 {
@@ -1340,13 +1343,46 @@ section.board-link ul li {
     }
 }
 @media screen and (max-width: 375px) {
+.section04 .section-text {
+    width: 590px;
+    word-break: keep-all;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+        section.img-four li:nth-child(2n-1) p {
+        padding-left: 48px;
+        line-height: 1.4;
+        font-size: 13.5px;
+        margin-bottom: 29px;
+    }
+    section.img-four li:nth-child(2n) p {
+        padding-right: 49px;
+        line-height: 1.4;
+        font-size: 13.5px;
+    }
+    section.img-four ul {
+    width: 100%;
+    margin-top:-20px;
+}
+
+    section.img-four li {
+    padding: 27px 0 0 !important;
+    height: 225px;
+    margin: 0 !important;
+    box-sizing: border-box;
+    }
+        section.list-content .image_box_left {
+        width: 93%;
+        height: 294px;
+        top: 308px;
+        left: 3.5%;
+    }
     section.section-top-title-left {
         padding-bottom: 39px;
     }
-    section.section-quotes-title-right .bg {
-        bottom: -38px;
-        height: 260px;
-    }
+section.section-quotes-title-right .bg {
+    height: 166px;
 }
 
 @media screen and (max-width: 360px) {

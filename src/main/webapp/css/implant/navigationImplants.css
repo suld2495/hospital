@@ -654,7 +654,7 @@ section.board-link {
     margin-bottom: 100px;
     }
     section.section-quotes-title-right .bg {
-        height: 190px;
+        height: 166px;
     }
     section.section-quotes-title-right .max-layout-width .text {
         padding-top: 233px;
@@ -685,13 +685,13 @@ section.board-link {
         padding-bottom: 20px;
     }
     .section06  {
-        margin-top: 94px;
+        margin-top: 73px;
         padding-bottom: 0px;
-        margin-bottom: -17px;
+        margin-bottom: 6px;
     }
     section.section-quotes-title-right .section-text:before {
-        height: 60px;
-        top: -89px;
+        height: 39px;
+        top: -57px;
     }
     section.section-quotes-title-left .section-text:before {
         top: -62px;
@@ -709,9 +709,14 @@ section.board-link {
 }
 
 @media screen and (max-width:375px) {
+    .section06 {
+    margin-top: 81px;
+    padding-bottom: 0px;
+    margin-bottom: -12px;
+}
     section.section-quotes-title-right .section-text:before {
-        height: 47px;
-        top: -69px;
+        height: 36px;
+        top: -54px;
     }
     section.section-quotes-title-left .section-text:before {
         top: -62px;
