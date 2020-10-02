@@ -26,6 +26,27 @@
     outline: none;
 }
 
+.table .active {
+    position: relative;
+}
+
+.table label.active:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 27px;
+    background: url(../../images/cmmn/check.png);
+    display: block;
+    left: 25px;
+    top: 11px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.table label.active:checked:after {
+    opacity: 1;
+}
+
 .table .input {
     padding: 12px 0;
 }

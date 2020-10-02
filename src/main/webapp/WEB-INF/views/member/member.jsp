@@ -220,6 +220,12 @@
             })
         });
 
+        $('[name=email3]').change(function (e) {
+            if ($(this).val() !== '') {
+                $('[name=email2]').val($(this).val());
+            }
+        })
+
         $('.form').submit(function() {
             var idReg = /^[a-zA-Z]+[a-zA-Z0-9]{5,19}$/g;
             var passReg = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{6,20}$/g;
@@ -227,6 +233,7 @@
             var $id = $("[name=id]");
             var $pass = $("[name=password]");
             var $passChk = $("[name=password_chk]");
+            var $name = $("[name=name]");
 
             if (!isIdCheck) {
                 alert("아이디 중복확인을 해주세요.");
@@ -252,8 +259,38 @@
                 return false;
             }
 
+            if ($name.val() === '') {
+                alert("이름을 입력해 주세요.");
+                $name.focus();
+                return false;
+            }
+
+            for (var i = 1; i < 4; i++) {
+                var $phone = $("[name=phone" + i + "]");
+
+                if ($phone.val() === '') {
+                    alert("전화번호를 입력해 주세요.");
+                    $phone.focus();
+                    return false;
+                }
+            }
+
+            for (var i = 1; i < 4; i++) {
+                var $email = $("[name=email" + i + "]");
+
+                if ($email.val() === '') {
+                    alert("이메일를 입력해 주세요.");
+                    $email.focus();
+                    return false;
+                }
+            }
+
             $('[name=phone]').val($('[name=phone1]').val() + $('[name=phone2]').val() + $('[name=phone3]').val())
             $('[name=email]').val($('[name=email1]').val() + $('[name=email2]').val() + $('[name=email3]').val())
         });
+
+        $('[name=smsYN],[name=emailYN]').change(function () {
+            $(this).parent().toggleClass('active');
+        })
     });
 </script>
