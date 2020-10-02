@@ -963,6 +963,17 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    .img-four .text .img04 {
+    }
+    .img-four .text li:nth-child(2n-1):before {
+        right: 0;
+        left: initial;
+        margin-right: 13px;
+    }
+    .img-four .text li:nth-child(2n):before {
+        left: 0;
+        margin-left: 13px;
+    }
     .background-common .bg, .img-four .bg {
         background-attachment: initial !important;
         background-size: cover !important;
@@ -1052,6 +1063,20 @@ section.board-link ul li {
         padding: 0 30px;
         box-sizing: border-box;
         word-break: keep-all;
+        padding: 131px 0 0;
+    }
+    section.img-four li:nth-child(2n-1) p {
+        padding-left: 25px;
+    }
+    section.img-four li:nth-child(2n) p {
+        padding-right: 18px;
+    }
+    section.img-four li {
+        padding: 27px 0 0 !important;
+        height: 230px;
+        margin: 0 !important;
+    }
+    section.img-four p {
     }
     section.img-four .text li {
         width: 50%;
