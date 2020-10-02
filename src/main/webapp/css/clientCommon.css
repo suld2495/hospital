@@ -963,6 +963,11 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    .img-four .text li:before {
+        width: 140px;
+        height: 140px;
+    }
+    .section
     .img-four .text .img04 {
     }
     .img-four .text li:nth-child(2n-1):before {
