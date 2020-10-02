@@ -30,7 +30,7 @@
 }
 
 .section01 .section-text {
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .section01 .section-text:first-child {
@@ -68,7 +68,7 @@
 .section03 .max-layout-width .text h2 {
     line-height: 1.25;
     margin-bottom: 27px;
-    font-size: 37px;
+    font-size: 38px;
     letter-spacing: -2px;
     font-weight: 300;
 }
@@ -90,6 +90,7 @@
     box-sizing: border-box;
     text-align: center;
     position: absolute;
+    background-size: cover;
 }
 
 .section04 {
@@ -198,7 +199,7 @@
 
 .section05 .image_box_right .img {
     background: url(../../images/sub/orthodontics/partial/partial06.jpg) no-repeat center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .section05 .section-title {
@@ -222,7 +223,7 @@
 
 .section05 .section-text {
     word-break: keep-all;
-    line-height: 1.6;
+    line-height: 1.5;
     position: relative;
     text-align: right;
     padding-left: 47px;
@@ -328,7 +329,9 @@
 }
 
 .section02 .section-title {
-    margin-bottom: 49px;
+    margin-bottom: 29px;
+    font-size: 28px;
+    padding-top: 24px;
 }
 
 .section02 ul {
@@ -428,9 +431,13 @@ section.board-link {
 }
 
 @media screen and (max-width: 754px) {
+    .section03 {
+    height: 250px;
+    margin-top: 40px;
+}
     section.list-content {
         margin-top: 0;
-        padding-top: 40px;
+        padding-top: 0px;
     }
     section.list-content .max-layout-width > div {
         top: 140px;
@@ -450,8 +457,39 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+.section04 .pager {
+    font-size: 16px;
+    color: #222;
+    padding: 6px 0;
+    position: relative;
+    padding-left: 27px;
+    display: inline-block;
+    font-weight: 500;
+    /* cursor: pointer; */
+    letter-spacing: -1px;
+}
+    
+    section.board-link {
+    margin-top: 50px;
+}
+
+    section.section-quotes-title-right .bg {
+    bottom: -31px;
+    height: 234px;
+}
+    .section05 .max-layout-width .text > div {
+    padding-right: 20px;
+    position: relative;
+}
+    .section05 {
+    margin-top: 51px;
+}
+    section.section-top-title-left .image_box_left {
+    height: 220px;
+    bottom: -72px;
+}
     .section02 ul {
-        padding: 0 30px;
+        padding: 0 0px;
         box-sizing: border-box;
     }
     .section02 li {
@@ -460,30 +498,34 @@ section.board-link {
         margin-bottom: 2%;
     }
     .section06 {
-        margin-top: 100px;
+        margin-top: 80px;
     }
 }
 
 @media screen and (max-width: 584px) {
     .section03 .max-layout-width {
-        padding: 0 30px;
+        padding: 0 29px;
         box-sizing: border-box;
     }
     .section03 .max-layout-width .text h2 {
         word-break:keep-all;
+        font-size: 26px;
+        margin-bottom: 27px;
     }
     .section03 .max-layout-width .text p {
         word-break: keep-all;
         line-height:1.4;
+        font-size: 14px;
+        margin-top: -8px;
     }
     .section03 .max-layout-width .text {
-        padding-top: 70px
+        padding-top: 51px;
     }
 }
 
 @media screen and (max-width: 414px) {
     section.section-quotes-title-right.section05 .image_box_right {
-        height: 159px;
+        height: 220px;
     }
     .section02 li {
         padding-top: 8px;
@@ -511,7 +553,7 @@ section.board-link {
 
 @media screen and (max-width: 414px) {
     section.section05.section-quotes-title-right .max-layout-width .text {
-        padding-top: 170px;
+        padding-top: 235px;
     }
     section.list-content .max-layout-width > div {
         top: 60px;
