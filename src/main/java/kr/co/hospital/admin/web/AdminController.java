@@ -144,6 +144,7 @@ public class AdminController {
         boardService.saveThumnail(mRequest, boardVo, url);
 
         if (map.get("update").equals("modify")) {
+            boardService.deleteFiles(map);
             boardService.updateBoard(boardVo);
         } else {
             boardService.insertBoard(boardVo);

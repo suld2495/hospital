@@ -1151,6 +1151,10 @@ document.write("<script type='text/javascript' src='" + content + "'/js/admin/fo
 					return;
 				}
 			}	
+		} else {
+			if ($('.boardContent').length) {
+				$('#board_content').val($('.boardContent').text());
+			}
 		}
 		
 		var $thumnail_input = $(".thumnail_input");

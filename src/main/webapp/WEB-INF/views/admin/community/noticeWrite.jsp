@@ -93,9 +93,9 @@
 									<p>
 										<input type="file" name="file${num}" class="file_input none">
 										<input type="hidden" name="type${num}" value="nomal">
-										<input type="hidden" name="before${num}" value="${list.appendixNum}">
+										<input type="hidden" name="before${num}" value="${list.attach_code}">
 										<span class="fileNameSpan">
-											<span class="file${num}">${list.fileOriginName}</span>
+											<span class="file${num}">${list.real_filename}</span>
 										</span>
 										<span class="imgSpan">
 											<img src="<c:url value='/images/main/sub/appendix.jpg'/>" class="appendixImg pointer">

@@ -120,7 +120,7 @@
                                 <c:if test="${list.status == 'N'}">	정상	</c:if>
                                 <c:if test="${list.status == 'Y'}">	삭제	</c:if>
                             </td>
-                            <td><a href="/admin/${url}-write?update=modify&board_num=${list.num}" class="linkChange boardNumdata numdata"><img src="<c:url value='/images/admin/modify.jpg'/>" data-num="${list.num}" class="modify pointer"></a></td>
+                            <td><a href="<c:url value='/admin/${url}-write?update=modify&board_num=${list.num}'/>" class="linkChange boardNumdata numdata"><img src="<c:url value='/images/admin/modify.jpg'/>" data-num="${list.num}" class="modify pointer"></a></td>
                             <td><img src="<c:url value='/images/admin/delete.jpg'/>" data-num="${list.num}" data-boardnum="${list.num}" data-type="delete" class="numdata boardNumdata updateBoard admin delete pointer"></td>
                             <td>
                                 <img src="<c:url value='/images/admin/orderArrowBottom.jpg'/>" data-num="${list.num}" class="orderArrowBottom pointer">

@@ -30,4 +30,6 @@ public interface BoardService {
     void newOrderChange(Map paramMap) throws Exception;
 
     void updateBoard(BoardVo boardVo) throws Exception;
+
+    void deleteFiles(Map map) throws Exception;
 }

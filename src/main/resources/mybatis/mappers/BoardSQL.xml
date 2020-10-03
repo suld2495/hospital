@@ -259,4 +259,10 @@
            SET board_order = #{board_order}
          WHERE num = #{num}
     </update>
+
+    <update id="deleteAppendix" parameterType="int">
+        UPDATE attach
+           SET del_gb = 'y'
+         WHERE attach_code = #{_parameter}
+    </update>
 </mapper>

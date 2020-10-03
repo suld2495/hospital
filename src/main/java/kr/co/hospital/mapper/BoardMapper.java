@@ -32,4 +32,6 @@ public interface BoardMapper {
     int getMaxBoardOrder(BoardVo tableName) throws Exception;
 
     void updateBoard(BoardVo boardVo) throws Exception;
+
+    void deleteAppendix(int attachCode) throws Exception;
 }

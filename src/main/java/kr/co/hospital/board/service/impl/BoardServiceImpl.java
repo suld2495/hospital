@@ -1,6 +1,5 @@
 package kr.co.hospital.board.service.impl;
 
-import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import kr.co.hospital.board.service.BoardService;
@@ -247,5 +246,21 @@ public class BoardServiceImpl implements BoardService {
     @Override
     public void updateBoard(BoardVo boardVo) throws Exception {
         boardMapper.updateBoard(boardVo);
+    }
+
+    @Override
+    public void deleteFiles(Map map) throws Exception {
+        int count = 1;
+
+        while (map.containsKey("before" + count)) {
+            String type = (String) map.get("type" + count);
+            int attachCode = Integer.parseInt((String) map.get("before" + count));
+
+            if ("delete".equals(type)) {
+                boardMapper.deleteAppendix(attachCode);
+            }
+
+            count++;
+        }
     }
 }
