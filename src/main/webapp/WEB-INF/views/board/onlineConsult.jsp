@@ -87,7 +87,8 @@
                 </div>
                 <a href="<c:url value='/online-consult-write'/>" class="write-btn">글쓰기</a>
             </div>
-
+        </div>
+        <div class="max-layout-width mobile-full-width">
             <div class="search-container">
                 <div class="search">
                     <form class="form" method="get" action="<c:url value='/${url}/1'/>">

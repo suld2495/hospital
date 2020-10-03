@@ -99,6 +99,9 @@
 }
 
 @media screen and (max-width: 1300px) {
+    .max-layout-width.mobile-full-width {
+        padding: 0 !important;
+    }
     .search .select-type {
         width: 100px;
         height: 40px;
