@@ -107,6 +107,10 @@
         margin-left: 0;
         width: 33.33333333333%;
         height: 120px;
+        border-left: 1px solid #fff;
+    }
+    .tab li:first-child {
+        border-left: none;
     }
     .tab li > div > div {
         margin-top: 10px;
