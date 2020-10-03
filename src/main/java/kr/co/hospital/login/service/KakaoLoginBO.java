@@ -12,8 +12,8 @@ import java.util.HashMap;
 
 @Component
 public class KakaoLoginBO {
-    private String address = "http://localhost:8080/hospital";
-    private String clientId = "3592ad3572602b79d67ba10e40c4fee6";
+    private String address = "http://misowon.co.kr/kakao-callback";
+    private String clientId = "66011118eb4ee433e736f231753fae4d";
 
     public String getAccessToken (String authorize_code) throws Exception {
         String access_Token = "";
