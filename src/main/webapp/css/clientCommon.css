@@ -971,6 +971,9 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    .treatment-case-slider + .text {
+        padding-top: 30px;
+    }
     .background-animation .bg {
         background-attachment: initial !important;
     }
@@ -1128,6 +1131,7 @@ section.board-link ul li {
     }
     .treatment-case .treatment-case-scroll-bar {
         left: 30px;
+        bottom: 101px;
     }
     .treatment-case .max-layout-width {
         padding: 0 30px;
@@ -1197,7 +1201,7 @@ section.board-link ul li {
     }
     section.section-quotes-title-left .image_box_left {
         width: 100%;
-        height: 242px;
+        height: 192px;
         background-size: cover;
     }
     section.two-image-right .max-layout-width > * {
