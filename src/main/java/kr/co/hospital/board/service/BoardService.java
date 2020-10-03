@@ -28,4 +28,6 @@ public interface BoardService {
     void saveFiles(MultipartHttpServletRequest mRequest, int num, String url) throws Exception;
 
     void newOrderChange(Map paramMap) throws Exception;
+
+    void updateBoard(BoardVo boardVo) throws Exception;
 }

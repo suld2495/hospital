@@ -36,19 +36,19 @@
 				<form:form method="post" class="submit" action="${pageContext.servletContext.contextPath}/admin/boardUpdate/${url}" enctype="multipart/form-data" commandName="boardVo" accept-charset="utf-8">
 					<div class="subjectDiv">
 						<div class="subject">제목</div>
-						<div class="subjectInputDiv input"><input type="text" name="subject" class="board_subject subjectInput" value="${board.subject}" data-alert="제목" maxlength="38"></div>
+						<div class="subjectInputDiv input"><input type="text" name="subject" class="board_subject subjectInput" value="${board[0].subject}" data-alert="제목" maxlength="38"></div>
 					</div>
 					
 					<div class="writerDiv">
 						<div class="writer">작성자</div>
-						<div class="writerInputDiv input"><input type="text" name="writer" class="board_writer writerInput" value="${board.writer}" data-alert="작성자"></div>
+						<div class="writerInputDiv input"><input type="text" name="writer" class="board_writer writerInput" value="${board[0].writer}" data-alert="작성자"></div>
 					</div>
 					<div class="thumnailDiv">
 						<div class="thumnail">썸네일</div>
 						<div class="thumnailInputDiv input">
 							<input type="file" name="thumnail_img" class="thumnail_input none">
 							<span class="fileNameSpan">
-								<span class="thumnailName">${board.thumnail}</span>
+								<span class="thumnailName">${board[0].thumnail}</span>
 							</span>
 							<span class="imgSpan">
 								<img src="<c:url value='/images/admin/thumnail_upload.jpg'/>" class="thumnailImg pointer">
@@ -58,7 +58,7 @@
 					<div class="contentDiv">
 						<div class="contentText">내용</div>
 						<div class="contentInputDiv input">
-							<div class="boardContent">${board.contents}</div>
+							<div class="boardContent">${board[0].content}</div>
 							<textarea name="contents" id="board_content" rows="10" cols="100" class="board_content contentInput" data-alert="내용"></textarea>
 						</div>
 					</div>
@@ -128,7 +128,7 @@
 					
 					<div class="bnController">
 						<div class="writeLeft">
-							<div class="listFn bn"><a href="<c:url value='/admin/notice/1'/>"><img src="<c:url value='/images/admin/writeList.jpg'/>"></a></div>
+							<div class="listFn bn"><a href="<c:url value='/admin/reserve/1'/>"><img src="<c:url value='/images/admin/writeList.jpg'/>"></a></div>
 						</div>
 						<div class="writeRight">
 							<div class="resetFn bn resetBn"><img src="<c:url value='/images/admin/writeCancle.jpg'/>"></div>
@@ -139,7 +139,7 @@
 					<input type="hidden" name="tableName" value="${tableName}">
 					<input type="hidden" name="update" value="${update}">
 					<c:if test="${board != null}">
-						<input type="hidden" name="num" value="${board.num}">
+						<input type="hidden" name="num" value="${board[0].num}">
 					</c:if>
 					<input type="hidden" name="board" value="admin/${url}">
 					<input type="hidden" name="admin" value="admin">

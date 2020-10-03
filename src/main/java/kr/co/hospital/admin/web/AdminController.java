@@ -127,6 +127,7 @@ public class AdminController {
                               @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo,
                               BindingResult result,
                               @PathVariable String url,
+                              @RequestParam Map map,
                               Authentication auth) throws Exception {
         if (result.hasErrors()) {
             return "admin/community/" + url + "Write";
@@ -141,7 +142,13 @@ public class AdminController {
         boardVo.setTableName(tableName);
         boardVo.setId((String) auth.getPrincipal());
         boardService.saveThumnail(mRequest, boardVo, url);
-        boardService.insertBoard(boardVo);
+
+        if (map.get("update").equals("modify")) {
+            boardService.updateBoard(boardVo);
+        } else {
+            boardService.insertBoard(boardVo);
+        }
+
         boardService.saveFiles(mRequest, boardVo.getNum(), tableName);
 
         return "redirect:/admin/" + url + "/1";

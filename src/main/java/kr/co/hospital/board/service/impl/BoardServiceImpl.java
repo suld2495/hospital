@@ -243,4 +243,9 @@ public class BoardServiceImpl implements BoardService {
             }
         }
     }
+
+    @Override
+    public void updateBoard(BoardVo boardVo) throws Exception {
+        boardMapper.updateBoard(boardVo);
+    }
 }

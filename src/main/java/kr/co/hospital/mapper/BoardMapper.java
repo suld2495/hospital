@@ -30,4 +30,6 @@ public interface BoardMapper {
     void boardModify(Map<String, Object> inserMap) throws Exception;
 
     int getMaxBoardOrder(BoardVo tableName) throws Exception;
+
+    void updateBoard(BoardVo boardVo) throws Exception;
 }
