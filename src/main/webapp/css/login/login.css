@@ -36,7 +36,7 @@
 }
 
 .link i {
-    width: 32px;
+    width: 31px;
     height: 32px;
     display: inline-block;
     vertical-align: -9px;
@@ -102,9 +102,17 @@
 }
 
 @media screen and (max-width: 1300px) {
+    .link i {
+    width: 31px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: -9px;
+    margin-right: 10px;
+}
     .login .max-layout-width {
         padding: 0 30px;
         box-sizing: border-box;
+        margin-top: 38px;
     }
 }
 
@@ -120,3 +128,4 @@
         padding: 17px 0;
     }
 }
+

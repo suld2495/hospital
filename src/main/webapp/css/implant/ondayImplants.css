@@ -275,11 +275,7 @@
 
 .section05 .text .img02 {padding-top: 27px;padding-bottom: 27px;margin-bottom: 13px;}
 
-.section05 .text .img03 {
-
-    padding-top: 20px;
-    padding-bottom: 27px;
-}
+.section05 .text .img03 {padding-top: 20px;padding-bottom: 27px;}
 
 .section05 .text .img04 {
 
@@ -674,7 +670,7 @@ section.board-link {
 
 @media screen and (max-width: 768px) {
     .section07 {
-        margin-top: 100px;
+        margin-top: 54px;
     }
     .section06 .text > div {
         padding-left: 30px;
@@ -689,6 +685,15 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+
+    .section03 .max-layout-width .text > div {
+    padding-right: 0px;
+    position: relative;
+}
+    .section05 {
+    padding-bottom: 37px;
+    background: url(../../images/sub/implant/oneday/oneday_bg2.jpg);
+}
 
     .section05 .text .img02 {
     padding-top: 27px;
@@ -734,7 +739,7 @@ section.board-link {
 
 
     section.section-top-title-right-two {
-    padding-bottom: 98px;
+    padding-bottom: 93px;
 }
 
     section.board-link {
@@ -743,14 +748,15 @@ section.board-link {
 
     .section07 .max-layout-width {
         position: relative;
-        padding-top: 72px;
+        padding-top: 65px;
         text-align: center;
         color: #fff;
+        padding-bottom: 26px;
     }
     .section06 .pager {
         font-size: 16px;
         color: #222;
-        padding: 9px 0;
+        padding: 6px 0;
         position: relative;
         padding-left: 30px;
         display: inline-block;
@@ -798,7 +804,7 @@ section.board-link {
     }
 
     .section10 {
-        margin-top: 0;
+        margin-top: 49px;
     }
     .section07 p {
         padding: 0 30px;
@@ -809,7 +815,7 @@ section.board-link {
         height: auto;
     }
     section.list-content {
-        margin-top: -30px;
+        margin-top: -39px;
     }
     .section06 .text > div {
         padding: 0;
@@ -831,32 +837,59 @@ section.board-link {
 }
 
 @media screen and (max-width: 414px) {
+    section.section-quotes-title-right .bg {
+    bottom: -38px;
+    height: 180px;
+}
+
+    section.img-four p {margin-bottom: 31px;line-height: 1.4;}
+}
+    section.img-four ul {
+    width: 100%;
+    }
+
+    section.img-four li {
+    padding: 27px 0 0 !important;
+    height:220px;
+    margin: 0 !important;
+}
+
     section.list-content .section-text + .pager {
-        margin-top: 150px;
+    margin-top: 202px;
+}
+    .section03 .bg {
+    background: #f5f5f5;
+    width: 64.65%;
+    position: absolute;
+    height: 195px;
+    left: 0px;
+    bottom: -66px;
+}
+    section.list-content .section-text + .pager {
+        /* margin-top: 195px; */
     }
     section.list-content .image_box_left {
-        height: 157px;
+        height: 220px;
+        top: 275px;
     }
     .section06 .img {
         background-size: cover;
     }
     section.section-quotes-title-right .max-layout-width .text {
-        padding-top: 160px;
+        padding-top: 235px;
     }
     section.section-quotes-title-right .image_box_right {
-        height: 146px;
+        height: 220px;
     }
     .section03 .image_box_right .img {
         background-size: cover;
     }
     .section05 .image_box_right + .text {
-        margin-top: 30px
+        margin-top: 5px;
     }
-    section.img-four .text li {
-
-    }
+    section.img-four .text li {box-sizing: border-box;}
     .section05 .text li p {
-        font-size: 14px;
+        font-size: 13.5px;
         padding-top: 131px;
         line-height: 1.4;
     }
@@ -887,19 +920,48 @@ section.board-link {
         font-size: 25px;
     }
     section.section-top-title-right-two .max-layout-width ul {
-        top: 329px;
+        /* top: 234px; */
     }
     .section07 p {
         font-size: 14px;
     }
     .section07 h2 {
         font-size: 28px;
+        margin-bottom: -106px;
     }
 }
 
 @media screen and (max-width: 375px) {
+    .section10 {
+    margin-top: 58px;
+}
+    .section04 .section-text {
+    width: 590px;
+    word-break: keep-all;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+        section.list-content .image_box_left {
+        height: 220px;
+        margin-top:-30px;
+        margin-top: -32px;
+    }
+    .section05 {
+    padding-bottom: 40px;
+    background: url(../../images/sub/implant/oneday/oneday_bg2.jpg);
+}
+    
+    section.section-top-title-right-two {
+    padding-bottom: 95px;
+    padding-bottom: 103px;
+    }
     section.section-quotes-title-right .bg {
-        height: 225px;
+        height: 216px;
+    }
+
+    .section05 .image_box_right + .text {
+    margin-top: 18px;
     }
 }
 

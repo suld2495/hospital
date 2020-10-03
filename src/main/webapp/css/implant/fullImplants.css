@@ -28,7 +28,8 @@
 }
 
 .section01 .section-text {
-    line-height: 1.6;
+    line-height: 1.5;
+    margin-bottom: -7px;
 }
 
 .section01 .section-text:first-child {
@@ -65,7 +66,7 @@
     width: 720px;
     padding-right: 111px;
     box-sizing: border-box;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .section02 .text-box h2 + p {
@@ -114,7 +115,7 @@
 
 .section03 .section-text {
     width: 620px;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .section03 .link {
@@ -166,7 +167,7 @@
 
 .section04 .section-text {
     word-break: keep-all;
-    line-height: 1.6;
+    line-height: 1.52;
     position: relative;
     text-align: right;
 }
@@ -575,7 +576,7 @@
 }
 
 .table th {
-    height: 58px;
+    height: 53px;
     padding: 0;
     vertical-align: middle;
 }
@@ -583,7 +584,7 @@
 .table th.table-left {
     background: #8f8f8f;
     color: #fff;
-    font-size: 22px;
+    font-size: 19px;
 }
 
 .table th.table-middle {
@@ -628,7 +629,7 @@ section.board-link {
     }
     .section03 .section-text {
         width: 100%;
-        padding-right: 30px;
+        /* padding-right: 30px; */
         box-sizing: border-box;
         word-break: keep-all;
     }
@@ -639,6 +640,7 @@ section.board-link {
         height: 261px;
         word-break: keep-all;
         line-height: 1.1;
+        padding: 44px 0 0 31px;
     }
 }
 
@@ -648,19 +650,19 @@ section.board-link {
         margin-left: -203px;
     }
     .section07 ul {
-        padding: 0 30px;
+        /* padding: 0 30px; */
         box-sizing: border-box;
-        padding-top: 216px;
+        padding-top: 188px;
         height: auto;
         margin-left: 0;
     }
     .section07 li:first-child {
-        margin-bottom: 240px;
+        margin-bottom: 222px;
     }
     .section07 li {
         width: 100%;
         margin: 0;
-        margin-bottom: 100px;
+        margin-bottom: 52px;
     }
     .section04 {
         margin-top: 100px;
@@ -697,21 +699,112 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+
+    .section07 .img02:before {
+    width: 200px;
+    height: 200px;
+    background: url(../../images/sub/implant/full/total06.png) no-repeat top center;
+    top: -180px;
+}
+
+    .section07 .img01:before {
+    width: 200px;
+    height: 200px;
+    background: url(../../images/sub/implant/full/total05.png) no-repeat top center;
+}
+
+
+body .table .padding-table {
+        padding: 20px 10px;
+    }
+
+    section.board-link {
+    margin-top: 53px;
+}
+    .section07 li h2 {
+    font-size: 27px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 22px;
+    letter-spacing: -2px;
+}
+    .section-title {
+    font-size: 28px;
+    line-height : 1.2;
+    }
+    .section07 {
+    margin-top: 50px;
+    /* padding-bottom: 104px; */
+}
+    
+.table th {
+    height: 45px;
+    padding: 0;
+    vertical-align: middle;
+}
+    
+    .table .table-left, .table .table-right {
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 0 20px;
+}
+    section.table {
+    padding: 49px 25px;
+    box-sizing: border-box;
+    padding-bottom: 56px;
+}
+    .section06 .max-layout-width h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    letter-spacing: -2px;
+}
+    section.img-four p {
+    padding: 0 30px;
+    box-sizing: border-box;
+    word-break: keep-all;
+    padding: 122px 0 0;
+}
+
+    section.img-four li {
+    padding: 27px 0 0 !important;
+    height: 182px;
+    margin: 0 !important;
+}
+    .section05 .max-layout-width {
+    position: relative;
+    padding-top: 60px;
+    text-align: center;
+    color: #fff;
+}
+    .section04 .max-layout-width .text > div {
+    padding-right: 0px;
+    position: relative;
+}
+    .section02 {
+    margin-top: 135px;
+    }
     .section05 {
         height: auto;
+        margin-top: 95px;
+        padding-bottom: 33px;
     }
     .section05 h2 {
-        font-size: 30px;
+        font-size: 28px;
+        margin-bottom: -105px;
     }
     .section05 p {
         font-size: 14px;
         word-break: keep-all;
         padding: 0 30px;
         box-sizing: border-box;
+        margin-bottom: 28px;
     }
     .section07 li h2 ~ p {
         word-break: keep-all;
         padding-right: 30px;
+        font-size: 14px;
+        margin-bottom: 9px;
     }
 }
 
@@ -722,6 +815,7 @@ section.board-link {
         background-size: contain;
         left: 10%;
         margin-left: 0;
+        /* margin-top: -28px; */
     }
     .section07 .section-title, .section07 .section-text {
         padding: 0 30px;
@@ -729,7 +823,7 @@ section.board-link {
         word-break: keep-all;
     }
     .section07 .section-text {
-        margin-top: 30px;
+        margin-top: 12px;
     }
 }
 
@@ -741,19 +835,19 @@ section.board-link {
         top: 370px;
     }
     section.section-top-title-left {
-        margin-top: 50px;
+        margin-top: 39px;
     }
     .section04 {
-        margin-top: 40px;
+        margin-top: 48px;
     }
     .section03 .text-box {
-        padding-top: 240px;
+        padding-top: 249px;
     }
     .section02 .text-box {
-        padding-top: 190px;
+        padding-top: 249px;
     }
     .section02 .img01 {
-        height: 167px;
+        height: 220px;
     }
     .section02 .img {
         background-size: cover;
@@ -762,22 +856,23 @@ section.board-link {
         height: 226px;
     }
     section.section-quotes-title-right .max-layout-width .text {
-        padding-top: 150px;
+        padding-top: 240px;
     }
     section.section-quotes-title-right .image_box_right {
-        height: 130px;
+        height: 220px;
     }
     .section04 .image_box_right .img {
-        background-size: contain;
+        background-size: cover !important;
     }
     .section02 .text-box h2 + p {
         word-break: keep-all;
+        margin-bottom: 46px;
     }
     .section02 .section-title {
         font-size: 30px;
     }
     body .section-top-title-left .text > div {
-        padding-top: 30px;
+        padding-top: 37px;
     }
     body .section-top-title-left .text > div, body .section-top-title-left .bg .max-layout-width > div {
         background: #f5f5f5;
@@ -786,16 +881,17 @@ section.board-link {
 
 @media screen and (max-width: 400px) {
     .section07 li {
-        height: auto;
+        height: 253px;
     }
 }
 
 @media screen and (max-width: 375px) {
     section.section-quotes-title-right .bg {
-        height: 246px;
+        height: 201px;
     }
     body .section-top-title-left .section-title {
-        font-size: 28px;
+        font-size: 26px;
+        padding-top: 5px;
     }
 }
 

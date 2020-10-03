@@ -2,6 +2,10 @@
     overflow: hidden;
 }
 
+.mobile-640 {
+    display: none;
+}
+
 @font-face {
     font-family: 'Noto Sans KR';
     font-style: normal;
@@ -585,6 +589,7 @@ section.board-link ul li {
     left: 0;
     content: '';
     transition: all .3s ease;
+    background-size: cover !important;
 }
 
 .board-link ul li:hover:before {
@@ -963,6 +968,9 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    .mobile-640 {
+        display: block;
+    }
     .img-four .text li:before {
         width: 140px !important;
         height: 140px !important;
