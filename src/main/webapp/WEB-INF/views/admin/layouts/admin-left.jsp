@@ -13,10 +13,11 @@
         <aside class="category category1">
             <ul>
                 <li class="notice noticeWrite"><span></span><a href="<c:url value='/admin/notice/1'/>">공지사항</a></li>
-                <li class="gallery galleryWrite"><span></span><a href="gallery.do">인테리어팁</a></li>
-                <li class="qna qnaWrite"><span></span><a href="qna.do">Q&A</a></li>
-                <li class="completion completionWrite"><span></span><a href="completion.do">완공사례</a></li>
-                <li class="design designWrite"><span></span><a href="design.do">설계사례</a></li>
+                <li class="gallery galleryWrite"><span></span><a href="<c:url value='/admin/notice/1'/>">치료사례</a></li>
+                <li class="qna qnaWrite"><span></span><a href="<c:url value='/admin/notice/1'/>">치료후기</a></li>
+                <li class="completion completionWrite"><span></span><a href="<c:url value='/admin/notice/1'/>">온라인상담</a></li>
+                <li class="design designWrite"><span></span><a href="<c:url value='/admin/notice/1'/>">예약상담신청</a></li>
+                <li class="design designWrite"><span></span><a href="<c:url value='/admin/media/1'/>">미디어</a></li>
             </ul>
         </aside>
         <aside class="category category1">

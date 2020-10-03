@@ -24,7 +24,7 @@
                     <div class="boardSearch1Div1"><img src="<c:url value='/images/admin/search.png'/>"></div>
                     <div class="boardSearch1Div2">Search</div>
                 </div>
-                <div class="boardSearch2">
+                <div class="boardSearch2" style="display: none">
                     <select class="groupSearch selectGroup selectGroup1" id="board_use" data-select="selectGroup1" data-query="board_use">
                         <option value="0">선택</option>
                         <option value="all">전체보기</option>
@@ -117,7 +117,6 @@
                             <td class="boardWriteDate created_show_date">${list.created_show_date}</td>
                             <td class="boardHits recommend_count">${list.recommend_count}</td>
                             <td class="boardUse status ${list.status}">
-
                                 <c:if test="${list.status == 'N'}">	정상	</c:if>
                                 <c:if test="${list.status == 'Y'}">	삭제	</c:if>
                             </td>
@@ -193,8 +192,8 @@
                 tableName: "<c:out value='${tableName}' />",
                 total: "<c:out value='${total}' />",
                 link: {
-                    list: this.url + ".do",
-                    view: "../" + this.url + "View.do?mtype=6&ftype=13&board_num=",
+                    list: "<c:url value='/admin/notice/1'/>",
+                    view: "<c:url value='/notice-view/'/>",
                     write: this.url + "Write.do?mtype=6&ftype=13&update=write"
                 },
                 pagingOption: {

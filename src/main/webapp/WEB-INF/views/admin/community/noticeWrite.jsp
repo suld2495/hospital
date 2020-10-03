@@ -46,7 +46,7 @@
 					<div class="thumnailDiv">
 						<div class="thumnail">썸네일</div>
 						<div class="thumnailInputDiv input">
-							<input type="file" name="thumnail" class="thumnail_input none">
+							<input type="file" name="thumnail_img" class="thumnail_input none">
 							<span class="fileNameSpan">
 								<span class="thumnailName">${board[0].thumnail}</span>
 							</span>
@@ -128,7 +128,7 @@
 					
 					<div class="bnController">
 						<div class="writeLeft">
-							<div class="listFn bn"><a href="${url}.do?page=${page}"><img src="<c:url value='/images/admin/writeList.jpg'/>"></a></div>
+							<div class="listFn bn"><a href="<c:url value='/admin/notice/1'/>"><img src="<c:url value='/images/admin/writeList.jpg'/>"></a></div>
 						</div>
 						<div class="writeRight">
 							<div class="resetFn bn resetBn"><img src="<c:url value='/images/admin/writeCancle.jpg'/>"></div>

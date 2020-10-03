@@ -35,6 +35,19 @@ public class BoardVo {
     private String tableName;
     private String consultType;
     private String id;
+    private int boardOrder;
+
+    public void setNum(Integer num) {
+        this.num = num;
+    }
+
+    public int getBoardOrder() {
+        return boardOrder;
+    }
+
+    public void setBoardOrder(int boardOrder) {
+        this.boardOrder = boardOrder;
+    }
 
     public String getId() {
         return id;

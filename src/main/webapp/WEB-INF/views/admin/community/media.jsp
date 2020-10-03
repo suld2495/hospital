@@ -24,7 +24,7 @@
                     <div class="boardSearch1Div1"><img src="<c:url value='/images/admin/search.png'/>"></div>
                     <div class="boardSearch1Div2">Search</div>
                 </div>
-                <div class="boardSearch2">
+                <div class="boardSearch2" style="display: none">
                     <select class="groupSearch selectGroup selectGroup1" id="board_use" data-select="selectGroup1" data-query="board_use">
                         <option value="0">선택</option>
                         <option value="all">전체보기</option>
@@ -109,9 +109,9 @@
                                 <img src="<c:url value='${list.thumnail_path}${list.thumnail}'/>" class="imageroot">
                                     <%-- <img src="../images/admin/imgModify.jpg" class="imgModify pointer" data-num="${list.num}" data-filename="${list.boardFilename}"> --%>
                             </td>
-                            <td class="boardSubjectTd pointer sn">
-                                <p class="boardSubject pointer subject sn">${list.subject}</p>
-                                <span class="none boardNumdata boardOrderdata board_orderdata" data-boardnum="${list.num}" data-boardorder="${list.board_order}"></span>
+                            <td class="boardSubjectTd pointer sn" data-num="${list.num}">
+                                <p class="boardSubject pointer sn subject">${list.subject}</p>
+                                <span class="none boardNumdata boardOrderdata numdata board_orderdata" data-boardnum="${list.num}" data-boardorder="${list.board_order}"></span>
                             </td>
                             <td class="boardWriter writer">${list.writer}</td>
                             <td class="boardWriteDate created_show_date">${list.created_show_date}</td>
@@ -120,8 +120,8 @@
                                 <c:if test="${list.status == 'N'}">	정상	</c:if>
                                 <c:if test="${list.status == 'Y'}">	삭제	</c:if>
                             </td>
-                            <td><a href="${url}-write?update=modify&board_num=${list.num}" class="linkChange boardNumdata numdata"><img src="<c:url value='/images/admin/modify.jpg' />" data-num="${list.num}" class="modify pointer"></a></td>
-                            <td><img src="<c:url value='/images/admin/delete.jpg'/>" data-num="${list.num}" data-boardnum="${list.num}" data-type="delete" class="boardNumdata numdata updateBoard admin delete pointer"></td>
+                            <td><a href="/admin/${url}-write?update=modify&board_num=${list.num}" class="linkChange boardNumdata numdata"><img src="<c:url value='/images/admin/modify.jpg'/>" data-num="${list.num}" class="modify pointer"></a></td>
+                            <td><img src="<c:url value='/images/admin/delete.jpg'/>" data-num="${list.num}" data-boardnum="${list.num}" data-type="delete" class="numdata boardNumdata updateBoard admin delete pointer"></td>
                             <td>
                                 <img src="<c:url value='/images/admin/orderArrowBottom.jpg'/>" data-num="${list.num}" class="orderArrowBottom pointer">
                                 <img src="<c:url value='/images/admin/orderArrowTop.jpg'/>" data-num="${list.num}" class="orderArrowTop pointer">
@@ -145,7 +145,7 @@
                             <span>선택글 삭제하기</span>
                         </div>
                     </td>
-                    <td colspan="7"><a href="${url}-write?update=write"><img src="<c:url value='/images/admin/write.jpg'/>" class="write pointer"></a></td>
+                    <td colspan="7"><a href="<c:url value='/admin/${url}-write?update=write'/>"><img src="<c:url value='/images/admin/write.jpg'/>" class="write pointer"></a></td>
                 </tr>
                 </tfoot>
             </table>
@@ -153,26 +153,21 @@
 
         <article class="paging"></article>
 
-        <article class="search_area">
-            <div class="search_inner">
-                <dl>
-                    <dd>
-                        <select class="all_select searchType">
-                            <optgroup>
-                                <option value="board_subject">제목</option>
-                                <option value="board_content">내용</option>
-                                <option value="board_subject|board_content">제목+내용</option>
-                            </optgroup>
-                        </select>
-                    </dd>
-                    <dd>
-                        <input class="search_input search_user select" type="search">
-                    </dd>
-                    <dd class="search_icon search_icon_li pointer selectBn">
-                        <p>검색</p>
-                    </dd>
-                </dl>
+        <article class="boardInfo">
+            <!-- 			<div class="boardInfoDiv1 boardInfoDiv">
+                            <div class="boardInfoDiv1Div1">■</div>
+                            <div class="boardInfoDiv1Img1"><img src="<c:url value='/images/admin/add.jpg'/>"></div>
+                            <div class="boardInfoDiv1Div2"><p>아이콘을 클릭하시면 첨부파일내용을 간편하게 수정하실 수 있습니다.</p></div>
+                        </div> -->
+
+            <div class="boardInfoDiv2 boardInfoDiv">
+                <div class="boardInfoDiv1Div1">■</div>
+                <div class="boardInfoDiv1Div2">
+                    <p>출력순서 화살표를 이동하시면 한 칸씩 순서를 변경할 수 있습니다.</p>
+                    <p>이동이 끝난 후 전체선택 체크박스를 선택한 후 선택글 수정하기를 클릭해주시면 적용됩니다. </p>
+                </div>
             </div>
+
         </article>
     </div>
 </section>
@@ -193,8 +188,8 @@
                 tableName: "<c:out value='${tableName}' />",
                 total: "<c:out value='${total}' />",
                 link: {
-                    list: this.url + ".do",
-                    view: "../communityView.do?board_num=",
+                    list: "<c:url value='/admin/media/1'/>",
+                    view: "<c:url value='/media-view/'/>",
                     write: this.url + "Write.do?update=write"
                 },
                 pagingOption: {

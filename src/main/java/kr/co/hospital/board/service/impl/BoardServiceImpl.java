@@ -1,5 +1,8 @@
 package kr.co.hospital.board.service.impl;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.board.service.BoardVo;
 import kr.co.hospital.board.service.PagingVo;
@@ -13,10 +16,7 @@ import org.springframework.web.util.WebUtils;
 import javax.servlet.ServletContext;
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 
 @Service
 public class BoardServiceImpl implements BoardService {
@@ -47,6 +47,7 @@ public class BoardServiceImpl implements BoardService {
 
     @Override
     public int insertBoard(BoardVo boardVo) throws Exception {
+        boardVo.setBoardOrder(boardMapper.getMaxBoardOrder(boardVo));
         return boardMapper.insertBoard(boardVo);
     }
 
@@ -79,7 +80,7 @@ public class BoardServiceImpl implements BoardService {
         param.put("tableName", tableName);
         param.put("realFileName", realFileName);
         param.put("downloadFilename", downloadFilename);
-        param.put("filePath", realPath);
+        param.put("filePath", "/" + path + "/");
 
         boardMapper.insertFile(param);
 
@@ -95,6 +96,14 @@ public class BoardServiceImpl implements BoardService {
     @Override
     public String saveFile(MultipartHttpServletRequest mRequest) throws Exception {
         MultipartFile mFile = mRequest.getFile("file");
+
+        return saveFile(mFile, null);
+    }
+
+    private String saveFile(MultipartFile mFile, Map param) throws Exception {
+        if (mFile == null || mFile.isEmpty()) {
+            return "";
+        }
 
         String realFileName = mFile.getOriginalFilename();
         String realPath = WebUtils.getRealPath(servletContext, path);
@@ -114,6 +123,14 @@ public class BoardServiceImpl implements BoardService {
 
         try {
             mFile.transferTo(file);
+
+            if (param != null) {
+                param.put("realFileName", realFileName);
+                param.put("downloadFilename", downloadFilename);
+                param.put("filePath", "/" + path + "/");
+                boardMapper.insertFile(param);
+            }
+
             return downloadFilename;
         } catch (IllegalStateException e) {
             throw e;
@@ -135,5 +152,86 @@ public class BoardServiceImpl implements BoardService {
     @Override
     public void deleteBoard(Map paramMap) throws Exception {
         boardMapper.deleteBoard(paramMap);
+    }
+
+    @Override
+    public void saveThumnail(MultipartHttpServletRequest mRequest, BoardVo boardVo, String url) throws Exception {
+        MultipartFile mFile = mRequest.getFile("thumnail_img");
+
+        if (mFile == null || mFile.isEmpty()) {
+            return;
+        }
+
+        String realFileName = mFile.getOriginalFilename();
+        String realPath = WebUtils.getRealPath(servletContext, path);
+
+        String extension = realFileName.substring(realFileName.lastIndexOf("."), realFileName.length());
+
+        UUID uuid = UUID.randomUUID();
+        String downloadFilename = uuid.toString() + extension;
+
+        File pathFile = new File(realPath);
+
+        if (!pathFile.exists()) {
+            pathFile.mkdirs();
+        }
+
+        File file = new File(realPath + File.separator + downloadFilename);
+
+        try {
+            mFile.transferTo(file);
+            boardVo.setThumnail(downloadFilename);
+            boardVo.setThumnail_path("/" + path + "/");
+        } catch (IllegalStateException e) {
+            throw e;
+        } catch (IOException e) {
+            throw e;
+        }
+    }
+
+    @Override
+    public void saveFiles(MultipartHttpServletRequest mRequest, int num, String url) throws Exception {
+        Iterator<String> it = mRequest.getFileNames();
+        String key = null;
+        MultipartFile mFile;
+
+        while (it.hasNext()) {
+            key = it.next();
+            mFile = mRequest.getFile(key);
+
+            try {
+                Map param = new HashMap();
+                param.put("num", num);
+                param.put("tableName", url);
+                saveFile(mFile, param);
+            } catch (Exception e) {
+                throw e;
+            }
+        }
+    }
+
+    @Override
+    public void newOrderChange(Map paramMap) throws Exception {
+        String json = (String)paramMap.get("order");
+        json = json.replaceAll("&quot;", "\"");
+        if (!json.equals("") && json != null) {
+            String[] array = json.split("},");
+
+            for(int i = 0; i < array.length - 1; ++i) {
+                array[i] = array[i] + "}";
+            }
+
+            JsonParser parser = new JsonParser();
+
+            for(int i = 0; i < array.length; ++i) {
+                Object obj = parser.parse(array[i]);
+                JsonObject jsonObject = (JsonObject)obj;
+                Map<String, Object> inserMap = new HashMap();
+                inserMap.put("board_order", jsonObject.get("order").getAsString());
+                inserMap.put("num", jsonObject.get("board_num").getAsString());
+                inserMap.put("tableName", paramMap.get("tableName"));
+                boardMapper.boardModify(inserMap);
+            }
+        }
     }
 }

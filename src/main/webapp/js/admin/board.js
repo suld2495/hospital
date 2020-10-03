@@ -19,7 +19,7 @@ document.write("<script type='text/javascript' src='" + content + "'/js/admin/fo
 				
 				if($target.hasClass("sn")) {
 					
-					location.href = that.option.link.view + boardNum + "&page=" + defalutOption.page;
+					location.href = that.option.link.view + boardNum;
 				} else if($target.hasClass("sy")) {
 					
 					that.secretPopup(boardNum, "view");
@@ -1503,7 +1503,7 @@ document.write("<script type='text/javascript' src='" + content + "'/js/admin/fo
 		var $check = $(".check");
 		var $tr = $(this.option.boardViewMove);
 		
-		var url = "/admin/newOrderChange.do";
+		var url = content + "/admin/newOrderChange";
 		var data = {};
 
 		var value = [];

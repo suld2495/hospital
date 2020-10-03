@@ -73,8 +73,9 @@ public class AdminController {
 
         boardVo.setTableName(url);
         boardVo.setId((String) auth.getPrincipal());
+        boardService.saveThumnail(mRequest, boardVo, url);
         boardService.insertBoard(boardVo);
-        boardService.saveFile(mRequest, boardVo.getNum(), url);
+        boardService.saveFiles(mRequest, boardVo.getNum(), url);
 
         return "redirect:/admin/" + url + "/1";
     }
@@ -96,6 +97,22 @@ public class AdminController {
             result.put("board_type", "delete");
         } catch (Exception e) {
             result.put("board_type", "");
+        }
+
+        return result;
+    }
+
+    @RequestMapping(value = "/newOrderChange", method = RequestMethod.POST)
+    @ResponseBody
+    public Map newOrderChange(@RequestParam Map paramMap) {
+        Map result = new HashMap();
+
+        try {
+            boardService.newOrderChange(paramMap);
+            result.put("num", 1);
+            result.put("result", "success");
+        } catch (Exception e) {
+            result.put("result", "error");
         }
 
         return result;

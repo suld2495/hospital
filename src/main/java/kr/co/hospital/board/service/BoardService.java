@@ -2,7 +2,7 @@ package kr.co.hospital.board.service;
 
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
-import java.io.IOException;
+import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.Map;
 
@@ -22,4 +22,10 @@ public interface BoardService {
     List<Map> selectAppendix(PagingVo pagingVo) throws Exception;
 
     void deleteBoard(Map paramMap) throws Exception;
+
+    void saveThumnail(MultipartHttpServletRequest mRequest, BoardVo boardVo, String url) throws FileNotFoundException, Exception;
+
+    void saveFiles(MultipartHttpServletRequest mRequest, int num, String url) throws Exception;
+
+    void newOrderChange(Map paramMap) throws Exception;
 }

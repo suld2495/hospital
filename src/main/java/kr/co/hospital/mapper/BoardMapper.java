@@ -26,4 +26,8 @@ public interface BoardMapper {
     List<Map> selectAppendix(PagingVo pagingVo) throws Exception;
 
     void deleteBoard(Map paramMap) throws Exception;
+
+    void boardModify(Map<String, Object> inserMap) throws Exception;
+
+    int getMaxBoardOrder(BoardVo tableName) throws Exception;
 }
