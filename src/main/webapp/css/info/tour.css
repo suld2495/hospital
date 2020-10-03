@@ -235,6 +235,7 @@
     .section02 .swiper-slide .big {
         width: 100%;
         height: auto;
+        margin-bottom: 40px;
     }
     .section02 .swiper-slide {
         margin-right: 0;
@@ -322,7 +323,7 @@
         border-left: 1px solid #ddd;
         box-sizing: border-box;
         height: 45px;
-        line-height: 42px;
+        line-height: 45px;
         text-align: center;
         cursor: pointer;
         color: #222;

@@ -19,7 +19,7 @@
         <div class="max-layout-width text">
             <div>
                 <h2 class="section-title">
-                    환자분의 <span class="section-title-color"><strong> 고민과 치열과<br class="mobile"> 골격에 맞는<br>교정상담</strong></span>과<br class="mobile"> 정밀진단 교정계획수립
+                    환자분의 <span class="section-title-color"><strong> 고민과 치열과<br class="mobile"> 골격에 맞는<br class="mobile-display-none">교정상담</strong></span>과<br class="mobile"> 정밀진단 교정계획수립
                 </h2>
             </div>
         </div>

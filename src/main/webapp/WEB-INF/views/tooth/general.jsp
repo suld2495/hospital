@@ -308,6 +308,68 @@
             </div>
             <div class="bg"></div>
         </section>
+        <section class="fade-in-slider wow fadeInUp">
+            <div class="max-layout-width">
+                <div class="title">
+                    <h2>
+                        <strong>미소원치과의 자연치아 클리닉이 특별한 이유</strong>
+                    </h2>
+                    <p>자연치아를 살리기 위해 치조골 상태에 따라 치주치료,고난이도 보존치료를 시행하는 미소원치과 </p>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <span class="number">01</span>
+                            <h2 class="section-title">
+                                자연치아를<br>
+                                살리기위한 <strong>고난이도</strong><br>
+                                <strong>치료가 가능한 치과</strong>
+                            </h2>
+                            <p class="section-text">
+                                미소원치과는 당장 불편하다고 신경을 먼저 죽이거나 소중한 치아를 바로 발치하지 않습니다.<br>
+                                치아에 영양공급과 불편함의 신호를 보내주는 소중한 신경을 살리면서 치료하는 방법을 먼저 고민하고 연구하며,고난이도 치료도 최선을 다합니다.
+                            </p>
+                        </div>
+                        <div class="image_box_right">
+                            <div class="img img01"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <span class="number">02</span>
+                            <h2 class="section-title">
+                                <strong>믿을 수 있는 치과</strong>
+                            </h2>
+                            <p class="section-text">
+                                미소원치과의 의료진들은 항상 공부하고 연구하는 의사만이 더 나은 치료를 할 수 있다는 생각으로 끊임없이 연구하고 활발한 학술활동과 고품질의 의료서비스를 제공하고 있습니다.
+                            </p>
+                        </div>
+                        <div class="image_box_right">
+                            <div class="img img02"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <span class="number">03</span>
+                            <h2 class="section-title">
+                                평생 책임 진료제와<br>
+                                <strong>정품 임플란트의 사용</strong>
+                            </h2>
+                            <p class="section-text">
+                                미소원치과는 아이부터 어른까지 우리가족 모두의 평생치과주치의라는 이념으로 초심을 잃지 않고 수준 높은 의료서비스와 차별화된 진료시스템으로 보답하고자 노력하고 있습니다.
+                                무엇보다 책임있는 사후유지관리 프로그램을 운영하고 있습니다. 또한 미국FDA 인증 및 국제적으로 인정받는 정품 임플란트를 사용합니다.
+                            </p>
+                        </div>
+                        <div class="image_box_right">
+                            <div class="img img03"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-bar">
+                    <div class="scroll-bar-drag"></div>
+                </div>
+            </div>
+        </section>
     </div>
 
     <div class="tab-container tab-container2">
@@ -458,6 +520,68 @@
                 </div>
             </div>
         </section>
+        <section class="fade-in-slider wow fadeInUp">
+            <div class="max-layout-width">
+                <div class="title">
+                    <h2>
+                        <strong>미소원치과의 자연치아 클리닉이 특별한 이유</strong>
+                    </h2>
+                    <p>자연치아를 살리기 위해 치조골 상태에 따라 치주치료,고난이도 보존치료를 시행하는 미소원치과 </p>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <span class="number">01</span>
+                            <h2 class="section-title">
+                                자연치아를<br>
+                                살리기위한 <strong>고난이도</strong><br>
+                                <strong>치료가 가능한 치과</strong>
+                            </h2>
+                            <p class="section-text">
+                                미소원치과는 당장 불편하다고 신경을 먼저 죽이거나 소중한 치아를 바로 발치하지 않습니다.<br>
+                                치아에 영양공급과 불편함의 신호를 보내주는 소중한 신경을 살리면서 치료하는 방법을 먼저 고민하고 연구하며,고난이도 치료도 최선을 다합니다.
+                            </p>
+                        </div>
+                        <div class="image_box_right">
+                            <div class="img img01"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <span class="number">02</span>
+                            <h2 class="section-title">
+                                <strong>믿을 수 있는 치과</strong>
+                            </h2>
+                            <p class="section-text">
+                                미소원치과의 의료진들은 항상 공부하고 연구하는 의사만이 더 나은 치료를 할 수 있다는 생각으로 끊임없이 연구하고 활발한 학술활동과 고품질의 의료서비스를 제공하고 있습니다.
+                            </p>
+                        </div>
+                        <div class="image_box_right">
+                            <div class="img img02"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <span class="number">03</span>
+                            <h2 class="section-title">
+                                평생 책임 진료제와<br>
+                                <strong>정품 임플란트의 사용</strong>
+                            </h2>
+                            <p class="section-text">
+                                미소원치과는 아이부터 어른까지 우리가족 모두의 평생치과주치의라는 이념으로 초심을 잃지 않고 수준 높은 의료서비스와 차별화된 진료시스템으로 보답하고자 노력하고 있습니다.
+                                무엇보다 책임있는 사후유지관리 프로그램을 운영하고 있습니다. 또한 미국FDA 인증 및 국제적으로 인정받는 정품 임플란트를 사용합니다.
+                            </p>
+                        </div>
+                        <div class="image_box_right">
+                            <div class="img img03"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-bar">
+                    <div class="scroll-bar-drag"></div>
+                </div>
+            </div>
+        </section>
     </div>
 
     <div class="tab-container tab-container3">
@@ -574,7 +698,7 @@
             <div class="max-layout-width">
                 <h2 class="section-title">
                     <strong><span class="section-title-color">
-                        치주질환은 치아를 읽게되는 가장 큰 원인입니다.<br></span></strong>
+                        치주질환은 치아를 읽게되는<br class="mobile"> 가장 큰 원인입니다.<br></span></strong>
                     미소원 치과의 <strong>잇몸치료 단계</strong>
                 </h2>
             </div>
@@ -632,70 +756,72 @@
             </div>
             <div class="bg"></div>
         </section>
+        <section class="fade-in-slider wow fadeInUp">
+            <div class="max-layout-width">
+                <div class="title">
+                    <h2>
+                        <strong>미소원치과의 자연치아 클리닉이 특별한 이유</strong>
+                    </h2>
+                    <p>자연치아를 살리기 위해 치조골 상태에 따라 치주치료,고난이도 보존치료를 시행하는 미소원치과 </p>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <span class="number">01</span>
+                            <h2 class="section-title">
+                                자연치아를<br>
+                                살리기위한 <strong>고난이도</strong><br>
+                                <strong>치료가 가능한 치과</strong>
+                            </h2>
+                            <p class="section-text">
+                                미소원치과는 당장 불편하다고 신경을 먼저 죽이거나 소중한 치아를 바로 발치하지 않습니다.<br>
+                                치아에 영양공급과 불편함의 신호를 보내주는 소중한 신경을 살리면서 치료하는 방법을 먼저 고민하고 연구하며,고난이도 치료도 최선을 다합니다.
+                            </p>
+                        </div>
+                        <div class="image_box_right">
+                            <div class="img img01"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <span class="number">02</span>
+                            <h2 class="section-title">
+                                <strong>믿을 수 있는 치과</strong>
+                            </h2>
+                            <p class="section-text">
+                                미소원치과의 의료진들은 항상 공부하고 연구하는 의사만이 더 나은 치료를 할 수 있다는 생각으로 끊임없이 연구하고 활발한 학술활동과 고품질의 의료서비스를 제공하고 있습니다.
+                            </p>
+                        </div>
+                        <div class="image_box_right">
+                            <div class="img img02"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <span class="number">03</span>
+                            <h2 class="section-title">
+                                평생 책임 진료제와<br>
+                                <strong>정품 임플란트의 사용</strong>
+                            </h2>
+                            <p class="section-text">
+                                미소원치과는 아이부터 어른까지 우리가족 모두의 평생치과주치의라는 이념으로 초심을 잃지 않고 수준 높은 의료서비스와 차별화된 진료시스템으로 보답하고자 노력하고 있습니다.
+                                무엇보다 책임있는 사후유지관리 프로그램을 운영하고 있습니다. 또한 미국FDA 인증 및 국제적으로 인정받는 정품 임플란트를 사용합니다.
+                            </p>
+                        </div>
+                        <div class="image_box_right">
+                            <div class="img img03"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-bar">
+                    <div class="scroll-bar-drag"></div>
+                </div>
+            </div>
+        </section>
+
     </div>
 
-    <section class="fade-in-slider wow fadeInUp">
-        <div class="max-layout-width">
-            <div class="title">
-                <h2>
-                    <strong>미소원치과의 자연치아 클리닉이 특별한 이유</strong>
-                </h2>
-                <p>자연치아를 살리기 위해 치조골 상태에 따라 치주치료,고난이도 보존치료를 시행하는 미소원치과 </p>
-            </div>
-            <div class="swiper-container">
-                <div class="swiper-slide">
-                    <div class="text">
-                        <span class="number">01</span>
-                        <h2 class="section-title">
-                            자연치아를<br>
-                            살리기위한 <strong>고난이도</strong><br>
-                            <strong>치료가 가능한 치과</strong>
-                        </h2>
-                        <p class="section-text">
-                            미소원치과는 당장 불편하다고 신경을 먼저 죽이거나 소중한 치아를 바로 발치하지 않습니다.<br>
-                            치아에 영양공급과 불편함의 신호를 보내주는 소중한 신경을 살리면서 치료하는 방법을 먼저 고민하고 연구하며,고난이도 치료도 최선을 다합니다.
-                        </p>
-                    </div>
-                    <div class="image_box_right">
-                        <div class="img img01"></div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="text">
-                        <span class="number">02</span>
-                        <h2 class="section-title">
-                            <strong>믿을 수 있는 치과</strong>
-                        </h2>
-                        <p class="section-text">
-                            미소원치과의 의료진들은 항상 공부하고 연구하는 의사만이 더 나은 치료를 할 수 있다는 생각으로 끊임없이 연구하고 활발한 학술활동과 고품질의 의료서비스를 제공하고 있습니다.
-                        </p>
-                    </div>
-                    <div class="image_box_right">
-                        <div class="img img02"></div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="text">
-                        <span class="number">03</span>
-                        <h2 class="section-title">
-                            평생 책임 진료제와<br>
-                            <strong>정품 임플란트의 사용</strong>
-                        </h2>
-                        <p class="section-text">
-                            미소원치과는 아이부터 어른까지 우리가족 모두의 평생치과주치의라는 이념으로 초심을 잃지 않고 수준 높은 의료서비스와 차별화된 진료시스템으로 보답하고자 노력하고 있습니다.
-                            무엇보다 책임있는 사후유지관리 프로그램을 운영하고 있습니다. 또한 미국FDA 인증 및 국제적으로 인정받는 정품 임플란트를 사용합니다.
-                        </p>
-                    </div>
-                    <div class="image_box_right">
-                        <div class="img img03"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="scroll-bar">
-                <div class="scroll-bar-drag"></div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="treatment-case wow fadeInUp">
         <div class="max-layout-width">

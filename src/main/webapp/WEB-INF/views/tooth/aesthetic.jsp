@@ -191,7 +191,7 @@
                     <div class="img img02">
                         <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic11_2.jpg' />">
                     </div>
-                    <div class="text">
+                    <div class="text mobile-text">
                         <h2>
                             <strong>높은 완성도로<br> 치아의 광채까지<br> 자연스럽게 살려냅니다.</strong>
                         </h2>

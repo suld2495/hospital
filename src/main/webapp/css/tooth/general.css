@@ -2854,7 +2854,7 @@ section.board-link {
         top: 100px;
     }
     .fade-in-slider .slider-next {
-        left: 117px;
+        left: 107px;
     }
     .fade-in-slider .slider-prev:before {
         background: #444;
@@ -2862,6 +2862,9 @@ section.board-link {
     .fade-in-slider .slick-arrow {
         background-color: #ffffff;
         bottom: 64px;
+    }
+    .tab-container1 .fade-in-slider .slick-arrow {
+        background-color: #f5f5f5;
     }
     .fade-in-slider .scroll-bar {
         top: 515px;
@@ -2984,7 +2987,10 @@ section.board-link {
     .fade-in-slider {
         margin-top: -33px;
         padding-bottom: 2px;
-        background: #fff;
+        background: #f5f5f5;
+    }
+    .tab-container1 .fade-in-slider {
+        background-color: #fff;
     }
     .section06 {
         margin-top: 105px;

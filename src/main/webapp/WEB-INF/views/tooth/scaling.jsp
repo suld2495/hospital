@@ -19,7 +19,7 @@
             <div>
                 <h2 class="section-title">
                     건강한 구강관리의 첫걸음<br>
-                    <span class="section-title-color"><strong>정기적인 스케일링은 기본</strong></span>입니다.
+                    <span class="section-title-color"><strong>정기적인 스케일링은<br class="mobile"> 기본</strong></span>입니다.
                 </h2>
             </div>
         </div>
