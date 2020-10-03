@@ -19,7 +19,7 @@
             <div>
                 <h2 class="section-title">
                     미소원치과의 심미보철치료는<br>
-                    <span class="section-title-color"><strong>환자와의 대화가 가장 중요</strong></span>합니다
+                    <span class="section-title-color"><strong>환자와의<br class="mobile"> 대화가 가장 중요</strong></span>합니다
                 </h2>
             </div>
         </div>
