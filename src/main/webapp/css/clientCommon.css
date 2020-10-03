@@ -974,6 +974,9 @@ section.board-link ul li {
     .treatment-case-slider + .text {
         padding-top: 30px;
     }
+    .treatment-case-slider + .text p {
+        margin-bottom: 0 !important;
+    }
     .background-animation .bg {
         background-attachment: initial !important;
     }
@@ -1131,7 +1134,7 @@ section.board-link ul li {
     }
     .treatment-case .treatment-case-scroll-bar {
         left: 30px;
-        bottom: 101px;
+        bottom: 66px;
     }
     .treatment-case .max-layout-width {
         padding: 0 30px;
