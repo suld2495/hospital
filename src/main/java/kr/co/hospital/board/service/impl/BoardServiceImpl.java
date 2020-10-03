@@ -40,6 +40,10 @@ public class BoardServiceImpl implements BoardService {
 
     @Override
     public Map getBoardInfo(PagingVo pagingVo) throws Exception{
+        if ("case".equals(pagingVo.getTableName())) {
+            pagingVo.setTableName("treatment_case");
+        }
+
         Map board = boardMapper.selectBoardInfo(pagingVo);
         board.put("arrow", boardMapper.selectPrevNextNum(pagingVo));
         return board;
@@ -197,6 +201,11 @@ public class BoardServiceImpl implements BoardService {
 
         while (it.hasNext()) {
             key = it.next();
+
+            if ("thumnail_img".equals(key)) {
+                continue;
+            }
+
             mFile = mRequest.getFile(key);
 
             try {

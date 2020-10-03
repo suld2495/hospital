@@ -44,11 +44,40 @@ public class AdminController {
         return "admin/community/" + url + "Write";
     }
 
+    @RequestMapping("/reserve/{currentPage}")
+    public String reserve(Model model,
+                         @PathVariable int currentPage,
+                         @RequestParam Map map) throws Exception {
+        String url = "reserve";
+        adminService.listModule(url, model, map, currentPage);
+        return "admin/community/" + url;
+    }
+
+    @RequestMapping(value = "/reserve-write", method = RequestMethod.GET)
+    public String reserveWrite(@RequestParam Map map, HttpServletRequest request, Model model, @ModelAttribute(value = "boardVo") BoardVo boardVo) throws Exception {
+        String url = "reserve";
+        adminService.writeModule(url, map, request, model);
+        return "admin/community/" + url + "Write";
+    }
+
+    @RequestMapping(value = "/reserve-view", method = RequestMethod.GET)
+    public String reserveView() {
+        return "";
+    }
+
+    @RequestMapping("/online/{currentPage}")
+    public String online(Model model,
+                         @PathVariable int currentPage,
+                         @RequestParam Map map) throws Exception {
+        String url = "online";
+        adminService.listModule(url, model, map, currentPage);
+        return "admin/community/" + url;
+    }
 
     @RequestMapping("/media/{currentPage}")
     public String media(Model model,
-                         @PathVariable int currentPage,
-                         @RequestParam Map map) throws Exception {
+                        @PathVariable int currentPage,
+                        @RequestParam Map map) throws Exception {
         String url = "media";
         adminService.listModule(url, model, map, currentPage);
         return "admin/community/" + url;
@@ -57,6 +86,38 @@ public class AdminController {
     @RequestMapping(value = "/media-write", method = RequestMethod.GET)
     public String mediaWrite(@RequestParam Map map, HttpServletRequest request, Model model, @ModelAttribute(value = "boardVo") BoardVo boardVo) throws Exception {
         String url = "media";
+        adminService.writeModule(url, map, request, model);
+        return "admin/community/" + url + "Write";
+    }
+
+    @RequestMapping("/review/{currentPage}")
+    public String review(Model model,
+                        @PathVariable int currentPage,
+                        @RequestParam Map map) throws Exception {
+        String url = "review";
+        adminService.listModule(url, model, map, currentPage);
+        return "admin/community/" + url;
+    }
+
+    @RequestMapping(value = "/review-write", method = RequestMethod.GET)
+    public String reviewWrite(@RequestParam Map map, HttpServletRequest request, Model model, @ModelAttribute(value = "boardVo") BoardVo boardVo) throws Exception {
+        String url = "review";
+        adminService.writeModule(url, map, request, model);
+        return "admin/community/" + url + "Write";
+    }
+
+    @RequestMapping("/case/{currentPage}")
+    public String casePage(Model model,
+                        @PathVariable int currentPage,
+                        @RequestParam Map map) throws Exception {
+        String url = "case";
+        adminService.listModule(url, model, map, currentPage);
+        return "admin/community/" + url;
+    }
+
+    @RequestMapping(value = "/case-write", method = RequestMethod.GET)
+    public String caseWrite(@RequestParam Map map, HttpServletRequest request, Model model, @ModelAttribute(value = "boardVo") BoardVo boardVo) throws Exception {
+        String url = "case";
         adminService.writeModule(url, map, request, model);
         return "admin/community/" + url + "Write";
     }
@@ -71,11 +132,17 @@ public class AdminController {
             return "admin/community/" + url + "Write";
         }
 
-        boardVo.setTableName(url);
+        String tableName = url;
+
+        if ("case".equals(url)) {
+            tableName = "treatment_case";
+        }
+
+        boardVo.setTableName(tableName);
         boardVo.setId((String) auth.getPrincipal());
         boardService.saveThumnail(mRequest, boardVo, url);
         boardService.insertBoard(boardVo);
-        boardService.saveFiles(mRequest, boardVo.getNum(), url);
+        boardService.saveFiles(mRequest, boardVo.getNum(), tableName);
 
         return "redirect:/admin/" + url + "/1";
     }

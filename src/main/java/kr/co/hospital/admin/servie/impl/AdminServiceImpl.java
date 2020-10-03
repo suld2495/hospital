@@ -82,11 +82,8 @@ public class AdminServiceImpl implements AdminService {
         model.addAttribute("tableName", tableName);
         model.addAttribute("update", request.getParameter("update"));
         if (request.getParameter("update").equals("modify")) {
-            PagingVo pagingVo = new PagingVo(10,
-                    Integer.parseInt(pageMap.get("page").toString()),
-                    String.valueOf(tableName),
-                    (String) pageMap.get("search_text"),
-                    (String) pageMap.get("type"));
+            PagingVo pagingVo = new PagingVo(String.valueOf(tableName),
+                    Integer.parseInt((String) pageMap.get("board_num")));
 
             model.addAttribute("success", "pass");
             model.addAttribute("board", boardService.getBoardInfo(pagingVo));

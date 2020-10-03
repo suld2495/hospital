@@ -13,10 +13,10 @@
         <aside class="category category1">
             <ul>
                 <li class="notice noticeWrite"><span></span><a href="<c:url value='/admin/notice/1'/>">공지사항</a></li>
-                <li class="gallery galleryWrite"><span></span><a href="<c:url value='/admin/notice/1'/>">치료사례</a></li>
-                <li class="qna qnaWrite"><span></span><a href="<c:url value='/admin/notice/1'/>">치료후기</a></li>
-                <li class="completion completionWrite"><span></span><a href="<c:url value='/admin/notice/1'/>">온라인상담</a></li>
-                <li class="design designWrite"><span></span><a href="<c:url value='/admin/notice/1'/>">예약상담신청</a></li>
+                <li class="gallery galleryWrite"><span></span><a href="<c:url value='/admin/case/1'/>">치료사례</a></li>
+                <li class="qna qnaWrite"><span></span><a href="<c:url value='/admin/review/1'/>">치료후기</a></li>
+                <li class="completion completionWrite"><span></span><a href="<c:url value='/admin/online/1'/>">온라인상담</a></li>
+                <li class="design designWrite"><span></span><a href="<c:url value='/admin/reserve/1'/>">예약상담신청</a></li>
                 <li class="design designWrite"><span></span><a href="<c:url value='/admin/media/1'/>">미디어</a></li>
             </ul>
         </aside>
