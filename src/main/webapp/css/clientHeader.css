@@ -121,21 +121,26 @@ header .mobile-sub-category .mypage-icon {
     background-position-y: center;
 }
 header .mobile-sub-category .login-icon {
-    background: url(../images/cmmn/login_m.png);
+    background: url(../images/cmmn/login.png);
     width: 21px;
     height: 29px;
     display: inline-block;
     margin-right: 27px;
     vertical-align: -8px;
     margin-left: 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 4px;
 }
 header .mobile-sub-category .join-icon {
-    background: url(../images/cmmn/join_m.png);
+    background: url(../images/cmmn/join.png);
     width: 32px;
     height: 26px;
     display: inline-block;
     margin-right: 19px;
     vertical-align: -6px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 header .mobile-sub-category .login li:first-child {
     margin-bottom: 19px;
