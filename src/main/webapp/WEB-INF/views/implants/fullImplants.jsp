@@ -106,8 +106,8 @@
         <div class="max-layout-width">
             <h2><strong>전체 임플란트의 장점</strong>은?</h2>
             <p>
-                전체 임플란트 성공의 핵심은 얼마나 <strong>최소한의 개수로 최대한의 효과를 내느냐</strong>입니다.<br>
-                미소원치과는 <strong>다년간의 임상 경험을 가진 의료진</strong>들이 임플란트 시술을 합니다.
+                전체 임플란트 성공의 핵심은 얼마나<br class="mobile"> <strong>최소한의 개수로 최대한의 효과를 내느냐</strong>입니다.<br>
+                미소원치과는 <strong>다년간의 임상 경험을 가진 의료진</strong>들이<br class="mobile"> 임플란트 시술을 합니다.
             </p>
             <ul class="text">
                 <li class="img01">
@@ -163,7 +163,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="table-left">
+                            <td class="table-left padding-table">
                                 심미적으로도 우수하며 내 치아처럼 단단하게 사용할 수 있습니다.<br>
                                 게다가 단단한 음식이나 질긴 음식들도 먹을 수 있어<br>
                                 임플란트 틀니에 비해 더 좋은 효과를 볼 수 있다는 것이 장점이며<br>
@@ -179,7 +179,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="table-left">
+                            <td class="table-left padding-table">
                                 <strong>본인부담률</strong> : 진료비의 <span>30%</span><br>
                                 <strong>급여대상</strong> : 만 65세 이상 건강보험 가입자 또는 피부양자<br>
                                 <strong>적용개수</strong> : 7년마다 1회씩<br>

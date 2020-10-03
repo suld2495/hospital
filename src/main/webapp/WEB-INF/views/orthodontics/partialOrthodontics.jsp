@@ -17,7 +17,7 @@
         <div class="max-layout-width text">
             <div>
                 <h2 class="section-title">
-                    <span class="section-title-color"><strong>필요한 부분만 빠르고 효율적으로</strong></span><br>
+                    <span class="section-title-color"><strong>필요한 부분만<br class="mobile"> 빠르고 효율적으로</strong></span><br>
                     미소원치과의 부분교정 치료
                 </h2>
             </div>
@@ -61,7 +61,7 @@
         </div>
     </section>
 
-    <section class="section03 wow fadeInUp">
+    <section class="section03 background-animation wow fadeInUp">
         <div class="bg"></div>
         <div class="max-layout-width">
             <div class="text">

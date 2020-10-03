@@ -127,8 +127,8 @@
             <div class="max-layout-width">
                 <h2><strong>올세라믹 크라운의 장점은?</strong></h2>
                 <p>
-                    올세라믹은 다양한 사례에 폭넓게 사용될 수 있어 장점이 많지만, <strong>라미네이트에 비해 치아 삭제량이 많아</strong><br>
-                    <strong><span>초기 상담부터 정확한 정밀진단을 토대로 의료진과 충분한 상담</span></strong>을 거치는 것이 중요합니다.
+                    올세라믹은 다양한 사례에 폭넓게 사용될 수 있어 장점이 많지만,<br class="mobile"> <strong>라미네이트에 비해 치아 삭제량이 많아</strong><br>
+                    <strong><span>초기 상담부터 정확한 정밀진단을 토대로 의료진과<br class="mobile"> 충분한 상담</span></strong>을 거치는 것이 중요합니다.
                 </p>
                 <ul class="text">
                     <li class="img01">

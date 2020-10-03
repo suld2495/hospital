@@ -559,53 +559,53 @@
 @media screen and (max-width: 640px) {
 
     .text-slider .section-title {
-    font-size: 28px;
-}
+        font-size: 28px;
+    }
     .text-slider .section-text {
-    font-size: 14px;
-    line-height:1.5;
-    margin-top:15px;
-    margin-bottom: 32px;
-}
+        font-size: 14px;
+        line-height:1.5;
+        margin-top:15px;
+        margin-bottom: 32px;
+    }
 
     section.text-slider .slick-slide .text p {
-   font-size:14px;
-   line-height:1.5;
-  padding-top:10px;
-  }
+        font-size:14px;
+        line-height:1.5;
+        padding-top:10px;
+    }
 
     .text-slider .slick-slide .text h2 {
-    font-size: 25px;
-    line-height: 1.25;
-    margin-bottom: 42px;
-    color: #222;
-    letter-spacing: -1.5px;
-    padding-top: 15px;
-}
+        font-size: 25px;
+        line-height: 1.25;
+        margin-bottom: 42px;
+        color: #222;
+        letter-spacing: -1.5px;
+        padding-top: 15px;
+    }
     .text-slider .slick-slide .text h3 {
-    font-size: 50px;
-    font-weight: bold;
-    color: #e4e4e4;
-    margin-bottom: -3px;
-    font-family: gmarket !important;
-}
+        font-size: 50px;
+        font-weight: bold;
+        color: #e4e4e4;
+        margin-bottom: -3px;
+        font-family: gmarket !important;
+    }
     .section04 .pager {
-    font-size: 16px;
-    color: #222;
-    padding: 6px 0;
-    position: relative;
-    padding-left: 40px;
-    display: inline-block;
-    font-weight: 500;
-    /* cursor: pointer; */
-    letter-spacing: -1px;
-}
+        font-size: 16px;
+        color: #222;
+        padding: 6px 0;
+        position: relative;
+        padding-left: 40px;
+        display: inline-block;
+        font-weight: 500;
+        /* cursor: pointer; */
+        letter-spacing: -1px;
+    }
     .section03 .max-layout-width .text > div {
-    padding-right: 0px;
-    position: relative;
-}
+        padding-right: 0px;
+        position: relative;
+    }
     section.section-top-title-left .image_box_left {
-    height: 200px;
+        height: 200px;
     }
     .section05 .bg {
         background-attachment: initial;
@@ -702,8 +702,8 @@
 
 @media screen and (max-width: 414px) {
     .text-slider .slider-arrow-container {
-    bottom: 326px;
-}
+        bottom: 326px;
+    }
     section.section06.list-content .section-title {
         margin-top: 231px;
     }
@@ -728,6 +728,7 @@
     section.section04 .image_box_left {
         top: 80px;
         height: 200px;
+        padding-right: 0;
     }
     section.section-quotes-title-right .bg {
         height: 170px;
@@ -760,22 +761,22 @@
 
 @media screen and (max-width: 375px) {
     .text-slider .slider-arrow-container {
-    bottom: 326px;
-}
+        bottom: 326px;
+    }
     .section07 {
-    margin-top: 52px;
-}
+        margin-top: 52px;
+    }
     .section06 {
-    padding-bottom: 50px;
-}
+        padding-bottom: 50px;
+    }
     .section06 .img {
-    background-size: contain;
-    margin-top: -45px;
-}
+        background-size: contain;
+        margin-top: -45px;
+    }
     .section05 {
-    margin-top: 52px;
-    height: 310px;
-}
+        margin-top: 52px;
+        height: 310px;
+    }
     section.section06.list-content .section-title {
         margin-top: 203px;
     }
@@ -814,15 +815,15 @@
 
 @media screen and (max-width: 360px) {
     .section05 {
-    margin-top: 52px;
-    height: 340px;
-}
+        margin-top: 52px;
+        height: 340px;
+    }
     section.section-quotes-title-right .section-title {
-    padding-left: 50px;
-    font-size: 28px;
-    word-break: keep-all;
-    padding-right: 20px;
-}
+        padding-left: 50px;
+        font-size: 28px;
+        word-break: keep-all;
+        padding-right: 20px;
+    }
     section.section06.list-content .section-title {
         margin-top: 192px;
     }

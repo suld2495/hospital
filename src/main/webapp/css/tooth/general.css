@@ -1083,114 +1083,114 @@ section.board-link {
 
 @media screen and (max-width: 640px) {
     body .post-slider .posts .slide, .left-fade-slider-container .img {
-    height: 149px;
-}
+        height: 149px;
+    }
     .section12 {
-    margin-top: 62px;
-    margin-bottom: -17px;
-    padding-bottom: 0px;
-}
+        margin-top: 62px;
+        margin-bottom: -17px;
+        padding-bottom: 0px;
+    }
     .section06 .max-layout-width .text {
-    padding-top: 70px;
-}
+        padding-top: 70px;
+    }
     .section11 .pager:before {
-    position: absolute;
-    left: 0;
-    content: '';
-    top: 4px;
-    background: url(../../images/sub/orthodontics/malocculusion/check_icon.png) no-repeat center;
-    width: 19px;
+        position: absolute;
+        left: 0;
+        content: '';
+        top: 4px;
+        background: url(../../images/sub/orthodontics/malocculusion/check_icon.png) no-repeat center;
+        width: 19px;
     }
     .section11 .pager {
-    font-size: 14px;
-    color: #222;
-    padding: 7px 0;
-    position: relative;
-    padding-left: 28px;
-    display: inline-block;
-    font-weight: 500;
-    position: relative;
-    letter-spacing: -1px;
-}
+        font-size: 14px;
+        color: #222;
+        padding: 7px 0;
+        position: relative;
+        padding-left: 28px;
+        display: inline-block;
+        font-weight: 500;
+        position: relative;
+        letter-spacing: -1px;
+    }
     .section11 {
-    margin-top: 65px;
-    margin-bottom: -6px;
-}
+        margin-top: 65px;
+        margin-bottom: -6px;
+    }
     section.board-link {
-    margin-top: 50px;
-}
+        margin-top: 50px;
+    }
     .fade-in-slider .title p {
-    font-size: 14px;
-    color: #9c9c9c;
-    letter-spacing: -1px;
-    margin-bottom: 29px;
-    font-weight: 400;
-    line-height: 1.5;
-    padding-top: 4px;
-}
+        font-size: 14px;
+        color: #9c9c9c;
+        letter-spacing: -1px;
+        margin-bottom: 29px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-top: 4px;
+    }
     body .left-fade-slider-container .slider-container {
-    height: 404px;
-}
+        height: 404px;
+    }
 
     .section05 .text {
-    padding-top: 45px;
-    position: relative;
-    box-sizing: border-box;
-}
+        padding-top: 45px;
+        position: relative;
+        box-sizing: border-box;
+    }
     .section05 {
-    margin-top:80px;
-    margin-bottom: -69px;
-}
+        margin-top:80px;
+        margin-bottom: -69px;
+    }
     .section04 {
-    margin-top: 28px;
-}
+        margin-top: 28px;
+    }
     .section02 {
-    text-align: center;
-    margin-top: 120px;
-}
+        text-align: center;
+        margin-top: 120px;
+    }
     .section02-1 {
-    position: relative;
-    padding-bottom: 50px;
-}
+        position: relative;
+        padding-bottom: 50px;
+    }
     .section02-1 .tab-contents img + div p {
-    font-size:14px;
-    text-align: left;
-    line-height: 1.6;
-    word-break: keep-all;
-    letter-spacing: -1.2px;
-}
+        font-size:14px;
+        text-align: left;
+        line-height: 1.6;
+        word-break: keep-all;
+        letter-spacing: -1.2px;
+    }
     .section02-1 .tab-contents img + div h2 {
-    font-size: 28px;
-    font-weight: 500;
-    text-align: left;
-    margin-bottom: 22px;
-    letter-spacing: -2px;
-    margin-top:-20px;
-}
+        font-size: 28px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 22px;
+        letter-spacing: -2px;
+        margin-top:-20px;
+    }
     .section02-1 .tab-contents {
-    padding-top: 50px;
-}
+        padding-top: 50px;
+    }
     .section02 .tab li {
-    width: 33.103333333%;
-    margin-left: 0.23%;
-    float: left;
-    font-size: 15px;
-    color: #a8a8a8;
-    background: #dfdfdf;
-    padding: 13px 0;
-    cursor: pointer;
-    letter-spacing: -1.5px;
-}
+        width: 33.103333333%;
+        margin-left: 0.23%;
+        float: left;
+        font-size: 15px;
+        color: #a8a8a8;
+        background: #dfdfdf;
+        padding: 13px 0;
+        cursor: pointer;
+        letter-spacing: -1.5px;
+    }
     section.section-top-title-left .bg {
-    padding-bottom: 0;
-    height: 341px;
-}
+        padding-bottom: 0;
+        height: 341px;
+    }
     .section-text {
-    font-size: 14px;
-    /* padding: 0 30; */
-    padding-top: 13px;
-    line-height: 1.4;
-}
+        font-size: 14px;
+        /* padding: 0 30; */
+        padding-top: 13px;
+        line-height: 1.4;
+    }
     .tab-container1 .section20 .bg {
         background-attachment: initial;
         background-size: cover;
@@ -1362,20 +1362,20 @@ section.board-link {
 
 @media screen and (max-width: 414px) {
     .fade-in-slider .title h2 {
-    font-size: 28px;
-    margin-top: -34px;
+        font-size: 28px;
+        margin-top: -34px;
     }
     .fade-in-slider {
-    margin-top: -33px;
-    padding-bottom: 2px;
-    background: #f5f5f5;
-}
+        margin-top: -33px;
+        padding-bottom: 2px;
+        background: #f5f5f5;
+    }
     .section06 {
-    margin-top: 105px;
-    padding-bottom: 61px;
-    margin-bottom: -10px;
-    height: 203px;
-}
+        margin-top: 105px;
+        padding-bottom: 61px;
+        margin-bottom: -10px;
+        height: 203px;
+    }
     .tab-container3 .section12 .section-title {
         margin-bottom: 244px;
     }
@@ -1479,28 +1479,28 @@ section.board-link {
 
 @media screen and (max-width: 375px) {
     .section06 {
-    margin-top: 105px;
-    padding-bottom: 70px;
-    margin-bottom: -10px;
-    height: 203px;
-}
+        margin-top: 105px;
+        padding-bottom: 70px;
+        margin-bottom: -10px;
+        height: 203px;
+    }
     .fade-in-slider .slick-arrow {
-    background-color: #ffffff;
-    bottom: 50px;
-}
+        background-color: #ffffff;
+        bottom: 50px;
+    }
     .section20 .max-layout-width .text h2 {
-    padding: 0px 30px;
-    box-sizing: border-box;
-    word-break: keep-all;
-    font-size: 19px;
-    line-height: 1.3;
-    margin-top: -25px;
-}
+        padding: 0px 30px;
+        box-sizing: border-box;
+        word-break: keep-all;
+        font-size: 19px;
+        line-height: 1.3;
+        margin-top: -25px;
+    }
     .section20 {
-    padding-bottom: 30px;
-    margin-top: 55px;
-    height: 210px;
-}
+        padding-bottom: 30px;
+        margin-top: 55px;
+        height: 210px;
+    }
     .section06 .max-layout-width .text h2 {
         padding-top: 0px;
         font-size: 20px;
@@ -1562,17 +1562,17 @@ section.board-link {
 
 @media screen and (max-width: 360px) {
     .fade-in-slider .title h2 {
-    font-size: 28px;
-    line-height: 1.3;
-    margin-top: -44px;
-}
+        font-size: 28px;
+        line-height: 1.3;
+        margin-top: -44px;
+    }
     .section11 .image_box_left, .section12 .image_box_left {
-    height: 220px;
-    top: 87px;
-}
+        height: 220px;
+        top: 87px;
+    }
     .section20 .max-layout-width .text {
-    padding-top: 80px;
-}
+        padding-top: 80px;
+    }
     .tab-container3 section.section-quotes-title-right .bg {
         height: 195px;
     }
@@ -1605,8 +1605,8 @@ section.board-link {
         height: 225px;
     }
 }.tab-container {
-    display: none;
-}
+     display: none;
+ }
 
 .tab-container.active {
     display: block;
@@ -2689,114 +2689,114 @@ section.board-link {
 
 @media screen and (max-width: 640px) {
     body .post-slider .posts .slide, .left-fade-slider-container .img {
-    height: 149px;
-}
+        height: 149px;
+    }
     .section12 {
-    margin-top: 62px;
-    margin-bottom: -17px;
-    padding-bottom: 0px;
-}
+        margin-top: 62px;
+        margin-bottom: -17px;
+        padding-bottom: 0px;
+    }
     .section06 .max-layout-width .text {
-    padding-top: 70px;
-}
+        padding-top: 70px;
+    }
     .section11 .pager:before {
-    position: absolute;
-    left: 0;
-    content: '';
-    top: 4px;
-    background: url(../../images/sub/orthodontics/malocculusion/check_icon.png) no-repeat center;
-    width: 19px;
+        position: absolute;
+        left: 0;
+        content: '';
+        top: 4px;
+        background: url(../../images/sub/orthodontics/malocculusion/check_icon.png) no-repeat center;
+        width: 19px;
     }
     .section11 .pager {
-    font-size: 14px;
-    color: #222;
-    padding: 7px 0;
-    position: relative;
-    padding-left: 28px;
-    display: inline-block;
-    font-weight: 500;
-    position: relative;
-    letter-spacing: -1px;
-}
+        font-size: 14px;
+        color: #222;
+        padding: 7px 0;
+        position: relative;
+        padding-left: 28px;
+        display: inline-block;
+        font-weight: 500;
+        position: relative;
+        letter-spacing: -1px;
+    }
     .section11 {
-    margin-top: 65px;
-    margin-bottom: -6px;
-}
+        margin-top: 65px;
+        margin-bottom: -6px;
+    }
     section.board-link {
-    margin-top: 50px;
-}
+        margin-top: 50px;
+    }
     .fade-in-slider .title p {
-    font-size: 14px;
-    color: #9c9c9c;
-    letter-spacing: -1px;
-    margin-bottom: 29px;
-    font-weight: 400;
-    line-height: 1.5;
-    padding-top: 4px;
-}
+        font-size: 14px;
+        color: #9c9c9c;
+        letter-spacing: -1px;
+        margin-bottom: 29px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-top: 4px;
+    }
     body .left-fade-slider-container .slider-container {
-    height: 404px;
-}
+        height: 404px;
+    }
 
     .section05 .text {
-    padding-top: 45px;
-    position: relative;
-    box-sizing: border-box;
-}
+        padding-top: 45px;
+        position: relative;
+        box-sizing: border-box;
+    }
     .section05 {
-    margin-top:80px;
-    margin-bottom: -69px;
-}
+        margin-top:80px;
+        margin-bottom: -69px;
+    }
     .section04 {
-    margin-top: 28px;
-}
+        margin-top: 28px;
+    }
     .section02 {
-    text-align: center;
-    margin-top: 120px;
-}
+        text-align: center;
+        margin-top: 120px;
+    }
     .section02-1 {
-    position: relative;
-    padding-bottom: 50px;
-}
+        position: relative;
+        padding-bottom: 50px;
+    }
     .section02-1 .tab-contents img + div p {
-    font-size:14px;
-    text-align: left;
-    line-height: 1.6;
-    word-break: keep-all;
-    letter-spacing: -1.2px;
-}
+        font-size:14px;
+        text-align: left;
+        line-height: 1.6;
+        word-break: keep-all;
+        letter-spacing: -1.2px;
+    }
     .section02-1 .tab-contents img + div h2 {
-    font-size: 28px;
-    font-weight: 500;
-    text-align: left;
-    margin-bottom: 22px;
-    letter-spacing: -2px;
-    margin-top:-20px;
-}
+        font-size: 28px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 22px;
+        letter-spacing: -2px;
+        margin-top:-20px;
+    }
     .section02-1 .tab-contents {
-    padding-top: 50px;
-}
+        padding-top: 50px;
+    }
     .section02 .tab li {
-    width: 33.103333333%;
-    margin-left: 0.23%;
-    float: left;
-    font-size: 15px;
-    color: #a8a8a8;
-    background: #dfdfdf;
-    padding: 13px 0;
-    cursor: pointer;
-    letter-spacing: -1.5px;
-}
+        width: 33.103333333%;
+        margin-left: 0.23%;
+        float: left;
+        font-size: 15px;
+        color: #a8a8a8;
+        background: #dfdfdf;
+        padding: 13px 0;
+        cursor: pointer;
+        letter-spacing: -1.5px;
+    }
     section.section-top-title-left .bg {
-    padding-bottom: 0;
-    height: 341px;
-}
+        padding-bottom: 0;
+        height: 341px;
+    }
     .section-text {
-    font-size: 14px;
-    /* padding: 0 30; */
-    padding-top: 13px;
-    line-height: 1.4;
-}
+        font-size: 14px;
+        /* padding: 0 30; */
+        padding-top: 13px;
+        line-height: 1.4;
+    }
     .tab-container1 .section20 .bg {
         background-attachment: initial;
         background-size: cover;
@@ -2827,6 +2827,8 @@ section.board-link {
     .section12 .text > div {
         padding-left: 30px;
     }
+
+
     .section11 .bg,
     .section12 .bg {
         width: 100%;
@@ -2837,6 +2839,10 @@ section.board-link {
         background: #f5f5f5;
         padding-top: 37px;
         padding-bottom: 46px;
+    }
+    .section11 .bg,
+    .section11 .text {
+        background: #fff;
     }
     .tab-container3 .section12 .img {
         background-size: contain;
@@ -2863,10 +2869,10 @@ section.board-link {
     .fade-in-slider {
         margin-top: -33px;
         padding-bottom: 2px;
-        background: #f5f5f5;
+        background: #fff;
     }
     .fade-in-slider {
-        background: #f5f5f5;
+        background: #fff;
     }
     .section20 .max-layout-width .text h2 {
         padding: 0px 30px;
@@ -2917,6 +2923,10 @@ section.board-link {
     }
     .section03 .table td {
         font-size: 13px;
+        padding: 20px 5px;
+    }
+    .section03 .table td br {
+        display: none;
     }
     .section03 .table {
         width: 640px;
@@ -2968,20 +2978,20 @@ section.board-link {
 
 @media screen and (max-width: 414px) {
     .fade-in-slider .title h2 {
-    font-size: 28px;
-    margin-top: -34px;
+        font-size: 28px;
+        margin-top: -34px;
     }
     .fade-in-slider {
-    margin-top: -33px;
-    padding-bottom: 2px;
-    background: #f5f5f5;
-}
+        margin-top: -33px;
+        padding-bottom: 2px;
+        background: #fff;
+    }
     .section06 {
-    margin-top: 105px;
-    padding-bottom: 61px;
-    margin-bottom: -10px;
-    height: 203px;
-}
+        margin-top: 105px;
+        padding-bottom: 61px;
+        margin-bottom: -10px;
+        height: 203px;
+    }
     .tab-container3 .section12 .section-title {
         margin-bottom: 244px;
     }
@@ -3085,28 +3095,28 @@ section.board-link {
 
 @media screen and (max-width: 375px) {
     .section06 {
-    margin-top: 105px;
-    padding-bottom: 70px;
-    margin-bottom: -10px;
-    height: 203px;
-}
+        margin-top: 105px;
+        padding-bottom: 70px;
+        margin-bottom: -10px;
+        height: 203px;
+    }
     .fade-in-slider .slick-arrow {
-    background-color: #ffffff;
-    bottom: 50px;
-}
+        background-color: #ffffff;
+        bottom: 50px;
+    }
     .section20 .max-layout-width .text h2 {
-    padding: 0px 30px;
-    box-sizing: border-box;
-    word-break: keep-all;
-    font-size: 19px;
-    line-height: 1.3;
-    margin-top: -25px;
-}
+        padding: 0px 30px;
+        box-sizing: border-box;
+        word-break: keep-all;
+        font-size: 19px;
+        line-height: 1.3;
+        margin-top: -25px;
+    }
     .section20 {
-    padding-bottom: 30px;
-    margin-top: 55px;
-    height: 210px;
-}
+        padding-bottom: 30px;
+        margin-top: 55px;
+        height: 210px;
+    }
     .section06 .max-layout-width .text h2 {
         padding-top: 0px;
         font-size: 20px;
@@ -3168,17 +3178,17 @@ section.board-link {
 
 @media screen and (max-width: 360px) {
     .fade-in-slider .title h2 {
-    font-size: 28px;
-    line-height: 1.3;
-    margin-top: -44px;
-}
+        font-size: 28px;
+        line-height: 1.3;
+        margin-top: -44px;
+    }
     .section11 .image_box_left, .section12 .image_box_left {
-    height: 220px;
-    top: 87px;
-}
+        height: 220px;
+        top: 87px;
+    }
     .section20 .max-layout-width .text {
-    padding-top: 80px;
-}
+        padding-top: 80px;
+    }
     .tab-container3 section.section-quotes-title-right .bg {
         height: 195px;
     }

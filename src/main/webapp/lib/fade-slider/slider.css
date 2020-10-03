@@ -496,6 +496,10 @@
     padding-left: 58px;
 }
 
+.text-slider .slick-slide .text.mobile-text {
+    display: none;
+}
+
 .text-slider .slick-slide .text h2 {
     font-size: 28px;
     line-height: 1.2;
@@ -677,16 +681,20 @@
 }
 
 @media screen and (max-width: 640px) {
+
+    .text-slider .slick-slide .text.mobile-text {
+        display: block;
+    }
     .fade-in-slider .slick-arrow {
-    position: absolute;
-    bottom: -9px;
-    width: 77px;
-    height: 51px;
-    display: inline-block !important;
-    text-indent: -999px;
-    cursor: pointer;
-    z-index: 11111111;
-}
+        position: absolute;
+        bottom: -9px;
+        width: 77px;
+        height: 51px;
+        display: inline-block !important;
+        text-indent: -999px;
+        cursor: pointer;
+        z-index: 11111111;
+    }
     .text-slider .section-title {
         font-size: 32px;
     }

@@ -148,6 +148,8 @@ section {
     position: relative;
 }
 
+
+
 /* ---- ea€?a€?i??i?A¸ eA³I¼ia€?I¼ ---- */
 
 /* i?A“eA¸A’ i?a?￢i?A´i?a?￢ */
@@ -814,6 +816,7 @@ section.board-link ul li {
     }
     section.section-quotes-title-left .max-layout-width .text > div:before {
         left: 30px;
+        background-repeat: no-repeat;
     }
     section.section-quotes-title-left .section-title {
         font-size: 28px;
@@ -968,6 +971,9 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+    .background-animation .bg {
+        background-attachment: initial !important;
+    }
     .mobile-640 {
         display: block;
     }
@@ -1250,6 +1256,7 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 414px) {
+
     .treatment-case .left-img1 div.login {
         background: rgba(0,0,0,0.7);
         padding-top: 40px;

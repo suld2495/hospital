@@ -468,74 +468,74 @@
 
 @media screen and (max-width: 640px) {
     .section04 .section-title {
-    padding-top: 87px;
-    position: relative;
-    line-height: 1.25;
-    margin-bottom: 45px;
-    padding-left: 60px;
-    letter-spacing: -3px;
-}
+        padding-top: 87px;
+        position: relative;
+        line-height: 1.25;
+        margin-bottom: 45px;
+        padding-left: 60px;
+        letter-spacing: -3px;
+    }
 
     .section04 {
-    margin-top: 53px;
-}
+        margin-top: 53px;
+    }
     section.list-content .section-text, section.list-content .pager {
-    font-size: 14px;
-    line-height: 1.2;
-}
+        font-size: 14px;
+        line-height: 1.2;
+    }
 
     .section03 .section-title {
-    line-height: 1.35;
-    margin-bottom: 15px;
-    color: #fff;
-}
+        line-height: 1.35;
+        margin-bottom: 15px;
+        color: #fff;
+    }
 
     .section03 {
-    margin-top: 20px;
-}
+        margin-top: 20px;
+    }
 
     .section02 .text .img04 {
-    background: url(../../images/sub/orthodontics/grow/growth_icon04.png) no-repeat center top;
-    /* padding-bottom: 27px; */
-    background-position-y: 43px;
-    margin-top:-28px;
-}
+        background: url(../../images/sub/orthodontics/grow/growth_icon04.png) no-repeat center top;
+        /* padding-bottom: 27px; */
+        background-position-y: 43px;
+        margin-top:-28px;
+    }
 
-.section02 .text .img03 {
-    background: url(../../images/sub/orthodontics/grow/growth_icon03.png) no-repeat center top;
-    /* padding-bottom: 27px; */
-    background-position-y: 43px;
-    margin-top:-28px;
-}
+    .section02 .text .img03 {
+        background: url(../../images/sub/orthodontics/grow/growth_icon03.png) no-repeat center top;
+        /* padding-bottom: 27px; */
+        background-position-y: 43px;
+        margin-top:-28px;
+    }
 
     .section02 .text li p:before {
-    background: url(../../images/sub/orthodontics/grow/check_big.png);
-    content: '';
-    width: 48px;
-    height: 40px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 12px;
-    margin-bottom: 9px;
-    background-size: cover;
-}
+        background: url(../../images/sub/orthodontics/grow/check_big.png);
+        content: '';
+        width: 24px;
+        height: 20px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 12px;
+        margin-bottom: 9px;
+        background-size: cover;
+    }
     .section02 ul {
-    padding-top: 9px;
-    box-sizing: border-box;
-    margin-left: -2%;
-}
-     .section02 .section-title {
-     word-break: keep-all;
-     padding-right: 0;
-     padding-top: 205px;
+        padding-top: 9px;
+        box-sizing: border-box;
+        margin-left: -2%;
+    }
+    .section02 .section-title {
+        word-break: keep-all;
+        padding-right: 0;
+        padding-top: 205px;
     }
     .section02 {
-    margin-top: 150px;
-}
+        margin-top: 150px;
+    }
     section.section-top-title-left .image_box_left {
-    height: 220px;
-    bottom: -218px;
-}
+        height: 220px;
+        bottom: -218px;
+    }
     .section02 .text li {
         width: 48%;
     }
@@ -615,10 +615,10 @@
 
 @media screen and (max-width: 375px) {
     .section02 .section-title {
-    word-break: keep-all;
-    padding-right: 0;
-    padding-top: 226px;
-}
+        word-break: keep-all;
+        padding-right: 0;
+        padding-top: 226px;
+    }
     section.section-quotes-title-left .max-layout-width .text {
         padding-top: 260px;
     }

@@ -333,7 +333,7 @@
         </div>
         <section class="section03 wow fadeInUp">
             <div class="max-layout-width">
-                <h2>치주질환(풍치) <strong>진행단계 및 치료방법</strong></h2>
+                <h2>치주질환(풍치) <strong>진행단계 및<br class="mobile"> 치료방법</strong></h2>
                 <div class="table-container">
                     <table class="table">
                         <thead>

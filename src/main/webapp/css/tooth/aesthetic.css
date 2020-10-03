@@ -10,6 +10,10 @@
     margin-top: 100px;
 }
 
+.text-slider .slick-arrow {
+    display: block !important;
+}
+
 .section01 .text, .section01 .bg .max-layout-width {
     padding-left: 50%;
     max-width: inherit;
@@ -101,7 +105,7 @@
 
 .section02 .img02 {
     background: url(../../images/sub/tooth/aesthetic/aesthetic_icon02.png) no-repeat top center;
-    background-position-y: 5px;
+    /* background-position-y: 5px; */
 }
 
 .section02 .img03 {
@@ -920,175 +924,175 @@ section.board-link {
 
 @media screen and (max-width: 640px) {
     .text-slider .slick-slide .text.mobile-text {
-    display: block;
-    float: none;
-    padding-top: 40px;
-    padding-left: 30px;
-    width: 100%;
-    padding-right: 20px;
-}
+        display: block;
+        float: none;
+        padding-top: 40px;
+        padding-left: 30px;
+        width: 100%;
+        padding-right: 20px;
+    }
 
-        section.img-four li:nth-child(2n) p {
+    section.img-four li:nth-child(2n) p {
         padding-right: 18px;
         line-height: 1.3;
     }
     .table th {
-    font-size: 21px;
-    color: #fff;
-    padding: 10px 0;
-    background: #8f8f8f;
-    line-height: 1;
-    letter-spacing: -1px;
-}
+        font-size: 21px;
+        color: #fff;
+        padding: 10px 0;
+        background: #8f8f8f;
+        line-height: 1;
+        letter-spacing: -1px;
+    }
     .table .table-left, .table .table-right {
-    font-size: 14px;
-    /* line-height: 1.4; */
-}
+        font-size: 14px;
+        /* line-height: 1.4; */
+    }
     .section12 .pager {
-    font-size: 16px;
-    color: #222;
-    padding: 5px 0;
-    position: relative;
-    padding-left: 31px;
-    display: inline-block;
-    font-weight: 500;
-    /* cursor: pointer; */
-    letter-spacing: -1px;
-}
+        font-size: 16px;
+        color: #222;
+        padding: 5px 0;
+        position: relative;
+        padding-left: 31px;
+        display: inline-block;
+        font-weight: 500;
+        /* cursor: pointer; */
+        letter-spacing: -1px;
+    }
     section.img-four li:nth-child(2n-1) p {
-    padding-left: 25px;
-    line-height:1.3;
-}
+        padding-left: 25px;
+        line-height:1.3;
+    }
     section.img-four li {
-    padding: 27px 0 0 !important;
-    height: 185px;
-    margin: 0 !important;
-}
+        padding: 27px 0 0 !important;
+        height: 185px;
+        margin: 0 !important;
+    }
     .section11 p {
-    line-height: 1.5;
-    font-size: 14px;
-    margin-bottom: 47px;
-    letter-spacing: -1px;
-}
+        line-height: 1.5;
+        font-size: 14px;
+        margin-bottom: 47px;
+        letter-spacing: -1px;
+    }
     section.img-four p {
-    margin-bottom: 29px;
+        margin-bottom: 29px;
     }
     .section11 h2 {
-    font-size: 28px;
-    margin-bottom: -100px;
+        font-size: 28px;
+        margin-bottom: -100px;
     }
     .section11 .max-layout-width {
-    position: relative;
-    padding-top: 60px;
-    text-align: center;
-    color: #fff;
-    padding-bottom: 27px;
+        position: relative;
+        padding-top: 60px;
+        text-align: center;
+        color: #fff;
+        padding-bottom: 27px;
     }
 
     body .post-slider .posts .slide, .left-fade-slider-container .img {
-    height: 140px;
+        height: 140px;
     }
     body .left-fade-slider-container .slider-container {
-    height: 410px;
+        height: 410px;
     }
 
     section.section-top-title-left .image_box_left {
-    height: 220px;
-    bottom: -220px;
+        height: 220px;
+        bottom: -220px;
     }
     section.board-link {
-    margin-top: 53px;
+        margin-top: 53px;
     }
 
     .left-fade-slider-container .max-layout-width h2 {
-    font-size: 26px;
-    word-break: keep-all;
-    /* padding: 0 20px; */
-    box-sizing: border-box;
-    width: 330px;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
+        font-size: 26px;
+        word-break: keep-all;
+        /* padding: 0 20px; */
+        box-sizing: border-box;
+        width: 330px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
     section.text-slider .slick-slide .text p {
-    font-size:14px;
-    line-height:1.5;
-    max-width: 340px;
-}
+        font-size:14px;
+        line-height:1.5;
+        max-width: 340px;
+    }
 
     .text-slider .slick-slide .text h3 {
-    font-size: 55px;
-    font-weight: bold;
-    color: #e4e4e4;
-    margin-bottom: -3px;
-    font-family: gmarket !important;
-    margin-top: -23px;
-    padding-bottom: 9px;
-}
+        font-size: 55px;
+        font-weight: bold;
+        color: #e4e4e4;
+        margin-bottom: -3px;
+        font-family: gmarket !important;
+        margin-top: -23px;
+        padding-bottom: 9px;
+    }
 
     .text-slider .slick-slide .text h2 {
-    font-size: 25px;
-    line-height: 1.25;
-    margin-bottom: 55px;
-    color: #222;
-    letter-spacing: -1.5px;
-}
+        font-size: 25px;
+        line-height: 1.25;
+        margin-bottom: 55px;
+        color: #222;
+        letter-spacing: -1.5px;
+    }
 
 
     .text-slider .section-text {
-    font-size: 14px;
-    line-height:1.5;
-    margin-top:15px;
-    margin-bottom: 34px;
-}
+        font-size: 14px;
+        line-height:1.5;
+        margin-top:15px;
+        margin-bottom: 34px;
+    }
     .text-slider .section-title {
-    font-size: 28px;
-    line-height: 1.2;
-}
+        font-size: 28px;
+        line-height: 1.2;
+    }
     .section06 .pager {
-    font-size: 16px;
-    color: #222;
-    padding: 6px 0;
-    position: relative;
-    padding-left: 30px;
-    display: inline-block;
-    font-weight: 500;
-    /* cursor: pointer; */
-    letter-spacing: -1px;
-}
+        font-size: 16px;
+        color: #222;
+        padding: 6px 0;
+        position: relative;
+        padding-left: 30px;
+        display: inline-block;
+        font-weight: 500;
+        /* cursor: pointer; */
+        letter-spacing: -1px;
+    }
     .section04 {
-    position: relative;
-    padding-bottom: 50px;
-}
+        position: relative;
+        padding-bottom: 50px;
+    }
     .section04 .tab-contents img + div p {
-    text-align: left;
-    line-height: 1.5;
-    padding-right: 70px;
-    word-break: keep-all;
-    letter-spacing: -1px;
-    font-size:14px
-}
+        text-align: left;
+        line-height: 1.5;
+        padding-right: 70px;
+        word-break: keep-all;
+        letter-spacing: -1px;
+        font-size:14px
+    }
     .section04 .tab-contents img + div h2 {
-    font-size: 27px;
-    font-weight: 500;
-    text-align: left;
-    margin-bottom: 17px;
-    letter-spacing: -2.5px;
-}
+        font-size: 27px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 17px;
+        letter-spacing: -2.5px;
+    }
     .section04 .tab-contents {
-    padding-top: 45px;
-}
+        padding-top: 45px;
+    }
     .section03 .tab li a {
-    padding: 13px 0;
-    width: 100%;
-    display: block;
-    color: #222;
-    font-size:15px;
-    letter-spacing:-1px;
-}
+        padding: 13px 0;
+        width: 100%;
+        display: block;
+        color: #222;
+        font-size:15px;
+        letter-spacing:-1px;
+    }
     .section02 {
-    text-align: center;
-    padding-top: 280px;
-}
+        text-align: center;
+        padding-top: 280px;
+    }
     .left-fade-slider-container {
         margin-top: 0;
         padding-top: 52px;
@@ -1111,7 +1115,7 @@ section.board-link {
         padding-bottom: 0px;
     }
     .text-slider .slider-arrow-container {
-        bottom: 490px;
+        bottom: 306px;
     }
     .text-slider {
         margin-top: 50px;
@@ -1186,6 +1190,9 @@ section.board-link {
 }
 
 @media screen and (max-width: 414px) {
+    body .table thead th {
+        font-size: 25px !important;
+    }
 
     section.list-content .section-title {
         margin-bottom: 321px;
@@ -1214,6 +1221,7 @@ section.board-link {
     .section02 .img {
         height: 70px;
         background-size: contain;
+        background-position-y: 0;
     }
     .section02 ul {
         padding: 0;
@@ -1251,6 +1259,9 @@ section.board-link {
 }
 
 @media screen and (max-width: 375px) {
+    .text-slider .slider-arrow-container {
+        bottom: 346px;
+    }
     section.list-content .section-title {
         margin-bottom: 315px;
         margin-top: 23px;
@@ -1278,8 +1289,8 @@ section.board-link {
 
 @media screen and (max-width: 360px) {
     section.section-top-title-left {
-    padding-bottom: 39px;
-}
+        padding-bottom: 39px;
+    }
     section.list-content .section-title {
         margin-bottom: 290px;
     }
