@@ -96,6 +96,13 @@
                     <li><a <c:if test="${fn:contains(path,'/media')}">class="active"</c:if> href="<c:url value="/media/1"/>">미디어</a></li>
                 </ul>
             </c:if>
+            <c:if test="${category eq 8}">
+                <ul>
+                    <li><a <c:if test="${path eq '/aesthetic'}">class="active"</c:if> href="<c:url value="/mypage_reservation/1"/>" >예약내역</a></li>
+                    <li><a <c:if test="${path eq '/aesthetic-ceramic'}">class="active"</c:if> href="<c:url value="/mypage_consult/1"/>">온라인 상담</a></li>
+                    <li><a <c:if test="${path eq '/aesthetic-ceramic'}">class="active"</c:if> href="<c:url value="/mypage_update"/>">회원정보수정</a></li>
+                </ul>
+            </c:if>
             <c:if test="${category eq 9}">
                 <ul>
                     <li><a <c:if test="${path eq '/aesthetic'}">class="active"</c:if> href="<c:url value="/aesthetic"/>" >라미네이트</a></li>
@@ -171,6 +178,11 @@
                         <c:if test="${category eq 9}">
                             <li><a href="<c:url value="/aesthetic"/>" >라미네이트</a></li>
                             <li><a href="<c:url value="/aesthetic-ceramic"/>">올세라믹 크라운</a></li>
+                        </c:if>
+                        <c:if test="${category eq 8}">
+                            <li><a <c:if test="${path eq '/aesthetic'}">class="active"</c:if> href="<c:url value="/mypage_reservation/1"/>" >예약내역</a></li>
+                            <li><a <c:if test="${path eq '/aesthetic-ceramic'}">class="active"</c:if> href="<c:url value="/mypage_consult/1"/>">온라인 상담</a></li>
+                            <li><a <c:if test="${path eq '/aesthetic-ceramic'}">class="active"</c:if> href="<c:url value="/mypage_update"/>">회원정보수정</a></li>
                         </c:if>
                     </ul>
                 </li>

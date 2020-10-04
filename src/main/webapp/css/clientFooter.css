@@ -196,6 +196,9 @@
 }
 
 @media screen and (max-width: 914px) {
+    .footer-info-container .max-layout-width {
+        padding: 0 !important;;
+    }
     .footer-info-container .max-layout-width > ul.display-inline-block:first-child {
         padding: 0 20px;
         box-sizing: border-box;

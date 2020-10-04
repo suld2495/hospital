@@ -107,80 +107,98 @@
 }
 
 
+@media screen and (max-width: 414px) {
+    .mypage-reservation .max-layout-width {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    body .search {
+        padding-left: 135px;
+        box-sizing: border-box;
+    }
+}
+
+
 @media screen and (max-width:375px) {
+    .search .btn {
+        height: 41px;
+    }
     .write-con {
-    text-align: right;
-    margin-top: 28px;
-    margin-bottom: 25px;
-}
+        text-align: right;
+        margin-top: 28px;
+        margin-bottom: 25px;
+    }
     .table ul {
-    letter-spacing:-1px;
-    overflow: hidden;
-    border-bottom: 1px solid #d2d2d2;
-    cursor: pointer;
-}
+        letter-spacing:-1px;
+        overflow: hidden;
+        border-bottom: 1px solid #d2d2d2;
+        cursor: pointer;
+    }
     .table .date, .table .state {
-    width: 15%;
-}
+        width: 15%;
+    }
     .table li.title {
-    width: 40%;
-}
+        width: 60%;
+    }
     .table .no, .table .type {
-    width: 10%;
-}
+        width: 10%;
+    }
+    .table .no, .table .name {
+        display: none;
+    }
     .table li {
-    height: 45px;
-    float: left;
-}
+        height: 45px;
+        float: left;
+    }
     .search-container {
-    margin-top:-50px;
-    margin-bottom: 56px;
-}
+        margin-top:-50px;
+        margin-bottom: 56px;
+    }
     .search .search-input {
-    width: 100%;
-    padding-right: 75px;
-    border: 1px solid #222;
-    color: #222;
-    height: 41px;
-    line-height: 50px;
-    outline: none;
+        width: 100%;
+        padding-right: 75px;
+        border: 1px solid #222;
+        color: #222;
+        height: 41px;
+        line-height: 50px;
+        outline: none;
     }
-    
+
     .search .select-type {
-    width: 190px;
-    position: absolute;
-    left: 0px;
-    top: 0;
-    height: 41px;
-    border: 1px solid #222;
-    color: #222;
-    font-size: 15px;
-    padding: 0px 13px;
-    background: #fdfdfd;
-}
-    .write-con a {
-    width: 100px;
-    height: 39px;
-    box-sizing: border-box;
-    background: #998b7e;
-    color: #fff;
-    display: inline-block;
-    text-align: center;
-    font-size: 15px;
-    padding: 12px 0;
-    letter-spacing: -1px;
-}
-    .table li {
-    font-size: 14px;
-    text-align: center;
-    float: left;
-    padding: 15px 0;
-    box-sizing: border-box;
-    width: 100%;
-}
-.table {
-    margin-top: 40px;
-    border-top: 2px solid #838383;
-}
+        width: 130px;
+        position: absolute;
+        left: 0px;
+        top: 0;
+        height: 41px;
+        border: 1px solid #222;
+        color: #222;
+        font-size: 15px;
+        padding: 0px 13px;
+        background: #fdfdfd;
     }
+    .write-con a {
+        width: 100px;
+        height: 39px;
+        box-sizing: border-box;
+        background: #998b7e;
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        font-size: 15px;
+        padding: 12px 0;
+        letter-spacing: -1px;
+    }
+    .table li {
+        font-size: 14px;
+        text-align: center;
+        float: left;
+        padding: 15px 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .table {
+        margin-top: 40px;
+        border-top: 2px solid #838383;
+    }
+}
 

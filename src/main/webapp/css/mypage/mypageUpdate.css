@@ -145,6 +145,7 @@
     font-weight: bold;
     cursor: pointer;
     background: #dbdbdb;
+    word-break: keep-all;
 }
 
 .button-box button.active {
@@ -154,34 +155,61 @@
 
 @media screen and (max-width: 375px) {
     .sns {
-    margin-top: 38px;
-    padding-bottom: 62px;
-    border-bottom: 1px solid #d2d2d2;
-}
+        margin-top: 38px;
+        padding-bottom: 62px;
+        border-bottom: 1px solid #d2d2d2;
+    }
     .button-box {
-    margin-left: -1%;
-    overflow: hidden;
-    margin-top: 35px;
-    margin-bottom: 125px;
-}
+        margin-left: -1%;
+        overflow: hidden;
+        margin-top: 35px;
+        margin-bottom: 125px;
+    }
     .sns p {
-    font-size: 14px;
-    margin-bottom: 9px;
-    position: relative;
-    padding-left: 10px;
-    letter-spacing:-1px;
-    line-height:1.4;
-}
+        font-size: 14px;
+        margin-bottom: 9px;
+        position: relative;
+        padding-left: 10px;
+        letter-spacing:-1px;
+        line-height:1.4;
+    }
     .sns h2 {
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    letter-spacing:-1px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        letter-spacing:-1px;
+    }
+
+    .text {
+        padding: 13px 0;
+        font-size: 14px;
+        letter-spacing: -1px;
+    }
 }
 
-.text {
-    padding: 13px 0;
-    font-size: 14px;
-    letter-spacing: -1px;
-}
+@media screen and (max-width: 414px) {
+    .table span.mobile {
+        margin-left: 0;
+    }
+    .table li strong {
+        padding-right: 10px;
+    }
+    .link span:first-child {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .table .long-input {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .table .input {
+        padding: 10px 0;
+    }
+    .table li.name-con strong, .table li.id-con strong {
+        padding-bottom: 0;
+        padding-top: 21px;
+    }
+    form .max-layout-width {
+        padding: 0;
+    }
 }
