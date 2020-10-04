@@ -169,7 +169,7 @@
                                     </a>
                                 </sec:authorize>
                                 <sec:authorize access="isAuthenticated()">
-                                    <a class="text-decoration-none" href="<c:url value='/mypage_consult/1' />">
+                                    <a class="text-decoration-none" href="<c:url value='/mypage_reservation/1' />">
                                         <img src="<c:url value='/images/cmmn/mypage_1.png' />" alt="마이페이지">
                                         <p class="font-12">MYPAGE</p>
                                     </a>
@@ -330,7 +330,7 @@
                 <h2><sec:authentication property="principal.username"/>님 환영합니다.</h2>
                 <ul class="login">
                     <li><a href="<c:url value='/logout'/>"><i class="logout-icon"></i>로그아웃</a></li>
-                    <li><a href="<c:url value='/mypage_consult/1'/>"><i class="mypage-icon"></i>마이페이지</a></li>
+                    <li><a href="<c:url value='/mypage_reservation/1'/>"><i class="mypage-icon"></i>마이페이지</a></li>
                 </ul>
             </sec:authorize>
         </div>

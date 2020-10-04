@@ -70,6 +70,10 @@
                         SELECT MAX(num)
                         FROM ${tableName}
                         WHERE num <![CDATA[ < ]]> #{boardNum}
+
+                        <if test="tableName == 'online' or tableName == 'reserve'">
+                            and id = #{id}
+                        </if>
                 )) prevNum,
 
             (
@@ -79,6 +83,10 @@
                         SELECT MAX(num)
                         FROM ${tableName}
                         WHERE num <![CDATA[ < ]]> #{boardNum}
+
+                        <if test="tableName == 'online' or tableName == 'reserve'">
+                            and id = #{id}
+                        </if>
                 )) prevSubject,
 
             (
@@ -88,6 +96,10 @@
                         SELECT min(num)
                         FROM ${tableName}
                         WHERE num <![CDATA[ > ]]> #{boardNum}
+
+                        <if test="tableName == 'online' or tableName == 'reserve'">
+                            and id = #{id}
+                        </if>
                 )) nextNum,
 
             (
@@ -97,6 +109,10 @@
                         SELECT min(num)
                         FROM ${tableName}
                         WHERE num <![CDATA[ > ]]> #{boardNum}
+
+                        <if test="tableName == 'online' or tableName == 'reserve'">
+                            and id = #{id}
+                        </if>
                 )) nextSubject
     </select>
 
