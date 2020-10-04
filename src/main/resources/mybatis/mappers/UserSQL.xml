@@ -56,4 +56,16 @@
             </if>
         )
     </insert>
+
+    <update id="updateUser" parameterType="userVo">
+        UPDATE membership
+           SET phone = #{phone},
+               email = #{email},
+               emailYN = #{emailYN},
+               smsYN = #{smsYN}
+               <if test="password != null and password != ''">
+                   ,password = #{password}
+               </if>
+         WHERE id = #{id}
+    </update>
 </mapper>

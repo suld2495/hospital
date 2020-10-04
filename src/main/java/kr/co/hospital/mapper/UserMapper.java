@@ -12,4 +12,6 @@ public interface UserMapper {
     void insertUser(UserVo userVo) throws Exception;
 
     UserVo getUserWithProvider(Map param) throws Exception;
+
+    void updateUser(UserVo userVo);
 }

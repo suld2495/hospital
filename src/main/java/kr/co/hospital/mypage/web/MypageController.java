@@ -7,11 +7,11 @@ import kr.co.hospital.mypage.service.MypageService;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+import java.util.HashMap;
 import java.util.Map;
 
 @Controller
@@ -61,11 +61,25 @@ public class MypageController {
         return "/sub/mypage/mypageConsult";
     }
 
-    @RequestMapping("/mypage_update")
+    @RequestMapping(value = "/mypage_update", method = RequestMethod.GET)
     public String mypageUpdate(Model model) {
         model.addAttribute("category", 8);
         model.addAttribute("urlName", "회원정보수정");
         return "/sub/mypage/mypageUpdate";
+    }
+
+    @RequestMapping(value = "/mypage_update", method = RequestMethod.POST)
+    public String memberComplete(Model model, @ModelAttribute(value = "userVo") @Valid UserVo userVo, BindingResult result) throws Exception {
+
+        if (result.hasErrors()) {
+            return "/sub/mypage/mypageUpdate";
+        }
+
+        mypageService.updateUser(userVo);
+
+        model.addAttribute("category", 8);
+        model.addAttribute("urlName", "회원정보수정");
+        return "redirect:/mypage_update";
     }
 
     @RequestMapping(value = "/membership_widthdrawal", method = RequestMethod.GET)
@@ -102,5 +116,24 @@ public class MypageController {
         model.addAttribute("urlName", "예약내역");
         model.addAttribute("board", board);
         return "/sub/mypage/mypageReserveView";
+    }
+
+    @RequestMapping("password-check")
+    @ResponseBody
+    public Map passwordCheck(@RequestParam Map map,
+                             Authentication auth) {
+        Map result = new HashMap();
+
+        try {
+            if (mypageService.passwordCheck(auth, map)) {
+                result.put("result", "yes");
+            } else {
+                result.put("result", "no");
+            }
+        } catch (Exception e) {
+            result.put("result", "error");
+        }
+
+        return result;
     }
 }

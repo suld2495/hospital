@@ -41,6 +41,7 @@ public class ErrorController {
 
     @ExceptionHandler(Exception.class)
     public String handleException(Exception e) {
+        e.printStackTrace();
         return "common/error/notFoundError";// view name for 404 error
     }
 
