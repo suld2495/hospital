@@ -65,37 +65,37 @@
         SELECT
             (
                 SELECT num
-                  FROM notice
+                  FROM ${tableName}
                  WHERE num IN(
                         SELECT MAX(num)
-                        FROM notice
+                        FROM ${tableName}
                         WHERE num <![CDATA[ < ]]> #{boardNum}
                 )) prevNum,
 
             (
                 SELECT subject
-                  FROM notice
+                  FROM ${tableName}
                  WHERE num IN(
                         SELECT MAX(num)
-                        FROM notice
+                        FROM ${tableName}
                         WHERE num <![CDATA[ < ]]> #{boardNum}
                 )) prevSubject,
 
             (
                 SELECT num
-                  FROM notice
+                  FROM ${tableName}
                  WHERE num IN(
                         SELECT min(num)
-                        FROM notice
+                        FROM ${tableName}
                         WHERE num <![CDATA[ > ]]> #{boardNum}
                 )) nextNum,
 
             (
                 SELECT subject
-                  FROM notice
+                  FROM ${tableName}
                  WHERE num IN(
                         SELECT min(num)
-                        FROM notice
+                        FROM ${tableName}
                         WHERE num <![CDATA[ > ]]> #{boardNum}
                 )) nextSubject
     </select>

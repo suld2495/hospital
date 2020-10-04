@@ -3,7 +3,7 @@
 
 <link rel="stylesheet" href="<c:url value="/css/board/boardView.css"/>" />
 
-<c:set value="media-view" var="url" />
+<c:set value="reserve-view" var="url" />
 
 <div class="sub-contents notice-view" style="padding-left: 290px;padding-top: 170px;">
     <h1 class="sub-page-title">예약현황</h1>
@@ -22,7 +22,7 @@
                 <ul>
                     <c:if test="${not empty board.arrow.nextNum}">
                         <li class="next">
-                            <a href="<c:url value='/${url}/${board.arrow.nextNum}'/>">
+                            <a href="<c:url value='/admin/${url}/${board.arrow.nextNum}'/>">
                                 <span><i class="next-icon"></i>다음글</span>
                                 <span class="con">${board.arrow.nextSubject}</span>
                             </a>
@@ -31,7 +31,7 @@
 
                     <c:if test="${not empty board.arrow.prevNum}">
                         <li class="prev">
-                            <a href="<c:url value='/${url}/${board.arrow.prevNum}'/>">
+                            <a href="<c:url value='/admin/${url}/${board.arrow.prevNum}'/>">
                                 <span><i class="prev-icon"></i>이전글</span>
                                 <span class="con">${board.arrow.prevSubject}</span>
                             </a>
