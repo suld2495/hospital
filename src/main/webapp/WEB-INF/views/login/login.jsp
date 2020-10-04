@@ -17,7 +17,8 @@
             <a class="pointer link naver-login" href="${naverUrl}"><i class="naver"></i>네이버 아이디로 로그인</a>
             <a class="pointer link kakao-login" href="${kakaoUrl}"><i class="kakao"></i>카카오계정으로 로그인</a>
         </div>
-
+    </div>
+    <div class="max-layout-width mobile-full-width">
         <div class="member-box">
             <div class="container">
                 <div class="member">

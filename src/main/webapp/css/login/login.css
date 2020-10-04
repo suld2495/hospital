@@ -23,6 +23,7 @@
     padding: 11px 26px;
     box-sizing: border-box;
     height: 49px;
+    font-size: 14px;
 }
 
 .link {
@@ -33,6 +34,7 @@
     line-height: 50px;
     margin-bottom: 16px;
     position: relative;
+    letter-spacing: -1px;
 }
 
 .link i {
@@ -103,16 +105,20 @@
 
 @media screen and (max-width: 1300px) {
     .link i {
-    width: 31px;
-    height: 32px;
-    display: inline-block;
-    vertical-align: -9px;
-    margin-right: 10px;
-}
+        width: 31px;
+        height: 32px;
+        display: inline-block;
+        vertical-align: -9px;
+        margin-right: 10px;
+    }
     .login .max-layout-width {
         padding: 0 30px;
         box-sizing: border-box;
         margin-top: 38px;
+    }
+
+    .login .max-layout-width.mobile-full-width {
+        padding: 0;
     }
 }
 
