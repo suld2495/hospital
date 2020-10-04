@@ -285,7 +285,7 @@
 
 .section05 .section-text {
     word-break: keep-all;
-    line-height: 1.6;
+    line-height: 1.5;
     position: relative;
     text-align: right;
 }
@@ -655,7 +655,7 @@ section.board-link {
         padding-top: 240px;
     }
     section.section-quotes-title-right .bg {
-        height: 201px;
+        height: 186px;
     }
     .section05 .max-layout-width .text > div {
         padding-right: 20px;
@@ -686,6 +686,10 @@ section.board-link {
 }
 
 @media screen and (max-width: 375px) {
+    section.section-quotes-title-right .bg {
+    bottom: -27px;
+    }
+
     .section04 li p {
         line-height: 1.4;
         font-size: 13px;
@@ -735,6 +739,6 @@ section.board-link {
         font-size: 12px;
     }
     section.section-quotes-title-right .bg {
-        height: 196px;
+        height: 190px;
     }
 }

@@ -918,7 +918,7 @@ section.img-four .image_box_right {
     font-size: 28px;
 }
 body .section-top-title-left .section-title {
-    font-size: 25px;
+    font-size: 28px;
 }
 section.section-top-title-right-two .max-layout-width ul {
     /* top: 234px; */
@@ -946,7 +946,7 @@ section.section-top-title-right-two .max-layout-width ul {
     section.list-content .image_box_left {
         height: 220px;
         margin-top:-30px;
-        margin-top: -32px;
+        margin-top: -3px;
     }
     .section05 {
         padding-bottom: 40px;
@@ -958,7 +958,7 @@ section.section-top-title-right-two .max-layout-width ul {
         padding-bottom: 103px;
     }
     section.section-quotes-title-right .bg {
-        height: 216px;
+        height: 176px;
     }
 
     .section05 .image_box_right + .text {
@@ -968,6 +968,6 @@ section.section-top-title-right-two .max-layout-width ul {
 
 @media screen and (max-width: 360px) {
     section.section-quotes-title-right .bg {
-        height: 215px;
+        height: 178px;
     }
 }
