@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.Map;
+
 @Controller
 public class MypageController {
     private MypageService mypageService;
@@ -78,5 +80,27 @@ public class MypageController {
         model.addAttribute("category", 8);
         model.addAttribute("urlName", "회원탈퇴");
         return "/sub/mypage/membershipWithdrawalComplete";
+    }
+
+    @RequestMapping("mypage-consult-view/{boardNum}")
+    public String mypageConsultView(Model model,
+                                    @PathVariable(value = "boardNum") int boardNum) throws Exception {
+        PagingVo pagingVo = new PagingVo("online", boardNum);
+        Map board = boardService.getBoardInfo(pagingVo);
+        model.addAttribute("category", 8);
+        model.addAttribute("urlName", "온라인상담");
+        model.addAttribute("board", board);
+        return "/sub/mypage/mypageConsultView";
+    }
+
+    @RequestMapping("mypage-reserve-view/{boardNum}")
+    public String mypageReserveView(Model model,
+                                    @PathVariable(value = "boardNum") int boardNum) throws Exception {
+        PagingVo pagingVo = new PagingVo("reserve", boardNum);
+        Map board = boardService.getBoardInfo(pagingVo);
+        model.addAttribute("category", 8);
+        model.addAttribute("urlName", "예약내역");
+        model.addAttribute("board", board);
+        return "/sub/mypage/mypageReserveView";
     }
 }

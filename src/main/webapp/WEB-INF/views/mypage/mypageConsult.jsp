@@ -28,8 +28,8 @@
                 <li class="date">작성일</li>
                 <li class="state">상태</li>
             </ul>
-            <ul class="empty">
-                <c:forEach items="${list}" var="list">
+            <c:forEach items="${list}" var="list">
+                <ul class="link" data-num="${list.num}">
                     <li class="no">${list.num}</li>
                     <li class="type">${list.consultType}</li>
                     <li class="title">${list.subject}</li>
@@ -43,14 +43,16 @@
                             답변대기중
                         </c:if>
                     </li>
-                </c:forEach>
+                </ul>
+            </c:forEach>
+            <ul class="empty">
                 <c:if test="${paging.total eq 0}">
                     <li><p>등록된 자료가 없습니다.</p></li>
                 </c:if>
             </ul>
         </div>
         <div class="write-con">
-            <a href="<c:url value="/"/>">글쓰기</a>
+            <a href="<c:url value="/online-consult-write"/>">글쓰기</a>
         </div>
         <div class="search-container">
             <div class="search">
@@ -66,3 +68,11 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(function() {
+        $('.link').click(function () {
+            window.location.href = "<c:url value='/mypage-consult-view/'/>" + $(this).data("num");
+        })
+    });
+</script>

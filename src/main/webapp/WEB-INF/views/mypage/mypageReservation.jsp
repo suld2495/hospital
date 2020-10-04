@@ -23,16 +23,18 @@
                 <li class="center">예약센터</li>
                 <li class="name">신청자명</li>
                 <li class="phone">연락처</li>
-                <li class="etc">비고${paging.total}</li>
+                <li class="etc">비고</li>
             </ul>
-            <ul class="empty">
-                <c:forEach items="${list}" var="list">
+            <c:forEach items="${list}" var="list">
+                <ul class="link" data-num="${list.num}">
                     <li class="date">${list.created_show_date}</li>
                     <li class="center"></li>
                     <li class="name">${list.writer}</li>
                     <li class="phone">${list.phone}</li>
                     <li class="etc"></li>
-                </c:forEach>
+                </ul>
+            </c:forEach>
+            <ul class="empty">
                 <c:if test="${paging.total eq 0}">
                     <li><p>등록된 자료가 없습니다.</p></li>
                 </c:if>
@@ -40,3 +42,11 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(function() {
+        $('.link').click(function () {
+            window.location.href = "<c:url value='/mypage-reserve-view/'/>" + $(this).data("num");
+        })
+    });
+</script>
