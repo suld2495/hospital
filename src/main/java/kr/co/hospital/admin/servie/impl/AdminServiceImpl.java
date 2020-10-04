@@ -56,7 +56,7 @@ public class AdminServiceImpl implements AdminService {
                 changeSearchType(String.valueOf(paramMap.get("searcharray"))));
         map.put("list", boardService.getBoardList(pagingVo));
         map.put("total", pagingVo.getTotal());
-        map.put("uploadPath", WebUtils.getRealPath(servletContext, path));
+        map.put("uploadPath", path);
         return map;
     }
 

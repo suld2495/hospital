@@ -553,7 +553,7 @@ document.write("<script type='text/javascript' src='" + content + "'/js/admin/fo
 					var $column = temp.find("[class ~='" + key + "']");
 					var $columnData = temp.find("[class ~='" + key + "data']");
 					
-					if(key == "boardImg") {
+					if(key == "thumnail") {
 						
 						img = value;
 						return;
@@ -585,7 +585,7 @@ document.write("<script type='text/javascript' src='" + content + "'/js/admin/fo
 					$columnData.data(key.toLowerCase(), value);
 				});
 				
-				temp.find(".imageroot").attr("src", data.uploadPath + imgroot + img);
+				temp.find(".imageroot").attr("src", content + "/" + data.uploadPath + "/" + img);
 			}
 		}
 		
