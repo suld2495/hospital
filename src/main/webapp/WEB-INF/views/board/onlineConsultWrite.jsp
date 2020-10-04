@@ -214,6 +214,26 @@
                 return false;
             }
 
+            for (var i = 1; i < 4; i++) {
+                var $phone = $("[name=phone" + i + "]");
+
+                if ($phone.val() === '') {
+                    alert("전화번호를 입력해 주세요.");
+                    $phone.focus();
+                    return false;
+                }
+            }
+
+            for (var i = 1; i < 3; i++) {
+                var $email = $("[name=email" + i + "]");
+
+                if ($email.val() === '') {
+                    alert("이메일를 입력해 주세요.");
+                    $email.focus();
+                    return false;
+                }
+            }
+
             if (!$password.val()) {
                 alert("비밀번호를 입력해주세요.");
                 $password.focus();
@@ -246,6 +266,16 @@
             var files = e.target.files;
 
             $filename.text(files[0].name);
+        })
+
+        $('[name=smsYN],[name=emailYN]').change(function () {
+            $(this).parent().toggleClass('active');
+        })
+
+        $('[name=email3]').change(function (e) {
+            if ($(this).val() !== '') {
+                $('[name=email2]').val($(this).val());
+            }
         })
     })
 </script>

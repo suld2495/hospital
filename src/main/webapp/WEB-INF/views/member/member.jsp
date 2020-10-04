@@ -275,7 +275,7 @@
                 }
             }
 
-            for (var i = 1; i < 4; i++) {
+            for (var i = 1; i < 3; i++) {
                 var $email = $("[name=email" + i + "]");
 
                 if ($email.val() === '') {
