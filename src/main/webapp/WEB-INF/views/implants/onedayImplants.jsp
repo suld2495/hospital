@@ -19,7 +19,7 @@
             <div>
                 <h2 class="section-title">
                     <span class="bold section-title-color">단 하루만에 정밀하게 보고</span><br>
-                    <strong>정확하게 심는</strong> 원데이 임플란트
+                    <strong>정확하게 심는</strong><br class="mobile"> 원데이 임플란트
                 </h2>
             </div>
         </div>
