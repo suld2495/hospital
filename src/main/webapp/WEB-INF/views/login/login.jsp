@@ -11,7 +11,7 @@
         <div class="container">
             <form method="post" class="form">
                 <span><input placeholder="아이디를 입력해주세요" name="id"></span>
-                <span><input placeholder="비밀번호를 입력해주세요" type="password" name="password"></span>
+                <span><input placeholder="비밀번호를 입력해주세요" type="password" name="password" onkeyup="enterkey();"></span>
             </form>
             <a class="pointer link misowon-login"><i class="misowon"></i>미소원 아이디로 로그인</a>
             <a class="pointer link naver-login" href="${naverUrl}"><i class="naver"></i>네이버 아이디로 로그인</a>
@@ -64,4 +64,12 @@
             return true;
         }
     })
+
+    function enterkey() {
+        if (window.event.keyCode == 13) {
+
+            // 엔터키가 눌렸을 때 실행할 내용
+            $('.misowon-login').trigger('click');
+        }
+    }
 </script>
