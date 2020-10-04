@@ -4,6 +4,7 @@ import kr.co.hospital.admin.servie.AdminService;
 import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.board.service.BoardVo;
 import kr.co.hospital.board.service.PagingVo;
+import kr.co.hospital.login.service.UserVo;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -146,8 +147,9 @@ public class AdminController {
         }
 
         boardVo.setTableName(tableName);
-        boardVo.setId((String) auth.getPrincipal());
+        boardVo.setId(((UserVo)auth.getPrincipal()).getId());
         boardService.saveThumnail(mRequest, boardVo, url);
+        boardService.saveMainThumnail(mRequest, boardVo, url);
 
         if (map.get("update").equals("modify")) {
             boardService.deleteFiles(map);

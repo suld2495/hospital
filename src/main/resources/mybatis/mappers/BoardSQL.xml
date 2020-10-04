@@ -143,6 +143,18 @@
                 ,thumnail
             </if>
 
+            <if test="real_thumnail != null and real_thumnail != ''">
+                ,real_thumnail
+            </if>
+
+            <if test="main_thumnail != null and main_thumnail != ''">
+                ,main_thumnail_img
+            </if>
+
+            <if test="real_main_thumnail_img != null and real_main_thumnail_img != ''">
+                ,real_main_thumnail_img
+            </if>
+
             <if test="thumnail_path != null and thumnail_path != ''">
                 ,thumnail_path
             </if>
@@ -188,6 +200,18 @@
 
             <if test="thumnail != null and thumnail != ''">
                 ,#{thumnail}
+            </if>
+
+            <if test="real_thumnail != null and real_thumnail != ''">
+                ,#{real_thumnail}
+            </if>
+
+            <if test="main_thumnail != null and main_thumnail != ''">
+                ,#{main_thumnail}
+            </if>
+
+            <if test="real_main_thumnail_img != null and real_main_thumnail_img != ''">
+                ,#{real_main_thumnail_img}
             </if>
 
             <if test="thumnail_path != null and thumnail_path != ''">
@@ -249,6 +273,9 @@
             <if test="subject != null">					,	subject = #{subject}									</if>
             <if test="contents != null">				,	contents = #{contents}									</if>
             <if test="thumnail != null">				,	thumnail = #{thumnail}									</if>
+            <if test="real_thumnail != null">			,	real_thumnail = #{real_thumnail}						</if>
+            <if test="main_thumnail != null">			,	main_thumnail_img = #{main_thumnail}					</if>
+            <if test="real_main_thumnail_img != null">	,	real_main_thumnail_img = #{real_main_thumnail_img}		</if>
             <if test="thumnail_path != null">			,	thumnail_path = #{thumnail_path}            			</if>
         </trim>
          WHERE num = #{num}

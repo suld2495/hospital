@@ -28,6 +28,7 @@ public class BoardVo {
     private String email3;
     private String password;
     private String thumnail;
+    private String real_thumnail;
     private String thumnail_path;
     private String attachfile_code;
     private String emailYN;
@@ -35,7 +36,33 @@ public class BoardVo {
     private String tableName;
     private String consultType;
     private String id;
+    private String main_thumnail;
+    private String real_main_thumnail_img;
     private int boardOrder;
+
+    public String getReal_thumnail() {
+        return real_thumnail;
+    }
+
+    public void setReal_thumnail(String real_thumnail) {
+        this.real_thumnail = real_thumnail;
+    }
+
+    public String getReal_main_thumnail_img() {
+        return real_main_thumnail_img;
+    }
+
+    public void setReal_main_thumnail_img(String real_main_thumnail_img) {
+        this.real_main_thumnail_img = real_main_thumnail_img;
+    }
+
+    public String getMain_thumnail() {
+        return main_thumnail;
+    }
+
+    public void setMain_thumnail(String main_thumnail) {
+        this.main_thumnail = main_thumnail;
+    }
 
     public void setNum(Integer num) {
         this.num = num;

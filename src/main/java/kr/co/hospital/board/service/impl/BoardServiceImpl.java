@@ -188,6 +188,7 @@ public class BoardServiceImpl implements BoardService {
 
         try {
             mFile.transferTo(file);
+            boardVo.setReal_thumnail(realFileName);
             boardVo.setThumnail(downloadFilename);
             boardVo.setThumnail_path("/" + path + "/");
         } catch (IllegalStateException e) {
@@ -206,7 +207,7 @@ public class BoardServiceImpl implements BoardService {
         while (it.hasNext()) {
             key = it.next();
 
-            if ("thumnail_img".equals(key)) {
+            if ("thumnail_img".equals(key) || "main_thumnail_img".equals(key)) {
                 continue;
             }
 
@@ -266,6 +267,41 @@ public class BoardServiceImpl implements BoardService {
             }
 
             count++;
+        }
+    }
+
+    @Override
+    public void saveMainThumnail(MultipartHttpServletRequest mRequest, BoardVo boardVo, String url) throws Exception {
+        MultipartFile mFile = mRequest.getFile("main_thumnail_img");
+
+        if (mFile == null || mFile.isEmpty()) {
+            return;
+        }
+
+        String realFileName = mFile.getOriginalFilename();
+        String realPath = WebUtils.getRealPath(servletContext, path);
+
+        String extension = realFileName.substring(realFileName.lastIndexOf("."), realFileName.length());
+
+        UUID uuid = UUID.randomUUID();
+        String downloadFilename = uuid.toString() + extension;
+
+        File pathFile = new File(realPath);
+
+        if (!pathFile.exists()) {
+            pathFile.mkdirs();
+        }
+
+        File file = new File(realPath + File.separator + downloadFilename);
+
+        try {
+            mFile.transferTo(file);
+            boardVo.setMain_thumnail(downloadFilename);
+            boardVo.setReal_main_thumnail_img(realFileName);
+        } catch (IllegalStateException e) {
+            throw e;
+        } catch (IOException e) {
+            throw e;
         }
     }
 }

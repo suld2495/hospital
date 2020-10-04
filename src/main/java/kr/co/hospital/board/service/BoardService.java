@@ -32,4 +32,6 @@ public interface BoardService {
     void updateBoard(BoardVo boardVo) throws Exception;
 
     void deleteFiles(Map map) throws Exception;
+
+    void saveMainThumnail(MultipartHttpServletRequest mRequest, BoardVo boardVo, String url) throws Exception;
 }

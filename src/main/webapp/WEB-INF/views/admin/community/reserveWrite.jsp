@@ -48,7 +48,7 @@
 						<div class="thumnailInputDiv input">
 							<input type="file" name="thumnail_img" class="thumnail_input none">
 							<span class="fileNameSpan">
-								<span class="thumnailName">${board.thumnail}</span>
+								<span class="thumnailName">${board.real_thumnail}</span>
 							</span>
 							<span class="imgSpan">
 								<img src="<c:url value='/images/admin/thumnail_upload.jpg'/>" class="thumnailImg pointer">

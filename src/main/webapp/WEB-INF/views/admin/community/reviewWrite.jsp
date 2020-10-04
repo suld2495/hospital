@@ -44,11 +44,23 @@
                         <div class="writerInputDiv input"><input type="text" name="writer" class="board_writer writerInput" value="${board.writer}" data-alert="작성자"></div>
                     </div>
                     <div class="thumnailDiv">
+                        <div class="thumnail">메인 썸네일</div>
+                        <div class="thumnailInputDiv input">
+                            <input type="file" name="main_thumnail_img" class="thumnail_input none">
+                            <span class="fileNameSpan">
+								<span class="thumnailName">${board.real_main_thumnail_img}</span>
+							</span>
+                            <span class="imgSpan">
+								<img src="<c:url value='/images/admin/thumnail_upload.jpg'/>" class="thumnailImg pointer">
+							</span>
+                        </div>
+                    </div>
+                    <div class="thumnailDiv">
                         <div class="thumnail">썸네일</div>
                         <div class="thumnailInputDiv input">
                             <input type="file" name="thumnail_img" class="thumnail_input none">
                             <span class="fileNameSpan">
-								<span class="thumnailName">${board.thumnail}</span>
+								<span class="thumnailName">${board.real_thumnail}</span>
 							</span>
                             <span class="imgSpan">
 								<img src="<c:url value='/images/admin/thumnail_upload.jpg'/>" class="thumnailImg pointer">
