@@ -3,7 +3,7 @@ package kr.co.hospital.admin.web;
 import kr.co.hospital.admin.servie.AdminService;
 import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.board.service.BoardVo;
-import kr.co.hospital.login.service.UserVo;
+import kr.co.hospital.board.service.PagingVo;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -60,9 +60,15 @@ public class AdminController {
         return "admin/community/" + url + "Write";
     }
 
-    @RequestMapping(value = "/reserve-view", method = RequestMethod.GET)
-    public String reserveView() {
-        return "";
+    @RequestMapping(value = "/reserve-view/{boardNum}", method = RequestMethod.GET)
+    public String reserveView(Model model,
+                              @PathVariable(value = "boardNum") int boardNum) throws Exception {
+        PagingVo pagingVo = new PagingVo("reserve", boardNum);
+        Map board = boardService.getBoardInfo(pagingVo);
+        model.addAttribute("category", 4);
+        model.addAttribute("urlName", "치료사례");
+        model.addAttribute("board", board);
+        return "admin/community/reserveView";
     }
 
     @RequestMapping("/online/{currentPage}")

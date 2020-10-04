@@ -1,5 +1,6 @@
 package kr.co.hospital.security;
 
+import kr.co.hospital.login.service.UserVo;
 import kr.co.hospital.util.PasswordEncoding;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -22,7 +23,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
         String username = (String) authentication.getPrincipal();
         String password = (String) authentication.getCredentials();
 
-        SecurityUser user = (SecurityUser) userDeSer.loadUserByUsername(username);
+        UserVo user = (UserVo) userDeSer.loadUserByUsername(username);
 
         if(!matchPassword(password, user.getPassword())) {
             throw new BadCredentialsException(username);
@@ -32,7 +33,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
             throw new BadCredentialsException(username);
         }
 
-        return new UsernamePasswordAuthenticationToken(username, password, user.getAuthorities());
+        return new UsernamePasswordAuthenticationToken(user, password, user.getAuthorities());
 
 
     }

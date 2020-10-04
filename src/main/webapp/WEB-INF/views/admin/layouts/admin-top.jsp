@@ -10,7 +10,7 @@
             <li><!-- <img src="../images/admin/logo.jpg"> --></li>
             <li>[
                 <sec:authorize access="hasRole('ROLE_ADMIN')">
-                    <sec:authentication property="principal"/>
+                    <sec:authentication property="principal.username"/>
                 </sec:authorize>
                 님, 안녕하세요]</li>
         </ul>

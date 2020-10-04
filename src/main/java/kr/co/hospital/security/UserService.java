@@ -21,18 +21,16 @@ public class UserService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         UserVo userVo = userMapper.getUser(username);
-        SecurityUser securityUser = new SecurityUser();
 
         if (userVo != null) {
-            securityUser.setUsername(userVo.getId());
-            securityUser.setPassword(userVo.getPassword());
+            userVo.setUsername(userVo.getName());
 
             List<GrantedAuthority> authorities = new ArrayList<>();
             authorities.add(new SimpleGrantedAuthority(userVo.getRole()));
 
-            securityUser.setAuthorities(authorities);
+            userVo.setAuthorities(authorities);
         }
 
-        return securityUser;
+        return userVo;
     }
 }

@@ -44,7 +44,11 @@ public class BoardServiceImpl implements BoardService {
         }
 
         Map board = boardMapper.selectBoardInfo(pagingVo);
-        board.put("arrow", boardMapper.selectPrevNextNum(pagingVo));
+
+        if (board != null) {
+            board.put("arrow", boardMapper.selectPrevNextNum(pagingVo));
+        }
+
         return board;
     }
 

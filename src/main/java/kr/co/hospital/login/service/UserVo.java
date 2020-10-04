@@ -1,10 +1,13 @@
 package kr.co.hospital.login.service;
 
 import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.validation.constraints.Pattern;
+import java.util.Collection;
 
-public class UserVo {
+public class UserVo implements UserDetails {
     @NotEmpty
     @Pattern(regexp="^[a-zA-Z]+[a-zA-Z0-9]{5,19}$")
     private String id;
@@ -24,6 +27,17 @@ public class UserVo {
     private String accessDate;
     private String provider;
     private String uniqueId;
+    private String username;
+
+    private Collection<? extends GrantedAuthority> authorities;
+
+    public void setAuthorities(Collection<? extends GrantedAuthority> authorities) {
+        this.authorities = authorities;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
     public String getCreatedDate() {
         return createdDate;
@@ -139,18 +153,32 @@ public class UserVo {
     }
 
     @Override
-    public String toString() {
-        return "UserVo{" +
-                "id='" + id + '\'' +
-                ", password='" + password + '\'' +
-                ", name='" + name + '\'' +
-                ", phone='" + phone + '\'' +
-                ", email='" + email + '\'' +
-                ", role='" + role + '\'' +
-                ", serviceYN='" + serviceYN + '\'' +
-                ", privateYN='" + privacyYN + '\'' +
-                ", emailYN='" + emailYN + '\'' +
-                ", smsYN='" + smsYN + '\'' +
-                '}';
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return authorities;
+    }
+
+    @Override
+    public String getUsername() {
+        return name;
+    }
+
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return true;
     }
 }
