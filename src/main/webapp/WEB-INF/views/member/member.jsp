@@ -285,8 +285,8 @@
                 }
             }
 
-            $('[name=phone]').val($('[name=phone1]').val() + $('[name=phone2]').val() + $('[name=phone3]').val())
-            $('[name=email]').val($('[name=email1]').val() + $('[name=email2]').val() + $('[name=email3]').val())
+            $('[name=phone]').val($('[name=phone1]').val() + "-" + $('[name=phone2]').val() + "-" + $('[name=phone3]').val())
+            $('[name=email]').val($('[name=email1]').val() + "@" + $('[name=email2]').val())
         });
 
         $('[name=smsYN],[name=emailYN]').change(function () {

@@ -15,6 +15,13 @@
            AND PROVIDER = #{provider}
     </select>
 
+    <select id="searchId" parameterType="userVo" resultType="string">
+        SELECT id
+          FROM membership
+         WHERE name = #{name}
+           AND email = #{email}
+    </select>
+
     <insert id="insertUser" parameterType="userVo">
         INSERT INTO membership
         (

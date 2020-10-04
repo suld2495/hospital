@@ -192,4 +192,38 @@ public class LoginController {
     public boolean checkId() {
         return true;
     }
+
+    @RequestMapping(value = "id-search", method = RequestMethod.GET)
+    public String idSearch(Model model) {
+        model.addAttribute("category", 7);
+        model.addAttribute("urlName", "아이디/비밀번호 찾기");
+        return "/sub/login/idSearch";
+    }
+
+    @RequestMapping(value = "id-complete", method = RequestMethod.GET)
+    public String idComplete(Model model) {
+        model.addAttribute("category", 7);
+        model.addAttribute("urlName", "아이디/비밀번호 찾기");
+        return "/sub/login/idComplete";
+    }
+
+    @RequestMapping(value = "/id-search", method = RequestMethod.POST)
+    public String idSearchPost(Model model, @ModelAttribute(value = "userVo") @Valid UserVo userVo, BindingResult result) throws Exception {
+        String id = loginService.searchId(userVo);
+
+        if (id == null || "".equals(id)) {
+            return "redirect:/id-search?result=fail";
+        }
+
+        model.addAttribute("category", 7);
+        model.addAttribute("urlName", "아이디/비밀번호 찾기");
+        return "redirect:/id-complete?id=" + id;
+    }
+
+    @RequestMapping("password-search")
+    public String passwordSearch(Model model) {
+        model.addAttribute("category", 7);
+        model.addAttribute("urlName", "아이디/비밀번호 찾기");
+        return "/sub/login/passwordSearch";
+    }
 }

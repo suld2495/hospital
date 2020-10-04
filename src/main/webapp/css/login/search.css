@@ -1,0 +1,100 @@
+.tab {
+    margin-top: 66px;
+    margin-bottom: 37px;
+    overflow: hidden;
+    margin-left: 0;
+}
+.tab li {
+    width: 50%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 0;
+    padding: 0;
+}
+
+.tab li a {
+    display: block;
+    color: #222;
+    background: #ebebeb;
+    font-size: 14px;
+}
+
+.tab li a.active {
+    color: #fff;
+    background: #9b8b7e;
+}
+
+.member .max-layout-width h2 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 55px;
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+.btn button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #9b8b7e;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.email-notice {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #969696;
+}
+
+.date {
+    margin-top: 0;
+    padding: 50px 0;
+}
+
+.complete {
+    padding-top: 0;
+}
+
+.date p strong:before {
+    display: none;
+}
+
+.date strong {
+    padding-left: 0;
+}
+
+.date span {
+    color: #ef6608;
+}
+
+.button-box a {
+    width: 255px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: #222;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.button-box {
+    margin-bottom: 120px;
+}
+
+.date {
+    margin-bottom: 50px;
+}

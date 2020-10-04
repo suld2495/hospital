@@ -23,7 +23,7 @@
             <div class="container">
                 <div class="member">
                     <a href="<c:url value='/member_agreement' />">회원가입</a>
-                    <a>아이디·비밀번호 찾기</a>
+                    <a href="<c:url value="/id-search"/>">아이디·비밀번호 찾기</a>
                 </div>
             </div>
         </div>

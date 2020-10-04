@@ -14,4 +14,6 @@ public interface UserMapper {
     UserVo getUserWithProvider(Map param) throws Exception;
 
     void updateUser(UserVo userVo);
+
+    String searchId(UserVo userVo) throws Exception;
 }

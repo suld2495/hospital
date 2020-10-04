@@ -27,4 +27,9 @@ public class LoginServiceImpl implements LoginService {
     public UserVo getUserWithProvider(Map param) throws Exception {
         return userMapper.getUserWithProvider(param);
     }
+
+    @Override
+    public String searchId(UserVo userVo) throws Exception {
+        return userMapper.searchId(userVo);
+    }
 }
