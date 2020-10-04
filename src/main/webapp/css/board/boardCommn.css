@@ -97,6 +97,18 @@
     background: #f5f5f5;
     margin-bottom: 95px;
 }
+ .paging li {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+.paging li a {
+        line-height: 30px;
+        font-size: 13px;
+    }
+    
+    
 
 @media screen and (max-width: 1300px) {
     .max-layout-width.mobile-full-width {
@@ -127,12 +139,12 @@
 @media screen and (max-width: 375px) {
     .paging {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 98px;
 }
     .search-container {
     padding: 8px 0;
     background: #f5f5f5;
-    margin-bottom: 66px;
+    margin-bottom: 65px;
 }
     .search .search-input {
     height: 38px;

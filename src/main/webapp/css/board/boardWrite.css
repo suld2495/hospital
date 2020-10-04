@@ -12,6 +12,7 @@
     position: relative;
     padding-left: 13px;
     margin-bottom: 21px;
+    letter-spacing: -1px;
 }
 
 .agreement h3:before {
@@ -183,7 +184,7 @@ textarea {
 @media screen and (max-width: 520px) {
     .agreement label {
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
 }
 
@@ -196,7 +197,8 @@ textarea {
     }
     .table li strong {
         width: 50px;
-        font-size: 13px;
+        font-size: 14px;
+        letter-spacing: -1px;
     }
     .table .input {
         padding-left: 75px;
@@ -212,4 +214,69 @@ textarea {
         padding-right: 10px;
         box-sizing: border-box;
     }
+}
+
+@media screen and (max-width: 375px) {
+    .agreement h3 {
+    font-size: 18px;
+}
+    .agreement h3 + div {
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    height: 250px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    }
+    .filename {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    line-height: 44px;
+    padding-left: 10px;
+}
+    .button-box {
+    margin-top: 29px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+    .button-box button, .button-box a {
+    width: 91px;
+    height: 39px;
+    border: none;
+    color: #fff;
+    margin: 0 2px;
+    background: #a2a2a2;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 39px;
+    float: left;
+    cursor: pointer;
+    letter-spacing: -1px;
+}
+    .appendix-con button {
+    width: 91px;
+    height: 39px;
+    border: none;
+    background: #9b8b7e;
+    color: #fff;
+    /* margin-left: 5px; */
+    cursor: pointer;
+    letter-spacing: -1px;
+    font-size: 14px;
+    margin-top: 9px;
+}
+    .agreement label {
+    display: block;
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+.agreement {
+    padding: 0 0px;
+    box-sizing: border-box;
+    margin-top: 42px;
+}
 }

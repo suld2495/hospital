@@ -32,3 +32,22 @@
 .gallery-list .gallery li div.contents img {
     display: none;
 }
+
+
+@media screen and (max-width: 375px) {
+.paging .write-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 95px;
+    height: 40px;
+    background: #9b8b7e;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+
+}
