@@ -32,4 +32,9 @@ public class LoginServiceImpl implements LoginService {
     public String searchId(UserVo userVo) throws Exception {
         return userMapper.searchId(userVo);
     }
+
+    @Override
+    public String searchPassword(UserVo userVo) throws Exception {
+        return userMapper.searchPassword(userVo);
+    }
 }

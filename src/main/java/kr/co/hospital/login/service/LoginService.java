@@ -8,4 +8,6 @@ public interface LoginService {
     UserVo getUserWithProvider(Map param) throws Exception;
 
     String searchId(UserVo userVo) throws Exception;
+
+    String searchPassword(UserVo userVo) throws Exception;
 }

@@ -16,4 +16,6 @@ public interface UserMapper {
     void updateUser(UserVo userVo);
 
     String searchId(UserVo userVo) throws Exception;
+
+    String searchPassword(UserVo userVo) throws Exception;
 }

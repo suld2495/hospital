@@ -226,4 +226,24 @@ public class LoginController {
         model.addAttribute("urlName", "아이디/비밀번호 찾기");
         return "/sub/login/passwordSearch";
     }
+
+    @RequestMapping(value = "/password-search", method = RequestMethod.POST)
+    public String passwordSearchPost(Model model, @ModelAttribute(value = "userVo") @Valid UserVo userVo, BindingResult result) throws Exception {
+        String id = loginService.searchPassword(userVo);
+
+        if (id == null || "".equals(id)) {
+            return "redirect:/password-search?result=fail";
+        }
+
+        model.addAttribute("category", 7);
+        model.addAttribute("urlName", "아이디/비밀번호 찾기");
+        return "redirect:/password-complete";
+    }
+
+    @RequestMapping(value = "password-complete", method = RequestMethod.GET)
+    public String passwordComplete(Model model) {
+        model.addAttribute("category", 7);
+        model.addAttribute("urlName", "아이디/비밀번호 찾기");
+        return "/sub/login/passwordComplete";
+    }
 }

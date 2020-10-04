@@ -83,5 +83,52 @@
                 <button type="submit">확인</button>
             </div>
         </div>
+        <input type="hidden" name="email">
     </form:form>
 </div>
+
+<script>
+    <c:if test="${param.result.equals('fail')}">
+        alert("아이디 또는 이메일을 다시 확인해 주시기 바랍니다.")
+    </c:if>
+
+    $(function() {
+        $('.check-label').click(function() {
+            var name = $(this).data('name');
+            var $input = $('[name=' + name + ']');
+            $input.prop('checked', !$input.prop('checked'));
+        });
+
+        $('[name=smsYN],[name=emailYN]').change(function () {
+            $(this).parent().toggleClass('active');
+        })
+
+        $('[name=email3]').change(function (e) {
+            if ($(this).val() !== '') {
+                $('[name=email2]').val($(this).val());
+            }
+        })
+
+        $('.form').submit(function () {
+            var $name = $("[name=id]");
+
+            if ($name.val() === '') {
+                alert("아이디를 입력해 주세요.");
+                $name.focus();
+                return false;
+            }
+
+            for (var i = 1; i < 3; i++) {
+                var $email = $("[name=email" + i + "]");
+
+                if ($email.val() === '') {
+                    alert("이메일를 입력해 주세요.");
+                    $email.focus();
+                    return false;
+                }
+            }
+
+            $('[name=email]').val($('[name=email1]').val() + "@" + $('[name=email2]').val())
+        })
+    })
+</script>
