@@ -17,15 +17,17 @@
             </div>
             <div class="appendix">
                 <span class="txt">첨부파일</span>
+            </div>
+            <div class="contents">
                 <c:if test="${not empty board.appendix}">
-                    <ul>
+                    <ul class="download-appendix">
                         <c:forEach var="list" items="${board.appendix}">
                             <li><a href="#this" name="file" data-url="<c:url value="/file-download"/>" data-filename="${list.download_filename}" data-origin="${list.real_filename}" class="download">${list.real_filename}</a></li>
                         </c:forEach>
                     </ul>
                 </c:if>
+                ${board.contents}
             </div>
-            <div class="contents">${board.contents}</div>
             <div class="button">
                 <ul>
                     <c:if test="${not empty board.arrow.nextNum}">

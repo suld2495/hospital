@@ -17,6 +17,8 @@
             </div>
             <div class="appendix">
                 <span class="txt">첨부파일</span>
+            </div>
+            <div class="contents">
                 <c:if test="${not empty board.appendix}">
                     <ul>
                         <c:forEach var="list" items="${board.appendix}">
@@ -24,8 +26,6 @@
                         </c:forEach>
                     </ul>
                 </c:if>
-            </div>
-            <div class="contents">
                 <pre>
                     ${board.contents}
                 </pre>

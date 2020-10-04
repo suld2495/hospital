@@ -38,6 +38,7 @@
     min-height: 110px;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+    padding-bottom: 30px;
 }
 
 .board-view .button {
@@ -101,6 +102,36 @@
     text-align: center;
     color: #fff;
 
+}
+
+.download-appendix {
+    margin-bottom: 30px;
+}
+
+.download-appendix li {
+    height: 30px;
+
+}
+
+.download-appendix li a {
+    color: #222;
+    position: relative;
+    display: block;
+    height: 100%;
+    line-height: 30px;
+    padding-left: 30px;
+}
+
+.download-appendix li a:before {
+    position: absolute;
+    background: url(../../images/sub/board/appendix.png) center;
+    display: block;
+    width: 14px;
+    height: 30px;
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 7px;
 }
 
 @media screen and (max-width: 1300px) {
