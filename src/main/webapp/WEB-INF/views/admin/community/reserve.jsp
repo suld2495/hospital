@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <link rel="stylesheet" href="<c:url value='/css/admin/board.css' />" >
-<link rel="stylesheet" href="<c:url value='/css/admin/reserve.css' />" >
+<link rel="stylesheet" href="<c:url value='/css/admin/notice.css' />" >
 <link rel="stylesheet" href="<c:url value='/css/admin/paging/paging.css' />">
 <link type="text/css" rel="stylesheet" href="<c:url value='/css/admin/comm/appendix.css' />">
 <link rel="stylesheet" href="<c:url value='/css/admin/paging/adminPaging.css' />">
