@@ -17,6 +17,13 @@
             </div>
             <div class="appendix">
                 <span class="txt">첨부파일</span>
+                <c:if test="${not empty board.appendix}">
+                    <ul>
+                        <c:forEach var="list" items="${board.appendix}">
+                            <li><a href="#this" name="file" data-url="<c:url value="/file-download"/>" data-filename="${list.download_filename}" data-origin="${list.real_filename}" class="download">${list.real_filename}</a></li>
+                        </c:forEach>
+                    </ul>
+                </c:if>
             </div>
             <div class="contents">
                 <pre>
@@ -50,3 +57,6 @@
         </div>
     </section>
 </div>
+
+<script src="<c:url value='/js/admin/common.js'/>"></script>
+<script src="<c:url value='/js/cmmn/appendix.js'/>"></script>

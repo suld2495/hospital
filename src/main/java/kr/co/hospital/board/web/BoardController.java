@@ -5,15 +5,24 @@ import kr.co.hospital.board.service.BoardVo;
 import kr.co.hospital.board.service.OnlineConsultValidator;
 import kr.co.hospital.board.service.PagingVo;
 import kr.co.hospital.login.service.UserVo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.FileCopyUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
+import org.springframework.web.util.WebUtils;
 
+import javax.servlet.ServletContext;
+import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
+import java.io.File;
+import java.io.FileInputStream;
+import java.net.URLEncoder;
 import java.util.Map;
 
 @Controller
@@ -21,6 +30,9 @@ public class BoardController {
     private BoardService boardService;
     private OnlineConsultValidator onlineConsultValidator;
     private String prefix = "/sub/board/";
+
+    @Autowired
+    private ServletContext servletContext;
 
     public BoardController(BoardService boardService, OnlineConsultValidator onlineConsultValidator) {
         this.boardService = boardService;
@@ -237,6 +249,40 @@ public class BoardController {
         model.addAttribute("fileName", boardService.saveFile(mRequest));
         model.addAttribute("path", "download");
         return "board/callback";
+    }
+
+    @RequestMapping("/file-download")
+    @ResponseBody
+    public void fileDownload(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        String orgfilename = request.getParameter("originFilename");
+        String filename = request.getParameter("filename");
+        String comePath = WebUtils.getRealPath(servletContext, "download");
+        response.setCharacterEncoding("utf-8");
+
+        File file = new File(comePath + File.separator + filename);
+        response.setContentType("application/octet-stream");
+        response.setContentLength((int)file.length());
+        response.setHeader("Content-Disposition", "attachment; fileName=\"" + URLEncoder.encode(orgfilename, "UTF-8") + "\";");
+        response.setHeader("Content-Transfer-Encoding", "binary");
+        FileInputStream fis = null;
+        ServletOutputStream out = response.getOutputStream();
+
+        try {
+            fis = new FileInputStream(file);
+            FileCopyUtils.copy(fis, out);
+        } catch (Exception e) {
+            throw e;
+        } finally {
+            if (fis != null) {
+                try {
+                    fis.close();
+                } catch (Exception var18) {
+                }
+            }
+
+        }
+
+        out.flush();
     }
 
 }
