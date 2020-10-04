@@ -5,7 +5,7 @@
 <nav>
     <section>
         <aside class="head_title">
-            <p><a href="main.do">에이치엠디자인 admin</a></p>
+            <p><a href="main.do">미소원치과 admin</a></p>
         </aside>
         <aside class="head_chang_txt category_head">
             <p>community</p>

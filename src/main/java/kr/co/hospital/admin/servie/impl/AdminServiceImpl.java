@@ -32,18 +32,22 @@ public class AdminServiceImpl implements AdminService {
     public void listModule(String url,
                            Model model,
                            Map pageMap, int currentPage) throws Exception {
-        Map<String, Object> tableMap = boardService.selectTable(url);
+        String tableName = url;
+
+        if ("case".equals(url)) {
+            tableName = "treatment_case";
+        }
 
         PagingVo pagingVo = new PagingVo(10,
                 currentPage,
-                String.valueOf(tableMap.get("table_name")),
+                String.valueOf(tableName),
                 String.valueOf(pageMap.get("search_text")),
                 String.valueOf(pageMap.get("type")));
 
         model.addAttribute("list", boardService.getBoardList(pagingVo));
         model.addAttribute("paging", pagingVo);
         model.addAttribute("url", url);
-        model.addAttribute("tableName", tableMap.get("table_name"));
+        model.addAttribute("tableName", tableName);
     }
 
     @Override
