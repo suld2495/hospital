@@ -35,3 +35,25 @@
 .table .etc {
     width: 33%;
 }
+
+
+@media screen and (max-width:375px) {
+    .table .center, .table .name, .table .phone {
+    width: 18%;
+}
+
+    .table .etc {
+    width: 25%;
+}
+    .table {
+    margin-top: 40px;
+    border-top: 2px solid #838383;
+    margin-bottom: 128px;
+}
+.table li {
+    height: 45px;
+    float: left;
+    padding: 15px 0;
+    font-size: 14px;
+    letter-spacing: -1px;
+}}

@@ -14,11 +14,11 @@
 header .mobile-sub-category .small-category a {
     display: block;
     color: #b2b2b2;
-    padding: 16px 0;
+    padding: 12px 0;
 }
 header .mobile-sub-category .sns {
     padding: 0 30px;
-    margin-top: 65px;
+    margin-top: 34px;
     padding-bottom: 100px;
 }
 header .mobile-sub-category .sns img {
@@ -52,14 +52,14 @@ header .mobile-sub-category .large-category > li p.active {
 }
 header .mobile-sub-category .large-category > li p {
     padding: 15px 0;
-    font-size: 16px;
+    font-size: 15px;
     border-bottom: 1px solid #cecece;
     font-weight: 500;
     position: relative;
     cursor: pointer;
 }
 header .mobile-sub-category .large-category > li:nth-child(1) p.active + div {
-    height: 300px;
+    height: 278px;
 }
 header .mobile-sub-category .large-category > li:nth-child(2) p.active + div {
     height: 250px;
@@ -74,12 +74,14 @@ header .mobile-sub-category .large-category > li:nth-child(5) p.active + div {
     height: 150px;
 }
 header .mobile-sub-category .large-category > li:nth-child(6) p.active + div {
-    height: 310px;
+    height: 255px;
 }
 header .mobile-sub-category .large-category > li p + div {height: 0;transition: height .3s ease;}
 header .mobile-sub-category .large-category {
-    padding: 0 30px;
+    padding: 0px 30px;
     box-sizing: border-box;
+    letter-spacing: -1px;
+    padding-left: 39px;
 }
 header .mobile-sub-category .large-category > li {
     float: none;
@@ -88,19 +90,19 @@ header .mobile-sub-category .large-category > li {
     overflow: hidden;
 }
 header .mobile-sub-category .login-container {
-    padding-bottom: 40px;
+    padding-bottom: 31px;
     border-bottom: 1px solid #cecece;
     padding-left: 30px;
 }
 header .mobile-sub-category .content {
-    padding-top: 45px;
+    padding-top: 36px;
 }
 header .mobile-sub-category .logout-icon {
     background: url(../images/cmmn/logout_1.png);
     width: 26px;
     height: 29px;
     display: inline-block;
-    margin-right: 17px;
+    margin-right: 11px;
     vertical-align: -8px;
     margin-left: 3px;
     background-size: contain;
@@ -113,7 +115,7 @@ header .mobile-sub-category .mypage-icon {
     width: 26px;
     height: 29px;
     display: inline-block;
-    margin-right: 17px;
+    margin-right: 11px;
     vertical-align: -8px;
     margin-left: 3px;
     background-size: contain;
@@ -143,14 +145,17 @@ header .mobile-sub-category .join-icon {
     background-repeat: no-repeat;
 }
 header .mobile-sub-category .login li:first-child {
-    margin-bottom: 19px;
+    margin-bottom: 11px;
+    letter-spacing: -1px;
 }
 header .mobile-sub-category .login li a {
     color: #222;
+    letter-spacing: -1px;
 }
 header .mobile-sub-category h2 {
     font-size: 17px;
-    margin-bottom: 26px;
+    margin-bottom: 21px;
+    letter-spacing: -1px;
 }
 .category-logo {
     height: 66px;
@@ -958,7 +963,34 @@ header .header-banner-slider .slide-item04 .go {
 }
 
 @media screen and (max-width:492px) {
+
     header .mobile-sub-category {
         width: 100%;
     }
+}
+
+
+@media screen and (max-width:375px) {
+    header .mobile-sub-category .join-icon {
+    background: url(../images/cmmn/join.png);
+    width: 32px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: -6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+header .mobile-sub-category .login-icon {
+    background: url(../images/cmmn/login.png);
+    width: 21px;
+    height: 29px;
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: -8px;
+    margin-left: 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+}
 }

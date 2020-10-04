@@ -4,6 +4,7 @@
     margin-bottom: 70px;
     margin-left: -5px;
     margin-right: -5px;
+    letter-spacing: -1px;
 }
 
 .gallery-list .gallery li {
@@ -72,4 +73,11 @@
     body .paging .write-btn {
         top: 50px;
     }
+}
+
+@media screen and (max-width: 375px) {
+.gallery-list .max-layout-width {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
 }

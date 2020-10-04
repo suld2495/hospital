@@ -853,7 +853,7 @@ body .table .padding-table {
         background-size: cover;
     }
     section.section-quotes-title-right .bg {
-        height: 226px;
+        height: 165px;
     }
     section.section-quotes-title-right .max-layout-width .text {
         padding-top: 240px;
@@ -897,7 +897,8 @@ body .table .padding-table {
 
 @media screen and (max-width: 360px) {
     section.section-quotes-title-right .bg {
-        height: 239px;
+        height: 189px;
+        bottom: -29px;
     }
     .section07 .img:before {
         top: -160px;

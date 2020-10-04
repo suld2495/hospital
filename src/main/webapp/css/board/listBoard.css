@@ -8,6 +8,7 @@
 
 .board-list table thead tr {
     border-bottom: 1px solid #b4b4b4;
+    letter-spacing: -1px;
 }
 
 .board-list table tr {
@@ -49,6 +50,7 @@
     .board-list table td:nth-child(1),
     .board-list table th:nth-child(1) {
         width: 50px;
+        letter-spacing: -1px;
     }
     .board-list table td:nth-child(3),
     .board-list table th:nth-child(3) {
@@ -67,4 +69,27 @@
         line-height: 30px;
         font-size: 13px;
     }
+}
+
+@media screen and (max-width: 375px) {
+    .board-list table td:nth-child(3), .board-list table th:nth-child(3) {
+    width: 70px;
+}
+    .board-list table td:nth-child(4), .board-list table th:nth-child(4) {
+    width: 100px;
+}
+    .board-list table tr {
+    height: 45px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+    .board-list table {
+    width: 100%;
+    border-top: 2px solid #9b8b7e;
+    margin-top: 45px;
+    color: #424242;
+    margin-bottom: 36px;
+    font-size:14px;
+}
+   
 }

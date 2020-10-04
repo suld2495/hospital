@@ -58,6 +58,21 @@
 
 
 @media screen and (max-width: 640px) {
+    .paging .write-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 95px;
+    height: 40px;
+    background: #9b8b7e;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+
     .board-list table td:nth-child(2),
     .board-list table th:nth-child(2) {
         width: 70px;
@@ -77,6 +92,6 @@
         padding: 0 10px;
     }
     .paging .write-btn {
-        top: 40px;
+        top: 52px;
     }
 }

@@ -12,6 +12,7 @@
     position: relative;
     padding-left: 13px;
     margin-bottom: 21px;
+    letter-spacing: -1px;
 }
 
 .agreement h3:before {
@@ -43,6 +44,7 @@
     color: #7e7e7e;
     margin-left: 42px;
     cursor: pointer;
+    letter-spacing: -1px;
 }
 
 .privacy {
@@ -50,8 +52,29 @@
 }
 
 @media screen and (max-width: 1300px) {
+    .radio-box {
+    display: inline-block;
+    float: right;
+    font-size:14px;
+}
+    .agreement h3 + div {
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    height: 250px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+    .agreement h3 {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 13px;
+    margin-bottom: 17px;
+    letter-spacing: -1px;
+}
     .agreement {
         padding: 0 30px;
         box-sizing: border-box;
+        margin-top: 48px;
     }
 }

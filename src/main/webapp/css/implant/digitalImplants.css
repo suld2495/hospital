@@ -711,6 +711,24 @@
 }
 
 @media screen and (max-width: 360px) {
+    .section05 {
+    margin-top: 148px;
+}
+    section.section-quotes-title-left .section-title {
+    margin-bottom: 45px;
+}
+    section.section-quotes-title-left .section-text:before {
+    top: -36px;
+    height: 36px;
+}
+    section.section-quotes-title-left .bg {
+    height: 205px;
+    bottom: -27px;
+}
+    section.section-top-title-left .bg {
+    padding-bottom: 0;
+    height: 232px;
+    }
     section.two-image-right .image_box_right {
         height: 251px;
     }
