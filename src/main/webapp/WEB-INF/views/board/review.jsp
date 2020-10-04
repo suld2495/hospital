@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags"%>
 
 <link rel="stylesheet" href="<c:url value="/css/board/boardCommn.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/board/galleryBoard.css"/>" />
@@ -16,7 +17,13 @@
             <ul class="gallery">
                 <c:forEach items="${list}" var="board">
                     <li>
-                        <a href="<c:url value="/${url}-view/${board.num}" />">
+                        <a
+                            <sec:authorize access="isAnonymous()">
+                                href="javascript:;void(0);"
+                                onclick="alert('의료법상 치료 사례 등 정보는 로그인 후 가능합니다. \n간단한 회원가입 후 로그인하여, \n이편한세상치과의 정보를 확인하시길 바랍니다.');"
+                            </sec:authorize>
+                            <sec:authorize access="isAuthenticated()">href="<c:url value="/${url}-view/${board.num}" />"</sec:authorize>
+                        >
                             <div class="img-box">
                                 <span class="img" style="background-color: url(<c:url value='${board.thumnailPath}/${board.thumnail}'/>)"></span>
                             </div>
