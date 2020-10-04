@@ -69,7 +69,6 @@
                     <th class="th6">작성일</th>
                     <th class="th7">조회</th>
                     <th class="th8">상태</th>
-                    <th class="th9">수정</th>
                     <th class="th10">삭제</th>
                     <th class="th11">출력순서</th>
                 </tr>
@@ -85,7 +84,6 @@
                         <td class="boardWriteDate"></td>
                         <td class="boardHits"></td>
                         <td class="boardUse"></td>
-                        <td><img src="<c:url value='/images/admin/modify.jpg'/>"></td>
                         <td><img src="<c:url value='/images/admin/delete.jpg'/>"></td>
                         <td>
                             <img src="<c:url value='/images/admin/orderArrowBottom.jpg'/>">
@@ -120,7 +118,6 @@
                                 <c:if test="${list.status == 'N'}">	정상	</c:if>
                                 <c:if test="${list.status == 'Y'}">	삭제	</c:if>
                             </td>
-                            <td><a href="/admin/${url}-write?update=modify&board_num=${list.num}" class="linkChange boardNumdata numdata"><img src="<c:url value='/images/admin/modify.jpg'/>" data-num="${list.num}" class="modify pointer"></a></td>
                             <td><img src="<c:url value='/images/admin/delete.jpg'/>" data-num="${list.num}" data-boardnum="${list.num}" data-type="delete" class="numdata boardNumdata updateBoard admin delete pointer"></td>
                             <td>
                                 <img src="<c:url value='/images/admin/orderArrowBottom.jpg'/>" data-num="${list.num}" class="orderArrowBottom pointer">

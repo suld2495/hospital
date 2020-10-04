@@ -47,6 +47,7 @@ public class BoardServiceImpl implements BoardService {
 
         if (board != null) {
             board.put("arrow", boardMapper.selectPrevNextNum(pagingVo));
+            board.put("appendix", boardMapper.selectAppendix(pagingVo));
         }
 
         return board;
