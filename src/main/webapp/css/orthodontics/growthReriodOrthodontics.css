@@ -542,12 +542,15 @@
 }
 
 @media screen and (max-width: 414px) {
+    section.section-top-title-left {
+    padding-bottom: 22px;
+}
 
     .section07 {
         margin-top: 87px;
     }
     section.section-quotes-title-left .max-layout-width .text {
-        padding-top: 253px;
+        padding-top: 221px;
     }
     .section04 .image_box_left .img {
         background-size: cover;
@@ -592,7 +595,7 @@
     .section02 .section-title {
         word-break: keep-all;
         padding-right: 0;
-        padding-top: 205px;
+        padding-top: 216px;
     }
     .section02 .section-text {
         padding: 0 30px;
@@ -620,7 +623,7 @@
         padding-top: 226px;
     }
     section.section-quotes-title-left .max-layout-width .text {
-        padding-top: 260px;
+        padding-top: 217px;
     }
     section.list-content .section-title {
         padding-top: 180px;
@@ -641,9 +644,12 @@
 }
 
 @media screen and (max-width: 360px) {
+    section.section-top-title-left {
+    padding-bottom: 37px;
+}
 
     section.section-quotes-title-left .max-layout-width .text {
-        padding-top: 259px;
+        padding-top: 216px;
     }
     section.list-content .section-title {
         padding-top: 170px;

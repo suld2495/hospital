@@ -598,6 +598,7 @@ section.board-link {
     }
     .left-fade-slider-container {
         margin-top: 100px;
+        padding-bottom: 26px;
     }
 }
 
@@ -706,7 +707,7 @@ section.board-link {
 
 @media screen and (max-width: 414px) {
     body .section-top-title-left .section-title {
-        font-size: 26px;
+        font-size: 28px;
     }
     .section05 .max-layout-width h2 {
         font-size: 28px;
@@ -726,7 +727,7 @@ section.board-link {
         background-size: cover;
     }
     section.section-quotes-title-right .bg {
-        height: 220px;
+        height: 192px;
     }
     .section02 {
         margin: 0;
@@ -753,10 +754,18 @@ section.board-link {
 }
 
 @media screen and (max-width: 360px) {
+     section.section-top-title-left {
+        padding-bottom: 64px;
+    }
+    .section04 .bg {
+    height: 348px;
+    bottom: -38px;
+}
     body .section-top-title-left .section-title {
-        font-size: 24px;
+        font-size: 28px;
     }
     section.section-quotes-title-right .bg {
-        height: 255px;
+        height: 217px;
+        bottom: -30px;
     }
 }

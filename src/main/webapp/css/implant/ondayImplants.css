@@ -967,6 +967,9 @@ section.section-top-title-right-two .max-layout-width ul {
 }
 
 @media screen and (max-width: 360px) {
+    section.section-top-title-left {
+    padding-bottom: 28px;
+}
     section.section-quotes-title-right .bg {
         height: 178px;
     }
