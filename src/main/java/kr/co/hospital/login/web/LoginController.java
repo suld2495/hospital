@@ -42,7 +42,7 @@ public class LoginController {
     }
 
     @RequestMapping("/login")
-    public String login(Model model, HttpSession session, HttpServletRequest request) {
+    public String login(Model model, HttpSession session, HttpServletRequest request) throws Exception {
         String naverAuthUrl = naverLoginBO.getAuthorizationUrl(session);
 
         model.addAttribute("naverUrl", naverAuthUrl);

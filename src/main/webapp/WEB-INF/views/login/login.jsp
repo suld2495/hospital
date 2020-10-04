@@ -41,7 +41,7 @@
 
             if (!result) return;
 
-            $('.form').attr('action', 'login/auth');
+            $('.form').attr('action', '<c:url value='/login/auth'/>');
             $('.form').submit();
         });
 

@@ -10,7 +10,7 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.stereotype.Component;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 @Configuration
 public class CustomAuthenticationProvider implements AuthenticationProvider {
@@ -25,6 +25,10 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
 
         UserVo user = (UserVo) userDeSer.loadUserByUsername(username);
 
+        if (user == null) {
+            throw new UsernameNotFoundException(username);
+        }
+
         if(!matchPassword(password, user.getPassword())) {
             throw new BadCredentialsException(username);
         }
@@ -34,8 +38,6 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
         }
 
         return new UsernamePasswordAuthenticationToken(user, password, user.getAuthorities());
-
-
     }
 
     @Override
