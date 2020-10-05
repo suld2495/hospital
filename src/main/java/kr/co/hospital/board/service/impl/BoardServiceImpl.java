@@ -6,6 +6,7 @@ import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.board.service.BoardVo;
 import kr.co.hospital.board.service.PagingVo;
 import kr.co.hospital.mapper.BoardMapper;
+import kr.co.hospital.util.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -32,6 +33,11 @@ public class BoardServiceImpl implements BoardService {
     @Override
     public List<Map> getBoardList(PagingVo pagingVo) throws Exception {
         List<Map> list = boardMapper.selectBoardList(pagingVo);
+
+        for(Iterator<Map> it = list.iterator();it.hasNext();) {
+            StringUtil.changeString(it.next());
+        }
+
         int total = boardMapper.selectBoardTotal(pagingVo);
         pagingVo.makeLastPageNum(total);
         return list;
@@ -44,6 +50,8 @@ public class BoardServiceImpl implements BoardService {
         }
 
         Map board = boardMapper.selectBoardInfo(pagingVo);
+
+        StringUtil.changeString(board);
 
         if (board != null) {
             board.put("arrow", boardMapper.selectPrevNextNum(pagingVo));
