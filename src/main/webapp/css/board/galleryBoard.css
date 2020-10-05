@@ -51,6 +51,10 @@
     font-size: 17px;
 }
 
+.gallery-list .gallery li p {
+    color: #222;
+}
+
 .gallery-list .gallery li .contents {
     color: #8d8d8d;
     margin-bottom: 50px;
@@ -76,8 +80,8 @@
 }
 
 @media screen and (max-width: 375px) {
-.gallery-list .max-layout-width {
-    padding: 0 20px;
-    box-sizing: border-box;
-}
+    .gallery-list .max-layout-width {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
 }

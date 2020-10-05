@@ -16,14 +16,16 @@ public class StringUtil {
         return ext;
     }
 
-    public static void changeString(Map board) throws UnsupportedEncodingException {
-        String[] keys = {"subject", "contents", "writer", "thumnail", "thumnail_path", "main_thumnail_img", "real_main_thumnail_img", "real_thumnail", "id", "status"};
+    public static Map changeString(Map board) throws UnsupportedEncodingException {
+        String[] keys = {"subject", "contents", "writer", "thumnail", "thumnail_path", "main_thumnail_img", "real_main_thumnail_img", "real_thumnail", "id", "status", "created_show_date", "prevSubject", "nextSubject"};
 
         for (int i = 0; i < keys.length; i++) {
             if (board.get(keys[i]) != null && !(board.get(keys[i]) instanceof String)) {
                 board.put(keys[i], changeString(board.get(keys[i])));
             }
         }
+
+        return board;
     }
 
     public static String changeString(Object object) throws UnsupportedEncodingException {

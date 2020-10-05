@@ -27,9 +27,9 @@
                         <a href="<c:url value="/${url}-view/${board.num}" />">
                             <div class="img-box">
                                 <div class="login">
-                                    <span class="img" style="background-color: url(<c:url value='${board.thumnailPath}/${board.thumnail}'/>)"></span>
+                                    <span class="img" style="background: url(<c:url value='${board.thumnail_path}/${board.thumnail}'/>)"></span>
                                 </div>
-                                <sec:authorize access="isAuthenticated()">
+                                <sec:authorize access="isAnonymous()">
                                     <div class="no-login">
                                         <div class="img-box">
                                             <span class="img"></span>

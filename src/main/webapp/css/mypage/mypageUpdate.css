@@ -188,8 +188,13 @@
 }
 
 @media screen and (max-width: 414px) {
+    .link span:last-child {
+        font-size: 14px;
+    }
     .table span.mobile {
         margin-left: 0;
+        clear: left;
+        text-align: center;
     }
     .table li strong {
         padding-right: 10px;
@@ -211,5 +216,11 @@
     }
     form .max-layout-width {
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .button-box button.active {
+        line-height: 1.4;
     }
 }
