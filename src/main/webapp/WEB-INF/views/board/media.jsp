@@ -17,7 +17,7 @@
                     <li>
                         <a href="<c:url value="/${url}-view/${board.num}" />">
                             <div class="img-box">
-                                <span class="img" style="background-color: url(<c:url value='${board.thumnailPath}/${board.thumnail}'/>)"></span>
+                                <span class="img" style="background: url(<c:url value='${board.thumnail_path}/${board.thumnail}'/>)"></span>
                             </div>
                             <div class="text">
                                 <h5>${board.subject}</h5>
