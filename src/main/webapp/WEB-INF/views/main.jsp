@@ -264,12 +264,12 @@
             <div class="review">
                 <c:forEach items="${review}" var="list">
                     <div class="module">
-                        <a class="module" href="<c:url value='/'/>">
+                        <a class="module" href="<c:url value='/review-view/${list.num}'/>">
                             <img src="<c:url value='${list.thumnail_path}${list.thumnail}' />">
                             <div class="position-relative">
                                 <div class="review-text">
                                     <h4>${list.subject}</h4>
-                                    <p>${list.contents}</p>
+                                    <pre>${list.contents}</pre>
                                 </div>
                             </div>
                         </a>
@@ -475,16 +475,18 @@
             <div class="case-slider">
                 <c:forEach items="${treatment}" var="list">
                     <div class="slide-item">
-                        <sec:authorize access="isAnonymous()">
-                            <div  class="module">
-                                <div class="login module"><a href="<c:url value='/login'/>">로그인 해주세요</a></div>
+                        <a href="<c:url value='/case-view/${list.num}'/>">
+                            <sec:authorize access="isAnonymous()">
+                                <div  class="module">
+                                    <div class="login module"><a href="<c:url value='/login'/>">로그인 해주세요</a></div>
+                                </div>
+                            </sec:authorize>
+                            <img src="<c:url value='${list.thumnail_path}${list.thumnail}'/>">
+                            <div class="text">
+                                <h3>${list.subject}</h3>
+                                <p>${list.writer}</p>
                             </div>
-                        </sec:authorize>
-                        <img src="<c:url value='${list.thumnail_path}${list.thumnail}'/>">
-                        <div class="text">
-                            <h3>${list.subject}</h3>
-                            <p>${list.writer}</p>
-                        </div>
+                        </a>
                     </div>
                 </c:forEach>
             </div>
