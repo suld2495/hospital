@@ -34,4 +34,8 @@ public interface BoardMapper {
     void updateBoard(BoardVo boardVo) throws Exception;
 
     void deleteAppendix(int attachCode) throws Exception;
+
+    List<Map> selectMainReview() throws Exception;
+
+    List<Map> selectMainCase() throws Exception;
 }

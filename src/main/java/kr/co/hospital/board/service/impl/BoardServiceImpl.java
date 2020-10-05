@@ -312,4 +312,14 @@ public class BoardServiceImpl implements BoardService {
             throw e;
         }
     }
+
+    @Override
+    public List<Map> getMainReview() throws Exception {
+        return boardMapper.selectMainReview();
+    }
+
+    @Override
+    public List<Map> getMainCase() throws Exception {
+        return boardMapper.selectMainCase();
+    }
 }

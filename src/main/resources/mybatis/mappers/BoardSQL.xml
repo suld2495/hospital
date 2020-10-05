@@ -7,6 +7,18 @@
         FROM ${tableName}
     </select>
 
+    <select id="selectMainReview" resultType="map">
+        SELECT *
+          FROM review
+         WHERE num in (1,2,3,4)
+    </select>
+
+    <select id="selectMainCase" resultType="map">
+        SELECT *
+          FROM treatment_case
+         WHERE num in (1,2,3,4)
+    </select>
+
     <select id="selectBoardList" parameterType="pagingVo" resultType="map">
         SELECT  *
             ,   date_format(created_date, '%Y-%m-%d') created_show_date

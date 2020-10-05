@@ -1,5 +1,6 @@
 package kr.co.hospital.client.web;
 
+import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.client.service.ClientService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,13 +10,17 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class ClientController {
     private ClientService clientService;
+    private BoardService boardService;
 
-    public ClientController(ClientService clientService) {
+    public ClientController(ClientService clientService, BoardService boardService) {
         this.clientService = clientService;
+        this.boardService = boardService;
     }
 
     @RequestMapping("/main")
-    public String main() {
+    public String main(Model model) throws Exception {
+        model.addAttribute("review", boardService.getMainReview());
+        model.addAttribute("treatment", boardService.getMainCase());
         return "/main/main";
     }
 

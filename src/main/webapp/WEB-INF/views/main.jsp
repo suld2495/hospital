@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
 <link rel="stylesheet" href="<c:url value='/lib/fullPage/jquery.fullpage.min1.css' />">
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.min.css' />">
@@ -261,28 +262,14 @@
         </div>
         <div class="max-layout-width">
             <div class="review">
-                <c:forEach begin="1" end="4" varStatus="status">
+                <c:forEach items="${review}" var="list">
                     <div class="module">
                         <a class="module" href="<c:url value='/'/>">
-                            <img src="<c:url value='/images/main/review0${status.count % 4 + 1}.jpg' />">
+                            <img src="<c:url value='${list.thumnail_path}${list.thumnail}' />">
                             <div class="position-relative">
                                 <div class="review-text">
-                                    <c:if test="${status.count eq 1}">
-                                        <h4>임플란트</h4>
-                                        <p>의사선생님께서는 친절 하시고 걱정했던 임플란트</p>
-                                    </c:if>
-                                    <c:if test="${status.count eq 2}">
-                                        <h4>라미네이트</h4>
-                                        <p>내 치아처럼 자연스럽게 라미네이트 되어서 만족</p>
-                                    </c:if>
-                                    <c:if test="${status.count eq 3}">
-                                        <h4>치아교정</h4>
-                                        <p>어릴때부터 컴플렉스였던 치아를 이렇게 가지런</p>
-                                    </c:if>
-                                    <c:if test="${status.count eq 4}">
-                                        <h4>일반치료</h4>
-                                        <p>치과는 아플까봐 안가고 싶었는데 막상 가보니 치료를</p>
-                                    </c:if>
+                                    <h4>${list.subject}</h4>
+                                    <p>${list.contents}</p>
                                 </div>
                             </div>
                         </a>
@@ -486,54 +473,20 @@
                 <span class="next"></span>
             </div>
             <div class="case-slider">
-                <div class="slide-item">
-                    <sec:authorize access="isAnonymous()">
-                        <div  class="module">
-                            <div class="login module"><a href="<c:url value='/login'/>">로그인 해주세요</a></div>
+                <c:forEach items="${treatment}" var="list">
+                    <div class="slide-item">
+                        <sec:authorize access="isAnonymous()">
+                            <div  class="module">
+                                <div class="login module"><a href="<c:url value='/login'/>">로그인 해주세요</a></div>
+                            </div>
+                        </sec:authorize>
+                        <img src="<c:url value='${list.thumnail_path}${list.thumnail}'/>">
+                        <div class="text">
+                            <h3>${list.subject}</h3>
+                            <p>${list.writer}</p>
                         </div>
-                    </sec:authorize>
-                    <img src="<c:url value='/images/main/case01.jpg'/>">
-                    <div class="text">
-                        <h3>임플란트</h3>
-                        <p>강oo 환자</p>
                     </div>
-                </div>
-                <div class="slide-item">
-                    <sec:authorize access="isAnonymous()">
-                        <div  class="module">
-                            <div class="login module"><a href="<c:url value='/login'/>">로그인 해주세요</a></div>
-                        </div>
-                    </sec:authorize>
-                    <img src="<c:url value='/images/main/case02.jpg'/>">
-                    <div class="text">
-                        <h3>라미네이트</h3>
-                        <p>권oo 환자</p>
-                    </div>
-                </div>
-                <div class="slide-item">
-                    <sec:authorize access="isAnonymous()">
-                        <div  class="module">
-                            <div class="login module"><a href="<c:url value='/login'/>">로그인 해주세요</a></div>
-                        </div>
-                    </sec:authorize>
-                    <img src="<c:url value='/images/main/case03.jpg'/>">
-                    <div class="text">
-                        <h3>치아교정</h3>
-                        <p>박oo 환자</p>
-                    </div>
-                </div>
-                <div class="slide-item">
-                    <sec:authorize access="isAnonymous()">
-                        <div  class="module">
-                            <div class="login module"><a href="<c:url value='/login'/>">로그인 해주세요</a></div>
-                        </div>
-                    </sec:authorize>
-                    <img src="<c:url value='/images/main/case04.jpg'/>">
-                    <div class="text">
-                        <h3>스케일링</h3>
-                        <p>김oo 환자</p>
-                    </div>
-                </div>
+                </c:forEach>
             </div>
             <a class="more" href="<c:url value='/case/1'/>">사례 더보기</a>
         </div>

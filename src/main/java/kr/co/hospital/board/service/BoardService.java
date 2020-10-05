@@ -34,4 +34,8 @@ public interface BoardService {
     void deleteFiles(Map map) throws Exception;
 
     void saveMainThumnail(MultipartHttpServletRequest mRequest, BoardVo boardVo, String url) throws Exception;
+
+    List<Map> getMainReview() throws Exception;
+
+    List<Map> getMainCase() throws Exception;
 }
