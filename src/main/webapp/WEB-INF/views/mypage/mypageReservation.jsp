@@ -20,7 +20,6 @@
         <div class="table">
             <ul class="title">
                 <li class="date">접수일자</li>
-                <li class="center">예약센터</li>
                 <li class="name">신청자명</li>
                 <li class="phone">연락처</li>
                 <li class="etc">비고</li>
@@ -28,7 +27,6 @@
             <c:forEach items="${list}" var="list">
                 <ul class="link" data-num="${list.num}">
                     <li class="date">${list.created_show_date}</li>
-                    <li class="center"></li>
                     <li class="name">${list.writer}</li>
                     <li class="phone">${list.phone}</li>
                     <li class="etc"></li>

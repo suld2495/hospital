@@ -29,7 +29,7 @@
 }
 
 .table .center, .table .name, .table .phone {
-    width: 16%;
+    width: 24%;
 }
 
 .table .etc {
@@ -46,17 +46,17 @@
 
 @media screen and (max-width:375px) {
     .table .date {
-        width: 27%;
+        width: 33%;
     }
     .table .name {
         display: none;
     }
     .table .center, .table .name, .table .phone {
-        width: 24%;
+        width: 32%;
     }
 
     .table .etc {
-        width: 25%;
+        width: 35%;
     }
     .table {
         margin-top: 40px;
