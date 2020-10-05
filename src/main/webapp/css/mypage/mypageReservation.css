@@ -37,10 +37,35 @@
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     .mypage-reservation .max-layout-width {
         padding: 0 30px;
         box-sizing: border-box;
+    }
+    .table .date {
+        width: 33%;
+    }
+    .table .name {
+        display: none;
+    }
+    .table .center, .table .name, .table .phone {
+        width: 32%;
+    }
+
+    .table .etc {
+        width: 35%;
+    }
+    .table {
+        margin-top: 40px;
+        border-top: 2px solid #838383;
+        margin-bottom: 128px;
+    }
+    .table li {
+        height: 45px;
+        float: left;
+        padding: 15px 0;
+        font-size: 14px;
+        letter-spacing: -1px;
     }
 }
 
@@ -69,5 +94,6 @@
         padding: 15px 0;
         font-size: 14px;
         letter-spacing: -1px;
-    }}
+    }
+}
 

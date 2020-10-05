@@ -250,6 +250,7 @@
         width: 50px;
         font-size: 13px;
         padding-left: 10;
+        word-break: keep-all;
     }
     .table .input {
         padding-left: 75px;
@@ -276,7 +277,7 @@
         box-sizing: border-box;
         border: 1px solid #d9d9d9;
         outline: none;
-        font-size: 20px;
+        font-size: 14px;
     }
     .table label {
         line-height: 40px;
