@@ -11,10 +11,7 @@
 <div class="popup">
     <div class="popup-slider">
         <div>
-            <img src="<c:url value="/images/popup/popup1.jpg"/>">
-        </div>
-        <div>
-            <img src="<c:url value="/images/popup/popup2.jpg"/>">
+            <img data-lazy="<c:url value="/images/popup/popup2.jpg"/>">
         </div>
     </div>
     <div class="popup-button">
@@ -104,9 +101,20 @@
         <ul class="quick">
             <li class="plus"></li>
             <li class="quick-button">
-                <a href="/reserve-write" class="reserve"></a>
+                <a href="http://booking.naver.com/bizes/302367" target="_blank" class="reserve">
+                    <span>네이버예약</span>
+                </a>
             </li>
         </ul>
+        <div class="top-container">
+            <div class="top-box">
+                <div class="top-top">
+                    <div class="top">
+                        <div class="top-button">TOP</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -580,7 +588,7 @@
                         <h3>정보</h3>
                         <p>상호 : 미소원치과 <span class="footer-line"></span> 대표자 : 곽진원</p>
                         <p>사업자등록번호 : 690-23-00971</p>
-                        <p>TEL : <a class="tel text-decoration-none" href="tel:1899-7518">1899-7518</a> <span class="footer-line"></span> FAX : 052-258-2874</p>
+                        <p>TEL : <a class="tel text-decoration-none" href="tel:1899-7518">1899-7518</a> <span class="footer-line"></span> FAX : 052-700-7518</p>
                         <p>E-MAIL : misowondent@daum.net</p>
                         <p class="footer-location">주소 : 울산광역시 남구 화합로 150 / 시외고속버스 터미널맞은편 2,3층</p>
                     </li>
@@ -588,7 +596,7 @@
                 <div class="sns-link text-align-center">
                     <ul class="display-inline-block">
                         <li class="sns-instagram">
-                            <a class="text-decoration-none" href="https://www.instagram.com/misowondent/" target="_blank">
+                            <a class="text-decoration-none" href="https://www.instagram.com/misowondent20/" target="_blank">
                                 <img src="<c:url value='/images/cmmn/sns_instagram.png' />" alt="인스타그램">
                                 <span>인스타그램</span>
                                 <img class="sns-arrow" src="<c:url value='/images/cmmn/arrow01.png' />">
@@ -602,7 +610,7 @@
                             </a>
                         </li>
                         <li class="sns-blog">
-                            <a class="text-decoration-none" href="https://blog.naver.com/meseoul7" target="_blank" alt="블로그">
+                            <a class="text-decoration-none" href="https://blog.naver.com/misowondent" target="_blank" alt="블로그">
                                 <img src="<c:url value='/images/cmmn/sns_blog.png' />">
                                 <span>블로그</span>
                                 <img class="sns-arrow" src="<c:url value='/images/cmmn/arrow01.png' />">
@@ -655,6 +663,12 @@
                         $temp.addClass('dark');
                     } else {
                         $temp.removeClass('dark');
+                    }
+
+                    if (nextIndex !== 1) {
+                        $('.fp-nav').addClass('top-active');
+                    } else {
+                        $('.fp-nav').removeClass('top-active');
                     }
 
                     if (nextIndex === 5) {
@@ -777,6 +791,8 @@
             asNavFor: '.doctor-slider',
         });
 
+
+
         $('.doctor-slider').on('init', function(slick){
             $('.section05 .img-arrow').append($('.section05 .slider-prev'));
             $('.section05 .img-arrow').append($('.section05 .slider-next'));
@@ -871,13 +887,17 @@
             moveSlides: 1,
             slideWidth: popupWidth,
             pager: false,
+            lazyLoad: 'ondemand'
         })
 
-        var isPopup = getCookie('popup') === 'true';
+        $('.popup-slider').on('lazyLoaded', function(){
+            var isPopup = getCookie('popup') === 'true';
 
-        if (!isPopup) {
-            $('.popup').addClass('active');
-        }
+            if (!isPopup) {
+                $('.popup').addClass('active');
+            }
+        });
+
 
         $('.popup-today').click(function () {
             setCookie('popup', true, 1);
@@ -886,6 +906,10 @@
 
         $('.popup-close').click(function () {
             $('.popup').remove();
+        })
+
+        $('.top-button').click(function () {
+            $.fn.fullpage.silentMoveTo('anchor1', 1);
         })
     });
 

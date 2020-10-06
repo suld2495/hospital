@@ -8,6 +8,13 @@ $(function() {
             mode: 'fade',
             auto: true,
             controls: false,
+            onSlideBefore: function($slideElement, oldIndex, newIndex) {
+                $('.header-banner-slider-continer01').removeClass('active1')
+                $('.header-banner-slider-continer01').removeClass('active2')
+                $('.header-banner-slider-continer01').removeClass('active3')
+                $('.header-banner-slider-continer01').removeClass('active4')
+                $('.header-banner-slider-continer01').addClass('active' + (newIndex + 1));
+            }
         });
     }
 

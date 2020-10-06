@@ -20,7 +20,7 @@
                 <h3>정보</h3>
                 <p>상호 : 미소원치과 <span class="footer-line"></span> 대표자 : 곽진원</p>
                 <p>사업자등록번호 : 690-23-00971</p>
-                <p>TEL : <a class="tel text-decoration-none" href="tel:1899-7518">1899-7518</a> <span class="footer-line"></span> FAX : 052-258-2874</p>
+                <p>TEL : <a class="tel text-decoration-none" href="tel:1899-7518">1899-7518</a> <span class="footer-line"></span> FAX : 052-700-7518</p>
                 <p>E-MAIL : misowondent@daum.net</p>
                 <p class="footer-location">주소 : 울산광역시 남구 화합로 150 / 시외고속버스 터미널맞은편 2,3층</p>
             </li>
@@ -28,7 +28,7 @@
         <div class="sns-link text-align-center">
             <ul class="display-inline-block">
                 <li class="sns-instagram">
-                    <a class="text-decoration-none" href="https://www.instagram.com/misowondent/" target="_blank">
+                    <a class="text-decoration-none" href="https://www.instagram.com/misowondent20/" target="_blank">
                         <img src="<c:url value='/images/cmmn/sns_instagram.png' />" alt="인스타그램">
                         <span>인스타그램</span>
                         <img class="sns-arrow" src="<c:url value='/images/cmmn/arrow01.png' />">
@@ -42,7 +42,7 @@
                     </a>
                 </li>
                 <li class="sns-blog">
-                    <a class="text-decoration-none" href="https://blog.naver.com/meseoul7" target="_blank" alt="블로그">
+                    <a class="text-decoration-none" href="https://blog.naver.com/misowondent" target="_blank" alt="블로그">
                         <img src="<c:url value='/images/cmmn/sns_blog.png' />">
                         <span>블로그</span>
                         <img class="sns-arrow" src="<c:url value='/images/cmmn/arrow01.png' />">

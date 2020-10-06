@@ -1,3 +1,11 @@
+.top-active .top-container {
+    opacity: 1;
+}
+.top-top {
+    margin-top: 132px;
+    height: 48px;
+    margin-left: -43px;
+}
 .popup .cover {
     display: none;
 }
@@ -15,6 +23,8 @@
 
 .popup.active {
     display: block;
+    animation: fade-in 1s;
+    animation-fill-mode: forwards;
 }
 .popup-button {
     height: 50px;
@@ -50,12 +60,19 @@
     display: inline-block;
     z-index: 11111111111;
 }
+.popup + .cover {
+    opacity: 0;
+}
+.popup.active + .cover {
+    opacity: 0.7;
+}
 .popup {
     position: absolute;
     top: 150px;
     left: 50%;
     display: none;
     margin-left: -245px;
+    opacity: 0;
 }
 .popup-slider img {
     width: 490px;
@@ -64,6 +81,7 @@
 
 body {
     overflow-x: hidden;
+    background: #24201f;
 }
 
 .section02 {
@@ -105,7 +123,7 @@ body {
 
 .contents-text.active {
     display: block;
-    animation: fade-in 1s;
+    animation: fade-in 1s .3s;
     animation-fill-mode: forwards;
 }
 
@@ -1638,18 +1656,19 @@ body .section07 .bx-pager-link span + span {
 .fp-menu ul.quick {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(190px);
+    right: -10px;
+    transform: translateX(-30px) translateY(190px);
     height: 113px;
     overflow: hidden;
 }
 
 .fp-menu ul.quick li {
-    width: 48px;
-    height: 48px;
     border-radius: 100%;
-    background: #ea6806;
+    /* background: #ea6806; */
     cursor: pointer;
+    right: 0;
+    position: relative;
+    margin-top: 65px;
 }
 
 .fp-menu ul.quick li.quick-button {
@@ -1664,10 +1683,52 @@ body .section07 .bx-pager-link span + span {
 
 .fp-menu ul.quick .quick-button .reserve {
     display: block;
-    background: #ea6806 url(../images/main/reservation_icon.png) no-repeat center;
+    background:  #ea6806;
     width: 100%;
     height: 100%;
-    border-radius: 100%;
+    border-radius: 48px;
+    position: relative;
+    right: 0;
+    width: 48px;
+    height: 48px;
+}
+
+.fp-menu ul.quick .quick-button .reserve span {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    padding-right: 30px;
+    position: relative;
+    z-index: 1111111111;
+    text-align: center;
+    text-indent: 0;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease-out;
+    font-size: 14px;
+    line-height: 48px;
+    opacity: 0;
+}
+
+.fp-menu ul.quick .quick-button .reserve:hover span {
+    opacity: 1;
+}
+
+
+.fp-menu ul.quick .quick-button .reserve:hover {
+    width: 135px;
+
+}
+
+.fp-menu ul.quick .quick-button .reserve:before {
+    background:  url(../images/main/reservation_icon.png) no-repeat center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: '';
+    width:48px;
+    height: 48px;
+    z-index: 2;
 }
 
 .fp-menu ul.quick li.plus {
@@ -1675,6 +1736,11 @@ body .section07 .bx-pager-link span + span {
     position: relative;
     transform: translateY(60px);
     transition: all 0.3s ease-out;
+    width: 48px;
+    height: 48px;
+    right: 0;
+    position: absolute;
+    margin-top: 0;
 }
 
 .fp-menu ul.quick li.plus.active {
@@ -1792,6 +1858,10 @@ body .section07 .bx-pager-link span + span {
     background: rgba(230, 230, 230, .5);
 }
 
+[data-menuanchor=anchor9].active:before {
+    display: none !important;
+}
+
 .fp-menu .active:before {
     content: "";
     display: block;
@@ -1860,6 +1930,7 @@ body .section07 .bx-pager-link span + span {
 
 .section02 {
     box-sizing: border-box;
+    background: #fff;
 }
 
 .section04 {
@@ -1977,6 +2048,8 @@ body .section07 .bx-pager-link span + span {
     display: block;
     padding-top: 130px;
     box-sizing: border-box;
+    position: absolute;
+    top: 0;
 }
 
 .case .login a:before {
@@ -2231,7 +2304,7 @@ body .section07 .bx-pager-link span + span {
 }
 
 .section09 .slide-item img {
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
 }
 

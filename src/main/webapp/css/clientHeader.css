@@ -522,7 +522,7 @@ header .nav-detail {
     z-index: 1;
     letter-spacing: -1px;
     clear: both;
-    border-top: 1px solid #bbb;
+    /* border-top: 1px solid #bbb; */
 }
 
 header .nav-detail .max-layout-width {
@@ -667,6 +667,10 @@ header .fixed-box > div {
     height: 80px;
 }
 
+header .fixed-box > div:last-child {
+    float: right;
+}
+
 header.active {
     padding-top: 140px;
 }
@@ -679,6 +683,7 @@ header.active .fixed {
     height: 56px;
     position: relative;
     overflow: hidden;
+    background: #fff;
 }
 
 .header-banner-slider-continer01 .slide-item-box {
@@ -730,7 +735,7 @@ header.active .fixed {
 }
 
 .header-banner-slider-continer01 .bx-wrapper .bx-pager.bx-default-pager a.active {
-    background: #fff;
+    background: #fff !important;
 }
 
 .header-banner-slider-continer01 .bx-wrapper .bx-pager.bx-default-pager a {
@@ -738,6 +743,19 @@ header.active .fixed {
     margin: 0px 2px;
     width: 8px;
     height: 8px;
+    transition: background .3s ease;
+}
+
+.active2.header-banner-slider-continer01 .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #eecaca;
+}
+
+.active3.header-banner-slider-continer01 .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #767885;
+}
+
+.active4.header-banner-slider-continer01 .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #8ba9cb;
 }
 
 header .banner-close {
@@ -972,25 +990,25 @@ header .header-banner-slider .slide-item04 .go {
 
 @media screen and (max-width:375px) {
     header .mobile-sub-category .join-icon {
-    background: url(../images/cmmn/join.png);
-    width: 32px;
-    height: 26px;
-    display: inline-block;
-    margin-right: 5px;
-    vertical-align: -6px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-header .mobile-sub-category .login-icon {
-    background: url(../images/cmmn/login.png);
-    width: 21px;
-    height: 29px;
-    display: inline-block;
-    margin-right: 12px;
-    vertical-align: -8px;
-    margin-left: 3px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: 4px;
-}
+        background: url(../images/cmmn/join.png);
+        width: 32px;
+        height: 26px;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: -6px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    header .mobile-sub-category .login-icon {
+        background: url(../images/cmmn/login.png);
+        width: 21px;
+        height: 29px;
+        display: inline-block;
+        margin-right: 12px;
+        vertical-align: -8px;
+        margin-left: 3px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: 4px;
+    }
 }

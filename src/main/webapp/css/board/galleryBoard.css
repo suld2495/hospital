@@ -22,6 +22,7 @@
 .gallery-list .gallery .img-box {
     overflow: hidden;
     position: relative;
+    height: 232px;
 }
 
 .gallery-list .gallery .img-box .img {
@@ -35,6 +36,7 @@
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    background-size: contain !important;
 }
 
 .gallery-list .gallery li h5 {

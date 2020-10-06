@@ -35,8 +35,10 @@
     box-sizing: border-box;
     overflow-y: scroll;
     line-height: 1.7;
-    padding: 10px 20px;
+    padding: 19px 20px;
     box-sizing: border-box;
+    letter-spacing: -1px;
+    font-size: 15px;
 }
 
 .radio-box {
@@ -67,6 +69,9 @@
         height: 250px;
         margin-bottom: 10px;
         box-sizing: border-box;
+        font-size: 14px;
+        letter-spacing: -1px;
+        line-height: 1.5;
     }
     .agreement h3 {
         font-size: 18px;

@@ -113,10 +113,10 @@
             <div>
                 <ul>
                     <li>
-                        <div>·평일 : AM 09:30 ~ PM 18:30</div>
+                        <div>·평일 : AM 09:30 ~ PM 18:30 (화요일은 10시부터)</div>
                         <div><p>·수/금 : AM 09:30 ~ PM 20:00 (야간진료)</p><p class="color">※ 일요일 및 공휴일은 휴진입니다.</p><p>울산광역시 남구 화합로 150 / 시외고속버스 터미널맞은편 2,3층</p></div>
                         <div>·토요일 : AM 09:30 ~ PM 16:00</div>
-                        <div><p>·점심시간 : PM 12:30 ~ PM 14:00 (토요일 12:30~13:30)</p><p>TEL : 1899-7518<span></span>FAX : 052-258-2874</p><p>Copyright 2020 Misowon Dental Clinic. All Rights Reserved.</p></div>
+                        <div><p>·점심시간 : PM 12:30 ~ PM 14:00 (토요일 12:30~13:30)</p><p>TEL : 1899-7518<span></span>FAX : 052-700-7518</p><p>Copyright 2020 Misowon Dental Clinic. All Rights Reserved.</p></div>
                     </li>
                 </ul>
             </div>
@@ -406,9 +406,9 @@
         </ul>
         <div class="sns">
             <ul>
-                <li><a href="https://www.instagram.com/misowondent/" target="_blank"><img src="<c:url value='/images/cmmn/instagram_sns.png'/>"></a></li>
+                <li><a href="https://www.instagram.com/misowondent20/" target="_blank"><img src="<c:url value='/images/cmmn/instagram_sns.png'/>"></a></li>
                 <li><a href="https://www.facebook.com/misowondental/" target="_blank"><img src="<c:url value='/images/cmmn/facebook_sns.png'/>"></a></li>
-                <li><a href="https://blog.naver.com/meseoul7" target="_blank"><img src="<c:url value='/images/cmmn/blog_sns.png'/>"></a></li>
+                <li><a href="https://blog.naver.com/misowondent" target="_blank"><img src="<c:url value='/images/cmmn/blog_sns.png'/>"></a></li>
             </ul>
         </div>
     </div>

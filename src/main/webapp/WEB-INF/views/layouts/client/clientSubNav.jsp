@@ -220,9 +220,9 @@
             var height = 1000;
 
             if ($(this).scrollTop() > height) {
-                $('.top-container').addClass('active');
+                $('.sub + .top-container').addClass('active');
             } else {
-                $('.top-container').removeClass('active');
+                $('.sub + .top-container').removeClass('active');
             }
         })
     })
