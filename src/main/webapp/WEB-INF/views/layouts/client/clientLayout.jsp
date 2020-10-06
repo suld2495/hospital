@@ -54,5 +54,23 @@
     <script>
         new WOW().init();
     </script>
+    <!-- WIDERPLANET  SCRIPT START 2020.9.16 -->
+    <div id="wp_tg_cts" style="display:none;"></div>
+    <script type="text/javascript">
+        var wptg_tagscript_vars = wptg_tagscript_vars || [];
+        wptg_tagscript_vars.push(
+            (function() {
+                return {
+                    wp_hcuid:"",   /*고객넘버 등 Unique ID (ex. 로그인  ID, 고객넘버 등 )를 암호화하여 대입.
+				*주의 : 로그인 하지 않은 사용자는 어떠한 값도 대입하지 않습니다.*/
+                    ti:"50308",	/*광고주 코드 */
+                    ty:"Home",	/*트래킹태그 타입 */
+                    device:"web"	/*디바이스 종류  (web 또는  mobile)*/
+
+                };
+            }));
+    </script>
+    <script type="text/javascript" async src="//cdn-aitg.widerplanet.com/js/wp_astg_4.0.js"></script>
+    <!-- // WIDERPLANET  SCRIPT END 2020.9.16 -->
 </body>
 </html>
