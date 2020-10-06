@@ -278,6 +278,7 @@
                                 <div class="review-text">
                                     <h4>${list.subject}</h4>
                                     <pre>${list.contents}</pre>
+                                    <h7>${list.created_show_date}</h7>
                                 </div>
                             </div>
                         </a>

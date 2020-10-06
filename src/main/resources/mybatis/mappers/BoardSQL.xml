@@ -9,14 +9,18 @@
 
     <select id="selectMainReview" resultType="map">
         SELECT *
+            ,   date_format(created_date, '%Y-%m-%d') created_show_date
           FROM review
-         WHERE num in (1,2,3,4)
+         WHERE num in (1,2,3,4,5,6,7,8,9,10)
+         ORDER BY created_date asc
     </select>
 
     <select id="selectMainCase" resultType="map">
         SELECT *
+            ,   date_format(created_date, '%Y-%m-%d') created_show_date
           FROM treatment_case
-         WHERE num in (1,2,3,4)
+         WHERE num in (1,2,3,4,5,6,7,8,9,10)
+         ORDER BY created_date asc
     </select>
 
     <select id="selectBoardList" parameterType="pagingVo" resultType="map">
