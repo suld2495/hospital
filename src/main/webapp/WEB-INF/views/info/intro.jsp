@@ -25,14 +25,14 @@
         </div>
     </section>
 
-    <section class="section02 wow fadeInUp">
+    <section class="section02">
         <div class="max-layout-width">
             <div class="text-box left-text-box">
                 <h3 class="move-title wow slideInLeft">COOPERATIVE</h3>
                 <h2 class="section-title last-section-title">
-                    <span class="section-title-color">의료진 <strong>협진진료 시스템</strong></span><br>
+                    <span class="section-title-color wow fadeInUp" data-wow-delay="300ms">의료진 <strong>협진진료 시스템</strong></span><br>
                 </h2>
-                <p class="section-text">
+                <p class="section-text wow fadeInUp" data-wow-delay="500ms">
                     모든 진료를 <strong>의료진의 협진</strong>과 <strong>공동 연구</strong>를 통해 <strong>보다 정확하고 세밀한 치료계획 및 결과</strong>를 얻을 수 있습니다.
                     의료진의 다양한 의견들을 조합하고 협의해 <strong>환자 개개인의 상황을 고려한 다양한 치료 방안을 제안</strong>하고 있습니다.
                     <br>
@@ -41,23 +41,23 @@
                 <a class="link"></a>
             </div>
         </div>
-        <div class="image_box_right img01">
+        <div class="image_box_right img01 wow fadeInUp" data-wow-delay="700ms">
             <p class="img"></p>
         </div>
     </section>
 
     <section class="section03 wow fadeInUp">
-        <div class="image_box_left img01">
+        <div class="image_box_left img01 wow fadeInUp" data-wow-delay="300ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text-box left-text-box">
                 <h3 class="move-title wow slideInRight">SYSTEMATIC</h3>
-                <h2 class="section-title last-section-title">
+                <h2 class="section-title last-section-title wow fadeInUp" data-wow-delay="500ms">
                     <span class="section-title-color"><strong>최첨단장비</strong>를 통한</span><br>
                     체계적인 시스템
                 </h2>
-                <p class="section-text">
+                <p class="section-text wow fadeInUp" data-wow-delay="700ms">
                     효과적인 치료결과를 위해 <strong>3D CT, 3D 구강 스캐너, CAD/CAM, 포터블엑스레이 등의 최첨단 의료장비 시설</strong>과
                     <strong>체계적인 관리 운영시스템을 구축</strong>하고 있습니다. 따라서, 의료진이 육안으로 확인할 수 없는 부분까지 개개인의 특성을
                     <strong>정밀하게 파악</strong>하여 <strong>치과 진료의 정확도를 최대한 높입니다.</strong>
@@ -67,15 +67,15 @@
         </div>
     </section>
 
-    <section class="section04 wow fadeInUp">
+    <section class="section04">
         <div class="max-layout-width">
             <div class="text-box left-text-box">
                 <h3 class="move-title wow slideInLeft">STERILIZATION</h3>
-                <h2 class="section-title last-section-title">
+                <h2 class="section-title last-section-title wow fadeInUp" data-wow-delay="300ms">
                     <span class="section-title-color">안심할 수 있는 <strong>철저한</strong></span><br>
                     <strong>감염 관리 시스템</strong>
                 </h2>
-                <p class="section-text">
+                <p class="section-text wow fadeInUp" data-wow-delay="500ms">
                     미소원치과에서 사용하는 <strong>모든 치료기구는 1인 1기구 사용을 원칙</strong>으로 합니다. <strong>1회용품은 재사용하지 않으며 치료기구는
                     매일 철저한 세척과 멸균소독과정, 개별포장하여 사용</strong>
                     하고 있으며 정기적인 감염관리 교육과 함께 눈에 보이지 않는 곳까지 꼼꼼하게 위생관리를 하고 있어 환자분들이 안심하고 이용하실 수 있습니다.
@@ -83,16 +83,16 @@
                 <a class="link"></a>
             </div>
         </div>
-        <div class="image_box_right img01">
+        <div class="image_box_right img01 wow fadeInUp" data-wow-delay="700ms">
             <p class="img"></p>
         </div>
     </section>
 
-    <section class="section05 wow fadeInUp">
+    <section class="section05">
         <div class="container">
-            <h2 class="section-title"><strong><span class="section-title-color">환자중심</span> 미소원치과</strong></h2>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms"><strong><span class="section-title-color">환자중심</span> 미소원치과</strong></h2>
             <div class="image-container">
-                <ul class="display-inline-block">
+                <ul class="display-inline-block wow fadeInUp" data-wow-delay="500ms">
                     <li>
                         <div>
                             <div class="img_bg img_bg1"></div>
@@ -140,24 +140,24 @@
         </div>
     </section>
 
-    <section class="section06 wow fadeInUp">
+    <section class="section06">
         <div class="bg"></div>
         <div class="max-layout-width">
             <div class="text display-inline-block">
                 <div>
-                    <h2 class="section-title bold">미소가 활짝! 미소원치과</h2>
+                    <h2 class="section-title bold wow fadeInUp" data-wow-delay="300ms">미소가 활짝! 미소원치과</h2>
                 </div>
                 <div class="last-text">
-                    <h2 class="section-title last-section-title">
+                    <h2 class="section-title last-section-title wow fadeInUp" data-wow-delay="500ms">
                         미소원치과는 따뜻하고<br>
-                        <strong><span class="section-title-color">감동이 있는 진료를 추구</span></strong>합니다.
+                        <strong><span class="section-title-color wow fadeInUp" data-wow-delay="700ms">감동이 있는 진료를 추구</span></strong>합니다.
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="700ms">
                         저희 치과를 찾는 모든 환자분들을 가족으로 생각하고 진심을 담아 진료하며, 공감할 수 있는 진료 서비스를 제공해드리겠습니다.
                         환자들과 소통하는 열린 치료를 통해 편안한 진료를 약속합니다.
                     </p>
                 </div>
-                <div class="img_bg"></div>
+                <div class="img_bg wow fadeInUp" data-wow-delay="500ms"></div>
             </div>
         </div>
     </section>

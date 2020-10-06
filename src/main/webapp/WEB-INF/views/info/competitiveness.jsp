@@ -9,20 +9,20 @@
     <p class="sub-page-intro">CORE COMPETITIVENESS</p>
 
     <section class="section01">
-        <div class="image_box_right img01">
+        <div class="image_box_right img01 wow fadeInUp" data-wow-delay="500ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width text position-relative">
-            <h6>ONE-STOP CARE SYSTEM</h6>
+            <h6 class="wow fadeInUp" data-wow-delay="300ms">ONE-STOP CARE SYSTEM</h6>
             <div class="position-relative">
-                <h2 class="section-title">
+                <h2 class="section-title wow fadeInUp" data-wow-delay="700ms">
                     <span class="bold">임플란트, 치아교정, 사랑니</span><br>
                     따로 병원 찾아다니기 지치셨나요?
                 </h2>
             </div>
         </div>
         <div class="max-layout-width">
-            <div class="list">
+            <div class="list wow fadeInUp" data-wow-delay="500ms">
                 <ul>
                     <li>
                         <div class="list-img list-img1"></div>
@@ -51,13 +51,13 @@
 
     <section class="section02 position-relative wow fadeInUp">
         <div class="default-background"></div>
-        <div class="image_box_left img01">
+        <div class="image_box_left img01 wow fadeInUp" data-wow-delay="500ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width position-relative">
             <div class="display-inline-block">
                 <div class="float-left">
-                    <h2 class="section-title bold">
+                    <h2 class="section-title bold wow fadeInUp" data-wow-delay="300ms">
                         <strong>
                             첨단 디지털 장비를 이용하여<br>
                             정확하고 완벽하게 진료하는<br>
@@ -65,10 +65,10 @@
                         </strong>
                     </h2>
                 </div>
-                <div class="float-right img02">
+                <div class="float-right img02 wow fadeInUp" data-wow-delay="500ms">
                     <p class="img"><img src="<c:url value='/images/sub/info/competitiveness/compet04.jpg' />"></p>
                     <div>
-                        <p class="section-text">
+                        <p class="section-text wow fadeInUp" data-wow-delay="700ms">
                             미소원치과는 환자의 편안한 진료를 위하여 <strong>3D CT를 도입</strong>하여,
                             3차원으로 <strong>주변 치아와 거리, 각도, 신경 위치를 촬영</strong>하여,
                             환자 <strong>개인에게 최적화된 치과치료를 진행</strong>하고 있습니다.
@@ -80,20 +80,20 @@
         </div>
     </section>
     <section class="section03 wow fadeInUp">
-        <div class="image_box_right">
+        <div class="image_box_right wow fadeInUp" data-wow-delay="500ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <h3 class="move-title bold wow slideInLeft">INFECTION CONTROL</h3>
             <div class="text">
                 <h2 class="section-title">
-                    <strong><span class="section-title-color">철저한 감염 관리 시스템</span></strong>
+                    <strong><span class="section-title-color wow fadeInUp" data-wow-delay="500ms">철저한 감염 관리 시스템</span></strong>
                 </h2>
-                <p class="section-text">
+                <p class="section-text wow fadeInUp" data-wow-delay="700ms">
                     미소원치과에서는 핸드피스, 미러, 핀셋 등 진료에 <strong>사용되는 모든 기구를 꼼꼼히 세척 후 전용 파우치에 개별 패킹 처리하여 멸균</strong> 시킵니다.
                     또한, 환자에게 사용되는 <strong>석션 팁과 글러브는 일회용품을 사용하며 1인 진료 후 곧바로 폐기합니다.</strong>
                 </p>
-                <div class="display-inline-block full-layout-width">
+                <div class="display-inline-block full-layout-width wow fadeInUp" data-wow-delay="900ms">
                     <div class="img-box">
                         <div class="img01 img"></div>
                         <span class="bold">살균 처리한 위생수 공급</span>
@@ -109,8 +109,8 @@
 
     <section class="section04 wow fadeInUp">
         <div class="contents max-layout-width">
-            <p class="section-sub-title">건물 내 상주 협력 기공소</p>
-            <div class="default-tab">
+            <p class="section-sub-title wow fadeInUp" data-wow-delay="300ms">건물 내 상주 협력 기공소</p>
+            <div class="default-tab wow fadeInUp" data-wow-delay="500ms">
                 <ul class="tab-contents-box">
                     <li class="tab-contents active">"환자분들의 내원횟수 감소"</li>
                     <li class="tab-contents">"빠른 시간 내 보철물 수정 가능"</li>
@@ -122,7 +122,7 @@
                     <li class="tab">장점 셋.</li>
                 </ul>
             </div>
-            <p class="sub-text">
+            <p class="sub-text wow fadeInUp" data-wow-delay="700ms">
                 보통 치과에서는 보철물을 제작하기 위하여 외부 기공소에 의뢰를 하지만
                 <br/>
                 미소원치과에서는 협력 기공소가 건물 내 상주하고 있어 보다 빠르고 정확하게 보철물을 제작할 수 있습니다.
@@ -133,13 +133,13 @@
     </section>
 
     <section class="section05 wow fadeInUp">
-        <div class="image_box_left img01">
+        <div class="image_box_left img01 wow fadeInUp" data-wow-delay="300ms">
             <p class="img"></p>
             <div class="image_box_left img02">
                 <p class="img"></p>
             </div>
         </div>
-        <div class="text">
+        <div class="text wow fadeInUp" data-wow-delay="500ms">
             <h2 class="section-title">
                 <strong>
                     특별한 사후 관리,<br>

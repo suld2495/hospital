@@ -10,7 +10,7 @@
     <p class="sub-page-intro">ADVANCED EQUIPMENT SYSTEM</p>
 
     <section class="section01">
-        <div class="slider-container">
+        <div class="slider-container wow fadeInUp" data-wow-delay="500ms">
             <div class="slider-box">
                 <div class="slider swiper-wrapper">
                     <div><div class="swiper-slide" style="background:url('<c:url value='/images/sub/info/diagnosticEquipmentSystem/device01_img01.jpg'/>')">
@@ -42,7 +42,7 @@
                     <h2>3D 구강 스캐너</h2><p>"VATECH 3D CB/<br>HDXWILL DENTRI"</p>
                 </div>
             </div>
-            <div class="slider-pagenation">
+            <div class="slider-pagenation wow fadeInUp" data-wow-delay="700ms">
             </div>
         </div>
         <div class="max-layout-width">
@@ -219,7 +219,7 @@
 <%--    </section>--%>
 
     <section class="section03 wow fadeInUp">
-        <div class="max-layout-width">
+        <div class="max-layout-width wow fadeInUp" data-wow-delay="300ms">
             <span class="title">ADVANCED EQUIPMENT</span>
             <h2 class="section-title">
                 <strong>진단부터 정확하게</strong><br>
@@ -230,7 +230,7 @@
                 미소원치과는 <strong>첨단 디지털 장비를 이용하여 환자의 상태를 안전하고 정확하게</strong> 진단합니다.
             </p>
         </div>
-        <div class="image_box_left">
+        <div class="image_box_left wow fadeInUp" data-wow-delay="700ms">
             <p class="img"></p>
             <p class="bg"></p>
         </div>

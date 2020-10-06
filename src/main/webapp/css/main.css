@@ -1653,6 +1653,10 @@ body .section07 .bx-pager-link span + span {
     margin-top: -70px;
 }
 
+.popup .slick-track {
+    width: 100% !important;
+}
+
 .fp-menu ul.quick {
     position: absolute;
     top: 50%;

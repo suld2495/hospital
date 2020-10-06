@@ -20,17 +20,17 @@
                 <div class="bg"></div>
                 <div class="max-layout-width position-absolute image-container">
                     <div class="position-absolute full-layout-width image-box">
-                        <div class="image-box1"></div>
+                        <div class="image-box1 wow fadeInUp" data-wow-delay="300ms"></div>
                     </div>
                 </div>
-                <div class="text">
+                <div class="text wow fadeInUp" data-wow-delay="500ms">
                     <div>
                         <div class="title title-font">섬세한 진료로 <span>마음 편안하게,</span></div>
                         <div class="title title-font last-title"><span>환자와의 신뢰가 먼저</span>입니다.</div>
                     </div>
                 </div>
                 <div class="text text-bg">
-                    <div class="text-dec">
+                    <div class="text-dec wow fadeInUp" data-wow-delay="500ms">
                         <h1 class="doctor-title">곽진원 대표 원장</h1>
                         <h4 class="dec-title bold">진료분야</h4>
                         <p class="dec">
@@ -58,10 +58,10 @@
                 <div class="bg"></div>
                 <div class="max-layout-width position-absolute image-container">
                     <div class="position-absolute image-box">
-                        <div class="image-box2"></div>
+                        <div class="image-box2 wow fadeInUp" data-wow-delay="300ms"></div>
                     </div>
                 </div>
-                <div class="text">
+                <div class="text wow fadeInUp" data-wow-delay="500ms">
                     <div class="max-layout-width position-relative">
                         <div class="title title-font">얼굴과 조화를 이루는 <span>균형잡힌 교정!</span></div>
                         <div class="title title-font last-title"><span>아름답고 당당한 미소를</span> 찾아드립니다.</div>
@@ -69,7 +69,7 @@
                     <div class="line"></div>
                 </div>
                 <div class="text text-bg">
-                    <div class="text-dec max-layout-width position-relative">
+                    <div class="text-dec max-layout-width position-relative wow fadeInUp" data-wow-delay="500ms">
                         <h1 class="doctor-title">송애진  원장</h1>
                         <h4 class="dec-title bold">진료분야</h4>
                         <p class="dec">
@@ -97,10 +97,10 @@
                 <div class="bg"></div>
                 <div class="max-layout-width position-absolute image-container">
                     <div class="position-absolute full-layout-width image-box">
-                        <div class="image-box3"></div>
+                        <div class="image-box3 wow fadeInUp" data-wow-delay="300ms"></div>
                     </div>
                 </div>
-                <div class="text">
+                <div class="text wow fadeInUp" data-wow-delay="500ms">
                     <div>
                         <div class="title title-font last-title">
                             첨단장비를 사용하여 <span>꼼꼼하고 정확하게,</span><br>
@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="text text-bg">
-                    <div class="text-dec">
+                    <div class="text-dec wow fadeInUp" data-wow-delay="500ms">
                         <h1 class="doctor-title">이상수 원장</h1>
                         <h4 class="dec-title bold">진료분야</h4>
                         <p class="dec">
@@ -139,17 +139,17 @@
     <section class="tab-contents staff-contents">
         <div class="staff-info-box">
             <div class="staff-info position-relative wow fadeInUp">
-                <div class="image_box_left img-box1">
+                <div class="image_box_left img-box1 wow fadeInUp" data-wow-delay="300ms">
                     <p class="img"></p>
                 </div>
                 <div class="text">
                     <div>
-                        <h1>CS팀</h1>
-                        <div class="title title-font last-title">
+                        <h1 class="wow fadeInUp" data-wow-delay="500ms">CS팀</h1>
+                        <div class="title title-font last-title wow fadeInUp" data-wow-delay="700ms">
                             항상 친절한 마음으로 <span>만족할 수 있는</span><br>
                             <span>서비스를 위해 최선을 </span>다합니다.
                         </div>
-                        <p>
+                        <p clas="wow fadeInUp" data-wow-delay="900ms">
                             미소원치과에 발 딛는 순간, 기분 좋은 목소리와 미소로 환자분들의
                             긴장된 마음을 한 층 녹여줄 수 있는 미소원치과의 CS팀입니다.
                             전화문의부터 상담, 진료안내, 보험 청구 등의 업무로 환자분들의
@@ -160,17 +160,17 @@
                 </div>
             </div>
             <div class="staff-info position-relative staff-info02 wow fadeInUp">
-                <div class="image_box_right img-box2">
+                <div class="image_box_right img-box2 wow fadeInUp" data-wow-delay="300ms">
                     <p class="img"></p>
                 </div>
                 <div class="text text-left">
                     <div>
-                        <h1>진료팀</h1>
-                        <div class="title title-font last-title">
+                        <h1 class="wow fadeInUp" data-wow-delay="500ms">진료팀</h1>
+                        <div class="title title-font last-title wow fadeInUp" data-wow-delay="700ms">
                             <span>언제나 환자를 최우선으로 생각</span>하는<br>
                             미소원치과의 진료팀입니다.
                         </div>
-                        <p>
+                        <p class="wow fadeInUp" data-wow-delay="900ms">
                             환자가 더욱 안심하고 불편하지 않은 환경에서 수술을 받을 수 있도록,
                             시술과정을 돕는 어시스트 업무부터, 쾌적한 시술과 청결 유지를 위해
                             시술 도구 위생관리와 멸균 소독까지 놓치지 않는 청결한 진료로
@@ -181,17 +181,17 @@
                 </div>
             </div>
             <div class="staff-info position-relative wow fadeInUp">
-                <div class="image_box_left img-box3">
+                <div class="image_box_left img-box3 wow fadeInUp" data-wow-delay="300ms">
                     <p class="img"></p>
                 </div>
                 <div class="text">
                     <div>
-                        <h1>기공실</h1>
-                        <div class="title title-font last-title">
+                        <h1 class="wow fadeInUp" data-wow-delay="500ms">기공실</h1>
+                        <div class="title title-font last-title wow fadeInUp" data-wow-delay="700ms">
                             의료진과 기공사가 <span>직접 소통하면서</span><br>
                             <span>환자별 맞춤 기공물 </span>을 제작합니다.
                         </div>
-                        <p>
+                        <p class="wow fadeInUp" data-wow-delay="900ms">
                             꼭 맞는 보철물을 보다 빠르게 제공할 수 있는 이유, 미소원치과
                             건물 내 상주하고 있는 기공실입니다. 치과 보철물을 제작하는
                             과정은 치과 의사가 함께 확인하는 것이 중요하기 때문에 치과의사와
