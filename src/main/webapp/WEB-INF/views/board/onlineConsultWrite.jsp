@@ -147,16 +147,6 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="pass-con">
-                                <div class="label">
-                                    <strong>비밀번호</strong>
-                                </div>
-                                <div class="input">
-                                    <div>
-                                        <input class="short-input" name="password" type="password">
-                                    </div>
-                                </div>
-                            </li>
                             <li class="contents-con">
                                 <div class="label">
                                     <strong>내용</strong>
@@ -208,7 +198,6 @@
             var $email1 = $('[name=email1]');
             var $email2 = $('[name=email2]');
             var $email3 = $('[name=email3]');
-            var $password = $('[name=password]');
             var $contents = $('[name=contents]');
 
             if (agree.value !== 'ok') {
@@ -247,12 +236,6 @@
                     $email.focus();
                     return false;
                 }
-            }
-
-            if (!$password.val()) {
-                alert("비밀번호를 입력해주세요.");
-                $password.focus();
-                return false;
             }
 
             if (!$contents.val()) {
