@@ -1,10 +1,10 @@
 package kr.co.hospital.util;
 
-import kr.co.hospital.login.service.UserVo;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import java.io.UnsupportedEncodingException;
+import java.util.Iterator;
 import java.util.Map;
 
 public class StringUtil {
@@ -17,11 +17,11 @@ public class StringUtil {
     }
 
     public static Map changeString(Map board) throws UnsupportedEncodingException {
-        String[] keys = {"subject", "contents", "writer", "thumnail", "thumnail_path", "main_thumnail_img", "real_main_thumnail_img", "real_thumnail", "id", "status", "created_show_date", "prevSubject", "nextSubject"};
+        for (Iterator<String> it = board.keySet().iterator(); it.hasNext();) {
+            String key = it.next();
 
-        for (int i = 0; i < keys.length; i++) {
-            if (board.get(keys[i]) != null && !(board.get(keys[i]) instanceof String)) {
-                board.put(keys[i], changeString(board.get(keys[i])));
+            if (key != null && board.get(key) instanceof byte[]) {
+                board.put(key, changeString(board.get(key)));
             }
         }
 
