@@ -1646,7 +1646,6 @@ body .section07 .bx-pager-link span + span {
 }
 
 .light .fp-menu {
-    background: #fff;
     border-left: 1px solid #cfcfcf;
 }
 
