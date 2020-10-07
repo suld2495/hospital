@@ -39,6 +39,15 @@ public class BoardVo {
     private String main_thumnail;
     private String real_main_thumnail_img;
     private int boardOrder;
+    private String main_view;
+
+    public String getMain_view() {
+        return main_view;
+    }
+
+    public void setMain_view(String main_view) {
+        this.main_view = main_view;
+    }
 
     public String getReal_thumnail() {
         return real_thumnail;

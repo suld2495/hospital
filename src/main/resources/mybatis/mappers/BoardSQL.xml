@@ -11,7 +11,7 @@
         SELECT *
             ,   date_format(created_date, '%Y-%m-%d') created_show_date
           FROM review
-         WHERE num in (1,2,3,4,5,6,7,8,9,10)
+         WHERE main_view = 'Y'
          ORDER BY created_date asc
     </select>
 
@@ -19,8 +19,8 @@
         SELECT *
             ,   date_format(created_date, '%Y-%m-%d') created_show_date
           FROM treatment_case
-         WHERE num in (1,2,3,4,5,6,7,8,9,10)
-         ORDER BY created_date asc
+         WHERE main_view = 'Y'
+         ORDER BY created_date ASC
     </select>
 
     <select id="selectBoardList" parameterType="pagingVo" resultType="map">
@@ -309,6 +309,7 @@
             <if test="main_thumnail != null">			,	main_thumnail_img = #{main_thumnail}					</if>
             <if test="real_main_thumnail_img != null">	,	real_main_thumnail_img = #{real_main_thumnail_img}		</if>
             <if test="thumnail_path != null">			,	thumnail_path = #{thumnail_path}            			</if>
+            <if test="main_view != null">			    ,	main_view = #{main_view}            			        </if>
         </trim>
          WHERE num = #{num}
     </update>

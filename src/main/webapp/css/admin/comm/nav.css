@@ -2,12 +2,11 @@
 /* CSS Document */
 
 nav {width:262px;/* float:none; */background:#282828;height:auto;overflow: hidden;float: left;min-height: 1000px;}
-.head_title {height:80px;background: #002ec4;}
+.head_title {height:80px;background: #161b2f;}
 .head_title p {text-align:center;line-height:82px;color:#fff;text-transform:uppercase;font-size: 12pt;}
 .head_title p a {color:#fff;}
 .head_chang_txt {height:60px; background:#111; }
-.head_chang_txt p {color: #fff;/* text-align:center; */line-height:60px;font-size:15pt;text-transform:capitalize;text-indent: 26px;background: url(/image/admin/angel_stick.png) no-repeat 217px;}
-.head_chang_txt.active p {background: url(/image/admin/angel_stick_after.png) no-repeat 217px;}
+.head_chang_txt p {color: #fff;/* text-align:center; */line-height:60px;font-size:15pt;text-transform:capitalize;text-indent: 26px;}
 .category { color:#fff;}
 .category ul li {font-size:16px;font-family:'나눔바른고딕','NanumBarunGothic';height: 66px;}
 .category ul li a {padding: 25px 0 25px 30px;float: left;width: 224px;}
@@ -23,7 +22,7 @@ nav {width:262px;/* float:none; */background:#282828;height:auto;overflow: hidde
 .line {width:213px;height:1px;/* background:#656565; */margin: 20px 0 0px 22px;}
 .site_move {padding:0px 0 27px 30px; }
 .site_move li {/* padding:0px 0 27px 30px; */font-size:16px;font-family:'나눔바른고딕','NanumBarunGothic';display:inline-block;color:#fff;font-size: 16px;}
-.go {width:56px;height: 28px;background: #002ec4;border-radius:20px;text-align:center;text-transform:uppercase;font-size:14px;line-height:30px;margin-left: 20px;margin-top: 10px;padding:;}
+.go {width:56px;height: 28px;background: #ec6707;border-radius:20px;text-align:center;text-transform:uppercase;font-size:14px;line-height:30px;margin-left: 20px;margin-top: 10px;}
 .footer_category p {text-indent:28px; color:#fff; font-size:16px; margin-bottom:30px;}
 
 .footer_category a {color:#fff;}

@@ -26,7 +26,7 @@
 .search_area{padding-bottom:100px;}
 .tableArticle {margin-top:30px;}
 .boardTable caption {text-align:left;background: url(../../images/admin/checkImage.jpg) no-repeat 0px;padding-left: 19px;color: #282828;font-size: 14px;margin-bottom: 11px;}
-.boardTable thead tr {border-top: 2px solid #5b5487;}
+.boardTable thead tr {border-top: 2px solid #161b2f;}
 .boardTable th,.boardTable tbody td {height:40px;vertical-align:middle;color:#333;font-weight:bold;border-bottom:1px solid #d4d4d4;text-align:center;border-left: 1px solid #d4d4d4;}
 .boardTable tbody td {color: #545454;}
 .boardTable th:first-child ,.boardTable tbody td:first-child {border-left:none;}
@@ -58,3 +58,10 @@
 
 .boardUse.y {color:#d2382c;}
 .boardUse.n {color:#999}
+
+.main-view {cursor: pointer;display: block;color: #ec6707;}
+.main-view span:last-child {display: none;}
+.main-view.active {color: #222;}
+.main-view.active span:first-child {display: none;}
+.main-view.active span:last-child {display: block;}
+.display-none {display: none;}

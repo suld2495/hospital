@@ -29,6 +29,11 @@ public class AdminController {
         this.boardService = boardService;
     }
 
+    @RequestMapping("/")
+    public String root() {
+        return "redirect:/admin/notice/1";
+    }
+
     @RequestMapping("/notice/{currentPage}")
     public String notice(Model model,
                          @PathVariable int currentPage,
@@ -200,4 +205,26 @@ public class AdminController {
 
         return result;
     }
+
+    @RequestMapping(value = "/main-view", method = RequestMethod.POST)
+    @ResponseBody
+    public Map mainView(@RequestParam Map paramMap) {
+        Map result = new HashMap();
+
+        try {
+            BoardVo boardVo = new BoardVo();
+            boardVo.setNum(Integer.parseInt(String.valueOf(paramMap.get("num"))));
+            boardVo.setTableName(String.valueOf(paramMap.get("tableName")));
+            boardVo.setMain_view(String.valueOf(paramMap.get("mainView")));
+
+            boardService.updateBoard(boardVo);
+            result.put("num", 1);
+            result.put("result", "success");
+        } catch (Exception e) {
+            result.put("result", "error");
+        }
+
+        return result;
+    }
+
 }
