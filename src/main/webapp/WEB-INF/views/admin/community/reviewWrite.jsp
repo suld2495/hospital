@@ -163,7 +163,11 @@
 
 <script src="<c:url value="/js/admin/board.js"/>"></script>
 
-<script>
+<script type="text/javascript">
+
+    function imgAdd(img) {
+        boardWrite.imgAdd(img);
+    }
 
     var boardWrite = {
 

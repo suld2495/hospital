@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 
 <link rel="stylesheet" href="<c:url value="/css/member/input.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/board/boardWrite.css"/>" />
@@ -77,7 +78,10 @@
                                 </div>
                                 <div class="input">
                                     <div>
-                                        <input class="long-input" name="writer" value="${boardVo.writer}" maxlength="50">
+                                        <c:set var="writer">
+                                            <sec:authentication property="principal.name"></sec:authentication>
+                                        </c:set>
+                                        <input class="long-input" name="writer" value="${writer}" maxlength="50">
                                     </div>
                                 </div>
                             </li>
