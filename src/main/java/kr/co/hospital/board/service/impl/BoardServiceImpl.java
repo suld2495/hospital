@@ -55,7 +55,7 @@ public class BoardServiceImpl implements BoardService {
 
         if (board != null) {
             board.put("arrow", StringUtil.changeString(boardMapper.selectPrevNextNum(pagingVo)));
-            board.put("appendix", boardMapper.selectAppendix(pagingVo));
+            board.put("appendix", selectAppendix(pagingVo));
         }
 
         return board;
@@ -157,12 +157,18 @@ public class BoardServiceImpl implements BoardService {
 
     @Override
     public Map<String, Object> selectTable(String url) throws Exception {
-        return boardMapper.selectTable(url);
+        return StringUtil.changeString(boardMapper.selectTable(url));
     }
 
     @Override
     public List<Map> selectAppendix(PagingVo pagingVo) throws Exception {
-        return boardMapper.selectAppendix(pagingVo);
+        List<Map> list = boardMapper.selectAppendix(pagingVo);
+
+        for (Iterator<Map> it = list.iterator(); it.hasNext();) {
+            StringUtil.changeString(it.next());
+        }
+
+        return list;
     }
 
     @Override
