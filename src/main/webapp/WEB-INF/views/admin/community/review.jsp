@@ -320,7 +320,7 @@
     $(document).ready(function() {
         list.init();
 
-        $('.main-view').click(function () {
+        $(document).on('click', '.main-view',function () {
             var type;
             var that = $(this);
             var num = $(this).data("num")

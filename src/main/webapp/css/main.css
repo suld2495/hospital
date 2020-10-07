@@ -673,6 +673,7 @@ body {
 .section07 .max-layout-width {
     margin-bottom: 68px;
     /* letter-spacing: -2px; */
+    max-width: 1471px;
 }
 
 .section07 .max-layout-width:first-child {
@@ -1953,7 +1954,7 @@ body .section07 .bx-pager-link span + span {
 }
 
 .section04 {
-    background: url(../images/main/bg02.jpg) no-repeat center;
+    background: #fff url(../images/main/bg02.jpg) no-repeat center;
     background-position-y: 80px;
     background-size: cover;
 }

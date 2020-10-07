@@ -2,6 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <link rel="stylesheet" href="<c:url value="/css/board/boardView.css"/>" />
+<link rel="stylesheet" href="<c:url value="/css/board/reviewView.css"/>" />
 
 <c:set value="review-view" var="url" />
 
