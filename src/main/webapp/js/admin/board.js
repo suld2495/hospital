@@ -1,9 +1,9 @@
-var content = '/hospital';
+var content = '';
 document.write("<script type='text/javascript' src='" + content + "/js/admin/newUtil.js'><"+"/script>");
 document.write("<script type='text/javascript' src='" + content + "/js/admin/util.js'><"+"/script>");
-document.write("<script type='text/javascript' src='" + content + "'/js/admin/common.js'><"+"/script>");
+document.write("<script type='text/javascript' src='" + content + "/js/admin/common.js'><"+"/script>");
 document.write("<script type='text/javascript' src='" + content + "/lib/editor/js/service/HuskyEZCreator.js' charset='utf-8'><"+"/script>");
-document.write("<script type='text/javascript' src='" + content + "'/js/admin/form/jquery.form.min.js'><"+"/script>");
+document.write("<script type='text/javascript' src='" + content + "/js/admin/form/jquery.form.min.js'><"+"/script>");
 
 
 

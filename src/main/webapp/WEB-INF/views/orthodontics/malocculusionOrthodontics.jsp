@@ -152,10 +152,10 @@
                         <div class="bx-controls bx-has-controls-direction">
                             <div class="bx-controls-direction">
                                 <a class="bx-prev pointer">
-                                    <img src="/hospital/images/main/left02.png">
+                                    <img src="<c:url value="/images/main/left02.png"/>">
                                 </a>
                                 <a class="bx-next pointer">
-                                    <img src="/hospital/images/main/right02.png">
+                                    <img src="<c:url value="/images/main/right02.png"/>">
                                 </a>
                             </div>
                             <div class="tab-pagination">

@@ -4,7 +4,8 @@
  * @See nhn.husky.SE2M_Configuration 
  * @ 팝업 마크업은 SimplePhotoUpload.html과 SimplePhotoUpload_html5.html이 있습니다. 
  */
-
+// var context = "/hospital";
+var context = "";
 nhn.husky.SE2M_AttachQuickPhoto = jindo.$Class({		
 	name : "SE2M_AttachQuickPhoto",
 
@@ -47,7 +48,7 @@ nhn.husky.SE2M_AttachQuickPhoto = jindo.$Class({
 	 * nhn.husky.SE2M_AttachQuickPhoto.prototype.makePopupURL로 덮어써서 사용하시면 됨.
 	 */
 	makePopupURL : function(){
-		var sPopupUrl = "/hospital/lib/editor/js/photo_uploader/popup/photo_uploader.html";
+		var sPopupUrl = context + "/lib/editor/js/photo_uploader/popup/photo_uploader.html";
 		
 		return sPopupUrl;
 	},
