@@ -38,12 +38,12 @@
         </div>
     </section>
 
-    <section class="section02 wow fadeInUp">
+    <section class="section02">
         <div class="max-layout-width">
-            <h2 class="section-title">원데이 임플란트 <span class="bold section-title-color">임시 보철물 부착까지 하루 만에</span></h2>
-            <p class="section-text">원데이 임플란트는 환자 잇몸 뼈 상태, 전신질환 여부를 고려하여 치료여부가 결정되므로 전문의 상담이 반드시 필요합니다.</p>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">원데이 임플란트 <span class="bold section-title-color">임시 보철물 부착까지 하루 만에</span></h2>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">원데이 임플란트는 환자 잇몸 뼈 상태, 전신질환 여부를 고려하여 치료여부가 결정되므로 전문의 상담이 반드시 필요합니다.</p>
 
-            <div class="table-container">
+            <div class="table-container wow fadeInUp" data-wow-delay="900ms">
                 <ul class="step">
                     <li>구분</li>
                     <li>1단계</li>
@@ -91,18 +91,18 @@
         </div>
     </section>
 
-    <section class="section03 section-quotes-title section-quotes-title-right wow fadeInUp">
-        <div class="image_box_right">
+    <section class="section03 section-quotes-title section-quotes-title-right">
+        <div class="image_box_right wow fadeInUp" data-wow-delay="600ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                         원데이 임플란트는<br>
                         <strong>정밀도가 우선</strong>입니다
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         진단 결과를 판단하고 모의수술,수술 계획 설계도, 실제 환자 수술 집도 모두 의료진의 몫으로 현명한 의료진 선정이 좋은 네비게이션 임플란트를 만듭니다.
                         수년간 다양하고 풍부한 음팔른트 케이스 치료를 통해 깊이 있는 임플란트 치료를 완성하는 미소원치과의 의료진들과 함께하세요
                     </p>
@@ -112,20 +112,20 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section04 section-top-title-right-two wow fadeInUp">
+    <section class="section04 section-top-title-right-two">
         <div class="max-layout-width">
             <ul>
-                <li class="img01 img"></li>
-                <li class="img02 img"></li>
+                <li class="img01 img wow fadeInUp" data-wow-delay="300ms"></li>
+                <li class="img02 img wow fadeInUp" data-wow-delay="600ms"></li>
             </ul>
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="900ms">
                         <span class="section-title-color bold">시간 단축과 동시에</span><br>
                         일상 생활이 <strong>바로 가능한</strong><br>
                         원데이 임플란트
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="1200ms">
                         번거롭고 어려운 수술이라고 생각하신 임플란트, 이제 <strong>바쁜 직장인이나 여러번 내원하기 힘드신 분들을 위해 발치부터 임플란트 수술까지 하루에 완성</strong>해드립니다.
                         발치 후 임플란트를 바로 심고 바로 <strong>임시 보철물을 함</strong>으로써 대인관계에 대한 불편함을 감소시켜 일상생활이 가능하게 도와주는 임플란트로 환자분들의 부담감을 줄일 수 있습니다.
                     </p>
@@ -134,46 +134,46 @@
         </div>
     </section>
 
-    <section class="section05 img-four wow fadeInUp">
+    <section class="section05 img-four">
         <div class="max-layout-width">
-            <div class="text">
+            <div class="text wow fadeInUp" data-wow-delay="300ms">
                 <h2><strong>원데이 임플란트</strong> 이런 분에게 <strong>추천해요</strong></h2>
             </div>
-            <div class="image_box_right">
+            <div class="image_box_right wow fadeInUp" data-wow-delay="600ms">
                 <p class="img"></p>
             </div>
             <div class="text">
                 <ul>
-                    <li class="img01"><p>심한 충치로 인해<br><strong>치아를 뽑아야</strong> 하는 분</p></li>
-                    <li class="img02"><p>외상이나 사고 등으로<br> <strong>치아가 빠진지</strong> 얼마안되신 분</p></li>
-                    <li class="img03"><p><strong>신경치료</strong>로 증상이<br>해결되지 않는 분</p></li>
-                    <li class="img04"><p>치주질환(풍치)때문에<br><strong>치아를 뽑아야</strong>하는 분</p></li>
+                    <li class="img01 wow fadeInUp" data-wow-delay="300ms"><p>심한 충치로 인해<br><strong>치아를 뽑아야</strong> 하는 분</p></li>
+                    <li class="img02 wow fadeInUp" data-wow-delay="600ms"><p>외상이나 사고 등으로<br> <strong>치아가 빠진지</strong> 얼마안되신 분</p></li>
+                    <li class="img03 wow fadeInUp" data-wow-delay="900ms"><p><strong>신경치료</strong>로 증상이<br>해결되지 않는 분</p></li>
+                    <li class="img04 wow fadeInUp" data-wow-delay="1200ms"><p>치주질환(풍치)때문에<br><strong>치아를 뽑아야</strong>하는 분</p></li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <section class="section06 list-content list-content-right wow fadeInUp">
-        <div class="image_box_left">
+    <section class="section06 list-content list-content-right">
+        <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                         임플란트의 모든 과정이<br>
                         <span class="section-title-color bold">단 하루만에 가능한 이유</span>
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         시간적인 여유가 없다면 원데이 임플란트!<br>
                         발치 후 즉시 임플란트 식립, 임시 보철 제작까지 한번에 이루어져 빠른 일상생활 복귀가 가능합니다.
                     </p>
-                    <p class="pager active"><span>01</span>뼈이식 특허 보유 의료진의 수준 높은 진료</p><br>
-                    <p class="pager"><span>02</span>다양한 첨단장비 시스템 구비</p><br>
-                    <p class="pager"><span>03</span>통증 줄여주는 무통 마취가 보우</p><br>
-                    <p class="pager"><span>04</span>건물 내 협력기공소 상주로 빠른 보철물 제작 가능</p><br>
-                    <p class="pager"><span>05</span>임플란트사후 보장 시스템 도입</p><br>
-                    <p class="pager"><span>06</span>다수의 성공 사례 보유</p><br>
+                    <p class="pager active wow fadeInUp" data-wow-delay="600ms"><span>01</span>뼈이식 특허 보유 의료진의 수준 높은 진료</p><br>
+                    <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>02</span>다양한 첨단장비 시스템 구비</p><br>
+                    <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>03</span>통증 줄여주는 무통 마취가 보우</p><br>
+                    <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>04</span>건물 내 협력기공소 상주로 빠른 보철물 제작 가능</p><br>
+                    <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>05</span>임플란트사후 보장 시스템 도입</p><br>
+                    <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>06</span>다수의 성공 사례 보유</p><br>
                 </div>
             </div>
         </div>
@@ -181,25 +181,25 @@
         </div>
     </section>
 
-    <section class="section07 img-four background-animation wow fadeInUp">
+    <section class="section07 img-four background-animation">
         <div class="bg"></div>
         <div class="max-layout-width">
-            <h2><strong>원데이 임플란트 수술 장점</strong>은?</h2>
-            <p>
+            <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>원데이 임플란트 수술 장점</strong>은?</h2>
+            <p class="wow fadeInUp" data-wow-delay="600ms">
                 어떤 이유로든 치아가 심하게 손상되어 발치해야하는 경우<br class="mobile-640"> 또는 치아가 없이<br>
                 몇 년 동안 오래지속된 경우 <span><strong>모두<br class="mobile-640"> 원데이 임플란트 수술 당일 식사</strong></span>를 하실 수 있도록 해드립니다.
             </p>
             <ul class="text">
-                <li class="img01">
+                <li class="img01 wow fadeInUp" data-wow-delay="600ms">
                     <p>치료 당일 포함 1~3회<br>최소한의 병원내원</p>
                 </li>
-                <li class="img02">
+                <li class="img02 wow fadeInUp" data-wow-delay="900ms">
                     <p>10분~20분의 <br>짧은 치료시간</p>
                 </li>
-                <li class="img03">
+                <li class="img03 wow fadeInUp" data-wow-delay="1200ms">
                     <p>당일 또는<br>1주일만에 회복</p>
                 </li>
-                <li class="img04">
+                <li class="img04 wow fadeInUp" data-wow-delay="1500ms">
                     <p>기능적 심미적<br>뛰어난 결과</p>
                 </li>
             </ul>
@@ -304,19 +304,19 @@
             <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="300ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="600ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="700ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>

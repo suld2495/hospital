@@ -42,13 +42,13 @@
         </div>
     </section>
 
-    <section class="section02 two-image-right-text wow fadeInUp">
+    <section class="section02 two-image-right-text">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 <span class="section-title-color">세계적인 <strong>디지털 장비</strong>로</span><br>
                 <strong>정확하고 안전한 진료를 약속합니다.</strong>
             </h2>
-            <p class="section-text">
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">
                 미소원치과는 <strong>세계 최고의 치과장비 독일 SIRONA, 덴마크 TRIOS3등을 활용하여</strong>
                 환자분들에게 <strong>최고의 치료결과를 제공할 수 있도록 노력</strong>하고 있습니다.
             </p>
@@ -56,17 +56,17 @@
     </section>
 
     <section class="section03 two-image-right wow fadeInUp">
-        <div class="bg"></div>
+        <div class="bg wow fadeInUp" data-wow-delay="500ms"></div>
         <div class="max-layout-width">
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="300ms">
                     <img src="<c:url value='/images/sub/implant/digital/digital02.jpg' /> ">
                     <p>
                         모니터를 통해<br>
                         수월한 환자와의 소통
                     </p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="600ms">
                     <img src="<c:url value='/images/sub/implant/digital/digital03.jpg' /> ">
                     <p>
                         체어 조절을 통한<br>
@@ -74,26 +74,26 @@
                     </p>
                 </li>
             </ul>
-            <div class="image_box_right">
+            <div class="image_box_right wow fadeInUp" data-wow-delay="900ms">
                 <p class="img"></p>
             </div>
         </div>
     </section>
 
-    <section class="section04 wow fadeInUp">
+    <section class="section04">
         <div class="max-layout-width">
             <div class="con">
-                <div class="image_box_left">
+                <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
                     <p class="img"></p>
                 </div>
                 <div class="text">
                     <div>
-                        <h2 class="section-title">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                             디지털 치과로의<br>
                             선택 아닌 필수 장비!<br>
                             <strong class="section-title-color">구강 스캐너 TRIOS3 트리오스</strong>
                         </h2>
-                        <p class="section-text">
+                        <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                             트리오스는 세계 1위 덴마크 3SHAPE 사의 첨단 디지털 기기입니다.
                             기존의 본을 뜨는 작업이 아니라 최첨단 스캐너를 통해 신경의 위치,골조직,주변
                             치아와의 거리 등을 카메라, 컴포터를 이용하여 빠르고 편안하게 환자분의 구강상태를 검사하는 시스템입니다.
@@ -102,7 +102,7 @@
                 </div>
             </div>
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="300ms">
                     <p>01</p>
                     <div class="bg bg01"></div>
                     <h5>
@@ -110,7 +110,7 @@
                         생생하게 확인
                     </h5>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="500ms">
                     <p>02</p>
                     <div class="bg bg02"></div>
                     <h5>
@@ -118,7 +118,7 @@
                         위한 고감도 사진 촬영
                     </h5>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="700ms">
                     <p>03</p>
                     <div class="bg bg03"></div>
                     <h5>
@@ -126,7 +126,7 @@
                         장치로 관리
                     </h5>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <p>04</p>
                     <div class="bg bg04"></div>
                     <h5>
@@ -138,18 +138,18 @@
         </div>
     </section>
 
-    <section class="section05 section-quotes-title-left section-quotes-title wow fadeInUp">
-        <div class="image_box_left">
+    <section class="section05 section-quotes-title-left section-quotes-title">
+        <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title  wow fadeInUp" data-wow-delay="600ms">
                         평생 쓸 임플란트 <strong>신중하게</strong><br>
                         <strong>결정하셔야 합니다.</strong>
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         한번 심으면 평생 쓸 임플란트 초진부터 수술, 사후관리까지 내 치아와 구강생태를
                         정확히 파악하고 있는 평생주치의가 꼭 필요합니다. 또한, 임플란트 재료는 검증받은
                         제품을 사용해야하며, 정확한 진단을 위한 첨단장비를 보유하고 있어야합니다.
@@ -161,10 +161,10 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section07 background-common wow fadeInUp">
+    <section class="section07 background-common">
         <div class="bg"></div>
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 완성도 차이를 만드는 <strong><span class="section-title-color">정품 임플란트 사용</span></strong>
                 미소원치과는 <strong>안전을 우선</strong>으로 합니다.
             </h2>
@@ -172,7 +172,7 @@
                 안심하세요! 미소원치과의 모든재료는 정품재료 사용과 보증서 발급을 원칙으로 합니다.<br>
                 품질과 안전성이 검증된 브랜드 정품재료 사용은 임플란트 수술의 기본입니다.
             </p>
-            <div class="full-layout-width">
+            <div class="full-layout-width wow fadeInUp" data-wow-delay="600ms">
                 <div class="max-layout-width">
                     <div class="imp-img"></div>
                 </div>
@@ -386,26 +386,26 @@
 
     <section class="board-link wow fadeInUp">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 학습하고 연구하는 전문 의료진의<br>
                 <span class="section-title-color">정직하고 양심적인 진료</span>
             </h2>
             <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="300ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="600ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>

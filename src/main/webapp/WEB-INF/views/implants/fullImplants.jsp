@@ -41,37 +41,37 @@
         </div>
     </section>
 
-    <section class="section02 wow fadeInUp">
+    <section class="section02">
         <div class="max-layout-width">
             <div class="text-box left-text-box">
                 <h3 class="move-title wow slideInLeft">FIXED FULL IMPLANT</h3>
-                <h2 class="section-title">
+                <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                     다수의 임플란트를 식립<br>
                     <span class="bold section-title-color">고정형 전체 임플란트</span>
                 </h2>
-                <p class="section-text">
+                <p class="section-text wow fadeInUp" data-wow-delay="600ms">
                     3차원 진단 후 컴퓨터 모의 수술로 잇몸,뼈,신경 등을 종합적으로 분석해 <strong>최적의 위치에 잇몸 절개없이 임플란트</strong>를 할 수있습니다.<br>
                     임플란트 개수가 많아도 정확하고 안전한 수술이 가능하며, <strong>모의 수술을 통해 정확도는 높이고 실패확률은 줄입니다.</strong>
                 </p>
             </div>
         </div>
-        <div class="image_box_right img01">
+        <div class="image_box_right img01 wow fadeInUp" data-wow-delay="900ms">
             <p class="img"></p>
         </div>
     </section>
 
-    <section class="section03 section-top-title-left wow fadeInUp">
-        <div class="image_box_left img01">
+    <section class="section03 section-top-title-left">
+        <div class="image_box_left img01 wow fadeInUp" data-wow-delay="300ms">
             <p class="img"></p>
         </div>
         <h3 class="move-title wow slideInRight">IMPLANT DENTURES</h3>
         <div class="max-layout-width">
             <div class="text-box left-text-box">
-                <h2 class="section-title">
+                <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                     일반 틀니에 비해 저렴한<br>
                     <span class="section-title-color"><strong>임플란트틀니</strong></span>
                 </h2>
-                <p class="section-text">
+                <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                     <strong>2~4개의 임플란트를 심은 다음 연결 장치를 사용해서 틀니를 고정</strong>시키는 방법입니다.
                     기존의 틀니에 비해 잘 빠지지 않고, <strong>저작력도 좋으며 전체 임플란트에 비해 비용이 저렴하다는 장점</strong>이 있습니다. 단, 점진적인 뼈 흡수가 진행되므로 임플란트 식립이
                     불가능한 경우에만 권장합니다.
@@ -80,18 +80,18 @@
         </div>
     </section>
 
-    <section class="section04 section-quotes-title-right wow fadeInUp">
-        <div class="image_box_right">
+    <section class="section04 section-quotes-title-right">
+        <div class="image_box_right wow fadeInUp" data-wow-delay="600ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                         미소원치과는 <strong>고난이도</strong><br>
                         <strong>임플란트 수술도 가능</strong>합니다
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         임플란트를 할 수 있는 것과 잘하는 것은 다릅니다. 어렵고 까다로운 임플란트 케이스도 미소원치과에서는 가능합니다. 환자분의 치아 상태,치주상태,턱관절 상태를 비롯해
                         얼굴형,이미지 등을 종합적으로 판단하여 자연스러운 결과를 주기위해 세심하게 체크합니다. 임플란트,미소원치과에서 끝까지 책임지겠습니다.
                     </p>
@@ -101,35 +101,35 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section05 img-four background-animation wow fadeInUp">
+    <section class="section05 img-four background-animation">
         <div class="bg"></div>
         <div class="max-layout-width">
-            <h2><strong>전체 임플란트의 장점</strong>은?</h2>
-            <p>
+            <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>전체 임플란트의 장점</strong>은?</h2>
+            <p class="wow fadeInUp" data-wow-delay="600ms">
                 전체 임플란트 성공의 핵심은 얼마나<br class="mobile"> <strong>최소한의 개수로 최대한의 효과를 내느냐</strong>입니다.<br>
                 미소원치과는 <strong>다년간의 임상 경험을 가진 의료진</strong>들이<br class="mobile"> 임플란트 시술을 합니다.
             </p>
             <ul class="text">
-                <li class="img01">
+                <li class="img01 wow fadeInUp" data-wow-delay="900ms">
                     <p>자연치아와 흡사한<br>심미성&저작력</p>
                 </li>
-                <li class="img02">
+                <li class="img02 wow fadeInUp" data-wow-delay="1200ms">
                     <p>주변 치아에 손상 및<br>악영향을 주지 않음</p>
                 </li>
-                <li class="img03">
+                <li class="img03 wow fadeInUp" data-wow-delay="1500ms">
                     <p>치아 및 잇몸 건강회복<br>잇몸뼈 소실 방지</p>
                 </li>
-                <li class="img04">
+                <li class="img04 wow fadeInUp" data-wow-delay="1800ms">
                     <p>반영구적인 수명으로<br>비용대비 합리적임</p>
                 </li>
             </ul>
         </div>
     </section>
 
-    <section class="section06 table wow fadeInUp">
+    <section class="section06 table">
         <div class="max-layout-width">
-            <h2><strong>전체임플란트</strong>와 <strong>임플란트 틀니</strong>의 차이점은?</h2>
-            <div class="table-container">
+            <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>전체임플란트</strong>와 <strong>임플란트 틀니</strong>의 차이점은?</h2>
+            <div class="table-container wow fadeInUp" data-wow-delay="600ms">
                 <table class="table">
                     <thead>
                         <tr>
@@ -198,19 +198,19 @@
         </div>
     </section>
 
-    <section class="section07 wow fadeInUp">
+    <section class="section07">
         <div class="max-layout-width">
-            <h2 class="section-title"><span class="section-title-color">만 65세 이상</span> 임플란트틀니·건강보험</h2>
-            <p class="section-text">3D 디지털 기술력으로 오차를 최소화하여 정확한 위치에 임플란트를 심습니다.</p>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms"><span class="section-title-color">만 65세 이상</span> 임플란트틀니·건강보험</h2>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">3D 디지털 기술력으로 오차를 최소화하여 정확한 위치에 임플란트를 심습니다.</p>
             <ul>
-                <li class="img img01">
+                <li class="img img01 wow fadeInUp" data-wow-delay="900ms">
                     <h2>임플란트</h2>
                     <p><strong>본인부담률</strong> : 진료비의 <span>30%</span></p>
                     <p><strong>급여대상</strong> : 만 65세 이상 부분무치악환자</p>
                     <p><strong>보험적용이 안되는경우</strong> : 완전무치악환자,임플란트를 위한 뼈이식 비용</p>
                     <p><strong>적용개수</strong> : 상,하악 구분없이 1인당 평생 2개</p>
                 </li>
-                <li class="img img02">
+                <li class="img img02 wow fadeInUp" data-wow-delay="1200ms">
                     <h2>틀니</h2>
                     <p><strong>본인부담률</strong> : 진료비의 <span>30%</span></p>
                     <p><strong>급여대상</strong> : 만 65세 이상 건강보험 가입자 또는 피부양자</p>
@@ -299,28 +299,28 @@
         </div>
     </section>
 
-    <section class="board-link wow fadeInUp">
+    <section class="board-link">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 학습하고 연구하는 전문 의료진의<br>
                 <span class="section-title-color">정직하고 양심적인 진료</span>
             </h2>
-            <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="1200ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="1500ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>

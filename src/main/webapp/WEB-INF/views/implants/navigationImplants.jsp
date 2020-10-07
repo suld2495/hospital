@@ -40,68 +40,68 @@
         </div>
     </section>
 
-    <section class="section02 section-top-title-left-two wow fadeInUp">
+    <section class="section02 section-top-title-left-two">
         <div class="max-layout-width">
             <div class="text">
-                <h2 class="section-title">
+                <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                     <span class="section-title-color bold">3D 디지털 기술력으로 오차를</span><br>
                     <span class="section-title-color bold">최소화</span>하여 <strong>정확한 위치에</strong><br>
                     <strong>임플란트를 심는</strong> 네비게이션 임플란트
                 </h2>
-                <p class="section-text">
+                <p class="section-text wow fadeInUp" data-wow-delay="600ms">
                     <strong>3D 첨단 장비를 통해 환자를 진단</strong>한 뒤 이를 토대로 <strong>모의 수술을 시뮬레이션</strong>한 뒤
                     컴퓨터가 디자인한 가이드에 맞추어 무절개로 <strong>임플란트를 식립하는 임플란트 시스템</strong>입니다. 개인의 상태에 따라 네비게이션
                     임플란트를 치료방법이 적합하지 않을 수 있습니다. 임플란트는 지속적인 관리가 미흡한 경우 감염 등으로 인해 추가치료 및 재수술이 필요할 수 있습니다.
                 </p>
             </div>
             <ul>
-                <li class="img01 img"></li>
-                <li class="img02 img"></li>
+                <li class="img01 img wow fadeInUp" data-wow-delay="900ms"></li>
+                <li class="img02 img wow fadeInUp" data-wow-delay="1200ms"></li>
             </ul>
         </div>
     </section>
 
-    <section class="section04 list-content wow fadeInUp">
-        <div class="image_box_left">
+    <section class="section04 list-content">
+        <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div>
-                <h2 class="section-title">
+                <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                     <span class="section-title-color">정확하니까, 빠르고, 편안하고</span><br>
                     안전지향적인 네비게이션 임플란트
                 </h2>
-                <p class="section-text">
+                <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                     임플란트는 잘 심을수록 오래갑니다.<br>
                     1:1 맞춤 시스템으로 잇몸 라인을 따라 들뜸 없이 착!<br>
                     미소원치과의 네비게이션 임플란트가 사랑받는 진짜 이유를 알려드립니다!
                 </p>
-                <p class="pager active"><span>01</span>잘못된 수술로 인한 부작용 최소화 (이물감,빠짐,흔들림,신경손상)</p><br>
-                <p class="pager"><span>02</span>최소절개로 수술 시 출혈,통증,붓기 감소</p><br>
-                <p class="pager"><span>03</span>내원 횟수 단축, 더욱 빨라지는 치료 기간</p><br>
-                <p class="pager"><span>04</span>임플란트 수술 후 회복기간 감소</p><br>
-                <p class="pager"><span>05</span>치아 교합을 정확히 고려한 임플란트 수술</p><br>
-                <p class="pager"><span>06</span>건물 내 상주하는 기공실에서 나에게 꼭 맞는 보철물 제작</p><br>
-                <p class="pager"><span>07</span>오랜 시간이 지나도 계속 사용할 수 있는 임플란트</p><br>
+                <p class="pager active wow fadeInUp" data-wow-delay="1200ms"><span>01</span>잘못된 수술로 인한 부작용 최소화 (이물감,빠짐,흔들림,신경손상)</p><br>
+                <p class="pager wow fadeInUp" data-wow-delay="1500ms"><span>02</span>최소절개로 수술 시 출혈,통증,붓기 감소</p><br>
+                <p class="pager wow fadeInUp" data-wow-delay="1500ms"><span>03</span>내원 횟수 단축, 더욱 빨라지는 치료 기간</p><br>
+                <p class="pager wow fadeInUp" data-wow-delay="1500ms"><span>04</span>임플란트 수술 후 회복기간 감소</p><br>
+                <p class="pager wow fadeInUp" data-wow-delay="1500ms"><span>05</span>치아 교합을 정확히 고려한 임플란트 수술</p><br>
+                <p class="pager wow fadeInUp" data-wow-delay="1500ms"><span>06</span>건물 내 상주하는 기공실에서 나에게 꼭 맞는 보철물 제작</p><br>
+                <p class="pager wow fadeInUp" data-wow-delay="1500ms"><span>07</span>오랜 시간이 지나도 계속 사용할 수 있는 임플란트</p><br>
             </div>
         </div>
         <div class="bg">
         </div>
     </section>
 
-    <section class="section05 section-quotes-title section-quotes-title-right wow fadeInUp">
-        <div class="image_box_right">
+    <section class="section05 section-quotes-title section-quotes-title-right">
+        <div class="image_box_right wow fadeInUp" data-wow-delay="600ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                         <strong>고도의 전문성을 필요</strong>로하는<br>
                         디지털 임플란트도 <strong>의료진이</strong><br>
                         <strong>중요</strong>합니다.
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         진단 결과를 판단하고 모의수술,수술 계획 설계도,실제 환자 수술집도 모두
                         의료진의 몫으로 현명한 의료진 선정이 좋은 네비게이션 임플란트를 만듭니다.
                         수년간 다양하고 풍부한 임플란트 케이스 치료를 통해 깊이 있는 임플란트 치료를 완성하는
@@ -113,9 +113,9 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section06 left-fade-slider-container wow fadeInUp">
+    <section class="section06 left-fade-slider-container">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 <strong><span class="section-title-color">
                     모의시술 / 최소 절개 / 빠른 회복 / 높은 성공률<br>
                 </span></strong>
@@ -125,7 +125,7 @@
         <div class="slider-container post-slider">
             <div class="left-fade-sldier posts">
                 <div class="slides">
-                    <div class="slide" data-index="01">
+                    <div class="slide wow fadeInUp" data-wow-delay="300ms" data-index="01">
                         <div class="swiper-slide">
                             <div class="img01 img"></div>
                             <div class="text">
@@ -136,7 +136,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="slide" data-index="02">
+                    <div class="slide wow fadeInUp" data-wow-delay="600ms" data-index="02">
                         <div class="swiper-slide">
                             <div class="img02 img"></div>
                             <div class="text">
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="slide" data-index="03">
+                    <div class="slide wow fadeInUp" data-wow-delay="900ms" data-index="03">
                         <div class="swiper-slide">
                             <div class="img03 img"></div>
                             <div class="text">
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="slide" data-index="04">
+                    <div class="slide wow fadeInUp" data-wow-delay="1200ms" data-index="04">
                         <div class="swiper-slide">
                             <div class="img04 img"></div>
                             <div class="text">
@@ -175,10 +175,10 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section07 table wow fadeInUp">
+    <section class="section07 table">
         <div class="max-layout-width">
-            <h2><strong>일반 임플란트</strong>와 <strong>네비게이션 임플란트</strong>의 차이점은?</h2>
-            <div class="table-container">
+            <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>일반 임플란트</strong>와 <strong>네비게이션 임플란트</strong>의 차이점은?</h2>
+            <div class="table-container wow fadeInUp" data-wow-delay="600ms">
                 <table>
                     <colgroup>
                         <col width="43%">
@@ -334,7 +334,7 @@
         </div>
     </section>
 
-    <section class="board-link wow fadeInUp">
+    <section class="board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 전문 의료진의<br>
@@ -343,19 +343,19 @@
             <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="300ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="600ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>

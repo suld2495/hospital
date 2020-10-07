@@ -39,14 +39,14 @@
         </div>
     </section>
 
-    <section class="section02 section-top-title-left-two wow fadeInUp">
+    <section class="section02 section-top-title-left-two">
         <div class="max-layout-width">
             <div class="text">
-                <h2 class="section-title">
+                <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                     미소원 치과는<br class="mobile"><span class="section-title-color bold"> 맞춤형 잇몸뼈 이식</span>으로<br>
                     <strong>오래가는 임플란트</strong>입니다.
                 </h2>
-                <p class="section-text">
+                <p class="section-text wow fadeInUp" data-wow-delay="600ms">
                     임플란트를 하고 싶어도 <strong>잇몸뼈가 충분하지 않으면 임플란트 시술이 어렵습니다.</strong> 치아상실 후 오랜기간이 지나 잇몸뼈가 많이 흡수된 경우,뼈이식,치조골 이식을 동반하여
                     임플란트를 시술하게 됩니다.<br>
                     <strong>치조골을 형성하는 단백질로 이루어진 뼈이식</strong>재는 뼈 조직내의 줄기세포를 자극하여 <strong>잇몸뼈를 빠르게 회복시키고 튼튼히</strong> 하게 됩니다.
@@ -54,44 +54,44 @@
                 </p>
             </div>
             <ul>
-                <li class="img01 img"></li>
-                <li class="img02 img"></li>
+                <li class="img01 img wow fadeInUp" data-wow-delay="900ms"></li>
+                <li class="img02 img wow fadeInUp" data-wow-delay="1200ms"></li>
             </ul>
         </div>
     </section>
 
-    <section class="section03 img-four wow fadeInUp">
+    <section class="section03 img-four">
         <div class="max-layout-width">
-            <div class="text">
+            <div class="text wow fadeInUp" data-wow-delay="300ms">
                 <h2><strong>뼈이식 임플란트</strong> 이런 분에게 <strong>추천해요</strong></h2>
             </div>
-            <div class="image_box_left">
+            <div class="image_box_left wow fadeInUp" data-wow-delay="600ms">
                 <p class="img"></p>
             </div>
             <div class="text">
                 <ul>
-                    <li class="img01"><p><strong>치아를 상실한지</strong> 오랜<br>시간이 흐른 환자분</p></li>
-                    <li class="img02"><p>오랜기간 <strong>틀니나 브릿지를<br> 사용해</strong> 잇몸이 약해진 경우</p></li>
-                    <li class="img03"><p>잇몸 염증으로 인해<br><strong>뼈가 많이 내려간 경우</strong></p></li>
-                    <li class="img04"><p>잇몸뼈가 좋지 않아<br><strong>임플란트 시술을 못 받으신 분</strong></p></li>
+                    <li class="img01 wow fadeInUp" data-wow-delay="900ms"><p><strong>치아를 상실한지</strong> 오랜<br>시간이 흐른 환자분</p></li>
+                    <li class="img02 wow fadeInUp" data-wow-delay="1200ms"><p>오랜기간 <strong>틀니나 브릿지를<br> 사용해</strong> 잇몸이 약해진 경우</p></li>
+                    <li class="img03 wow fadeInUp" data-wow-delay="1500ms"><p>잇몸 염증으로 인해<br><strong>뼈가 많이 내려간 경우</strong></p></li>
+                    <li class="img04 wow fadeInUp" data-wow-delay="1800ms"><p>잇몸뼈가 좋지 않아<br><strong>임플란트 시술을 못 받으신 분</strong></p></li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <section class="section04 wow fadeInUp">
+    <section class="section04">
         <div class="max-layout-width">
             <h2>뼈이식 임플란트 <strong>진행과정</strong></h2>
             <ul>
-                <li class="img img01">
+                <li class="img img01 wow fadeInUp" data-wow-delay="300ms">
                     <h5>1 STEP</h5>
                     <p>잇몸뼈가 얼마나 부족한지<br>상태 확인</p>
                 </li>
-                <li class="img img02">
+                <li class="img img02 wow fadeInUp" data-wow-delay="600ms">
                     <h5>2 STEP</h5>
                     <p>환자에게 가장 적합한<br>이식재료로 뼈 이식 진행</p>
                 </li>
-                <li class="img img03">
+                <li class="img img03 wow fadeInUp" data-wow-delay="900ms">
                     <h5>3 STEP</h5>
                     <p>임플란트 식립 및<br>보철물 장착해 치료마무리</p>
                 </li>
@@ -99,19 +99,19 @@
         </div>
     </section>
 
-    <section class="section05 section-quotes-title section-quotes-title-right wow fadeInUp">
-        <div class="image_box_right">
+    <section class="section05 section-quotes-title section-quotes-title-right">
+        <div class="image_box_right wow fadeInUp" data-wow-delay="600ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                         고난이도 <strong>상악동 거상술을</strong><br>
                         <strong>부작용 없이 첨단장비가 있는</strong><br>
                         미소원치과에서!
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         임플란트 식립공간을 만드는 고난이도 수술인 상악동 거상술! 상악동이란 위턱뼈 속의 비어있는 공간입니다. 상악동과 잇몸뼈 사이에 임플란트를 심을 수 있는 양의 뼈가 남지 않았을 때,
                         잇몸뼈 상방에 위치한 상악동의 밑을 상방으로 들어올리고 그 공간에 뼈를 채워 넣어서 임플란트를 심을 수 있는 뼈의 양을 확보하는 수술입니다.
                     </p>
@@ -121,15 +121,15 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section07 text-slider wow fadeInUp">
-        <h2 class="section-title">
+    <section class="section07 text-slider">
+        <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
             고난이도 뼈 이식술은 <strong class="section-title-color">의료진의 실력과</strong><br>
             <strong class="section-title-color">경험이 매우 중요한</strong> 시술입니다.
         </h2>
-        <p class="section-text">
+        <p class="section-text wow fadeInUp" data-wow-delay="600ms">
             미소원치과는 풍부한 임상경험과 노하우로 뼈가 부족한 임플란트 케이스도 자신있습니다.
         </p>
-        <div class="slider">
+        <div class="slider wow fadeInUp" data-wow-delay="900ms">
             <div>
                 <div class="text">
                     <h2>
@@ -207,7 +207,7 @@
         </div>
     </section>
 
-    <section class="treatment-case wow fadeInUp">
+    <section class="treatment-case wow fadeInUp wow fadeInUp" data-wow-delay="300ms">
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
@@ -294,19 +294,19 @@
             <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="300ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="600ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>
