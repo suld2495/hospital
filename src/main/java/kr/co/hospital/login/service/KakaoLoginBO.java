@@ -33,7 +33,7 @@ public class KakaoLoginBO {
             StringBuilder sb = new StringBuilder();
             sb.append("grant_type=authorization_code");
             sb.append("&client_id=" + clientId);
-            sb.append("&redirect_uri=" + address + "/kakao-callback");
+            sb.append("&redirect_uri=" + address);
             sb.append("&code=" + authorize_code);
             bw.write(sb.toString());
             bw.flush();
@@ -121,6 +121,6 @@ public class KakaoLoginBO {
     }
 
     public String getKakaoURL() {
-        return "https://kauth.kakao.com/oauth/authorize?client_id=" + clientId + "&redirect_uri=" + address + "/kakao-callback&response_type=code";
+        return "https://kauth.kakao.com/oauth/authorize?client_id=" + clientId + "&redirect_uri=" + address + "&response_type=code";
     }
 }

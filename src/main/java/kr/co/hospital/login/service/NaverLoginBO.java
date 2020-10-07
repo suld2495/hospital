@@ -15,9 +15,9 @@ import java.util.UUID;
 
 @Component
 public class NaverLoginBO {
-    private final static String CLIENT_ID = "AxpgQaSsI6pZFKw48npX";
+    private final static String CLIENT_ID = "hFVW_ROwNVkKkXHV1GYY";
     private final static String CLIENT_SECRET = "HeF4iiB0TT";
-    private final static String REDIRECT_URI = "http://54.180.128.30:8080/hospital/naver-callback";
+    private final static String REDIRECT_URI = "http://misowon.co.kr/naver-callback";
     private final static String SESSION_STATE = "oauth_state";
     /* 프로필 조회 API URL */
     private final static String PROFILE_API_URL = "https://openapi.naver.com/v1/nid/me";
