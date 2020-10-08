@@ -336,26 +336,26 @@
 
     <section class="board-link">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 학습하고 연구하는 전문 의료진의<br>
                 <span class="section-title-color">정직하고 양심적인 진료</span>
             </h2>
-            <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li class="wow fadeInUp" data-wow-delay="300ms">
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img wow fadeInUp" data-wow-delay="600ms">
+                <li class="center-img wow fadeInUp" data-wow-delay="1200ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img wow fadeInUp" data-wow-delay="900ms">
+                <li class="last-img wow fadeInUp" data-wow-delay="1500ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>

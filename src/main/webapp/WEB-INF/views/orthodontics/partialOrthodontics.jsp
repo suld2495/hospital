@@ -37,23 +37,23 @@
         </div>
     </section>
 
-    <section class="section02 wow fadeInUp">
-        <div class="max-layout-width">
+    <section class="section02">
+        <div class="max-layout-width wow fadeInUp" data-wow-delay="300ms">
             <h2 class="section-title"><strong>부분교정의 </strong>장점은?</h2>
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="600ms">
                     <div class="img img01"></div>
                     <p>발치없이 빠르게<br>원하는 부분만 교정</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <div class="img img02"></div>
                     <p>전체교정에 비해<br>짧은 치료기간</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="1200ms">
                     <div class="img img03"></div>
                     <p>전체교정에 비해<br>경제적인 비용</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="1500ms">
                     <div class="img img04"></div>
                     <p>잘 드러나지 않는<br>장치</p>
                 </li>
@@ -61,33 +61,33 @@
         </div>
     </section>
 
-    <section class="section03 background-animation wow fadeInUp">
+    <section class="section03 background-animation">
         <div class="bg"></div>
         <div class="max-layout-width">
-            <div class="text">
+            <div class="text wow fadeInUp" data-wow-delay="300ms">
                 <h2>
                     원하는 부분만 선택적으로 교정하여,<br>
                     <strong><span>6개월 내외로 교정이 가능</span>합니다.</strong>
                 </h2>
-                <p>정확한 진단과 치료를 위해 반드시 치과전문의에게 상담받으시길 바랍니다.</p>
+                <p class="wow fadeInUp" data-wow-delay="600ms">정확한 진단과 치료를 위해 반드시 치과전문의에게 상담받으시길 바랍니다.</p>
             </div>
         </div>
     </section>
 
-    <section class="section04 list-content list-content-right wow fadeInUp">
+    <section class="section04 list-content list-content-right">
         <div class="max-layout-width">
-            <div class="image_box_left">
+            <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
                 <p class="img"></p>
             </div>
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                         <span class="section-title-color bold">부분 교정이</span> 필요한 경우<br>
                     </h2>
-                    <p class="pager pointer active"><span>01</span>어금니는 괜찮은데 앞니만 고민이신분</p><br>
-                    <p class="pager pointer"><span>02</span>시간이 많이 없으신분</p><br>
-                    <p class="pager pointer"><span>03</span>어금니 조기발치로 인해 치아가 쓰러져 세우고 싶으신분</p><br>
-                    <p class="pager pointer"><span>04</span>경제적 부담을 덜고싶은분</p><br>
+                    <p class="pager pointer active wow fadeInUp" data-wow-delay="900ms"><span>01</span>어금니는 괜찮은데 앞니만 고민이신분</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>02</span>시간이 많이 없으신분</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>03</span>어금니 조기발치로 인해 치아가 쓰러져 세우고 싶으신분</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>04</span>경제적 부담을 덜고싶은분</p><br>
                 </div>
             </div>
         </div>
@@ -95,19 +95,19 @@
         </div>
     </section>
 
-    <section class="section05 section-quotes-title section-quotes-title-right wow fadeInUp">
-        <div class="image_box_right">
+    <section class="section05 section-quotes-title section-quotes-title-right">
+        <div class="image_box_right wow fadeInUp" data-wow-delay="600ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                         고난이도 <strong>부분교정</strong><br>
                         <strong>누구나 적용 가능한 것은</strong><br>
                         아닙니다!
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         부분교정은 짧은 치료기간과 비용 그리고 심미적인면에서 효과적인 방법이기 때문에 많은 분들이 선호하시지만, 치열의 삐뚤어진 정도가 심하지 않은 경우에만 사용할 수 있습니다.
                         치아전체에 교정력을 가하는 것이 아니기 때문에 전체적으로 치열을 교정하기에는 어려운 부분이 있습니다.<br>
                         따라서 부분교정 치료가 누구에게나 적용이 가능한 것이 아니기 때문에 치과에 내원하여 교정 전문의와 진단 및 상담은 필수적입니다.
@@ -118,7 +118,7 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section06 treatment-case wow fadeInUp">
+    <section class="section06 treatment-case">
         <div class="max-layout-width">
             <div class="text">
                 <h2>미소원치과 <strong>치료사례</strong></h2>
@@ -196,28 +196,28 @@
         </div>
     </section>
 
-    <section class="board-link wow fadeInUp">
+    <section class="board-link">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 학습하고 연구하는 전문 의료진의<br>
                 <span class="section-title-color">정직하고 양심적인 진료</span>
             </h2>
-            <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="1200ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="1500ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>

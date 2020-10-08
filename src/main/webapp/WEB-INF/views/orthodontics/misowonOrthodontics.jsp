@@ -39,18 +39,18 @@
         </div>
     </section>
 
-    <section class="section02 section-quotes-title-right wow fadeInUp">
-        <div class="image_box_right">
+    <section class="section02 section-quotes-title-right">
+        <div class="image_box_right wow fadeInUp" data-wow-delay="600ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                         증상과 라이프스타일에 따라<br>
                         <strong>나에게 꼭 맞는 교정장치 선택</strong><br>
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         자가결찰장치 클리피씨 교정과 일반치아교정장치인 세라믹 교정을 진행하고 있습니다. 교정은 어떤 교정장치를 선택하고 치료받느냐에
                         따라,장단점,비용,치료기간에 차이가 발생할 수 있습니다.<br>
                         환자에게 꼭 필요한 교정장치가 최고의 치아교정방법이라 생각하고, 라이프스타일에 맞는 교정장치를 선택할 수 있도록 미소원치과에서 도와드리겠습니다.
@@ -61,51 +61,51 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section03 img-four wow fadeInUp">
+    <section class="section03 img-four">
         <div class="bg"></div>
         <div class="max-layout-width">
-            <h2><strong>클리피씨 교정의 장점</strong>은?</h2>
-            <p>
+            <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>클리피씨 교정의 장점</strong>은?</h2>
+            <p class="wow fadeInUp" data-wow-delay="600ms">
                 기존 장치에 비해 <strong>치아에 가해지는 마찰력이 적기 때문</strong>에<br class="mobile"> 보다 적은 힘으로<br>
                 치아의 교정이 가능하여 <strong>통증이 적고<br class="mobile"> 구강 내 교정장치로 인한 상처발생이 적습니다.</strong>
             </p>
             <ul class="text">
-                <li class="img01">
+                <li class="img01 wow fadeInUp" data-wow-delay="900ms">
                     <p>치아색과 유사해<br>심미성이 뛰어남</p>
                 </li>
-                <li class="img02">
+                <li class="img02 wow fadeInUp" data-wow-delay="1200ms">
                     <p>치아 이동이 비교적 쉬워<br>통증이 적음</p>
                 </li>
-                <li class="img03">
+                <li class="img03 wow fadeInUp" data-wow-delay="1500ms">
                     <p>자가결찰 시스템으로<br>교정기간 단축</p>
                 </li>
-                <li class="img04">
+                <li class="img04 wow fadeInUp" data-wow-delay="1800ms">
                     <p>편리한 구강관리로<br>충치,착색 우려가 적음</p>
                 </li>
             </ul>
         </div>
     </section>
 
-    <section class="section04 list-content wow fadeInUp">
-        <div class="image_box_left">
+    <section class="section04 list-content">
+        <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                         치아교정<span class="section-title-color bold">어떤 치과에서</span><br>
                         받아야할까?
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         교정치과 선택시 꼭 확인하세요!
                     </p>
-                    <p class="pager pointer active"><span>01</span>담당주치의가 교정에 대한 숙련된 기술력을 갖추었는가?</p><br>
-                    <p class="pager pointer"><span>02</span>최신 교정경향과 기술,첨단장비를 갖추었는가?</p><br>
-                    <p class="pager pointer"><span>03</span>치아의 배열과 증상에 따른 1:1맞춤교정을 진행하는가?</p><br>
-                    <p class="pager pointer"><span>04</span>교정주치의가 처음부터 끝까지 책임지는 시스템인가?</p><br>
-                    <p class="pager pointer"><span>05</span>치과위생관리가 엄격하게 이루어지고 있는 곳인가?</p><br>
-                    <p class="pager pointer"><span>06</span>치아교정 후에도 철저한 사후관리를 진행하는 곳인가?</p><br>
+                    <p class="pager pointer active wow fadeInUp" data-wow-delay="1200ms"><span>01</span>담당주치의가 교정에 대한 숙련된 기술력을 갖추었는가?</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="1200ms"><span>02</span>최신 교정경향과 기술,첨단장비를 갖추었는가?</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="1200ms"><span>03</span>치아의 배열과 증상에 따른 1:1맞춤교정을 진행하는가?</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="1200ms"><span>04</span>교정주치의가 처음부터 끝까지 책임지는 시스템인가?</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="1200ms"><span>05</span>치과위생관리가 엄격하게 이루어지고 있는 곳인가?</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="1200ms"><span>06</span>치아교정 후에도 철저한 사후관리를 진행하는 곳인가?</p><br>
                 </div>
             </div>
         </div>
@@ -113,10 +113,10 @@
         </div>
     </section>
 
-    <section class="section05 table wow fadeInUp">
+    <section class="section05 table">
         <div class="max-layout-width">
-            <h2><strong>세리믹 교정</strong>과 <strong>클리피씨 교정</strong>의 차이점은?</h2>
-            <div class="table-container">
+            <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>세리믹 교정</strong>과 <strong>클리피씨 교정</strong>의 차이점은?</h2>
+            <div class="table-container wow fadeInUp" data-wow-delay="600ms">
                 <table class="table">
                     <thead>
                         <tr>
@@ -177,9 +177,9 @@
         </div>
     </section>
 
-    <section class="section06 left-fade-slider-container wow fadeInUp">
+    <section class="section06 left-fade-slider-container">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 <strong><span class="section-title-color">
                     교정기간은 Down 치료결과는 Up<br>
                 </span></strong>
@@ -189,7 +189,7 @@
         <div class="slider-container post-slider">
             <div class="left-fade-sldier posts">
                 <div class="slides">
-                    <div class="slide" data-index="01">
+                    <div class="slide wow fadeInUp" data-wow-delay="600ms" data-index="01">
                         <div class="swiper-slide">
                             <div class="img01 img"></div>
                             <div class="text">
@@ -200,7 +200,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="slide" data-index="02">
+                    <div class="slide wow fadeInUp" data-wow-delay="900ms" data-index="02">
                         <div class="swiper-slide">
                             <div class="img02 img"></div>
                             <div class="text">
@@ -211,7 +211,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="slide" data-index="03">
+                    <div class="slide wow fadeInUp" data-wow-delay="1200ms" data-index="03">
                         <div class="swiper-slide">
                             <div class="img03 img"></div>
                             <div class="text">
@@ -222,7 +222,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="slide" data-index="04">
+                    <div class="slide wow fadeInUp" data-wow-delay="1500ms" data-index="04">
                         <div class="swiper-slide">
                             <div class="img04 img"></div>
                             <div class="text">
@@ -239,15 +239,15 @@
         <div class="bg"></div>
     </section>
 
-    <section class="section07 fade-in-slider wow fadeInUp">
+    <section class="section07 fade-in-slider">
         <div class="max-layout-width">
-            <div class="title">
+            <div class="title wow fadeInUp" data-wow-delay="300ms">
                 <h2>
                     <strong>미소원 치아교정이 특별한 이유</strong>
                 </h2>
                 <p>남다른 치아를 만드는 미소원 치아교정의 특별함</p>
             </div>
-            <div class="swiper-container">
+            <div class="swiper-container wow fadeInUp" data-wow-delay="600ms">
                 <div class="swiper-slide">
                     <div class="text">
                         <span class="number">01</span>
@@ -407,28 +407,28 @@
         </div>
     </section>
 
-    <section class="board-link wow fadeInUp">
+    <section class="board-link">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 학습하고 연구하는 전문 의료진의<br>
                 <span class="section-title-color">정직하고 양심적인 진료</span>
             </h2>
-            <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="1200ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="1500ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>
