@@ -716,7 +716,7 @@
             auto: true,
             nextText: '<img src="<c:url value="/images/main/right_gr.png"/>">',
             prevText: '<img src="<c:url value="/images/main/left_gr.png"/>">',
-            preventDefaultSwipeX: false
+            touchEnabled : (navigator.maxTouchPoints > 0),
         });
 
         $('.main-slider').bxSlider({
@@ -873,6 +873,7 @@
             moveSlides: 1,
             slideWidth: caseSlider,
             slideMargin: 19,
+            touchEnabled : (navigator.maxTouchPoints > 0),
             onSliderLoad: function() {
                 $('.case .control').appendTo($('.case .bx-controls'));
             },

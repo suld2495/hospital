@@ -4,3 +4,6 @@
 .board-view .contents pre {
     margin-top: -27px;
 }
+.board-view .appendix {
+    display: none;
+}
