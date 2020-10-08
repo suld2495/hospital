@@ -272,7 +272,14 @@
             <div class="review">
                 <c:forEach items="${review}" var="list">
                     <div class="module">
-                        <a class="module" href="<c:url value='/review-view/${list.num}'/>">
+                        <a class="module"
+                            <sec:authorize access="isAnonymous()">
+                                href="javascript:;void(0);"
+                            </sec:authorize>
+                            <sec:authorize access="isAuthenticated()">
+                                href="<c:url value='/review-view/${list.num}'/>"
+                            </sec:authorize>
+                           >
                             <img src="<c:url value='${list.thumnail_path}${list.thumnail}' />">
                             <div class="position-relative">
                                 <div class="review-text">
@@ -709,6 +716,7 @@
             auto: true,
             nextText: '<img src="<c:url value="/images/main/right_gr.png"/>">',
             prevText: '<img src="<c:url value="/images/main/left_gr.png"/>">',
+            preventDefaultSwipeX: false
         });
 
         $('.main-slider').bxSlider({
@@ -912,6 +920,16 @@
         $('.top-button').click(function () {
             $.fn.fullpage.silentMoveTo('anchor1', 1);
         })
+
+        $(document).on('click', '.section04 .bx-viewport,.case .bx-viewport', function() {
+            <sec:authorize access="isAnonymous()">
+                alert('의료법상 치료 사례 등 정보는 로그인 후 가능합니다. \n간단한 회원가입 후 로그인하여, \n미소원치과의 정보를 확인하시길 바랍니다.');
+            </sec:authorize>
+        });
+        $(document).on('click', '.section04 .bx-viewport .module', function() {
+            <sec:authorize access="isAuthenticated()">
+            </sec:authorize>
+        });
     });
 
     $(window).load(function () {

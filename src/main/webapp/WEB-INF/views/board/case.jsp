@@ -24,7 +24,15 @@
             <ul class="gallery">
                 <c:forEach items="${list}" var="board">
                     <li>
-                        <a href="<c:url value="/${url}-view/${board.num}" />">
+                        <a
+                            <sec:authorize access="isAnonymous()">
+                                href="javascript:;void(0);"
+                                onclick="alert('의료법상 치료 사례 등 정보는 로그인 후 가능합니다. \n간단한 회원가입 후 로그인하여, \n미소원치과의 정보를 확인하시길 바랍니다.');"
+                            </sec:authorize>
+                            <sec:authorize access="isAuthenticated()">
+                                href="<c:url value="/${url}-view/${board.num}" />"
+                            </sec:authorize>
+                        >
                             <div class="img-box">
                                 <div class="login">
                                     <span class="img" style="background: url(<c:url value='${board.thumnail_path}/${board.thumnail}'/>)"></span>

@@ -31,11 +31,15 @@
     letter-spacing: -1px;
 }
 
+.footer-info-container li p a {
+    color: #cacaca;
+}
+
 .footer-info-margin {
     margin-top: 30px;
 }
 
-.tel {
+.footer-info-container li p a.tel {
     color: #a78b73;
 }
 

@@ -36,13 +36,13 @@
 
 .board-view .contents {
     min-height: 110px;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     padding: 10px;
     padding-bottom: 30px;
 }
 
 .board-view .button {
-    margin-top: 48px;
+    /* margin-top: 48px; */
     border-top: 1px solid #222222;
     border-bottom: 1px solid #222222;
     letter-spacing: -1px;
@@ -144,5 +144,8 @@
 @media screen and (max-width: 500px) {
     .board-view .button li span:first-child {
         width: 100px;
+    }
+    .board-view .contents img {
+        max-width: 100%;
     }
 }

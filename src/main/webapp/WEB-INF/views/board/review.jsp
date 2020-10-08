@@ -32,6 +32,7 @@
                                 <div class="contents">
                                     ${board.contents}
                                 </div>
+                                <h7>${board.created_show_date}</h7>
                             </div>
                         </a>
                     </li>

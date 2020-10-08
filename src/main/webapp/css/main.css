@@ -493,9 +493,9 @@ body {
 }
 
 .review-text {
-    padding-top: 39px;
+    padding-top: 29px;
     text-align: center;
-    height: 186px;
+    height: 147px;
     border: 1px solid #d7d7d7;
     box-sizing: border-box;
     background: #fff;
@@ -507,6 +507,7 @@ body {
     margin-bottom: 14px;
     font-weight: 500;
     letter-spacing: -1.5px;
+    display: none;
 }
 
 .review-text pre {
@@ -515,9 +516,10 @@ body {
 }
 
 .review-text h7 {
-    color: #222;
+    color: #939393;
     display: block;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 .review-text pre img {
@@ -3190,6 +3192,12 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:414px) {
+    .section04 .details-link a {
+        margin-left: -26px;
+    }
+    .review-text pre {
+        height: 3em;
+    }
     .popup  {
         position: fixed;
     }
@@ -3293,7 +3301,7 @@ body .section07 .bx-pager-link span + span {
     }
     .review-text {
         padding-top: 20px;
-        height: 126px;
+        height: 114px;
     }
     #contents {
         overflow: hidden;
@@ -3416,6 +3424,7 @@ body .section07 .bx-pager-link span + span {
         padding: 0 10px;
         font-size: 13px;
         line-height: 1.4;
+        height: 3.0em;
     }
 
     .section04 .details-link {
@@ -3473,6 +3482,9 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:414px) {
+    .review-text h7 {
+        font-size: 13px;
+    }
     .section02 {
         height: 601px;
     }
@@ -3510,7 +3522,8 @@ body .section07 .bx-pager-link span + span {
         padding-top: 0px;
     }
     .review-text {
-        height: 115px;
+        height: 99px;
+        padding-top: 10px;
     }
 }
 

@@ -393,6 +393,9 @@ header .header-banner-slider-continer .bx-wrapper {
     float: left;
     text-align: center;
 }
+.header-member > div > div.member-nav {
+    margin-right: 128px;
+}
 
 .header-member p {
     margin-top: 4px;
@@ -790,9 +793,10 @@ header .menu {
     width: 50px;
     height: 50px;
     margin-top: -15px;
-    position: relative;
+    position: absolute;
     cursor: pointer;
     margin-left: 78px;
+    right: 23px;
 }
 
 header .menu:before {
@@ -922,13 +926,16 @@ header .header-banner-slider .slide-item04 .go {
 
 
 @media screen and (max-width:768px) {
+    header .menu {
+        right: 8px;
+    }
     .header-logo img {
         width: 135px;
     }
     .login-nav {
         padding-right: 18px;
         position: relative;
-        margin-right: 8px;
+        margin-right: 58px;
         margin-top:-8px;
     }
 
