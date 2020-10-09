@@ -3,6 +3,7 @@
 
 <link rel="stylesheet" href="<c:url value="/css/board/boardCommn.css"/>" />
 <link rel="stylesheet" href="<c:url value="/css/board/galleryBoard.css"/>" />
+<link rel="stylesheet" href="<c:url value="/css/board/media.css"/>" />
 
 <c:set var="url" value="media"/>
 
@@ -12,6 +13,11 @@
 
     <section class="gallery-list">
         <div class="max-layout-width">
+            <ul class="tab">
+                <li><a href="<c:url value='/' />" class="active">전체</a></li>
+                <li><a href="<c:url value='/' />">언론속의 미소원</a></li>
+                <li><a href="<c:url value='/' />">미소원 이야기</a></li>
+            </ul>
             <ul class="gallery">
                 <c:forEach items="${list}" var="board">
                     <li>
