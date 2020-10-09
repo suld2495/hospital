@@ -163,7 +163,7 @@
     margin-top: 42px;
     background: #f5f5f5;
     padding-top: 24px;
-    padding-bottom: 194px;
+    padding-bottom: 252px;
 }
 
 .section01 .section-text {
@@ -613,6 +613,14 @@ section.board-link {
 }
 
 @media screen and (max-width:414px) {
+    section.section-top-title-left .image_box_left {
+    height: 220px;
+    bottom: -1px;
+}
+
+    section.section-top-title-left {
+    padding-bottom: 0px;
+}
 
     .section07 .max-layout-width h2 {
     font-size: 28px;
@@ -646,8 +654,8 @@ section.board-link {
     }
 
     .section02 {
-    margin-top: 103px;
-    margin-bottom: 100px;
+    margin-top: 51px;
+    margin-bottom: 96px;
     }
     section.section-quotes-title-right .bg {
         height: 166px;
@@ -706,6 +714,14 @@ section.board-link {
 }
 
 @media screen and (max-width:375px) {
+        section.section-top-title-left .image_box_left {
+    height: 220px;
+    bottom: -21px;
+}
+
+    section.section-top-title-left {
+    padding-bottom: 0px;
+}
     section.list-content .image_box_left {
     height: 172px;
     top: 310px;
@@ -735,6 +751,21 @@ section.board-link {
 }
 
 @media screen and (max-width:360px) {
+    body section.section-top-title-left-two .max-layout-width ul {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+        section.section-top-title-left .image_box_left {
+    height: 220px;
+    bottom: 5px;
+}
+
+    section.section-top-title-left {
+    padding-bottom: 0px;
+}
    section.section-top-title-left {
     padding-bottom: 33px;
 }
