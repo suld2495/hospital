@@ -48,3 +48,8 @@ form>div .input.inputtop {height:41px;line-height: 30px;text-align: left;padding
 
 .boardCategory {text-align:left;}
 .boardCategory select{height:27px;padding:0 10px;}
+
+.typeDiv select {
+    float: left;
+    height: 27px;
+}

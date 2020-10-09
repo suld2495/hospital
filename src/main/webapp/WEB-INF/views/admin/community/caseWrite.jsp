@@ -43,6 +43,17 @@
                         <div class="writer">작성자</div>
                         <div class="writerInputDiv input"><input type="text" name="writer" class="board_writer writerInput" value="${board.writer}" data-alert="작성자"></div>
                     </div>
+                    <div class="typeDiv">
+                        <div class="writer">분류</div>
+                        <div class="writerInputDiv input">
+                            <select name="type">
+                                <option <c:if test="${board.type eq '임플란트'}">selected</c:if>>임플란트</option>
+                                <option <c:if test="${board.type eq '치아교정'}">selected</c:if>>치아교정</option>
+                                <option <c:if test="${board.type eq '심미치료'}">selected</c:if>>심미치료</option>
+                                <option <c:if test="${board.type eq '일반치료'}">selected</c:if>>일반치료</option>
+                            </select>
+                        </div>
+                    </div>
                     <div class="thumnailDiv">
                         <div class="thumnail">썸네일</div>
                         <div class="thumnailInputDiv input">

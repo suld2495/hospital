@@ -15,11 +15,11 @@
     <section class="gallery-list">
         <div class="max-layout-width">
             <ul class="tab">
-                <li><a href="<c:url value='/' />" class="active">전체</a></li>
-                <li><a href="<c:url value='/' />">임플란트</a></li>
-                <li><a href="<c:url value='/' />">치아교정</a></li>
-                <li><a href="<c:url value='/' />">심미치료</a></li>
-                <li><a href="<c:url value='/' />">일반치료</a></li>
+                <li><a href="<c:url value='/case/1' />" <c:if test="${empty paging.tab or paging.tab eq ''}"> class="active"</c:if>>전체</a></li>
+                <li><a href="<c:url value='/case/1?tab=임플란트' />" <c:if test="${not empty paging.tab && paging.tab eq '임플란트'}"> class="active"</c:if>>임플란트</a></li>
+                <li><a href="<c:url value='/case/1?tab=치아교정' />" <c:if test="${not empty paging.tab && paging.tab eq '치아교정'}"> class="active"</c:if>>치아교정</a></li>
+                <li><a href="<c:url value='/case/1?tab=심미치료' />" <c:if test="${not empty paging.tab && paging.tab eq '심미치료'}"> class="active"</c:if>>심미치료</a></li>
+                <li><a href="<c:url value='/case/1?tab=일반치료' />" <c:if test="${not empty paging.tab && paging.tab eq '일반치료'}"> class="active"</c:if>>일반치료</a></li>
             </ul>
             <ul class="gallery">
                 <c:forEach items="${list}" var="board">

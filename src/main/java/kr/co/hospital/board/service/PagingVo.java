@@ -15,6 +15,7 @@ public class PagingVo {
     private String tableName;
     private int boardNum;
     private String id;
+    private String tab;
 
     public PagingVo(int pageCount, int currentPage, String tableName, String search_text, String type) {
         this.pageCount = pageCount;
@@ -29,6 +30,14 @@ public class PagingVo {
     public PagingVo(String tableName, int boardNum) {
         this.tableName = tableName;
         this.boardNum = boardNum;
+    }
+
+    public String getTab() {
+        return tab;
+    }
+
+    public void setTab(String tab) {
+        this.tab = tab;
     }
 
     public String getId() {

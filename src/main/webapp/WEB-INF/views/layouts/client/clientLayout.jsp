@@ -20,6 +20,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>미소가 활짝! 미소원치과</title>
     <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+    <link rel="shortcut icon" href="<c:url value='/images/favicon.png' />">
     <link rel="stylesheet" href="<c:url value='/lib/wow/animate.css' />">
     <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
     <link rel="stylesheet" href="<c:url value='/css/clientCommon.css' />">

@@ -43,6 +43,15 @@
                         <div class="writer">작성자</div>
                         <div class="writerInputDiv input"><input type="text" name="writer" class="board_writer writerInput" value="${board.writer}" data-alert="작성자"></div>
                     </div>
+                    <div class="typeDiv">
+                        <div class="writer">분류</div>
+                        <div class="writerInputDiv input">
+                            <select name="type">
+                                <option <c:if test="${board.type eq '언론속의 미소원'}">selected</c:if>>언론속의 미소원</option>
+                                <option <c:if test="${board.type eq '미소원 이야기'}">selected</c:if>>미소원 이야기</option>
+                            </select>
+                        </div>
+                    </div>
                     <div class="thumnailDiv">
                         <div class="thumnail">썸네일</div>
                         <div class="thumnailInputDiv input">

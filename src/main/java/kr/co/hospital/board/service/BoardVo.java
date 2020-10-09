@@ -40,6 +40,15 @@ public class BoardVo {
     private String real_main_thumnail_img;
     private int boardOrder;
     private String main_view;
+    private String type;
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
 
     public String getMain_view() {
         return main_view;

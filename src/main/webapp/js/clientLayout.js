@@ -8,6 +8,7 @@ $(function() {
             mode: 'fade',
             auto: true,
             controls: false,
+            touchEnabled : (navigator.maxTouchPoints > 0),
             onSlideBefore: function($slideElement, oldIndex, newIndex) {
                 $('.header-banner-slider-continer01').removeClass('active1')
                 $('.header-banner-slider-continer01').removeClass('active2')
