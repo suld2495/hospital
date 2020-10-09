@@ -26,7 +26,7 @@
     margin-top: 43px;
     background: #f5f5f5;
     padding-top: 26px;
-    padding-bottom: 234px;
+    padding-bottom: 300px;
 }
 
 .section01 .section-text {
@@ -127,7 +127,7 @@
 
 .section03 .image_box_right {
     max-width: 1276px;
-    height: 394px;
+    height: 323px;
     width: 50%;
     z-index: 10;
 }
@@ -166,9 +166,9 @@
     content: '';
     position: absolute;
     width: 3px;
-    height: 70px;
+    height: 56px;
     background: #7f6a57;
-    top: -78px;
+    top: -75px;
     right: 0;
 }
 
@@ -176,9 +176,9 @@
     background: #f5f5f5;
     width: 64.65%;
     position: absolute;
-    height: 192px;
+    height: 141px;
     left: 0px;
-    bottom: -57px;
+    bottom: -44px;
 }
 
 .section03 .max-layout-width {
@@ -338,17 +338,14 @@ section.board-link {
 }
 
 
-.section-text {
-
-    padding-top: 12px;
-}
+.section-text {padding-top: 0px;}
 
 .board-link .section-title {
     line-height: 1.25;
 }
 
 .left-fade-slider-container {
-    margin-top: 187px;
+    margin-top: 167px;
 }
 
 @media screen and (max-width: 640px) {
@@ -409,7 +406,7 @@ section.board-link {
 }
     section.section-quotes-title-right .bg {
         height: 153px;
-        bottom: -32px;
+        bottom: -73px;
     }
     section.section-quotes-title-right .max-layout-width .text {
         padding-top: 233px;
@@ -450,7 +447,7 @@ section.board-link {
     bottom: -65px;
 }
     section.section-quotes-title-right .bg {
-        height: 178px;
+        height: 111px;
     }
     section.section-quotes-title-right .max-layout-width .text {
         padding-top: 238px;
@@ -487,5 +484,14 @@ section.board-link {
     }
     section.section-top-title-left {
         padding-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+    section.section-quotes-title-right .bg {
+        height: 200px;
+        bottom: -73px;
     }
 }

@@ -19,7 +19,7 @@
             <div>
                 <h2 class="section-title">
                     미소원치과의 심미보철치료는<br>
-                    <span class="section-title-color"><strong>환자와의<br class="mobile"> 대화가 가장 중요</strong></span>합니다
+                    <span class="section-title-color"><strong>환자와의 대화가<br class="mobile"> 가장 중요</strong></span>합니다
                 </h2>
             </div>
         </div>
@@ -31,24 +31,24 @@
                     </p>
                     <p class="section-text">
                         심미보철치료는 의료진이 판단하기에도 아름답고 자연스러워야 하지만, 무엇보다 환자 스스로 만족해야하기 때문에
-                        환자가 원하는 방향과 의료진의 정확한 진단이 매칭 될 때 최고의 결과를 낼 수 있습니다.
+                        환자가 원하는 방향과 의료진의 정확한 진단이 매칭 될 때 좋은 결과를 낼 수 있습니다.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section02 wow fadeInUp">
+      <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">심미보철<strong>치료 효과</strong></h2>
             <ul>
                 <li>
                     <div class="img img01"></div>
-                    <p>최소한의 치아 삭제로<br>자연치아와 유사하게 치료</p>
+                    <p>깨끗한 치아로<br>자신감 상승</p>
                 </li>
                 <li>
                     <div class="img img02"></div>
-                    <p>정확한 진단으로<br>최대한의 치아 보존</p>
+                    <p>적은양의 치아삭제로<br>자연치아 보존</p>
                 </li>
                 <li>
                     <div class="img img03"></div>
@@ -128,7 +128,7 @@
                 <h2><strong>올세라믹 크라운의 장점은?</strong></h2>
                 <p>
                     올세라믹은 다양한 사례에 폭넓게 사용될 수 있어 장점이 많지만,<br class="mobile"> <strong>라미네이트에 비해 치아 삭제량이 많아</strong><br>
-                    <strong><span>초기 상담부터 정확한 정밀진단을 토대로 의료진과<br class="mobile"> 충분한 상담</span></strong>을 거치는 것이 중요합니다.
+                    <strong><span>초기 상담부터 정밀진단을 토대로 의료진과<br class="mobile"> 충분한 상담</span></strong>을 거치는 것이 중요합니다.
                 </p>
                 <ul class="text">
                     <li class="img01">
@@ -172,11 +172,10 @@
 
         <section class="text-slider wow fadeInUp">
             <h2 class="section-title">
-                한 번의 내원만으로도 <strong class="section-title-color">만족스러운 결과</strong><br>
-                미소원치과의 <strong class="section-title-color">올세라믹 크라운 치료</strong>
+                <strong class="section-title-color">만족스러운</strong> 올세라믹 크라운 치료</strong>
             </h2>
             <p class="section-text">
-                미소원치과는 무리한 시술 강행으로 인한 부작용 없는 시술과 풍부한 경험 및 기술력으로 만족도 높은 결과를 보여드립니다.
+                풍부한 경험 및 기술력으로 만족도 높은 결과를 보여드립니다.
             </p>
             <div class="slider">
                 <div>
@@ -194,7 +193,7 @@
                     </div>
                     <div class="text mobile-text">
                         <h2>
-                            <strong>미소원치과는 최소삭제로<br>안전하고 예쁘게<br>치아를 살려냅니다.</strong>
+                            <strong>안전하고 예쁘게<br>치아를 살려냅니다.</strong>
                         </h2>
                         <h3>01</h3>
                         <p>
@@ -205,12 +204,11 @@
                 <div>
                     <div class="text">
                         <h2>
-                            <strong>안전한 올세라믹<br> 시술을 위해 사전에<br> 일반진료를 진행합니다.</strong>
+                            <strong>올세라믹 치료 사전에<br>일반진료를 진행합니다.</strong>
                         </h2>
                         <h3>02</h3>
                         <p>
-                            부작용의 우려가 없도록 시술 전에 충치 치료, 신경치료등 필요한 치료를 진행하고, 최소한의
-                            치아를 삭제하여 시린 증상 등 부작용을 최소화하도록 안전하게 치료를 진행하고 있습니다.
+                            부작용의 우려를 줄이기 위해 시술 전에 충치, 신경치료 등을 진행하고 있습니다.
 
                         </p>
                     </div>
@@ -232,11 +230,11 @@
                 <div>
                     <div class="text">
                         <h2>
-                            <strong>첨단장비로<br> 정밀하고 정확한<br> 진단 후 진료</strong>
+                            <strong>3D CEREC 시스템으로<br>빠르게</strong>
                         </h2>
                         <h3>03</h3>
                         <p>
-                            3D 구강스캐너, 3D CT 등 첨단 디지털 장비를 통해 정확한 진단 후 환자에게 적합한 최적의 보철물을 제작합니다. 원하는 치아의 형태와 모양뿐만 아니라 색상도 맞춤 제작할 수 있습니다.
+                            3D CEREC 시스템으로 환자에게 잘 맞는 좋은 퀄리티의 보철물을 제작합니다.
                         </p>
                     </div>
                     <div class="img img03">
@@ -293,7 +291,7 @@
                         </tr>
                         <tr>
                             <td class="table-left">
-                                최소한의 치아삭제로 심미효과를<br>
+                                적은양의 치아삭제로 심미효과를<br>
                                 원하시는 분들
                             </td>
                             <td class="table-middle">적합한 분</td>

@@ -18,8 +18,7 @@
         <div class="max-layout-width text">
             <div>
                 <h2 class="section-title">
-                    정확한 진단과 안전한 치료<br>
-                    <span class="section-title-color"><strong>사랑니 발치 미루지 마세요!</strong></span>
+                    사랑니 발치 <span class="section-title-color"><strong>미루지 마세요!</strong></span>
                 </h2>
             </div>
         </div>
@@ -73,8 +72,7 @@
                         <strong>3차원 CT진단</strong>을 통한<br>미소원치과의 사랑니 발치
                     </h2>
                     <p class="section-text">
-                        사랑니의 대부분은 매복되어 있어 사랑니의 정확한 위치,형태,주위 신경등을 정확하게 파악하는 것이 중요합니다. 미소원치과는 3차원 CT촬영을 통해 신경관 거리를 측정해 안전하게 사랑니
-                        발치가 가능하며, 붓기를 최소화하고 빠른 회복을 기대할 수 있습니다.
+                        3차원 CT 촬영을 통해 신경관 거리를 측정하여 보다 안정적이게<br>사랑니 발치가 가능하여 빠른 회복을 기대할 수 있습니다.
                     </p>
                 </div>
             </div>
@@ -160,9 +158,9 @@
                         <div class="swiper-slide">
                             <div class="img04 img"></div>
                             <div class="text">
-                                <h2>정기관리</h2>
+                                <h2>빠른회복</h2>
                                 <p>
-                                    매복된 사랑니의 경우 최소한의 절개 후 안전하게 발치하고 봉합합니다.
+                                    계획된대로 발치하여 빠른 회복이 가능합니다.
                                 </p>
                             </div>
                         </div>
