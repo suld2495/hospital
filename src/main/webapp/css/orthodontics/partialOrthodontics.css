@@ -26,7 +26,7 @@
     margin-top: 43px;
     background: #f5f5f5;
     padding-top: 23px;
-    padding-bottom: 172px;
+    padding-bottom: 127px;
 }
 
 .section01 .section-text {
@@ -50,7 +50,7 @@
 
 
 .section03 {
-    height: 415px;
+    height: 400px;
     margin-top: 100px;
 }
 
@@ -244,7 +244,7 @@
     background: #f5f5f5;
     width: 64.65%;
     position: absolute;
-    height: 246px;
+    height: 215px;
     left: 0px;
     bottom: -58px;
 }
@@ -330,7 +330,7 @@
 
 .section02 .section-title {
     margin-bottom: 29px;
-    font-size: 28px;
+    font-size: 37px;
     padding-top: 24px;
 }
 
@@ -403,6 +403,11 @@ section.board-link {
 }
 
 @media screen and (max-width: 1300px) {
+    .section02 .section-title {
+    margin-bottom: 29px;
+    font-size: 28px;
+    padding-top: 24px;
+}
     section.list-content .max-layout-width > div {
         padding-left: 0;
     }
@@ -432,7 +437,7 @@ section.board-link {
 
 @media screen and (max-width: 754px) {
     .section03 {
-    height: 250px;
+    height: 221px;
     margin-top: 40px;
 }
     section.list-content {
@@ -589,6 +594,10 @@ section.board-link {
 
 
 @media screen and (max-width: 375px) {
+    section.section-quotes-title-right .bg {
+    bottom: -31px;
+    height: 212px;
+}
      .section03 .max-layout-width .text {
     padding-top: 36px;
 }
