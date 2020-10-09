@@ -68,8 +68,10 @@ public class BoardController {
     public String media(Model model,
                         @PathVariable(value="currentPage") int currentPage,
                         @RequestParam(value = "search_text", required = false) String search_text,
-                        @RequestParam(value = "type", required = false) String type) throws Exception {
+                        @RequestParam(value = "type", required = false) String type,
+                        @RequestParam(value = "tab", required = false) String tab) throws Exception {
         PagingVo pagingVo = new PagingVo(8, currentPage, "media", search_text, type);
+        pagingVo.setTab(tab);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "미디어");
         model.addAttribute("list", boardService.getBoardList(pagingVo));
@@ -121,8 +123,10 @@ public class BoardController {
     public String caseList(Model model,
                            @PathVariable(value="currentPage") int currentPage,
                            @RequestParam(value = "search_text", required = false) String search_text,
-                           @RequestParam(value = "type", required = false) String type) throws Exception {
+                           @RequestParam(value = "type", required = false) String type,
+                           @RequestParam(value = "tab", required = false) String tab) throws Exception {
         PagingVo pagingVo = new PagingVo(8, currentPage, "treatment_case", search_text, type);
+        pagingVo.setTab(tab);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "치료사례");
         model.addAttribute("list", boardService.getBoardList(pagingVo));

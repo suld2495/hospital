@@ -47,6 +47,9 @@
              <if test="id != null and id != ''">
                  and id = #{id}
              </if>
+             <if test="tab != null and tab != ''">
+                 and type = #{tab}
+             </if>
          </where>
          ORDER BY board_order desc
          LIMIT #{start}, #{end}
@@ -66,6 +69,9 @@
             </if>
             <if test="id != null and id != ''">
                 and id = #{id}
+            </if>
+            <if test="tab != null and tab != ''">
+                and type = #{tab}
             </if>
         </where>
     </select>
