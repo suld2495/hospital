@@ -745,6 +745,13 @@ section.board-link {
 }
 
 @media screen and (max-width: 375px) {
+    .section03 .max-layout-width {
+    padding-bottom: 31px;
+}
+    .left-fade-slider-container {
+    margin-top: 100px;
+    padding-bottom: 2px;
+}
     body .section-top-title-left .section-title {
         font-size: 28px;
     }
