@@ -16,7 +16,7 @@ import java.util.UUID;
 @Component
 public class NaverLoginBO {
     private final static String CLIENT_ID = "hFVW_ROwNVkKkXHV1GYY";
-    private final static String CLIENT_SECRET = "HeF4iiB0TT";
+    private final static String CLIENT_SECRET = "8nd5unuFng";
     private final static String REDIRECT_URI = "http://misowon.co.kr/naver-callback";
     private final static String SESSION_STATE = "oauth_state";
     /* 프로필 조회 API URL */

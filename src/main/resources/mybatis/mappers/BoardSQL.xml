@@ -206,6 +206,10 @@
             <if test="consultType != null and consultType != ''">
                 ,consultType
             </if>
+
+            <if test="type != null and type != ''">
+                ,type
+            </if>
         )
 
         VALUES
@@ -265,6 +269,9 @@
             <if test="consultType != null and consultType != ''">
                 ,#{consultType}
             </if>
+            <if test="type != null and type != ''">
+                ,#{type}
+            </if>
         )
     </insert>
 
@@ -310,6 +317,7 @@
             <if test="real_main_thumnail_img != null">	,	real_main_thumnail_img = #{real_main_thumnail_img}		</if>
             <if test="thumnail_path != null">			,	thumnail_path = #{thumnail_path}            			</if>
             <if test="main_view != null">			    ,	main_view = #{main_view}            			        </if>
+            <if test="type != null">			        ,	type = #{type}            			                    </if>
         </trim>
          WHERE num = #{num}
     </update>
