@@ -37,6 +37,7 @@
 
 .board-list table td, .board-list table th {
     vertical-align: middle;
+    letter-spacing: -1px;
 }
 
 @media screen and (max-width: 1300px) {
