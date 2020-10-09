@@ -743,6 +743,43 @@ section {
 }
 
 @media screen and (max-width: 414px) {
+    section02 .img01 {
+        top: 200px;
+        width: 100%;
+        left: 0;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+
+    .section02 .img01 {
+        top: 200px;
+        width: 100%;
+        left: 0;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .section02 .img02 {
+        width: 100%;
+        max-width: 100%;
+        float: none;
+        height: 530px;
+        position: absolute;
+        top: 620px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    .section02 .img02 .img {
+        height: auto;
+        overflow: hidden;
+        padding-right: 30px;
+        box-sizing: border-box;
+        margin-top: -67px;
+    }
+    .section02 .img02 .img img {
+        width: 100%;
+        height: auto;
+    }
     .section05 .text {
         padding-top: 288px;
         padding-bottom: 46px;
@@ -774,6 +811,7 @@ section {
     }
     .section03 {
         padding-bottom: 50px;
+        margin-top: 176px;
     }
     .section03 .full-layout-width {
         margin-top: 230px;
@@ -795,7 +833,8 @@ section {
     }
     .section02 .img01 .img {
         background-size: contain;
-        height: 187px;
+        height: 189px;
+        margin-top: -71px;
     }
     .list li p {
         font-size: 14px;
@@ -853,11 +892,24 @@ section {
 }
 
 @media screen and (max-width: 375px) {
+    .section02 .img02 .img {
+        height: auto;
+        overflow: hidden;
+        padding-right: 30px;
+        box-sizing: border-box;
+        margin-top: -10px;
+    }
+    .section02 .img01 .img {
+        background-size: contain;
+        height: 189px;
+        margin-top: -10px;
+    }
     .section03 .img-box .img {
         height: 120px;
     }
     .section03 {
         padding-bottom: 33px;
+        margin-top: 213px;
     }
     .section03 .full-layout-width {
         margin-top: 190px;
@@ -866,11 +918,11 @@ section {
         height: 152px;
     }
     .section02 .img01 {
-        top: 260px;
+        top: 210px;
         height: 159px;
     }
     .section02 .img02 {
-        top: 460px;
+        top: 415px;
     }
     .section02 .max-layout-width > div:first-child {
         height: 700px;
@@ -899,6 +951,7 @@ section {
     }
     .section03 {
         padding-bottom: 50px;
+        margin-top: 183px;
     }
     .section03 .full-layout-width {
         margin-top: 180px;
