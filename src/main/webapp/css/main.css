@@ -373,7 +373,7 @@ body {
 }
 
 .section03 .text h4, .section04 .text h4 {
-    font-size: 38px;
+    font-size: 40px;
     margin-bottom: 8px;
     letter-spacing: -3px;
     font-weight: 200;
@@ -435,8 +435,8 @@ body {
 }
 
 .section04 .details-link {
-    width: 194px;
-    height: 55px;
+    width: 159px;
+    height: 48px;
     position: absolute;
     border: 2px solid #958c85;
     display: inline-block;
@@ -446,7 +446,7 @@ body {
     right: 0;
     bottom: 0;
     box-sizing: border-box;
-    padding: 16px 30px;
+    padding: 13px 23px;
     letter-spacing: -1.5px;
     font-weight: 600;
 }
@@ -469,7 +469,7 @@ body {
     position: absolute;
     background: #9b8b7e;
     right: 0;
-    top: 25px;
+    top: 22px;
     left: auto;
 }
 
@@ -518,8 +518,9 @@ body {
 .review-text h7 {
     color: #939393;
     display: block;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 10px;
+    font-family: gmarket !important;
 }
 
 .review-text pre img {
@@ -1259,7 +1260,7 @@ body .section07 .bx-pager-link span + span {
 .section02 li div.hover {
     display: none;
     height: 100%;
-    padding-top: 141px;
+    padding-top: 166px;
     background: rgba(42,45,64,0.95);
     box-sizing: border-box;
     line-height: 1;
@@ -1919,7 +1920,7 @@ body .section07 .bx-pager-link span + span {
     100% { bottom:55px; }
 }
 .section02 h2 {
-    font-size: 45px;
+    font-size: 42px;
     line-height: 1.3;
     font-weight: 200;
     margin-bottom: 40px;
