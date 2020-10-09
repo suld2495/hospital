@@ -3102,8 +3102,15 @@ section.board-link {
 }
 
 @media screen and (max-width: 375px) {
+    .section11 {
+    margin-top: 50px;
+    margin-bottom: -6px;
+}
+    .section06 .max-layout-width .text {
+    padding-top: 52px;
+}
     .section06 {
-        margin-top: 105px;
+        margin-top: 23px;
         padding-bottom: 70px;
         margin-bottom: -10px;
         height: 203px;
@@ -3136,7 +3143,7 @@ section.board-link {
     .section11 .image_box_left,
     .section12 .image_box_left {
         height: 220px;
-        top: 87px;
+        top: 110px;
     }
     .section12 .image_box_left {
         height: 175px;
@@ -3147,7 +3154,7 @@ section.board-link {
         font-size: 28px;
     }
     .tab-container3 section.section-quotes-title-right .bg {
-        height: 227px;
+        height: 202px;
     }
     .tab-container2 section.section-quotes-title-right .bg {
         height: 206px;
