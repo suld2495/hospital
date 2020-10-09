@@ -101,6 +101,7 @@ public class LoginController {
 
         if (result.get("message").equals("success")) {
             Map info = (Map) result.get("response");
+
             Map param = new HashMap();
             param.put("provider", "naver");
             param.put("id", info.get("id"));
@@ -116,7 +117,7 @@ public class LoginController {
                 user.setServiceYN("Y");
                 user.setPrivacyYN("Y");
                 user.setProvider("naver");
-                user.setId((String) info.get("email"));
+                user.setId((String) info.get("id"));
                 user.setPhone("-");
                 loginService.insertUser(user);
             }
