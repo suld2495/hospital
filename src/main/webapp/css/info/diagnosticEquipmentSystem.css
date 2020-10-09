@@ -3,7 +3,7 @@
     width: 100%;
     overflow: hidden;
     margin-top: 66px;
-    margin-bottom: 142px;
+    margin-bottom: 129px;
 }
 
 .section01 .bx-wrapper .bx-viewport {
@@ -105,7 +105,7 @@
 .section01 .text-box {
     width: 427px;
     height: 225px;
-    background: #9b8b7e;
+    background: #333;
     position: absolute;
     bottom: 0;
     z-index: 1;
@@ -286,9 +286,11 @@
 
 
 .section03 {
-    /* margin-top: 92px; */
-    padding-bottom: 302px;
+    padding-top: 127px;
+    padding-bottom: 122px;
     overflow: hidden;
+    background: #F5F5F6;
+    margin-top: -17px;
 }
 
 .section03 .title {
@@ -349,18 +351,17 @@
     background-size: cover;
     position: absolute;
     z-index: 2;
-    top: 42px;
-    width: 41%;
+    top: 100px;
+    width: 49.8%;
+    height: 350px;
 }
 
 
 .section03 .bg {
-    background: #9b8b7e;
-    position: absolute;
-    left: -32px;
-    top: 0;
-    width: 50%;
-    height: 425px;
+    /* background: #f5f5f5; */
+    /* top: -20px; */
+    /* width: 50%; */
+    /* height: 507px; */
 }
 
 .section03 .max-layout-width {
@@ -485,18 +486,18 @@
 @media screen and (max-width: 640px) {
 
     .section03 .img {
-    width: 91%;
-    margin: 0 30px;
+    width: 100%;
+    margin: 0 -30px;
     box-sizing: border-box;
     height: 210px;
-    margin-top: -14px;
+    margin-top: -93px;
 }
     .section01 {
     display: inline-block;
     width: 100%;
     overflow: hidden;
     margin-top: 39px;
-    margin-bottom: 41px;
+    margin-bottom: 58px;
 }
 
     .section01 .slider, .section01 .slick-slider .slick-list {
@@ -574,7 +575,7 @@
 }
 
 .section03 {
-    padding-bottom: 403px;
+    padding-bottom: 360px;
     background: #f1f1f1;
     padding-top: 57px;
 }
@@ -601,6 +602,13 @@
 }
 
 @media screen and (max-width: 414px) {
+      .section03 .img {
+    width: 100%;
+    margin: 0 -30px;
+    box-sizing: border-box;
+    height: 210px;
+    margin-top: -93px;
+}
     .section01 .slick-slider .slick-list {
         transform: none;
     }
@@ -623,7 +631,7 @@
         margin-bottom: 17px;
     }
     .section01 .slider-pagenation {
-        margin-top: 340px;
+        margin-top: 281px;
     }
     .section01 .slider-container > div.slider-box {
         height: auto;
@@ -646,3 +654,17 @@
         height: auto;
     }
 }
+
+
+@media screen and (max-width: 375px) {
+    .section01 .slider-pagenation {
+    margin-top: 250px;
+}
+      .section03 .img {
+    width: 100%;
+    margin: 0 -30px;
+    box-sizing: border-box;
+    height: 210px;
+    margin-top: -93px;
+}
+  }
