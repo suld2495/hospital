@@ -49,9 +49,8 @@
         <div class="max-layout-width">
             <div class="text">
                 <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
-                    <span class="section-title-color bold">3D 디지털 기술력으로</span><br>                    
-                    <span class="section-title-color bold">오차를 줄여</span> 계획된 위치에
-                     임플란트를 심는 <strong>네비게이션 임플란트</strong>
+                    <span class="section-title-color bold">3D 디지털 기술력으로</span><br><span class="section-title-color bold">오차를 줄여</span>
+                    계획된 위치에<br>임플란트를 심는 <strong>네비게이션 임플란트</strong>
                 </h2>
                 <p class="section-text wow fadeInUp" data-wow-delay="600ms">
                     <strong>3D 첨단 장비를 통해 환자를 진단</strong>한 뒤 이를 토대로 <strong>모의 수술을 시뮬레이션</strong>한 뒤
