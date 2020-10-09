@@ -19,7 +19,7 @@
         <div class="max-layout-width text">
             <div>
                 <h2 class="section-title">
-                    환자분의 <span class="section-title-color"><strong> 고민과 치열과<br class="mobile"> 골격에 맞는<br class="mobile-display-none">교정상담</strong></span>과<br class="mobile"> 정밀진단 교정계획수립
+                    환자분의 <span class="section-title-color"><strong> 고민과 치열과<br class="mobile"> 골격에 맞는 교정상담</strong></span>과<br class="mobile"> 정밀진단 교정계획수립
                 </h2>
             </div>
         </div>
@@ -249,7 +249,7 @@
             </div>
             <div class="swiper-container wow fadeInUp" data-wow-delay="600ms">
                 <div class="swiper-slide">
-                    <div class="text">
+                    <!--div class="text">
                         <span class="number">01</span>
                         <h2 class="section-title">
                             치아 교정과 전문의가<br>
@@ -258,14 +258,14 @@
                         <p class="section-text">
                             교정과 전문의인 여자 원장님의 1:1 주치의 시스템으로 교정치료기간을 단축하기 위한 치료노하우와 기술력을 바탕으로 처음부터 끝까지 책임 진료합니다.
                         </p>
-                    </div>
+                    </div-->
                     <div class="image_box_right">
                         <div class="img img01"></div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="text">
-                        <span class="number">02</span>
+                        <span class="number">01</span>
                         <h2 class="section-title">
                             얼굴라인에 따라 <br>
                             <strong>치아교정을 진행합니다.</strong>
@@ -280,13 +280,13 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="text">
-                        <span class="number">03</span>
+                        <span class="number">02</span>
                         <h2 class="section-title">
                             교정치료와 함께 철저하게<br>
                             <strong>구강케어를 진행합니다.</strong>
                         </h2>
                         <p class="section-text">
-                            교정 치료는 전문적인 교육과 훈련을 받은 교정 전문의에게 받는 것이 중요합니다. 환자에게 맞는 진단과 계획으로 안전하고 믿을 수 있는 진료뿐만 아니라 구강건강을 지속적으로 관리하여 최적의 교정 치료 결과를 만들고 있습니다.
+                            환자 1:1 맞춤 진단과 계획으로 믿을 수 있는 진료와 함께 구강건강을 지속적으로 관리하여 만족스러운 결과를 만들고 있습니다.
                         </p>
                     </div>
                     <div class="image_box_right">
@@ -295,12 +295,12 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="text">
-                        <span class="number">04</span>
+                        <span class="number">03</span>
                         <h2 class="section-title">
                             <strong>첨단 3D CT로 진단합니다.</strong>
                         </h2>
                         <p class="section-text">
-                            치아교정은 정확한 구강 분석과 진단이 치아교정의 성패를 좌우합니다. 입체적인 구강 촬영이 가능한 첨단 CT장비를 이용하여 체계적인 교정 진단과 치료계획을 세워 효과적이고 만족도 높은 치아교정치료를 징행하고 있습니다.
+                            구강 분석과 진단이 치아교정의 성패를 좌우합니다. 입체적인 구강 촬영이 가능한 첨단 CT장비를 이용하여 체계적인 교정 진단과 치료계획을 세워 효과적이고 만족도 높은 치아교정치료를 징행하고 있습니다.
                         </p>
                     </div>
                     <div class="image_box_right">
@@ -309,7 +309,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="text">
-                        <span class="number">05</span>
+                        <span class="number">04</span>
                         <h2 class="section-title">
                             검증된 장치와 <br>
                             <strong>정품 재료만을 사용합니다.</strong>

@@ -17,7 +17,7 @@
         <div class="max-layout-width text">
             <div>
                 <h2 class="section-title">
-                    <span class="section-title-color"><strong>치아가 바르지 않으면<br class="mobile"></strong></span> 치아건강과<br class="mobile-display-none">
+                    <span class="section-title-color"><strong>치아가 바르지 않으면<br class="mobile"></strong></span> 치아건강과
                     인상 또한<br class="mobile"> 망가질 수 있습니다
                 </h2>
             </div>
