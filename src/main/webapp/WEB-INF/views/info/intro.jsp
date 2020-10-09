@@ -16,9 +16,11 @@
                     <strong>높은 수준의 진료</strong>를 추구합니다.
                 </h2>
                 <p class="section-text last-section-text">
-                    저희 치과는 첨단 장비를 사용해 한 분, 한 분 정확하게 검진하고<br>
-                    안전하고 체계적으로 치아의 기능과 심미성을 되찾아드립니다.<br>
+                    미소원치과는 첨단 장비를 사용해 한분, 한 분 맞춤 검진하여<br>
+                    체계적인 진료를 통해 치아의 기능과 심미성을 되찾아드립니다.<br>
                     만족스러운 결과를 위해 최선을 다하는 미소원치과입니다.
+                    
+                    
                 </p>
                 <h3 class="move-title wow slideInRight">MISOWON DENTAL CLINIC</h3>
             </div>
@@ -33,7 +35,7 @@
                     <span class="section-title-color wow fadeInUp" data-wow-delay="300ms">의료진 <strong>협진진료 시스템</strong></span><br>
                 </h2>
                 <p class="section-text wow fadeInUp" data-wow-delay="500ms">
-                    모든 진료를 <strong>의료진의 협진</strong>과 <strong>공동 연구</strong>를 통해 <strong>보다 정확하고 세밀한 치료계획 및 결과</strong>를 얻을 수 있습니다.
+                <strong>의료진의 협진</strong>을 통해 환자 개개인의 상황을 고려한 <strong>다양한 치료 방안을 연구</strong>하여 보다 <strong>정교하고 세밀한 치료계획 및 결과</strong>를 얻을 수 있습니다.
                     의료진의 다양한 의견들을 조합하고 협의해 <strong>환자 개개인의 상황을 고려한 다양한 치료 방안을 제안</strong>하고 있습니다.
                     <br>
                     미소원치과의 어떤 의사가 진료를 하더라도 같은 결과를 이끌어 낼 수 있는 <strong>선진화된 진료시스템</strong>입니다.
@@ -54,13 +56,13 @@
             <div class="text-box left-text-box">
                 <h3 class="move-title wow slideInRight">SYSTEMATIC</h3>
                 <h2 class="section-title last-section-title wow fadeInUp" data-wow-delay="500ms">
-                    <span class="section-title-color"><strong>최첨단장비</strong>를 통한</span><br>
+                    <span class="section-title-color"><strong>첨단장비</strong>를 통한</span><br>
                     체계적인 시스템
                 </h2>
                 <p class="section-text wow fadeInUp" data-wow-delay="700ms">
-                    효과적인 치료결과를 위해 <strong>3D CT, 3D 구강 스캐너, CAD/CAM, 포터블엑스레이 등의 최첨단 의료장비 시설</strong>과
-                    <strong>체계적인 관리 운영시스템을 구축</strong>하고 있습니다. 따라서, 의료진이 육안으로 확인할 수 없는 부분까지 개개인의 특성을
-                    <strong>정밀하게 파악</strong>하여 <strong>치과 진료의 정확도를 최대한 높입니다.</strong>
+                    효과적인 치료결과를 위해 <strong>3D CT, 3D 구강 스캐너, CAD/CAM, 포터블엑스레이 등의 첨단 의료장비 시설</strong>과
+                    <strong>체계적인 관리 운영시스템을 구축</strong>하고 있습니다. 따라서, 의료진이 육안으로 확인할 수 없는 부분까지
+                    <strong>정밀하게 파악</strong>하여 <strong>치과 진료의 정확도</strong>를 높입니다.
                 </p>
                 <a class="link"></a>
             </div>
@@ -97,42 +99,42 @@
                         <div>
                             <div class="img_bg img_bg1"></div>
                         </div>
-                        <h5>Point <span>01</span></h5>
+                        <h5><span>01</span></h5>
                         <p>고객중심 1:1 맞춤 진료</p>
                     </li>
                     <li>
                         <div>
                             <div class="img_bg img_bg2"></div>
                         </div>
-                        <h5>Point <span>02</span></h5>
-                        <p>통증과 부작용을 최소화</p>
+                        <h5><span>02</span></h5>
+                        <p>통증과 부작용을 줄임</p>
                     </li>
                     <li>
                         <div>
                             <div class="img_bg img_bg3"></div>
                         </div>
-                        <h5>Point <span>03</span></h5>
+                        <h5><span>03</span></h5>
                         <p>건물내 상주 협력기공소</p>
                     </li>
                     <li>
                         <div class="img-bg-box">
                             <div class="img_bg img_bg4"></div>
                         </div>
-                        <h5>Point <span>04</span></h5>
+                        <h5><span>04</span></h5>
                         <p>고난도 케이스도 가능한 기술력</p>
                     </li>
                     <li>
                         <div class="img-bg-box">
                             <div class="img_bg img_bg5"></div>
                         </div>
-                        <h5>Point <span>05</span></h5>
+                        <h5><span>05</span></h5>
                         <p>철저한 멸균시스템</p>
                     </li>
                     <li>
                         <div class="img-bg-box">
                             <div class="img_bg img_bg6"></div>
                         </div>
-                        <h5>Point <span>06</span></h5>
+                        <h5><span>06</span></h5>
                         <p>첨단장비 시스템 사용</p>
                     </li>
                 </ul>

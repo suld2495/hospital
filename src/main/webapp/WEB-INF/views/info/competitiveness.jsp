@@ -60,8 +60,7 @@
                     <h2 class="section-title bold wow fadeInUp" data-wow-delay="300ms">
                         <strong>
                             첨단 디지털 장비를 이용하여<br>
-                            정확하고 완벽하게 진료하는<br>
-                            미소원치과
+                            진료하는 미소원치과<br>                            
                         </strong>
                     </h2>
                 </div>
@@ -69,9 +68,8 @@
                     <p class="img"><img src="<c:url value='/images/sub/info/competitiveness/compet04.jpg' />"></p>
                     <div>
                         <p class="section-text wow fadeInUp" data-wow-delay="700ms">
-                            미소원치과는 환자의 편안한 진료를 위하여 <strong>3D CT를 도입</strong>하여,
-                            3차원으로 <strong>주변 치아와 거리, 각도, 신경 위치를 촬영</strong>하여,
-                            환자 <strong>개인에게 최적화된 치과치료를 진행</strong>하고 있습니다.
+                            3D CT를 사용하여 3차원으로 <strong>주변 치아와 거리, 각도, 신경 위치를 촬영</strong>합니다. 
+                            환자 <strong>개개인의 상황을 분석한 맞춤 진료</strong>를 선보입니다.
                         </p>
                         <span class="detail"><a></a></span>
                     </div>
@@ -123,11 +121,9 @@
                 </ul>
             </div>
             <p class="sub-text wow fadeInUp" data-wow-delay="700ms">
-                보통 치과에서는 보철물을 제작하기 위하여 외부 기공소에 의뢰를 하지만
+                협력 기공소가 건물 내 상주하고 있어 보다 빠르고 정교하게 보철물을 제작할 수 있습니다.
                 <br/>
-                미소원치과에서는 협력 기공소가 건물 내 상주하고 있어 보다 빠르고 정확하게 보철물을 제작할 수 있습니다.
-                <br/>
-                최고급 장비와 최고 실력의 기공사 선생님이 상주하여 꼼꼼하게 제작이 가능합니다.
+                좋은 장비와 오랜 노하우의 기공사가 상주하여 꼼꼼하게 제작이 가능합니다.
             </p>
         </div>
     </section>

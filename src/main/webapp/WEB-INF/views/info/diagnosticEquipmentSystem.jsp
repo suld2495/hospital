@@ -222,12 +222,12 @@
         <div class="max-layout-width wow fadeInUp" data-wow-delay="300ms">
             <span class="title">ADVANCED EQUIPMENT</span>
             <h2 class="section-title">
-                <strong>진단부터 정확하게</strong><br>
+                <strong>진단부터 정밀하게</strong><br>
                 <span class="section-title-color">첨단장비를 통한</span><br>
                 <span class="section-title-color">체계적 시스템</span>
             </h2>
             <p class="section-text">
-                미소원치과는 <strong>첨단 디지털 장비를 이용하여 환자의 상태를 안전하고 정확하게</strong> 진단합니다.
+                미소원치과는 <strong>첨단 디지털 장비를 이용하여 환자의 상태를 안전하고 정밀하게</strong> 진단합니다.
             </p>
         </div>
         <div class="image_box_left wow fadeInUp" data-wow-delay="700ms">
