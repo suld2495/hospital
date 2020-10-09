@@ -20,7 +20,7 @@
             <div>
                 <h2 class="section-title">
                     <span class="section-title-color">틀니의 경제성과 임플란트의</span><br>
-                    <span class="section-title-color">안정성을</span><strong>모두 갖춘<br>자연스러운 치아를 재현</strong>
+                    <span class="section-title-color">안정성을</span><strong> 모두 갖춘<br>자연스러운 치아를 재현</strong>
                 </h2>
                 <p class="section-text"></p>
             </div>
@@ -50,8 +50,8 @@
                     <span class="bold section-title-color">고정형 전체 임플란트</span>
                 </h2>
                 <p class="section-text wow fadeInUp" data-wow-delay="600ms">
-                    3차원 진단 후 컴퓨터 모의 수술로 잇몸,뼈,신경 등을 종합적으로 분석해 <strong>최적의 위치에 잇몸 절개없이 임플란트</strong>를 할 수있습니다.<br>
-                    임플란트 개수가 많아도 정확하고 안전한 수술이 가능하며, <strong>모의 수술을 통해 정확도는 높이고 실패확률은 줄입니다.</strong>
+                    3차원 진단 후 컴퓨터 모의 수술로 잇몸,뼈,신경 등을 종합적으로 분석해 <strong>최적의 위치에 적은 절개로 임플란트</strong>를 할 수있습니다.<br>
+                    임플란트 개수가 많아도 모의 수술계획을 통해 진행되므로<strong>정확도를 높여 만족스러운 결과를 드립니다.</strong>
                 </p>
             </div>
         </div>
@@ -105,9 +105,12 @@
         <div class="bg"></div>
         <div class="max-layout-width">
             <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>전체 임플란트의 장점</strong>은?</h2>
-            <p class="wow fadeInUp" data-wow-delay="600ms">
+            <!--p class="wow fadeInUp" data-wow-delay="600ms">
                 전체 임플란트 성공의 핵심은 얼마나<br class="mobile"> <strong>최소한의 개수로 최대한의 효과를 내느냐</strong>입니다.<br>
                 미소원치과는 <strong>다년간의 임상 경험을 가진 의료진</strong>들이<br class="mobile"> 임플란트 시술을 합니다.
+            </p-->
+            <p class="wow fadeInUp" data-wow-delay="600ms">
+                다년간의 임상 경험을 가진 의료진들이<br class="mobile"> <strong>환자분께 만족을 드리기위해 노력</strong>합니다.            
             </p>
             <ul class="text">
                 <li class="img01 wow fadeInUp" data-wow-delay="900ms">
@@ -201,7 +204,7 @@
     <section class="section07">
         <div class="max-layout-width">
             <h2 class="section-title wow fadeInUp" data-wow-delay="300ms"><span class="section-title-color">만 65세 이상</span> 임플란트틀니·건강보험</h2>
-            <p class="section-text wow fadeInUp" data-wow-delay="600ms">3D 디지털 기술력으로 오차를 최소화하여 정확한 위치에 임플란트를 심습니다.</p>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">비용때문에 고민이셨다면 임플란트틀니와 보험제도를 이용해 보세요!</p>
             <ul>
                 <li class="img img01 wow fadeInUp" data-wow-delay="900ms">
                     <h2>임플란트</h2>

@@ -18,8 +18,8 @@
         <div class="max-layout-width text">
             <div>
                 <h2 class="section-title">
-                    <span class="bold section-title-color">단 하루만에 정밀하게 보고</span><br>
-                    <strong>정확하게 심는</strong><br class="mobile"> 원데이 임플란트
+                    <span class="bold section-title-color">단 하루만에</span>
+                    <strong>빠르게 심는</strong><br class="mobile"> 원데이 임플란트
                 </h2>
             </div>
         </div>
@@ -28,10 +28,10 @@
                 <div>
                     <p class="section-text">
                         현대 의학의 승리라고도 할 수 있는 원데이 임플란트는 <strong>기존에 3~6개월이 걸리던 과정을 단 하루만에 발치와 동시에 임플란트를 식립하여 치료하는 방법</strong>입니다.
-                        발치 후 잇몸 조직이 빨리 회복되는 것을 이용해 <strong>발치 당일 임플란트를 식립하여 뼈의 손실을 최소화</strong>합니다.
+                        발치 후 잇몸 조직이 빨리 회복되는 것을 이용해 <strong>발치 당일 임플란트를 식립하여 뼈의 손실을 줄여줍니다.</strong>
                     </p>
                     <p class="section-text">
-                        미소원치과 건물내 상주하고있는 기공팀의 숙련된 기술력으로 발치 전의 모습으로 빠르게 되돌려 드립니다.
+                        같은 건물 내 상주하는 협력 기공소의 숙련된 노하우로 발치 전의 모습으로 빠르게 되돌려드립니다.
                     </p>
                 </div>
             </div>
@@ -41,7 +41,7 @@
     <section class="section02">
         <div class="max-layout-width">
             <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">원데이 임플란트 <span class="bold section-title-color">임시 보철물 부착까지 하루 만에</span></h2>
-            <p class="section-text wow fadeInUp" data-wow-delay="600ms">원데이 임플란트는 환자 잇몸 뼈 상태, 전신질환 여부를 고려하여 치료여부가 결정되므로 전문의 상담이 반드시 필요합니다.</p>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">원데이 임플란트는 환자 잇몸 뼈 상태, 전신질환 여부를 고려하여 치료여부가 결정되므로 상담이 반드시 필요합니다.</p>
 
             <div class="table-container wow fadeInUp" data-wow-delay="900ms">
                 <ul class="step">
@@ -170,7 +170,7 @@
                     </p>
                     <p class="pager active wow fadeInUp" data-wow-delay="600ms"><span>01</span>뼈이식 특허 보유 의료진의 수준 높은 진료</p><br>
                     <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>02</span>다양한 첨단장비 시스템 구비</p><br>
-                    <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>03</span>통증 줄여주는 무통 마취가 보우</p><br>
+                    <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>03</span>통증 줄여주는 무통 마취기 보유</p><br>
                     <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>04</span>건물 내 협력기공소 상주로 빠른 보철물 제작 가능</p><br>
                     <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>05</span>임플란트사후 보장 시스템 도입</p><br>
                     <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>06</span>다수의 성공 사례 보유</p><br>
@@ -191,7 +191,7 @@
             </p>
             <ul class="text">
                 <li class="img01 wow fadeInUp" data-wow-delay="600ms">
-                    <p>치료 당일 포함 1~3회<br>최소한의 병원내원</p>
+                    <p>치료 당일 포함 1~3회<br>적은 횟수의 병원내원</p>
                 </li>
                 <li class="img02 wow fadeInUp" data-wow-delay="900ms">
                     <p>10분~20분의 <br>짧은 치료시간</p>
