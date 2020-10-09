@@ -157,9 +157,9 @@
                     <div class="text">
                         <h2>
                             건물 내 기공소와 협업으로<br>
-                            빠르고 정확한 보철물 제작
+                            빠르고 정밀한 보철물 제작
                         </h2>
-                        <p>3D SEREC SYSTEM의 첨단장비를 갖추고 있으며 오랜 기공물 제작의<br>기술력으로 환자에게 딱 맞는 보철물을 제작합니다.</p>
+                        <p>3D SEREC SYSTEM의 첨단장비를 갖춘 기공물 제작의 기술력으로<br>환자에게 딱 맞는 보철물을 제작합니다.</p>
                         <a>
                             MORE
                             <span></span>
@@ -175,7 +175,7 @@
                             환자분들의 편안한 진료를 위한<br>
                             품격있는 서비스환경 제공
                         </h2>
-                        <p>2,3층 규모의 넓고 쾌적한 대기실, 청결한 진료 공간, 첨단 디지털 장비</p>
+                        <p>2,3층 규모의 넓고 쾌적한 대기실, 청결한 진료 공간, 첨단 디지털 장비 보유</p>
                         <a>
                             MORE
                             <span></span>
@@ -191,7 +191,7 @@
                             환자의 두려운 마음을<br>
                             헤아리는 편안한 진료
                         </h2>
-                        <p>치료 단계별로 통증을 최소화하는 시스템과 의료진의 세심한 배려로<br>아프지 않은 치과 진료를 위해 최선을 다하고 있습니다.</p>
+                        <p>통증을 줄여주는 시스템과 의료진의 세심한 배려로<br>아프지 않는 치과 진료를 위해 최선을 다합니다.</p>
                         <a>
                             MORE
                             <span></span>
@@ -218,9 +218,8 @@
                         <div class="hover">
                             <h3>디지털 임플란트</h3>
                             <p>
-                                모의 식립계획으로<br>
-                                정교하고 정확하게 자연치아인듯<br>
-                                편안하고 안전한 임플란트
+                                모의 식립계획으로 정밀하게,<br>
+                                편안하고 안정적인 임플란트<br>                                
                             </p>
                         </div>
                     </li>
@@ -232,8 +231,8 @@
                         <div class="hover">
                             <h3>디지털 치아교정</h3>
                             <p>
-                                3D CT를 활용한 정확한 진단으로<br>
-                                수설없이 아름다운 라인을<br>
+                                3D CT를 활용한 진단으로<br>
+                                수술없이 아름다운 라인을<br>
                                 만들어주는 교정
                             </p>
                         </div>
@@ -247,8 +246,8 @@
                         <div class="hover last">
                             <h3>자연치아 클리닉</h3>
                             <p>
-                                CEREC SYSTEM을 활용한<br>
-                                빠르고 정확한 치료
+                                첨단의 CEREC SYSTEM을 활용한<br>
+                                환자맞춤형 치료
                             </p>
                         </div>
                     </li>
@@ -460,7 +459,7 @@
                         <div class="module">
                             <img src="<c:url value='/images/main/img02.jpg' /> " class="pointer">
                             <div class="text">
-                                <span class="square">3D CT</span>
+                                <span class="square">ORTHODONTICS</span>
                                 <span class="num">02</span>
                             </div>
                         </div>
@@ -556,7 +555,7 @@
     <div class="section09 section">
         <div class="max-layout-width">
             <h4>미소원치과 <strong>미리보기</strong></h4>
-            <p>따듯한 공간에서 편안하게 진료받으세요.</p>
+            <p>쾌적한 공간에서 편안하게 진료받으세요.</p>
             <div class="tour-slide">
                 <c:forEach begin="1" end="10" varStatus="status">
                     <div class="slide-item">
