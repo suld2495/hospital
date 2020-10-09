@@ -699,6 +699,21 @@ section.board-link {
 }
 
 @media screen and (max-width: 375px) {
+     .section03 {
+        background-size: cover;
+        padding-bottom: 25px;
+    }
+
+    section.section-top-title-left .image_box_left {
+    height: 220px;
+    bottom: -36px;
+}
+    body section.section-top-title-left-two .max-layout-width ul {
+    width: 100%;
+    margin-top: 24px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
     section.section-quotes-title-right .bg {
     bottom: -27px;
     }
@@ -717,8 +732,8 @@ section.board-link {
         margin-top: -25px;
     }
     .section02 {
-        margin-top: 108px;
-        margin-bottom: 25px;
+        margin-top: 86px;
+        margin-bottom: 23px;
     }
     section.section-top-title-left {
         padding-bottom: 75px;

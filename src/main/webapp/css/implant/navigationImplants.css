@@ -654,8 +654,8 @@ section.board-link {
     }
 
     .section02 {
-    margin-top: 51px;
-    margin-bottom: 96px;
+    margin-top: 49px;
+    margin-bottom: 106px;
     }
     section.section-quotes-title-right .bg {
         height: 166px;
@@ -714,6 +714,11 @@ section.board-link {
 }
 
 @media screen and (max-width:375px) {
+
+    .section02 {
+    margin-top: 75px;
+    margin-bottom: 98px;
+    }
         section.section-top-title-left .image_box_left {
     height: 220px;
     bottom: -21px;
@@ -751,6 +756,10 @@ section.board-link {
 }
 
 @media screen and (max-width:360px) {
+    .section02 {
+    margin-top: 49px;
+    margin-bottom: 95px;
+    }
     body section.section-top-title-left-two .max-layout-width ul {
     width: 100%;
     margin-top: 20px;

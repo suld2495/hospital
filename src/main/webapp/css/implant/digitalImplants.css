@@ -622,6 +622,9 @@
 }
 
 @media screen and (max-width: 414px) {
+       .fade-in-slider .slick-arrow {
+    bottom: 50px;
+}
     section.section-quotes-title-left .max-layout-width .text {
         padding-top: 229px;
     }
@@ -687,6 +690,9 @@
 }
 
 @media screen and (max-width: 375px) {
+    .fade-in-slider .slick-arrow {
+    bottom: 50px;
+}
     section.section-quotes-title-left .bg {
         height: 190px;
     }
@@ -711,6 +717,9 @@
 }
 
 @media screen and (max-width: 360px) {
+    .fade-in-slider .scroll-bar {
+    top: 255px;
+}
     .section05 {
     margin-top: 148px;
 }
