@@ -70,6 +70,48 @@
 }
 
 @media screen and (max-width: 1300px) {
+        .paging {
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+    .gallery-list .gallery li p {
+    color: #222;
+    padding-bottom: 46px;
+    font-size: 17px;
+}
+
+
+    .gallery-list .gallery li h5 {
+    margin-top: 24px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+    .gallery-list .gallery .img-box {
+    overflow: hidden;
+    position: relative;
+    height: 460px;
+}
+
+    .gallery-list .gallery {
+    overflow: hidden;
+    margin-top: 37px;
+    margin-bottom: 23px;
+    margin-left: -5px;
+    margin-right: -5px;
+    letter-spacing: -1px;
+}
+
+
+    .gallery-list .max-layout-width {
+        padding: 0 20px;
+        box-sizing: border-box;
+        padding-bottom: 29px;
+    }
+
+    
     .gallery-list .gallery li {
         width: 50%;
     }
@@ -81,9 +123,279 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+
+@media screen and (max-width: 414px) {
+    .paging {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+    .gallery-list .gallery li p {
+    color: #222;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+
+    .gallery-list .gallery li h5 {
+    margin-top: 17px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    .gallery-list .gallery .img-box {
+    overflow: hidden;
+    position: relative;
+    height: 135px;
+}
+
+    .gallery-list .gallery {
+    overflow: hidden;
+    margin-top: 37px;
+    margin-bottom: 23px;
+    margin-left: -5px;
+    margin-right: -5px;
+    letter-spacing: -1px;
+}
+
+
     .gallery-list .max-layout-width {
         padding: 0 20px;
         box-sizing: border-box;
+        margin-bottom: -31px;
+    }
+}
+
+
+
+@media screen and (max-width: 650px) {
+
+    .paging {
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+    .gallery-list .gallery li p {
+    color: #222;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+
+    .gallery-list .gallery li h5 {
+    margin-top: 17px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    .gallery-list .gallery .img-box {
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+}
+
+    .gallery-list .gallery {
+    overflow: hidden;
+    margin-top: 37px;
+    margin-bottom: 23px;
+    margin-left: -5px;
+    margin-right: -5px;
+    letter-spacing: -1px;
+}
+
+
+    .gallery-list .max-layout-width {
+        padding: 0 20px;
+        box-sizing: border-box;
+        padding-bottom: -2px;
+        margin-bottom: -30px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    .paging {
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+    .gallery-list .gallery li p {
+    color: #222;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+
+    .gallery-list .gallery li h5 {
+    margin-top: 17px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    .gallery-list .gallery .img-box {
+    overflow: hidden;
+    position: relative;
+    height: 168px;
+}
+
+    .gallery-list .gallery {
+    overflow: hidden;
+    margin-top: 37px;
+    margin-bottom: 23px;
+    margin-left: -5px;
+    margin-right: -5px;
+    letter-spacing: -1px;
+}
+
+
+    .gallery-list .max-layout-width {
+        padding: 0 20px;
+        box-sizing: border-box;
+        padding-bottom: -2px;
+        margin-bottom: -30px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    .paging {
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+    .gallery-list .gallery li p {
+    color: #222;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+
+    .gallery-list .gallery li h5 {
+    margin-top: 17px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    .gallery-list .gallery .img-box {
+    overflow: hidden;
+    position: relative;
+    height: 125px;
+}
+
+    .gallery-list .gallery {
+    overflow: hidden;
+    margin-top: 37px;
+    margin-bottom: 23px;
+    margin-left: -5px;
+    margin-right: -5px;
+    letter-spacing: -1px;
+}
+
+
+    .gallery-list .max-layout-width {
+        padding: 0 20px;
+        box-sizing: border-box;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .paging {
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+    .gallery-list .gallery li p {
+    color: #222;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+
+    .gallery-list .gallery li h5 {
+    margin-top: 17px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    .gallery-list .gallery .img-box {
+    overflow: hidden;
+    position: relative;
+    height: 117px;
+}
+
+    .gallery-list .gallery {
+    overflow: hidden;
+    margin-top: 37px;
+    margin-bottom: 23px;
+    margin-left: -5px;
+    margin-right: -5px;
+    letter-spacing: -1px;
+}
+
+
+    .gallery-list .max-layout-width {
+        padding: 0 20px;
+        box-sizing: border-box;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+
+    .paging {
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+    .gallery-list .gallery li p {
+    color: #222;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+
+    .gallery-list .gallery li h5 {
+    margin-top: 17px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    .gallery-list .gallery .img-box {
+    overflow: hidden;
+    position: relative;
+    height: 103px;
+}
+
+    .gallery-list .gallery {
+    overflow: hidden;
+    margin-top: 37px;
+    margin-bottom: 23px;
+    margin-left: -5px;
+    margin-right: -5px;
+    letter-spacing: -1px;
+}
+
+
+    .gallery-list .max-layout-width {
+        padding: 0 20px;
+        box-sizing: border-box;
+        padding-bottom: 29px;
     }
 }
