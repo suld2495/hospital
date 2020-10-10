@@ -112,7 +112,7 @@
                                         <span class="imgSpan">
 											<img src="<c:url value='/images/main/sub/appendix.jpg'/>" class="appendixImg pointer">
 										</span>
-                                        <span class="inputDelete deleteAppendix" data-num="${num}"><img src="<c:url value='/images/main/sub/appendix.jpg'/>" class="pointer"></span>
+                                        <span class="inputDelete deleteAppendix" data-num="${num}"><img src="<c:url value='/images/cmmn/delete.png'/>" class="pointer"></span>
                                     </p>
                                 </div>
                             </div>
