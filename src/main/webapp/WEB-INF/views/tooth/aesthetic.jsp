@@ -38,23 +38,23 @@
         </div>
     </section>
 
-    <section class="section02 wow fadeInUp">
+    <section class="section02">
         <div class="max-layout-width">
-            <h2 class="section-title">심미보철<strong>치료 효과</strong></h2>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">심미보철<strong>치료 효과</strong></h2>
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="600ms">
                     <div class="img img01"></div>
                     <p>깨끗한 치아로<br>자신감 상승</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <div class="img img02"></div>
                     <p>적은양의 치아삭제로<br>자연치아 보존</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="1200ms">
                     <div class="img img03"></div>
                     <p>개개인에 맞춤형<br>심미보철치료를 시행</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="1500ms">
                     <div class="img img04"></div>
                     <p>철저한 사후관리로<br>오래도록 아름답게 유지</p>
                 </li>
@@ -62,14 +62,14 @@
         </div>
     </section>
 
-    <section class="section03 wow fadeInUp">
+    <section class="section03">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 자연치아와 매우 유사하여 심미적으로 우수하여<br>
                 <strong>환자분들의 미소를 되찾아 드립니다.</strong>
             </h2>
-            <p class="section-text">미소원치과는 개인 맞춤형 심미보철 치료를 통해 건강하고 아름다운 인상을 만들어 드립니다.</p>
-            <div class="tab">
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">미소원치과는 개인 맞춤형 심미보철 치료를 통해 건강하고 아름다운 인상을 만들어 드립니다.</p>
+            <div class="tab wow fadeInUp" data-wow-delay="900ms">
                 <ul>
                     <li class="active"><a href="<c:url value='/aesthetic'/>">라미네이트</a></li>
                     <li><a href="<c:url value='/aesthetic-ceramic'/>">올세라믹 크라운</a></li>
@@ -85,10 +85,10 @@
                 <div class="tab-contents">
                     <ul>
                         <li class="active">
-                            <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic08.jpg' />">
+                            <img class="wow fadeInUp" data-wow-delay="300ms" src="<c:url value='/images/sub/tooth/aesthetic/aesthetic08.jpg' />">
                             <div>
-                                <h2>라미네이트</h2>
-                                <p>
+                                <h2 class="wow fadeInUp" data-wow-delay="600ms">라미네이트</h2>
+                                <p class="wow fadeInUp" data-wow-delay="900ms">
                                     손상,변형,변색 등으로 치아가 제 기능을 하지 못하고 심미적으로도 만족스럽지 못할 때 <strong>단 기간에 치아색,모양,크기,배열 등을 바꿔주는
                                     심미치료방법</strong>으로 원하는 대로 디자인 할 수 있고, <strong>반영구적인 미백효과</strong>가 있습니다. 인조손톱 모양의 얇은 사기판을 접착하는 방식의 치료입니다.
                                 </p>
@@ -101,17 +101,17 @@
         </div>
 
         <section class="section05 section-quotes-title section-quotes-title-right wow fadeInUp">
-            <div class="image_box_right">
+            <div class="image_box_right wow fadeInUp" data-wow-delay="300ms">
                 <p class="img"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
                     <div>
-                        <h2 class="section-title">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                             <strong>최소한의 치아삭제</strong>로<br>
                             하루만에 가능한 라미네이트
                         </h2>
-                        <p class="section-text">
+                        <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                            자연치아를 최대한 보존하는 상태에서 치아의 건강함과 아름다움을 동시에 만족시키며 더욱 자신있고 매력적인 인상을 하루만에 만들어 드립니다. 가능한 매우 얇고 심미성이 뛰어난 재질로
                             라미네이트를 제작합니다. 투명하며 자연치아와 거의 같은 색상을 구현하며, 환자의 구강구조를 고려한 심미적인 디자인을 만들기때문에 많은분들이 만족감을 느낍니다.
                         </p>
@@ -123,20 +123,20 @@
 
         <section class="section06 list-content list-content-right wow fadeInUp">
             <div class="max-layout-width">
-                <div class="image_box_left">
+                <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
                     <p class="img laminate"></p>
                 </div>
                 <div class="text">
                     <div>
                         <h2 class="section-title">
-                            <span class="section-title-color bold">라미네이트 치료</span>가 필요한 경우<br>
+                            <span class="section-title-color bold wow fadeInUp" data-wow-delay="600ms">라미네이트 치료</span>가 필요한 경우<br>
                         </h2>
-                        <p class="pager pointer active"><span>01</span>앞니가 벌어지거나 틀어져 자신있게 웃을 수 없는 경우</p><br>
-                        <p class="pager pointer"><span>02</span>치아교정을 하고 싶지만 시간상 여유와 비용때문에 고민인 경우</p><br>
-                        <p class="pager pointer"><span>03</span>치아가 착색되거나 변색이 된 경우</p><br>
-                        <p class="pager pointer"><span>04</span>치아 모양이 올바르지 않고 치아 간의 크기가 다른 경우</p><br>
-                        <p class="pager pointer"><span>05</span>앞니에 생긴 충치를 해결하고 싶으신 경우</p><br>
-                        <p class="pager pointer"><span>06</span>선천적으로 치아 형태가 이상한 경우</p><br>
+                        <p class="pager pointer active wow fadeInUp" data-wow-delay="900ms"><span>01</span>앞니가 벌어지거나 틀어져 자신있게 웃을 수 없는 경우</p><br>
+                        <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>02</span>치아교정을 하고 싶지만 시간상 여유와 비용때문에 고민인 경우</p><br>
+                        <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>03</span>치아가 착색되거나 변색이 된 경우</p><br>
+                        <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>04</span>치아 모양이 올바르지 않고 치아 간의 크기가 다른 경우</p><br>
+                        <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>05</span>앞니에 생긴 충치를 해결하고 싶으신 경우</p><br>
+                        <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>06</span>선천적으로 치아 형태가 이상한 경우</p><br>
                     </div>
                 </div>
             </div>
@@ -145,13 +145,13 @@
         </section>
 
         <section class="text-slider wow fadeInUp">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 라미네이트,<strong class="section-title-color">이렇게 진행</strong>됩니다.
             </h2>
-            <p class="section-text">
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">
                 개인의 얼굴 및 치아에 적합한 계획으로 만족스러운 심미치료 결과를 얻습니다.
             </p>
-            <div class="slider">
+            <div class="slider wow fadeInUp" data-wow-delay="900ms">
                 <div>
                     <div class="text">
                         <h2>
@@ -254,7 +254,7 @@
 
         <section class="left-fade-slider-container wow fadeInUp">
             <div class="max-layout-width">
-                <h2 class="section-title">
+                <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                     <strong><span class="section-title-color">
                     내 치아의 부족한 부분을 채워주는
                 </span></strong>
@@ -262,7 +262,7 @@
                     <strong>라미네이트 치료단계</strong>
                 </h2>
             </div>
-            <div class="slider-container post-slider">
+            <div class="slider-container post-slider wow fadeInUp" data-wow-delay="600ms">
                 <div class="left-fade-sldier posts">
                     <div class="slides">
                         <div class="slide" data-index="01">
@@ -395,28 +395,28 @@
         </div>
     </section>
 
-    <section class="board-link wow fadeInUp">
+    <section class="board-link">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 학습하고 연구하는 전문 의료진의<br>
-                <span class="section-title-color">정직하고 양심적인 진료</span>
+                <span class="section-title-color">정직하고 섬세한 진료</span>
             </h2>
-            <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="1200ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="1500ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>

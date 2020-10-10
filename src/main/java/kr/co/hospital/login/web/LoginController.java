@@ -73,7 +73,10 @@ public class LoginController {
 
             if (user == null) {
                 user = new UserVo();
-                user.setEmail((String) info.get("email"));
+
+                String email = info.get("email") != null &&  !"".equals(info.get("email")) ? (String) info.get("email") : "-";
+
+                user.setEmail(email);
                 user.setName((String) info.get("nickname"));
                 user.setPassword("1");
                 user.setServiceYN("Y");
@@ -111,7 +114,7 @@ public class LoginController {
             if (user == null) {
                 user = new UserVo();
                 user.setUniqueId((String) info.get("id"));
-                user.setEmail((String) info.get("email"));
+                user.setEmail("-");
                 user.setName((String) info.get("name"));
                 user.setPassword("1");
                 user.setServiceYN("Y");
