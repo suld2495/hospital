@@ -581,6 +581,16 @@ document.write("<script type='text/javascript' src='" + content + "/js/admin/for
 						}
 					}
 
+					if (key === "main_view") {
+						if (value === 'Y') {
+							temp.find('.main-view').addClass('active');
+						} else {
+							temp.find('.main-view').removeClass('active');
+						}
+
+						return;
+					}
+
 					$column.html(value);
 					$columnData.data(key.toLowerCase(), value);
 				});
