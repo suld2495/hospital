@@ -77,11 +77,11 @@
 
 
 .tab-contents4 .section05 .max-layout-width .text {
-    padding-top: 88px;
+    padding-top: 121px;
 }
 
 .tab-contents5 .section05 .max-layout-width .text {
-    padding-top: 87px;
+    padding-top: 116px;
 }
 
 .section05 .max-layout-width .text h2 {
@@ -477,7 +477,6 @@ p.img.toothimg05{
     background: #fff;
     margin-bottom: 12px;
     border: 1px solid #c9c9c9;
-    border-left: none;
     display: inline-block;
     text-align: left;
     cursor: pointer;
@@ -804,6 +803,9 @@ section.board-link {
 }
 
 @media screen and (max-width: 640px) {
+    .section03 .text li {
+        border-left: none;
+    }
     .tab-contents5 .section05 .max-layout-width .text {
         padding-top: 40px;
     }
@@ -1048,7 +1050,7 @@ section.board-link {
         height:203px
     }
 
-     section.section-top-title-left {
+    section.section-top-title-left {
         padding-bottom: 68px;
     }
 }
@@ -1097,14 +1099,14 @@ section.board-link {
         padding-bottom: 128px;
         margin-top: 49px;
     }
-      section.section-top-title-left {
+    section.section-top-title-left {
         padding-bottom: 57px;
     }
 }
 
 
 @media screen and (max-width: 360px)  {
-     section.section-top-title-left {
+    section.section-top-title-left {
         padding-bottom: 30px;
     }
     .section05 {
@@ -1137,7 +1139,7 @@ section.board-link {
 }
 
 @media screen and (max-width: 320px)  {
-section.section-top-title-left {
-    padding-bottom: 78px;
-}
+    section.section-top-title-left {
+        padding-bottom: 78px;
+    }
 }

@@ -249,19 +249,19 @@
             </div>
             <div class="swiper-container wow fadeInUp" data-wow-delay="600ms">
                 <div class="swiper-slide">
-                    <!--div class="text">
-                        <span class="number">01</span>
-                        <h2 class="section-title">
-                            치아 교정과 전문의가<br>
-                            <strong>책임진료합니다.</strong>
-                        </h2>
-                        <p class="section-text">
-                            교정과 전문의인 여자 원장님의 1:1 주치의 시스템으로 교정치료기간을 단축하기 위한 치료노하우와 기술력을 바탕으로 처음부터 끝까지 책임 진료합니다.
-                        </p>
-                    </div-->
-                    <div class="image_box_right">
-                        <div class="img img01"></div>
-                    </div>
+<%--                    <div class="text">--%>
+<%--                        <span class="number">01</span>--%>
+<%--                        <h2 class="section-title">--%>
+<%--                            치아 교정과 전문의가<br>--%>
+<%--                            <strong>책임진료합니다.</strong>--%>
+<%--                        </h2>--%>
+<%--                        <p class="section-text">--%>
+<%--                            교정과 전문의인 여자 원장님의 1:1 주치의 시스템으로 교정치료기간을 단축하기 위한 치료노하우와 기술력을 바탕으로 처음부터 끝까지 책임 진료합니다.--%>
+<%--                        </p>--%>
+<%--                    </div>--%>
+<%--                    <div class="image_box_right">--%>
+<%--                        <div class="img img01"></div>--%>
+<%--                    </div>--%>
                 </div>
                 <div class="swiper-slide">
                     <div class="text">

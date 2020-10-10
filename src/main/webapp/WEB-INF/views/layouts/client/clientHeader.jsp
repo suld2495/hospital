@@ -22,7 +22,7 @@
                 <div class="slide-item slide-item03">
                     <img src="<c:url value='/images/cmmn/banner03.png'/>">
                     <span><span>안전이 가장 중요한 시기,</span> <strong>울산광역시 청정인증! 미소원치과</strong></span>
-                    <a href="<c:url value='/'/>" class="go">바로가기</a>
+                    <a href="<c:url value='/tour'/>" class="go">바로가기</a>
                 </div>
             </div>
             <div class="slide-item-box pointer">
@@ -100,11 +100,11 @@
                     <img src="<c:url value='/images/cmmn/cate06.jpg'/>">
                     <ul class="sub-category">
                         <li><a href="<c:url value='/notice/1' />">공지사항</a></li>
+                        <li><a href="<c:url value='/media/1' />">미디어</a></li>
                         <li><a href="<c:url value='/review/1' />">치료후기</a></li>
                         <li><a href="<c:url value='/case/1' />">치료사례</a></li>
                         <li><a href="<c:url value='/online-consult/1' />">온라인 상담</a></li>
                         <li><a href="<c:url value='/reserve-write' />">예약 상담 신청</a></li>
-                        <li><a href="<c:url value='/media/1' />">미디어</a></li>
                     </ul>
                 </li>
             </ul>
@@ -298,11 +298,11 @@
                     <div class="sub-category">
                         <ul>
                             <li><a href="<c:url value='/notice/1' />">공지사항</a></li>
-                            <li><a href="<c:url value='/case/1' />">치료사례</a></li>
+                            <li><a href="<c:url value='/media/1' />">미디어</a></li>
                             <li><a href="<c:url value='/review/1' />">치료후기</a></li>
+                            <li><a href="<c:url value='/case/1' />">치료사례</a></li>
                             <li><a href="<c:url value='/online-consult/1' />">온라인 상담</a></li>
                             <li><a href="<c:url value='/reserve-write' />">예약 상담 신청</a></li>
-                            <li><a href="<c:url value='/media/1' />">미디어</a></li>
                         </ul>
                         <div class="img img05"></div>
                     </div>

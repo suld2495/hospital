@@ -89,11 +89,11 @@
             <c:if test="${category eq 4}">
                 <ul>
                     <li><a <c:if test="${fn:contains(path,'/notice')}">class="active"</c:if> href="<c:url value="/notice/1"/>" >공지사항</a></li>
-                    <li><a <c:if test="${fn:contains(path,'/case')}">class="active"</c:if> href="<c:url value="/case/1"/>">치료사례</a></li>
+                    <li><a <c:if test="${fn:contains(path,'/media')}">class="active"</c:if> href="<c:url value="/media/1"/>">미디어</a></li>
                     <li><a <c:if test="${fn:contains(path,'/review')}">class="active"</c:if> href="<c:url value="/review/1"/>">치료후기</a></li>
+                    <li><a <c:if test="${fn:contains(path,'/case')}">class="active"</c:if> href="<c:url value="/case/1"/>">치료사례</a></li>
                     <li><a <c:if test="${fn:contains(path,'/online-consult')}">class="active"</c:if> href="<c:url value="/online-consult/1"/>">온라인 상담</a></li>
                     <li><a <c:if test="${fn:contains(path,'/reserve')}">class="active"</c:if> href="<c:url value="/reserve-write"/>">예약 상담 신청</a></li>
-                    <li><a <c:if test="${fn:contains(path,'/media')}">class="active"</c:if> href="<c:url value="/media/1"/>">미디어</a></li>
                 </ul>
             </c:if>
             <c:if test="${category eq 8}">
