@@ -19,7 +19,7 @@
         <div class="max-layout-width text">
             <div>
                 <h2 class="section-title">
-                    환자분의 <span class="section-title-color"><strong> 고민과 치열과<br class="mobile"> 골격에 맞는 교정상담</strong></span>과<br class="mobile"> 정밀진단 교정계획수립
+                    환자분의 <span class="section-title-color"><strong> 고민과 치열과<br> 골격에 맞는 교정상담</strong></span>과<br class="mobile"> 정밀진단 교정계획수립
                 </h2>
             </div>
         </div>
@@ -115,7 +115,7 @@
 
     <section class="section05 table">
         <div class="max-layout-width">
-            <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>세리믹 교정</strong>과 <strong>클리피씨 교정</strong>의 차이점은?</h2>
+            <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>세라믹 교정</strong>과 <strong>클리피씨 교정</strong>의 차이점은?</h2>
             <div class="table-container wow fadeInUp" data-wow-delay="600ms">
                 <table class="table">
                     <thead>
@@ -248,7 +248,7 @@
                 <p>남다른 치아를 만드는 미소원 치아교정의 특별함</p>
             </div>
             <div class="swiper-container wow fadeInUp" data-wow-delay="600ms">
-                <div class="swiper-slide">
+<%--                <div class="swiper-slide">--%>
 <%--                    <div class="text">--%>
 <%--                        <span class="number">01</span>--%>
 <%--                        <h2 class="section-title">--%>
@@ -262,7 +262,7 @@
 <%--                    <div class="image_box_right">--%>
 <%--                        <div class="img img01"></div>--%>
 <%--                    </div>--%>
-                </div>
+<%--                </div>--%>
                 <div class="swiper-slide">
                     <div class="text">
                         <span class="number">01</span>

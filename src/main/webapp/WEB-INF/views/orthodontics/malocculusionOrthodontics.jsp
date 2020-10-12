@@ -169,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                    <ul class="tab">
+                    <ul class="tab pc-tab">
                         <li class="active odd">
                             <p><span>돌출입</span>치아나 잇몸뼈가 앞으로 나온 상태</p>
                         </li>
@@ -641,9 +641,15 @@
 <script>
     $(function() {
         var count = 0;
-        $('.tab li').click(function() {
+        $('.section03 .tab.pc-tab li').click(function() {
             var index = $(this).index();
-            active(index);
+            active($('.section03 .tab.pc-tab li'), index);
+            count = index;
+        });
+
+        $('.section03 .tab.mobile-text li').click(function() {
+            var index = $(this).index();
+            active($('.section03 .tab.mobile-text li'), index);
             count = index;
         });
 
@@ -663,9 +669,9 @@
             active(count);
         });
 
-        function active(index) {
-            $('.tab li').removeClass('active');
-            $('.tab li').eq(index).addClass('active');
+        function active(tab, index) {
+            tab.removeClass('active');
+            tab.eq(index).addClass('active');
             $('.tab-contents').removeClass('active');
             $('.tab-contents' + (index + 1)).addClass('active');
 
