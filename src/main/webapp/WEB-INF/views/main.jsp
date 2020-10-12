@@ -38,60 +38,53 @@
                 <a href="#anchor2">
                     <div class="shape"></div>
                     <div class="img"></div>
-                    <span class="text">MISOWON</span>
+                    <span class="text">MISOWONDENT</span>
                 </a>
             </li>
             <li data-menuanchor="anchor3">
                 <a href="#anchor3">
                     <div class="shape"></div>
                     <div class="img"></div>
-                    <span class="text">MISOWON</span>
+                    <span class="text">REVIEW</span>
                 </a>
             </li>
             <li data-menuanchor="anchor4">
                 <a href="#anchor4">
                     <div class="shape"></div>
                     <div class="img"></div>
-                    <span class="text">MISOWON</span>
+                    <span class="text">DOCTOR</span>
                 </a>
             </li>
             <li data-menuanchor="anchor5">
                 <a href="#anchor5">
                     <div class="shape"></div>
                     <div class="img"></div>
-                    <span class="text">MISOWON</span>
+                    <span class="text">CUSTOM CARE</span>
                 </a>
             </li>
             <li data-menuanchor="anchor6">
                 <a href="#anchor6">
                     <div class="shape"></div>
                     <div class="img"></div>
-                    <span class="text">MISOWON</span>
+                    <span class="text">CASES</span>
                 </a>
             </li>
             <li data-menuanchor="anchor7">
                 <a href="#anchor7">
                     <div class="shape"></div>
                     <div class="img"></div>
-                    <span class="text">MISOWON</span>
+                    <span class="text">CUMMUNITY</span>
                 </a>
             </li>
             <li data-menuanchor="anchor8">
                 <a href="#anchor8">
                     <div class="shape"></div>
                     <div class="img"></div>
-                    <span class="text">MISOWON</span>
+                    <span class="text">PREVIEW</span>
                 </a>
             </li>
             <li data-menuanchor="anchor9">
                 <a href="#anchor9">
-                    <div class="shape"></div>
-                    <div class="img"></div>
-                    <span class="text">MISOWON</span>
-                </a>
-            </li>
-            <li data-menuanchor="anchor10">
-                <a href="#anchor10">
                     <div class="shape"></div>
                     <div class="img"></div>
                     <span class="text">MISOWON</span>
@@ -663,7 +656,7 @@
                 //options here
                 autoScrolling:true,
                 scrollHorizontally: true,
-                anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6', 'anchor7', 'anchor8', 'anchor9', 'anchor10'],
+                anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6', 'anchor7', 'anchor8', 'anchor9'],
                 menu: '.fp-nav',
                 onLeave: function (index, nextIndex, direction) {
                     var $temp = $('header,.fp-nav');
