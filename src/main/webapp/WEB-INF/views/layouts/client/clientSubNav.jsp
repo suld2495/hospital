@@ -207,6 +207,7 @@
         var category = '${category}';
         var categoryBackground = ['info.jpg', 'img_sub02.jpg', 'img_sub03.jpg', 'img_sub04.jpg', 'img_sub05.jpg', 'img_sub06.jpg', 'img_sub07.jpg', 'img_sub08.jpg', 'img_sub09.jpg', 'img_sub10.jpg'];
         if (category === '4' && !('${path}' === '/reserve-write' || '${path}' === '/online-consult-write')) backgroundPrefix = "../" + backgroundPrefix;
+        if (category === '8' && ('${path}'.indexOf('mypage_reservation') > -1 || '${path}'.indexOf('mypage_consult') > -1)) backgroundPrefix = "../" + backgroundPrefix;
         $('.sub-image').css('background-image', 'url(' + backgroundPrefix + categoryBackground[category] + ')');
 
         $('.sub-category-button,.sub-category-current-button').click(function () {
