@@ -5,6 +5,7 @@ import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.board.service.BoardVo;
 import kr.co.hospital.board.service.PagingVo;
 import kr.co.hospital.login.service.UserVo;
+import kr.co.hospital.security.UserService;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,15 +24,23 @@ import java.util.Map;
 public class AdminController {
     private AdminService adminService;
     private BoardService boardService;
+    private UserService userService;
 
-    public AdminController(AdminService adminService, BoardService boardService) {
+    public AdminController(AdminService adminService, BoardService boardService, UserService userService) {
         this.adminService = adminService;
         this.boardService = boardService;
+        this.userService = userService;
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/login")
     public String root() {
-        return "redirect:/admin/notice/1";
+        // userService.loadUserByUsername();
+        return "admin/login";
+    }
+
+    @RequestMapping("/admin-login")
+    public String adminLogin() {
+        return "admin/login";
     }
 
     @RequestMapping("/notice/{currentPage}")

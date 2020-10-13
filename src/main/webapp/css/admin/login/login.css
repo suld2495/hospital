@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+body {background:#282828;}
+.wrap {width:1100px;height:490px;position:absolute;top:50%;left:50%;margin-left:-550px;margin-top:-245px;border: 15px solid #ec6707;box-sizing:border-box;background: url(../../images/admin/login.gif);}
+.logo {display:inline-block;float: left;margin-left: 80px;margin-top: 91px;}
+.form {float:left;}
+.formBox {padding: 140px 0 0 113px;}
+
+.loginText {font-size:51px;line-height: 70px;margin-bottom: 10px;color: #444;}
+.loginInputBox input {width:235px;height:43px;border:1px solid #dbdbdb;box-sizing:border-box;padding-left:10px;color: #777;}
+.idBox {margin-bottom:7px;}
+.loginInputBox,.loginBox {float:left;}
+.loginInputBox {margin-right:9px;}
+.loginBox input{width:135px;height:92px;}
