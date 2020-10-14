@@ -900,6 +900,7 @@
             if (!isPopup) {
                 $('.popup').addClass('active');
                 $('body').addClass('popup-active');
+                $.fn.fullpage.setAllowScrolling(false);
             }
         });
 
@@ -908,11 +909,13 @@
             setCookie('popup', true, 1);
             $('.popup').remove();
             $('body').removeClass('popup-active');
+            $.fn.fullpage.setAllowScrolling(true);
         })
 
         $('.popup-close').click(function () {
             $('.popup').remove();
             $('body').removeClass('popup-active');
+            $.fn.fullpage.setAllowScrolling(true);
         })
 
         $('.top-button').click(function () {
