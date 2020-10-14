@@ -101,7 +101,10 @@
 </head>
 <body>
 <div class="wrap">
-    <div class="logo"><a href="main.do"></a></div>
+    <div class="logo">
+        <h2>관리자페이지입니다</h2>
+        <p>ADMINISTRATION</p>
+    </div>
     <form:form class="form" method="post" action="/login/auth">
         <div class="mainForm">
             <!-- <div class="remember">
