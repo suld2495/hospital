@@ -84,6 +84,10 @@ body {
     background: #24201f;
 }
 
+body.popup-active {
+    overflow-y: hidden
+}
+
 .section02 {
     /* margin-bottom: 107px; */
     text-align: center;
@@ -3683,7 +3687,7 @@ body .section07 .bx-pager-link span + span {
 @media screen and (max-width: 820px) {
     .fp-nav {
         width: 0;
-        right: 42px;
+        right: 2px;
     }
 }
 
@@ -3693,8 +3697,8 @@ body .section07 .bx-pager-link span + span {
         left: 0;
     }
     .popup {
-        width: 90%;
-        left: 5%;
+        width: 80%;
+        left: 10%;
         top: 66px;
         margin-left: 0;
     }

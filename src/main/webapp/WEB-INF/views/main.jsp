@@ -899,6 +899,7 @@
 
             if (!isPopup) {
                 $('.popup').addClass('active');
+                $('body').addClass('popup-active');
             }
         });
 
@@ -906,10 +907,12 @@
         $('.popup-today').click(function () {
             setCookie('popup', true, 1);
             $('.popup').remove();
+            $('body').removeClass('popup-active');
         })
 
         $('.popup-close').click(function () {
             $('.popup').remove();
+            $('body').removeClass('popup-active');
         })
 
         $('.top-button').click(function () {
