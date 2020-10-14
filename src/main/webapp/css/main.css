@@ -1824,6 +1824,21 @@ body .section07 .bx-pager-link span + span {
     display: block;
     margin-top: 30px;
     margin-bottom: 40px;
+    position: relative;
+}
+
+.fp-menu .active .text:before {
+    position: absolute;
+    content: '';
+    width: 11px;
+    height: 11px;
+    background: url(../images/main/star.png) no-repeat center;
+    left: -11px;
+    top: 1px;
+    display: block;
+    z-index: 1011111111;
+    background-size: contain;
+    transform: rotate(54deg);
 }
 
 .dark .fp-menu .active .text {
@@ -1840,6 +1855,7 @@ body .section07 .bx-pager-link span + span {
     white-space: nowrap;
     transform: rotate(90deg);
     transition: all .3s ease;
+    padding-left: 5px;
 }
 
 .fp-menu .active .img {
@@ -1907,11 +1923,11 @@ body .section07 .bx-pager-link span + span {
 .fp-menu li:nth-child(3).active a {padding-bottom: 37px;}
 .fp-menu li:nth-child(4).active a {padding-bottom: 47px;}
 .fp-menu li:nth-child(5).active a {padding-bottom: 80px;}
-.fp-menu li:nth-child(6).active a {padding-bottom: 68px;}
+.fp-menu li:nth-child(6).active a {padding-bottom: 30px;}
 .fp-menu li:nth-child(7).active a {padding-bottom: 67px;}
 .fp-menu li:nth-child(8).active a {padding-bottom: 43px;}
 .fp-menu li:nth-child(9).active a {padding-bottom: 50px}
-
+.fp-menu li.active a{margin-top: 40px;}
 .scroll {
     position: absolute;
     width: 100%;
