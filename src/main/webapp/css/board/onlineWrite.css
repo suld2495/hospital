@@ -1,0 +1,8 @@
+.board-view .contents {border-bottom: 1px solid #ddd;}
+.board-view .list {overflow: hidden;}
+.board-view .list > div {float: left;}
+.board-view .list > div:last-child {float: right;}
+
+.answer-contents {margin-top: 45px;padding-top: 23px;border-top: 1px solid #ddd;}
+.answer-contents > p {font-size: 15px;font-weight: 600;margin-bottom: 23px;}
+.answer-contents > div {border: 1px solid #cfcfcf;padding: 30px;box-sizing: border-box;}

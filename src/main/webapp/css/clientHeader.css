@@ -98,7 +98,7 @@ header .mobile-sub-category .content {
     padding-top: 36px;
 }
 header .mobile-sub-category .logout-icon {
-    background: url(../images/cmmn/logout_1.png);
+    background: url(../images/cmmn/logout.svg);
     width: 26px;
     height: 29px;
     display: inline-block;
@@ -111,7 +111,7 @@ header .mobile-sub-category .logout-icon {
 }
 
 header .mobile-sub-category .mypage-icon {
-    background: url(../images/cmmn/mypage_1.png);
+    background: url(../images/cmmn/mypage.svg);
     width: 26px;
     height: 29px;
     display: inline-block;
@@ -123,7 +123,7 @@ header .mobile-sub-category .mypage-icon {
     background-position-y: center;
 }
 header .mobile-sub-category .login-icon {
-    background: url(../images/cmmn/login.png);
+    background: url(../images/cmmn/login.svg);
     width: 21px;
     height: 29px;
     display: inline-block;
@@ -135,7 +135,7 @@ header .mobile-sub-category .login-icon {
     background-position-y: 4px;
 }
 header .mobile-sub-category .join-icon {
-    background: url(../images/cmmn/join.png);
+    background: url(../images/cmmn/join.svg);
     width: 32px;
     height: 26px;
     display: inline-block;
@@ -944,7 +944,8 @@ header .header-banner-slider .slide-item04 .go {
     }
 
     .header-member a img {
-        width: 23px;
+        width: 27px;
+        margin-top: -3px;
     }
 
     header .fixed-box > div {
@@ -997,7 +998,7 @@ header .header-banner-slider .slide-item04 .go {
 
 @media screen and (max-width:375px) {
     header .mobile-sub-category .join-icon {
-        background: url(../images/cmmn/join.png);
+        background: url(../images/cmmn/join.svg);
         width: 32px;
         height: 26px;
         display: inline-block;
@@ -1007,13 +1008,13 @@ header .header-banner-slider .slide-item04 .go {
         background-repeat: no-repeat;
     }
     header .mobile-sub-category .login-icon {
-        background: url(../images/cmmn/login.png);
-        width: 21px;
+        background: url(../images/cmmn/login.svg);
+        width: 25px;
         height: 29px;
         display: inline-block;
         margin-right: 12px;
         vertical-align: -8px;
-        margin-left: 3px;
+        margin-left: -1px;
         background-size: contain;
         background-repeat: no-repeat;
         background-position-y: 4px;
