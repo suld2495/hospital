@@ -38,4 +38,8 @@ public interface BoardMapper {
     List<Map> selectMainReview() throws Exception;
 
     List<Map> selectMainCase() throws Exception;
+
+    void insertAnswer(BoardVo boardVo) throws Exception;
+
+    void updateAnswer(BoardVo boardVo) throws Exception;
 }

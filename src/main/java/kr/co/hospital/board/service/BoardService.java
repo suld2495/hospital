@@ -38,4 +38,8 @@ public interface BoardService {
     List<Map> getMainReview() throws Exception;
 
     List<Map> getMainCase() throws Exception;
+
+    void insertAnswer(BoardVo boardVo) throws Exception;
+
+    void updateAnswer(BoardVo boardVo) throws Exception;
 }

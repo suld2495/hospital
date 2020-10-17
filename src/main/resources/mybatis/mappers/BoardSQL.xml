@@ -82,7 +82,8 @@
           FROM ${tableName}
          WHERE NUM = #{boardNum}
     </select>
-    
+
+
     <select id="selectPrevNextNum" parameterType="pagingVo" resultType="map">
         SELECT
             (
@@ -275,9 +276,26 @@
             <if test="consultType != null and consultType != ''">
                 ,#{consultType}
             </if>
+
             <if test="type != null and type != ''">
                 ,#{type}
             </if>
+        )
+    </insert>
+
+    <insert id="insertAnswer" parameterType="map">
+        INSERT INTO answer
+        (
+            num,
+            answer_contents,
+            created_date
+        )
+
+        VALUES
+        (
+            #{num},
+            #{answer_contents},
+            now()
         )
     </insert>
 
@@ -324,8 +342,20 @@
             <if test="thumnail_path != null">			,	thumnail_path = #{thumnail_path}            			</if>
             <if test="main_view != null">			    ,	main_view = #{main_view}            			        </if>
             <if test="type != null">			        ,	type = #{type}            			                    </if>
+            <if test="board_answer_use != null">		,	board_answer_use = #{board_answer_use}                  </if>
+            <if test="phone != null">		            ,	phone = #{phone}                                        </if>
+            <if test="email != null">		            ,	email = #{email}                                        </if>
+            <if test="emailYN != null">		            ,	emailYN = #{emailYN}                                    </if>
+            <if test="smsYN != null">		            ,	smsYN = #{smsYN}                                        </if>
+
         </trim>
          WHERE num = #{num}
+    </update>
+
+    <update id="updateAnswer" parameterType="map">
+        UPDATE answer SET
+               answer_contents = #{answer_contents}
+         WHERE answer_num = #{answer_num}
     </update>
 
     <update id="boardModify" parameterType="map">

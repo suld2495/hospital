@@ -254,20 +254,8 @@ document.write("<script type='text/javascript' src='" + content + "/js/admin/for
 	Board.prototype.boardWriteInit = function() {
 	
 		var skinURI = content + "/lib";
-		
-		if(this.option.useGallery) {
-			
-			if(this.option.movie) {
-				
-				skinURI += "/editor/SmartEditor2SkinMovieUse.html";
-			} else{
-				
-				skinURI += "/editor/SmartEditor2Skin.html";
-			}
-		} else {
-			
-			skinURI += "/editor/SmartEditor2SkinNoImage.html";
-		}
+
+		skinURI += "/editor/SmartEditor2Skin.html";
 		
 		var $board_content = $(".board_content");
 		

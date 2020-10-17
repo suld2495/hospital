@@ -150,13 +150,13 @@
                             <div class="login-nav pointer">
                                 <sec:authorize access="isAnonymous()">
                                     <a class="text-decoration-none" href="<c:url value='/login' />">
-                                        <img src="<c:url value='/images/cmmn/login.png' />" alt="로그인">
+                                        <img src="<c:url value='/images/cmmn/login_1.svg' />" alt="로그인">
                                         <p class="font-12">LOGIN</p>
                                     </a>
                                 </sec:authorize>
                                 <sec:authorize access="isAuthenticated()">
                                     <a class="text-decoration-none" href="<c:url value='/logout' />">
-                                        <img src="<c:url value='/images/cmmn/logout_1.png' />" alt="로그아웃">
+                                        <img src="<c:url value='/images/cmmn/logout.svg' />" alt="로그아웃">
                                         <p class="font-12">LOGOUT</p>
                                     </a>
                                 </sec:authorize>
@@ -164,13 +164,13 @@
                             <div class="member-nav pointer mobile_display_none">
                                 <sec:authorize access="isAnonymous()">
                                     <a class="text-decoration-none" href="<c:url value='/member_agreement' />">
-                                        <img src="<c:url value='/images/cmmn/join.png' />" alt="회원가입">
+                                        <img src="<c:url value='/images/cmmn/join.svg' />" alt="회원가입">
                                         <p class="font-12">JOIN US</p>
                                     </a>
                                 </sec:authorize>
                                 <sec:authorize access="isAuthenticated()">
                                     <a class="text-decoration-none" href="<c:url value='/mypage_reservation/1' />">
-                                        <img src="<c:url value='/images/cmmn/mypage_1.png' />" alt="마이페이지">
+                                        <img src="<c:url value='/images/cmmn/mypage.svg' />" alt="마이페이지">
                                         <p class="font-12">MYPAGE</p>
                                     </a>
                                 </sec:authorize>

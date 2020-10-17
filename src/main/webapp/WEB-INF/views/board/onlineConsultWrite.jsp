@@ -9,7 +9,7 @@
 <div class="sub-contents online-consult-write">
     <h1 class="sub-page-title">온라인 상담</h1>
     <p class="sub-page-intro">ONLINE COUNSELLING</p>
-    <form:form class="form" action="${pageContext.servletContext.contextPath}/online-consult-write" method="POST" commandName="boardVo" accept-charset="utf-8" enctype="multipart/form-data">
+    <form:form class="form" action="${pageContext.servletContext.contextPath}/online-consult-write" method="POST" commandName="board" accept-charset="utf-8" enctype="multipart/form-data">
         <section class="section01">
             <div class="max-layout-width">
                 <div class="agreement">
@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="input">
                                     <div>
-                                        <input class="long-input" name="subject" value="${boardVo.subject}" maxlength="200">
+                                        <input class="long-input" name="subject" value="${board.subject}" maxlength="200">
                                     </div>
                                 </div>
                             </li>
@@ -88,22 +88,23 @@
                             <li class="phone-con">
                                 <div class="label">
                                     <strong>연락처</strong>
+                                    <c:set var="phone" value="${board.phone}"/>
                                 </div>
                                 <div class="input">
                                     <div>
                                         <div class="input-box">
                                         <span>
-                                            <input name="phone1" value="${boardVo.phone1}">
+                                            <input name="phone1">
                                         </span>
                                             <span>
-                                            <input name="phone2" value="${boardVo.phone2}">
+                                            <input name="phone2">
                                         </span>
                                             <span>
-                                            <input name="phone3" value="${boardVo.phone3}">
+                                            <input name="phone3">
                                         </span>
                                         </div>
-                                        <label data-name="sms" class="check-label">
-                                            <input class="display-none" name="smsYN" type="checkbox" value="Y">
+                                        <label data-name="sms" class="check-label <c:if test="${board.smsYN == 'Y'}">active</c:if>">
+                                            <input class="display-none" name="smsYN" type="checkbox" value="Y" <c:if test="${board.smsYN == 'Y'}">checked</c:if>>
                                             문자수신동의
                                         </label>
                                     </div>
@@ -112,15 +113,19 @@
                             <li class="email-con">
                                 <div class="label">
                                     <strong>이메일</strong>
+                                    <c:set var="email" value="${board.email}" />
+                                    <c:set var="emailList">
+                                        <c:out value='${email}' escapeXml='false'/>
+                                    </c:set>
                                 </div>
                                 <div class="input">
                                     <div>
                                         <div class="input-box">
                                         <span>
-                                            <input name="email1" value="${boardVo.email1}">
+                                            <input name="email1">
                                         </span>
                                             <span class="mail">
-                                            <input name="email2" value="${boardVo.email2}">
+                                            <input name="email2">
                                         </span>
                                             <span>
                                             <select name="email3">
@@ -144,8 +149,8 @@
                                             </select>
                                         </span>
                                         </div>
-                                        <label data-name="email" class="check-label">
-                                            <input class="display-none" name="emailYN" type="checkbox" value="Y">
+                                        <label data-name="email" class="check-label <c:if test="${board.smsYN == 'Y'}">active</c:if>">
+                                            <input class="display-none" name="emailYN" type="checkbox" value="Y" <c:if test="${board.smsYN == 'Y'}">checked</c:if>>
                                             이메일 수신 동의
                                         </label>
                                     </div>
@@ -157,7 +162,7 @@
                                 </div>
                                 <div class="input">
                                     <div>
-                                        <textarea name="contents" value="${boardVo.contents}"></textarea>
+                                        <textarea name="contents">${board.contents}</textarea>
                                     </div>
                                 </div>
                             </li>
@@ -183,13 +188,33 @@
                     </div>
                 </div>
         </section>
+        <input >
+        <c:if test="${board.num != null and board.num != ''}">
+            <input type="hidden" name="num" value="${board.num}">
+        </c:if>
         <input name="phone" value="" type="hidden">
         <input name="email" type="hidden">
+        <input type="hidden" name="update" value="${update}">
     </form:form>
 </div>
 
 <script>
     $(function () {
+        var phone = "${phone}".replace(/&#45;/g, "-");
+        var email = "${email}".replace(/&#64;/g, "@").replace(/&#46;/g, ".");
+
+        if (email) {
+            var emailSplit = email.split('@');
+            $('[name=email1]').val(emailSplit[0]);
+            $('[name=email2]').val(emailSplit[1]);
+        }
+        if (phone) {
+            var phoneSplit = phone.split('-');
+            $('[name=phone1]').val(phoneSplit[0]);
+            $('[name=phone2]').val(phoneSplit[1]);
+            $('[name=phone3]').val(phoneSplit[2]);
+        }
+
         $('.form').submit(function () {
             var agree = this.agree_1;
             var $subject = $('[name=subject]');
@@ -223,21 +248,21 @@
             }
 
             for (var i = 1; i < 4; i++) {
-                var $phone = $("[name=phone" + i + "]");
+                var $phoneTemp = $("[name=phone" + i + "]");
 
-                if ($phone.val() === '') {
+                if ($phoneTemp.val() === '') {
                     alert("전화번호를 입력해 주세요.");
-                    $phone.focus();
+                    $phoneTemp.focus();
                     return false;
                 }
             }
 
             for (var i = 1; i < 3; i++) {
-                var $email = $("[name=email" + i + "]");
+                var $emailTemp = $("[name=email" + i + "]");
 
-                if ($email.val() === '') {
+                if ($emailTemp.val() === '') {
                     alert("이메일를 입력해 주세요.");
-                    $email.focus();
+                    $emailTemp.focus();
                     return false;
                 }
             }
@@ -252,8 +277,8 @@
                 $phone.val($phone1.val() + "-" + $phone2.val() + "-" + $phone3.val());
             }
 
-            if ($email1.val() || $email2.val() || $email3.val()) {
-                $email.val($email1.val() + "-" + $email2.val() + "-" + $email3.val());
+            if ($email1.val() || $email2.val()) {
+                $email.val($email1.val() + "@" + $email2.val());
             }
 
             alert('등록되었습니다.');

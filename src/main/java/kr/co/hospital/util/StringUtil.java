@@ -17,6 +17,8 @@ public class StringUtil {
     }
 
     public static Map changeString(Map board) throws UnsupportedEncodingException {
+        if (board == null) return null;
+
         for (Iterator<String> it = board.keySet().iterator(); it.hasNext();) {
             String key = it.next();
 

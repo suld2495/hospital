@@ -41,10 +41,10 @@
                             <td>${board.writer}</td>
                             <td>${board.created_show_date}</td>
                             <td><span class="status">
-                                <c:if test="${board.status eq 'Y'}">
+                                <c:if test="${board.board_answer_use eq 'y'}">
                                     답변완료
                                 </c:if>
-                                <c:if test="${board.status eq 'N'}">
+                                <c:if test="${board.board_answer_use eq 'w' or board.board_answer_use eq 'n'}">
                                     답변대기중
                                 </c:if>
                             </span></td>
@@ -85,7 +85,7 @@
                         <li><a href="<c:url value='/${url}/${paging.lastPageNum}?${params}' />" class="next-next"></a></li>
                     </ul>
                 </div>
-                <a href="<c:url value='/online-consult-write'/>" class="write-btn">글쓰기</a>
+                <a href="<c:url value='/online-consult-write?update=write'/>" class="write-btn">글쓰기</a>
             </div>
         </div>
         <div class="max-layout-width mobile-full-width">

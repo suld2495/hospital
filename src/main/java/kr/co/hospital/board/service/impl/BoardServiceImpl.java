@@ -68,6 +68,16 @@ public class BoardServiceImpl implements BoardService {
     }
 
     @Override
+    public void insertAnswer(BoardVo boardVo) throws Exception {
+        boardMapper.insertAnswer(boardVo);
+    }
+
+    @Override
+    public void updateAnswer(BoardVo boardVo) throws Exception {
+        boardMapper.updateAnswer(boardVo);
+    }
+
+    @Override
     public void saveFile(MultipartHttpServletRequest mRequest, int num, String tableName) throws Exception {
         MultipartFile mFile = mRequest.getFile("file");
 
@@ -340,4 +350,5 @@ public class BoardServiceImpl implements BoardService {
 
         return list;
     }
+
 }
