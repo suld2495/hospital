@@ -7,6 +7,10 @@ import kr.co.hospital.login.service.KakaoLoginBO;
 import kr.co.hospital.login.service.LoginService;
 import kr.co.hospital.login.service.NaverLoginBO;
 import kr.co.hospital.login.service.UserVo;
+import kr.co.hospital.util.EmailUtil;
+import kr.co.hospital.util.EncodingUtil;
+import kr.co.hospital.util.StringUtil;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
@@ -31,6 +35,9 @@ public class LoginController {
     private KakaoLoginBO kakaoLoginBO;
     private LoginService loginService;
     private Gson gson;
+
+    @Autowired
+    private EmailUtil emailUtil;
 
     private String apiResult = null;
 
@@ -231,23 +238,25 @@ public class LoginController {
         return "/sub/login/passwordSearch";
     }
 
-    @RequestMapping(value = "/password-search", method = RequestMethod.POST)
-    public String passwordSearchPost(Model model, @ModelAttribute(value = "userVo") @Valid UserVo userVo, BindingResult result) throws Exception {
+    @RequestMapping(value = "password-search", method = RequestMethod.POST)
+    public String passwordSearchPost(Model model, @ModelAttribute(value = "userVo") UserVo userVo) throws Exception {
+        String password = StringUtil.randomString();
         String id = loginService.searchPassword(userVo);
 
         if (id == null || "".equals(id)) {
             return "redirect:/password-search?result=fail";
         }
 
-        model.addAttribute("category", 7);
-        model.addAttribute("urlName", "아이디/비밀번호 찾기");
-        return "redirect:/password-complete";
-    }
+        Map map = new HashMap();
+        map.put("email", userVo.getEmail());
+        map.put("subject", "[미소원치과] 패스워드를 보내드립니다.");
+        map.put("contents", "<div>미소원 치과에서 임시 패스워드를 보내드립니다.</div><br>" +
+                "<div>임시 비밀번호 : " +  password + "</div>");
 
-    @RequestMapping(value = "password-complete", method = RequestMethod.GET)
-    public String passwordComplete(Model model) {
+        emailUtil.emailSend(map);
+
         model.addAttribute("category", 7);
         model.addAttribute("urlName", "아이디/비밀번호 찾기");
-        return "/sub/login/passwordComplete";
+        return "redirect:/login";
     }
 }

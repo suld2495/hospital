@@ -128,7 +128,9 @@
                 }
             }
 
-            $('[name=email]').val($('[name=email1]').val() + "@" + $('[name=email2]').val())
+            $('[name=email]').val($('[name=email1]').val() + "@" + $('[name=email2]').val());
+
+            alert('메일이 전송되었습니다. 메일을 확인 해 주세요.');
         })
     })
 </script>

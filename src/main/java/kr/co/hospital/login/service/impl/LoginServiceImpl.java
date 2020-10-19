@@ -37,4 +37,9 @@ public class LoginServiceImpl implements LoginService {
     public String searchPassword(UserVo userVo) throws Exception {
         return userMapper.searchPassword(userVo);
     }
+
+    @Override
+    public void updatePassword(UserVo userVo) throws Exception {
+        userMapper.updatePassword(userVo);
+    }
 }

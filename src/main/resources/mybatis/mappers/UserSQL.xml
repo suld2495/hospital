@@ -82,4 +82,10 @@
                </if>
          WHERE id = #{id}
     </update>
+
+    <update id="updatePassword" parameterType="userVo">
+        UPDATE membership
+           SET password = #{password}
+         WHERE id = #{id}
+    </update>
 </mapper>

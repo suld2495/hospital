@@ -10,4 +10,6 @@ public interface LoginService {
     String searchId(UserVo userVo) throws Exception;
 
     String searchPassword(UserVo userVo) throws Exception;
+
+    void updatePassword(UserVo userVo) throws Exception;
 }
