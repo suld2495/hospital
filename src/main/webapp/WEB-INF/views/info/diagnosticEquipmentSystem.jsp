@@ -227,7 +227,7 @@
                 <span class="section-title-color">체계적 시스템</span>
             </h2>
             <p class="section-text">
-                미소원치과는 <strong>첨단 디지털 장비를 이용하여 환자의 상태를 안전하고 정밀하게</strong> 진단합니다.
+                미소원치과는 <strong>첨단 디지털 장비를 이용하여 환자의 상태를 편안하고 정밀하게</strong> 진단합니다.
             </p>
         </div>
         <div class="image_box_left wow fadeInUp" data-wow-delay="700ms">

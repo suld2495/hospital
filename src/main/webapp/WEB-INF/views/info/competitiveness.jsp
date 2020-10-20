@@ -17,7 +17,7 @@
             <div class="position-relative">
                 <h2 class="section-title wow fadeInUp" data-wow-delay="700ms">
                     <span class="bold">임플란트, 치아교정, 사랑니</span><br>
-                    따로 병원 찾아다니기 지치셨나요?
+                    따로 치료받기 지치셨나요?
                 </h2>
             </div>
         </div>
