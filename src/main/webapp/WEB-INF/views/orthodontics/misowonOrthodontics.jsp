@@ -19,7 +19,7 @@
         <div class="max-layout-width text">
             <div>
                 <h2 class="section-title">
-                    환자분의 <span class="section-title-color"><strong> 고민과 치열과<br class="mobile"> 골격에 맞는 교정상담</strong></span>과<br class="mobile"> 정밀진단 교정계획수립
+                    환자분의 <span class="section-title-color"><strong> 고민과 치열과<br>골격에 맞는 교정상담</strong></span>과<br>정밀진단 교정계획수립
                 </h2>
             </div>
         </div>
@@ -31,7 +31,7 @@
                         분석결과를 직접 환자분께 보여드리며 효과적인 교정방법을 찾아드립니다.
                     </p>
                     <p class="section-text">
-                        교정전문의 여자 원장님과의 <strong>체계적이고 구체적인 1:1 상담을 통해 환자분이 가지고 계신 고민과 실제적으로 가지고 있는 문제를 모두 고려</strong>하여,
+                        여자 원장님과의 <strong>체계적이고 구체적인 1:1 상담을 통해 환자분이 가지고 계신 고민과 실제적으로 가지고 있는 문제를 모두 고려</strong>하여,
                         가장 효과적이고 적합한 치료계획을 수립하여 제시합니다.
                     </p>
                 </div>
@@ -53,7 +53,7 @@
                     <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         자가결찰장치 클리피씨 교정과 일반치아교정장치인 세라믹 교정을 진행하고 있습니다. 교정은 어떤 교정장치를 선택하고 치료받느냐에
                         따라,장단점,비용,치료기간에 차이가 발생할 수 있습니다.<br>
-                        환자에게 꼭 필요한 교정장치가 최고의 치아교정방법이라 생각하고, 라이프스타일에 맞는 교정장치를 선택할 수 있도록 미소원치과에서 도와드리겠습니다.
+                        환자에게 꼭 필요한 교정장치가 좋은 치아교정방법이라 생각하고, 라이프스타일에 맞는 교정장치를 선택할 수 있도록 미소원치과에서 도와드리겠습니다.
                     </p>
                 </div>
             </div>
@@ -410,7 +410,7 @@
     <section class="board-link">
         <div class="max-layout-width">
             <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
-                학습하고 연구하는 전문 의료진의<br>
+                학습하고 연구하는 의료진의<br>
                 <span class="section-title-color">정직하고 섬세한 진료</span>
             </h2>
             <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>

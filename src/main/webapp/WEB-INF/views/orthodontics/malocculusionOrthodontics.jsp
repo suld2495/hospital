@@ -17,8 +17,8 @@
         <div class="max-layout-width text">
             <div>
                 <h2 class="section-title">
-                    <span class="section-title-color"><strong>치아가 바르지 않으면<br class="mobile"></strong></span> 치아건강과
-                    인상 또한<br class="mobile"> 망가질 수 있습니다
+                    <span class="section-title-color"><strong>치아가 바르지 않으면<br></strong></span> 치아건강과
+                    인상 또한<br> 망가질 수 있습니다
                 </h2>
             </div>
         </div>
@@ -606,7 +606,7 @@
     <section class="board-link">
         <div class="max-layout-width">
             <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
-                학습하고 연구하는 전문 의료진의<br>
+                학습하고 연구하는 의료진의<br>
                 <span class="section-title-color">정직하고 섬세한 진료</span>
             </h2>
             <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
