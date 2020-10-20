@@ -19,7 +19,7 @@
             <div>
                 <h2 class="section-title">
                     <span class="bold section-title-color">단 하루만에</span>
-                    <strong>빠르게 심는</strong><br class="mobile"> 원데이 임플란트
+                    <strong>빠르게 심는</strong><br>원데이 임플란트
                 </h2>
             </div>
         </div>
@@ -170,7 +170,7 @@
                     </p>
                     <p class="pager active wow fadeInUp" data-wow-delay="600ms"><span>01</span>뼈이식 특허 보유 의료진의 수준 높은 진료</p><br>
                     <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>02</span>다양한 첨단장비 시스템 구비</p><br>
-                    <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>03</span>통증 줄여주는 무통 마취기 보유</p><br>
+                    <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>03</span>통증 줄여주는 마취기 보유</p><br>
                     <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>04</span>건물 내 협력기공소 상주로 빠른 보철물 제작 가능</p><br>
                     <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>05</span>임플란트사후 보장 시스템 도입</p><br>
                     <p class="pager wow fadeInUp" data-wow-delay="900ms"><span>06</span>다수의 성공 사례 보유</p><br>
@@ -298,7 +298,7 @@
     <section class="board-link">
         <div class="max-layout-width">
             <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
-                학습하고 연구하는 전문 의료진의<br>
+                학습하고 연구하는 의료진의<br>
                 <span class="section-title-color">정직하고 섬세한 진료</span>
             </h2>
             <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
