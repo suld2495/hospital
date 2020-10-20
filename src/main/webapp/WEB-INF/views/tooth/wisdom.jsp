@@ -113,7 +113,7 @@
         <div class="max-layout-width">
             <h2 class="section-title">
                 <strong><span class="section-title-color">
-                    숨어있고 누워있어도 안전하고 신속하게<br>
+                    숨어있고 누워있어도 신속하게<br>
                 </span></strong>
                 미소원 치과의 <strong>사랑니 발치과정</strong>
             </h2>
@@ -251,7 +251,7 @@
     <section class="board-link wow fadeInUp">
         <div class="max-layout-width">
             <h2 class="section-title">
-                학습하고 연구하는 전문 의료진의<br>
+                학습하고 연구하는 의료진의<br>
                 <span class="section-title-color">정직하고 양심적인 진료</span>
             </h2>
             <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
