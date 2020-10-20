@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-#head {float:right;width: 82.5%;}
+#head {/* float: left; */flex: 1;}
 .logo_area {height: 66px;border-bottom:solid 1px #b0b0b0;}
 .logo_area ul {margin:15px 0 0 40px;}
 .logo_area ul li {display:inline-block;float:left;margin-top: 10px;}
@@ -9,3 +9,13 @@
 .small_nav ul {padding:23px 0 0 25px;}
 .small_nav ul li {display:inline-block; margin-left:20px;}
 .subName {color: #002ec4;}
+.content {
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: absolute;
+    top: 70px;
+    left: -30px;
+    width: 100%;
+    padding: 0 50px;
+    padding-left: 0;
+}

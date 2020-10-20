@@ -5,6 +5,7 @@ import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.board.service.BoardVo;
 import kr.co.hospital.board.service.PagingVo;
 import kr.co.hospital.login.service.UserVo;
+import kr.co.hospital.security.UserService;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,15 +24,23 @@ import java.util.Map;
 public class AdminController {
     private AdminService adminService;
     private BoardService boardService;
+    private UserService userService;
 
-    public AdminController(AdminService adminService, BoardService boardService) {
+    public AdminController(AdminService adminService, BoardService boardService, UserService userService) {
         this.adminService = adminService;
         this.boardService = boardService;
+        this.userService = userService;
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/login")
     public String root() {
-        return "redirect:/admin/notice/1";
+        // userService.loadUserByUsername();
+        return "admin/login";
+    }
+
+    @RequestMapping("/admin-login")
+    public String adminLogin() {
+        return "admin/login";
     }
 
     @RequestMapping("/notice/{currentPage}")
@@ -85,6 +94,47 @@ public class AdminController {
         adminService.listModule(url, model, map, currentPage);
         return "admin/community/" + url;
     }
+
+    @RequestMapping(value = "/online-write", method = RequestMethod.GET)
+    public String onlineWrite(@RequestParam Map map, HttpServletRequest request, Model model, @ModelAttribute(value = "boardVo") BoardVo boardVo) throws Exception {
+        String url = "online";
+        adminService.writeModule(url, map, request, model);
+        return "admin/community/" + url + "Write";
+    }
+
+
+    @RequestMapping(value = "answer-write", method = RequestMethod.POST)
+    public String onlineWritePost(MultipartHttpServletRequest mRequest,
+                                   Model model,
+                                   @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo,
+                                   BindingResult result,
+                                   Authentication auth) throws Exception {
+
+        if (result.hasErrors()) {
+            return "admin/community/onlineWrite";
+        }
+
+        boardVo.setTableName("answer");
+        UserVo userVo = (UserVo) auth.getPrincipal();
+        boardVo.setId(userVo.getId());
+
+        if (boardVo.getAnswer_num() != null) {
+            boardService.updateAnswer(boardVo);
+        } else {
+            boardService.insertAnswer(boardVo);
+        }
+
+        boardVo.setTableName("online");
+        boardVo.setContents(null);
+        boardVo.setWriter(null);
+        boardVo.setSubject(null);
+        boardService.updateBoard(boardVo);
+
+        model.addAttribute("category", 4);
+        model.addAttribute("urlName", "온라인 상담");
+        return "redirect:/admin/online/1";
+    }
+
 
     @RequestMapping("/media/{currentPage}")
     public String media(Model model,

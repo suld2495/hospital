@@ -6,6 +6,10 @@
     display: none;
 }
 
+br.mobile {
+    display: none;
+}
+
 @font-face {
     font-family: 'Noto Sans KR';
     font-style: normal;
@@ -971,6 +975,10 @@ section.board-link ul li {
 }
 
 @media screen and (max-width: 640px) {
+
+    br.mobile {
+        display: block;
+    }
     .treatment-case-slider + .text {
         padding-top: 30px;
     }

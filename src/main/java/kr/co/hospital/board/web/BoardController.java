@@ -1,10 +1,13 @@
 package kr.co.hospital.board.web;
 
+import kr.co.hospital.admin.servie.AdminService;
 import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.board.service.BoardVo;
 import kr.co.hospital.board.service.OnlineConsultValidator;
 import kr.co.hospital.board.service.PagingVo;
 import kr.co.hospital.login.service.UserVo;
+import kr.co.hospital.mapper.BoardMapper;
+import kr.co.hospital.util.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
@@ -23,20 +26,27 @@ import javax.validation.Valid;
 import java.io.File;
 import java.io.FileInputStream;
 import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Controller
 public class BoardController {
     private BoardService boardService;
-    private OnlineConsultValidator onlineConsultValidator;
     private String prefix = "/sub/board/";
+
+    @Autowired
+    private AdminService adminService;
+
+    @Autowired
+    private BoardMapper boardMapper;
 
     @Autowired
     private ServletContext servletContext;
 
-    public BoardController(BoardService boardService, OnlineConsultValidator onlineConsultValidator) {
+    public BoardController(BoardService boardService) {
         this.boardService = boardService;
-        this.onlineConsultValidator = onlineConsultValidator;
     }
 
     @RequestMapping("notice/{currentPage}")
@@ -163,6 +173,13 @@ public class BoardController {
                                     @PathVariable(value = "boardNum") int boardNum) throws Exception {
         PagingVo pagingVo = new PagingVo("online", boardNum);
         Map board = boardService.getBoardInfo(pagingVo);
+
+        if ("y".equals(board.get("board_answer_use"))) {
+            PagingVo anserPagingVo = new PagingVo("answer", (Integer) board.get("num"));
+            Map answer = StringUtil.changeString(boardMapper.selectBoardInfo(anserPagingVo));
+            board.put("answer_num", answer.get("answer_num"));
+            board.put("answer_contents", answer.get("answer_contents"));
+        }
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "온라인 상담");
         model.addAttribute("board", board);
@@ -170,7 +187,8 @@ public class BoardController {
     }
 
     @RequestMapping(value = "online-consult-write", method = RequestMethod.GET)
-    public String onlineConsultWrite(Model model, @ModelAttribute(value = "boardVo") BoardVo boardVo) {
+    public String onlineConsultWrite(@RequestParam Map map, HttpServletRequest request, Model model, @ModelAttribute(value = "boardVo") BoardVo boardVo) throws Exception {
+        adminService.writeModule("online", map, request, model);
         model.addAttribute("category", 4);
         model.addAttribute("urlName", "온라인 상담");
         return prefix + "onlineConsultWrite";
@@ -180,11 +198,9 @@ public class BoardController {
     public String onlineConsultWritePost(MultipartHttpServletRequest mRequest,
                                          Model model,
                                          @ModelAttribute(value = "boardVo") @Valid BoardVo boardVo,
+                                         @RequestParam Map map,
                                          BindingResult result,
                                          Authentication auth) throws Exception {
-
-        onlineConsultValidator.validate(boardVo, result);
-
         if (result.hasErrors()) {
             return prefix + "onlineConsultWrite";
         }
@@ -192,7 +208,13 @@ public class BoardController {
         boardVo.setTableName("online");
         UserVo userVo = (UserVo) auth.getPrincipal();
         boardVo.setId(userVo.getId());
-        boardService.insertBoard(boardVo);
+
+        if (map.get("update").equals("modify")) {
+            boardService.updateBoard(boardVo);
+        } else {
+            boardService.insertBoard(boardVo);
+        }
+
         boardService.saveFile(mRequest, boardVo.getNum(), "online");
 
         model.addAttribute("category", 4);
@@ -289,4 +311,19 @@ public class BoardController {
         out.flush();
     }
 
+    @RequestMapping(value = "/board/delete/{num}", method = RequestMethod.GET)
+    public String baordDelete(@PathVariable String num) throws Exception {
+        Map paramMap = new HashMap();
+        List boardarray = new ArrayList();
+        boardarray.add(num);
+        paramMap.put("boardarray", boardarray);
+        paramMap.put("tableName", "online");
+
+        try {
+            boardService.deleteBoard(paramMap);
+        } catch (Exception e) {
+        }
+
+        return "redirect:/online-consult/1";
+    }
 }

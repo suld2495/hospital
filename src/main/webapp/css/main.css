@@ -84,6 +84,10 @@ body {
     background: #24201f;
 }
 
+body.popup-active {
+    overflow-y: hidden
+}
+
 .section02 {
     /* margin-bottom: 107px; */
     text-align: center;
@@ -1821,7 +1825,28 @@ body .section07 .bx-pager-link span + span {
 }
 
 .fp-menu .active .text {
-    display: none;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.fp-menu .active .text:before {
+    position: absolute;
+    content: '';
+    width: 11px;
+    height: 11px;
+    background: url(../images/main/star.png) no-repeat center;
+    left: -11px;
+    top: 1px;
+    display: block;
+    z-index: 1011111111;
+    background-size: contain;
+    transform: rotate(54deg);
+}
+
+.dark .fp-menu .active .text {
+    color: #222;
 }
 
 .fp-menu .text {
@@ -1829,15 +1854,16 @@ body .section07 .bx-pager-link span + span {
     position: relative;
     color: #fff;
     font-family: "poppins", sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 600;
     white-space: nowrap;
     transform: rotate(90deg);
     transition: all .3s ease;
+    padding-left: 5px;
 }
 
 .fp-menu .active .img {
-    display: block;
+    display: none;
     background: url(../images/main/misowon_right.png) no-repeat center;
     border: none;
     width: 11px;
@@ -1896,14 +1922,16 @@ body .section07 .bx-pager-link span + span {
     transition: all .3s ease;
 }
 
-.fp-menu li:nth-child(1).active a {padding-bottom: 60px;}
-.fp-menu li:nth-child(2).active a {padding-bottom: 60px}
-.fp-menu li:nth-child(3).active a {padding-bottom: 60px}
-.fp-menu li:nth-child(4).active a {padding-bottom: 60px}
-.fp-menu li:nth-child(5).active a {padding-bottom: 60px}
-.fp-menu li:nth-child(6).active a {padding-bottom: 60px}
-.fp-menu li:nth-child(7).active a {padding-bottom: 60px}
-
+.fp-menu li:nth-child(1).active a {padding-bottom: 50px}
+.fp-menu li:nth-child(2).active a {padding-bottom: 88px;}
+.fp-menu li:nth-child(3).active a {padding-bottom: 37px;}
+.fp-menu li:nth-child(4).active a {padding-bottom: 47px;}
+.fp-menu li:nth-child(5).active a {padding-bottom: 80px;}
+.fp-menu li:nth-child(6).active a {padding-bottom: 30px;}
+.fp-menu li:nth-child(7).active a {padding-bottom: 67px;}
+.fp-menu li:nth-child(8).active a {padding-bottom: 43px;}
+.fp-menu li:nth-child(9).active a {padding-bottom: 50px}
+.fp-menu li.active a{margin-top: 40px;}
 .scroll {
     position: absolute;
     width: 100%;
@@ -1984,6 +2012,8 @@ body .section07 .bx-pager-link span + span {
     line-height: 121px;
     font-size: 16px;
     transition: all .3s ease;
+    letter-spacing: -0.5px;
+    font-size: 14.5px;
 }
 
 .section07 .text .num {
@@ -3657,7 +3687,7 @@ body .section07 .bx-pager-link span + span {
 @media screen and (max-width: 820px) {
     .fp-nav {
         width: 0;
-        right: 42px;
+        right: 2px;
     }
 }
 
@@ -3667,8 +3697,8 @@ body .section07 .bx-pager-link span + span {
         left: 0;
     }
     .popup {
-        width: 90%;
-        left: 5%;
+        width: 80%;
+        left: 10%;
         top: 66px;
         margin-left: 0;
     }

@@ -254,20 +254,8 @@ document.write("<script type='text/javascript' src='" + content + "/js/admin/for
 	Board.prototype.boardWriteInit = function() {
 	
 		var skinURI = content + "/lib";
-		
-		if(this.option.useGallery) {
-			
-			if(this.option.movie) {
-				
-				skinURI += "/editor/SmartEditor2SkinMovieUse.html";
-			} else{
-				
-				skinURI += "/editor/SmartEditor2Skin.html";
-			}
-		} else {
-			
-			skinURI += "/editor/SmartEditor2SkinNoImage.html";
-		}
+
+		skinURI += "/editor/SmartEditor2Skin.html";
 		
 		var $board_content = $(".board_content");
 		
@@ -579,6 +567,16 @@ document.write("<script type='text/javascript' src='" + content + "/js/admin/for
 						} else {
 							value = "삭제";
 						}
+					}
+
+					if (key === "main_view") {
+						if (value === 'Y') {
+							temp.find('.main-view').addClass('active');
+						} else {
+							temp.find('.main-view').removeClass('active');
+						}
+
+						return;
 					}
 
 					$column.html(value);

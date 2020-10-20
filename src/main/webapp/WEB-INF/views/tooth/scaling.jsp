@@ -41,21 +41,21 @@
 
     <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
-            <h2 class="section-title">안심하고 받을 수 있는<strong><br>미소원치과의 스케일링 효과</strong></h2>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">안심하고 받을 수 있는<strong><br>미소원치과의 스케일링 효과</strong></h2>
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="600ms">
                     <div class="img img01"></div>
                     <p>치아를 상실하는 가장 큰<br>이유인 치주 질환을 예방</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <div class="img img02"></div>
                     <p>치석과 치태 등으로 인해<br>생기는 구취를 예방</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="1200ms">
                     <div class="img img03"></div>
                     <p>잇몸질환을 예방해<br>자연치아를 보존하는 데 도움</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="1500ms">
                     <div class="img img04"></div>
                     <p>치석이 쌓여 색소가<br>침착되는 치아 변색 예방</p>
                 </li>
@@ -64,16 +64,16 @@
     </section>
 
     <section class="section03 section-quotes-title section-quotes-title-right wow fadeInUp">
-        <div class="image_box_right">
+        <div class="image_box_right wow fadeInUp" data-wow-delay="300ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                         <strong>저통증, 저자극으로 말끔하게!</strong><br>치위생사의 전문적인 스케일링
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="3900ms">
                         미소원치과는 전문 교육을 받고 면허증을 취득한 치위생사로 100% 구성되어 있습니다. 철저한 멸균 소독과 엄격한 위생 관리로 진행되며, 저자극 스케일러로 치석까지
                         개운하게 말끔히 없애드립니다. 건강한 치아와 잇몸을 위해 치아 스케일링은 개인 차가 있지만 보통은 6개월~1년마다 받으시는 것이 바람직합니다.
                     </p>
@@ -85,20 +85,20 @@
 
     <section class="section04 list-content list-content-right wow fadeInUp">
         <div class="max-layout-width">
-            <div class="image_box_left">
+            <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
                 <p class="img"></p>
             </div>
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                         <span class="section-title-color bold">스케일링</span>이 필요한 경우<br>
                     </h2>
-                    <p class="pager pointer active"><span>01</span>그리 심하지 않은 초기 잇몸 질환 증상이 있는 경우</p><br>
-                    <p class="pager pointer"><span>02</span>잇몸 질환으로 양치를 할 때 잇몸에서 피가 나는 경우</p><br>
-                    <p class="pager pointer"><span>03</span>치석이나 착색이 있는 경우</p><br>
-                    <p class="pager pointer"><span>04</span>잇몸 수술 전 치석제거가 필요한 경우</p><br>
-                    <p class="pager pointer"><span>05</span>양치질 후에도 입 냄새가 심한 경우</p><br>
-                    <p class="pager pointer"><span>06</span>흡연자 및 잇몸질환이 있는 경우</p><br>
+                    <p class="pager pointer active wow fadeInUp" data-wow-delay="900ms"><span>01</span>그리 심하지 않은 초기 잇몸 질환 증상이 있는 경우</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>02</span>잇몸 질환으로 양치를 할 때 잇몸에서 피가 나는 경우</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>03</span>치석이나 착색이 있는 경우</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>04</span>잇몸 수술 전 치석제거가 필요한 경우</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>05</span>양치질 후에도 입 냄새가 심한 경우</p><br>
+                    <p class="pager pointer wow fadeInUp" data-wow-delay="900ms"><span>06</span>흡연자 및 잇몸질환이 있는 경우</p><br>
                 </div>
             </div>
         </div>
@@ -110,11 +110,11 @@
         <div class="bg"></div>
         <div class="max-layout-width">
             <div class="text">
-                <h2>
+                <h2 class="wow fadeInUp" data-wow-delay="300ms">
                     미소원치과에서는 1인1기구 사용,<br>
                     <strong><span>매일 철저한 소독,위생점검</span></strong>이 이루어지고 있습니다.
                 </h2>
-                <p>
+                <p class="wow fadeInUp" data-wow-delay="600ms">
                     한번 사용한 의료기기는 반드시 안전 소독 과정을 진행하여 사용하기 때문에<br>
                     세균감염과 교차감염을 미연에 방지할 수 있습니다.
                 </p>
@@ -124,22 +124,22 @@
 
     <section class="section06 list-content list-content-right wow fadeInUp">
         <div class="max-layout-width">
-            <div class="image_box_left">
+            <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
                 <p class="img"></p>
             </div>
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                         1년에 1회, 만 19세 이상이라면<br>
                         <span class="section-title-color">누구나 스케일링 보험이 적용됩니다.</span>
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         2017년 7월 1일부터 보험 적용 대상이 <strong>만 19세로 확대</strong>되어 저렴한 비용으로 치석제거를 받을 수 있습니다. 스케일링은 <strong>1년에 1회만 건강보험이 적용되는</strong>
                         만큼 본인이 치과에서 스케일링을 받았는지 확인이 가능해야 하며, <strong>적용되는 1년 기준이 전년도 7월부터 다음해 6월 말</strong>까지입니다.
                     </p>
-                    <p class="pager"><strong>대상</strong> : 만 19세 이상 성인</p><br>
-                    <p class="pager"><strong>혜택</strong> : 연 1회 스케일링 시 건강보험 적용</p><br>
-                    <p class="pager"><strong>비용</strong> : 1만원대 (치과의원 기준)</p><br>
+                    <p class="pager wow fadeInUp" data-wow-delay="1200ms"><strong>대상</strong> : 만 19세 이상 성인</p><br>
+                    <p class="pager wow fadeInUp" data-wow-delay="1200ms"><strong>혜택</strong> : 연 1회 스케일링 시 건강보험 적용</p><br>
+                    <p class="pager wow fadeInUp" data-wow-delay="1200ms"><strong>비용</strong> : 1만원대 (치과의원 기준)</p><br>
                 </div>
             </div>
         </div>
@@ -148,14 +148,14 @@
     </section>
 
     <section class="section07 text-slider wow fadeInUp">
-        <h2 class="section-title">
+        <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
             환자분들의 <strong class="section-title-color">구강건강을 위한</strong><br>
             미소원치과의 <strong class="section-title-color">꼼꼼한 스케일링</strong>
         </h2>
-        <p class="section-text">
+        <p class="section-text wow fadeInUp" data-wow-delay="600ms">
             국가면허를 취득한 미소원치과의 숙련된 치과위생사에게 안정적이고 세심하게 스케일링 받으세요!
         </p>
-        <div class="slider">
+        <div class="slider wow fadeInUp" data-wow-delay="900ms">
             <div>
                 <div class="text">
                     <h2>
@@ -313,28 +313,28 @@
         </div>
     </section>
 
-    <section class="board-link wow fadeInUp">
+    <section class="board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 의료진의<br>
                 <span class="section-title-color">정직하고 양심적인 진료</span>
             </h2>
-            <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="1200ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="1500ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>

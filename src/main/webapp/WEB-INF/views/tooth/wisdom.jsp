@@ -39,21 +39,21 @@
 
     <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
-            <h2 class="section-title">사랑니 발치<strong>가 필요한 경우</strong></h2>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">사랑니 발치<strong>가 필요한 경우</strong></h2>
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="600ms">
                     <div class="img img01"></div>
                     <p>구강 위생관리가 어려워<br>충치나 염증 발생률이 높음</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <div class="img img02"></div>
                     <p>주변 치아에도 안 좋은<br>영향을 미치게 됨</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="1200ms">
                     <div class="img img03"></div>
                     <p>매복된 사랑니의 경우<br>관리가 까다로움</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="1500ms">
                     <div class="img img04"></div>
                     <p>매복되어 있는 사랑니로 인해<br>치열이 불규칙해짐</p>
                 </li>
@@ -62,16 +62,16 @@
     </section>
 
     <section class="section03 section-quotes-title section-quotes-title-right wow fadeInUp">
-        <div class="image_box_right">
+        <div class="image_box_right wow fadeInUp" data-wow-delay="600ms">
             <p class="img"></p>
         </div>
         <div class="max-layout-width">
             <div class="text">
                 <div>
-                    <h2 class="section-title">
+                    <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                         <strong>3차원 CT진단</strong>을 통한<br>미소원치과의 사랑니 발치
                     </h2>
-                    <p class="section-text">
+                    <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                         3차원 CT 촬영을 통해 신경관 거리를 측정하여 보다 안정적이게<br>사랑니 발치가 가능하여 빠른 회복을 기대할 수 있습니다.
                     </p>
                 </div>
@@ -111,14 +111,14 @@
 
     <section class="section05 left-fade-slider-container wow fadeInUp">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 <strong><span class="section-title-color">
                     숨어있고 누워있어도 신속하게<br>
                 </span></strong>
                 미소원 치과의 <strong>사랑니 발치과정</strong>
             </h2>
         </div>
-        <div class="slider-container post-slider">
+        <div class="slider-container post-slider wow fadeInUp" data-wow-delay="600ms">
             <div class="left-fade-sldier posts">
                 <div class="slides">
                     <div class="slide" data-index="01">
@@ -248,28 +248,28 @@
         </div>
     </section>
 
-    <section class="board-link wow fadeInUp">
+    <section class="board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 의료진의<br>
                 <span class="section-title-color">정직하고 양심적인 진료</span>
             </h2>
-            <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="1200ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="1500ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>

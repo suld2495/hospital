@@ -69,7 +69,7 @@
                     <th class="th6">작성일</th>
                     <th class="th7">조회</th>
                     <th class="th8">상태</th>
-                    <th class="th9">수정</th>
+                    <th class="th9">답변하기</th>
                     <th class="th10">삭제</th>
                     <th class="th11">출력순서</th>
                 </tr>

@@ -30,6 +30,13 @@
     <link rel="stylesheet" href="<c:url value='/css/clientSubNav.css' />">
     <script src="<c:url value='/js/lib/IE9.js' />"></script>
     <script src="<c:url value='/js/lib/jquery.1.12.4.js' />"></script>
+    <script>
+        if (document.location.protocol == 'http:') {
+            if (document.location.href.indexOf('localhost') === -1) {
+                document.location.href = document.location.href.replace('http:', 'https:');
+            }
+        }
+    </script>
 </head>
 <body class="skrollr-body">
     <header>

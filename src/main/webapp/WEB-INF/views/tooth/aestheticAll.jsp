@@ -40,21 +40,21 @@
 
       <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
-            <h2 class="section-title">심미보철<strong>치료 효과</strong></h2>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">심미보철<strong>치료 효과</strong></h2>
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="600ms">
                     <div class="img img01"></div>
                     <p>깨끗한 치아로<br>자신감 상승</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <div class="img img02"></div>
                     <p>적은 양의 치아삭제로<br>자연치아 보존</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="1200ms">
                     <div class="img img03"></div>
                     <p>개개인에 맞춤형<br>심미보철치료를 시행</p>
                 </li>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="1500ms">
                     <div class="img img04"></div>
                     <p>철저한 사후관리로<br>오래도록 아름답게 유지</p>
                 </li>
@@ -64,12 +64,12 @@
 
     <section class="section03 wow fadeInUp">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 자연치아와 매우 유사하여 심미적으로 우수하여<br>
                 <strong>환자분들의 미소를 되찾아 드립니다.</strong>
             </h2>
-            <p class="section-text">미소원치과는 개인 맞춤형 심미보철 치료를 통해 건강하고 아름다운 인상을 만들어 드립니다.</p>
-            <div class="tab">
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">미소원치과는 개인 맞춤형 심미보철 치료를 통해 건강하고 아름다운 인상을 만들어 드립니다.</p>
+            <div class="tab wow fadeInUp" data-wow-delay="900ms">
                 <ul>
                     <li><a href="<c:url value='/aesthetic'/>">라미네이트</a></li>
                     <li class="active"><a href="<c:url value='/aesthetic-ceramic'/>">올세라믹 크라운</a></li>
@@ -85,10 +85,10 @@
                 <div class="tab-contents">
                     <ul>
                         <li class="active">
-                            <img src="<c:url value='/images/sub/tooth/aesthetic/aesthetic02.jpg' />">
+                            <img class="wow fadeInUp" data-wow-delay="300ms" src="<c:url value='/images/sub/tooth/aesthetic/aesthetic02.jpg' />">
                             <div>
-                                <h2>올세라믹 크라운</h2>
-                                <p>
+                                <h2 class="wow fadeInUp" data-wow-delay="600ms">올세라믹 크라운</h2>
+                                <p class="wow fadeInUp" data-wow-delay="900ms">
                                     올세라믹 크라운은 라미네이트와 같은 치사성형의 한 방법으로,세라믹을 이용하여 <strong>치아 전체를 감싸주는 치료방법</strong>입니다.
                                     <strong>치아 사이가 벌어졌거나, 치열이 고르지않거나 단기간에 치아색,모양,크기 배열을 바꿀 때 </strong>올세라믹 치료가 이루어집니다. 전체치료기간은 약 1주일
                                     정도로 짧으며 보철물이 두터우므로 <strong>쉽게 깨지거나 떨어지지않으며 비교적 저작력이 우수</strong>합니다.
@@ -102,17 +102,17 @@
         </div>
 
         <section class="section05 section-quotes-title section-quotes-title-right wow fadeInUp">
-            <div class="image_box_right">
+            <div class="image_box_right wow fadeInUp" data-wow-delay="300ms">
                 <p class="img"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
                     <div>
-                        <h2 class="section-title">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                             <strong>라미네이트보다<br>튼튼하고 씹는 힘이 강한</strong><br>
                             올세라믹 크라운
                         </h2>
-                        <p class="section-text">
+                        <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                             올세라믹 치료는 라미네이트 치료보다 더 많은 변화가 가능한 만큼 더 많은 치아삭제가 필요합니다. 신경치료 후 치아보호를 위해 사용하거나 치료범위가 넓어 라미네이트 치료가 곤란한 경우
                             치아삭제 후 전체에 세라믹 보철물 캡을 씌우는 치료입니다. 단순히 치아만 하얗게 만드는 것이 아니라 치아의 명도,투명도,피부톤 등 종합적인 밸런스를 고려합니다.
                         </p>
@@ -125,22 +125,22 @@
         <section class="section11 img-four wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
-                <h2><strong>올세라믹 크라운의 장점은?</strong></h2>
-                <p>
+                <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>올세라믹 크라운의 장점은?</strong></h2>
+                <p class="wow fadeInUp" data-wow-delay="600ms">
                     올세라믹은 다양한 사례에 폭넓게 사용될 수 있어 장점이 많지만,<br class="mobile"> <strong>라미네이트에 비해 치아 삭제량이 많아</strong><br>
                     <strong><span>초기 상담부터 정밀진단을 토대로 의료진과<br class="mobile"> 충분한 상담</span></strong>을 거치는 것이 중요합니다.
                 </p>
                 <ul class="text">
-                    <li class="img01">
+                    <li class="img01 wow fadeInUp" data-wow-delay="900ms">
                         <p>치아나 잇몸에<br> 해가 없는 좋은 성분</p>
                     </li>
-                    <li class="img02">
+                    <li class="img02 wow fadeInUp" data-wow-delay="1200ms">
                         <p>금속을 사용하지 않아<br>알레르기 환자에 적합</p>
                     </li>
-                    <li class="img03">
+                    <li class="img03 wow fadeInUp" data-wow-delay="1500ms">
                         <p>자연치아와 매우<br>유사한 형태가 가능</p>
                     </li>
-                    <li class="img04">
+                    <li class="img04 wow fadeInUp" data-wow-delay="1800ms">
                         <p>라미네이트보다 다양한<br>부위의 치아성형 가능</p>
                     </li>
                 </ul>
@@ -149,20 +149,20 @@
 
         <section class="section12 list-content list-content-right wow fadeInUp">
             <div class="max-layout-width">
-                <div class="image_box_left">
+                <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
                     <p class="img allceramic"></p>
                 </div>
                 <div class="text">
                     <div>
-                        <h2 class="section-title">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                             <strong>올세라믹 클리닉</strong>이 필요한 경우
                         </h2>
-                        <p class="pager">덧니,돌출된 치아,불규칙한 앞니를 갖고 계신 분</p><br>
-                        <p class="pager">사고나 충치로 신경치료가 필요하신 분</p><br>
-                        <p class="pager">치아의 모양,위치,형태 등 심미적으로 좋지 않은 경우</p><br>
-                        <p class="pager">심한 착색 또는 변색으로 나아지지 않자 고민이신 분</p><br>
-                        <p class="pager">교정 치료를 원하지만 치료 기간을 단축하고 싶은 경우</p><br>
-                        <p class="pager">치료 범위가 넓어 라미네이트 진행이 어려운 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">덧니,돌출된 치아,불규칙한 앞니를 갖고 계신 분</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="1000ms">사고나 충치로 신경치료가 필요하신 분</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="1100ms">치아의 모양,위치,형태 등 심미적으로 좋지 않은 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="1200ms">심한 착색 또는 변색으로 나아지지 않자 고민이신 분</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="1300ms">교정 치료를 원하지만 치료 기간을 단축하고 싶은 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="1400ms">치료 범위가 넓어 라미네이트 진행이 어려운 경우</p><br>
                     </div>
                 </div>
             </div>
@@ -171,13 +171,13 @@
         </section>
 
         <section class="text-slider wow fadeInUp">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 <strong class="section-title-color">만족스러운</strong> 올세라믹 크라운 치료</strong>
             </h2>
-            <p class="section-text">
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">
                 풍부한 경험 및 기술력으로 만족도 높은 결과를 보여드립니다.
             </p>
-            <div class="slider">
+            <div class="slider wow fadeInUp" data-wow-delay="900ms">
                 <div>
                     <div class="text">
                         <h2>
@@ -258,8 +258,8 @@
 
         <section class="section13 table wow fadeInUp">
             <div class="max-layout-width">
-                <h2><strong>라미네이트와</strong> <strong>올세라믹 크라운</strong>의 차이점은?</h2>
-                <div class="table-container">
+                <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>라미네이트와</strong> <strong>올세라믹 크라운</strong>의 차이점은?</h2>
+                <div class="table-container wow fadeInUp" data-wow-delay="600ms">
                     <table class="table">
                         <thead>
                         <tr>
@@ -306,14 +306,14 @@
         </section>
         <section class="left-fade-slider-container wow fadeInUp">
             <div class="max-layout-width">
-                <h2 class="section-title">
+                <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                     <strong><span class="section-title-color">
                     치아를 위한 맞춤 성형
                 </span></strong>
                     미소원 치과의<br> <strong>올세라믹 크라운 치료단계</strong>
                 </h2>
             </div>
-            <div class="slider-container post-slider">
+            <div class="slider-container post-slider wow fadeInUp" data-wow-delay="600ms">
                 <div class="left-fade-sldier posts">
                     <div class="slides">
                         <div class="slide" data-index="01">
@@ -445,28 +445,28 @@
         </div>
     </section>
 
-    <section class="board-link wow fadeInUp">
+    <section class="board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 의료진의<br>
                 <span class="section-title-color">정직하고 양심적인 진료</span>
             </h2>
-            <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="1200ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="1500ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>

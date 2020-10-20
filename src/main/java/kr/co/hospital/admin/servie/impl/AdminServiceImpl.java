@@ -3,6 +3,8 @@ package kr.co.hospital.admin.servie.impl;
 import kr.co.hospital.admin.servie.AdminService;
 import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.board.service.PagingVo;
+import kr.co.hospital.mapper.BoardMapper;
+import kr.co.hospital.util.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
@@ -17,6 +19,9 @@ import java.util.Map;
 @Service
 public class AdminServiceImpl implements AdminService {
     private BoardService boardService;
+
+    @Autowired
+    private BoardMapper boardMapper;
 
     @Autowired
     private ServletContext servletContext;
@@ -90,7 +95,19 @@ public class AdminServiceImpl implements AdminService {
                     Integer.parseInt((String) pageMap.get("board_num")));
 
             model.addAttribute("success", "pass");
-            model.addAttribute("board", boardService.getBoardInfo(pagingVo));
+            Map map = boardService.getBoardInfo(pagingVo);
+
+            if ("online".equals(url)) {
+                PagingVo anserPagingVo = new PagingVo("answer", Integer.parseInt((String) pageMap.get("board_num")));
+                Map answer = StringUtil.changeString(boardMapper.selectBoardInfo(anserPagingVo));
+
+                if (answer != null) {
+                    map.put("answer_num", answer.get("answer_num"));
+                    map.put("answer_contents", answer.get("answer_contents"));
+                }
+            }
+
+            model.addAttribute("board", map);
             model.addAttribute("appendixList", boardService.selectAppendix(pagingVo));
         }
 

@@ -115,7 +115,7 @@
 
     <section class="section05 table">
         <div class="max-layout-width">
-            <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>세리믹 교정</strong>과 <strong>클리피씨 교정</strong>의 차이점은?</h2>
+            <h2 class="wow fadeInUp" data-wow-delay="300ms"><strong>세라믹 교정</strong>과 <strong>클리피씨 교정</strong>의 차이점은?</h2>
             <div class="table-container wow fadeInUp" data-wow-delay="600ms">
                 <table class="table">
                     <thead>
@@ -248,21 +248,21 @@
                 <p>남다른 치아를 만드는 미소원 치아교정의 특별함</p>
             </div>
             <div class="swiper-container wow fadeInUp" data-wow-delay="600ms">
-                <div class="swiper-slide">
-                    <!--div class="text">
-                        <span class="number">01</span>
-                        <h2 class="section-title">
-                            치아 교정과 전문의가<br>
-                            <strong>책임진료합니다.</strong>
-                        </h2>
-                        <p class="section-text">
-                            교정과 전문의인 여자 원장님의 1:1 주치의 시스템으로 교정치료기간을 단축하기 위한 치료노하우와 기술력을 바탕으로 처음부터 끝까지 책임 진료합니다.
-                        </p>
-                    </div-->
-                    <div class="image_box_right">
-                        <div class="img img01"></div>
-                    </div>
-                </div>
+<%--                <div class="swiper-slide">--%>
+<%--                    <div class="text">--%>
+<%--                        <span class="number">01</span>--%>
+<%--                        <h2 class="section-title">--%>
+<%--                            치아 교정과 전문의가<br>--%>
+<%--                            <strong>책임진료합니다.</strong>--%>
+<%--                        </h2>--%>
+<%--                        <p class="section-text">--%>
+<%--                            교정과 전문의인 여자 원장님의 1:1 주치의 시스템으로 교정치료기간을 단축하기 위한 치료노하우와 기술력을 바탕으로 처음부터 끝까지 책임 진료합니다.--%>
+<%--                        </p>--%>
+<%--                    </div>--%>
+<%--                    <div class="image_box_right">--%>
+<%--                        <div class="img img01"></div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
                 <div class="swiper-slide">
                     <div class="text">
                         <span class="number">01</span>

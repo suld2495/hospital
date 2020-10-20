@@ -42,12 +42,12 @@
 
     <section class="section02 wow fadeInUp">
         <div class="max-layout-width">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                 기본이 중요한 충치,치주,신경치료<br>
                 <strong>미소원치과는 원칙을 지킵니다.</strong>
             </h2>
-            <p class="section-text">미소원치과는 과잉진료를 하지 않으며, 첨단장비 사용으로 치아를 살리기 위해 최선을 다합니다.</p>
-            <div class="tab">
+            <p class="section-text wow fadeInUp" data-wow-delay="300ms">미소원치과는 과잉진료를 하지 않으며, 첨단장비 사용으로 치아를 살리기 위해 최선을 다합니다.</p>
+            <div class="tab wow fadeInUp" data-wow-delay="300ms">
                 <ul>
                     <li class="active">충치</li>
                     <li>치주</li>
@@ -63,10 +63,10 @@
                 <div class="tab-contents">
                     <ul>
                         <li class="active">
-                            <img src="<c:url value='/images/sub/tooth/general/decay02.jpg' />">
+                            <img class="wow fadeInUp" data-wow-delay="300ms" src="<c:url value='/images/sub/tooth/general/decay02.jpg' />">
                             <div>
-                                <h2>충치</h2>
-                                <p>
+                                <h2 class="wow fadeInUp" data-wow-delay="600ms">충치</h2>
+                                <p class="wow fadeInUp" data-wow-delay="900ms">
                                     감기처럼 흔하지만 감기처럼 스스로 치유되는 질병이 아닙니다.<br>
                                     <strong>미룰수록 늘어나는 통증, 치료시간, 치료비용</strong><br>
                                     초기에 충치의 발생을 인지하였다면 <strong>치료를 서두르는 것이 좋습니다.</strong>                                    
@@ -80,8 +80,8 @@
         </div>
         <section class="section03">
             <div class="max-layout-width">
-                <h2>충치<strong>진행단계 및 치료방법</strong></h2>
-                <div class="table-container">
+                <h2 class="wow fadeInUp" data-wow-delay="300ms">충치<strong>진행단계 및 치료방법</strong></h2>
+                <div class="table-container wow fadeInUp" data-wow-delay="600ms">
                     <table class="table">
                         <thead>
                             <tr class="table-title">
@@ -151,16 +151,16 @@
         </section>
 
         <section class="section04 section-quotes-title section-quotes-title-right wow fadeInUp">
-            <div class="image_box_right">
+            <div class="image_box_right wow fadeInUp" data-wow-delay="600ms">
                 <p class="img"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
                     <div>
-                        <h2 class="section-title">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                             <strong>최첨단 3D 스캔 방식으로,</strong><br>빠르고 쉬운 보철물 제작
                         </h2>
-                        <p class="section-text">
+                        <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                             미소원 치과는 기존 아날로그 방식이였던 인상채득(본뜨기) 과정 대신에<br>
                             디지털장비를 활용해 구강을 3D 스캔하여 보철물을 제작하기 때문에<br>
                             거의 오차 없이 보철물을 제작할 수 있습니다.
@@ -174,13 +174,13 @@
         <section class="section05 wow fadeInUp">
             <div class="max-layout-width">
                 <div class="img-contents img-contents1 active">
-                    <div class="img-box">
+                    <div class="img-box wow fadeInUp" data-wow-delay="300ms">
                         <img src="<c:url value='/images/sub/tooth/general/decay04_1.jpg' />">
                     </div>
                     <div class="text">
                         <div>
-                            <h2>충치 치료의 종류 01) 레진</h2>
-                            <p>
+                            <h2 class="wow fadeInUp" data-wow-delay="600ms">충치 치료의 종류 01) 레진</h2>
+                            <p class="wow fadeInUp" data-wow-delay="300ms">
                                 레진은 충치의 범위가 크지 않은 경우에 주로 사용하는 <strong>당일 충전 치료 방법</strong>으로
                                 치아색과 동일하여 <strong>심미적으로도 우수함</strong>은 물론
                                 <strong>치아 삭제량이 적고</strong>, 좁거나 작은 부위에도 충전 가능한 치료 입니다.
@@ -238,7 +238,7 @@
         <section class="section20 wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
-                <div class="text">
+                <div class="text wow fadeInUp" data-wow-delay="300ms">
                     <h2>
                         미소원치과는 <strong><span>3D카메라로 스캔</span></strong>하여 석고로 본을 뜨는 시간을 줄이는 동시에
                         <br><strong><span>더욱 정밀하고 세밀하게 치아를 디자인</span></strong>하여<br> <strong>건물 내 상주하는 협력 기공소에서 바로 제작</strong>합니다.
@@ -247,16 +247,16 @@
             </div>
         </section>
 
-        <section class="left-fade-slider-container wow fadeInUp">
+        <section class="left-fade-slider-container">
             <div class="max-layout-width">
-                <h2 class="section-title">
+                <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                     <strong><span class="section-title-color">
                     더이상 미루지 마세요! 빠를수록 좋은 충치치료<br>
                 </span></strong>
                     미소원 치과의 <strong>충치치료 단계</strong>
                 </h2>
             </div>
-            <div class="slider-container post-slider">
+            <div class="slider-container post-slider wow fadeInUp" data-wow-delay="600ms">
                 <div class="left-fade-sldier posts">
                     <div class="slides">
                         <div class="slide" data-index="01">
@@ -310,13 +310,13 @@
         </section>
         <section class="fade-in-slider wow fadeInUp">
             <div class="max-layout-width">
-                <div class="title">
+                <div class="title wow fadeInUp" data-wow-delay="300ms">
                     <h2>
                         <strong>미소원치과의 자연치아 클리닉이 특별한 이유</strong>
                     </h2>
                     <p>자연치아를 살리기 위해 치조골 상태에 따라 치주치료,고난이도 보존치료를 시행하는 미소원치과 </p>
                 </div>
-                <div class="swiper-container">
+                <div class="swiper-container wow fadeInUp" data-wow-delay="600ms">
                     <div class="swiper-slide">
                         <div class="text">
                             <span class="number">01</span>
@@ -378,10 +378,10 @@
                 <div class="tab-contents">
                     <ul>
                         <li class="active">
-                            <img src="<c:url value='/images/sub/tooth/general/periodontal01.jpg' />">
+                            <img class="wow fadeInUp" data-wow-delay="300ms" src="<c:url value='/images/sub/tooth/general/periodontal01.jpg' />">
                             <div>
-                                <h2>치주(풍치)</h2>
-                                <p>
+                                <h2 class="wow fadeInUp" data-wow-delay="600ms">치주(풍치)</h2>
+                                <p class="wow fadeInUp" data-wow-delay="900ms">
                                     흔히 <strong>잇몸병</strong>이라고도 하며 치아를 감싸고 있는 <strong>잇몸과 잇몸뼈에 염증이 생기는 것</strong>을 말합니다.
                                     중장년층 환자분들의 발치의 가장 원인인 치주질환으로
                                     초기증상이 보이는 경우 <strong>하루빨리 치과에 내원하여 적절한 조치</strong>를 받아야 합니다.
@@ -395,8 +395,8 @@
         </div>
         <section class="section03 wow fadeInUp">
             <div class="max-layout-width">
-                <h2>치주질환(풍치) <strong>진행단계 및<br class="mobile"> 치료방법</strong></h2>
-                <div class="table-container">
+                <h2 class="wow fadeInUp" data-wow-delay="300ms">치주질환(풍치) <strong>진행단계 및<br class="mobile"> 치료방법</strong></h2>
+                <div class="table-container wow fadeInUp" data-wow-delay="600ms">
                     <table class="table">
                         <thead>
                             <tr class="table-title">
@@ -466,17 +466,17 @@
         </section>
 
         <section class="section04 section-quotes-title section-quotes-title-right wow fadeInUp">
-            <div class="image_box_right">
+            <div class="image_box_right wow fadeInUp" data-wow-delay="600ms">
                 <p class="img"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
                     <div>
-                        <h2 class="section-title">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                             치조골이 절반만 남아있어도<br>
                             <strong>치주치료를 통해 자연치아를<br>살릴 가능성</strong>이 있습니다.
                         </h2>
-                        <p class="section-text">
+                        <p class="section-text wow fadeInUp" data-wow-delay="900ms">
                             잇몸이 무너지면 치아도 무너집니다. 미소원치과는 치주질환으로 인해 손상된 치아를 발치하지 않고 전문적인 치료를 통해 자연치아를 살려
                             건강하게 유지,사용할 수 있도록합니다. 또 다른 질환 발생의 원인이 되는 치주질환,소중한 자연치아를 위해 빠르게 치료받으세요.
                         </p>
@@ -486,22 +486,22 @@
             <div class="bg"></div>
         </section>
 
-        <section class="section11 wow fadeInUp">
+        <section class="section11">
             <div class="max-layout-width">
-                <div class="image_box_left">
+                <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
                     <p class="img"></p>
                 </div>
                 <div class="text">
                     <div>
-                        <h2 class="section-title">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                             <span class="section-title-color bold">치주 질환치료</span>가 필요한 경우<br>
                         </h2>
-                        <p class="pager">차거나 뜨거운 음식을 먹을 때 이가 시린 경우</p><br>
-                        <p class="pager">입맛이 둔해지고 입 냄새가 날 때</p><br>
-                        <p class="pager">통증으로 음식물 씹기가 어려운 경우</p><br>
-                        <p class="pager">잇몸이 느슨해지고 치아가 흔들릴 경우</p><br>
-                        <p class="pager">잇몸을 만지면 통증이 느껴지는 경우</p><br>
-                        <p class="pager">치열이 삐뚤어지고 치아의 위치가 변하는 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">차거나 뜨거운 음식을 먹을 때 이가 시린 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">입맛이 둔해지고 입 냄새가 날 때</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">통증으로 음식물 씹기가 어려운 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">잇몸이 느슨해지고 치아가 흔들릴 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">잇몸을 만지면 통증이 느껴지는 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">치열이 삐뚤어지고 치아의 위치가 변하는 경우</p><br>
                     </div>
                 </div>
             </div>
@@ -512,7 +512,7 @@
         <section class="section06 wow fadeInUp">
             <div class="bg"></div>
             <div class="max-layout-width">
-                <div class="text">
+                <div class="text wow fadeInUp" data-wow-delay="300ms">
                     <h2>
                         미소원치과에서는 치료 전후에 재발하지 않기 위해 <strong>적절한 예방교육</strong>과<br><strong><span>구취세균 검사 위상차현미경을 통한 세균 검사, 타액검사 등<br>정밀검사</span></strong>
                       를 통해 구강예방 관리를 시행하고 있습니다.
@@ -522,13 +522,13 @@
         </section>
         <section class="fade-in-slider wow fadeInUp">
             <div class="max-layout-width">
-                <div class="title">
+                <div class="title wow fadeInUp" data-wow-delay="300ms">
                     <h2>
                         <strong>미소원치과의 자연치아 클리닉이 특별한 이유</strong>
                     </h2>
                     <p>자연치아를 살리기 위해 치조골 상태에 따라 치주치료,고난이도 보존치료를 시행하는 미소원치과 </p>
                 </div>
-                <div class="swiper-container">
+                <div class="swiper-container wow fadeInUp" data-wow-delay="600ms">
                     <div class="swiper-slide">
                         <div class="text">
                             <span class="number">01</span>
@@ -585,15 +585,15 @@
     </div>
 
     <div class="tab-container tab-container3">
-        <div class="section02-1 wow fadeInUp">
+        <div class="section02-1">
             <div class="max-layout-width">
                 <div class="tab-contents">
                     <ul>
                         <li class="active">
-                            <img src="<c:url value='/images/sub/tooth/general/neurotherapy01.jpg' />">
+                            <img class="wow fadeInUp" data-wow-delay="300ms" src="<c:url value='/images/sub/tooth/general/neurotherapy01.jpg' />">
                             <div>
-                                <h2>신경치료</h2>
-                                <p>
+                                <h2 class="wow fadeInUp" data-wow-delay="600ms">신경치료</h2>
+                                <p class="wow fadeInUp" data-wow-delay="900ms">
                                     치아 내부까지 충치가 깊어져 <strong>신경부근까지 염증이 새겼을 경우 신경조직을 치료하여 재발을 방지하는 치료</strong>를 말합니다.
                                     신경치료는 치아 발치와 무분별한 임플란트 시술을 막고 <strong>자연치아를 보존하여 계속 사용할 수 있게 하는 방법</strong>입니다. 미소원치과만의
                                     노하우로 치수만 제거하여 통증을 없애고 치아가 제 기능을 할 수 있도록 치료합니다.
@@ -606,9 +606,9 @@
             <div class="bg"></div>
         </div>
         <section class="section03 wow fadeInUp">
-            <div class="max-layout-width">
+            <div class="max-layout-width wow fadeInUp" data-wow-delay="300ms">
                 <h2>신경치료 <strong>치료방법</strong></h2>
-                <div class="table-container">
+                <div class="table-container wow fadeInUp" data-wow-delay="600ms">
                     <table class="table">
                         <thead>
                             <tr class="table-title">
@@ -654,20 +654,20 @@
 
         <section class="section12 wow fadeInUp">
             <div class="max-layout-width">
-                <div class="image_box_left">
+                <div class="image_box_left wow fadeInUp" data-wow-delay="300ms">
                     <p class="img"></p>
                 </div>
                 <div class="text">
                     <div>
-                        <h2 class="section-title">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay="600ms">
                             <span class="section-title-color bold">신경치료</span>가 필요한 경우<br>
                         </h2>
-                        <p class="pager">충치가 심해서 신경까지 염증이 발생한 경우</p><br>
-                        <p class="pager">외상으로 치아에 금이 가거나 부러지거나 흔들리는 경우</p><br>
-                        <p class="pager">과거에 신경치료를 받은 치아에 염증이 재발한 경우</p><br>
-                        <p class="pager">치아가 심하게 닳거나 패인 경우</p><br>
-                        <p class="pager">돌출된앞니의 심미 보철을 위한 경우</p><br>
-                        <p class="pager">치아를 씌우기 위해 많이 깎아야 하는 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">충치가 심해서 신경까지 염증이 발생한 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">외상으로 치아에 금이 가거나 부러지거나 흔들리는 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">과거에 신경치료를 받은 치아에 염증이 재발한 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">치아가 심하게 닳거나 패인 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">돌출된앞니의 심미 보철을 위한 경우</p><br>
+                        <p class="pager wow fadeInUp" data-wow-delay="900ms">치아를 씌우기 위해 많이 깎아야 하는 경우</p><br>
                     </div>
                 </div>
             </div>
@@ -676,16 +676,16 @@
         </section>
 
         <section class="section04 section-quotes-title section-quotes-title-right wow fadeInUp">
-            <div class="image_box_right">
+            <div class="image_box_right wow fadeInUp" data-wow-delay="600ms">
                 <p class="img"></p>
             </div>
             <div class="max-layout-width">
                 <div class="text">
                     <div>
-                        <h2 class="section-title">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                             <strong>자연치아를 살리는<br>마지막 치료</strong>는 신경치료입니다.
                         </h2>
-                        <p class="section-text">
+                        <p class="section-text wow fadeInUp" data-wow-delay="3900ms">
                             신경치료는 재충치를 막고 장기적으로 치아의 염증이 생기기 않도록 하는 치료입니다. 충치나 외상 등에 의해서 치아 내 신경이 자가 치유될 수 없을때 마지막 보존치료로 진행됩니다.<br>
                             치아의 형태,증상에 따라 치료 기간이 늘어날 수 있습니다.
                         </p>
@@ -696,13 +696,13 @@
         </section>
         <section class="left-fade-slider-container wow fadeInUp">
             <div class="max-layout-width">
-                <h2 class="section-title">
+                <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
                     <strong><span class="section-title-color">
                         치주질환은 치아를 읽게되는<br class="mobile"> 가장 큰 원인입니다.<br></span></strong>
                     미소원 치과의 <strong>잇몸치료 단계</strong>
                 </h2>
             </div>
-            <div class="slider-container post-slider">
+            <div class="slider-container post-slider wow fadeInUp" data-wow-delay="600ms">
                 <div class="left-fade-sldier posts">
                     <div class="slides">
                         <div class="slide" data-index="01">
@@ -756,15 +756,15 @@
             </div>
             <div class="bg"></div>
         </section>
-        <section class="fade-in-slider wow fadeInUp">
+        <section class="fade-in-slider">
             <div class="max-layout-width">
-                <div class="title">
+                <div class="title wow fadeInUp" data-wow-delay="300ms">
                     <h2>
                         <strong>미소원치과의 자연치아 클리닉이 특별한 이유</strong>
                     </h2>
                     <p>자연치아를 살리기 위해 치조골 상태에 따라 치주치료,고난이도 보존치료를 시행하는 미소원치과 </p>
                 </div>
-                <div class="swiper-container">
+                <div class="swiper-container wow fadeInUp" data-wow-delay="600ms">
                     <div class="swiper-slide">
                         <div class="text">
                             <span class="number">01</span>
@@ -901,28 +901,28 @@
         </div>
     </section>
 
-    <section class="board-link wow fadeInUp">
+    <section class="board-link">
         <div class="max-layout-width">
             <h2 class="section-title">
                 학습하고 연구하는 의료진의<br>
                 <span class="section-title-color">정직하고 양심적인 진료</span>
             </h2>
-            <p class="section-text">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
+            <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 
             <ul>
-                <li>
+                <li class="wow fadeInUp" data-wow-delay="900ms">
                     <p>
                         <span>온라인 상담</span>
                         <a href="<c:url value='/online-consult/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="center-img">
+                <li class="center-img wow fadeInUp" data-wow-delay="1200ms">
                     <p>
                         <span>치료후기</span>
                         <a href="<c:url value='/review/1' /> "><span class="view">VIEW</span></a>
                     </p>
                 </li>
-                <li class="last-img">
+                <li class="last-img wow fadeInUp" data-wow-delay="1500ms">
                     <p>
                         <span>치료사례</span>
                         <a href="<c:url value='/case/1' /> "><span class="view">VIEW</span></a>

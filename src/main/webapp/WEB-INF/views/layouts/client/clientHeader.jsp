@@ -22,7 +22,7 @@
                 <div class="slide-item slide-item03">
                     <img src="<c:url value='/images/cmmn/banner03.png'/>">
                     <span><span>안전이 가장 중요한 시기,</span> <strong>울산광역시 청정인증! 미소원치과</strong></span>
-                    <a href="<c:url value='/'/>" class="go">바로가기</a>
+                    <a href="<c:url value='/tour'/>" class="go">바로가기</a>
                 </div>
             </div>
             <div class="slide-item-box pointer">
@@ -100,11 +100,11 @@
                     <img src="<c:url value='/images/cmmn/cate06.jpg'/>">
                     <ul class="sub-category">
                         <li><a href="<c:url value='/notice/1' />">공지사항</a></li>
+                        <li><a href="<c:url value='/media/1' />">미디어</a></li>
                         <li><a href="<c:url value='/review/1' />">치료후기</a></li>
                         <li><a href="<c:url value='/case/1' />">치료사례</a></li>
                         <li><a href="<c:url value='/online-consult/1' />">온라인 상담</a></li>
                         <li><a href="<c:url value='/reserve-write' />">예약 상담 신청</a></li>
-                        <li><a href="<c:url value='/media/1' />">미디어</a></li>
                     </ul>
                 </li>
             </ul>
@@ -150,13 +150,13 @@
                             <div class="login-nav pointer">
                                 <sec:authorize access="isAnonymous()">
                                     <a class="text-decoration-none" href="<c:url value='/login' />">
-                                        <img src="<c:url value='/images/cmmn/login.png' />" alt="로그인">
+                                        <img src="<c:url value='/images/cmmn/login_1.svg' />" alt="로그인">
                                         <p class="font-12">LOGIN</p>
                                     </a>
                                 </sec:authorize>
                                 <sec:authorize access="isAuthenticated()">
                                     <a class="text-decoration-none" href="<c:url value='/logout' />">
-                                        <img src="<c:url value='/images/cmmn/logout_1.png' />" alt="로그아웃">
+                                        <img src="<c:url value='/images/cmmn/logout.svg' />" alt="로그아웃">
                                         <p class="font-12">LOGOUT</p>
                                     </a>
                                 </sec:authorize>
@@ -164,13 +164,13 @@
                             <div class="member-nav pointer mobile_display_none">
                                 <sec:authorize access="isAnonymous()">
                                     <a class="text-decoration-none" href="<c:url value='/member_agreement' />">
-                                        <img src="<c:url value='/images/cmmn/join.png' />" alt="회원가입">
+                                        <img src="<c:url value='/images/cmmn/join.svg' />" alt="회원가입">
                                         <p class="font-12">JOIN US</p>
                                     </a>
                                 </sec:authorize>
                                 <sec:authorize access="isAuthenticated()">
                                     <a class="text-decoration-none" href="<c:url value='/mypage_reservation/1' />">
-                                        <img src="<c:url value='/images/cmmn/mypage_1.png' />" alt="마이페이지">
+                                        <img src="<c:url value='/images/cmmn/mypage.svg' />" alt="마이페이지">
                                         <p class="font-12">MYPAGE</p>
                                     </a>
                                 </sec:authorize>
@@ -298,11 +298,11 @@
                     <div class="sub-category">
                         <ul>
                             <li><a href="<c:url value='/notice/1' />">공지사항</a></li>
-                            <li><a href="<c:url value='/case/1' />">치료사례</a></li>
+                            <li><a href="<c:url value='/media/1' />">미디어</a></li>
                             <li><a href="<c:url value='/review/1' />">치료후기</a></li>
+                            <li><a href="<c:url value='/case/1' />">치료사례</a></li>
                             <li><a href="<c:url value='/online-consult/1' />">온라인 상담</a></li>
                             <li><a href="<c:url value='/reserve-write' />">예약 상담 신청</a></li>
-                            <li><a href="<c:url value='/media/1' />">미디어</a></li>
                         </ul>
                         <div class="img img05"></div>
                     </div>

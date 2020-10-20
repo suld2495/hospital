@@ -7,7 +7,7 @@
     <script>
 
         alert("로그인 후 접속 가능합니다.");
-        location.href = "<c:url value='/login' />";
+        location.href = "<c:url value='/admin/login' />";
     </script>
 </sec:authorize>
 

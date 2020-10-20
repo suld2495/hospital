@@ -41,6 +41,42 @@ public class BoardVo {
     private int boardOrder;
     private String main_view;
     private String type;
+    private String board_answer_use;
+    private String answer_contents;
+    private String board_answer;
+    private Integer answer_num;
+
+    public Integer getAnswer_num() {
+        return answer_num;
+    }
+
+    public void setAnswer_num(Integer answer_num) {
+        this.answer_num = answer_num;
+    }
+
+    public String getBoard_answer() {
+        return board_answer;
+    }
+
+    public void setBoard_answer(String board_answer) {
+        this.board_answer = board_answer;
+    }
+
+    public String getAnswer_contents() {
+        return answer_contents;
+    }
+
+    public void setAnswer_contents(String answer_contents) {
+        this.answer_contents = answer_contents;
+    }
+
+    public String getBoard_answer_use() {
+        return board_answer_use;
+    }
+
+    public void setBoard_answer_use(String board_answer_use) {
+        this.board_answer_use = board_answer_use;
+    }
 
     public String getType() {
         return type;
