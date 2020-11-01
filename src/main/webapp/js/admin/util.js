@@ -285,17 +285,17 @@ function paging(total, boardList, totalPage, page, pagingBox) {
 	}
 
 	if(currentPageListNum != 1)
-		undo += "<li class='undo_2 pagingText pointer' id='" + undoPage + "'><img src='/images/paging/left_left.jpg'></li>";
+		undo += "<li class='undo_2 pagingText pointer' id='" + undoPage + "'><img src='/images/admin/paging/left_left.jpg'></li>";
 	else
-		undo += "<li class='undo_2 pagingText pointer' id='1'><img src='/images/paging/left_left.jpg'></li>";
+		undo += "<li class='undo_2 pagingText pointer' id='1'><img src='/images/admin/paging/left_left.jpg'></li>";
 	
 	if(page != 1){
 		
-		undo += "<div class='leftImg pagingText pointer' id='"+(page-1)+"'><img src='/images/paging/left.jpg'></div>";
+		undo += "<div class='leftImg pagingText pointer' id='"+(page-1)+"'><img src='/images/admin/paging/left.jpg'></div>";
 		undo += "<div class='pagingText pointer' id='"+(page-1)+"'></div>";
 	} else {
 	
-		undo += "<div class='leftImg pagingText pointer' id='1'><img src='/images/paging/left.jpg'></div>";
+		undo += "<div class='leftImg pagingText pointer' id='1'><img src='/images/admin/paging/left.jpg'></div>";
 		undo += "<div class='pagingText pointer' id='1'></div>";
 	}
 		
@@ -304,32 +304,32 @@ function paging(total, boardList, totalPage, page, pagingBox) {
 		if(pageTotal == 0) {
 			
 			next += "<div class='pagingText pointer' id='1'></div>";
-			next += "<div class='rightImg pagingText pointer' id='1'><img src='/images/paging/right.jpg'></div>";
+			next += "<div class='rightImg pagingText pointer' id='1'><img src='/images/admin/paging/right.jpg'></div>";
 		} else {
 			
 			next += "<div class='pagingText pointer' id='"+(parseInt(page)+1)+"'></div>";
-			next += "<div class='rightImg pagingText pointer' id='"+(parseInt(page)+1)+"'><img src='/images/paging/right.jpg'></div>";
+			next += "<div class='rightImg pagingText pointer' id='"+(parseInt(page)+1)+"'><img src='/images/admin/paging/right.jpg'></div>";
 		}
 		
 	} else {
 		
 		next += "<div class='pagingText pointer' id='"+pageTotal+"'></div>";
-		next += "<div class='rightImg pagingText pointer' id='"+pageTotal+"'><img src='/images/paging/right.jpg'></div>";
+		next += "<div class='rightImg pagingText pointer' id='"+pageTotal+"'><img src='/images/admin/paging/right.jpg'></div>";
 	}
 		
 	if(currentPageListNum != pageListNum) {
 	
 		if(pageTotal == 0) {
 			
-			next += "<li class='next_2 pagingText pointer' id='1'><img src='/images/paging/right_right.jpg'></li>";	
+			next += "<li class='next_2 pagingText pointer' id='1'><img src='/images/admin/paging/right_right.jpg'></li>";
 		} else {
 			
-			next += "<li class='next_2 pagingText pointer' id='"+nextPage+"'><img src='/images/paging/right_right.jpg'></li>";	
+			next += "<li class='next_2 pagingText pointer' id='"+nextPage+"'><img src='/images/admin/paging/right_right.jpg'></li>";
 		}
 		
 	}
 	else
-		next += "<li class='next_2 pagingText pointer' id='"+pageTotal+"'><img src='/images/paging/right_right.jpg'></li>";	
+		next += "<li class='next_2 pagingText pointer' id='"+pageTotal+"'><img src='/images/admin/paging/right_right.jpg'></li>";
 	
 	if(paging == "<ul>") {
 		

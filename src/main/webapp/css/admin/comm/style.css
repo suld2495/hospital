@@ -31,7 +31,7 @@ ul,ol {padding: 0;margin: 0;}
 ul ul,ul ol,ol ol,ol ul {list-style: none; margin-bottom: 0;}
 li {list-style-type: none;}
 
-#wrapper {/* width:1500px; */width: 100%;display: flex;flex-wrap: wrap;flex-direction: row-reverse;position: relative;}
+#wrapper {/* width:1500px; */width: 100%;display: flex;flex-wrap: wrap;/* flex-direction: row-reverse; */position: relative;}
 
 .content_wrap table {width:100%;}
 .content_wrap th {font-size:14px; color:#333;}

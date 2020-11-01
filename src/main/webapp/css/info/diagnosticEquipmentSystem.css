@@ -560,13 +560,15 @@
         width: 43px;
         height: 35px;
         margin-right: 14px;
-        padding: 12px;
+        padding: 0px;
         box-sizing: border-box;
         border: 1px solid #ddd;
         border-radius: unset;
         font-size: 14px;
         font-weight: 600;
+        line-height: 35px;
         font-family: gmarket !important;
+        box-sizing: border-box;
     }
 
     .section01 .bx-pager-item {

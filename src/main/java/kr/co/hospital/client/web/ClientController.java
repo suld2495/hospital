@@ -2,23 +2,33 @@ package kr.co.hospital.client.web;
 
 import kr.co.hospital.board.service.BoardService;
 import kr.co.hospital.client.service.ClientService;
+import kr.co.hospital.popup.service.PopupService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Controller
 public class ClientController {
     private ClientService clientService;
     private BoardService boardService;
+    private PopupService popupService;
 
-    public ClientController(ClientService clientService, BoardService boardService) {
+    public ClientController(ClientService clientService, BoardService boardService, PopupService popupService) {
         this.clientService = clientService;
         this.boardService = boardService;
+        this.popupService = popupService;
     }
 
     @RequestMapping("/main")
     public String main(Model model) throws Exception {
+        Map popupMap = new HashMap();
+        popupMap.put("popupShow", "y");
+
+        model.addAttribute("popup", popupService.selectPopup(popupMap));
         model.addAttribute("review", boardService.getMainReview());
         model.addAttribute("treatment", boardService.getMainCase());
         return "/main/main";

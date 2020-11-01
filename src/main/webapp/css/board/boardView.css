@@ -32,6 +32,7 @@
     padding: 0 25px;
     color: #434343;
     border-bottom: 1px solid #dddddd;
+    display: none;
 }
 
 .board-view .contents {
@@ -141,11 +142,58 @@
     }
 }
 
+@media screen and (max-width: 640px) {
+    .board-view .button li span {
+        float: left;
+    }
+    .board-view .button li span:first-child {
+        width: 30%;
+        box-sizing: border-box;
+    }
+    .board-view .button .con {
+        width: 70%;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+        white-space: nowrap;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .board-view .button li span:first-child {
-        width: 100px;
+        /* width: 100px; */
     }
     .board-view .contents img {
         max-width: 100%;
+    }
+    .board-view .contents a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+        display: inline-block;;
+    }
+    .board-view .title {
+        display: flex;
+        padding: 0px 10px;
+    }
+    .board-view .title .subject {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 70%;
+        display: inline-block;
+        font-size: 14px;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+    .board-view .title .date {
+        width: 80px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .board-view .button .con {
+        padding-left: 20px;
     }
 }

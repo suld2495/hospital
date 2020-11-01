@@ -27,5 +27,6 @@
     <mappers>
         <mapper resource="mybatis/mappers/BoardSQL.xml"/>
         <mapper resource="mybatis/mappers/UserSQL.xml"/>
+        <mapper resource="mybatis/mappers/PopupSQL.xml"/>
     </mappers>
 </configuration>

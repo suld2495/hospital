@@ -226,7 +226,7 @@ public class AdminController {
 
     @RequestMapping(value = "/board/delete", method = RequestMethod.POST)
     @ResponseBody
-    public Map baordDelete(@RequestParam Map paramMap, @RequestParam List boardarray) throws Exception {
+    public Map baordDelete(@RequestParam Map paramMap, @RequestParam(required = false) List boardarray) throws Exception {
         Map result = new HashMap();
         paramMap.put("boardarray", boardarray);
 

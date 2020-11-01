@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="kr.co.hospital.mapper.PopupMapper">
+    <select id="selectPopup" parameterType="map" resultType="map">
+        select 	*
+            , 	date(subdate(popup_start, INTERVAL 0 day)) start
+            ,  	date(subdate(popup_end, INTERVAL 0 day)) end
+
+        from popup
+
+        <where>
+            <if test="popupNum != null">		and		popup_num = #{popupNum}			</if>
+            <if test="popupShow != null">
+                <![CDATA[
+
+												and 	popup_start < now()
+												and		popup_end > now()
+				]]>
+            </if>
+        </where>
+
+        ORDER BY popup_date desc
+        <if test="start != null">
+            limit #{start}, #{end}
+        </if>
+    </select>
+
+    <select id="selectPopupTotal" parameterType="map" resultType="int">
+
+        select count(*) from popup
+
+        <where>
+            <if test="popupNum != null">		and		popup_num = #{popupNum}			</if>
+            <if test="popupShow != null">
+                <![CDATA[
+
+												and 	popup_start < now()
+												and		popup_end > now()
+				]]>
+            </if>
+        </where>
+    </select>
+
+    <insert id="insertPopup" parameterType="map">
+
+		insert into popup
+
+				(
+
+								popup_img
+						,		popup_root
+						,		popup_start
+						,		popup_end
+						,		popup_date
+				)
+
+		values
+				(
+								#{popup_img}
+						,		#{popup_root}
+						,		#{popup_start}
+						,		#{popup_end}
+						,		now()
+				)
+	</insert>
+
+    <update id="updatePopup" parameterType="map">
+
+        update popup
+
+        <trim prefix="set" prefixOverrides=",">
+
+            <if test="popup_content != null">			popup_name = #{popup_name}			</if>
+            <if test="popup_width != null">				popup_name = #{popup_name}			</if>
+            <if test="popup_height != null">			popup_height = #{popup_height}		</if>
+            <if test="popup_top != null">				popup_top = #{popup_top}			</if>
+            <if test="popup_left != null">				popup_left = #{popup_left}			</if>
+            <if test="popup_img != null">				popup_img = #{popup_img}			</if>
+            <if test="popup_root != null">				popup_root = #{popup_root}			</if>
+            <if test="popup_link != null">				popup_link = #{popup_link}			</if>
+            <if test="popup_start != null">				popup_start = #{popup_start}		</if>
+            <if test="popup_end != null">				popup_end = #{popup_end}			</if>
+        </trim>
+
+        <trim prefix="where" prefixOverrides="and">
+
+            <if test="popup_num != null">				popup_num = #{popup_num}			</if>
+            <if test="popup_array != null">
+
+                popup_num in
+
+                <foreach collection="popup_array" item="item" index="index" separator="," open="(" close=")">
+
+                    #{item}
+                </foreach>
+            </if>
+        </trim>
+    </update>
+
+    <delete id="deletePopup" parameterType="map">
+        DELETE FROM popup
+         WHERE
+        <if test="popup_array != null">
+
+            popup_num in
+
+            <foreach collection="popup_array" item="item" index="index" separator="," open="(" close=")">
+
+                #{item}
+            </foreach>
+        </if>
+    </delete>
+</mapper>

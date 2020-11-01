@@ -19,7 +19,7 @@
             <div>
                 <h2 class="section-title">
                     미소원치과의 심미보철치료는<br>
-                    <span class="section-title-color"><strong>환자와의 대화가<br class="mobile"> 가장 중요</strong></span>합니다
+                    <span class="section-title-color"><strong>환자와의 대화가 가장 중요</strong></span>합니다
                 </h2>
             </div>
         </div>
@@ -397,15 +397,9 @@
 
     <section class="board-link">
         <div class="max-layout-width">
-<<<<<<< HEAD
             <h2 class="section-title">
                 학습하고 연구하는 의료진의<br>
                 <span class="section-title-color">정직하고 양심적인 진료</span>
-=======
-            <h2 class="section-title wow fadeInUp" data-wow-delay="300ms">
-                학습하고 연구하는 전문 의료진의<br>
-                <span class="section-title-color">정직하고 섬세한 진료</span>
->>>>>>> 106df1df96813372ac40cc62f7ba7e7e59c95da6
             </h2>
             <p class="section-text wow fadeInUp" data-wow-delay="600ms">환자들과 소통하며 신뢰받는 환자중심의 미소원치과가 되고자합니다.</p>
 

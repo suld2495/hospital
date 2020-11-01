@@ -8,11 +8,14 @@
 <link rel="stylesheet" href="<c:url value='/lib/slick/css/slick.theme.css' />">
 <link rel="stylesheet" href="<c:url value="/css/main.css"/>" />
 
+<c:if test="${fn:length(popup) > 0}"></c:if>
 <div class="popup">
     <div class="popup-slider">
-        <div>
-            <img data-lazy="<c:url value="/images/popup/popup2.jpg"/>">
-        </div>
+        <c:forEach items="${popup}" var="item">
+            <div>
+                <img data-lazy="<c:url value="${item.popup_root}${item.popup_img}"/>">
+            </div>
+        </c:forEach>
     </div>
     <div class="popup-button">
         <ul>
@@ -271,7 +274,7 @@
                                 href="<c:url value='/review-view/${list.num}'/>"
                             </sec:authorize>
                            >
-                            <img src="<c:url value='${list.thumnail_path}${list.thumnail}' />">
+                            <img src="<c:url value='${list.thumnail_path}${list.main_thumnail_img}' />">
                             <div class="position-relative">
                                 <div class="review-text">
                                     <h4>${list.subject}</h4>
@@ -642,6 +645,7 @@
 
 
 <script src="<c:url value="/lib/fullPage/jquery.fullpage1.min.js" />"></script>
+<script src="<c:url value="/js/lib/lazy.js" />"></script>
 <script src="<c:url value="/lib/slick/js/slick.min.js" />"></script>
 <script>
     $(function() {
@@ -900,7 +904,9 @@
             if (!isPopup) {
                 $('.popup').addClass('active');
                 $('body').addClass('popup-active');
-                $.fn.fullpage.setAllowScrolling(false);
+                if ($.fn.fullpage.setAllowScrolling) {
+                    $.fn.fullpage.setAllowScrolling(false);
+                }
             }
         });
 
@@ -909,17 +915,26 @@
             setCookie('popup', true, 1);
             $('.popup').remove();
             $('body').removeClass('popup-active');
-            $.fn.fullpage.setAllowScrolling(true);
+
+            if ($.fn.fullpage.setAllowScrolling) {
+                $.fn.fullpage.setAllowScrolling(true);
+            }
         })
 
         $('.popup-close').click(function () {
             $('.popup').remove();
             $('body').removeClass('popup-active');
-            $.fn.fullpage.setAllowScrolling(true);
+            if ($.fn.fullpage.setAllowScrolling) {
+                $.fn.fullpage.setAllowScrolling(true);
+            }
         })
 
         $('.top-button').click(function () {
-            $.fn.fullpage.silentMoveTo('anchor1', 1);
+            if ($.fn.fullpage.silentMoveTo) {
+                $.fn.fullpage.silentMoveTo('anchor1', 1);
+            } else {
+                $(window).scrollTop(0);
+            }
         })
 
         $(document).on('click', '.section04 .bx-viewport,.case .bx-viewport', function() {

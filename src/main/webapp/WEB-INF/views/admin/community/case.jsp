@@ -70,6 +70,7 @@
                     <th class="th6">작성일</th>
                     <th class="th7">조회</th>
                     <th class="th8">상태</th>
+                    <th class="th2">메인<br>출력</th>
                     <th class="th9">수정</th>
                     <th class="th10">삭제</th>
                     <th class="th11">출력순서</th>
@@ -86,6 +87,7 @@
                         <td class="boardWriteDate"></td>
                         <td class="boardHits"></td>
                         <td class="boardUse"></td>
+                        <td>선택</td>
                         <td><img src="<c:url value='/images/admin/modify.jpg'/>"></td>
                         <td><img src="<c:url value='/images/admin/delete.jpg'/>"></td>
                         <td>
@@ -119,6 +121,19 @@
                             <td class="boardUse status ${list.status}">
                                 <c:if test="${list.status == 'N'}">	정상	</c:if>
                                 <c:if test="${list.status == 'Y'}">	삭제	</c:if>
+                            </td>
+                            <td>
+                                <span
+                                        <c:if test="${list.main_view == 'Y'}">class="main-view numdata active"</c:if>
+                                        <c:if test="${list.main_view == 'N'}">class="main-view numdata"</c:if>
+                                        data-num="${list.num}">
+                                    <span>
+                                        출력<div style="margin-bottom: 4px;"></div>하기
+                                    </span>
+                                    <span>
+                                        해제<div style="margin-bottom: 4px;"></div>하기
+                                    </span>
+                                </span>
                             </td>
                             <td><a href="<c:url value='/admin/${url}-write?update=modify&board_num=${list.num}'/>" class="linkChange boardNumdata numdata"><img src="<c:url value='/images/admin/modify.jpg'/>" data-num="${list.num}" class="modify pointer"></a></td>
                             <td><img src="<c:url value='/images/admin/delete.jpg'/>" data-num="${list.num}" data-boardnum="${list.num}" data-type="delete" class="numdata boardNumdata updateBoard admin delete pointer"></td>
@@ -305,5 +320,34 @@
     $(document).ready(function() {
 
         list.init();
+
+        $(document).on('click', '.main-view',function () {
+            var type;
+            var that = $(this);
+            var num = $(this).data("num")
+            if ($(this).hasClass("active")) {
+                type = "N"
+            } else {
+                type = "Y";
+            }
+
+            $.ajax({
+                url: '<c:url value="/admin/main-view"/>',
+                data: {
+                    mainView: type,
+                    num: num,
+                    tableName : "${tableName}"
+                },
+                type: "post",
+                dataType: "json",
+                success: function (result) {
+                    if (result.result === "success") {
+                        that.toggleClass("active");
+                    } else {
+                        alert("문제가 발생하였습니다. 다시 시도해 주시기 바랍니다.");
+                    }
+                }
+            })
+        })
     });
 </script>

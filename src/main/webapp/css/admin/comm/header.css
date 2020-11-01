@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-#head {/* float: left; */flex: 1;}
+#head {/* float: left; */flex: 1;width: calc(100% - 262px);position: absolute;left: 262px;}
 .logo_area {height: 66px;border-bottom:solid 1px #b0b0b0;}
 .logo_area ul {margin:15px 0 0 40px;}
 .logo_area ul li {display:inline-block;float:left;margin-top: 10px;}
@@ -10,12 +10,17 @@
 .small_nav ul li {display:inline-block; margin-left:20px;}
 .subName {color: #002ec4;}
 .content {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     box-sizing: border-box;
-    position: absolute;
+    /* position: absolute; */
     top: 70px;
     left: -30px;
     width: 100%;
-    padding: 0 50px;
-    padding-left: 0;
+    padding: 0 30px;
+    /* padding-left: 0; */
+    flex: calc(100% - 262px) 0 1;
+    height: auto;
 }
+
+#wrapper > .content {padding-top: 150px;}
+#wrapper .content_wrap {width: 100%;float: none;}

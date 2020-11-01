@@ -77,19 +77,19 @@ h7 {
 
 
 @media screen and (max-width:640px) {
-  .gallery-list .gallery .img-box .img {
+    .gallery-list .gallery .img-box .img {
         padding-bottom: 78%;
     }
-    
-h7 {
-    color: #939393;
-    display: block;
-    font-size: 14px;
-    margin-bottom: 28px;
-    margin-top: -15px;
-}
 
-     .gallery-list .gallery li div.contents p {
+    h7 {
+        color: #939393;
+        display: block;
+        font-size: 14px;
+        margin-bottom: 28px;
+        margin-top: -15px;
+    }
+
+    .gallery-list .gallery li div.contents p {
         width: 100%;
         font-size: 13px;
         line-height: 1.4;
@@ -98,7 +98,7 @@ h7 {
         padding: 0;
         margin-top: -2px;
     }
-     .gallery-list .gallery li div.contents {
+    .gallery-list .gallery li div.contents {
         height: 15px;
         margin-top: 18px;
         margin-bottom: 22px;
@@ -125,19 +125,19 @@ h7 {
 
 
 @media screen and (max-width:500px) {
-  .gallery-list .gallery .img-box .img {
+    .gallery-list .gallery .img-box .img {
         padding-bottom: 78%;
     }
-    
-h7 {
-    color: #939393;
-    display: block;
-    font-size: 14px;
-    margin-bottom: 28px;
-    margin-top: -15px;
-}
 
-     .gallery-list .gallery li div.contents p {
+    h7 {
+        color: #939393;
+        display: block;
+        font-size: 14px;
+        margin-bottom: 28px;
+        margin-top: -15px;
+    }
+
+    .gallery-list .gallery li div.contents p {
         width: 100%;
         font-size: 13px;
         line-height: 1.4;
@@ -146,7 +146,7 @@ h7 {
         padding: 0;
         margin-top: -2px;
     }
-     .gallery-list .gallery li div.contents {
+    .gallery-list .gallery li div.contents {
         height: 15px;
         margin-top: 18px;
         margin-bottom: 22px;
@@ -173,19 +173,19 @@ h7 {
 
 
 @media screen and (max-width: 414px) {
-  .gallery-list .gallery .img-box .img {
+    .gallery-list .gallery .img-box .img {
         padding-bottom: 78%;
     }
-    
-h7 {
-    color: #939393;
-    display: block;
-    font-size: 14px;
-    margin-bottom: 28px;
-    margin-top: -15px;
-}
 
-     .gallery-list .gallery li div.contents p {
+    h7 {
+        color: #939393;
+        display: block;
+        font-size: 14px;
+        margin-bottom: 28px;
+        margin-top: -15px;
+    }
+
+    .gallery-list .gallery li div.contents p {
         width: 100%;
         font-size: 13px;
         line-height: 1.4;
@@ -193,8 +193,12 @@ h7 {
         font-size: 15px;
         padding: 0;
         margin-top: -2px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: block;
     }
-     .gallery-list .gallery li div.contents {
+    .gallery-list .gallery li div.contents {
         height: 15px;
         margin-top: 18px;
         margin-bottom: 22px;
@@ -220,19 +224,19 @@ h7 {
 }
 
 @media screen and (max-width: 375px) {
-        .gallery-list .gallery .img-box .img {
+    .gallery-list .gallery .img-box .img {
         padding-bottom: 78%;
     }
-    
-h7 {
-    color: #939393;
-    display: block;
-    font-size: 14px;
-    margin-bottom: 28px;
-    margin-top: -15px;
-}
 
-     .gallery-list .gallery li div.contents p {
+    h7 {
+        color: #939393;
+        display: block;
+        font-size: 14px;
+        margin-bottom: 28px;
+        margin-top: -15px;
+    }
+
+    .gallery-list .gallery li div.contents p {
         width: 100%;
         font-size: 13px;
         line-height: 1.4;
@@ -241,7 +245,7 @@ h7 {
         padding: 0;
         margin-top: -2px;
     }
-     .gallery-list .gallery li div.contents {
+    .gallery-list .gallery li div.contents {
         height: 15px;
         margin-top: 18px;
         margin-bottom: 22px;
@@ -270,19 +274,19 @@ h7 {
 
 
 @media screen and (max-width: 330px) {
-.gallery-list .gallery .img-box .img {
+    .gallery-list .gallery .img-box .img {
         padding-bottom: 78%;
     }
-    
-h7 {
-    color: #939393;
-    display: block;
-    font-size: 13px;
-    margin-bottom: 28px;
-    margin-top: -15px;
-}
 
-     .gallery-list .gallery li div.contents p {
+    h7 {
+        color: #939393;
+        display: block;
+        font-size: 13px;
+        margin-bottom: 28px;
+        margin-top: -15px;
+    }
+
+    .gallery-list .gallery li div.contents p {
         width: 100%;
         font-size: 13px;
         line-height: 1.4;
@@ -291,14 +295,17 @@ h7 {
         padding: 0;
         margin-top: -2px;
     }
-     .gallery-list .gallery li div.contents {
+
+    .gallery-list .gallery li div.contents {
         height: 15px;
         margin-top: 18px;
         margin-bottom: 20px;
     }
+
     .gallery-list .gallery .img-box {
         height: 104px;
     }
+
     .paging .write-btn {
         position: absolute;
         right: 0;
@@ -313,3 +320,4 @@ h7 {
         letter-spacing: -1px;
         font-size: 14px;
     }
+}

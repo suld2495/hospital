@@ -1,3 +1,16 @@
+.gallery-list .gallery li h7 {
+    font-family: gmarket !important;
+    letter-spacing: 0;
+    font-size: 14px;
+    color: #939393;
+    display: block;
+    margin-top: 13px;
+    margin-bottom: 42px;
+}
+.gallery-list .gallery li p {
+    margin-bottom: 42px;
+}
+
 .gallery-list .gallery {
     overflow: hidden;
     margin-top: 65px;
@@ -13,6 +26,7 @@
     text-align: center;
     padding: 0px 5px;
     box-sizing: border-box;
+    /* margin-bottom: 30px; */
 }
 
 .gallery-list .gallery li.empty {
@@ -23,6 +37,10 @@
     overflow: hidden;
     position: relative;
     height: 232px;
+}
+
+.gallery-list .gallery img {
+    display: none;
 }
 
 .gallery-list .gallery .img-box .img {
@@ -40,7 +58,7 @@
 }
 
 .gallery-list .gallery li h5 {
-    height: 20px;
+    height: 22px;
     line-height: 20px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -71,39 +89,39 @@
 }
 
 @media screen and (max-width: 1300px) {
-        .paging {
-    text-align: center;
-    margin-bottom: 77px;
-}
+    .paging {
+        text-align: center;
+        margin-bottom: 77px;
+    }
 
     .gallery-list .gallery li p {
-    color: #222;
-    padding-bottom: 46px;
-    font-size: 17px;
-}
+        color: #222;
+        padding-bottom: 46px;
+        font-size: 17px;
+    }
 
 
     .gallery-list .gallery li h5 {
-    margin-top: 24px;
-    margin-bottom: 10px;
-    font-size: 22px;
-    font-weight: 500;
-}
+        margin-top: 24px;
+        margin-bottom: 10px;
+        font-size: 22px;
+        font-weight: 500;
+    }
 
     .gallery-list .gallery .img-box {
-    overflow: hidden;
-    position: relative;
-    height: 460px;
-}
+        overflow: hidden;
+        position: relative;
+        height: 460px;
+    }
 
     .gallery-list .gallery {
-    overflow: hidden;
-    margin-top: 37px;
-    margin-bottom: 23px;
-    margin-left: -5px;
-    margin-right: -5px;
-    letter-spacing: -1px;
-}
+        overflow: hidden;
+        margin-top: 37px;
+        margin-bottom: 23px;
+        margin-left: -5px;
+        margin-right: -5px;
+        letter-spacing: -1px;
+    }
 
 
     .gallery-list .max-layout-width {
@@ -112,7 +130,7 @@
         padding-bottom: 29px;
     }
 
-    
+
     .gallery-list .gallery li {
         width: 50%;
     }
@@ -127,38 +145,38 @@
 
 @media screen and (max-width: 414px) {
     .paging {
-    text-align: center;
-    margin-bottom: 100px;
-}
+        text-align: center;
+        margin-bottom: 100px;
+    }
 
     .gallery-list .gallery li p {
-    color: #222;
-    padding-bottom: 30px;
-    font-size: 14px;
-}
+        color: #222;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
 
 
     .gallery-list .gallery li h5 {
-    margin-top: 17px;
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: 500;
-}
+        margin-top: 17px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: 500;
+    }
 
     .gallery-list .gallery .img-box {
-    overflow: hidden;
-    position: relative;
-    height: 135px;
-}
+        overflow: hidden;
+        position: relative;
+        height: 135px;
+    }
 
     .gallery-list .gallery {
-    overflow: hidden;
-    margin-top: 37px;
-    margin-bottom: 23px;
-    margin-left: -5px;
-    margin-right: -5px;
-    letter-spacing: -1px;
-}
+        overflow: hidden;
+        margin-top: 37px;
+        margin-bottom: 23px;
+        margin-left: -5px;
+        margin-right: -5px;
+        letter-spacing: -1px;
+    }
 
 
     .gallery-list .max-layout-width {
@@ -173,38 +191,38 @@
 @media screen and (max-width: 650px) {
 
     .paging {
-    text-align: center;
-    margin-bottom: 77px;
-}
+        text-align: center;
+        margin-bottom: 77px;
+    }
 
     .gallery-list .gallery li p {
-    color: #222;
-    padding-bottom: 30px;
-    font-size: 14px;
-}
+        color: #222;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
 
 
     .gallery-list .gallery li h5 {
-    margin-top: 17px;
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: 500;
-}
+        margin-top: 17px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: 500;
+    }
 
     .gallery-list .gallery .img-box {
-    overflow: hidden;
-    position: relative;
-    height: 220px;
-}
+        overflow: hidden;
+        position: relative;
+        height: 220px;
+    }
 
     .gallery-list .gallery {
-    overflow: hidden;
-    margin-top: 37px;
-    margin-bottom: 23px;
-    margin-left: -5px;
-    margin-right: -5px;
-    letter-spacing: -1px;
-}
+        overflow: hidden;
+        margin-top: 37px;
+        margin-bottom: 23px;
+        margin-left: -5px;
+        margin-right: -5px;
+        letter-spacing: -1px;
+    }
 
 
     .gallery-list .max-layout-width {
@@ -220,38 +238,38 @@
 @media screen and (max-width: 500px) {
 
     .paging {
-    text-align: center;
-    margin-bottom: 77px;
-}
+        text-align: center;
+        margin-bottom: 77px;
+    }
 
     .gallery-list .gallery li p {
-    color: #222;
-    padding-bottom: 30px;
-    font-size: 14px;
-}
+        color: #222;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
 
 
     .gallery-list .gallery li h5 {
-    margin-top: 17px;
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: 500;
-}
+        margin-top: 17px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: 500;
+    }
 
     .gallery-list .gallery .img-box {
-    overflow: hidden;
-    position: relative;
-    height: 168px;
-}
+        overflow: hidden;
+        position: relative;
+        height: 168px;
+    }
 
     .gallery-list .gallery {
-    overflow: hidden;
-    margin-top: 37px;
-    margin-bottom: 23px;
-    margin-left: -5px;
-    margin-right: -5px;
-    letter-spacing: -1px;
-}
+        overflow: hidden;
+        margin-top: 37px;
+        margin-bottom: 23px;
+        margin-left: -5px;
+        margin-right: -5px;
+        letter-spacing: -1px;
+    }
 
 
     .gallery-list .max-layout-width {
@@ -268,39 +286,39 @@
 @media screen and (max-width: 375px) {
 
     .paging {
-    text-align: center;
-    margin-bottom: 77px;
-}
+        text-align: center;
+        margin-bottom: 77px;
+    }
 
     .gallery-list .gallery li p {
-    color: #222;
-    padding-bottom: 30px;
-    font-size: 14px;
-}
+        color: #222;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
 
 
     .gallery-list .gallery li h5 {
-    margin-top: 17px;
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: 500;
-}
+        margin-top: 17px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: 500;
+    }
 
     .gallery-list .gallery .img-box {
-    overflow: hidden;
-    position: relative;
-    height: 120px;
-}
+        overflow: hidden;
+        position: relative;
+        height: 120px;
+    }
 
     .gallery-list .gallery {
-    overflow: hidden;
-    margin-top: 37px;
-    margin-bottom: 23px;
-    margin-left: -5px;
-    margin-right: -5px;
-    letter-spacing: -1px;
-    font-size: 15px;
-}
+        overflow: hidden;
+        margin-top: 37px;
+        margin-bottom: 23px;
+        margin-left: -5px;
+        margin-right: -5px;
+        letter-spacing: -1px;
+        font-size: 15px;
+    }
 
 
     .gallery-list .max-layout-width {
@@ -313,38 +331,38 @@
 @media screen and (max-width: 360px) {
 
     .paging {
-    text-align: center;
-    margin-bottom: 77px;
-}
+        text-align: center;
+        margin-bottom: 77px;
+    }
 
     .gallery-list .gallery li p {
-    color: #222;
-    padding-bottom: 30px;
-    font-size: 14px;
-}
+        color: #222;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
 
 
     .gallery-list .gallery li h5 {
-    margin-top: 17px;
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: 500;
-}
+        margin-top: 17px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: 500;
+    }
 
     .gallery-list .gallery .img-box {
-    overflow: hidden;
-    position: relative;
-    height: 117px;
-}
+        overflow: hidden;
+        position: relative;
+        height: 117px;
+    }
 
     .gallery-list .gallery {
-    overflow: hidden;
-    margin-top: 37px;
-    margin-bottom: 23px;
-    margin-left: -5px;
-    margin-right: -5px;
-    letter-spacing: -1px;
-}
+        overflow: hidden;
+        margin-top: 37px;
+        margin-bottom: 23px;
+        margin-left: -5px;
+        margin-right: -5px;
+        letter-spacing: -1px;
+    }
 
 
     .gallery-list .max-layout-width {
@@ -361,38 +379,38 @@
 @media screen and (max-width: 320px) {
 
     .paging {
-    text-align: center;
-    margin-bottom: 77px;
-}
+        text-align: center;
+        margin-bottom: 77px;
+    }
 
     .gallery-list .gallery li p {
-    color: #222;
-    padding-bottom: 30px;
-    font-size: 14px;
-}
+        color: #222;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
 
 
     .gallery-list .gallery li h5 {
-    margin-top: 17px;
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: 500;
-}
+        margin-top: 17px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: 500;
+    }
 
     .gallery-list .gallery .img-box {
-    overflow: hidden;
-    position: relative;
-    height: 103px;
-}
+        overflow: hidden;
+        position: relative;
+        height: 103px;
+    }
 
     .gallery-list .gallery {
-    overflow: hidden;
-    margin-top: 37px;
-    margin-bottom: 23px;
-    margin-left: -5px;
-    margin-right: -5px;
-    letter-spacing: -1px;
-}
+        overflow: hidden;
+        margin-top: 37px;
+        margin-bottom: 23px;
+        margin-left: -5px;
+        margin-right: -5px;
+        letter-spacing: -1px;
+    }
 
 
     .gallery-list .max-layout-width {

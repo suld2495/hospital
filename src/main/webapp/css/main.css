@@ -2088,8 +2088,8 @@ body .section07 .bx-pager-link span + span {
     z-index: 10;
 }
 
-.case .case-slider > div:hover .login,
-.case .case-slider > div:active .login {
+.case .case-slider > div .login:hover,
+.case .case-slider > div .login:active {
     opacity: 1;
 }
 
@@ -3223,6 +3223,12 @@ body .section07 .bx-pager-link span + span {
 }
 
 @media screen and (max-width:414px) {
+    .case .login a:before {
+        margin-top: -30px;
+    }
+    .slide-item > .module {
+        height: 130px;
+    }
     .section04 .details-link a {
         margin-left: -26px;
     }
@@ -3290,7 +3296,7 @@ body .section07 .bx-pager-link span + span {
         width: 100%;
     }
     .case .login a {
-        padding-top: 67px;
+        padding-top: 87px;
         font-size: 15px;
     }
     .case .login, .case .slide-item > .module:hover:after {
@@ -3322,9 +3328,9 @@ body .section07 .bx-pager-link span + span {
     }
     .section07 .text span:first-child {
         margin-left: 30px;
-        width: 90px;
-        height: 90px;
-        line-height: 90px;
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
     }
     .review-text h4 {
         font-size: 19px;
@@ -3455,7 +3461,7 @@ body .section07 .bx-pager-link span + span {
         padding: 0 10px;
         font-size: 13px;
         line-height: 1.4;
-        height: 3.0em;
+        height: 2.8em;
     }
 
     .section04 .details-link {

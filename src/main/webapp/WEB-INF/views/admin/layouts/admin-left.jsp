@@ -22,7 +22,7 @@
         </aside>
         <aside class="category category1">
             <ul>
-                <li class="popuplist popupwrite"><span></span><a href="popuplist.do">팝업관리</a></li>
+                <li class="popuplist popupwrite"><span></span><a href="<c:url value='/admin/popup/1'/>">팝업관리</a></li>
             </ul>
         </aside>
         <div class="line"></div>

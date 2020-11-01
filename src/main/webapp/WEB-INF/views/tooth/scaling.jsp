@@ -134,8 +134,8 @@
                         <span class="section-title-color">누구나 스케일링 보험이 적용됩니다.</span>
                     </h2>
                     <p class="section-text wow fadeInUp" data-wow-delay="900ms">
-                        2017년 7월 1일부터 보험 적용 대상이 <strong>만 19세로 확대</strong>되어 저렴한 비용으로 치석제거를 받을 수 있습니다. 스케일링은 <strong>1년에 1회만 건강보험이 적용되는</strong>
-                        만큼 본인이 치과에서 스케일링을 받았는지 확인이 가능해야 하며, <strong>적용되는 1년 기준이 전년도 7월부터 다음해 6월 말</strong>까지입니다.
+                        2018년 7월 1일부터 보험 적용 대상이 <strong>만 19세로 확대</strong>되어 저렴한 비용으로 치석제거를 받을 수 있습니다. 스케일링은 <strong>1년에 1회만 건강보험이 적용되는</strong>
+                        만큼 본인이 치과에서 스케일링을 받았는지 확인이 가능해야 하며, <strong>적용기간이 1월 1일부터 12월 31일</strong>까지입니다.
                     </p>
                     <p class="pager wow fadeInUp" data-wow-delay="1200ms"><strong>대상</strong> : 만 19세 이상 성인</p><br>
                     <p class="pager wow fadeInUp" data-wow-delay="1200ms"><strong>혜택</strong> : 연 1회 스케일링 시 건강보험 적용</p><br>

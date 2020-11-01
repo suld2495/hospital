@@ -169,11 +169,11 @@
                         </c:if>
                         <c:if test="${category eq 4}">
                                 <li><a href="<c:url value="/notice/1"/>" >공지사항</a></li>
-                                <li><a href="<c:url value="/case/1"/>">치료사례</a></li>
+                                <li><a href="<c:url value="/media/1"/>">미디어</a></li>
                                 <li><a href="<c:url value="/review/1"/>">치료후기</a></li>
+                                <li><a href="<c:url value="/case/1"/>">치료사례</a></li>
                                 <li><a href="<c:url value="/online-consult/1"/>">온라인 상담</a></li>
                                 <li><a href="<c:url value="/reserve-write"/>">예약 상담 신청</a></li>
-                                <li><a href="<c:url value="/media/1"/>">미디어</a></li>
                         </c:if>
                         <c:if test="${category eq 9}">
                             <li><a href="<c:url value="/aesthetic"/>" >라미네이트</a></li>

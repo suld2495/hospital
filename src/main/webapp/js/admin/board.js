@@ -799,7 +799,11 @@ document.write("<script type='text/javascript' src='" + content + "/js/admin/for
 			
 			that.thumnailClick(that, this);
 		});
-		
+
+		$(document).on("change", ".main_thumnail_img_input", function() {
+
+			that.thumnailClick(that, this);
+		});
 		//동영상 업로드
 		$(document).on("change", ".board_movie", function() {
 			

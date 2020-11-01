@@ -322,11 +322,19 @@
     <delete id="deleteBoard" parameterType="map">
 
         DELETE FROM ${tableName}
-        WHERE num IN (
-            <foreach collection="boardarray" separator="," item="item">
-                #{item}
-            </foreach>
-        )
+        <trim prefix="where" prefixOverrides="and">
+
+            <if test="board_num != null">				num = #{board_num}			</if>
+            <if test="boardarray != null">
+
+                num in
+
+                <foreach collection="boardarray" item="item" index="index" separator="," open="(" close=")">
+
+                    #{item}
+                </foreach>
+            </if>
+        </trim>
     </delete>
 
     <update id="updateBoard" parameterType="boardVo">

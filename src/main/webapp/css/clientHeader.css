@@ -946,6 +946,7 @@ header .header-banner-slider .slide-item04 .go {
     .header-member a img {
         width: 27px;
         margin-top: -3px;
+        display: none;
     }
 
     header .fixed-box > div {

@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+.basicText {overflow:hidden;margin-top: 36px;margin-bottom: 21px;}
+.basicText>div {float:left;height: 27px;}
+.headerTextDiv1 h2 {font-size: 25px;color:#333;font-weight:bold;margin-right: 22px;}
+.headerTextDiv2 {line-height: 38px;color: #282828;font-weight: bold;font-size: 15px;}
+
+.boardTable {border:1px solid #d5d5d5;box-sizing: border-box;}
+.boardTable tr {border-bottom:1px solid #d5d5d5;height:38px;}
+.boardTable td, .boardTable th {vertical-align:middle;text-align:center;border-left:1px solid #d5d5d5;}
+.boardTable td:last-child, .boardTable th:last-child {border-right: 1px solid #d5d5d5;}
+.boardTable tr.noTotal {height:80px;}
+.boardTable thead tr:first-child, .boardTable tfoot tr:first-child {background:#f5f5f5;}
+.boardTable thead tr:last-child {background:#f9f9f9;color: #555;font-weight: bold;}
+.popupTerm {line-height:20px;padding:5px;}
+
+.mainAngelBnContainer {text-align:left;padding:0 15px;overflow: hidden;float: left;}
+.mainAngelBnContainer span, .mainAngelBnContainer img {float:left;height: 26px;line-height: 26px;}
+.mainAngelBnContainer span {margin-right:11px;}
+
+.popupAddDiv {float:right;margin-right:13px;}
+
+.chekboxTh {width:58px;}
+.mainNoTh {width:58px;}
+.mainStateTh {width:147px;}
+.mainTermTh {width:276px;}
+.mainDateTh {width:164px;}

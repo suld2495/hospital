@@ -27,9 +27,7 @@
                             </div>
                             <div class="text">
                                 <h5>${board.subject}</h5>
-                                <p>
-                                        ${board.contents}
-                                </p>
+                                <h7>${board.created_show_date}</h7>
                             </div>
                         </a>
                     </li>
